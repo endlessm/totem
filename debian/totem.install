@@ -1,0 +1,5 @@
+usr/bin
+usr/lib/nautilus
+usr/share/applications
+usr/share/appdata/org.gnome.Totem.appdata.xml
+usr/share/dbus-1/services/
