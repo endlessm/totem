@@ -392,6 +392,7 @@ thumb_app_setup_play (ThumbApp *app)
 	GstElement *audio_sink, *video_sink;
 	GstRegistry *registry;
 	GstPluginFeature *feature;
+        GstPlugin *plugin;
 
 	play = gst_element_factory_make ("playbin", "play");
 	audio_sink = gst_element_factory_make ("fakesink", "audio-fake-sink");
@@ -420,9 +421,16 @@ thumb_app_setup_play (ThumbApp *app)
 	feature = gst_registry_find_feature (registry,
 					     "vaapidecode",
 					     GST_TYPE_ELEMENT_FACTORY);
-	if (!feature)
-		return;
-	gst_registry_remove_feature (registry, feature);
+	if (feature)
+		gst_registry_remove_feature (registry, feature);
+
+	/* Don't use anything from V4L2 in the thumbnailer. That disables
+	 * decoders mostly but also encoders and converters. Access to V4L2
+	 * devices shall be limited to foreground use to not waste precious
+	 * resources. */
+	plugin = gst_registry_find_plugin (registry, "video4linux2");
+	if (plugin)
+		gst_registry_remove_plugin (registry, plugin);
 }
 
 static void
