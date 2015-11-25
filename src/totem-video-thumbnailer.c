@@ -392,6 +392,7 @@ thumb_app_setup_play (ThumbApp *app)
 	GstElement *play;
 	GstElement *audio_sink, *video_sink;
 	GstRegistry *registry;
+	GstPlugin *plugin;
         const char *blacklisted_plugins[] = {
           "vaapidecodebin",
           "vaapidecode",
@@ -431,6 +432,14 @@ thumb_app_setup_play (ThumbApp *app)
 		if (feature)
 			gst_registry_remove_feature (registry, feature);
 	}
+
+	/* Don't use anything from V4L2 in the thumbnailer. That disables
+	 * decoders mostly but also encoders and converters. Access to V4L2
+	 * devices shall be limited to foreground use to not waste precious
+	 * resources. */
+	plugin = gst_registry_find_plugin (registry, "video4linux2");
+	if (plugin)
+		gst_registry_remove_plugin (registry, plugin);
 }
 
 static void
