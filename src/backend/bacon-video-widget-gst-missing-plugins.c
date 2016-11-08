@@ -109,23 +109,20 @@ bacon_video_widget_gst_get_toplevel (GtkWidget *widget)
 static gboolean
 bacon_video_widget_gst_codec_install_plugin_is_blacklisted (const gchar * detail)
 {
-	GList *res;
-
-	res = g_list_find_custom (blacklisted_plugins,
-	                          detail,
-	                          (GCompareFunc) strcmp);
-
-	return (res != NULL);	
+	/* We disable this blacklisting logic on Endless OS, as it's not useful
+	 * on our system (as we don't support on-demand installation of plugins
+	 * via systems such as PackageKit), and also because keeping it would
+	 * complicate the logic to show a "missing codecs" dialog to the user. */
+	return FALSE;
 }
 
 static void
 bacon_video_widget_gst_codec_install_blacklist_plugin (const gchar * detail)
 {
-	if (!bacon_video_widget_gst_codec_install_plugin_is_blacklisted (detail))
-	{
-		blacklisted_plugins = g_list_prepend (blacklisted_plugins,
-		                                      g_strdup (detail));
-	}
+	/* We disable this blacklisting logic on Endless OS, as it's not useful
+	 * on our system (as we don't support on-demand installation of plugins
+	 * via systems such as PackageKit), and also because keeping it would
+	 * complicate the logic to show a "missing codecs" dialog to the user. */
 }
 
 static void
