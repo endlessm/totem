@@ -59,6 +59,11 @@ typedef struct
 }
 TotemCodecInstallContext;
 
+typedef struct _CodecInfo {
+	gchar        *type_name;
+	GstStructure *structure;
+} CodecInfo;
+
 #ifdef GDK_WINDOWING_X11
 /* Adapted from totem-interface.c */
 static Window
@@ -304,13 +309,230 @@ bacon_video_widget_start_plugin_installation (TotemCodecInstallContext *ctx,
 	return TRUE;
 }
 
+static gboolean
+is_supported_codec_version (GstStructure *structure, const char *key, GType type, gpointer value)
+{
+	guint i, num_fields;
+
+	num_fields = gst_structure_n_fields (structure);
+	for (i = 0; i < num_fields; i++) {
+		const gchar *key_found;
+
+		key_found = gst_structure_nth_field_name (structure, i);
+		if (g_strcmp0 (key_found, key) != 0)
+			continue;
+
+		/* We found the target key, check whether it's the right type */
+		if (gst_structure_get_field_type (structure, key_found) != type)
+			return FALSE;
+
+		switch (type) {
+		case G_TYPE_BOOLEAN: {
+			gboolean value_found;
+			gst_structure_get_boolean (structure, key_found, &value_found);
+			return GPOINTER_TO_INT(value) == value_found;
+		}
+		case G_TYPE_INT: {
+			gint value_found;
+			gst_structure_get_int (structure, key_found, &value_found);
+			return GPOINTER_TO_INT(value) == value_found;
+		}
+		case G_TYPE_STRING: {
+			const char *value_found = gst_structure_get_string (structure, key_found);
+			return g_strcmp0 ((const char*)value, value_found) == 0;
+		}
+		default:
+			return FALSE;
+		}
+	}
+
+	/* Could not find the target key */
+	return FALSE;
+}
+
+static gboolean
+is_supported_codec (GstStructure *structure)
+{
+	const gchar *codec_name = gst_structure_get_name (structure);
+
+	/* H.263 video decoder */
+	if (g_strcmp0 (codec_name, "video/x-h263") == 0)
+		return is_supported_codec_version (structure, "variant", G_TYPE_STRING, "itu");
+
+	/* H.264 video decoder */
+	if (g_strcmp0 (codec_name, "video/x-h264") == 0) {
+		if (!is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "avc") &&
+		    !is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "byte-stream"))
+			return FALSE;
+
+		return is_supported_codec_version (structure, "alignment", G_TYPE_STRING, "au");
+	}
+
+	/* MPEG-4 Part 2 video decoder */
+	if (g_strcmp0 (codec_name, "video/x-divx") == 0) {
+		return is_supported_codec_version (structure, "divxversion", G_TYPE_INT, GINT_TO_POINTER(4)) ||
+		       is_supported_codec_version (structure, "divxversion", G_TYPE_INT, GINT_TO_POINTER(5));
+	}
+
+	/* MPEG-4 Part 2 video decoder */
+	if (g_strcmp0 (codec_name, "video/mpeg") == 0) {
+		return is_supported_codec_version (structure, "mpegversion", G_TYPE_INT, GINT_TO_POINTER(4)) &&
+		       is_supported_codec_version (structure, "systemstream", G_TYPE_BOOLEAN, GINT_TO_POINTER(FALSE));
+	}
+
+	/* MPEG-4 audio decoders (AAC) */
+	if (g_strcmp0 (codec_name, "audio/mpeg") == 0) {
+		if (!is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "raw") &&
+		    !is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "adts") &&
+		    !is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "adif"))
+			return FALSE;
+
+		return is_supported_codec_version (structure, "mpegversion", G_TYPE_INT, GINT_TO_POINTER(2)) ||
+		       is_supported_codec_version (structure, "mpegversion", G_TYPE_INT, GINT_TO_POINTER(4));
+	}
+
+	/* AC-3 audio decoder */
+	if (g_strcmp0 (codec_name, "audio/x-ac3") == 0)
+		return TRUE;
+
+	/* Other codecs not supported by our codecs pack */
+	return FALSE;
+}
+
+static CodecInfo *
+codec_info_new (const gchar *codec)
+{
+	GstStructure *s;
+	CodecInfo *info = NULL;
+	g_autofree gchar *caps = NULL;
+	g_autofree gchar *type_name = NULL;
+	g_auto(GStrv) split = NULL;
+	g_auto(GStrv) ss = NULL;
+
+	split = g_strsplit (codec, "|", -1);
+	if (split == NULL || g_strv_length (split) != 5) {
+		g_warning ("Not a GStreamer codec line");
+		return NULL;
+	}
+	if (g_strcmp0 (split[0], "gstreamer") != 0) {
+		g_warning ("Not a GStreamer codec request");
+		return NULL;
+	}
+	if (g_strcmp0 (split[1], "1.0") != 0) {
+		g_warning ("Not recognised GStreamer version");
+		return NULL;
+	}
+
+	if (g_str_has_prefix (split[4], "uri") != FALSE) {
+		g_warning ("Couldn't find codec related information");
+		return NULL;
+	}
+
+	ss = g_strsplit (split[4], "-", 2);
+	type_name = g_strdup (ss[0]);
+	caps = g_strdup (ss[1]);
+
+	s = gst_structure_from_string (caps, NULL);
+	if (s == NULL) {
+		g_warning ("totem: failed to parse caps: %s", caps);
+		return NULL;
+	}
+
+	info = g_new0 (CodecInfo, 1);
+	info->type_name = g_steal_pointer (&type_name);
+	info->structure = s;
+	return info;
+}
+
+static void
+codec_info_free (CodecInfo *codec)
+{
+	gst_structure_free (codec->structure);
+	g_free (codec->type_name);
+	g_free (codec);
+}
+
+static gboolean
+missing_codecs_supported (const char **codecs)
+{
+	g_autoptr(GPtrArray) codecs_array = NULL;
+	guint len, i;
+
+	/* First of all filter the detailed strings for each missing codec
+	 * so that we only consider those we're able to successfully parse. */
+	len = g_strv_length ((GStrv)codecs);
+	codecs_array = g_ptr_array_new_with_free_func ((GDestroyNotify) codec_info_free);
+	for (i = 0; i < len; i++) {
+		CodecInfo *info = codec_info_new (codecs[i]);
+		if (info == NULL)
+			continue;
+
+		g_ptr_array_add (codecs_array, info);
+	}
+
+	/* No successfully parsed codecs strings, we can't tell */
+	if (codecs_array->len == 0)
+		return FALSE;
+
+	/* All the codecs must be supported for us to be able to declare that
+	 * we support the missing codecs with our codecs pack */
+	for (i = 0; i < codecs_array->len; i++) {
+		CodecInfo *info = g_ptr_array_index (codecs_array, i);
+
+		if (info->structure == NULL)
+			return FALSE;
+
+		/* No encoders are supported */
+		if (g_strcmp0 (info->type_name, "decoder") != 0)
+			return FALSE;
+
+		if (!is_supported_codec (info->structure))
+			return FALSE;
+	}
+
+	/* All codecs supported if reached */
+	return TRUE;
+}
+
+static void
+codec_confirmation_dialog_response_cb (GtkDialog       *dialog,
+                                       GtkResponseType  response_type,
+                                       gpointer	 user_data)
+{
+	GError *error = NULL;
+	const char * const *languages = g_get_language_names ();
+	const char *shop_uri = NULL;
+
+	switch (response_type) {
+	case GTK_RESPONSE_ACCEPT:
+		/* Different URLs for the three different shops */
+		if (g_strv_contains (languages, "es"))
+			shop_uri = "https://shop.endlessm.com/products/codecs";
+		else if (g_strv_contains (languages, "pt"))
+			shop_uri = "https://comprar.endlessm.com/products/codecs";
+		else
+			shop_uri = "https://endless-global.myshopify.com/products/codecs";
+
+		if (gtk_show_uri (NULL, shop_uri, gtk_get_current_event_time (), &error) == FALSE) {
+			g_warning ("Could not open shopify website: %s", error->message);
+			g_error_free (error);
+		}
+		break;
+	case GTK_RESPONSE_CANCEL:
+	case GTK_RESPONSE_DELETE_EVENT:
+		break;
+	default:
+		g_assert_not_reached ();
+	}
+	gtk_widget_destroy (GTK_WIDGET (dialog));
+}
+
 static void
 show_codec_missing_information_dialog (TotemCodecInstallContext *ctx)
 {
 	GtkWidget *dialog;
 	GtkWidget *toplevel;
-	gchar *descriptions_text;
-	gchar *message_text;
+	const char *message_text;
 
 	toplevel = gtk_widget_get_toplevel (GTK_WIDGET (ctx->bvw));
 
@@ -321,20 +543,31 @@ show_codec_missing_information_dialog (TotemCodecInstallContext *ctx)
 	                                 GTK_BUTTONS_CANCEL,
 	                                 _("Unable to play the file"));
 
-	descriptions_text = g_strjoinv (", ", ctx->descriptions);
-	message_text = g_strdup_printf (ngettext ("%s is required to play the file, but is not installed.",
-	                                          "%s are required to play the file, but are not installed.",
-	                                          g_strv_length (ctx->descriptions)),
-	                                descriptions_text);
+	/* Show additional button pointing to our online store if the
+	 * missing codec can be installed via our codecs activation key. */
+	if (missing_codecs_supported ((const char**)ctx->details)) {
+		GtkWidget *button;
+		const char *button_text;
+
+		message_text = _("This file type is currently unsupported. To support this type "
+				 "of file, you can purchase our audio/video codec upgrade to add "
+				 "support for additional file formats.");
+
+		button_text = _("_Purchase Codec Upgrade");
+		button = gtk_dialog_add_button (GTK_DIALOG (dialog),
+						button_text,
+						GTK_RESPONSE_ACCEPT);
+		gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_ACCEPT);
+
+		gtk_style_context_add_class (gtk_widget_get_style_context (button), "suggested-action");
+	} else {
+		message_text = _("This file type is unsupported.");
+	}
 
 	gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (dialog), "%s", message_text);
+	g_signal_connect (dialog, "response", G_CALLBACK (codec_confirmation_dialog_response_cb), NULL);
+
 	gtk_window_present (GTK_WINDOW (dialog));
-
-	gtk_dialog_run (dialog);
-	gtk_widget_destroy (dialog);
-
-	g_free (descriptions_text);
-	g_free (message_text);
 }
 
 static gboolean
