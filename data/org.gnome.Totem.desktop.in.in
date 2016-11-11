@@ -6,7 +6,6 @@ Keywords=Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;
 Exec=totem %U
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 Icon=org.gnome.Totem
-DBusActivatable=true
 Terminal=false
 Type=Application
 Categories=GTK;GNOME;AudioVideo;Player;Video;
