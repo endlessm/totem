@@ -43,13 +43,13 @@ Build-Depends: debhelper (>= 9.20160114),
                libxrandr-dev (>= 2:1.1.1),
                libxtst-dev,
                libxxf86vm-dev (>= 1:1.0.1),
-               libzeitgeist-2.0-dev (>= 0.9.12),
                python3 (>= 3.2),
                python-gi-dev (>= 2.90.3),
                shared-mime-info (>= 0.22),
                valac (>= 0.14.1),
                x11proto-core-dev,
-               yelp-tools
+               yelp-tools,
+               eos-shell-content-dev
 Standards-Version: 3.9.7
 Homepage: https://wiki.gnome.org/Apps/Videos
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/totem
@@ -68,11 +68,11 @@ Description: Main library for the Totem media player
 
 Package: totem
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Totem
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          totem-common (= ${source:Version}),
-         gnome-icon-theme (>= 2.15.90),
-         gnome-icon-theme-symbolic,
+         adwaita-icon-theme,
          gsettings-desktop-schemas,
          gstreamer1.0-clutter-3.0,
          gstreamer1.0-plugins-base (>= 1.6.0),
@@ -81,7 +81,6 @@ Depends: ${misc:Depends},
          gstreamer1.0-x,
          grilo-plugins-0.3
 Recommends: gstreamer1.0-libav,
-            gstreamer1.0-plugins-ugly,
             gstreamer1.0-pulseaudio,
             totem-plugins
 Suggests: gnome-codec-install
@@ -131,7 +130,7 @@ Depends: ${misc:Depends},
          gir1.2-totem-1.0 (= ${binary:Version}),
          python3-gi (>= 2.90.3),
          python3-xdg
-Recommends: gnome-settings-daemon, zeitgeist-core
+Recommends: gnome-settings-daemon
 Suggests: gromit
 Description: Plugins for the Totem media player
  Totem is a simple yet featureful media player for GNOME which can read
