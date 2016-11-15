@@ -68,6 +68,7 @@ Description: Main library for the Totem media player
 
 Package: totem
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Totem
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          totem-common (= ${source:Version}),
