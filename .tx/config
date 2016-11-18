@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[totem.app]
+[totem-1.app]
 file_filter = po/<lang>.po
 source_file = po/totem.pot
 source_lang = en
