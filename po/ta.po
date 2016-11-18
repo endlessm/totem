@@ -1,36 +1,35 @@
-# translation of totem.master.ta.po to Tamil
-# translation of totem.HEAD.ta.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Felix <ifelix@redhat.com>, 2006.
-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# Dr.T.vasudevan <agnihot3@gmail.com>, 2009.
-# I. Felix <ifelix@redhat.com>, 2009.
-# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010, 2011.
-# Shantha kumar <shkumar@redhat.com>, 2013, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: totem.master.ta\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=totem&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-14 10:48+0000\n"
-"PO-Revision-Date: 2014-09-15 00:57+0630\n"
-"Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
-"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
-"Language: en_US\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-17 22:10-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
+"Language-Team: Tamil (https://www.transifex.com/endless-mobile-inc/teams/9016/ta/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"com>>\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"X-Generator: Lokalize 1.5\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:1
+#: ../data/org.gnome.Totem.desktop.in.in.in.h:1 ../src/totem.c:66
+#: ../src/totem.c:72 ../src/totem-grilo.c:1864 ../src/totem-object.c:3663
+msgid "Videos"
+msgstr "வீடியோக்கள்"
+
+#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:2
+#: ../data/org.gnome.Totem.desktop.in.in.in.h:2
+msgid "Play movies"
+msgstr "திரைப்படங்களை இயக்குக"
+
+#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:3
 msgid ""
 "Videos, also known as Totem, is the official movie player of the GNOME "
 "desktop environment. It features a searchable list of local videos, and "
@@ -43,7 +42,7 @@ msgstr ""
 "ஆகியவற்றைப் பயன்படுத்தி) மற்றும் பல இணையதளங்களிலிருந்து சிறப்பு வீடியோக்கள் "
 "ஆகியவை உள்ளன."
 
-#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:2
+#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:4
 msgid ""
 "Totem comes with added functionality such as: subtitle downloader, and "
 "support for recording DVDs."
@@ -51,95 +50,86 @@ msgstr ""
 "Totem இல் காணொளி உரை மற்றும் DVD பதிவு செய்யும் வசதி போன்ற புதிய வசதிகளும் "
 "சேர்க்கப்பட்டுள்ளது."
 
-#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:3
+#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:5
 msgid "Video thumbnailer for the file manager"
 msgstr "கோப்பு நிர்வாகிக்கான வீடியோ சிறுபடக்காட்டி"
 
-#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:4
-#| msgid "Movie Properties"
+#: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:6
 msgid "Files properties tab"
 msgstr "கோப்புப் பண்புகள் கீற்று"
-
-#: ../data/org.gnome.Totem.desktop.in.in.in.h:1 ../src/totem.c:243
-#: ../src/totem.c:249 ../src/totem-grilo.c:1862 ../src/totem-object.c:3544
-msgid "Videos"
-msgstr "வீடியோக்கள்"
-
-#: ../data/org.gnome.Totem.desktop.in.in.in.h:2
-msgid "Play movies"
-msgstr "திரைப்படங்களை இயக்குக"
 
 #: ../data/org.gnome.Totem.desktop.in.in.in.h:3
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr "விடியோ;நகர்படம்;படம்;துண்டுப்படம்;தொடர்வு;இயக்கி;டிவிடி;வட்டு;"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:1
+#: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
 msgstr "விடியோவின் பிரகாசம்."
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:2
+#: ../data/org.gnome.totem.gschema.xml.in.h:2
 msgid "The contrast of the video"
 msgstr "விடியோவின் ஒளி மாறுபாடு"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:3
+#: ../data/org.gnome.totem.gschema.xml.in.h:3
 msgid "The hue of the video"
 msgstr "விடியோவின் ஒளி வண்ணச்சாயல்"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:4
+#: ../data/org.gnome.totem.gschema.xml.in.h:4
 msgid "The saturation of the video"
 msgstr "விடியோவின் ஒளி தெவிட்டம்."
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:5
+#: ../data/org.gnome.totem.gschema.xml.in.h:5
 msgid "Repeat mode"
 msgstr "மீட்டுஇயக்கும் வகை"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:6
+#: ../data/org.gnome.totem.gschema.xml.in.h:6
 msgid "Whether to disable deinterlacing for interlaced movies"
 msgstr ""
 "இன்டர்லேஸ் செய்த நகர்படங்களை டீஇன்டர்லேஸ் செய்வதை செயல் நீக்கம் செய்ய "
 "வேண்டுமா?"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:7
-msgid "Whether to enable debug for the playback engine"
-msgstr "மீட்டிசைக்கும் இயந்திரத்தை வழு நீக்கத்துக்கு இயலுமை படுத்த வேண்டுமா?"
-
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:8
+#: ../data/org.gnome.totem.gschema.xml.in.h:7
 msgid "Type of audio output to use"
 msgstr "பயன்படுத்த ஒலி வெளியீட்டு வகை"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:9
+#: ../data/org.gnome.totem.gschema.xml.in.h:8
 msgid "Network buffering threshold"
 msgstr "பிணைய இடையக விளிம்பு"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:10
+#: ../data/org.gnome.totem.gschema.xml.in.h:9
 msgid ""
 "Amount of data to buffer for network streams before starting to display the "
 "stream (in seconds)."
 msgstr ""
-"வலை ஓடைகளில் ஒடையைக்காட்ட துவங்கு முன் இடைமாற்றாக சேமிக்க வேண்டிய தரவின் அளவு "
-"(வினாடிகளில்)"
+"வலை ஓடைகளில் ஒடையைக்காட்ட துவங்கு முன் இடைமாற்றாக சேமிக்க வேண்டிய தரவின் "
+"அளவு (வினாடிகளில்)"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:11
+#: ../data/org.gnome.totem.gschema.xml.in.h:10
 msgid "Subtitle font"
 msgstr "உப தலைப்பு எழுத்துரு"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:12
+#: ../data/org.gnome.totem.gschema.xml.in.h:11
 msgid "Pango font description for subtitle rendering."
 msgstr "துணை தலைப்புகளை வரைய பாங்கோ எழுதுரு விவரம்."
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:13
+#: ../data/org.gnome.totem.gschema.xml.in.h:12
+msgctxt "subtitle-encoding"
+msgid "'UTF-8'"
+msgstr ""
+
+#: ../data/org.gnome.totem.gschema.xml.in.h:13
 msgid "Subtitle encoding"
 msgstr "உப தலைப்பு குறியாக்கம்"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:14
+#: ../data/org.gnome.totem.gschema.xml.in.h:14
 msgid "Encoding character set for subtitle."
 msgstr "துணை தலைப்புகளுக்கு குறியாக்க எழுதுரு தொகுதி"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:15
+#: ../data/org.gnome.totem.gschema.xml.in.h:15
 msgid "Default location for the \"Open...\" dialogs"
 msgstr "\"Open...\" (திற) உரையாடல்களுக்கு முன்னிருப்பு இடம்"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:16
+#: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
 "Default location for the \"Open...\" dialogs. Default is the current "
 "directory."
@@ -147,11 +137,11 @@ msgstr ""
 "\"Open...\" (திற) உரையாடல்களுக்கு முன்னிருப்பு இடம். முன்னிருப்பு இப்போதைய "
 "அடைவு"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:17
+#: ../data/org.gnome.totem.gschema.xml.in.h:17
 msgid "Default location for the \"Take Screenshot\" dialogs"
 msgstr "\"திரைவெட்டு எடு...\"  உரையாடல்களுக்கு முன்னிருப்பு இடம்"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:18
+#: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
 "Default location for the \"Take Screenshot\" dialogs. Default is the "
 "Pictures directory."
@@ -159,43 +149,43 @@ msgstr ""
 "\"திரைவெட்டு எடு...\"  உரையாடல்களுக்கு முன்னிருப்பு இடம். முன்னிருப்பு "
 "படங்கள்  அடைவு"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:19
+#: ../data/org.gnome.totem.gschema.xml.in.h:19
 msgid "Whether to disable the plugins in the user's home directory"
 msgstr "பயனரின் இல்ல அடைவில் சொருகிகளை செயல் நீக்கம் செய்ய வேண்டுமா?"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:20
+#: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
 msgstr "பயனரின் இல்ல அடைவில் சொருகிகளை செயல் நீக்கம் செய்ய வேண்டுமா?"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:21
+#: ../data/org.gnome.totem.gschema.xml.in.h:21
 msgid "Whether to autoload text subtitle files when a movie is loaded"
 msgstr "திரைப்படம் ஏற்றப்படும்போது தானியங்கியாக உரை துணத்தலைப்புகளை ஏற்றுவதா"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:22
+#: ../data/org.gnome.totem.gschema.xml.in.h:22
 msgid "Whether to autoload external chapter files when a movie is loaded"
 msgstr "திரைப்படம் ஏற்றப்படும்போது தானியங்கியாக  அத்தியாய கோப்புகளை ஏற்றுவதா"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:23
+#: ../data/org.gnome.totem.gschema.xml.in.h:23
 msgid "Active plugins list"
 msgstr "செயல்படும் செருகிகள் பட்டியல்"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:24
+#: ../data/org.gnome.totem.gschema.xml.in.h:24
 msgid ""
 "A list of the names of the plugins which are currently active (loaded and "
 "running)."
 msgstr "தற்போது செயல்படும் செருகிகள் பட்டியல் (தற்போது ஏற்றி, இயங்கும்)"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:25
+#: ../data/org.gnome.totem.gschema.xml.in.h:25
 msgid "Directories to show"
 msgstr "காண்பிக்க வேண்டிய கோப்பகங்கள்"
 
-#: ../data/org.gnome.totem.gschema.xml.in.in.h:26
+#: ../data/org.gnome.totem.gschema.xml.in.h:26
 msgid "Directories to show in the browse interface, none by default"
 msgstr ""
 "உலாவு இடைமுகத்தில் காண்பிக்க வேண்டிய கோப்பகங்கள், முன்னிருப்பாக எதுவும் "
 "காண்பிக்கப்படாது"
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5481
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5550
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "ஸ்டீரியோ"
@@ -225,7 +215,6 @@ msgid "Preferences"
 msgstr "விருப்பங்கள்"
 
 #: ../data/preferences.ui.h:8
-#| msgid "Text Subtitles"
 msgid "External Subtitles"
 msgstr "வெளி காணொளி உரைகள்"
 
@@ -250,7 +239,6 @@ msgid "Load _chapter files when movie is loaded"
 msgstr "_c திரைப்படம் ஏற்றப்படும்போது அத்தியாய கோப்புகளை ஏற்றவும்."
 
 #: ../data/preferences.ui.h:14
-#| msgid "Plugin"
 msgid "Plugins"
 msgstr "செருகுநிரல்கள்"
 
@@ -263,9 +251,10 @@ msgid "General"
 msgstr "பொது"
 
 #. Tab label in the Preferences dialogue
-#: ../data/preferences.ui.h:18
-msgid "Display"
-msgstr "காட்சி"
+#: ../data/preferences.ui.h:18 ../data/properties.ui.h:9
+#: ../src/totem-properties-view.c:285
+msgid "Video"
+msgstr "வீடியோ"
 
 #: ../data/preferences.ui.h:19
 msgid "Disable _deinterlacing of interlaced videos"
@@ -296,14 +285,18 @@ msgid "Reset to _Defaults"
 msgstr "_D முன்னிருப்புகளுக்கு நிலை மீள் "
 
 #: ../data/preferences.ui.h:26
+msgid "Display"
+msgstr "காட்சி"
+
+#: ../data/preferences.ui.h:27
 msgid "Audio Output"
 msgstr "ஒலி வெளியீடு"
 
-#: ../data/preferences.ui.h:27
+#: ../data/preferences.ui.h:28
 msgid "_Audio output type:"
 msgstr "ஒலி வெளியீட்டு வகை:"
 
-#: ../data/preferences.ui.h:28 ../data/properties.ui.h:14
+#: ../data/preferences.ui.h:29 ../data/properties.ui.h:14
 #: ../src/totem-properties-view.c:283
 msgid "Audio"
 msgstr "கேட்பொலி"
@@ -336,10 +329,6 @@ msgstr "குறிப்பு:"
 msgid "Container:"
 msgstr "கலன்:"
 
-#: ../data/properties.ui.h:9 ../src/totem-properties-view.c:285
-msgid "Video"
-msgstr "வீடியோ"
-
 #: ../data/properties.ui.h:10
 msgid "Dimensions:"
 msgstr "அளவுகள்:"
@@ -364,105 +353,244 @@ msgstr "மாதிரி வீதம்"
 msgid "Channels:"
 msgstr "தடங்கள்"
 
+#: ../data/shortcuts.ui.h:1
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:2
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:3
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:4
+msgctxt "shortcut window"
+msgid "Volume"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:5
+msgctxt "shortcut window"
+msgid "Increase volume"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:6
+msgctxt "shortcut window"
+msgid "Decrease volume"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:7
+msgctxt "shortcut window"
+msgid "View"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:8
+msgctxt "shortcut window"
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:9
+msgctxt "shortcut window"
+msgid "Exit fullscreen"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:10
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:11
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:12
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:13
+msgctxt "shortcut window"
+msgid "Play/Pause"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:14
+msgctxt "shortcut window"
+msgid "Previous video or chapter"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:15
+msgctxt "shortcut window"
+msgid "Next video or chapter"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:16
+msgctxt "shortcut window"
+msgid "Skip"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:17
+msgctxt "shortcut window"
+msgid "Go back 15 seconds"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:18
+msgctxt "shortcut window"
+msgid "Go forward 60 seconds"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:19
+msgctxt "shortcut window"
+msgid "Go back 5 seconds"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:20
+msgctxt "shortcut window"
+msgid "Go forward 15 seconds"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:21
+msgctxt "shortcut window"
+msgid "Go back 3 minutes"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:22
+msgctxt "shortcut window"
+msgid "Go forward 10 minutes"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:23
+msgctxt "shortcut window"
+msgid "Skip to…"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:24
+msgctxt "shortcut window"
+msgid "DVD menu navigation"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:25
+msgctxt "shortcut window"
+msgid "Navigate up"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:26
+msgctxt "shortcut window"
+msgid "Navigate down"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:27
+msgctxt "shortcut window"
+msgid "Navigate left"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:28
+msgctxt "shortcut window"
+msgid "Navigate right"
+msgstr ""
+
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
 msgstr "முன்னுரிமைகள் (_n)"
 
 #: ../data/totem.ui.h:2
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: ../data/totem.ui.h:3
 msgid "_Help"
 msgstr "உதவி (_H)"
 
-#: ../data/totem.ui.h:3
+#: ../data/totem.ui.h:4
 msgid "_Quit"
 msgstr "வெளியேறு (_Q)"
 
-#: ../data/totem.ui.h:4
+#: ../data/totem.ui.h:5
 msgid "Add _Local Video…"
 msgstr "கணினிக்குள்ளமைந்த வீடியோவைச் சேர் (_L)…"
 
-#: ../data/totem.ui.h:5
+#: ../data/totem.ui.h:6
 msgid "Add _Web Video…"
 msgstr "இணைய வீடியோவைச் சேர் (_W)…"
 
-#: ../data/totem.ui.h:6
+#: ../data/totem.ui.h:7
 msgid "_Aspect Ratio"
 msgstr "விகிதம் படி (_A)"
 
-#: ../data/totem.ui.h:7
+#: ../data/totem.ui.h:8
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "தானியங்கி"
 
-#: ../data/totem.ui.h:8
-#| msgid "Square"
+#: ../data/totem.ui.h:9
 msgctxt "Aspect ratio"
 msgid "Square"
 msgstr "சதுரம்"
 
-#: ../data/totem.ui.h:9
-#| msgid "4∶3 (TV)"
+#: ../data/totem.ui.h:10
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
 msgstr "4∶3 (TV)"
 
-#: ../data/totem.ui.h:10
-#| msgid "16∶9 (Widescreen)"
+#: ../data/totem.ui.h:11
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
 msgstr "16∶9 (அகலத்திரை)"
 
-#: ../data/totem.ui.h:11
-#| msgid "2.11∶1 (DVB)"
+#: ../data/totem.ui.h:12
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
 msgstr "2.11∶1 (DVB)"
 
-#: ../data/totem.ui.h:12
+#: ../data/totem.ui.h:13
 msgid "Zoom In"
 msgstr "சிறிதாக்கு"
 
-#: ../data/totem.ui.h:13
+#: ../data/totem.ui.h:14
 msgid "Switch An_gles"
 msgstr "கோணங்களை மாற்று (_g)"
 
-#: ../data/totem.ui.h:14
+#: ../data/totem.ui.h:15
 msgid "_Languages"
 msgstr "மொழிகள் (_L)"
 
-#: ../data/totem.ui.h:15
+#: ../data/totem.ui.h:16
 msgid "S_ubtitles"
 msgstr "துணைத்தலைப்புகள் (_u)"
 
-#: ../data/totem.ui.h:16
-#| msgid "Select Text Subtitles"
+#: ../data/totem.ui.h:17
 msgid "_Select Text Subtitles…"
 msgstr "காணொளி உரைகளைத் தேர்வு செய்க…(_S)"
 
-#: ../data/totem.ui.h:17
+#: ../data/totem.ui.h:18
 msgid "_Eject"
 msgstr "வெளியேற்று(_E)"
 
-#: ../data/totem.ui.h:18
+#: ../data/totem.ui.h:19
 msgid "_Repeat"
 msgstr "மீண்டும் இயக்கு (_R)"
 
-#: ../data/totem.ui.h:19
+#: ../data/totem.ui.h:20
 msgid "_DVD Menu"
 msgstr "_DVD பட்டி"
 
-#: ../data/totem.ui.h:20
+#: ../data/totem.ui.h:21
 msgid "_Title Menu"
 msgstr "தலைப்பு பட்டி (_T)"
 
-#: ../data/totem.ui.h:21
+#: ../data/totem.ui.h:22
 msgid "A_udio Menu"
 msgstr "கேட்பொலி பட்டி (_u)"
 
-#: ../data/totem.ui.h:22
+#: ../data/totem.ui.h:23
 msgid "_Angle Menu"
 msgstr "கோண பட்டி (_A)"
 
-#: ../data/totem.ui.h:23
+#: ../data/totem.ui.h:24
 msgid "_Chapter Menu"
 msgstr "அத்தியாய பட்டி (_C)"
 
@@ -475,60 +603,60 @@ msgstr "திறக்க வேண்டிய  கோப்பின் ம�
 msgid "--:--"
 msgstr "--:--"
 
-#: ../src/backend/bacon-video-widget.c:1906
+#: ../src/backend/bacon-video-widget.c:1959
 msgid "Password requested for RTSP server"
 msgstr "RTSP சேவையக கடவுச்சொல் கோரப்படுகிறது"
 
-#: ../src/backend/bacon-video-widget.c:3277
+#: ../src/backend/bacon-video-widget.c:3320
 #, c-format
 msgid "Audio Track #%d"
 msgstr "ஒலி தடம் #%d"
 
-#: ../src/backend/bacon-video-widget.c:3281
+#: ../src/backend/bacon-video-widget.c:3322
 #, c-format
 msgid "Subtitle #%d"
 msgstr "துணைத்தலைப்பு #%d"
 
-#: ../src/backend/bacon-video-widget.c:3737
+#: ../src/backend/bacon-video-widget.c:3806
 msgid "The server you are trying to connect to is not known."
 msgstr "நீங்கள் இணைக்க நினைக்கும் சேவயகம் அறியப்படாதது"
 
-#: ../src/backend/bacon-video-widget.c:3740
+#: ../src/backend/bacon-video-widget.c:3809
 msgid "The connection to this server was refused."
 msgstr "இந்த சேவையகத்துக்கு இணைப்பு மறுக்கப்பட்டது."
 
-#: ../src/backend/bacon-video-widget.c:3743
+#: ../src/backend/bacon-video-widget.c:3812
 msgid "The specified movie could not be found."
 msgstr "குறிப்பிட்ட திரைப்படத்தை கண்டுபிடிக்க முடியவில்லை"
 
-#: ../src/backend/bacon-video-widget.c:3750
+#: ../src/backend/bacon-video-widget.c:3819
 msgid "The server refused access to this file or stream."
 msgstr "இந்த கோப்பு அல்லது ஓடைக்கு அனுமதி சேவையகத்தால் மறுக்கப்பட்டது"
 
-#: ../src/backend/bacon-video-widget.c:3756
+#: ../src/backend/bacon-video-widget.c:3825
 msgid "Authentication is required to access this file or stream."
 msgstr "இந்த கோப்பு அல்லது ஓடைக்கு அணுகல் அனுமதி தேவை"
 
-#: ../src/backend/bacon-video-widget.c:3763
+#: ../src/backend/bacon-video-widget.c:3832
 msgid "You are not allowed to open this file."
 msgstr "இந்த கோப்பை திறக்க உங்களுக்கு அனுமதி இல்லை"
 
-#: ../src/backend/bacon-video-widget.c:3768
+#: ../src/backend/bacon-video-widget.c:3837
 msgid "This location is not a valid one."
 msgstr "இது செல்லுபடியாகும்  இடம் அல்ல"
 
-#: ../src/backend/bacon-video-widget.c:3776
+#: ../src/backend/bacon-video-widget.c:3845
 msgid "The movie could not be read."
 msgstr "திரைப்படத்தை படிக்க முடியவில்லை"
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3799
-#: ../src/backend/bacon-video-widget.c:3807
+#: ../src/backend/bacon-video-widget.c:3868
+#: ../src/backend/bacon-video-widget.c:3876
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] "இந்த திரைப்படத்தை இயக்க ஒரு %s சொருகி தேவை; அது நிறுவப்படவில்லை. "
@@ -537,12 +665,12 @@ msgstr[1] ""
 "\n"
 "%s"
 
-#: ../src/backend/bacon-video-widget.c:3819
+#: ../src/backend/bacon-video-widget.c:3888
 msgid ""
 "This stream cannot be played. It's possible that a firewall is blocking it."
 msgstr "இந்த ஸ்ட்ரீமை இயக்க முடியாது. இதை ஃபயர்வால் தடுத்திருக்கலாம்."
 
-#: ../src/backend/bacon-video-widget.c:3822
+#: ../src/backend/bacon-video-widget.c:3891
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
@@ -550,38 +678,56 @@ msgstr ""
 "காணாத சில கோடெக்களால் ஒரு ஒலி அல்லது விடியோ ஓடையை கையாளமுடியவில்லை. சில வகை "
 "நகர்படங்களை இயக்க நீங்கள் கூடுதல் சொருகிகளை நிறுவ வேண்டி இருக்கலாம்."
 
-#: ../src/backend/bacon-video-widget.c:3833
+#: ../src/backend/bacon-video-widget.c:3902
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
 msgstr "இந்த கோப்பை பிணையத்தில் இயக்க முடியாது. உள்ளமைவாக தரவிறக்க முயலவும்."
 
-#: ../src/backend/bacon-video-widget.c:5477 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5546 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "சூழும்"
 
-#: ../src/backend/bacon-video-widget.c:5479 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5548 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "தனி(மோனோ)"
 
-#: ../src/backend/bacon-video-widget.c:5766
+#: ../src/backend/bacon-video-widget.c:5835
 msgid "Media contains no supported video streams."
 msgstr "ஊடகத்தில் விடியோ ஓடைகளுக்கு ஆதரவு இல்லை."
 
-#: ../src/backend/bacon-video-widget.c:5924
+#: ../src/backend/bacon-video-widget.c:6046
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
-"சில தேவையான சொருகிகள் காணவில்லை. நிரல் சரியாக அமைக்கப்பட்டதா என உறுதி செய்து "
-"கொள்க."
+"சில தேவையான சொருகிகள் காணவில்லை. நிரல் சரியாக அமைக்கப்பட்டதா என உறுதி செய்து"
+" கொள்க."
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:544
+msgid "Unable to play the file"
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:552
+msgid ""
+"This file type is currently unsupported. To support this type of file, you "
+"can purchase our audio/video codec upgrade to add support for additional "
+"file formats."
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
+msgid "_Purchase Codec Upgrade"
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:564
+msgid "This file type is unsupported."
+msgstr ""
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: ../src/gst/totem-time-helpers.c:63
 #: ../src/plugins/skipto/totem-time-entry.c:57
 #, c-format
@@ -594,7 +740,6 @@ msgstr "%d:%02d:%02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: ../src/gst/totem-time-helpers.c:71
 #, c-format
 msgctxt "long time format"
@@ -606,7 +751,6 @@ msgstr "-%d:%02d:%02d"
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: ../src/gst/totem-time-helpers.c:82
 #, c-format
 msgctxt "short time format"
@@ -618,7 +762,6 @@ msgstr "-%d:%02d"
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: ../src/gst/totem-time-helpers.c:91
 #, c-format
 msgctxt "short time format"
@@ -730,12 +873,10 @@ msgstr[0] "நொடிக்கு %d சட்டம் "
 msgstr[1] "நொடிக்கு %d சட்டங்கள்"
 
 #: ../src/grilo.ui.h:1
-#| msgid "Select a folder"
 msgid "Select All"
 msgstr "அனைத்தும் தேர்ந்தெடு"
 
 #: ../src/grilo.ui.h:2
-#| msgid "Select a folder"
 msgid "Select None"
 msgstr "எதையும் தேர்ந்தெடுக்காதே"
 
@@ -743,40 +884,39 @@ msgstr "எதையும் தேர்ந்தெடுக்காதே"
 msgid "Audio Preview"
 msgstr "ஒலி முன்னோட்டம்"
 
-#: ../src/totem.c:244
+#: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr "இழை காப்பு நூலகங்களை துவக்க முடியவில்லை."
 
-#: ../src/totem.c:244
+#: ../src/totem.c:67
 msgid "Verify your system installation. Totem will now exit."
 msgstr "உங்கள் நிறுவலை சோதிக்கவும். டோடம் இப்போது வெளியேறும்."
 
-#: ../src/totem-grilo.c:280
+#: ../src/totem-grilo.c:285
 #, c-format
 msgid "Season %d Episode %d"
 msgstr "சீசன் %d பகுதி %d"
 
 #. translators: The first item is the show name, for example:
 #. * Boardwalk Empire (Season 1 Episode 1)
-#: ../src/totem-grilo.c:317
+#: ../src/totem-grilo.c:322
 #, c-format
 msgid "%s (Season %d Episode %d)"
 msgstr "%s (சீசன் %d பகுதி %d)"
 
-#: ../src/totem-grilo.c:687
+#: ../src/totem-grilo.c:677
 msgid "Browse Error"
 msgstr "உலாவு பிழை"
 
-#: ../src/totem-grilo.c:824
+#: ../src/totem-grilo.c:818
 msgid "Search Error"
 msgstr "தேடல் பிழை"
 
-#: ../src/totem-grilo.c:1275
+#: ../src/totem-grilo.c:1272
 msgid "Local"
 msgstr "உள்ளமை"
 
-#: ../src/totem-grilo.c:1871
-#| msgid "Channels:"
+#: ../src/totem-grilo.c:1873
 msgid "Channels"
 msgstr "சேனல்கள்"
 
@@ -798,16 +938,14 @@ msgstr "டோடம் சரியாக நிறுவப்பட்டத�
 msgid "Click on items to select them"
 msgstr "உருப்படிகளை தேர்ந்தெடுக்க அதன் மீது சொடுக்கவும்"
 
-#: ../src/totem-main-toolbar.c:137
+#: ../src/totem-main-toolbar.c:136
 #, c-format
-#| msgid "%d second"
-#| msgid_plural "%d seconds"
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d தேர்வு செய்யப்பட்டது"
 msgstr[1] "%d விநாடி"
 
-#: ../src/totem-main-toolbar.c:159
+#: ../src/totem-main-toolbar.c:157
 #, c-format
 msgid "Results for “%s”"
 msgstr "\"%s\" க்கான விடைகள்"
@@ -828,67 +966,59 @@ msgstr "ரத்து செய்"
 msgid "Search"
 msgstr "தேடு"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
-#: ../src/totem-menu.c:391
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
+#: ../src/totem-menu.c:435
 msgid "None"
 msgstr "எதுவுமில்லை"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
-#: ../src/totem-menu.c:395
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
+#: ../src/totem-menu.c:439
 msgctxt "Language"
 msgid "Auto"
 msgstr "தானியங்கி"
 
-#: ../src/totem-object.c:175
-#, c-format
-msgid ""
-"%s\n"
-"Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"'%s --help' ஐ இயக்கி இருப்பில் உள்ள கட்டளை வரி  தேர்வுகளின் முழு பட்டியலை "
-"காண்க.\n"
-
-#: ../src/totem-object.c:1334 ../src/totem-options.c:52
+#: ../src/totem-object.c:1388 ../src/totem-options.c:51
 msgid "Pause"
 msgstr "ஒட்டு"
 
-#: ../src/totem-object.c:1339 ../src/totem-object.c:1349
-#: ../src/totem-options.c:51 ../src/totemselectiontoolbar.ui.h:2
+#: ../src/totem-object.c:1393 ../src/totem-object.c:1403
+#: ../src/totem-options.c:50 ../src/totemselectiontoolbar.ui.h:3
 msgid "Play"
 msgstr "இயக்கு"
 
-#: ../src/totem-object.c:1416 ../src/totem-object.c:1443
-#: ../src/totem-object.c:1955
+#: ../src/totem-object.c:1470 ../src/totem-object.c:1497
+#: ../src/totem-object.c:1989
 #, c-format
 msgid "Totem could not play '%s'."
 msgstr "Totem '%s' ஐ இயக்க முடியவில்லை."
 
-#: ../src/totem-object.c:2097
+#: ../src/totem-object.c:2160
 msgid "Totem could not display the help contents."
 msgstr "டோடம் உதவி அடக்கத்தை காட்ட இயலவில்லை"
 
-#: ../src/totem-object.c:2337
+#: ../src/totem-object.c:2421
 msgid "An error occurred"
 msgstr "பிழை ஏற்பட்டுள்ளது"
 
-#: ../src/totem-object.c:3641
+#: ../src/totem-object.c:3761
 msgid "Previous Chapter/Movie"
 msgstr "முந்தைய அத்தியாயம்/திரைப்படம்"
 
-#: ../src/totem-object.c:3647
+#: ../src/totem-object.c:3767
 msgid "Play / Pause"
 msgstr "இயக்கு/தாமதி"
 
-#: ../src/totem-object.c:3653
+#: ../src/totem-object.c:3773
 msgid "Next Chapter/Movie"
 msgstr "அடுத்த அத்தியாயம்/திரைப்படம்"
 
-#: ../src/totem-object.c:3867
+#: ../src/totem-object.c:3982
 msgid "Totem could not startup."
 msgstr "டோடம் துவங்க முடியவில்லை"
 
-#: ../src/totem-object.c:3867
+#: ../src/totem-object.c:3982
 msgid "No reason."
 msgstr "காரணம் இல்லை."
 
@@ -897,85 +1027,73 @@ msgid "Add Web Video"
 msgstr "இணைய வீடியோவைச் சேர்"
 
 #: ../src/totem-open-location.c:185 ../src/totem-uri.c:399
-#: ../src/totem-uri.c:460 ../src/plugins/chapters/totem-chapters.c:961
-#: ../src/plugins/chapters/totem-edit-chapter.c:98
-#: ../src/plugins/screenshot/totem-gallery.c:97
+#: ../src/totem-uri.c:460 ../src/plugins/screenshot/totem-gallery.c:97
 #: ../src/plugins/screenshot/totem-gallery-progress.c:103
-#: ../src/plugins/skipto/totem-skipto.c:198
-#| msgid "Cancel"
+#: ../src/plugins/skipto/totem-skipto.c:221
 msgid "_Cancel"
 msgstr "ரத்து (_C)"
 
 #: ../src/totem-open-location.c:186 ../src/totem-uri.c:461
-#: ../src/plugins/chapters/totem-edit-chapter.c:99
 msgid "_Add"
 msgstr "சேர் (_A)"
 
 #: ../src/totem-options.c:49
-msgid "Enable debug"
-msgstr "பிழைத்திருத்தத்தை செயல்படுத்து"
-
-#: ../src/totem-options.c:50
 msgid "Play/Pause"
 msgstr "இயக்கு/இடைநிறுத்து"
 
-#: ../src/totem-options.c:53
+#: ../src/totem-options.c:52
 msgid "Next"
 msgstr "அடுத்து"
 
-#: ../src/totem-options.c:54
+#: ../src/totem-options.c:53
 msgid "Previous"
 msgstr "முந்தைய"
 
-#: ../src/totem-options.c:55
+#: ../src/totem-options.c:54
 msgid "Seek Forwards"
 msgstr "மேலே நாடு"
 
-#: ../src/totem-options.c:56
+#: ../src/totem-options.c:55
 msgid "Seek Backwards"
 msgstr "பின்பக்கமாக நாடு"
 
-#: ../src/totem-options.c:57
+#: ../src/totem-options.c:56
 msgid "Volume Up"
 msgstr "ஒலி அளவினை கூட்டு"
 
-#: ../src/totem-options.c:58
+#: ../src/totem-options.c:57
 msgid "Volume Down"
 msgstr "ஒலி அளவினை குறை"
 
-#: ../src/totem-options.c:59
+#: ../src/totem-options.c:58
 msgid "Mute sound"
 msgstr "ஓசையை நிறுத்தவும்"
 
-#: ../src/totem-options.c:60
+#: ../src/totem-options.c:59
 msgid "Toggle Fullscreen"
 msgstr "முழுத்திரைக்கு மாற்று"
 
-#: ../src/totem-options.c:61
+#: ../src/totem-options.c:60
 msgid "Quit"
 msgstr "வெளிச்செல்"
 
-#: ../src/totem-options.c:62
+#: ../src/totem-options.c:61
 msgid "Enqueue"
 msgstr "வரிசை"
 
-#: ../src/totem-options.c:63
+#: ../src/totem-options.c:62
 msgid "Replace"
 msgstr "இடமாற்று"
 
-#: ../src/totem-options.c:64
+#: ../src/totem-options.c:63
 msgid "Seek"
 msgstr "நாடு"
 
-#: ../src/totem-options.c:66
+#: ../src/totem-options.c:65
 msgid "Movies to play"
 msgstr "இயக்க வேண்டிய திரைப்படங்கள் "
 
-#: ../src/totem-options.c:76
-msgid "- Play movies and songs"
-msgstr "- திரைப்படங்கள் மற்றும் பாடல்களை இயக்கு"
-
-#: ../src/totem-options.c:123
+#: ../src/totem-options.c:100
 msgid "Can't enqueue and replace at the same time"
 msgstr "வரிசையில் நிறுத்துவதும் மாற்றுவதும் ஒரே நேரத்தில் செய்ய இயலாது"
 
@@ -986,7 +1104,7 @@ msgstr "வரிசையில் நிறுத்துவதும் ம�
 msgid "Title %d"
 msgstr "தலைப்பு %d"
 
-#: ../src/totem-playlist.c:1001
+#: ../src/totem-playlist.c:992
 #, c-format
 msgid "The playlist '%s' could not be parsed. It might be damaged."
 msgstr "இயக்கப்பட்டியல் '%s'  ஐ பகுக்க முடியவில்லை. அது சிதைந்து இருக்கலாம்."
@@ -1049,16 +1167,19 @@ msgid "N/A"
 msgstr "N/A"
 
 #: ../src/totemselectiontoolbar.ui.h:1
-#| msgid "Add to Playlist"
 msgid "Add to Favourites"
 msgstr "பிடித்தவையில் சேர்"
 
-#: ../src/totemselectiontoolbar.ui.h:3
-#| msgid "Shuff_le"
+#: ../src/totemselectiontoolbar.ui.h:2
+msgctxt "button"
+msgid "Play"
+msgstr ""
+
+#: ../src/totemselectiontoolbar.ui.h:4
 msgid "Shuffle"
 msgstr "கலக்கு"
 
-#: ../src/totemselectiontoolbar.ui.h:4
+#: ../src/totemselectiontoolbar.ui.h:5
 msgid "Delete"
 msgstr "நீக்கு"
 
@@ -1215,7 +1336,7 @@ msgstr "%s / %s"
 msgid "Seek to %s / %s"
 msgstr "இதை நாடு %s / %s"
 
-#: ../src/totem-uri.c:329 ../src/plugins/chapters/totem-chapters.c:982
+#: ../src/totem-uri.c:329
 msgid "All files"
 msgstr "எல்லா கோப்புகள்"
 
@@ -1231,19 +1352,21 @@ msgstr "துணைத்தலைப்புகள் "
 msgid "Select Text Subtitles"
 msgstr "உரை துணைத்தலைப்புகளை தேர்வு செய்க"
 
-#: ../src/totem-uri.c:400 ../src/plugins/chapters/totem-chapters.c:962
+#: ../src/totem-uri.c:400
 msgid "_Open"
 msgstr "திற (_O)"
 
 #: ../src/totem-uri.c:457
-#| msgid "Videos"
 msgid "Add Videos"
 msgstr "வீடியோக்களைச் சேர்"
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
-#: ../src/totem-video-thumbnailer.c:785
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
+#: ../src/totem-video-thumbnailer.c:797
 #, c-format
 msgid ""
 "<b>%s</b>: %s\n"
@@ -1254,15 +1377,15 @@ msgstr ""
 "<b>%s</b>: %d×%d\n"
 "<b>%s</b>: %s"
 
-#: ../src/totem-video-thumbnailer.c:786
+#: ../src/totem-video-thumbnailer.c:798
 msgid "Filename"
 msgstr "கோப்பு பெயர்"
 
-#: ../src/totem-video-thumbnailer.c:788
+#: ../src/totem-video-thumbnailer.c:800
 msgid "Resolution"
 msgstr "தெளிதிறன் "
 
-#: ../src/totem-video-thumbnailer.c:791
+#: ../src/totem-video-thumbnailer.c:803
 msgid "Duration"
 msgstr "காலஅளவு"
 
@@ -1306,176 +1429,28 @@ msgid "Unable to write a project."
 msgstr "ஒரு திட்டத்தை  எழுத முடியவில்லை."
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:394
-#| msgid "_Create Video Disc..."
 msgid "_Create Video Disc…"
 msgstr "வீடியோ வட்டை உருவாக்கு(_C)…"
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:395
-#| msgid "Copy Vide_o DVD..."
 msgid "Copy Vide_o DVD…"
 msgstr "வீடியோ DVD ஐ நகலெடு… (_o)"
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:396
-#| msgid "Copy (S)VCD..."
 msgid "Copy (S)VCD…"
 msgstr "(S)VCDஐ நகலெடு…"
-
-#: ../src/plugins/chapters/chapters-edit.ui.h:1
-msgid "Name for new chapter:"
-msgstr "புதிய அத்தியாயத்துக்கு பெயர்:"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:1
-msgid "_Remove Chapter"
-msgstr "அத்தியாயம் நீக்கவும் (_R)"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:2
-msgid "Remove the chapter from the list"
-msgstr "பட்டியலிலிருந்து அத்தியாயத்தை அகற்று "
-
-#: ../src/plugins/chapters/chapters-list.ui.h:3
-msgid "_Go to Chapter"
-msgstr "_G இந்த அத்தியாயத்துக்கு செல்"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:4
-msgid "Go to the chapter in the movie"
-msgstr "திரைப்படத்தில்  இந்த அத்தியாயத்துக்கு  செல்"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:5
-#| msgid "Add Chapter"
-msgid "Add Chapter…"
-msgstr "பிரிவைச் சேர்…"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:6
-msgid "Remove Chapter"
-msgstr "அத்தியாயத்தை நீக்கு"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:7
-msgid "Go to Chapter"
-msgstr "இந்த அத்தியாயத்துக்கு செல்"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:8
-msgid "Save Changes"
-msgstr "மாற்றங்களை சேமி"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:9
-msgid "No chapter data"
-msgstr "அத்தியாய தரவு இல்லை"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:10
-#| msgid "Load Chapters..."
-msgid "Load Chapters…"
-msgstr "பிரிவுகளை ஏற்று…"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:11
-msgid "Load chapters from an external CMML file"
-msgstr "ஒரு CMML வெளிக்கோப்பில் இருந்து அத்தியாயங்களை ஏற்றவும்."
-
-#: ../src/plugins/chapters/chapters-list.ui.h:12
-msgid "Add New Chapters"
-msgstr "புதிய அத்தியாயங்கள் சேர்"
-
-#: ../src/plugins/chapters/chapters-list.ui.h:13
-msgid "Create a new chapter list for the movie"
-msgstr "திரைப்படத்துக்கு புதிய அத்தியாய பட்டியலை உருவாக்கு "
-
-#: ../src/plugins/chapters/chapters.plugin.in.h:1
-#: ../src/plugins/chapters/totem-chapters.c:1122
-msgid "Chapters"
-msgstr "அத்தியாயங்கள்"
-
-#: ../src/plugins/chapters/chapters.plugin.in.h:2
-msgid "Support chapter markers in movies"
-msgstr "திரைப்படங்களில் அத்தியாய குறிப்புகளை ஆதரி"
-
-#: ../src/plugins/chapters/totem-chapters.c:56
-#, c-format
-msgid ""
-"<b>Title: </b>%s\n"
-"<b>Start time: </b>%s"
-msgstr ""
-"<b>தலைப்பு: </b>%s\n"
-"<b>துவக்க நேரம்: </b>%s"
-
-#: ../src/plugins/chapters/totem-chapters.c:324
-msgid "Error while reading file with chapters"
-msgstr "அத்தியாயங்கள் கோப்பு படித்தலில் பிழை"
-
-#: ../src/plugins/chapters/totem-chapters.c:542
-msgid "Chapter with the same time already exists"
-msgstr "இந்த பெயரில் அத்தியாயம் ஏற்கெனவே உள்ளது"
-
-#: ../src/plugins/chapters/totem-chapters.c:543
-msgid "Try another name or remove an existing chapter."
-msgstr "வேறு பெயரை முயற்சிக்க அல்லது இருப்பில் உள்ள ஒரு அத்தியாயத்தை நீக்குக."
-
-#: ../src/plugins/chapters/totem-chapters.c:702
-msgid "Error while writing file with chapters"
-msgstr "அத்தியாய கோப்பு எழுதுதலில் பிழை"
-
-#: ../src/plugins/chapters/totem-chapters.c:826
-msgid "Error occurred while saving chapters"
-msgstr "அத்தியாயங்களை சேமிக்கையில் பிழை"
-
-#: ../src/plugins/chapters/totem-chapters.c:827
-msgid ""
-"Please check you have permission to write to the folder containing the movie."
-msgstr ""
-"திரைப்படம் உள்ள அடைவில் எழுத உங்களுக்கு தேவையான அனுமதி உள்ளதா என சோதிக்கவும்"
-
-#: ../src/plugins/chapters/totem-chapters.c:960
-msgid "Open Chapter File"
-msgstr "அத்தியாயம் கோப்பை திறக்கவும்"
-
-#: ../src/plugins/chapters/totem-chapters.c:979
-msgid "Supported files"
-msgstr "துணையாக உள்ள கோப்புகள்"
-
-#: ../src/plugins/chapters/totem-chapters.c:1076
-msgid "Chapter Screenshot"
-msgstr "அத்தியாய திரைப்பிடிப்பு"
-
-#: ../src/plugins/chapters/totem-chapters.c:1087
-msgid "Chapter Title"
-msgstr "அத்தியாய தலைப்பு"
-
-#: ../src/plugins/chapters/totem-chapters.c:1167
-msgid "Save changes to chapter list before closing?"
-msgstr "அத்தியாய பட்டியலில் செய்த மாற்றங்களை மூடும் முன் சேமிக்கலாமா?"
-
-#. Translators: close Totem without saving changes to the chapter list of the current movie.
-#: ../src/plugins/chapters/totem-chapters.c:1172
-msgid "Close without Saving"
-msgstr "சேமிக்காமல் மூடு"
-
-#. Translators: save changes to the chapter list of the current movie before closing Totem.
-#: ../src/plugins/chapters/totem-chapters.c:1174
-msgid "Save"
-msgstr "சேமி"
-
-#: ../src/plugins/chapters/totem-chapters.c:1177
-msgid "If you don't save, changes to the chapter list will be lost."
-msgstr ""
-"நீங்கள் சேமிக்கவில்லையென்றால், அத்தியாய பட்டியலில் செய்த மாற்றங்களை இழக்க "
-"நேரும். "
-
-#: ../src/plugins/chapters/totem-edit-chapter.c:95
-msgid "Add Chapter"
-msgstr "அத்தியாயம் சேர்"
 
 #: ../src/plugins/dbusservice/dbusservice.plugin.in.h:1
 msgid "MPRIS D-Bus Interface"
 msgstr "MPRIS D-பஸ் இடைமுகம்"
 
 #: ../src/plugins/dbusservice/dbusservice.plugin.in.h:2
-#| msgid ""
-#| "Plugin for sending notifications of currently playing movies to the D-Bus "
-#| "subsystem."
 msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
-"தற்போது இயக்கப்படும் வீடியோக்கள் பற்றிய அறிவிப்புகளை அனுப்பலாம் மற்றும் MPRIS "
-"மூலம் தொலைநிலையில் கட்டுப்படுத்த அனுமதிக்கலாம்."
+"தற்போது இயக்கப்படும் வீடியோக்கள் பற்றிய அறிவிப்புகளை அனுப்பலாம் மற்றும் "
+"MPRIS மூலம் தொலைநிலையில் கட்டுப்படுத்த அனுமதிக்கலாம்."
 
 #: ../src/plugins/dbusservice/dbusservice.py:208
 #: ../src/plugins/dbusservice/dbusservice.py:236
@@ -1512,7 +1487,8 @@ msgstr "இன்ஸ்டன்ட் மெஸஞ்சர் நிலை"
 #: ../src/plugins/im-status/totem-im-status.plugin.in.h:2
 msgid "Set your Instant Messenger status to away when a movie is playing"
 msgstr ""
-"திரைப்படம் இயக்கப்படும் போது இன்ஸ்டன்ட் மெஸஞ்சர் நிலையை வெளியே என அமைக்கவும்."
+"திரைப்படம் இயக்கப்படும் போது இன்ஸ்டன்ட் மெஸஞ்சர் நிலையை வெளியே என "
+"அமைக்கவும்."
 
 #: ../src/plugins/lirc/lirc.plugin.in.h:1
 msgid "Infrared Remote Control"
@@ -1554,53 +1530,53 @@ msgstr "துணை தலைப்பு தரவிறக்கி"
 msgid "Look for subtitles for the currently playing movie"
 msgstr "நிகழ் இயக்க நகர்படத்துக்கு துணை தலைப்புக்களை தேடுக"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:42
+#: ../src/plugins/opensubtitles/opensubtitles.py:46
 msgid "Brazilian Portuguese"
 msgstr "ப்ரேசிலியன் போர்ச்சுகீஸ்"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:178
+#: ../src/plugins/opensubtitles/opensubtitles.py:182
 msgid "Searching for subtitles…"
 msgstr "துணைத்தலைப்புகளை தேடுகிறது..."
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:226
-#: ../src/plugins/opensubtitles/opensubtitles.py:605
+#: ../src/plugins/opensubtitles/opensubtitles.py:230
+#: ../src/plugins/opensubtitles/opensubtitles.py:612
 msgid "Downloading the subtitles…"
 msgstr "துணைத்தலைப்புகளை  பதிவிறக்குகிறது..."
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:291
+#: ../src/plugins/opensubtitles/opensubtitles.py:295
 msgid "Could not contact the OpenSubtitles website"
 msgstr "துணைத்தலைப்பு வலையகத்தை தொடர்பு கொள்ள முடியவில்லை"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:324
-#: ../src/plugins/opensubtitles/opensubtitles.py:342
+#: ../src/plugins/opensubtitles/opensubtitles.py:328
+#: ../src/plugins/opensubtitles/opensubtitles.py:346
 msgid "Could not contact the OpenSubtitles website."
 msgstr "ஓபன்சப்டைட்டில்  வலையகத்தை தொடர்பு கொள்ள முடியவில்லை"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:330
+#: ../src/plugins/opensubtitles/opensubtitles.py:334
 msgid "No results found."
 msgstr "விடைகள் ஏதும் இல்லை"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:472
+#: ../src/plugins/opensubtitles/opensubtitles.py:477
 msgid "Subtitles"
 msgstr "துணைத்தலைப்புகள் "
 
 #. translators comment:
 #. This is the file-type of the subtitle file detected
-#: ../src/plugins/opensubtitles/opensubtitles.py:478
+#: ../src/plugins/opensubtitles/opensubtitles.py:483
 msgid "Format"
 msgstr "ஒழுங்கு"
 
 #. translators comment:
 #. This is a rating of the quality of the subtitle
-#: ../src/plugins/opensubtitles/opensubtitles.py:483
+#: ../src/plugins/opensubtitles/opensubtitles.py:488
 msgid "Rating"
 msgstr "தரவரிசை"
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:522
+#: ../src/plugins/opensubtitles/opensubtitles.py:529
 msgid "_Download Movie Subtitles…"
 msgstr "_D திரைப்பட துணை தலைப்புகளை தரவிறக்கு..."
 
-#: ../src/plugins/opensubtitles/opensubtitles.py:562
+#: ../src/plugins/opensubtitles/opensubtitles.py:569
 msgid "Searching subtitles…"
 msgstr "துணைத்தலைப்புகளை தேடுகிறது..."
 
@@ -1616,11 +1592,11 @@ msgstr "துணைத்தலைப்புகள்  மொழி"
 msgid "_Play with Subtitle"
 msgstr "(_P) துணைத்தலைப்புகளுடன் இயக்கு"
 
-#: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.in.h:1
+#: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.h:1
 msgid "Subtitle language"
 msgstr "துணைத்தலைப்புகள்  மொழி"
 
-#: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.in.h:2
+#: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.h:2
 msgid "The language to search for subtitles for movies in."
 msgstr "திரைப்படங்களின் துணைத்தலைப்புகளை தேட மொழி"
 
@@ -1629,7 +1605,6 @@ msgid "Movie Properties"
 msgstr "நகர்பட பண்புகள்"
 
 #: ../src/plugins/properties/movie-properties.plugin.in.h:2
-#| msgid "Adds movie properties to the sidebar"
 msgid "Adds movie properties menu item"
 msgstr "மூவி பண்புகள் மெனு உருப்படியைச் சேர்க்கும்"
 
@@ -1641,18 +1616,18 @@ msgstr "பண்புகள்"
 msgid "_Properties"
 msgstr "பண்புகள் (_P)"
 
-#: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.in.h:1
+#: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:1
 msgid "rpdb2 password"
 msgstr "rpdb2 கடவுச்சொல்"
 
-#: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.in.h:2
+#: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of 'totem' will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of 'totem' will be used."
 msgstr ""
 "டோட்டம் ஐ வழு நீக்க அனுமதி இல்லாத தொலை அணுகலிடமிருந்து  rpdb2 சேவையகத்தை "
-"பாதுகாக்க "
-"கடவுச்சொல். இது காலியாக இருந்தால் ஒரு முன்னிருப்பு டோட்டம்´ பயன்படுத்தப்படும்."
+"பாதுகாக்க கடவுச்சொல். இது காலியாக இருந்தால் ஒரு முன்னிருப்பு டோட்டம்´ "
+"பயன்படுத்தப்படும்."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1688,10 +1663,9 @@ msgid ""
 "default password ('totem')."
 msgstr ""
 "சரி  என்று அழுத்தியதும் டோடம் நீங்கள் விண்பிடிபி அல்லது ஆர்பிடிபி2 ஆல் "
-"அதனுடன் இணைக்கும் "
-"வரை காத்திருக்கும். டிகான்ஃப் இல் நீங்கள் ஒரு வழுநீக்கி கடவுச்சொல் அமைத்து "
-"இருக்காவிட்டால் "
-"அது முன்னிருப்பு  கடவுச்சொல் ('totem') பயன்படுத்தும். "
+"அதனுடன் இணைக்கும் வரை காத்திருக்கும். டிகான்ஃப் இல் நீங்கள் ஒரு வழுநீக்கி "
+"கடவுச்சொல் அமைத்து இருக்காவிட்டால் அது முன்னிருப்பு  கடவுச்சொல் ('totem') "
+"பயன்படுத்தும். "
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1787,7 +1761,6 @@ msgid "Save Gallery"
 msgstr "அரங்கம் சேமி"
 
 #: ../src/plugins/screenshot/totem-gallery.c:98
-#| msgid "Save"
 msgid "_Save"
 msgstr "சேமி (_S)"
 
@@ -1802,7 +1775,6 @@ msgstr "காட்சியகம்-%s-%d.png"
 
 #. Set up the window
 #: ../src/plugins/screenshot/totem-gallery-progress.c:101
-#| msgid "Creating Gallery..."
 msgid "Creating Gallery…"
 msgstr "காட்சியகத்தை  உருவாக்குகிறது…"
 
@@ -1826,12 +1798,11 @@ msgid "Take _Screenshot"
 msgstr "திரைப்பிடிப்பினை எடுக்கவும் (_S)"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:345
-#| msgid "Create Screenshot _Gallery..."
 msgid "Create Screenshot _Gallery…"
 msgstr "திரைநொடிப்பு காட்சியகத்தை உருவாக்கு (_G)…"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:1
-#: ../src/plugins/skipto/totem-skipto.c:196
+#: ../src/plugins/skipto/totem-skipto.c:219
 msgid "Skip To"
 msgstr "இதற்குத் தத்து"
 
@@ -1843,30 +1814,33 @@ msgstr "\"இதற்குத் தத்து\"  உரையாடலை �
 msgid "_Skip to:"
 msgstr "_S இதற்குத் தத்து:"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
-#: ../src/plugins/skipto/totem-skipto.c:159
+#: ../src/plugins/skipto/totem-skipto.c:176
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "நொடி"
 msgstr[1] "நொடிகள்"
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
-#: ../src/plugins/skipto/totem-skipto.c:189
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
+#: ../src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
 msgstr "7"
 
-#: ../src/plugins/skipto/totem-skipto.c:199
-#| msgid "Skip To"
+#: ../src/plugins/skipto/totem-skipto.c:222
 msgid "_Skip To"
 msgstr "இதற்குத் தத்து (_S)"
 
 #: ../src/plugins/skipto/totem-skipto-plugin.c:206
-#| msgid "Skip To"
 msgid "_Skip To…"
 msgstr "இதற்குத் தத்து… (_S)"
 
@@ -1875,1414 +1849,5 @@ msgid "Vimeo"
 msgstr "Vimeo"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:2
-#| msgid "Sets the user agent for the Apple Trailers site"
 msgid "Sets the user agent for the Vimeo site"
 msgstr "Vimeo தளத்திற்கு ஒரு பயனர் முகவரை அமைக்கும்"
-
-#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:1
-msgid "Zeitgeist Plugin"
-msgstr "Zeitgeist செருகுநிரல்"
-
-#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:2
-msgid "A plugin sending events to Zeitgeist"
-msgstr "நிகழ்வுகளை Zeitgeist க்கு அனுப்பும் செருகுநிரல்"
-
-#~ msgid "Stopped"
-#~ msgstr "நிறுத்தப்பட்டது"
-
-#~ msgid "Paused"
-#~ msgstr "தற்காலிகமாக நிறுத்தத்தப்பட்டுள்ளது"
-
-#~ msgid "Playing"
-#~ msgstr "இயங்குகிறது"
-
-#~ msgid "No URI to play"
-#~ msgstr "இயக்க ஒரு யூஆர்எல் உம் இல்லை"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "Totem திரைப்பட இயக்கி"
-
-#~ msgid "_Open with \"%s\""
-#~ msgstr "\"%s\" உடன் திற"
-
-#~ msgid "No playlist or playlist empty"
-#~ msgstr "இயக்க பட்டியல் இல்லை அல்லது காலி"
-
-#~ msgid "Movie browser plugin"
-#~ msgstr "நகர்பட உலாவி செருகி"
-
-#~ msgid "Verify your system installation. The Totem plugin will now exit."
-#~ msgstr "உங்கள் கணினி நிறுவலை சோதிக்கவும். டோடம் சொருகி இப்போது வெளியேறும்."
-
-#~ msgid "Leave Fullscreen"
-#~ msgstr "முழுத்திரையை விட்டு விலகவும்"
-
-#~ msgid "Time:"
-#~ msgstr "நேரம்:"
-
-#~ msgid "Allow the screensaver to activate when playing audio"
-#~ msgstr "ஒலி மட்டும் பாடும்போது திரை சேமிப்பியை செயல்பட அனுமதி"
-
-#~ msgid ""
-#~ "Allow the screensaver to activate when playing audio. Disable if you have "
-#~ "monitor-powered speakers."
-#~ msgstr ""
-#~ "ஒலி மட்டும் இயங்கும் போது கூட திரை சேமிப்பி துவங்க அனுமதி.  திரையிலிருந்து சக்தி "
-#~ "பெறும் ஒலிப்பான்கள் இருப்பின் செயல் நீக்கவும்."
-
-#~ msgid "Show visual effects when no video is displayed"
-#~ msgstr "விடியோ ஏதும் காட்டாதபோது காட்சி ஜாலங்களை காட்டு"
-
-#~ msgid "Show visual effects when playing an audio only file."
-#~ msgstr "ஒலி மட்டும் கோப்புகளை இயக்கும் போது காட்சி ஜாலங்களை காட்டு"
-
-#~ msgid "Name of the visual effects plugin"
-#~ msgstr "காட்சி ஜாலங்கள் சொருகியின் பெயர்"
-
-#~ msgid "Shuffle mode"
-#~ msgstr "கலக்கும் பாங்கு"
-
-#~ msgid "Visualization quality setting"
-#~ msgstr "காட்சிக்கு தர அளவு:"
-
-#~ msgid "Quality setting for the audio visualization."
-#~ msgstr "ஒலியை காணலுக்கு தர நிர்ணயம்"
-
-#~ msgid ""
-#~ "Whether to remember the current playlist, the playing track and position."
-#~ msgstr ""
-#~ "நடப்பு இயக்கப்பட்டியல், இயக்கப்படும் தடம், இடம் ஆகியவற்றை நினைவில் வைக்க வேண்டுமா."
-
-#~ msgid "_Remove"
-#~ msgstr "நீக்கவும் (_R)"
-
-#~ msgid "Remove file from playlist"
-#~ msgstr "இயக்க பட்டியலிலிருந்து கோப்பை அகற்று "
-
-#~ msgid "_Copy Location"
-#~ msgstr "இடத்தை நகலெடு (_C)"
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "இடத்தை ஒட்டுப்பலகைக்கு படியெடு"
-
-#~ msgid "_Select Text Subtitles..."
-#~ msgstr "(_S) துணைத்தலைப்பு உரைகளை தேர்வு செய்க..."
-
-#~ msgid "Select a file to use for text subtitles"
-#~ msgstr "உரை துணைதலைப்புகளுக்கு ஒரு கோப்பை தேர்ந்தெடுக்கவும்."
-
-#~ msgid "Add..."
-#~ msgstr "சேர்..."
-
-#~ msgid "Remove"
-#~ msgstr "நீக்கு"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "பாடல் பட்டியலை சேமி..."
-
-#~ msgid "Move Up"
-#~ msgstr "மேலே நகர்த்து"
-
-#~ msgid "Move Down"
-#~ msgstr "கீழே நகர்த்து"
-
-#~ msgid "Normal"
-#~ msgstr "இயல்பான"
-
-#~ msgid "Large"
-#~ msgstr "பெரிய"
-
-#~ msgid "Extra Large"
-#~ msgstr "மிகப் பெரிய"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "டோடம் விருப்பங்கள்"
-
-#~ msgid "Playback"
-#~ msgstr "திருப்பி இசை"
-
-#~ msgid "Remember last played movies"
-#~ msgstr "கடைசியாக இயக்கிய திரைப்படங்களை நினைவில் வைக்கவும்"
-
-#~ msgid "Disable screensaver when playing"
-#~ msgstr "பாடும்போது திரை சேமிப்பியை செயல் நீக்கு"
-
-#~ msgctxt "Screensaver disable"
-#~ msgid "Video"
-#~ msgstr "வீடியோ"
-
-#~ msgid "Video or Audio"
-#~ msgstr "விடியோ அல்லது ஒலி"
-
-#~ msgid "Visual Effects"
-#~ msgstr "காட்சி ஜாலங்கள்"
-
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr "ஒரு ஒலி கோப்பு இயக்கப்பட்ட போது ஔத ஜாலங்களை காட்டுக"
-
-#~ msgid "_Type of visualization:"
-#~ msgstr "காட்சி வகை:"
-
-#~ msgid "Visualization _size:"
-#~ msgstr "காட்சி அளவு:"
-
-#~ msgid "Open _Location"
-#~ msgstr "இடத்தை திற (_L)"
-
-#~ msgid "_Fullscreen"
-#~ msgstr "முழுத்திரை(_F)"
-
-#~ msgid "_Movie"
-#~ msgstr "திரைப்படம் (_M)"
-
-#~ msgid "Eject the current disc"
-#~ msgstr "தற்போதைய வட்டை வெளித்தள்ளு"
-
-#~ msgid "View the properties of the current stream"
-#~ msgstr "தற்போதைய ஓடையின் பண்புகளை பார்"
-
-#~ msgid "Play / P_ause"
-#~ msgstr "இயக்கு P/ தாமதி"
-
-#~ msgid "Play or pause the movie"
-#~ msgstr "திரைப்படத்தை இயக்கு அல்லது இடைநிறுத்து"
-
-#~ msgid "_Edit"
-#~ msgstr "தொகு (_E)"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "பாடல் பட்டியலை சேமி"
-
-#~ msgid "Clear the playlist"
-#~ msgstr "பாடல் பட்டியலை துடை"
-
-#~ msgid "Configure plugins to extend the application"
-#~ msgstr "இப்பயன்பாட்டை நீட்ட சொருகுபொருள்களை  வடிவமை"
-
-#~ msgid "_View"
-#~ msgstr "பார்வை (_V)"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "திரைப்படத்தை சாளரத்துக்கு பொருத்து"
-
-#~ msgid "Switch camera angles"
-#~ msgstr "காமிரா கோணத்தை மாற்று"
-
-#~ msgid "_Go"
-#~ msgstr "செல் (_G)"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "DVD பட்டிக்கு செல்"
-
-#~ msgid "Go to the title menu"
-#~ msgstr "தலைப்பு பட்டிக்கு செல்"
-
-#~ msgid "Go to the audio menu"
-#~ msgstr "கேட்பொலி பட்டிக்கு செல்"
-
-#~ msgid "Go to the angle menu"
-#~ msgstr "கோண பட்டிக்கு செல்"
-
-#~ msgid "Go to the chapter menu"
-#~ msgstr "அத்தியாய பட்டிக்கு செல்"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "அடுத்த அத்தியாயம்/திரைப்படம் (_N)"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "அடுத்த அத்தியாயம் அல்லது திரைப்படம்"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "முந்தைய அத்தியாயம்/திரைப்படம் (_P)"
-
-#~ msgid "Previous chapter or movie"
-#~ msgstr "முந்தைய அத்தியாயம் அல்லது திரைப்படம்"
-
-#~ msgid "_Sound"
-#~ msgstr "ஒலி (_S)"
-
-#~ msgid "Volume _Up"
-#~ msgstr "ஒலி அளவினை கூட்டு(_U)"
-
-#~ msgid "Increase volume"
-#~ msgstr "ஒலியளவை அதிகமாக்கு"
-
-#~ msgid "Volume _Down"
-#~ msgstr "ஒலி அளவினை குறை (_D)"
-
-#~ msgid "Decrease volume"
-#~ msgstr "ஒலியளவை குறை"
-
-#~ msgid "_Contents"
-#~ msgstr "உள்ளடக்கங்கள் (_C)"
-
-#~ msgid "Help contents"
-#~ msgstr "உதவி உள்ளடக்கங்கள்"
-
-#~ msgid "_About"
-#~ msgstr "பற்றி (_A)"
-
-#~ msgid "About this application"
-#~ msgstr "இந்த பயன்பாடு பற்றி"
-
-#~ msgid "S_idebar"
-#~ msgstr "பக்கப்பட்டி"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "பக்க பட்டையை காட்டு/மறை"
-
-#~ msgid "Sets automatic aspect ratio"
-#~ msgstr "தானியங்கி தோற்ற விகிதத்தை அமைக்கிறது"
-
-#~ msgid "Sets square aspect ratio"
-#~ msgstr "சதுர தோற்ற விகிதத்தை அமைக்கிறது"
-
-#~ msgid "Sets 4∶3 (TV) aspect ratio"
-#~ msgstr "4:3 (TV) தோற்ற விகிதத்தை அமைக்கிறது"
-
-#~ msgid "Sets 16∶9 (widescreen) aspect ratio"
-#~ msgstr "தோற்ற விகிதம் 16:9 (அகலத்திரை) க்கு அமைக்கிறது"
-
-#~ msgid "Sets 2.11∶1 (DVB) aspect ratio"
-#~ msgstr "2.11:1 (DVB) தோற்ற விகிதத்தை அமைக்கிறது"
-
-#~ msgid "Zoom in"
-#~ msgstr "சிறிதாக்கு"
-
-#~ msgid "Skip _Forward"
-#~ msgstr "முன்னோக்கை கைவிடு (_F)"
-
-#~ msgid "Skip forward"
-#~ msgstr "முன்னோக்கை கைவிடு"
-
-#~ msgid "Skip _Backwards"
-#~ msgstr "பின்னோக்கை கைவிடு (_B)"
-
-#~ msgid "Skip backwards"
-#~ msgstr "பின்னோக்கை கைவிடு"
-
-#~ msgid "Time seek bar"
-#~ msgstr "நேர தேடல் பலகம்"
-
-#~ msgid "File _Format: %s"
-#~ msgstr "_F கோப்பு வடிவம்: %s"
-
-#~ msgid "All Files"
-#~ msgstr "அனைத்து கோப்புகளும்"
-
-#~ msgid "All Supported Files"
-#~ msgstr "எல்லா ஆதரவுள்ள கோப்புகளும்"
-
-#~ msgid "By Extension"
-#~ msgstr "விரிவாக்க படி"
-
-#~ msgid "File Format"
-#~ msgstr "கோப்பு வடிவம்"
-
-#~ msgid "Extension(s)"
-#~ msgstr "விரிவாக்கம்(கள்)"
-
-#~ msgid ""
-#~ "The program was not able to find out the file format you want to use for `"
-#~ "%s'. Please make sure to use a known extension for that file or manually "
-#~ "choose a file format from the list below."
-#~ msgstr ""
-#~ "`%s' க்கு நீங்கள் எந்த ஒழுங்கை பயன்படுத்த விரும்புகிறீர்கள் என நிரலுக்கு தெரியவில்லை."
-#~ "தெரிந்த நீட்சி கோப்புக்கு உள்ளதா என சோதிக்கவும். அல்லது கைமுரையாக கீழ் காணும் "
-#~ "பட்டியலில் இருந்து ஒரு கோப்பு முறையை தேர்ந்தெடுக்கவும். "
-
-#~ msgid "File format not recognized"
-#~ msgstr "கோப்பு வடிவம் அடையாளம் தெரியாதது"
-
-#~ msgid "_Play Now"
-#~ msgstr "(_P) இயக்கு இப்போது"
-
-#~ msgid "_Add to Playlist"
-#~ msgstr "_A பாடல் பட்டியலில் சேர் "
-
-#~ msgid "No File"
-#~ msgstr "கோப்பு இல்லை"
-
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "டோடம் இலவச மென் பொருளாகும். நீங்கள் இலவச மென் பொருள் அமைப்பினால் வெளியிடப்பட்ட ஜிஎன்யு "
-#~ "பொது அனுமதிக்கான இந்த 2ம் பதிப்பு அல்லது அடுத்த பதிப்புகள் விதிகளின் படி நீங்கள் "
-#~ "(விருப்பப்படி) மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்"
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "டோடம்  உபயோகப்படும் என்ற எதிர்பார்ப்புடன் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி,"
-#~ "குறிப்பிட்ட செயலுக்கான தகுதி உள்பட எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு "
-#~ "விவரங்களுக்கு ஜிஎன்யு பொது அனுமதிக்கான விதிகளை பார்க்கவும்"
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "இந்த நிரலுடன் ஜிஎன்யு பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு கிடைத்திருக்க "
-#~ "வேண்டும். இல்லையானால் கீழ் கண்ட முகவரிக்கு கடிதம் எழுதவும்.Free Software "
-#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-#~ "USA "
-
-#~ msgid ""
-#~ "Totem contains an exception to allow the use of proprietary GStreamer "
-#~ "plugins."
-#~ msgstr "தனியுரிமை ஜிஸ்ட்ரீமர் சொருகிகளை பயன்படுத்த டோடத்தில் ஒரு விதிவிலக்கு உள்ளது"
-
-#~ msgid "Copyright © 2002-2009 Bastien Nocera"
-#~ msgstr "பதிப்புரிமை © 2002-2009  பாஸ்தியன் நோசெரா"
-
-#~ msgid "translator-credits"
-#~ msgstr "I. Felix <ifelix@redhat.com>. Dr. T. Vasudevan <agnihot3@gmail.com>"
-
-#~ msgid "Totem Website"
-#~ msgstr "டோடம் வலைத்தளம்"
-
-#~ msgid "Totem %s"
-#~ msgstr "டோடம் %s"
-
-#~ msgid "Fullscreen"
-#~ msgstr "முழுத்திரை"
-
-#~ msgid "Open Location..."
-#~ msgstr "இடத்தினை திற..."
-
-#~ msgid "MP3 ShoutCast playlist"
-#~ msgstr "எம்பி3 ஷௌட்காஸ்ட்  பாடல் பட்டியல்"
-
-#~ msgid "MP3 audio (streamed)"
-#~ msgstr "எம்பி3 ஒலி (ஓடை)"
-
-#~ msgid "MP3 audio (streamed, DOS format)"
-#~ msgstr "எம்பி3 ஒலி (ஓடை டாஸ்(DOS) ஒழுங்கு)"
-
-#~ msgid "XML Shareable Playlist"
-#~ msgstr "எக்ஸ்எம்எல் பகிரக்கூடிய பாடல் பட்டியல்"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "இயக்க பட்டியலை சேமிக்க முடியவில்லை"
-
-#~ msgid "Save Playlist"
-#~ msgstr "பாடல் பட்டியலை சேமி"
-
-#~ msgid "Playlist"
-#~ msgstr "பாடல் பட்டியல்"
-
-#~ msgid "Playlist error"
-#~ msgstr "பாடல் பட்டியல் பிழை"
-
-#~ msgid "0:00 / 0:00"
-#~ msgstr "0:00 / 0:00"
-
-#~ msgid "%s (Streaming)"
-#~ msgstr "%s (ஓடையாக்கம்)"
-
-#~ msgid "Buffering"
-#~ msgstr "இடையகப்படுத்தல்"
-
-#~ msgid "%lf %%"
-#~ msgstr "%lf %%"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s, %s"
-
-#~ msgid "%s, %f %%"
-#~ msgstr "%s, %f %%"
-
-#~ msgid "Audio files"
-#~ msgstr "ஒலி கோப்புகள்"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "திரைப்படங்கள் அல்லது இயக்கப்பட்டியலை தேர்ந்தெடு"
-
-#~ msgid "Add Directory"
-#~ msgstr "அடைவு சேர்"
-
-#~ msgid "Create a video DVD or a (S)VCD from the currently opened movie"
-#~ msgstr ""
-#~ "திறந்துள்ள திரைப்படத்தில் இருந்து ஒரு விடியோ டிவிடி அல்லது ஒரு (எஸ்)விசிடி "
-#~ "உருவாக்குக"
-
-#~ msgid "Copy the currently playing video DVD"
-#~ msgstr "நடப்பில் இயங்கும் விடியோ டிவிடி ஐ படியெடு"
-
-#~ msgid "Copy the currently playing (S)VCD"
-#~ msgstr "நடப்பில் இயங்கும் விடியோ (எஸ்)விசிடி ஐ படியெடு "
-
-#~ msgid "Add Chapter..."
-#~ msgstr "அத்தியாயம் சேர்..."
-
-#~ msgid "D-Bus Service"
-#~ msgstr "டி-பஸ் (D-Bus) சேவை"
-
-#~ msgid "Grilo Browser"
-#~ msgstr "க்ரிலோ  உலாவி"
-
-#~ msgid "A plugin to let you browse media content from various sources"
-#~ msgstr "பல மூலங்களிலிருந்து ஊடக உள்ளடக்கங்களை நீங்கள் மேலோட ஒரு சொருகி"
-
-#~ msgid "Copy Location"
-#~ msgstr "இடத்தை நகலெடு"
-
-#~ msgid "Browse"
-#~ msgstr "உலாவு"
-
-#~| msgid "Recent files"
-#~ msgid "Recent"
-#~ msgstr "சமீபத்தியவை"
-
-#~ msgid "Download movie subtitles from OpenSubtitles"
-#~ msgstr "திரைப்பட துணை தலைப்புகளை ஓபன்ஸப்டைட்டிலில் இருந்து தரவிறக்கு"
-
-#~ msgid "Python Console Menu"
-#~ msgstr "பைத்தான் முனையம் பட்டி"
-
-#~ msgid "Show Totem's Python console"
-#~ msgstr "டோடமின் பைத்தான் முனையத்தை காட்டுக"
-
-#~ msgid "Enable remote Python debugging with rpdb2"
-#~ msgstr "தொலை பைத்தான் வழு நீக்கத்தை ஆர்பிடிபி2 உடன் செயல்படுத்து "
-
-#~ msgid "_Rotate Clockwise"
-#~ msgstr "_R வலச்சுழியாக சுற்று"
-
-#~ msgid "Rotate Counterc_lockwise"
-#~ msgstr "_l இடச்சுழியாக சுற்று"
-
-#~ msgid "Save a Copy..."
-#~ msgstr "நகலாக சேமி..."
-
-#~ msgid "Save a copy of the movie"
-#~ msgstr "திரைப்படத்தின் ஒரு நகலை சேமிக்கவும்"
-
-#~ msgid "Save a Copy"
-#~ msgstr "நகலாக சேமி"
-
-#~ msgid "Movie stream"
-#~ msgstr "திரைப்பட ஓடை"
-
-#~ msgid "Take a screenshot"
-#~ msgstr "திரைப்பிடிப்பினை எடுக்கவும்"
-
-#~ msgid "Create a gallery of screenshots"
-#~ msgstr "திரைவெட்டுகள் அரங்கத்தை உருவாக்கு"
-
-#~ msgid "_Skip To..."
-#~ msgstr "_S இங்கு தத்து..."
-
-#~ msgid "Skip to a specific time"
-#~ msgstr "குறிப்பிட்ட நேரத்திற்கு செல்"
-
-#~ msgid "Resize the canvas automatically on file load"
-#~ msgstr "கோப்பு ஏற்றப்படும் போது தானியங்கியாக திரையை மறு அளவாக்கு."
-
-#~ msgid ""
-#~ "Whether to remember the position of played audio/video files when pausing "
-#~ "or closing them"
-#~ msgstr ""
-#~ "இடைநிறுத்தம் அல்லது நிறுத்தம் செய்த போது ஒலி/ஒளி கோப்புகளில் இடத்தை நினைவில் வைக்க "
-#~ "வேண்டுமா. "
-
-#~ msgid "Start playing files from last position"
-#~ msgstr "கோப்புகளை இசைத்தலை கடைசி நிலையில் இருந்து துவங்கு"
-
-#~ msgid "_Resize the window when a new video is loaded"
-#~ msgstr "_R புதிய விடியோ ஏற்றப்பட்ட போது தானியங்கியாக சாளர அளவை மாற்றவும்."
-
-#~ msgid "_Resize 1∶2"
-#~ msgstr "_R மறு அளவாக்கு 1:2"
-
-#~ msgid "Resize to half the original video size"
-#~ msgstr "உண்மை விடியோ அளவுக்கு பாதி அளவு ஆக்கு"
-
-#~ msgid "Resize _1∶1"
-#~ msgstr "_1:1 மறுஅளவிடு"
-
-#~ msgid "Resize to the original video size"
-#~ msgstr "உண்மை விடியோ அளவுக்கு ஆக்கு"
-
-#~ msgid "Resize _2∶1"
-#~ msgstr "_2:1 மறுஅளவிடு"
-
-#~ msgid "Resize to double the original video size"
-#~ msgstr "உண்மை விடியோ அளவுக்கு இரட்டிப்பு அளவு ஆக்கு"
-
-#~ msgid "Show _Controls"
-#~ msgstr "கட்டுப்பாடுகளை காட்டு (_C)"
-
-#~ msgid "Show controls"
-#~ msgstr "கட்டுப்பாடுகளை காட்டு"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "கோப்பு செல்லுபடியாகும்  .desktop கோப்பு அல்ல"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "அடையாளம் தெரியாத மேல்மேசை கோப்பு பதிப்பு '%s' "
-
-#~ msgid "Starting %s"
-#~ msgstr "%s ஐ துவக்குகிறது"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "பயன்பாடு கட்டளை வரியில் ஆவணங்களை ஒப்புக்கொள்ளாது"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "இனம் காணாத துவக்க தேர்வு: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr "'Type=Link' மேல்மேசை உள்ளீடுக்கு ஆவண யூஆர்ஐ ஐ கொடுக்க இயலாது"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "துவக்க முடியாத உருப்படி"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "அமர்வு மேலாளருக்கு இணைப்பை செயல் நீக்கு"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "சேமித்த வடிவமைப்பு கூடிய கோப்பை குறிப்பிடுக"
-
-#~ msgid "FILE"
-#~ msgstr "FILE"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "அமர்வு மேலாண்மை அடையாளத்தை குறிப்பிடுக"
-
-#~ msgid "ID"
-#~ msgstr "ஐடி (ID)"
-
-#~ msgid "Session management options:"
-#~ msgstr "அமர்வு மேலாண்மை தேர்வுகள்:"
-
-#~ msgid "Show session management options"
-#~ msgstr "அமர்வு மேலாணமை தேர்வுகளை காட்டு"
-
-#~ msgid "No error message"
-#~ msgstr "பிழை செய்தி இல்லை"
-
-#~ msgid "Show/Hide Controls"
-#~ msgstr "கட்டுப்பாடுகளை காட்டு/மறை"
-
-#~ msgid "Playlist index"
-#~ msgstr "பாடல் பட்டியல் அட்டவணை"
-
-#~ msgid "Failed to parse CMML file"
-#~ msgstr "CMML கோப்பை அலகிடுதல் தோற்றது"
-
-#~ msgid "The URI ‘%s’ is not supported."
-#~ msgstr "யூஆர்ஐ ‘%s’ க்கு ஆதரவில்லை."
-
-#~ msgid "Add the video to the playlist"
-#~ msgstr "விடியோவை பாடல் பட்டியலில் சேர் "
-
-#~ msgid "Unknown video"
-#~ msgstr "தெரியாத ஔதத்தோற்றம் (விடியோ)"
-
-#~ msgid "No video URI"
-#~ msgstr "விடியோ யூஆர்ஐ இல்லை"
-
-#~ msgid "Play movies and songs"
-#~ msgstr "திரைப்படங்கள் மற்றும் பாடல்களை இயக்கு"
-
-#~ msgid "1.5 Mbps T1/Intranet/LAN"
-#~ msgstr "1.5 எம்பிபிஎஸ் (Mbps) T1/இன்டராநெட்/லான்(LAN)"
-
-#~ msgid "112 Kbps Dual ISDN/DSL"
-#~ msgstr "112 கேபிபிஎஸ் (Kbps) டூயல்  ஐஎஸ்டிஎன்/டிஎஸ்எல் (ISDN/DSL) "
-
-#~ msgid "14.4 Kbps Modem"
-#~ msgstr "14.4 கேபிபிஎஸ் (Kbps) மோடம்"
-
-#~ msgid "19.2 Kbps Modem"
-#~ msgstr "19.2 கேபிபிஎஸ் (Kbps) மோடம்"
-
-#~ msgid "256 Kbps DSL/Cable"
-#~ msgstr "256 கேபிபிஎஸ் (Kbps) டிஎஸ்எல்/கம்பி"
-
-#~ msgid "28.8 Kbps Modem"
-#~ msgstr "28.8 கேபிபிஎஸ் (Kbps) மோடம்"
-
-#~ msgid "33.6 Kbps Modem"
-#~ msgstr "33.6 கேபிபிஎஸ் (Kbps) மோடம்"
-
-#~ msgid "34.4 Kbps Modem"
-#~ msgstr "34.4 கேபிபிஎஸ் (Kbps) மோடம் "
-
-#~ msgid "384 Kbps DSL/Cable"
-#~ msgstr "384 கேபிபிஎஸ் (Kbps) டிஎஸ்எல்/கம்பி"
-
-#~ msgid "512 Kbps DSL/Cable"
-#~ msgstr "512 கேபிபிஎஸ் (Kbps) டிஎஸ்எல்/கம்பி"
-
-#~ msgid "56 Kbps Modem/ISDN"
-#~ msgstr "56 Kbps மோடம் /ISDN"
-
-#~ msgid "Configure the application"
-#~ msgstr "நிரலை வடிவமை"
-
-#~ msgid "Connection _speed:"
-#~ msgstr "இணைப்பு வேகம்: (_s)"
-
-#~ msgid "Intranet/LAN"
-#~ msgstr "Intranet/LAN"
-
-#~ msgid "Networking"
-#~ msgstr "பிணையமாக்கம்"
-
-#~ msgid "Open a file"
-#~ msgstr "ஓர் கோப்பை திறக்கவும்"
-
-#~ msgid "Open a non-local file"
-#~ msgstr "உள்ளமை இல்லா கோப்பினை திறக்கவும்"
-
-#~ msgid "Quit the program"
-#~ msgstr "நிரலிலிருந்து வெளியேறு"
-
-#~ msgid "Set the repeat mode"
-#~ msgstr "மீட்டுப்பாங்கை அமை"
-
-#~ msgid "Set the shuffle mode"
-#~ msgstr "கலக்கல் பாங்கு அமை"
-
-#~ msgid "Switch to fullscreen"
-#~ msgstr "முழுத்திரைக்கு மாற்று"
-
-#~ msgid ""
-#~ "Approximate network connection speed, used to select quality on media "
-#~ "over the network."
-#~ msgstr "வலைப்பின்னலில் ஊடகத்தின் தரத்தை நிர்ணயிக்க சராசரி இணைப்பு வேகம்"
-
-#~ msgid "Network connection speed"
-#~ msgstr "வலையமைப்பு இணைப்பு வேகம்"
-
-#~ msgid "Play Image '%s'"
-#~ msgstr "'%s' பிம்பத்தை இயக்கவும்"
-
-#~ msgid "device%d"
-#~ msgstr "சாதனம்%d"
-
-#~ msgid "Play Disc '%s'"
-#~ msgstr "'%s' வட்டினை இயக்கவும்"
-
-#~ msgid "Movie Player using %s"
-#~ msgstr "திரைப்பட இயக்கி %s ஐ பயன் படுத்துகிறது"
-
-#~ msgid ""
-#~ "Totem could not play this media (%s) although a plugin is present to "
-#~ "handle it."
-#~ msgstr "சொருகி இருப்பினும், டோடம் இந்த (%s) வகை ஊடகத்தை கையாளமுடியவில்லை. "
-
-#~ msgid ""
-#~ "You might want to check that a disc is present in the drive and that it "
-#~ "is correctly configured."
-#~ msgstr ""
-#~ "இயக்கியில் ஒரு வட்டு உள்ளதா அது சரியாக வடிவமைக்கப்பட்டு உள்ளதா என சோதிக்கலாம் "
-
-#~ msgid "More information about media plugins"
-#~ msgstr "ஊடக சொருகி பற்றி மேலும் தகவல்"
-
-#~ msgid ""
-#~ "Please install the necessary plugins and restart Totem to be able to play "
-#~ "this media."
-#~ msgstr ""
-#~ "இந்த வகை ஊடகத்தை இயக்க தேவையான சொருகிகளை நிறுவி பின் டோடமை மீள் துவக்கம் செய்க."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it does not have the "
-#~ "appropriate plugins to be able to read from the disc."
-#~ msgstr ""
-#~ "டோடம் இந்த (%s) வகை ஊடகத்தை கையாளமுடியாது. ஏனெனில் வட்டிலிருந்து படிக்க அதற்கான "
-#~ "சொருகி இல்லை."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because you do not have the "
-#~ "appropriate plugins to handle it."
-#~ msgstr "டோடம் இந்த (%s) வகை ஊடகத்தை கையாளமுடியாது. ஏனெனில் அதற்கான சொருகி இல்லை."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it is not supported."
-#~ msgstr "டோடம் இந்த (%s) வகை ஊடகத்தை கையாளமுடியாது. ஏனெனில் அதற்கான ஆதரவு இல்லை."
-
-#~ msgid "Please insert another disc to play back."
-#~ msgstr "தயவு செய்து இசைக்க மற்றொரு வட்டை உள்ளிடுக."
-
-#~ msgid "Totem does not support playback of Audio CDs"
-#~ msgstr "டோடம் ஒலி குறுவட்டுக்களை கையாளமுடியாது. ஏனெனில் அதற்கான ஆதரவு இல்லை."
-
-#~ msgid ""
-#~ "Please consider using a music player or a CD extractor to play this CD"
-#~ msgstr ""
-#~ "தயவு செய்து ஒரு இசை இசைப்பி அல்லது ஒரு குறுந்தட்டு பிரிப்பி ஐ பயன்படுத்தி இந்த "
-#~ "குறுவட்டை இயக்கவும்."
-
-#~ msgid "%d %%"
-#~ msgstr "%d %%"
-
-#~ msgid ""
-#~ "The requested audio output was not found. Please select another audio "
-#~ "output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "ஒலி வெளியீடு காணப்படவில்லை. வேறு ஒரு வெளியீட்டை  பல்லூடக அமைப்பு தேர்வியில் "
-#~ "தேர்ந்தெடுக்கவும்."
-
-#~ msgid "Location not found."
-#~ msgstr "இடத்தை கண்டு பிடிக்க முடியவில்லை."
-
-#~ msgid ""
-#~ "Could not open location; you might not have permission to open the file."
-#~ msgstr ""
-#~ "இடத்தை கண்டு பிடிக்க முடியவில்லை; உங்களுக்கு கோப்பை திறக்க தேவையான அனுமதி இல்லாமல் "
-#~ "இருக்கலாம்."
-
-#~ msgid ""
-#~ "The video output is in use by another application. Please close other "
-#~ "video applications, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "விடியோ வெளியீடு மற்ற நிரலால் பயன்படுத்ஹ்டப்படுகிறது. தயை செய்து மற்ற விடியோ நிரலை "
-#~ "மூடவும் அல்லது வேறு விடியோ வெளீயீட்டை  பல்லூடக தேர்வியில் தேர்ந்தெடுக்கவும்.."
-
-#~ msgid ""
-#~ "The audio output is in use by another application. Please select another "
-#~ "audio output in the Multimedia Systems Selector. You may want to consider "
-#~ "using a sound server."
-#~ msgstr ""
-#~ "ஒலி வெளியீடு மற்ற நிரலால் பயன்படுத்ஹ்டப்படுகிறது. தயை செய்து மற்ற ஒலி நிரலை மூடவும் "
-#~ "அல்லது வேறு ஒலி வெளீயீட்டை  பல்லூடக தேர்வியில் தேர்ந்தெடுக்கவும்.."
-
-#~ msgid ""
-#~ "Failed to create a GStreamer play object. Please check your GStreamer "
-#~ "installation."
-#~ msgstr "ஜிஸ்ட்ரீமர் இயக்க பொருளை உருவாக்க இயலவில்லை. ஜிஸ்ட்ரீமர்  நிறுவலை சோதிக்கவும்."
-
-#~ msgid ""
-#~ "Failed to open audio output. You may not have permission to open the "
-#~ "sound device, or the sound server may not be running. Please select "
-#~ "another audio output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "ஒலி வெளியீட்டை திறக்க முடியவில்லை. ஒலி சாதனத்தை திறக்க தேவையான அனுமதி இல்லாமல் "
-#~ "இருக்கலாம். அல்லது ஒலி சேவையகம் இயங்காமல் இருக்கலாம். பல்லூடக தேர்வியில் வேறு ஒலி "
-#~ "வெளியீட்டை தேர்ந்தெடுக்கவும்."
-
-#~ msgid ""
-#~ "Could not find the audio output. You may need to install additional "
-#~ "GStreamer plugins, or select another audio output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "ஒலி வெளியீட்டை கண்டு பிடிக்க முடியவில்லை. கூடுதல் ஜிஸ்ட்ரீமர் சொருகிகளை நீங்கள் நிறுவ "
-#~ "வேண்யிடிருக்கலாம். அல்லது பல்லூடக தேர்வியில் வேறு ஒலி வெளியீட்டை தேர்ந்தெடுக்கவும்."
-
-#~ msgid "Bemused"
-#~ msgstr "குழம்பிய"
-
-#~ msgid "Control Totem through a mobile phone with a Bemused client"
-#~ msgstr "குழம்பிய சார்ந்தோனுடன் ஒரு அலைபேசியால் டோடத்தை கட்டுப்படுத்து"
-
-#~ msgid "Untitled %d"
-#~ msgstr "தலைப்பில்லாத %d"
-
-#~ msgid "Totem Bemused Server"
-#~ msgstr "டோடம் குழம்பிய சேவையகம்"
-
-#~ msgid "Totem Bemused Server version 1.0"
-#~ msgstr "டோடம் குழம்பிய சேவையகம் வடிவ நிலை 0"
-
-#~ msgid "BBC iPlayer"
-#~ msgstr "பிபிசி ஐ இயக்கி"
-
-#~ msgid ""
-#~ "Stream BBC programs from the last 7 days from the BBC iPlayer service."
-#~ msgstr ""
-#~ "பிபிசி ஐ இயக்கி சேவையிலிருந்து கடைசி 7 நாட்கள் பிபிசி நிகழ்சிகளை ஓடையாக "
-#~ "வழங்குக. "
-
-#~ msgid "Error listing channel categories"
-#~ msgstr "பிழை பட்டியலிடுதல் வாய்க்கால் வகைகள்"
-
-#~ msgid ""
-#~ "There was an unknown error getting the list of television channels "
-#~ "available on BBC iPlayer."
-#~ msgstr ""
-#~ "பிபிசி ஐ இயக்கியில் கிடைக்கும் தொலைக்காட்சி வாய்க்கால்களின் பட்டியலை பெறுவதில் "
-#~ "தெரியாத பிழை "
-
-#~ msgid "Loading…"
-#~ msgstr "ஏற்றுகிறது..."
-
-#~ msgid "Error getting programme feed"
-#~ msgstr "நிகழ்ச்சி தரவை பெறுவதில் பிழை"
-
-#~ msgid ""
-#~ "There was an error getting the list of programmes for this channel and "
-#~ "category combination."
-#~ msgstr ""
-#~ "இந்த வாய்க்கால் மற்றும் வகை தொகுதிக்கு நிகழ்ச்சிகள்  பட்டியலை பெறுவதில் தெரியாத பிழை "
-
-#~ msgid "<no reason given>"
-#~ msgstr "<காரணம் ஏதும் தரவில்லை>"
-
-#~ msgid "Programme unavailable (\"%s\")"
-#~ msgstr "நிகழ்ச்சி கிடைக்கவில்லை (\"%s\")"
-
-#~ msgid ""
-#~ "A format string used to build the network service name used when "
-#~ "publishing playlists over the network. The following format placeholders "
-#~ "can be used: • %a: the program name as returned by "
-#~ "g_get_application_name() • %h: the machine's host name in title case • "
-#~ "%u: the user's login name in title case • %U: the user's real name • %%: "
-#~ "the percent sign"
-#~ msgstr ""
-#~ "வலைப்பின்னலில் இயக்கு பட்டியல்களை பிரசுரிக்கும்போது பயன்படுத்த வேண்டிய சரத்தின் "
-#~ "ஒழுங்கு. கீழ் காணும் ஒழுங்கு இடப்பிடிப்பிகள் பான்படுத்தக்கூடும். : • %a: "
-#~ "g_get_application_name() திருப்பியபடி நிரலின் பெயர்• %h: கணினியின் புரவலன் "
-#~ "பெயர். • %u: பயனரின் உள்நுழைவு பெயர்.• %U: பயனரின் உண்மை பெயர் • %%: "
-#~ "சதவிகிதக்குறி "
-
-#~ msgid "Format for network service name"
-#~ msgstr "வலைப்பின்னல் சேவை பெயருக்கு ஒழுங்கு"
-
-#~ msgid "Publisher protocol to use"
-#~ msgstr "பிரசுரிக்க போக்கு வரத்து நெறிமுறை."
-
-#~ msgid ""
-#~ "The transport protocol to use when publishing playlists over the network."
-#~ msgstr ""
-#~ "வலைப்பின்னலில் இயக்கு பட்டியல்களை பிரசுரிக்கும்போது பயன்படுத்த வேண்டிய போக்கு வரத்து "
-#~ "நெறிமுறை."
-
-#~ msgid "Neighbors"
-#~ msgstr "அண்டை வீட்டுக்காரர்கள்"
-
-#~ msgid "Publish Playlist"
-#~ msgstr "பாடல் பட்டியலை வெளியிடுக"
-
-#~ msgid "Share the current playlist via HTTP"
-#~ msgstr "தற்போதைய பாடல் பட்டியலை HTTP வழியாக பகிர்ந்து கொள்க"
-
-#~ msgid "Service _Name:"
-#~ msgstr "(_N) சேவை பெயர்:"
-
-#~ msgid ""
-#~ "The name used for announcing the playlist service on the network.\n"
-#~ "All occurrences of the string <b>%u</b> will be replaced by your name,\n"
-#~ "and <b>%h</b> will be replaced by your computer's host name."
-#~ msgstr ""
-#~ "வலைப்பின்னலில் உள்ள இசைபட்டியல் சேவையில் அறிவிக்க பெயர்.\n"
-#~ " <b>%u</b> என வரும் அனைத்து சரங்களும் உங்கள் பெயரால் மாற்றி அமைக்கப்படும்.\n"
-#~ "மேலும் <b>%h</b>என்பது உங்கள் கணினியின் பெயரால் மாற்றப்படும்."
-
-#~ msgid "Use _encrypted transport protocol (HTTPS)"
-#~ msgstr "(_e) மறையாக்கம் செய்த இட மாற்று (HTTPS)"
-
-#~ msgid "Save in _folder:"
-#~ msgstr "கோப்புறையில் சேமி (_f):"
-
-#~ msgid "_Name:"
-#~ msgstr "பெயர் (_N):"
-
-#~ msgid "There was an error saving the screenshot."
-#~ msgstr "திரைப்பிடிப்பினை சேமிப்பதில் பிழை."
-
-#~ msgid "Save Screenshot"
-#~ msgstr "திரைப்பிடிப்பினை சேமி"
-
-#~ msgid "A plugin to let you browse YouTube videos."
-#~ msgstr "யூட்யூப் விடியோக்களை நீங்கள் மேலோட ஒரு சொருகி"
-
-#~ msgid "YouTube Browser"
-#~ msgstr "யூ ட்யூப்  உலாவி"
-
-#~ msgid "Related Videos"
-#~ msgstr "தொடர்பான விடியோக்கள்"
-
-#~ msgid "Search Results"
-#~ msgstr "தேடல் விடைகள்"
-
-#~ msgid "_Open in Web Browser"
-#~ msgstr "(_O) வலை உலாவியில் திற "
-
-#~ msgid "Open the video in your web browser"
-#~ msgstr "விடியோவை உங்கள் வலை உலாவியில் திறக்கவும்"
-
-#~ msgid "YouTube"
-#~ msgstr "யூட்யூப் "
-
-#~ msgid "Cancelling query…"
-#~ msgstr "வேண்டுதலை இரத்து செய்கிறது..."
-
-#~ msgid "Error Searching for Videos"
-#~ msgstr "வீடியோக்களை தேடுவதில் பிழை"
-
-#~ msgid ""
-#~ "The response from the server could not be understood. Please check you "
-#~ "are running the latest version of libgdata."
-#~ msgstr ""
-#~ "சேவையகத்தில் இருந்து கிடைத்த பதிலை புரிந்து கொள்ள முடியவில்லை. தயை செய்து நீங்கள் "
-#~ "மிக சமீபத்திய லிப்ஜிடேடா(libgdata) பதிப்பை பயன்படுத்துகிறீர்களா என சோதிக்கவும்."
-
-#~ msgid "Fetching search results…"
-#~ msgstr "தேடல் விடைகளை கொண்டு வருகிறது..."
-
-#~ msgid "Fetching related videos…"
-#~ msgstr "தொடர்பான விடியோக்கள் ஐ கொண்டு வருகிறது..."
-
-#~ msgid "Error Opening Video in Web Browser"
-#~ msgstr "வீடியோவை வலை உலாவியில் திறப்பதில் பிழை "
-
-#~ msgid "Fetching more videos…"
-#~ msgstr "மேலும் விடியோக்களை கொண்டு வருகிறது..."
-
-#~ msgid "Video Format Not Supported"
-#~ msgstr "வீடியோ ஒழுங்குக்கு ஆதரவில்லை"
-
-#~ msgid ""
-#~ "This video is not available in any formats which Totem supports. Would "
-#~ "you like to open it in your web browser instead?"
-#~ msgstr ""
-#~ "இந்த விடியோ டோடம் ஆதரவு அளிக்கும் எந்த ஒழுங்கிலும் இல்லை. இதற்கு பதிலாக உலாவியில் "
-#~ "திறக்க விருப்பமா?"
-
-#~ msgid "0 frames per second"
-#~ msgstr "நொடிக்கு 0 சட்டங்கள்"
-
-#~ msgid "0 kbps"
-#~ msgstr "0 kbps"
-
-#~ msgid "0 x 0"
-#~ msgstr "0 x 0"
-
-#~ msgid "Zoom Out"
-#~ msgstr "பெரிதாக்கு"
-
-#~ msgid "Zoom Reset"
-#~ msgstr "அளவினை மறுஅமை"
-
-#~ msgid "Zoom out"
-#~ msgstr "பெரிதாக்கு"
-
-#~ msgid "Zoom reset"
-#~ msgstr "அளவினை மறு அமை"
-
-#~ msgid ""
-#~ "The playback of this movie requires the following decoders which are not "
-#~ "installed:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "இந்த திரைப்படத்தை இயக்க பின் வரும் குறி உணர்விகள் தேவை; அவை நிறுவப்படவில்லை:\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "Media file could not be played."
-#~ msgstr "ஊடக கோப்பு இயக்கப்பட முடியவில்லை."
-
-#~ msgid "Too old version of GStreamer installed."
-#~ msgstr "மிகப்பழைய பதிப்பு ஜிஸ்ட்ரீமர் நிறுவப்பட்டுள்ளது."
-
-#~ msgid ""
-#~ "Failed to open video output. It may not be available. Please select "
-#~ "another video output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "விடியோ வெளியீடு தோல்வியுற்றது. அது கிடைக்காமல் இருக்கலாம். பல்லூடக தேர்வியில் வேறு "
-#~ "விடியோ வெளியீட்டை தேர்ந்தெடுக்கவும்."
-
-#~ msgid ""
-#~ "Could not find the video output. You may need to install additional "
-#~ "GStreamer plugins, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "விடியோ வெளியீட்டை கண்டு பிடிக்க முடியவில்லை. கூடுதல் ஜிஸ்ட்ரீமர் சொருகிகளை நீங்கள் "
-#~ "நிறுவ வேண்யிடிருக்கலாம். அல்லது பல்லூடக தேர்வியில் வேறு விடியோ வெளியீட்டை "
-#~ "தேர்ந்தெடுக்கவும்."
-
-#~ msgid "%s"
-#~ msgstr "%s"
-
-#~ msgid "Coherence DLNA/UPnP Client"
-#~ msgstr "கொஹரன்ஸ்  டிஎலென்ஏ(DLNA)/யூபிஎன்பி(UPnP) சார்ந்தோன்."
-
-#~ msgid "A DLNA/UPnP client for Totem powered by Coherence"
-#~ msgstr ""
-#~ "கொஹரன்ஸ் ஆல் சக்தி பெற்ற டோடம் க்கு ஒரு டிஎலென்ஏ(DLNA)/யூபிஎன்பி(UPnP) சார்ந்தோன்."
-
-#~ msgid "By artist"
-#~ msgstr "கலைஞர் வாரியாக:"
-
-#~ msgid "By tag"
-#~ msgstr "ஒட்டால் "
-
-#~ msgid "Jamendo Album Page"
-#~ msgstr "ஜாமென்டோ ஆல்பம் பக்கம்"
-
-#~ msgid "Latest Releases"
-#~ msgstr "சமீபத்திய வெளியீடுகள் "
-
-#~ msgid "Number of albums to _retrieve:"
-#~ msgstr "(_r) மீட்க வேண்டிய ஆல்பங்களின் எண் :"
-
-#~ msgid "Popular"
-#~ msgstr "புகழ்பெற்றதால்"
-
-#~ msgid "Preferred audio _format:"
-#~ msgstr "(_f) விருப்பமான ஒலி ஒழுங்கு:"
-
-#~ msgid "_Open Jamendo Album Page in Browser"
-#~ msgstr "உலாவியில் ஜாமென்டோ ஆல்பம் பக்கத்தை திற"
-
-#~ msgid "Jamendo"
-#~ msgstr "ஜாமென்டோ"
-
-#~ msgid ""
-#~ "Listen to the large collection of Creative Commons licensed music on "
-#~ "Jamendo."
-#~ msgstr "ஜாமென்டோவில் உள்ள மகத்தான க்ரியேடிவ் காமன் உரிம இசையின் தொகுப்பை கேளுங்கள்"
-
-#~ msgid "You need to install the Python simplejson module."
-#~ msgstr "பைத்தான் சிம்பிள்ஜெட்சன் தொகுப்பை நீங்கள் நிறுவ வேண்டும்."
-
-#~ msgid "Artist: %s"
-#~ msgstr "கலைஞர்: %s"
-
-#~ msgid "%Y-%m-%d"
-#~ msgstr "%Y-%m-%d"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "Genre: %s"
-#~ msgstr "பாரம்பரியம்: %s"
-
-#~ msgid "Released on: %s"
-#~ msgstr "வெளியிடப்பட்டது: %s"
-
-#~ msgid "License: %s"
-#~ msgstr "உரிமம்: %s"
-
-#~ msgid "%02d. %s"
-#~ msgstr "%02d. %s"
-
-#~ msgid "Album: %s"
-#~ msgstr "ஆல்பம்: %s"
-
-#~ msgid "Duration: %s"
-#~ msgstr "காலஅளவு: %s"
-
-#~ msgid "Fetching albums, please wait…"
-#~ msgstr "ஆல்பங்களை கொண்டு வருகிறது. தயவு செய்து காத்திருக்கவும்..."
-
-#~ msgid ""
-#~ "Failed to connect to Jamendo server.\n"
-#~ "%s."
-#~ msgstr ""
-#~ "ஜாமென்டோ சேவையகத்துடன் இணைப்பது தோல்வியுற்றது .\n"
-#~ "%s."
-
-#~ msgid "The Jamendo server returned code %s."
-#~ msgstr "ஜாமென்டோ சேவையகம் குறி %s ஐ திருப்பியது "
-
-#~ msgid "An error occurred while fetching albums."
-#~ msgstr "ஆல்பங்களை கொண்டு வருவதில் பிழை ஏற்பட்டது"
-
-#~ msgid "%H:%M:%S"
-#~ msgstr "%H:%M:%S"
-
-#~ msgid "%M:%S"
-#~ msgstr "%M:%S"
-
-#~ msgid "en"
-#~ msgstr "en"
-
-#~ msgid "Audio format to download from Jamendo"
-#~ msgstr "ஜமாண்டோவில் இருந்து தரவிறக்க ஒலி ஒழுங்கு"
-
-#~ msgid "Number of results per page"
-#~ msgstr "ஒரு பக்கத்தில் விடைகளின் எண்:"
-
-#~ msgid ""
-#~ "The number of Jamendo search results to display in each page of results."
-#~ msgstr "ஒவ்வொரு பக்கத்திலும் ஜமாண்டோ தேடல் விடைகளில் காட்ட வேண்டிய விடைகளின் எண்ணிக்கை"
-
-#~ msgid "The preferred audio format to download tracks from Jamendo in."
-#~ msgstr "ஜமாண்டோவில் இருந்து ஒலித்தடங்களை தரவிறக்க விருப்பமான ஒலி ஒழுங்கு"
-
-#~ msgid "Language"
-#~ msgstr "மொழிகள்"
-
-#~ msgid "Could not connect to Tracker"
-#~ msgstr "டிராக்கர் உடன் இணைக்க முடியவில்லை."
-
-#~ msgid "No results"
-#~ msgstr "விடைகள் இல்லை"
-
-#~ msgid "Showing %i - %i of %i match"
-#~ msgid_plural "Showing %i - %i of %i matches"
-#~ msgstr[0] "காட்டப்படுவது %i -  %i ஆவது %i இல் பொருத்தம்."
-#~ msgstr[1] "காட்டப்படுவது %i -  %i ஆவது %i இல் பொருத்தங்கள்"
-
-#~ msgid "Page"
-#~ msgstr "பக்கம்"
-
-#~ msgid "Set the window icon to the thumbnail of the playing movie"
-#~ msgstr "இயக்கப்படும் திரைப்படத்தின் குறும்படத்துக்கு  சாளரம் அமை"
-
-#~ msgid "Thumbnail"
-#~ msgstr "குறும்படம்"
-
-#~ msgid "Search for local videos using Tracker"
-#~ msgstr "ட்ராக்கர் ஐ பயன்படுத்தி உள்ளமை விடியோக்களை தேடுக"
-
-#~ msgid "Browser Plugin using %s"
-#~ msgstr "உலாவி செருகி %s ஐ பயன்படுத்துகிறது."
-
-#~ msgid "Totem Browser Plugin"
-#~ msgstr "டோடம் உலாவி செருகி"
-
-#~ msgid ""
-#~ "Approximate network connection speed, used to select quality on media "
-#~ "over the network: \"0\" for 14.4 Kbps Modem, \"1\" for 19.2 Kbps Modem, "
-#~ "\"2\" for 28.8 Kbps Modem, \"3\" for 33.6 Kbps Modem, \"4\" for 34.4 Kbps "
-#~ "Modem, \"5\" for 56 Kbps Modem/ISDN, \"6\" for 112 Kbps Dual ISDN/DSL, "
-#~ "\"7\" for 256 Kbps DSL/Cable, \"8\" for 384 Kbps DSL/Cable, \"9\" for 512 "
-#~ "Kbps DSL/Cable, \"10\" for 1.5 Mbps T1/Intranet/LAN, \"11\" for Intranet/"
-#~ "LAN."
-#~ msgstr ""
-#~ "தோராயமான வலை பின்னல் வேகம். வலைப்பின்னலில் உள்ள ஊடகத்தின் துல்லியத்தை தேர்ந்து எடுக்க "
-#~ "உதவுகிறது.: \"0\" க்கு  14.4 கேபிபிஎஸ் மோடம் , \"1\" க்கு  19.2 கேபிபிஎஸ் "
-#~ "மோடம் , \"2\" க்கு  28.8 கேபிபிஎஸ் மோடம் , \"3\" க்கு  33.6 கேபிபிஎஸ் மோடம் , "
-#~ "\"4\" க்கு  34.4 கேபிபிஎஸ் மோடம் , \"5\" க்கு  56 கேபிபிஎஸ் மோடம் /ஐஎஸ்டிஎன், "
-#~ "\"6\" க்கு  112 கேபிபிஎஸ் இரட்டை  ஐஎஸ்டிஎன்/டிஎஸ்எல் , \"7\" க்கு  256 கேபிபிஎஸ் "
-#~ "டிஎஸ்எல் /கம்பி , \"8\" க்கு  384 கேபிபிஎஸ் டிஎஸ்எல் /கம்பி , \"9\" க்கு  512 "
-#~ "கேபிபிஎஸ் டிஎஸ்எல் /கம்பி , \"10\" க்கு  1.5 எம்பிபிஎஸ் (Mbps)  T1/இன்ட்ராநெட்/"
-#~ "லான் , \"11\" க்கு  இன்ட்ராநெட்/லான் ."
-
-#~ msgid ""
-#~ "Quality settings for the audio visualization: \"0\" for small, \"1\" for "
-#~ "normal, \"2\" for large, \"3\" for extra large."
-#~ msgstr ""
-#~ "ஒலி காணல்களுக்கு தர அமைப்பு: \"0\" சிறியது, \"1\" சாதாரணதுக்கு, \"2\" "
-#~ "பெரியதுக்கு, \"3\" மிகப்பெரியதுக்கு."
-
-#~ msgid ""
-#~ "Type of audio output to use: \"0\" for stereo, \"1\" for 4-channel "
-#~ "output, \"2\" for 5.0 channel output, \"3\" for 5.1 channel output, \"4\" "
-#~ "for AC3 Passthrough."
-#~ msgstr ""
-#~ "பயன்படுத்த ஒலி வெளியீட்டு வகை: \"0\" ஸ்டீரியோவுக்கு, \"1\" 4-தட வெளியீடுக்கு \"2\" "
-#~ "5.0 தட வெளியீடுக்கு, \"3\" 5.1 தட வெளியீடுக்கு, \"4\" AC3 வெளியீடுக்கு."
-
-#~ msgid "UTF-8"
-#~ msgstr "UTF-8"
-
-#~ msgid "Whether to autoload external chapter files when a movie is loaded."
-#~ msgstr "திரைப்படம் ஏற்றப்படும்போது தானியங்கியாக  அத்தியாய கோப்புகளை ஏற்றுவதா."
-
-#~ msgid "Don't connect to an already-running instance"
-#~ msgstr "ஏற்கெனவே செயலில் உள்ள நிகழ்வுடன் இணைக்காதே"
-
-#~ msgid "Enable visual effects?"
-#~ msgstr "காட்சி ஜாலங்களை செயல்படச்செய்யவா?"
-
-#~ msgid ""
-#~ "It seems you are running Totem remotely.\n"
-#~ "Are you sure you want to enable the visual effects?"
-#~ msgstr ""
-#~ "நீங்கள் டோடம்மை தொலை இடத்திலிருந்து இயக்கவதாக தெரிகிறது. நிச்சயம் காட்சி ஜாலங்களை "
-#~ "செயல்படச்செய்யவா?"
-
-#~ msgid ""
-#~ "Changing the visuals effect type will require a restart to take effect."
-#~ msgstr "காட்சி ஜாலங்கள் அமைப்பு மாற்றங்கள் செயலுக்கு வர ஒரு மீட்டு துவக்கம் தேவை."
-
-#~ msgid ""
-#~ "The change of audio output type will only take effect when Totem is "
-#~ "restarted."
-#~ msgstr "ஒலி வெளியீடு மாற்றங்கள் செயலுக்கு வர ஒரு மீட்டு துவக்கம் தேவை."
-
-#~ msgid "Could not open link"
-#~ msgstr "இணைப்பை திறக்க முடியவில்லை"
-
-#~ msgid "Totem could not initialize the configuration engine."
-#~ msgstr "வைவமைப்பு இயந்திரத்தை டோடம் துவக்க முடியவில்லை"
-
-#~ msgid "Make sure that GNOME is properly installed."
-#~ msgstr "நோம் சரியாக நிறுவப்பட்டு உள்ளதா என உறுதி செய்யவும்."
-
-#~ msgid "Chapters support"
-#~ msgstr "அத்தியாய ஆதரவு"
-
-#~ msgid "Continue to watch movie without loaded chapters"
-#~ msgstr "ஏற்றப்படாத அத்தியாயங்களுடன் நகர் படத்தை தொடர்ந்து காணவும்"
-
-#~ msgid "_Go to"
-#~ msgstr "(_G) இங்கே செல்"
-
-#~ msgid "Please check you rights and free space"
-#~ msgstr "உங்கள்உரிமைகளையும் காலி இடத்தையும் சோதிக்கவும்"
-
-#~ msgid "Error loading Galago plugin"
-#~ msgstr "காலகோ சொருகியை ஏற்றுவதில் பிழை"
-
-#~ msgid "Could not connect to the Galago daemon."
-#~ msgstr "காலகோ கிங்கரன் உடன் இணைக்க முடியவில்லை."
-
-#~ msgid "Recordings"
-#~ msgstr "பதிவுகள்"
-
-#~ msgid "MythTV Recordings"
-#~ msgstr "மித்டிவி பதிவுகள்"
-
-#~ msgid "MythTV LiveTV"
-#~ msgstr "மித் டிவி நிகழ் டிவி"
-
-#~ msgid "_Download Movie Subtitles..."
-#~ msgstr "(_D) திரைப்பட துணைத்தலைப்புகளை தரவிறக்கு..."
-
-#~ msgid "seconds"
-#~ msgstr "நொடிகள்"
-
-#~ msgid "Could not get name and thumbnail for %s: %s"
-#~ msgstr " %s கோப்புக்கு பெயரும் சிறுபடமும் பெறமுடியவில்லை: %s"
-
-#~ msgid "Error Looking Up Video URI"
-#~ msgstr "வீடியோவின் யூஆர்ஐ ஐ காண்பதில் பிழை"
-
-#~ msgid "Author:"
-#~ msgstr "ஆசிரியர்:"
-
-#~ msgid "C_onfigure..."
-#~ msgstr "_வடிவமை..."
-
-#~ msgid "Copyright:"
-#~ msgstr "காப்புரிமை:"
-
-#~ msgid "Description:"
-#~ msgstr "விவரம்:"
-
-#~ msgid "Site:"
-#~ msgstr "தளம்:"
-
-#~ msgid "Deinterlace"
-#~ msgstr "பின்னலைஅவிழ்"
-
-#~ msgid "_Deinterlace"
-#~ msgstr "பின்னலைஅவிழ் (_D)"
-
-#~ msgid "Buffer size"
-#~ msgstr "இடையக அளவு"
-
-#~ msgid "Enable deinterlacing"
-#~ msgstr "டீஇன்டர்லேஸிங்கை செயல்படச்செய்"
-
-#~ msgid "Maximum amount of data to decode ahead of display (in seconds)"
-#~ msgstr "காட்டு முன் குறி உணர்வதற்கு  அதிக அளவு தரவு (நொடிகளில்)"
-
-#~ msgid "Whether the main window should stay on top"
-#~ msgstr "முக்கிய சாளரம் எப்போதும் மேலே இருக்க வேண்டுமா?"
-
-#~ msgid "Whether the main window should stay on top of the other ones"
-#~ msgstr "முக்கிய சாளரம் எப்போதும் மற்றவற்றின் மேலே இருக்க வேண்டுமா?"
-
-#~ msgid "Could not launch URL \"%s\": %s"
-#~ msgstr "யூஆர்எல் \"%s\" ஐ துவக்க முடியவில்லை: %s"
-
-#~ msgid "Default browser not configured"
-#~ msgstr "முன்னிருப்பு உலாவி வடிவமைக்கப்படவில்லை"
-
-#~ msgid "Error launching URI"
-#~ msgstr "யூஆர்எல் துவக்குவதில் பிழை"
-
-#~ msgid "Enabled"
-#~ msgstr "இயலுமைடுத்தப்பட்ட"
-
-#~ msgid ""
-#~ "Unable to activate plugin %s.\n"
-#~ "%s"
-#~ msgstr ""
-#~ "சொருகுபொருள் %s ஐ செயல்படுத்த முடியவில்லை \n"
-#~ "%s"
-
-#~ msgid "Unable to activate plugin %s"
-#~ msgstr "சொருகுபொருள் %s ஐ செயல்படுத்த முடியவில்லை"
-
-#~ msgid "Plugin Error"
-#~ msgstr "செருகி பிழை"
-
-#~ msgid "Jamendo Plugin Configuration"
-#~ msgstr "ஜாமென்டோ செருகி வடிவமைப்பு"
-
-#~ msgid "Sound volume"
-#~ msgstr "ஒலி அளவு"
-
-#~ msgid "Sound volume, in percent, between 0 and 100"
-#~ msgstr "ஒலி அளவு, சத விகிதத்தில், 0 க்கும் 100 க்கும் இடையே"
-
-#~ msgid "DVB Adapter %u"
-#~ msgstr "டிவிபி (DVB) ஏற்பி %u"
-
-#~ msgid "Watch TV on '%s'"
-#~ msgstr "'%s தொலைக்காட்சி பெட்டியை பார்க்க"
-
-#~ msgid "Sets 16:9 (Anamorphic) aspect ratio"
-#~ msgstr "16:9 (Anamorphic) தோற்ற விகிதத்தை அமைக்கிறது"
-
-#~ msgid ""
-#~ "Totem cannot play TV, because no TV adapters are present or they are not "
-#~ "supported."
-#~ msgstr ""
-#~ "டோடம் தொலைக்காட்சியை கையாளமுடியாது. ஏனெனில்  அதற்கான இசைவி இல்லை அல்லது அவற்றுக்கு "
-#~ "ஆதரவு இல்லை. "
-
-#~ msgid "Please insert a supported TV adapter."
-#~ msgstr "தயவு செய்து ஆதரவு உள்ள டிவி  இசைவியை செருகு "
-
-#~ msgid "More information about watching TV"
-#~ msgstr "தொலைக்காட்சி பெட்டி பார்த்தல் குறித்து மேலும் தகவல்கள்"
-
-#~ msgid "Totem is missing a channels listing to be able to tune the receiver."
-#~ msgstr "வாங்கியை நுண்திருத்த டோடம் க்கு வாய்க்கால்கள் பட்டியல் இல்லை"
-
-#~ msgid ""
-#~ "Please follow the instructions provided in the link to create a channels "
-#~ "listing."
-#~ msgstr ""
-#~ "தயவு செய்து தொடுப்பில் தரப்பட்டுள்ள வழி முறைகளை பின்பற்றி வாய்க்கால்கள் பட்டியலை "
-#~ "தயாரிக்கவும்.."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because the TV device is busy."
-#~ msgstr ""
-#~ " (%s) வகை ஊடகத்தை டோடம் இயக்க முடியாது. ஏனெனில் டிவி சாதனம் வேலையாக உள்ளது."
-
-#~ msgid "Please try again later."
-#~ msgstr "தயவு செய்து பிறகு முயற்சிக்கவும்"
-
-#~ msgid "TV signal lost"
-#~ msgstr "டிவி சமிக்ஞை தொலைந்தது"
-
-#~ msgid "Please verify your hardware setup."
-#~ msgstr "தயவு செய்து உங்கள் வன்பொருள் அமைப்பை சரி பார்க்கவும்."
-
-#~ msgid "Screenshot%d.jpg"
-#~ msgstr "திரைவெட்டு%d.jpg"
-
-#~ msgid "Totem could not play '%s'"
-#~ msgstr "டோடம் '%s' ஐ இயக்க முடியவில்லை."
-
-#~ msgid "The Totem plugin could not be started."
-#~ msgstr "டோடம் சொருகியை துவக்க முடியவில்லை"
-
-#~ msgid "<b>Language</b>"
-#~ msgstr "<b>மொழி</b>"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "Could not initialise the thread-safe libraries."
-#~ msgstr "இழை காப்பு நூலகங்களை துவக்க முடியவில்லை"
