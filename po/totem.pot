@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-11 15:09+0000\n"
+"POT-Creation-Date: 2016-11-17 22:10-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -680,28 +680,22 @@ msgid ""
 "installed."
 msgstr ""
 
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:521
-#, c-format
-msgid "Could not open shopify website: %s"
-msgstr ""
-
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:548
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:544
 msgid "Unable to play the file"
 msgstr ""
 
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:552
 msgid ""
 "This file type is currently unsupported. To support this type of file, you "
 "can purchase our audio/video codec upgrade to add support for additional "
 "file formats."
 msgstr ""
 
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:560
-#, c-format
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
 msgid "_Purchase Codec Upgrade"
 msgstr ""
 
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:568
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:564
 msgid "This file type is unsupported."
 msgstr ""
 
@@ -1812,12 +1806,4 @@ msgstr ""
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:2
 msgid "Sets the user agent for the Vimeo site"
-msgstr ""
-
-#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:1
-msgid "Zeitgeist Plugin"
-msgstr ""
-
-#: ../src/plugins/zeitgeist-dp/zeitgeist-dp.plugin.in.h:2
-msgid "A plugin sending events to Zeitgeist"
 msgstr ""
