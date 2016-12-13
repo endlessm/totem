@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-17 22:10-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
+"Last-Translator: georgian balan <braila222@gmail.com>, 2016\n"
 "Language-Team: Romanian (https://www.transifex.com/endless-mobile-inc/teams/9016/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: ../data/org.gnome.Totem.desktop.in.in.in.h:1 ../src/totem.c:66
 #: ../src/totem.c:72 ../src/totem-grilo.c:1864 ../src/totem-object.c:3663
 msgid "Videos"
-msgstr "Videouri"
+msgstr "Videoclipuri"
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:2
 #: ../data/org.gnome.Totem.desktop.in.in.in.h:2
@@ -36,17 +36,17 @@ msgid ""
 "DVDs, as well as local network video shares (using UPnP/DLNA) and video "
 "highlights from a number of web sites."
 msgstr ""
-"Videouri, cunoscut și ca Totem, este playerul de filme oficial al mediului "
-"desktop GNOME. Ca funcționalități de remarcă o listă căutabilă de videouri "
-"locale, și DVD-uri, dar și partajări de video locale (folosind UPnP/DLNA) și"
-" prezentări de videouri de pe numeroase situri."
+"Videocplicuri, cunoscut și ca Totem, este playerul de filme oficial al "
+"mediului desktop GNOME. Ca funcționalități de remarcă o listă căutabilă de "
+"videouri locale, și DVD-uri, dar și partajări de video locale (folosind "
+"UPnP/DLNA) și prezentări de videouri de pe numeroase situri."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:4
 msgid ""
 "Totem comes with added functionality such as: subtitle downloader, and "
 "support for recording DVDs."
 msgstr ""
-"Totem vine cu funcționalități adăugate cum ar fi: descărcător de subtitluri "
+"Totem vine cu funcționalități adăugate cum ar fi: descărcător de subtitrari "
 "și suport pentru înregistrarea DVD-urilor."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:5
@@ -59,7 +59,7 @@ msgstr "Tabul proprietăților fișierelor"
 
 #: ../data/org.gnome.Totem.desktop.in.in.in.h:3
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
-msgstr "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;Filme;"
+msgstr "Video;Seriale;Film;Clipuri;Player;DVD;TV;Disc;"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -83,7 +83,7 @@ msgstr "Mod repetitiv"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:6
 msgid "Whether to disable deinterlacing for interlaced movies"
-msgstr "Dacă să fie dezactivată deîntrețeserea filmelor întrețesute"
+msgstr "Dacă să fie dezactivată intercalarea filmelor intercalate"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:7
 msgid "Type of audio output to use"
@@ -355,142 +355,142 @@ msgstr "Canale:"
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Preferences"
-msgstr ""
+msgstr "Preferinte"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Paraseste"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Volum"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Creste volum"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Scade volum"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Vizualizare"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Comutare la ecran complet"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Iesire din ecran complet"
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Zoom +"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Zoom -"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Redare"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Redare / Pauză"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "Videoclip sau capitol anterior"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "Videoclip sau capitol urmator"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Sari"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "Inapoi 15 secunde"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "Inainte 60 de secunde"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "Inapoi 0 secunde"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "Inainte 15 secunde"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "Inapoi 3 minute"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "Inainte 10 minute"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Sari la..."
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "Meniu de navigare DVD"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Navigheaza in sus"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Navighteaza in jos"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Navigheaza in stanga"
 
 #: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "Navigheaza in dreapta"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -498,7 +498,7 @@ msgstr "Preferi_nțe"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Scurtaturi tastatura"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -721,14 +721,17 @@ msgid ""
 "can purchase our audio/video codec upgrade to add support for additional "
 "file formats."
 msgstr ""
+"Tipul de fisier nu este suportat pentru moment.Pentru a suporta acest tip de"
+" fisier,poti achizitiona actualizarea de codecuri audio/video pentru a "
+"adauga mai multe formate de fisiere suportate."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
 msgid "_Purchase Codec Upgrade"
-msgstr ""
+msgstr "_Achizitie Actualizari Codec"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:564
 msgid "This file type is unsupported."
-msgstr ""
+msgstr "Tipul de fisier nu este suportat."
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9

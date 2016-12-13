@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-17 22:10-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
+"Last-Translator: Hartono <hartono.s10@gmail.com>, 2016\n"
 "Language-Team: Indonesian (https://www.transifex.com/endless-mobile-inc/teams/9016/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -352,57 +352,57 @@ msgstr "Kanal:"
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Umum"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Preferences"
-msgstr ""
+msgstr "Preferensi"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Keluar"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Naikkan Volume"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Turunkan volume"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Lihat"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Aktifkan layar penuh"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Keluar layar penuh"
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Perbesar"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Perkecil"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
@@ -412,32 +412,32 @@ msgstr ""
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Putar/Jeda"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "Video atau bab sebelumnya"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "Video atau bab selanjutnya"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Lompati"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "Kembali ke 15 detik sebelumnya"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "Maju ke 60 detik berikutnya"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
@@ -462,7 +462,7 @@ msgstr ""
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Lompati ke..."
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
@@ -495,7 +495,7 @@ msgstr "Prefere_nsi"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "Jalan pintas papan ketik"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -711,6 +711,9 @@ msgid ""
 "can purchase our audio/video codec upgrade to add support for additional "
 "file formats."
 msgstr ""
+"Tipe berkas ini tidak didukung untuk saat ini. Untuk mendukung tipe berkas "
+"ini, anda dapat membeli peningkatan kodek audio/video kami untuk menambah "
+"dukungan berbagai format berkas tambahan."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
 msgid "_Purchase Codec Upgrade"
@@ -718,7 +721,7 @@ msgstr ""
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:564
 msgid "This file type is unsupported."
-msgstr ""
+msgstr "Tipe berkas ini tidak didukung."
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
@@ -1165,7 +1168,7 @@ msgstr "Tambah ke Favorit"
 #: ../src/totemselectiontoolbar.ui.h:2
 msgctxt "button"
 msgid "Play"
-msgstr ""
+msgstr "Mainkan"
 
 #: ../src/totemselectiontoolbar.ui.h:4
 msgid "Shuffle"
