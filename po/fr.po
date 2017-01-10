@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 05:04+0000\n"
+"POT-Creation-Date: 2017-01-03 05:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: French (https://www.transifex.com/endless-mobile-inc/teams/9016/fr/)\n"
@@ -725,14 +725,18 @@ msgid ""
 "can purchase our audio/video codec upgrade to add support for additional "
 "file formats."
 msgstr ""
+"Ce type de fichier n'est actuellement pas pris en charge. Pour prendre en "
+"charge ce type de fichier, vous pouvez acheter notre mise à niveau de codec "
+"audio/vidéo pour ajouter la compatibilité avec des formats de fichiers "
+"supplémentaires."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
 msgid "_Purchase Codec Upgrade"
-msgstr ""
+msgstr "_Acheter la mise à niveau de Codec"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:564
 msgid "This file type is unsupported."
-msgstr ""
+msgstr "Ce type de fichier n'est pas pris en charge."
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9

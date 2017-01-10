@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 05:04+0000\n"
+"POT-Creation-Date: 2017-01-03 05:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/endless-mobile-inc/teams/9016/zh_TW/)\n"
@@ -694,15 +694,15 @@ msgid ""
 "This file type is currently unsupported. To support this type of file, you "
 "can purchase our audio/video codec upgrade to add support for additional "
 "file formats."
-msgstr ""
+msgstr "目前不支援此檔案類型。欲使此類檔案獲得支援，您可以購買我們的音訊／視訊解碼器更新版，為其他檔案格式新增支援。"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
 msgid "_Purchase Codec Upgrade"
-msgstr ""
+msgstr "購買轉碼器升級(_P)"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:564
 msgid "This file type is unsupported."
-msgstr ""
+msgstr "不支援此檔案類型。"
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9

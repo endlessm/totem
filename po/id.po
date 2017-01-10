@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-20 05:04+0000\n"
+"POT-Creation-Date: 2017-01-03 05:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hartono <hartono.s10@gmail.com>, 2016\n"
 "Language-Team: Indonesian (https://www.transifex.com/endless-mobile-inc/teams/9016/id/)\n"
@@ -407,7 +407,7 @@ msgstr "Perkecil"
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Pemutaran"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
@@ -442,22 +442,22 @@ msgstr "Maju ke 60 detik berikutnya"
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "Mundur 5 detik"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "Maju 15 detik"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "Mundur 3 menit"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "Maju 10 menit"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
@@ -467,27 +467,27 @@ msgstr "Lompati ke..."
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "Navigasi menu DVD"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Navigasi ke atas"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Navigasi ke bawah"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Arahkan ke kiri"
 
 #: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "Navigasi ke kanan"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -717,7 +717,7 @@ msgstr ""
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
 msgid "_Purchase Codec Upgrade"
-msgstr ""
+msgstr "_Beli Peningkatan Codec"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:564
 msgid "This file type is unsupported."
