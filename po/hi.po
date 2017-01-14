@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-03 05:29+0000\n"
+"POT-Creation-Date: 2017-01-10 04:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: e2f_in c7 <e2f_in_c7@outlook.com>, 2017\n"
 "Language-Team: Hindi (https://www.transifex.com/endless-mobile-inc/teams/9016/hi/)\n"
@@ -356,7 +356,7 @@ msgstr "सामान्य"
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Preferences"
-msgstr "प्राथमिकताएं"
+msgstr "प्राथमिकताएँ"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
@@ -371,12 +371,12 @@ msgstr "वॉल्यूम"
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "वॉल्यूम बढ़ाएं"
+msgstr "वॉल्यूम बढ़ाएँ"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "वॉल्यूम घटाएं"
+msgstr "वॉल्यूम घटाएँ"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
@@ -406,7 +406,7 @@ msgstr "ज़ूम आउट करें"
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "प्लेबैक"
+msgstr "प्लेबैक करें"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
@@ -431,37 +431,37 @@ msgstr "छोड़ें"
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr "15 सेकंड पीछे जाएं"
+msgstr "15 सेकंड पीछे जाएँ"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "60 सेकंड आगे जाएं"
+msgstr "60 सेकंड आगे जाएँ"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "5 सेकंड पीछे जाएं"
+msgstr "5 सेकंड पीछे जाएँ"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "15 सेकंड आगे जाएं"
+msgstr "15 सेकंड आगे जाएँ"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr "3 मिनट पीछे जाएं"
+msgstr "3 मिनट पीछे जाएँ"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr "10 मिनट आगे जाएं"
+msgstr "10 मिनट आगे जाएँ"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "इसपर छोड़ें…"
+msgstr "इस पर छोड़ें…"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
@@ -481,12 +481,12 @@ msgstr "नीचे नेविगेट करें"
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr "बाएं नेविगेट करें"
+msgstr "बाएँ नेविगेट करें"
 
 #: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr "दाएं नेविगेट करें"
+msgstr "दाएँ नेविगेट करें"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -712,9 +712,9 @@ msgid ""
 "can purchase our audio/video codec upgrade to add support for additional "
 "file formats."
 msgstr ""
-"वर्तमान में यह फ़ाइल प्रकार असमर्थित है. इस फ़ाइल का समर्थन करने के लिए, आप "
-"अतिरिक्त फ़ाइल स्वरूपों में समर्थन जोड़ने के लिए हमारा ऑडियो/वीडियो कोडेक "
-"नवीनीकरण खरीद सकते हैं."
+"वर्तमान में यह फ़ाइल प्रकार असमर्थित है. इस प्रकार की फ़ाइल का समर्थन करने के "
+"लिए, आप अतिरिक्त फ़ाइल स्वरूपों के लिए समर्थन जोड़ने हेतु हमारा ऑडियो/वीडियो "
+"कोडेक नवीनीकरण खरीद सकते हैं."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:556
 msgid "_Purchase Codec Upgrade"
@@ -1174,7 +1174,7 @@ msgstr "पसंदीदा में जोड़ें"
 #: ../src/totemselectiontoolbar.ui.h:2
 msgctxt "button"
 msgid "Play"
-msgstr "चलाएं"
+msgstr "चलाएँ"
 
 #: ../src/totemselectiontoolbar.ui.h:4
 msgid "Shuffle"
