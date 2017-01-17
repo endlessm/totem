@@ -312,42 +312,33 @@ bacon_video_widget_start_plugin_installation (TotemCodecInstallContext *ctx,
 static gboolean
 is_supported_codec_version (GstStructure *structure, const char *key, GType type, gpointer value)
 {
-	guint i, num_fields;
-
-	num_fields = gst_structure_n_fields (structure);
-	for (i = 0; i < num_fields; i++) {
-		const gchar *key_found;
-
-		key_found = gst_structure_nth_field_name (structure, i);
-		if (g_strcmp0 (key_found, key) != 0)
-			continue;
-
-		/* We found the target key, check whether it's the right type */
-		if (gst_structure_get_field_type (structure, key_found) != type)
-			return FALSE;
-
-		switch (type) {
-		case G_TYPE_BOOLEAN: {
-			gboolean value_found;
-			gst_structure_get_boolean (structure, key_found, &value_found);
-			return GPOINTER_TO_INT(value) == value_found;
-		}
-		case G_TYPE_INT: {
-			gint value_found;
-			gst_structure_get_int (structure, key_found, &value_found);
-			return GPOINTER_TO_INT(value) == value_found;
-		}
-		case G_TYPE_STRING: {
-			const char *value_found = gst_structure_get_string (structure, key_found);
-			return g_strcmp0 ((const char*)value, value_found) == 0;
-		}
-		default:
-			return FALSE;
-		}
+	if (!gst_structure_has_field (structure, key)) {
+		/* Could not find the target key */
+		return FALSE;
 	}
 
-	/* Could not find the target key */
-	return FALSE;
+	/* We found the target key, check whether it's the right type */
+	if (gst_structure_get_field_type (structure, key) != type)
+		return FALSE;
+
+	switch (type) {
+	case G_TYPE_BOOLEAN: {
+		gboolean value_found;
+		gst_structure_get_boolean (structure, key, &value_found);
+		return GPOINTER_TO_INT(value) == value_found;
+	}
+	case G_TYPE_INT: {
+		gint value_found;
+		gst_structure_get_int (structure, key, &value_found);
+		return GPOINTER_TO_INT(value) == value_found;
+	}
+	case G_TYPE_STRING: {
+		const char *value_found = gst_structure_get_string (structure, key);
+		return g_strcmp0 ((const char*)value, value_found) == 0;
+	}
+	default:
+		return FALSE;
+	}
 }
 
 static gboolean
