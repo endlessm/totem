@@ -352,11 +352,7 @@ is_supported_codec (GstStructure *structure)
 
 	/* H.264 video decoder */
 	if (g_strcmp0 (codec_name, "video/x-h264") == 0) {
-		if (!is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "avc") &&
-		    !is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "byte-stream"))
-			return FALSE;
-
-		return is_supported_codec_version (structure, "alignment", G_TYPE_STRING, "au");
+		return TRUE;
 	}
 
 	/* MPEG-4 Part 2 video decoder */
@@ -373,11 +369,6 @@ is_supported_codec (GstStructure *structure)
 
 	/* MPEG-4 audio decoders (AAC) */
 	if (g_strcmp0 (codec_name, "audio/mpeg") == 0) {
-		if (!is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "raw") &&
-		    !is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "adts") &&
-		    !is_supported_codec_version (structure, "stream-format", G_TYPE_STRING, "adif"))
-			return FALSE;
-
 		return is_supported_codec_version (structure, "mpegversion", G_TYPE_INT, GINT_TO_POINTER(2)) ||
 		       is_supported_codec_version (structure, "mpegversion", G_TYPE_INT, GINT_TO_POINTER(4));
 	}
