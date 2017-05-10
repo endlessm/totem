@@ -85,7 +85,6 @@ Depends: ${misc:Depends},
          gstreamer1.0-x,
          grilo-plugins-0.3
 Recommends: gstreamer1.0-libav,
-            gstreamer1.0-plugins-ugly,
             gstreamer1.0-pulseaudio,
             totem-plugins
 Suggests: gnome-codec-install
