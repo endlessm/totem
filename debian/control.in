@@ -6,6 +6,7 @@ Uploaders: @GNOME_TEAM@
 Build-Depends: appstream-util,
                debhelper (>= 10),
                dpkg-dev (>= 1.16.1),
+               eos-shell-content-dev,
                gnome-common,
                gnome-pkg-tools (>= 0.10),
                gobject-introspection (>= 0.9.12-4~),
@@ -67,6 +68,8 @@ Description: Main library for the Totem media player
 
 Package: totem
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Totem
+XSB-Eos-Core-App: yes
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          totem-common (= ${source:Version}),
