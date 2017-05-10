@@ -1,0 +1,185 @@
+Source: totem
+Section: video
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Build-Depends: debhelper (>= 9.20160114),
+               cdbs (>= 0.4.90),
+               dpkg-dev (>= 1.16.1),
+               autotools-dev,
+               dh-autoreconf,
+               appstream-util,
+               gnome-pkg-tools (>= 0.10),
+               gobject-introspection (>= 0.9.12-4~),
+               gsettings-desktop-schemas-dev,
+               gstreamer1.0-plugins-base (>= 1.6.0),
+               gstreamer1.0-plugins-good,
+               gstreamer1.0-tools,
+               gtk-doc-tools (>= 1.14),
+               intltool (>= 0.50.1),
+               libatk1.0-dev (>= 1.29.4),
+               libbluetooth-dev [linux-any],
+               libcairo2-dev (>= 1.14.0),
+               libclutter-gst-3.0-dev,
+               libclutter-gtk-1.0-dev (>= 1.7.1~),
+               libclutter-1.0-dev (>= 1.17.3),
+               libgdata-dev (>= 0.8.0),
+               libgdk-pixbuf2.0-dev (>= 2.23.0),
+               libgirepository1.0-dev (>= 0.9.12),
+               libglib2.0-dev (>= 2.33.0),
+               libgnome-desktop-3-dev,
+               libgrilo-0.3-dev (>= 0.3.0),
+               libgstreamer-plugins-base1.0-dev,
+               libgstreamer1.0-dev (>= 1.6.0),
+               libgtk-3-dev (>= 3.19.4),
+               liblircclient-dev (>= 0.6.6),
+               libnautilus-extension-dev (>= 2.91.4),
+               libpeas-dev (>= 1.1.0),
+               librsvg2-dev (>= 2.16.0-2),
+               libsoup2.4-dev,
+               libtotem-plparser-dev (>= 3.10.1),
+               libx11-dev,
+               libxml2-dev (>= 2.6.0),
+               libxrandr-dev (>= 2:1.1.1),
+               libxtst-dev,
+               libxxf86vm-dev (>= 1:1.0.1),
+               libzeitgeist-2.0-dev (>= 0.9.12),
+               python3 (>= 3.2),
+               python-gi-dev (>= 2.90.3),
+               shared-mime-info (>= 0.22),
+               valac (>= 0.14.1),
+               x11proto-core-dev,
+               yelp-tools
+Standards-Version: 3.9.7
+Homepage: https://wiki.gnome.org/Apps/Videos
+Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/totem
+Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/totem
+
+Package: libtotem0
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Main library for the Totem media player
+ This package contains the main library used by the Totem media player. It is
+ used both by the media player itself and by the plugins.
+ .
+ This library is only useful within Totem. You should not have to
+ manually install this package.
+
+Package: totem
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         totem-common (= ${source:Version}),
+         gnome-icon-theme (>= 2.15.90),
+         gnome-icon-theme-symbolic,
+         gsettings-desktop-schemas,
+         gstreamer1.0-clutter-3.0,
+         gstreamer1.0-plugins-base (>= 1.6.0),
+         gstreamer1.0-plugins-good,
+         gstreamer1.0-plugins-bad,
+         gstreamer1.0-x,
+         grilo-plugins-0.3
+Recommends: gstreamer1.0-libav,
+            gstreamer1.0-plugins-ugly,
+            gstreamer1.0-pulseaudio,
+            totem-plugins
+Suggests: gnome-codec-install
+Description: Simple media player for the GNOME desktop based on GStreamer
+ Totem is a simple yet featureful media player for GNOME which can read
+ a large number of file formats. It features :
+ .
+    * Shoutcast, m3u, asx, SMIL and ra playlists support
+    * DVD (with menus), VCD and Digital CD (with CDDB) playback
+    * TV-Out configuration with optional resolution switching
+    * 4.0, 5.0, 5.1 and stereo audio output
+    * Full-screen mode (move your mouse and you get nice controls) with
+      Xinerama, dual-head and RandR support
+    * Aspect ratio toggling, scaling based on the video's original size
+    * Full keyboard control
+    * Simple playlist with repeat mode and saving feature
+    * GNOME, Nautilus and GIO integration
+    * Screenshot of the current movie
+    * Brightness and Contrast control
+    * Visualisation plugin when playing audio-only files
+    * Video thumbnailer for nautilus
+    * Nautilus properties page
+    * Works on remote displays
+    * DVD, VCD and OGG/OGM subtitles with automatic language selection
+    * Extensible with plugins
+
+Package: totem-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: Data files for the Totem media player
+ Totem is a simple yet featureful media player for GNOME which can read
+ a large number of file formats.
+ .
+ This package contains common data files and translations.
+
+Package: totem-plugins
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         ${python3:Depends},
+         totem (= ${binary:Version}),
+         gir1.2-gdkpixbuf-2.0,
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         gir1.2-peas-1.0,
+         gir1.2-totem-1.0 (= ${binary:Version}),
+         python3-gi (>= 2.90.3),
+         python3-xdg
+Recommends: gnome-settings-daemon, zeitgeist-core
+Suggests: gromit
+Description: Plugins for the Totem media player
+ Totem is a simple yet featureful media player for GNOME which can read
+ a large number of file formats.
+ .
+ This package contains a set of recommended plugins for Totem:
+ .
+    * Annotate the screen with the Gromit tool
+    * Control Totem with an Infrared remote control
+    * Control Totem with the keyboard's media player keys
+    * Keep the Totem window on top of the screen
+    * Display movie properties
+    * Deactivate the screensaver when a movie is playing
+    * Skip to a defined time in the movie
+    * Set the away status in the instant messenger when a movie is
+      playing
+    * Control totem with a mobile phone using the Bluetooth protocol
+    * Share the current playlist via HTTP
+    * Search, browse for and play videos from YouTube
+ .
+ Additional plugins can be written in C, Python or Vala.
+
+Package: gir1.2-totem-1.0
+Section: introspection
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         ${gir:Depends}
+Description: GObject introspection data for Totem media player
+ Totem is a simple yet featureful media player for GNOME which can read
+ a large number of file formats.
+ .
+ This package contains introspection data for the Totem media player.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: libtotem-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         libtotem0 (= ${binary:Version}),
+         gir1.2-totem-1.0 (= ${binary:Version}),
+         libglib2.0-dev,
+         libgtk-3-dev,
+         libtotem-plparser-dev
+Description: Main library for the Totem media player - development files
+ This package contains development files for the Totem media player library.
+ .
+ You may need it to develop plugins for Totem.
