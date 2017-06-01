@@ -577,7 +577,7 @@ msgstr "章節選單(_C)"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "速度"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -1812,45 +1812,45 @@ msgstr "跳至(_S)…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "正常"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "速度：%s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "可變率"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "提供可變率選單項目"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

@@ -355,137 +355,137 @@ msgstr "Kanali:"
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Splošno"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Končaj"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Glasnost"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Povečaj glasnost"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Zmanjšaj glasnost"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Pogled"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Preklopi celozaslonski način"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Končaj celozaslonski način"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Približaj"
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Oddalji"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Predvajanje"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Predvajaj/Premor"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "Predhodni video ali poglavje"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "Naslednji video ali poglavje"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Preskoči"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "Skoči nazaj za 15 sekund"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "Skoči naprej za 60 sekund"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "Skoči nazaj za 5 sekund"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "Skoči naprej za 15 sekund"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "Skoči nazaj za 3 minute"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "Skoči naprej za 10 minut"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Preskoči na ..."
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "Krmarjenje po meniju DVD"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Pomik navzgor"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Pomik navzdol"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Pomik levo"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "Pomik desno"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -493,7 +493,7 @@ msgstr "_Lastnosti"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Tipkovne bližnjice‫"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -590,7 +590,7 @@ msgstr "Meni pog_lavij"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Hitrost"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -1197,7 +1197,7 @@ msgstr "Dodaj med priljubljene"
 #: ../src/totemselectiontoolbar.ui.h:2
 msgctxt "button"
 msgid "Play"
-msgstr ""
+msgstr "Predvajaj"
 
 #: ../src/totemselectiontoolbar.ui.h:4
 msgid "Shuffle"
@@ -1871,45 +1871,45 @@ msgstr "_Skoči na ..."
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Običajna"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1,1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1,25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1,5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Hitrosti: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Spremenljiva hitrost predvajanja"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Pokaže možnosti spremenljive hitrosti predvajanja v meniju"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

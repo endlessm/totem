@@ -36,20 +36,26 @@ msgid ""
 "DVDs, as well as local network video shares (using UPnP/DLNA) and video "
 "highlights from a number of web sites."
 msgstr ""
+"Videos, also known as Totem, is the official movie player of the GNOME "
+"desktop environment. It features a searchable list of local videos, and "
+"DVDs, as well as local network video shares (using UPnP/DLNA) and video "
+"highlights from a number of web sites."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:4
 msgid ""
 "Totem comes with added functionality such as: subtitle downloader, and "
 "support for recording DVDs."
 msgstr ""
+"Totem comes with added functionality such as: subtitle downloader, and "
+"support for recording DVDs."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:5
 msgid "Video thumbnailer for the file manager"
-msgstr ""
+msgstr "Video thumbnailer for the file manager"
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:6
 msgid "Files properties tab"
-msgstr ""
+msgstr "Files properties tab"
 
 #: ../data/org.gnome.Totem.desktop.in.in.in.h:3
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
@@ -106,7 +112,7 @@ msgstr "Pango font description for subtitle rendering."
 #: ../data/org.gnome.totem.gschema.xml.in.h:12
 msgctxt "subtitle-encoding"
 msgid "'UTF-8'"
-msgstr ""
+msgstr "UTF-8"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:13
 msgid "Subtitle encoding"
@@ -170,11 +176,11 @@ msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:25
 msgid "Directories to show"
-msgstr ""
+msgstr "Directories to show"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:26
 msgid "Directories to show in the browse interface, none by default"
-msgstr ""
+msgstr "Directories to show in the browse interface, none by default"
 
 #: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5616
 #: ../src/totem-properties-view.c:242
@@ -207,7 +213,7 @@ msgstr "Preferences"
 
 #: ../data/preferences.ui.h:8
 msgid "External Subtitles"
-msgstr ""
+msgstr "External Subtitles"
 
 #: ../data/preferences.ui.h:9
 msgid "_Load subtitle files when movie is loaded"
@@ -231,7 +237,7 @@ msgstr "Load _chapter files when movie is loaded"
 
 #: ../data/preferences.ui.h:14
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: ../data/preferences.ui.h:15
 msgid "Plugins..."
@@ -347,137 +353,137 @@ msgstr "Channels:"
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Quit"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Increase volume"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Decrease volume"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "View"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Toggle fullscreen"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Exit fullscreen"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Zoom in"
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Zoom out"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Playback"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Play/Pause"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "Previous video or chapter"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "Next video or chapter"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Skip"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "Go back 15 seconds"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "Go forward 60 seconds"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "Go back 5 seconds"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "Go forward 15 seconds"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "Go back 3 minutes"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "Go forward 10 minutes"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Skip to…"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "DVD menu navigation"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Navigate up"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Navigate down"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Navigate left"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "Navigate right"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -485,7 +491,7 @@ msgstr "Prefere_nces"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Keyboard Shortcuts"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -497,11 +503,11 @@ msgstr "_Quit"
 
 #: ../data/totem.ui.h:5
 msgid "Add _Local Video…"
-msgstr ""
+msgstr "Add _Local Video…"
 
 #: ../data/totem.ui.h:6
 msgid "Add _Web Video…"
-msgstr ""
+msgstr "Add _Web Video…"
 
 #: ../data/totem.ui.h:7
 msgid "_Aspect Ratio"
@@ -515,22 +521,22 @@ msgstr "Auto"
 #: ../data/totem.ui.h:9
 msgctxt "Aspect ratio"
 msgid "Square"
-msgstr ""
+msgstr "Square"
 
 #: ../data/totem.ui.h:10
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
-msgstr ""
+msgstr "4∶3 (TV)"
 
 #: ../data/totem.ui.h:11
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
-msgstr ""
+msgstr "16∶9 (Widescreen)"
 
 #: ../data/totem.ui.h:12
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
-msgstr ""
+msgstr "2.11∶1 (DVB)"
 
 #: ../data/totem.ui.h:13
 msgid "Zoom In"
@@ -550,7 +556,7 @@ msgstr "S_ubtitles"
 
 #: ../data/totem.ui.h:17
 msgid "_Select Text Subtitles…"
-msgstr ""
+msgstr "_Select Text Subtitles…"
 
 #: ../data/totem.ui.h:18
 msgid "_Eject"
@@ -582,7 +588,7 @@ msgstr "_Chapter Menu"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Speed"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -591,7 +597,7 @@ msgstr "Enter the _address of the file you would like to open:"
 #. translators: Unknown remaining time
 #: ../src/backend/bacon-time-label.c:113
 msgid "--:--"
-msgstr ""
+msgstr "--:--"
 
 #: ../src/backend/bacon-video-widget.c:1959
 msgid "Password requested for RTSP server"
@@ -660,6 +666,7 @@ msgstr[1] ""
 msgid ""
 "This stream cannot be played. It's possible that a firewall is blocking it."
 msgstr ""
+"This stream cannot be played. It's possible that a firewall is blocking it."
 
 #: ../src/backend/bacon-video-widget.c:3957
 msgid ""
@@ -699,7 +706,7 @@ msgstr ""
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:523
 msgid "Unable to play the file"
-msgstr ""
+msgstr "Unable to play the file"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:531
 msgid ""
@@ -737,7 +744,7 @@ msgstr "%d:%02d:%02d"
 #, c-format
 msgctxt "long time format"
 msgid "-%d:%02d:%02d"
-msgstr ""
+msgstr "%d:%02d:%02d"
 
 #. -minutes:seconds
 #. Translators: This is a time format, like "-5:02" for 5
@@ -748,7 +755,7 @@ msgstr ""
 #, c-format
 msgctxt "short time format"
 msgid "-%d:%02d"
-msgstr ""
+msgstr "%d:%02d"
 
 #. minutes:seconds
 #. Translators: This is a time format, like "5:02" for 5
@@ -867,11 +874,11 @@ msgstr[1] "%d frames per second"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
-msgstr ""
+msgstr "Select All"
 
 #: ../src/grilo.ui.h:2
 msgid "Select None"
-msgstr ""
+msgstr "Select None"
 
 #: ../src/totem-audio-preview.c:172
 msgid "Audio Preview"
@@ -888,14 +895,14 @@ msgstr "Verify your system installation. Totem will now exit."
 #: ../src/totem-grilo.c:285
 #, c-format
 msgid "Season %d Episode %d"
-msgstr ""
+msgstr "Season %d Episode %d"
 
 #. translators: The first item is the show name, for example:
 #. * Boardwalk Empire (Season 1 Episode 1)
 #: ../src/totem-grilo.c:322
 #, c-format
 msgid "%s (Season %d Episode %d)"
-msgstr ""
+msgstr "%s (Season %d Episode %d)"
 
 #: ../src/totem-grilo.c:677
 msgid "Browse Error"
@@ -907,11 +914,11 @@ msgstr "Search Error"
 
 #: ../src/totem-grilo.c:1272
 msgid "Local"
-msgstr ""
+msgstr "Local"
 
 #: ../src/totem-grilo.c:1873
 msgid "Channels"
-msgstr ""
+msgstr "Channels"
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
@@ -929,27 +936,27 @@ msgstr "Make sure that Totem is properly installed."
 
 #: ../src/totem-main-toolbar.c:130 ../src/totemmaintoolbar.ui.h:5
 msgid "Click on items to select them"
-msgstr ""
+msgstr "Click on items to select them"
 
 #: ../src/totem-main-toolbar.c:136
 #, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d selected"
+msgstr[1] "%d selected"
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
 msgid "Results for “%s”"
-msgstr ""
+msgstr "Results for “%s”"
 
 #: ../src/totemmaintoolbar.ui.h:1
 msgid "Back"
-msgstr ""
+msgstr "Back"
 
 #: ../src/totemmaintoolbar.ui.h:2
 msgid "Select"
-msgstr ""
+msgstr "Select"
 
 #: ../src/totemmaintoolbar.ui.h:3
 msgid "Cancel"
@@ -1017,18 +1024,18 @@ msgstr "No reason."
 
 #: ../src/totem-open-location.c:183
 msgid "Add Web Video"
-msgstr ""
+msgstr "Add Web Video"
 
 #: ../src/totem-open-location.c:185 ../src/totem-uri.c:399
 #: ../src/totem-uri.c:460 ../src/plugins/screenshot/totem-gallery.c:98
 #: ../src/plugins/screenshot/totem-gallery-progress.c:103
 #: ../src/plugins/skipto/totem-skipto.c:221
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancel"
 
 #: ../src/totem-open-location.c:186 ../src/totem-uri.c:461
 msgid "_Add"
-msgstr ""
+msgstr "_Add"
 
 #: ../src/totem-options.c:49
 msgid "Play/Pause"
@@ -1108,7 +1115,7 @@ msgstr "Configure Plugins"
 
 #: ../src/totem-preferences.c:187
 msgid "_Close"
-msgstr ""
+msgstr "_Close"
 
 #: ../src/totem-preferences.c:303
 msgid "Select Subtitle Font"
@@ -1161,16 +1168,16 @@ msgstr "N/A"
 
 #: ../src/totemselectiontoolbar.ui.h:1
 msgid "Add to Favourites"
-msgstr ""
+msgstr "Add to Favourites"
 
 #: ../src/totemselectiontoolbar.ui.h:2
 msgctxt "button"
 msgid "Play"
-msgstr ""
+msgstr "Play"
 
 #: ../src/totemselectiontoolbar.ui.h:4
 msgid "Shuffle"
-msgstr ""
+msgstr "Shuffle"
 
 #: ../src/totemselectiontoolbar.ui.h:5
 msgid "Delete"
@@ -1351,7 +1358,7 @@ msgstr "_Open"
 
 #: ../src/totem-uri.c:457
 msgid "Add Videos"
-msgstr ""
+msgstr "Add Videos"
 
 #. Translators: The first string is "Filename" (as translated); the second is
 #. an actual filename.
@@ -1423,25 +1430,27 @@ msgstr "Unable to write a project."
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:394
 msgid "_Create Video Disc…"
-msgstr ""
+msgstr "_Create Video Disc…"
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:395
 msgid "Copy Vide_o DVD…"
-msgstr ""
+msgstr "Copy Vide_o DVD…"
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:396
 msgid "Copy (S)VCD…"
-msgstr ""
+msgstr "Copy (S)VCD…"
 
 #: ../src/plugins/dbusservice/dbusservice.plugin.in.h:1
 msgid "MPRIS D-Bus Interface"
-msgstr ""
+msgstr "MPRIS D-Bus Interface"
 
 #: ../src/plugins/dbusservice/dbusservice.plugin.in.h:2
 msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
+"Send notifications of currently-playing videos and allow remote control "
+"using MPRIS."
 
 #: ../src/plugins/dbusservice/dbusservice.py:208
 #: ../src/plugins/dbusservice/dbusservice.py:236
@@ -1595,7 +1604,7 @@ msgstr "Movie Properties"
 
 #: ../src/plugins/properties/movie-properties.plugin.in.h:2
 msgid "Adds movie properties menu item"
-msgstr ""
+msgstr "Adds movie properties menu item"
 
 #: ../src/plugins/properties/totem-movie-properties.c:261
 msgid "Properties"
@@ -1672,11 +1681,11 @@ msgstr "Allows videos to be rotated if they are in the wrong orientation"
 
 #: ../src/plugins/rotation/totem-rotation-plugin.vala:52
 msgid "_Rotate ↷"
-msgstr ""
+msgstr "_Rotate ↷"
 
 #: ../src/plugins/rotation/totem-rotation-plugin.vala:56
 msgid "Rotate ↶"
-msgstr ""
+msgstr "Rotate ↶"
 
 #: ../src/plugins/save-file/save-file.plugin.in.h:1
 msgid "Save Copy"
@@ -1694,7 +1703,7 @@ msgstr "Movie"
 
 #: ../src/plugins/save-file/totem-save-file.c:366
 msgid "Make Available Offline"
-msgstr ""
+msgstr "Make Available Offline"
 
 #: ../src/plugins/screensaver/screensaver.plugin.in.h:1
 msgid "Screen Saver"
@@ -1749,7 +1758,7 @@ msgstr "Save Gallery"
 
 #: ../src/plugins/screenshot/totem-gallery.c:99
 msgid "_Save"
-msgstr ""
+msgstr "_Save"
 
 #. Translators: The first argument is the movie title. The second
 #. * argument is a number which is used to prevent overwriting files.
@@ -1763,7 +1772,7 @@ msgstr "Gallery-%s-%d.jpg"
 #. Set up the window
 #: ../src/plugins/screenshot/totem-gallery-progress.c:101
 msgid "Creating Gallery…"
-msgstr ""
+msgstr "Creating Gallery…"
 
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
@@ -1786,7 +1795,7 @@ msgstr "Take _Screenshot"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:345
 msgid "Create Screenshot _Gallery…"
-msgstr ""
+msgstr "Create Screenshot _Gallery…"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:1
 #: ../src/plugins/skipto/totem-skipto.c:219
@@ -1825,59 +1834,59 @@ msgstr "7"
 
 #: ../src/plugins/skipto/totem-skipto.c:222
 msgid "_Skip To"
-msgstr ""
+msgstr "_Skip To"
 
 #: ../src/plugins/skipto/totem-skipto-plugin.c:206
 msgid "_Skip To…"
-msgstr ""
+msgstr "_Skip To…"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Speed: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Variable Rate"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Provides the variable rate menu item"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:2
 msgid "Sets the user agent for the Vimeo site"
-msgstr ""
+msgstr "Sets the user agent for the Vimeo site"

@@ -37,16 +37,16 @@ msgid ""
 "highlights from a number of web sites."
 msgstr ""
 "Odtwarzacz filmów, znany także jako Totem, jest oficjalnym odtwarzaczem "
-"filmów dla środowiska GNOME. Zawiera listę lokalnych filmów i płyt DVD, "
-"które można przeszukiwać, a także filmów udostępnianych w sieci (używając "
-"UPnP/DLNA) i filmów z wielu stron WWW."
+"filmów dla środowiska GNOME. Zawiera listę lokalnych filmów i płyt DVD, "
+"które można przeszukiwać, a także filmów udostępnianych w sieci (za pomocą "
+"UPnP/DLNA) i filmów z wielu stron WWW."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:4
 msgid ""
 "Totem comes with added functionality such as: subtitle downloader, and "
 "support for recording DVDs."
 msgstr ""
-"Program Totem zawiera dodatkowe funkcje, takie jak pobieranie napisów i "
+"Program Totem zawiera dodatkowe funkcje, takie jak pobieranie napisów i "
 "obsługa nagrywania płyt DVD."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:5
@@ -60,7 +60,7 @@ msgstr "Karta właściwości filmów menedżera plików"
 #: ../data/org.gnome.Totem.desktop.in.in.in.h:3
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr ""
-"Nagranie;Wideo;Video;Film;Klip;Serial;Odtwarzacz;DVD;TV;Telewizja;Płyta;"
+"Wideo;Video;Nagranie;Film;Klip;Serial;Odtwarzacz;DVD;VCD;SVCD;TV;HDTV;DVB;Telewizja;Telewizor;Płyta;Multimedia;Media;Napisy;Podpisy;"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -84,7 +84,7 @@ msgstr "Tryb powtarzania"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:6
 msgid "Whether to disable deinterlacing for interlaced movies"
-msgstr "Określa, czy wyłączyć usuwanie przeplotu dla filmów z przeplotem"
+msgstr "Określa, czy wyłączyć usuwanie przeplotu dla filmów z przeplotem"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:7
 msgid "Type of audio output to use"
@@ -100,7 +100,7 @@ msgid ""
 "stream (in seconds)."
 msgstr ""
 "Ilość buforowanych danych dla strumieni sieciowych przed rozpoczęciem "
-"wyświetlania strumienia (w sekundach)."
+"wyświetlania strumienia (w sekundach)."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:10
 msgid "Subtitle font"
@@ -150,7 +150,7 @@ msgstr ""
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
 msgid "Whether to disable the plugins in the user's home directory"
 msgstr ""
-"Określa, czy wyłączyć wtyczki znajdujące się w katalogu domowym użytkownika"
+"Określa, czy wyłączyć wtyczki znajdujące się w katalogu domowym użytkownika"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -159,7 +159,7 @@ msgstr "Określa, czy wyłączyć skróty klawiszowe"
 #: ../data/org.gnome.totem.gschema.xml.in.h:21
 msgid "Whether to autoload text subtitle files when a movie is loaded"
 msgstr ""
-"Określa, czy automatycznie wczytywać plik z napisami podczas wczytywania "
+"Określa, czy automatycznie wczytywać plik z napisami podczas wczytywania "
 "filmu"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:22
@@ -176,7 +176,7 @@ msgstr "Lista aktywnych wtyczek"
 msgid ""
 "A list of the names of the plugins which are currently active (loaded and "
 "running)."
-msgstr "Lista aktywnych wtyczek (wczytanych i uruchomionych)."
+msgstr "Lista aktywnych wtyczek (wczytanych i uruchomionych)."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:25
 msgid "Directories to show"
@@ -184,7 +184,7 @@ msgstr "Katalogi do wyświetlania"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:26
 msgid "Directories to show in the browse interface, none by default"
-msgstr "Katalogi do wyświetlania w interfejsie przeglądania, domyślnie brak"
+msgstr "Katalogi do wyświetlania w interfejsie przeglądania, domyślnie brak"
 
 #: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5616
 #: ../src/totem-properties-view.c:242
@@ -259,7 +259,7 @@ msgstr "Wideo"
 
 #: ../data/preferences.ui.h:19
 msgid "Disable _deinterlacing of interlaced videos"
-msgstr "Wyłączenie _usuwania przeplotu z filmów z przeplotem"
+msgstr "Wyłączenie _usuwania przeplotu z filmów z przeplotem"
 
 #: ../data/preferences.ui.h:20
 msgid "Color Balance"
@@ -392,7 +392,7 @@ msgstr "Przełączenie trybu pełnoekranowego"
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "Wyjście z trybu pełnoekranowego"
+msgstr "Wyjście z trybu pełnoekranowego"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
@@ -432,32 +432,32 @@ msgstr "Przewijanie"
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr "Wstecz o 15 sekund"
+msgstr "Wstecz o 15 sekund"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "W przód o 60 sekund"
+msgstr "W przód o 60 sekund"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "Wstecz o 5 sekund"
+msgstr "Wstecz o 5 sekund"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "W przód o 15 sekund"
+msgstr "W przód o 15 sekund"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr "Wstecz o 3 minuty"
+msgstr "Wstecz o 3 minuty"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr "W przód o 10 minut"
+msgstr "W przód o 10 minut"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
@@ -467,27 +467,27 @@ msgstr "Przejście do…"
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr "Nawigacja w menu DVD"
+msgstr "Nawigacja w menu DVD"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr "W górę"
+msgstr "W górę"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr "W dół"
+msgstr "W dół"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr "W lewo"
+msgstr "W lewo"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr "W prawo"
+msgstr "W prawo"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -511,7 +511,7 @@ msgstr "Dodaj _lokalny film…"
 
 #: ../data/totem.ui.h:6
 msgid "Add _Web Video…"
-msgstr "Dodaj film z _sieci…"
+msgstr "Dodaj film z _sieci…"
 
 #: ../data/totem.ui.h:7
 msgid "_Aspect Ratio"
@@ -520,12 +520,12 @@ msgstr "P_roporcje obrazu"
 #: ../data/totem.ui.h:8
 msgctxt "Aspect ratio"
 msgid "Auto"
-msgstr "Automatycznie"
+msgstr "Automatyczne"
 
 #: ../data/totem.ui.h:9
 msgctxt "Aspect ratio"
 msgid "Square"
-msgstr "Kwadratowy"
+msgstr "Kwadratowe"
 
 #: ../data/totem.ui.h:10
 msgctxt "Aspect ratio"
@@ -535,7 +535,7 @@ msgstr "4∶3 (TV)"
 #: ../data/totem.ui.h:11
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
-msgstr "16∶9 (szeroki ekran)"
+msgstr "16∶9 (HDTV)"
 
 #: ../data/totem.ui.h:12
 msgctxt "Aspect ratio"
@@ -592,11 +592,11 @@ msgstr "Menu _rozdziałów"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Prędkość odtwarzania"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
-msgstr "Proszę wprowadzić adres p_liku do otwarcia:"
+msgstr "Adres p_liku do otwarcia:"
 
 #. translators: Unknown remaining time
 #: ../src/backend/bacon-time-label.c:113
@@ -619,11 +619,11 @@ msgstr "Napisy #%d"
 
 #: ../src/backend/bacon-video-widget.c:3872
 msgid "The server you are trying to connect to is not known."
-msgstr "Łączenie z nieznanym serwerem."
+msgstr "Łączenie z nieznanym serwerem."
 
 #: ../src/backend/bacon-video-widget.c:3875
 msgid "The connection to this server was refused."
-msgstr "Odrzucono połączenie z tym serwerem."
+msgstr "Odrzucono połączenie z tym serwerem."
 
 #: ../src/backend/bacon-video-widget.c:3878
 msgid "The specified movie could not be found."
@@ -688,7 +688,7 @@ msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
-"Strumień dźwięku lub obrazu nie jest obsługiwany z powodu brakujących "
+"Strumień dźwięku lub obrazu nie jest obsługiwany z powodu brakujących "
 "kodeków. Należy zainstalować dodatkowe wtyczki, aby odtwarzać niektóre "
 "rodzaje filmów"
 
@@ -1052,7 +1052,7 @@ msgstr "Brak powodu."
 
 #: ../src/totem-open-location.c:183
 msgid "Add Web Video"
-msgstr "Dodanie filmu z sieci"
+msgstr "Dodanie filmu z sieci"
 
 #: ../src/totem-open-location.c:185 ../src/totem-uri.c:399
 #: ../src/totem-uri.c:460 ../src/plugins/screenshot/totem-gallery.c:98
@@ -1123,7 +1123,7 @@ msgstr "Filmy do odtworzenia"
 
 #: ../src/totem-options.c:100
 msgid "Can't enqueue and replace at the same time"
-msgstr "Nie można równocześnie dodać do kolejki i zamienić pliku"
+msgstr "Nie można równocześnie dodać do kolejki i zamienić pliku"
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1213,7 +1213,7 @@ msgstr "Usuń"
 
 #: ../src/totem-subtitle-encoding.c:156
 msgid "Current Locale"
-msgstr "Bieżące ustawienia lokalne"
+msgstr "Bieżące ustawienia regionalne"
 
 #: ../src/totem-subtitle-encoding.c:159 ../src/totem-subtitle-encoding.c:161
 #: ../src/totem-subtitle-encoding.c:163 ../src/totem-subtitle-encoding.c:165
@@ -1222,7 +1222,7 @@ msgstr "arabskie"
 
 #: ../src/totem-subtitle-encoding.c:168
 msgid "Armenian"
-msgstr "armeńskie"
+msgstr "ormiańskie"
 
 #: ../src/totem-subtitle-encoding.c:171 ../src/totem-subtitle-encoding.c:173
 #: ../src/totem-subtitle-encoding.c:175
@@ -1386,7 +1386,7 @@ msgstr "_Otwórz"
 
 #: ../src/totem-uri.c:457
 msgid "Add Videos"
-msgstr "Dodaj filmy"
+msgstr "Dodanie filmów"
 
 #. Translators: The first string is "Filename" (as translated); the second is
 #. an actual filename.
@@ -1477,8 +1477,8 @@ msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
-"Wysyłanie powiadomień o obecnie odtwarzanych filmach i umożliwienie zdalnej "
-"kontroli używając MPRIS."
+"Wysyłanie powiadomień o obecnie odtwarzanych filmach i umożliwienie zdalnego"
+" sterowania za pomocą MPRIS."
 
 #: ../src/plugins/dbusservice/dbusservice.py:208
 #: ../src/plugins/dbusservice/dbusservice.py:236
@@ -1576,7 +1576,7 @@ msgstr "Nie można połączyć się ze stroną OpenSubtitles"
 #: ../src/plugins/opensubtitles/opensubtitles.py:328
 #: ../src/plugins/opensubtitles/opensubtitles.py:346
 msgid "Could not contact the OpenSubtitles website."
-msgstr "Nie można połączyć się z witryną OpenSubtitles."
+msgstr "Nie można połączyć się z witryną OpenSubtitles."
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:334
 msgid "No results found."
@@ -1632,7 +1632,7 @@ msgstr "Właściwości filmu"
 
 #: ../src/plugins/properties/movie-properties.plugin.in.h:2
 msgid "Adds movie properties menu item"
-msgstr "Dodaje element menu z właściwościami filmu"
+msgstr "Dodaje element menu z właściwościami filmu"
 
 #: ../src/plugins/properties/totem-movie-properties.c:261
 msgid "Properties"
@@ -1652,7 +1652,7 @@ msgid ""
 " remote access. If this is empty, a default of 'totem' will be used."
 msgstr ""
 "Hasło ochrony serwera rpdb2 podczas nieupoważnionego zdalnego debugowania "
-"programu Totem. W przypadku opuszczenia pola użyte zostanie hasło domyślne "
+"programu Totem. W przypadku opuszczenia pola użyte zostanie hasło domyślne "
 "„totem”."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
@@ -1688,8 +1688,8 @@ msgid ""
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password ('totem')."
 msgstr ""
-"Po naciśnięciu przycisku OK program Totem poczeka na połączenie z winpdb lub"
-" rpdb2. Jeśli hasło debugowania nie zostało ustawione w DConf, to zostanie "
+"Po naciśnięciu przycisku OK program Totem poczeka na połączenie z winpdb lub"
+" rpdb2. Jeśli hasło debugowania nie zostało ustawione w DConf, to zostanie "
 "użyte domyślne hasło („totem”)."
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
@@ -1732,7 +1732,7 @@ msgstr "Film"
 
 #: ../src/plugins/save-file/totem-save-file.c:366
 msgid "Make Available Offline"
-msgstr "Zapisz do oglądania w trybie offline"
+msgstr "Zapisz do oglądania w trybie offline"
 
 #: ../src/plugins/screensaver/screensaver.plugin.in.h:1
 msgid "Screen Saver"
@@ -1748,7 +1748,7 @@ msgstr "Odtwarzanie filmu"
 
 #: ../src/plugins/screenshot/gallery.ui.h:1
 msgid "Screenshot width (in pixels):"
-msgstr "Szerokość zrzutu ekranu (w pikselach):"
+msgstr "Szerokość zrzutu ekranu (w pikselach):"
 
 #: ../src/plugins/screenshot/gallery.ui.h:2
 msgid "Calculate the number of screenshots"
@@ -1779,7 +1779,7 @@ msgstr "Zrzut ekranu"
 
 #: ../src/plugins/screenshot/screenshot.plugin.in.h:2
 msgid "Allows screenshots and galleries to be taken of videos"
-msgstr "Umożliwia pobieranie zrzutów ekranu i galerii filmów"
+msgstr "Umożliwia pobieranie zrzutów ekranu i galerii filmów"
 
 #: ../src/plugins/screenshot/totem-gallery.c:92
 msgid "Save Gallery"
@@ -1825,7 +1825,7 @@ msgstr "_Zrzut ekranu"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:345
 msgid "Create Screenshot _Gallery…"
-msgstr "_Utwórz galerię zrzutów ekranu…"
+msgstr "_Galeria zrzutów ekranu…"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:1
 #: ../src/plugins/skipto/totem-skipto.c:219
@@ -1866,7 +1866,7 @@ msgstr "7"
 
 #: ../src/plugins/skipto/totem-skipto.c:222
 msgid "_Skip To"
-msgstr "_Przejdź do"
+msgstr "_Przejdź"
 
 #: ../src/plugins/skipto/totem-skipto-plugin.c:206
 msgid "_Skip To…"
@@ -1875,45 +1875,45 @@ msgstr "_Przejdź do…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "×0,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Zwykła"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "×1,1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "×1,25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "×1,5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "×1,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Prędkość odtwarzania: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Zmienna prędkość odtwarzania"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Dodaje menu zmiennej prędkości odtwarzania"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

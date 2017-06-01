@@ -367,7 +367,7 @@ msgstr "Volume"
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "Naikkan Volume"
+msgstr "Naikkan volume"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
@@ -377,12 +377,12 @@ msgstr "Turunkan volume"
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "View"
-msgstr "Lihat"
+msgstr "Tilik"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "Aktifkan layar penuh"
+msgstr "Jungkitkan layar penuh"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
@@ -402,37 +402,37 @@ msgstr "Perkecil"
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "Pemutaran"
+msgstr "Putar"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "Putar/Jeda"
+msgstr "Putar/Tahan"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "Video atau bab sebelumnya"
+msgstr "Bab atau video sebelumnya"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "Video atau bab selanjutnya"
+msgstr "Bab atau video selanjutnya"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "Lompati"
+msgstr "Lewati"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr "Kembali ke 15 detik sebelumnya"
+msgstr "Mundur 15 detik"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "Maju ke 60 detik berikutnya"
+msgstr "Maju 60 detik"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
@@ -457,7 +457,7 @@ msgstr "Maju 10 menit"
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "Lompati ke..."
+msgstr "Lompat Ke…"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
@@ -467,22 +467,22 @@ msgstr "Navigasi menu DVD"
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr "Navigasi ke atas"
+msgstr "Navigasi naik"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr "Navigasi ke bawah"
+msgstr "Navigasi turun"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr "Arahkan ke kiri"
+msgstr "Navigasi kiri"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr "Navigasi ke kanan"
+msgstr "Navigasi kanan"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -490,7 +490,7 @@ msgstr "Prefere_nsi"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr "Jalan pintas papan ketik"
+msgstr "Pintasan Papan Ti_k"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -587,7 +587,7 @@ msgstr "Menu _Bab"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Kecepatan"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -1167,7 +1167,7 @@ msgstr "Tambah ke Favorit"
 #: ../src/totemselectiontoolbar.ui.h:2
 msgctxt "button"
 msgid "Play"
-msgstr "Mainkan"
+msgstr "Putar"
 
 #: ../src/totemselectiontoolbar.ui.h:4
 msgid "Shuffle"
@@ -1836,45 +1836,45 @@ msgstr "_Lompat Ke…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1,1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1,25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1,5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Kecepatan: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Laju Variabel"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Menyediakan butir menu laju variabel"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

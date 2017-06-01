@@ -47,7 +47,7 @@ msgid ""
 "Totem comes with added functionality such as: subtitle downloader, and "
 "support for recording DVDs."
 msgstr ""
-"Tha feartan a bharrachd aig Totem a leithid luchdadh a-nuas fho-thiotalan "
+"Tha gleusan a bharrachd aig Totem a leithid luchdadh a-nuas fho-thiotalan "
 "agus taic ri clàradh DVD."
 
 #: ../data/appdata/org.gnome.Totem.appdata.xml.in.h:5
@@ -367,137 +367,137 @@ msgstr "Seanailean:"
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Coitcheann"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Fàg an-seo"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Àirde na fuaime"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Meudaich àirde na fuaime"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Lùghdaich àirde na fuaime"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Sealladh"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Toglaich am modh làn-sgrìn"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Fàg an làn-sgrìn"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Sùm a-steach"
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Sùm a-mach"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Cluich"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Cluich/Cuir 'na stad"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "A' chaibideil no am film roimhe"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "An ath-chaibideil no film"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Gearr leum"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "Rach air ais 15 diogan"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "Rach air adhart 60 diog"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "Rach air ais 5 diogan"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "Rach air adhart 15 diogan"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "Rach air ais 5 mionaidean"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "Rach air adhart 10 mionaidean"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Gearr leum gu…"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "Seòladaireachd clàir-taice DVD"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Seòl suas"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Seòl sìos"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Seòl gun taobh chlì"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "Seòl gun taobh deas"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -505,7 +505,7 @@ msgstr "Roghai_nnean"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "Ath-ghoiridean a' _mheur-chlàir"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -602,7 +602,7 @@ msgstr "Clàr-taice \"Caibideilean\""
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Astar"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -1893,45 +1893,45 @@ msgstr "Gearr _leum gu…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Àbhaisteach"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Astar: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Reat caochlaideach"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Bheir seo clàr-taice an reat caochlaidich dhut"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

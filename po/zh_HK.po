@@ -105,7 +105,7 @@ msgstr "描繪字幕的 Pango 字型描述。"
 #: ../data/org.gnome.totem.gschema.xml.in.h:12
 msgctxt "subtitle-encoding"
 msgid "'UTF-8'"
-msgstr ""
+msgstr "'UTF-8'"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:13
 msgid "Subtitle encoding"
@@ -650,7 +650,7 @@ msgstr[0] ""
 #: ../src/backend/bacon-video-widget.c:3954
 msgid ""
 "This stream cannot be played. It's possible that a firewall is blocking it."
-msgstr ""
+msgstr "無法播放此串流。可能有防火牆正阻擋播放。"
 
 #: ../src/backend/bacon-video-widget.c:3957
 msgid ""
@@ -684,7 +684,7 @@ msgstr "缺少某些必須的外掛，請確定目前已安裝程式。"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:523
 msgid "Unable to play the file"
-msgstr ""
+msgstr "無法播放該檔案"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:531
 msgid ""

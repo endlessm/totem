@@ -350,137 +350,137 @@ msgstr "Kanaler:"
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Avslutt"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Volum"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Øk volum"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Minsk volum"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Vis"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Slå av/på fullskjerm"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Avslutt fullskjerm"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Zoom inn"
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Zoom ut"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Spill av"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Spill/pause"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "Forrige film eller kapittel"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "Neste film eller kapittel"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Hopp til"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "Gå tilbake 15 sekunder"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "Gå frem 60 sekunder"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "Gå tilbake 5 sekunder"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "Gå frem 15 sekunder"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "Gå tilbake 3 minutter"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "Gå frem 10 minutter"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Hopp til …"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "Navigering i DVD-meny"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Naviger opp"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Naviger ned"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Naviger til venstre"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "Naviger til høyre"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -585,7 +585,7 @@ msgstr "_Kapittelmeny"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Hastighet"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -1840,45 +1840,45 @@ msgstr "_Hopp til …"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1,1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1,25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1,5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1,75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Hastighet: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Variabel rate"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Tilbyr menyoppføring for variabel rate"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

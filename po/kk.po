@@ -584,7 +584,7 @@ msgstr "_Тараулар мәзірі"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Жылдамдығы"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -863,7 +863,7 @@ msgstr "Ештеңе таңдамау"
 
 #: ../src/totem-audio-preview.c:172
 msgid "Audio Preview"
-msgstr ""
+msgstr "Аудионы алдын-ала қарау"
 
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
@@ -904,7 +904,7 @@ msgstr "Арналар"
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
 msgid "Couldn't load the '%s' interface. %s"
-msgstr ""
+msgstr "'%s' интерфейсін жүктеу мүмкін емес. %s"
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1387,11 +1387,11 @@ msgstr "Мәтіндік субтитрларды автожүктейді"
 
 #: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:1
 msgid "Video Disc Recorder"
-msgstr ""
+msgstr "Видео дисктерін жазушы"
 
 #: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:2
 msgid "Records (S)VCDs or video DVDs"
-msgstr ""
+msgstr "(S)VCD немесе DVD дисктерін жазу."
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:120
 msgid "The video disc could not be duplicated."
@@ -1817,37 +1817,37 @@ msgstr "Дейін а_ттау…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Қалыпты"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Жылдамдығы: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"

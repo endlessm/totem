@@ -325,7 +325,7 @@ msgstr "Gagnagámur:"
 
 #: ../data/properties.ui.h:10
 msgid "Dimensions:"
-msgstr "Hlutföll:"
+msgstr "Stærðir:"
 
 #: ../data/properties.ui.h:11
 msgid "Codec:"
@@ -345,142 +345,142 @@ msgstr "Söfnunartíðni:"
 
 #: ../data/properties.ui.h:16
 msgid "Channels:"
-msgstr "Litrásir:"
+msgstr "Rásir:"
 
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Almennt"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Hætta"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr ""
+msgstr "Hljóðstyrkur"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr ""
+msgstr "Hækka hljóðstyrk"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr ""
+msgstr "Minnka hljóðstyrk"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Skoða"
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr ""
+msgstr "Víxla heilskjá"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Hætta í skjáfylli"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Renna að"
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Renna frá"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr ""
+msgstr "Afspilun"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr ""
+msgstr "Spila/stöðva"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr ""
+msgstr "Fyrra myndskeið eða kafli"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr ""
+msgstr "Næsta myndskeið eða kafli"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr ""
+msgstr "Sleppa"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "Fara afturábak um 15 sekúndur"
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr ""
+msgstr "Fara áfram um 60 sekúndur"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr ""
+msgstr "Fara afturábak um 5 sekúndur"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr ""
+msgstr "Fara áfram um 15 sekúndur"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "Fara afturábak um 3 mínútur"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "Fara áfram um 10 mínútur"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr ""
+msgstr "Stökkva á…"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "Flakk í DVD-valmynd"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "Fara upp"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "Fara niður"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "Fara til vinstri"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "Fara til hægri"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -488,7 +488,7 @@ msgstr "_Kjörstillingar"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "Flýtily_klar"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -585,7 +585,7 @@ msgstr "_Kaflavalmynd"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Hraði"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -947,7 +947,7 @@ msgstr[1] "%d valið"
 #: ../src/totem-main-toolbar.c:157
 #, c-format
 msgid "Results for “%s”"
-msgstr "Niðurstöður fyrir „“%s“"
+msgstr "Niðurstöður fyrir „%s“"
 
 #: ../src/totemmaintoolbar.ui.h:1
 msgid "Back"
@@ -1173,7 +1173,7 @@ msgstr "Bæta í Eftirlæti"
 #: ../src/totemselectiontoolbar.ui.h:2
 msgctxt "button"
 msgid "Play"
-msgstr ""
+msgstr "Afspilun"
 
 #: ../src/totemselectiontoolbar.ui.h:4
 msgid "Shuffle"
@@ -1842,45 +1842,45 @@ msgstr "_Stökkva á…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Venjulegt"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Hraði: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Breytilegt"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Gefur valmyndarfærslu fyrir breytilegan hraða"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

@@ -108,12 +108,12 @@ msgstr "Tipografía para subtítulos"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:11
 msgid "Pango font description for subtitle rendering."
-msgstr "Descripción de tipografía Pango para el renderizado de subtítulos"
+msgstr "Descripción de tipografía Pango para el renderizado de subtítulos."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:12
 msgctxt "subtitle-encoding"
 msgid "'UTF-8'"
-msgstr "«UTF-8»"
+msgstr "'UTF-8'"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:13
 msgid "Subtitle encoding"
@@ -597,7 +597,7 @@ msgstr "Menú de _capítulos"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "Velocidad"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -1742,7 +1742,7 @@ msgstr "Reproduciendo una película"
 
 #: ../src/plugins/screenshot/gallery.ui.h:1
 msgid "Screenshot width (in pixels):"
-msgstr "Anchura de la captura (en píxeles):j"
+msgstr "Anchura de la captura (en píxeles):"
 
 #: ../src/plugins/screenshot/gallery.ui.h:2
 msgid "Calculate the number of screenshots"
@@ -1866,45 +1866,45 @@ msgstr "_Saltar a…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "Velocidad: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "Tasa variable"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "Proporciona el elemento de menú de tasa variable"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"

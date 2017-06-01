@@ -481,7 +481,7 @@ msgstr "Navigar cap a esquèrra"
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr "Navigar cap a drecha"
+msgstr "Navigar cap a dreita"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -700,7 +700,7 @@ msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
 msgstr ""
-"D'empeutons indispensables mancan. Asseguratz-vous que lo programa es "
+"D'empeutons indispensables mancan. Asseguratz-vos que lo programa es "
 "installat corrèctament."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:523
@@ -1487,8 +1487,8 @@ msgstr "Estat de la messatjariá instantanèa"
 #: ../src/plugins/im-status/totem-im-status.plugin.in.h:2
 msgid "Set your Instant Messenger status to away when a movie is playing"
 msgstr ""
-"Definís vòstre estat de messatjariá instantanèa a « pas disponible » quand "
-"un filme est legit"
+"Definís vòstre estat de messatjariá instantanèa a « pas disponibla » quand "
+"un filme es legit"
 
 #: ../src/plugins/lirc/lirc.plugin.in.h:1
 msgid "Infrared Remote Control"
