@@ -586,7 +586,7 @@ msgstr "अध्याय मेन्यू ( C)"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
-msgstr ""
+msgstr "गति"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
@@ -1843,45 +1843,45 @@ msgstr "छोड़ें इसमें (_S)…"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "0.75 गुना"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr ""
+msgstr "सामान्य"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "1.1 गुना"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "1.25 गुना"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "1.5 गुना"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "1.75 गुना"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, c-format
 msgid "Speed: %s"
-msgstr ""
+msgstr "गति: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr ""
+msgstr "परिवर्तनीय दर"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "परिवर्तनीय दर मेनू आइटम प्रदान करता है"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"
