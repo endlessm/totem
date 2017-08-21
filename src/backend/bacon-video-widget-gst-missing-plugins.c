@@ -56,6 +56,7 @@ typedef struct
 	gchar    **descriptions;
 	gchar    **details;
 	BaconVideoWidget *bvw;
+	GDesktopAppInfo *launch_app;
 }
 TotemCodecInstallContext;
 
@@ -131,6 +132,7 @@ bacon_video_widget_gst_codec_install_blacklist_plugin (const gchar * detail)
 static void
 bacon_video_widget_gst_codec_install_context_free (TotemCodecInstallContext *ctx)
 {
+	g_clear_object (&ctx->launch_app);
 	g_strfreev (ctx->descriptions);
 	g_strfreev (ctx->details);
 	g_free (ctx);
@@ -305,6 +307,51 @@ bacon_video_widget_start_plugin_installation (TotemCodecInstallContext *ctx,
 }
 
 static void
+determine_action_for_missing_codecs (TotemCodecInstallContext	 *ctx,
+				     const gchar		 *install_helper_display_name,
+				     gchar			**button_text,
+				     gchar			**message_text)
+{
+	GDesktopAppInfo *candidate;
+
+	if (install_helper_display_name != NULL) {
+		gchar *descriptions_text;
+		descriptions_text = g_strjoinv (", ", ctx->descriptions);
+		/* TRANSLATORS: this is a button to launch a codec installer.
+		 * %s will be replaced with the software installer's name, e.g.
+		 * 'Software' in case of gnome-software. */
+		*button_text = g_strdup_printf (_("_Find in %s"), install_helper_display_name);
+		*message_text = g_strdup_printf (ngettext ("%s is required to play the file, but is not installed.",
+							   "%s are required to play the file, but are not installed.",
+							   g_strv_length (ctx->descriptions)),
+						 descriptions_text);
+		g_free (descriptions_text);
+		return;
+	}
+
+	/* First try org.videolan.VLC.desktop, and if it exists
+	 * use that, otherwise use eos-vlc.desktop */
+	candidate = g_desktop_app_info_new ("org.videolan.VLC.desktop");
+	if (candidate) {
+		*message_text = g_strdup (_("This file type is currently unsupported in Videos. "
+					    "video player. However, you can use VLC media player "
+					    "to play it."));
+		*button_text = g_strdup (_("Open with VLC"));
+		ctx->launch_app = candidate;
+		return;
+	}
+
+	candidate = g_desktop_app_info_new ("eos-vlc.desktop");
+	if (candidate) {
+		*message_text = g_strdup (_("This file type is currently unsupported in Videos. "
+					    "However, you can use VLC media player "
+					    "from the App Center to play it."));
+		*button_text = g_strdup (_("Get VLC"));
+		ctx->launch_app = candidate;
+	}
+}
+
+static void
 codec_confirmation_dialog_response_cb (GtkDialog       *dialog,
                                        GtkResponseType  response_type,
                                        gpointer         user_data)
@@ -313,7 +360,24 @@ codec_confirmation_dialog_response_cb (GtkDialog       *dialog,
 
 	switch (response_type) {
 	case GTK_RESPONSE_ACCEPT:
-		bacon_video_widget_start_plugin_installation (ctx, FALSE);
+		if (ctx->launch_app) {
+			GList *uris = g_list_append (NULL, (gpointer) bacon_video_widget_get_mrl (ctx->bvw));
+			GError *error = NULL;
+			if (!g_app_info_launch_uris (G_APP_INFO (ctx->launch_app),
+						     uris,
+						     NULL,
+						     &error)) {
+				g_warning ("Could not launch %s: %s",
+					   g_app_info_get_id (G_APP_INFO (ctx->launch_app)),
+					   error->message);
+				g_error_free (error);
+			}
+
+			g_list_free (uris);
+		} else {
+			bacon_video_widget_start_plugin_installation (ctx, FALSE);
+		}
+
 		break;
 	case GTK_RESPONSE_CANCEL:
 	case GTK_RESPONSE_DELETE_EVENT:
@@ -331,9 +395,8 @@ show_codec_confirmation_dialog (TotemCodecInstallContext *ctx,
 	GtkWidget *button;
 	GtkWidget *dialog;
 	GtkWidget *toplevel;
-	gchar *button_text;
-	gchar *descriptions_text;
-	gchar *message_text;
+	gchar *button_text = NULL;
+	gchar *message_text = NULL;
 
 	toplevel = gtk_widget_get_toplevel (GTK_WIDGET (ctx->bvw));
 
@@ -344,22 +407,20 @@ show_codec_confirmation_dialog (TotemCodecInstallContext *ctx,
 	                                 GTK_BUTTONS_CANCEL,
 	                                 _("Unable to play the file"));
 
-	descriptions_text = g_strjoinv (", ", ctx->descriptions);
-	message_text = g_strdup_printf (ngettext ("%s is required to play the file, but is not installed.",
-	                                          "%s are required to play the file, but are not installed.",
-	                                          g_strv_length (ctx->descriptions)),
-	                                descriptions_text);
+	determine_action_for_missing_codecs (ctx, install_helper_display_name,
+					     &button_text, &message_text);
 
-	/* TRANSLATORS: this is a button to launch a codec installer.
-	 * %s will be replaced with the software installer's name, e.g.
-	 * 'Software' in case of gnome-software. */
-	button_text = g_strdup_printf (_("_Find in %s"), install_helper_display_name);
-	gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (dialog), "%s", message_text);
-	button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-	                                button_text,
-	                                GTK_RESPONSE_ACCEPT);
-	gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_ACCEPT);
-	gtk_style_context_add_class (gtk_widget_get_style_context (button), "suggested-action");
+	if (message_text != NULL)
+		gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (dialog), "%s", message_text);
+
+	if (button_text != NULL) {
+		button = gtk_dialog_add_button (GTK_DIALOG (dialog),
+						button_text,
+						GTK_RESPONSE_ACCEPT);
+		gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_ACCEPT);
+		gtk_style_context_add_class (gtk_widget_get_style_context (button), "suggested-action");
+	}
+
 	g_signal_connect (dialog, "response",
 	                  G_CALLBACK (codec_confirmation_dialog_response_cb),
 	                  ctx);
@@ -367,7 +428,6 @@ show_codec_confirmation_dialog (TotemCodecInstallContext *ctx,
 	gtk_window_present (GTK_WINDOW (dialog));
 
 	g_free (button_text);
-	g_free (descriptions_text);
 	g_free (message_text);
 }
 
@@ -388,6 +448,17 @@ on_packagekit_proxy_ready (GObject      *source_object,
 	}
 
 	if (packagekit_proxy != NULL) {
+		gchar *name_owner;
+
+		name_owner = g_dbus_proxy_get_name_owner (packagekit_proxy);
+		if (name_owner == NULL) {
+			/* We are not on a PackageKit-managed system; immediately show
+			 * a dialog box requesting that the user use another player */
+			show_codec_confirmation_dialog (ctx, NULL);
+			goto out;
+		}
+		g_free (name_owner);
+
 		property = g_dbus_proxy_get_cached_property (packagekit_proxy, "DisplayName");
 		if (property != NULL) {
 			const gchar *display_name;
