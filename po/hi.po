@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-31 22:53-0700\n"
+"POT-Creation-Date: 2017-08-31 15:03-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: e2f_in c7 <e2f_in_c7@outlook.com>, 2017\n"
 "Language-Team: Hindi (https://www.transifex.com/endless-mobile-inc/teams/9016/hi/)\n"
@@ -180,7 +180,7 @@ msgstr "दिखाने के लिए निर्देशिका"
 msgid "Directories to show in the browse interface, none by default"
 msgstr "ब्राउज अंतरफलक में दिखाने के लिए निर्देशिका, तयशुदा रूप से कोई नहीं"
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5616
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "स्टीरियो"
@@ -681,19 +681,19 @@ msgid ""
 msgstr ""
 "संजाल पर फाइल नहीं चला सकता. इसे पहले डिस्क में डाउनलोड करने की कोशिश करें "
 
-#: ../src/backend/bacon-video-widget.c:5612 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "चक्राकार ध्वनि"
 
-#: ../src/backend/bacon-video-widget.c:5614 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "मोनो"
 
-#: ../src/backend/bacon-video-widget.c:5901
+#: ../src/backend/bacon-video-widget.c:5917
 msgid "Media contains no supported video streams."
 msgstr "मीडिया में कोई समर्थित वीडियो धारा नहीं है."
 
-#: ../src/backend/bacon-video-widget.c:6112
+#: ../src/backend/bacon-video-widget.c:6128
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -701,27 +701,44 @@ msgstr ""
 "कुछ प्लग - इन्स आवश्यक याद कर रहे हैं.यकीन है कि इस कार्यक्रम के सही ढंग से "
 "स्थापित है."
 
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:523
+#. TRANSLATORS: this is a button to launch a codec installer.
+#. * %s will be replaced with the software installer's name, e.g.
+#. * 'Software' in case of gnome-software.
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
+#, c-format
+msgid "_Find in %s"
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
+#, c-format
+msgid "%s is required to play the file, but is not installed."
+msgid_plural "%s are required to play the file, but are not installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
+msgid ""
+"This file type is currently unsupported in Videos. video player. However, "
+"you can use VLC media player to play it."
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:339
+msgid "Open with VLC"
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:346
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player from the App Center to play it."
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:349
+msgid "Get VLC"
+msgstr ""
+
+#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:408
 msgid "Unable to play the file"
 msgstr "फ़ाइल चलाने में असमर्थ"
-
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:531
-msgid ""
-"This file type is currently unsupported. To support this type of file, you "
-"can purchase our audio/video codec upgrade to add support for additional "
-"file formats."
-msgstr ""
-"वर्तमान में यह फ़ाइल प्रकार असमर्थित है. इस प्रकार की फ़ाइल का समर्थन करने के "
-"लिए, आप अतिरिक्त फ़ाइल स्वरूपों के लिए समर्थन जोड़ने हेतु हमारा ऑडियो/वीडियो "
-"कोडेक नवीनीकरण खरीद सकते हैं."
-
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:535
-msgid "_Purchase Codec Upgrade"
-msgstr "_कोडेक नवीनीकरण खरीदें"
-
-#: ../src/backend/bacon-video-widget-gst-missing-plugins.c:543
-msgid "This file type is unsupported."
-msgstr "यह फ़ाइल प्रकार असमर्थित है."
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
