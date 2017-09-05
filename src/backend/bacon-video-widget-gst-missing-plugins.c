@@ -334,7 +334,7 @@ determine_action_for_missing_codecs (TotemCodecInstallContext	 *ctx,
 	candidate = g_desktop_app_info_new ("org.videolan.VLC.desktop");
 	if (candidate) {
 		*message_text = g_strdup (_("This file type is currently unsupported in Videos. "
-					    "video player. However, you can use VLC media player "
+					    "However, you can use VLC media player "
 					    "to play it."));
 		*button_text = g_strdup (_("Open with VLC"));
 		ctx->launch_app = candidate;
