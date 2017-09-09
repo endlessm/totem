@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-31 15:03-0700\n"
+"POT-Creation-Date: 2017-09-05 13:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: e2f_in c7 <e2f_in_c7@outlook.com>, 2017\n"
 "Language-Team: Hindi (https://www.transifex.com/endless-mobile-inc/teams/9016/hi/)\n"
@@ -707,34 +707,38 @@ msgstr ""
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "%s में खोजें"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "फ़ाइल चलाने के लिए %s आवश्यक है, लेकिन यह स्थापित नहीं है."
+msgstr[1] "फ़ाइल चलाने के लिए %s  आवश्यक है, लेकिन ये स्थापित नहीं हैं."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
-"This file type is currently unsupported in Videos. video player. However, "
-"you can use VLC media player to play it."
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
 msgstr ""
+"वर्तमान में वीडियो में फ़ाइल प्रकार असमर्थित है. वीडियो प्लेयर. हालांकि, आप "
+"इसे चलाने के लिए VLC मीडिया प्लेयर का उपयोग कर सकते हैं."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:339
 msgid "Open with VLC"
-msgstr ""
+msgstr "VLC से खोलें"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:346
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"वर्तमान में वीडियो में फ़ाइल प्रकार असमर्थित है. हालांकि, आप इसे चलाने के "
+"लिए ऐप्लिकेशन केंद्र से VLC मीडिया प्लेयर का उपयोग कर सकते हैं."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:349
 msgid "Get VLC"
-msgstr ""
+msgstr "VLC प्राप्त करें"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:408
 msgid "Unable to play the file"

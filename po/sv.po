@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-31 15:03-0700\n"
+"POT-Creation-Date: 2017-09-05 13:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Swedish (https://www.transifex.com/endless-mobile-inc/teams/9016/sv/)\n"
@@ -721,8 +721,8 @@ msgstr[1] ""
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
-"This file type is currently unsupported in Videos. video player. However, "
-"you can use VLC media player to play it."
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
 msgstr ""
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:339

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-31 15:03-0700\n"
+"POT-Creation-Date: 2017-09-05 13:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Arabic (https://www.transifex.com/endless-mobile-inc/teams/9016/ar/)\n"
@@ -715,38 +715,42 @@ msgstr ""
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "_اعثر في %s"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "%s مطلوبة لتشغيل هذا الملف ولكنها غير مثبتة."
+msgstr[1] "%s مطلوب لتشغيل هذا الملف ولكنه غير مثبت."
+msgstr[2] "%s مطلوبة لتشغيل هذا الملف ولكنها غير مثبتة."
+msgstr[3] "%s مطلوبة لتشغيل هذا الملف ولكنها غير مثبتة."
+msgstr[4] "%s مطلوبة لتشغيل هذا الملف ولكنها غير مثبتة."
+msgstr[5] "%s مطلوب لتشغيل هذا الملف ولكنه غير مثبت."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
-"This file type is currently unsupported in Videos. video player. However, "
-"you can use VLC media player to play it."
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
 msgstr ""
+"نوع الملف هذا غير مدعوم حالياً في مشغل الفيديو Videos. ورغم ذلك يمكنك "
+"استخدام مشغل الوسائط VLC لتشغيله."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:339
 msgid "Open with VLC"
-msgstr ""
+msgstr "فتح باستخدام VLC"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:346
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"نوع الملف هذا غير مدعوم حالياً في مشغل الفيديو Videos. ورغم ذلك يمكنك "
+"استخدام مشغل الوسائط VLC من App Center لتشغيله."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:349
 msgid "Get VLC"
-msgstr ""
+msgstr "احصل على VLC"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:408
 msgid "Unable to play the file"

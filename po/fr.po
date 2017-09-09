@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-31 15:03-0700\n"
+"POT-Creation-Date: 2017-09-05 13:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: French (https://www.transifex.com/endless-mobile-inc/teams/9016/fr/)\n"
@@ -720,34 +720,39 @@ msgstr ""
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "_Trouver dans %s"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s est requis pour lire le fichier, mais n'est pas installé."
+msgstr[1] "%s sont requis pour lire le fichier, mais ne sont pas installés."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
-"This file type is currently unsupported in Videos. video player. However, "
-"you can use VLC media player to play it."
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
 msgstr ""
+"Ce type de fichier n'est pas pris en charge dans les vidéos actuellement. "
+"Vous pouvez cependant utiliser le lecteur multimédia VLC pour le lire."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:339
 msgid "Open with VLC"
-msgstr ""
+msgstr "Ouvrir avec VLC"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:346
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Ce type de fichier n'est pas pris en charge dans les vidéos actuellement. "
+"Vous pouvez cependant utiliser le lecteur multimédia VLC dans le centre "
+"d'applis pour le lire."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:349
 msgid "Get VLC"
-msgstr ""
+msgstr "Obtenir VLC"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:408
 msgid "Unable to play the file"
