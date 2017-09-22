@@ -1,3 +1,9 @@
+totem (3.24.0-0) eos; urgency=medium
+
+  * New upstream release.
+
+ -- Georges Basile Stavracas Neto <georges@endlessm.com>  Fri, 22 Sep 2017 02:18:46 -0300
+
 totem (3.22.1-1) unstable; urgency=medium
 
   [ Jeremy Bicha ]
