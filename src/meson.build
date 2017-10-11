@@ -317,8 +317,6 @@ if have_gir
 
   gir_incs = [
     'Gio-2.0',
-    'GLib-2.0',
-    'GObject-2.0',
     'Gtk-3.0',
     'TotemPlParser-1.0'
   ]
@@ -345,6 +343,15 @@ if have_gir
     install_dir_typelib: typelib_dir,
     extra_args: gir_extra_args
   )
+
+  if have_vala
+    libtotem_vapi = gnome.generate_vapi(
+      'totem',
+      sources: libtotem_gir[0],
+      packages: ['gio-2.0', 'gtk+-3.0', 'TotemPlParser-1.0'],
+      install: false,
+    )
+  endif
 endif
 
 subdir('plugins')

@@ -115,7 +115,7 @@ if plugins_option != 'none'
 
   if have_vala
     plugins_vala_deps = [
-      declare_dependency(sources: libtotem_gir)
+      libtotem_vapi
     ]
 
     plugins_vala_flags = [
@@ -125,8 +125,6 @@ if plugins_option != 'none'
     ]
 
     plugins_vala_args = [
-      '--girdir=' + join_paths(meson.build_root(), 'src'),
-      '--pkg=@0@-@1@'.format(totem_gir_ns, totem_api_version)
     ]
 
     plugins += [
