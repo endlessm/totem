@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 13:35-0700\n"
+"POT-Creation-Date: 2017-10-11 13:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Malayalam (https://www.transifex.com/endless-mobile-inc/teams/9016/ml/)\n"
@@ -117,33 +117,27 @@ msgid "Encoding character set for subtitle."
 msgstr "അടിക്കുറിപ്പിനു് വേണ്ട എന്‍കോഡിങ്ങ്."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
-msgid "Default location for the \"Open...\" dialogs"
-msgstr "\"തുറക്കുക...\" എന്ന സംഭാഷണങ്ങള്‍ക്കുള്ള സഹജമായ സ്ഥാനം"
+msgid "Default location for the “Open…” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
-"Default location for the \"Open...\" dialogs. Default is the current "
-"directory."
+"Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"\"തുറക്കുക...\" എന്ന സംഭാഷണങ്ങള്‍ക്കുള്ള സഹജമായ സ്ഥാനം. സഹജമായിട്ടുള്ളതു് "
-"നിലവിലുള്ള ഡയറക്ടറിയാണു്."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
-msgid "Default location for the \"Take Screenshot\" dialogs"
-msgstr "\"തിരച്ചിത്രം എടുക്കുക\" എന്ന സംഭാഷണങ്ങള്‍ക്കുള്ള സഹജമായ സ്ഥാനം"
+msgid "Default location for the “Take Screenshot” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
-"Default location for the \"Take Screenshot\" dialogs. Default is the "
-"Pictures directory."
+"Default location for the “Take Screenshot” dialogs. Default is the Pictures "
+"directory."
 msgstr ""
-"\"തിരച്ചിത്രം എടുക്കുക\" എന്ന സംഭാഷണങ്ങള്‍ക്കുള്ള സഹജമായ സ്ഥാനം. "
-"സഹജമായിട്ടുള്ളതു് ചിത്രങ്ങളുടെ ഡയറക്ടറിയാണു്."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
-msgid "Whether to disable the plugins in the user's home directory"
+msgid "Whether to disable the plugins in the user’s home directory"
 msgstr ""
-"ഉപയോക്താവിന്റെ 'വീട്' തട്ടത്തില്‍ സംയോജകങ്ങള്‍ അപ്രാവര്‍ത്തികമാക്കണോ എന്നു്"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -175,7 +169,7 @@ msgstr ""
 msgid "Directories to show in the browse interface, none by default"
 msgstr ""
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5644
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "സ്റ്റീരിയോ"
@@ -237,8 +231,8 @@ msgid "Plugins"
 msgstr ""
 
 #: ../data/preferences.ui.h:15
-msgid "Plugins..."
-msgstr "സംയോജകം..."
+msgid "Plugins…"
+msgstr ""
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -354,130 +348,155 @@ msgstr ""
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
-msgid "Quit"
+msgid "Properties"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
-msgid "Volume"
+msgid "Make Available Offline"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
-msgid "Increase volume"
+msgid "Take Screenshot"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
-msgid "Decrease volume"
+msgid "Quit"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "View"
+msgid "Volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
-msgid "Toggle fullscreen"
+msgid "Increase volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
-msgid "Exit fullscreen"
+msgid "Decrease volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
-msgid "Zoom in"
+msgid "View"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
-msgid "Zoom out"
+msgid "Toggle fullscreen"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
-msgid "Playback"
+msgid "Exit fullscreen"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
-msgid "Play/Pause"
+msgid "Zoom in"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
-msgid "Previous video or chapter"
+msgid "Zoom out"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
-msgid "Next video or chapter"
+msgid "Rotate ↷"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
-msgid "Skip"
+msgid "Rotate ↶"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
-msgid "Go back 15 seconds"
+msgid "Playback"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
-msgid "Go forward 60 seconds"
+msgid "Play/Pause"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
-msgid "Go back 5 seconds"
+msgid "Previous video or chapter"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
-msgid "Go forward 15 seconds"
+msgid "Next video or chapter"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
-msgid "Go back 3 minutes"
+msgid "Skip"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
-msgid "Go forward 10 minutes"
+msgid "Go back 15 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
-msgid "Skip to…"
+msgid "Go forward 60 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
-msgid "DVD menu navigation"
+msgid "Go back 5 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
-msgid "Navigate up"
+msgid "Go forward 15 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
-msgid "Navigate down"
+msgid "Go back 3 minutes"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
-msgid "Navigate left"
+msgid "Go forward 10 minutes"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:27
+msgctxt "shortcut window"
+msgid "Skip to…"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:28
+msgctxt "shortcut window"
+msgid "DVD menu navigation"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:29
+msgctxt "shortcut window"
+msgid "Navigate up"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:30
+msgctxt "shortcut window"
+msgid "Navigate down"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:31
+msgctxt "shortcut window"
+msgid "Navigate left"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr ""
@@ -596,55 +615,55 @@ msgstr "നിങ്ങള്‍ തുറക്കുവാന്‍ ആഗ്�
 msgid "--:--"
 msgstr ""
 
-#: ../src/backend/bacon-video-widget.c:1959
+#: ../src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "RTSP സേവകന്റെ അടയാളവാക്ക്"
 
-#: ../src/backend/bacon-video-widget.c:3329
+#: ../src/backend/bacon-video-widget.c:3341
 #, c-format
 msgid "Audio Track #%d"
 msgstr "ശബ്ദ ട്രാക്ക് #%d"
 
-#: ../src/backend/bacon-video-widget.c:3331
+#: ../src/backend/bacon-video-widget.c:3343
 #, c-format
 msgid "Subtitle #%d"
 msgstr "അടിക്കുറിപ്പു് #%d"
 
-#: ../src/backend/bacon-video-widget.c:3872
+#: ../src/backend/bacon-video-widget.c:3884
 msgid "The server you are trying to connect to is not known."
 msgstr "നിങ്ങള്‍ ബന്ധിപ്പിക്കുവാന്‍ ശ്രമിക്കുന്ന സേവകന്‍ അപരിചിതമാണ്."
 
-#: ../src/backend/bacon-video-widget.c:3875
+#: ../src/backend/bacon-video-widget.c:3887
 msgid "The connection to this server was refused."
 msgstr "ഈ സര്‍വറിലേക്കുളള കണക്ഷന്‍ നിഷേധിച്ചിരിക്കുന്നു."
 
-#: ../src/backend/bacon-video-widget.c:3878
+#: ../src/backend/bacon-video-widget.c:3890
 msgid "The specified movie could not be found."
 msgstr "പറഞ്ഞിരിക്കുന്ന ചലച്ചിത്രം കണ്ടുകിട്ടിയില്ല."
 
-#: ../src/backend/bacon-video-widget.c:3885
+#: ../src/backend/bacon-video-widget.c:3897
 msgid "The server refused access to this file or stream."
 msgstr "സെര്‍വര്‍ ഐ ഫയലോ സ്ട്രീമോ ഉപയോഗിക്കാന്‍ അനുവദിക്കുന്നില്ല."
 
-#: ../src/backend/bacon-video-widget.c:3891
+#: ../src/backend/bacon-video-widget.c:3903
 msgid "Authentication is required to access this file or stream."
 msgstr "ഐ ഫയല്‍ അല്ലെങ്കില്‍ സിസ്റ്റം ഉപയോഗിക്കാന്‍ തിരിച്ചറിയല്‍ ആവശ്യമാണു."
 
-#: ../src/backend/bacon-video-widget.c:3898
+#: ../src/backend/bacon-video-widget.c:3910
 msgid "You are not allowed to open this file."
 msgstr "ഈ ഫയല്‍ തുറക്കുവാന്‍ നിങ്ങള്‍ക്ക് അനുവാദമില്ല."
 
-#: ../src/backend/bacon-video-widget.c:3903
+#: ../src/backend/bacon-video-widget.c:3915
 msgid "This location is not a valid one."
 msgstr "ഈ സാധുതയുളള സ്ഥാനമല്ല."
 
-#: ../src/backend/bacon-video-widget.c:3911
+#: ../src/backend/bacon-video-widget.c:3923
 msgid "The movie could not be read."
 msgstr "ചലച്ചിത്രം ലഭ്യമല്ല."
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3934
-#: ../src/backend/bacon-video-widget.c:3942
+#: ../src/backend/bacon-video-widget.c:3946
+#: ../src/backend/bacon-video-widget.c:3954
 #, c-format
 msgid ""
 "The playback of this movie requires a %s plugin which is not installed."
@@ -660,18 +679,18 @@ msgstr[1] ""
 "\n"
 "%s"
 
-#: ../src/backend/bacon-video-widget.c:3954
+#: ../src/backend/bacon-video-widget.c:3966
 msgid ""
-"This stream cannot be played. It's possible that a firewall is blocking it."
+"This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
 
-#: ../src/backend/bacon-video-widget.c:3957
+#: ../src/backend/bacon-video-widget.c:3969
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
 
-#: ../src/backend/bacon-video-widget.c:3968
+#: ../src/backend/bacon-video-widget.c:3980
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
@@ -679,19 +698,19 @@ msgstr ""
 "ശ്രംഖലയില്‍ ഈ ഫയല്‍ പ്രവര്‍ത്തിപ്പിക്കുവാന്‍ സാധ്യമായില്ല. ആദ്യം അത് "
 "ഡിസ്ക്കിലേക്ക് ഡൌണ്‍ ലോഡ് ചെയ്യുന്നതിന് ശ്രമിക്കുക."
 
-#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5640 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "സറൌണ്ട് (എല്ലാ ദിശയില്‍ നിന്നും ശബ്ദം)"
 
-#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5642 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "മോണോ"
 
-#: ../src/backend/bacon-video-widget.c:5917
+#: ../src/backend/bacon-video-widget.c:5929
 msgid "Media contains no supported video streams."
 msgstr "മീഡിയ്ക് പിന്തുണയുളള വീഡിയോ പ്രവാഹങ്ങള്‍ ലഭ്യമല്ല"
 
-#: ../src/backend/bacon-video-widget.c:6128
+#: ../src/backend/bacon-video-widget.c:6140
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -895,10 +914,6 @@ msgstr ""
 msgid "Select None"
 msgstr ""
 
-#: ../src/totem-audio-preview.c:172
-msgid "Audio Preview"
-msgstr "ഓഡിയോ തിരനോട്ടം"
-
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr "ത്രെഡ്-സെയിഫ് ലൈബ്രറികള്‍ ആരംഭിക്കുവാന്‍ സാധ്യമായില്ല"
@@ -939,8 +954,8 @@ msgstr ""
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
-msgid "Couldn't load the '%s' interface. %s"
-msgstr "'%s' വിനിമയതലം ചേര്‍ക്കുവാന്‍ സാധ്യമായില്ല. %s"
+msgid "Couldn’t load the “%s” interface. %s"
+msgstr ""
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1008,8 +1023,8 @@ msgstr "പ്രവര്‍ത്തിപ്പിക്കുക"
 #: ../src/totem-object.c:1472 ../src/totem-object.c:1499
 #: ../src/totem-object.c:1991
 #, c-format
-msgid "Totem could not play '%s'."
-msgstr "ടോട്ടത്തിനു് '%s' പ്രവര്‍ത്തിപ്പിക്കുവാന്‍‍ സാധ്യമായില്ല."
+msgid "Totem could not play “%s”."
+msgstr ""
 
 #: ../src/totem-object.c:2162
 msgid "Totem could not display the help contents."
@@ -1112,8 +1127,8 @@ msgid "Movies to play"
 msgstr "ഓടിക്കേണ്ട ചലച്ചിത്രങ്ങള്‍"
 
 #: ../src/totem-options.c:100
-msgid "Can't enqueue and replace at the same time"
-msgstr "വരിയിലേക്ക് ചേര്‍ക്കുവാനും മാറ്റിസ്ഥാപിക്കുവാനും ഒരേസമയം പറ്റില്ല"
+msgid "Can’t enqueue and replace at the same time"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1124,8 +1139,8 @@ msgstr "തലക്കെട്ടു് %d"
 
 #: ../src/totem-playlist.c:992
 #, c-format
-msgid "The playlist '%s' could not be parsed. It might be damaged."
-msgstr "പ്ലേലിസ്റ്റ് '%s' തുറക്കാന്‍ കഴിഞ്ഞില്ല. ഇതിനു കേടു വന്നിരിക്കാം"
+msgid "The playlist “%s” could not be parsed. It might be damaged."
+msgstr ""
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1164,8 +1179,8 @@ msgstr "%d kbps"
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
+msgid "%d × %d"
+msgstr ""
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1515,12 +1530,12 @@ msgid "Support infrared remote control"
 msgstr "ഇന്‍ഫ്രാ-റെഡ് ദൂര-നിയന്ത്രണം താങ്ങുന്നു"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
-msgid "Couldn't initialize lirc."
-msgstr "എല്‍.ഐ.അര്‍.സി ആരംഭിക്കുവാന്‍ സാധ്യമായില്ല"
+msgid "Couldn’t initialize lirc."
+msgstr ""
 
 #: ../src/plugins/lirc/totem-lirc.c:251
-msgid "Couldn't read lirc configuration."
-msgstr "lirc ക്രമീകരണം വായിക്കാന്‍ കഴിഞ്ഞില്ല"
+msgid "Couldn’t read lirc configuration."
+msgstr ""
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
 msgid "Media Player Keys"
@@ -1639,7 +1654,7 @@ msgstr "rpdb2 രഹസ്യവാക്ക്"
 #: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
-" remote access. If this is empty, a default of 'totem' will be used."
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
@@ -1661,7 +1676,7 @@ msgstr "പൈത്തണ്‍ ഡീബഗ്ഗര്‍"
 #. pylint: disable-msg=E1101
 #: ../src/plugins/pythonconsole/pythonconsole.py:90
 #, python-format
-msgid "You can access the Totem.Object through 'totem_object' :\\n%s"
+msgid "You can access the Totem.Object through “totem_object” :\\n%s"
 msgstr ""
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:94
@@ -1673,12 +1688,8 @@ msgstr "ടോട്ടം പൈത്തണ്‍ കണ്‍സോള്‍"
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
-"default password ('totem')."
+"default password (“totem”)."
 msgstr ""
-"നിങ്ങള്‍ ഒ.കെ അമര്‍ത്തി കഴിഞ്ഞാല്‍ ടോട്ടം കാത്തിരിക്കുന്നു നിങ്ങള്‍ "
-"അതിലേയ്ക്കു് വിന്‍.പി.ഡി.ബി അല്ലെങ്കില്‍ അര്‍.പി.ഡി.ബി.2 ഉപയോഗിച്ച് "
-"ബന്ധപെട്ടില്ലെങ്കില്‍. നിങ്ങള്‍ ജികോണ്‍ഫില്‍ ഒരു ഡീബഗര്‍ പാസ്വര്‍ഡ് "
-"ഇട്ടിറ്റില്ലെങ്കില്‍, അതു സഹജമായ പാസ്വര്‍ഡ് ഉപയോഗിക്കും  ('totem')."
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1795,8 +1806,8 @@ msgstr ""
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
-msgid "Saving gallery as \"%s\""
-msgstr "ഗാലറി \"%s\" ആയി സൂക്ഷിക്കുന്നു"
+msgid "Saving gallery as “%s”"
+msgstr ""
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1821,7 +1832,7 @@ msgid "Skip To"
 msgstr ""
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
-msgid "Provides the \"Skip to\" dialog"
+msgid "Provides the “Skip to” dialog"
 msgstr ""
 
 #: ../src/plugins/skipto/skipto.ui.h:1

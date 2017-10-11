@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 13:35-0700\n"
+"POT-Creation-Date: 2017-10-11 13:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Khmer (https://www.transifex.com/endless-mobile-inc/teams/9016/km/)\n"
@@ -117,29 +117,27 @@ msgid "Encoding character set for subtitle."
 msgstr "ការ​អ៊ិនកូដ​សំណុំ​តួអក្សរ​សម្រាប់​ចំណង​ជើង​រង ។"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
-msgid "Default location for the \"Open...\" dialogs"
-msgstr "ទីតាំង​លំនាំដើម​សម្រាប់​ប្រអប់ \"បើក...\""
+msgid "Default location for the “Open…” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
-"Default location for the \"Open...\" dialogs. Default is the current "
-"directory."
-msgstr "ទីតាំង​លំនាំដើម​សម្រាប់​ប្រអប់ \"បើក...\" ។ លំនាំដើម​គឺ​ថត​​បច្ចុប្បន្ន ។"
+"Default location for the “Open…” dialogs. Default is the current directory."
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
-msgid "Default location for the \"Take Screenshot\" dialogs"
-msgstr "ទីតាំង​លំនាំដើម​សម្រាប់​ប្រអប់ \"ថត​អេក្រង់\""
+msgid "Default location for the “Take Screenshot” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
-"Default location for the \"Take Screenshot\" dialogs. Default is the "
-"Pictures directory."
-msgstr "ទីតាំង​លំនាំដើម​សម្រាប់​ប្រអប់ \"ថត​អេក្រង់\" ។ លំនាំដើម​គឺ​ថត​រូបភាព ។"
+"Default location for the “Take Screenshot” dialogs. Default is the Pictures "
+"directory."
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
-msgid "Whether to disable the plugins in the user's home directory"
+msgid "Whether to disable the plugins in the user’s home directory"
 msgstr ""
-"ថា​តើ​ត្រូវ​បិទ​កម្មវិធី​ជំនួយ​នៅ​ក្នុង​ថត​ផ្ទះ​របស់​អ្នក​ប្រើ​ដែរ​ឬទេ"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -176,7 +174,7 @@ msgstr ""
 msgid "Directories to show in the browse interface, none by default"
 msgstr ""
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5644
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "ស្តេរេអូ"
@@ -234,8 +232,8 @@ msgid "Plugins"
 msgstr ""
 
 #: ../data/preferences.ui.h:15
-msgid "Plugins..."
-msgstr "កម្មវិធី​ជំនួយ..."
+msgid "Plugins…"
+msgstr ""
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -351,130 +349,155 @@ msgstr ""
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
-msgid "Quit"
+msgid "Properties"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
-msgid "Volume"
+msgid "Make Available Offline"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
-msgid "Increase volume"
+msgid "Take Screenshot"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
-msgid "Decrease volume"
+msgid "Quit"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "View"
+msgid "Volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
-msgid "Toggle fullscreen"
+msgid "Increase volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
-msgid "Exit fullscreen"
+msgid "Decrease volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
-msgid "Zoom in"
+msgid "View"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
-msgid "Zoom out"
+msgid "Toggle fullscreen"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
-msgid "Playback"
+msgid "Exit fullscreen"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
-msgid "Play/Pause"
+msgid "Zoom in"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
-msgid "Previous video or chapter"
+msgid "Zoom out"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
-msgid "Next video or chapter"
+msgid "Rotate ↷"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
-msgid "Skip"
+msgid "Rotate ↶"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
-msgid "Go back 15 seconds"
+msgid "Playback"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
-msgid "Go forward 60 seconds"
+msgid "Play/Pause"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
-msgid "Go back 5 seconds"
+msgid "Previous video or chapter"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
-msgid "Go forward 15 seconds"
+msgid "Next video or chapter"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
-msgid "Go back 3 minutes"
+msgid "Skip"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
-msgid "Go forward 10 minutes"
+msgid "Go back 15 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
-msgid "Skip to…"
+msgid "Go forward 60 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
-msgid "DVD menu navigation"
+msgid "Go back 5 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
-msgid "Navigate up"
+msgid "Go forward 15 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
-msgid "Navigate down"
+msgid "Go back 3 minutes"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
-msgid "Navigate left"
+msgid "Go forward 10 minutes"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:27
+msgctxt "shortcut window"
+msgid "Skip to…"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:28
+msgctxt "shortcut window"
+msgid "DVD menu navigation"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:29
+msgctxt "shortcut window"
+msgid "Navigate up"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:30
+msgctxt "shortcut window"
+msgid "Navigate down"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:31
+msgctxt "shortcut window"
+msgid "Navigate left"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr ""
@@ -593,58 +616,58 @@ msgstr "បញ្ចូល​អាសយដ្ឋាន​ចំណង​ជើ
 msgid "--:--"
 msgstr ""
 
-#: ../src/backend/bacon-video-widget.c:1959
+#: ../src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "បាន​ស្នើ​ពាក្យ​សម្ងាត់​សម្រាប់​ម៉ាស៊ីន​បម្រើ RTSP"
 
-#: ../src/backend/bacon-video-widget.c:3329
+#: ../src/backend/bacon-video-widget.c:3341
 #, c-format
 msgid "Audio Track #%d"
 msgstr "បទ​អូឌីយ៉ូ #%d"
 
-#: ../src/backend/bacon-video-widget.c:3331
+#: ../src/backend/bacon-video-widget.c:3343
 #, c-format
 msgid "Subtitle #%d"
 msgstr "ចំណង​ជើង​រង #%d"
 
-#: ../src/backend/bacon-video-widget.c:3872
+#: ../src/backend/bacon-video-widget.c:3884
 msgid "The server you are trying to connect to is not known."
 msgstr "មិន​ស្គាល់​ម៉ាស៊ីន​បម្រើ​ដែល​អ្នក​កំពុង​ព្យាយាម​តភ្ជាប់​ទៅកាន់​ទេ ។"
 
-#: ../src/backend/bacon-video-widget.c:3875
+#: ../src/backend/bacon-video-widget.c:3887
 msgid "The connection to this server was refused."
 msgstr "ការ​តភ្ជាប់​ទៅកាន់​ម៉ាស៊ីន​បម្រើ​នេះ​ត្រូវ​បាន​បដិសេធ ។"
 
-#: ../src/backend/bacon-video-widget.c:3878
+#: ../src/backend/bacon-video-widget.c:3890
 msgid "The specified movie could not be found."
 msgstr "រក​មិន​ឃើញ​ភាពយន្ត​ដែល​បាន​បញ្ជាក់​ទេ ។"
 
-#: ../src/backend/bacon-video-widget.c:3885
+#: ../src/backend/bacon-video-widget.c:3897
 msgid "The server refused access to this file or stream."
 msgstr ""
 "ម៉ាស៊ីន​បម្រើ​បាន​បដិសេធ​ការ​ចូល​ដំណើរការ​ទៅកាន់​ស្ទ្រីម ឬ​ឯកសារ​នេះ ។"
 
-#: ../src/backend/bacon-video-widget.c:3891
+#: ../src/backend/bacon-video-widget.c:3903
 msgid "Authentication is required to access this file or stream."
 msgstr ""
 "បាន​ទាមទារ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ដើម្បី​ចូល​ដំណើរការ​ស្ទ្រីម "
 "ឬ​ឯកសារ​នេះ ។"
 
-#: ../src/backend/bacon-video-widget.c:3898
+#: ../src/backend/bacon-video-widget.c:3910
 msgid "You are not allowed to open this file."
 msgstr "អ្នក​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​បើក​ឯកសារ​នេះ​ទេ ។"
 
-#: ../src/backend/bacon-video-widget.c:3903
+#: ../src/backend/bacon-video-widget.c:3915
 msgid "This location is not a valid one."
 msgstr "ទីតាំង​នេះ​មិន​ត្រឹមត្រូវ​ទេ ។"
 
-#: ../src/backend/bacon-video-widget.c:3911
+#: ../src/backend/bacon-video-widget.c:3923
 msgid "The movie could not be read."
 msgstr "មិន​អាច​អាន​ភាពយន្ត​បាន​ទេ ។"
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3934
-#: ../src/backend/bacon-video-widget.c:3942
+#: ../src/backend/bacon-video-widget.c:3946
+#: ../src/backend/bacon-video-widget.c:3954
 #, c-format
 msgid ""
 "The playback of this movie requires a %s plugin which is not installed."
@@ -654,12 +677,12 @@ msgid_plural ""
 "%s"
 msgstr[0] ""
 
-#: ../src/backend/bacon-video-widget.c:3954
+#: ../src/backend/bacon-video-widget.c:3966
 msgid ""
-"This stream cannot be played. It's possible that a firewall is blocking it."
+"This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
 
-#: ../src/backend/bacon-video-widget.c:3957
+#: ../src/backend/bacon-video-widget.c:3969
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
@@ -668,7 +691,7 @@ msgstr ""
 "ដោយសារតែ​បាត់​កូដិក​មួយ​ចំនួន ។ "
 "អ្នក​ចាំបាច់​ត្រូវ​ដំឡើង​កម្មវិធី​ជំនួយ​បន្ថែម​ដើម្បី​អាច​ចាក់​ភាពយន្ត​ប្រភេទ​ខ្លះ​បាន"
 
-#: ../src/backend/bacon-video-widget.c:3968
+#: ../src/backend/bacon-video-widget.c:3980
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
@@ -676,19 +699,19 @@ msgstr ""
 "មិន​អាច​ចាក់​ឯកសារ​នេះ​លើ​បណ្ដាញ​បាន​ទេ ។ "
 "ព្យាយាម​ទាញ​យក​វា​ដាក់​ក្នុង​ថាស​ជាមុន​សិន ។"
 
-#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5640 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "ជុំវិញ"
 
-#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5642 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "ម៉ូណូ"
 
-#: ../src/backend/bacon-video-widget.c:5917
+#: ../src/backend/bacon-video-widget.c:5929
 msgid "Media contains no supported video streams."
 msgstr "មេឌៀ​​មិន​មាន​ស្ទ្រីម​វីដេអូ​ដែល​បាន​គាំទ្រ​ទេ ។"
 
-#: ../src/backend/bacon-video-widget.c:6128
+#: ../src/backend/bacon-video-widget.c:6140
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -887,10 +910,6 @@ msgstr ""
 msgid "Select None"
 msgstr ""
 
-#: ../src/totem-audio-preview.c:172
-msgid "Audio Preview"
-msgstr "មើល​អូឌីយ៉ូ​ជាមុន"
-
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr "មិន​អាច​ចាប់​ផ្ដើម​បណ្ណាល័យ​ខ្សែស្រឡាយ​ដែល​មាន​​សវុត្ថិភាព​បាន​ទេ ។"
@@ -929,8 +948,8 @@ msgstr ""
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
-msgid "Couldn't load the '%s' interface. %s"
-msgstr "មិន​អាច​ផ្ទុក​ចំណុច​ប្រទាក់ '%s' បាន​ទេ ។ %s"
+msgid "Couldn’t load the “%s” interface. %s"
+msgstr ""
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -997,8 +1016,8 @@ msgstr "ចាក់"
 #: ../src/totem-object.c:1472 ../src/totem-object.c:1499
 #: ../src/totem-object.c:1991
 #, c-format
-msgid "Totem could not play '%s'."
-msgstr "Totem មិន​អាច​ចាក់ '%s' បាន​ទេ ។"
+msgid "Totem could not play “%s”."
+msgstr ""
 
 #: ../src/totem-object.c:2162
 msgid "Totem could not display the help contents."
@@ -1100,8 +1119,8 @@ msgid "Movies to play"
 msgstr "ភាពយន្ត​ត្រូវ​ចាក់"
 
 #: ../src/totem-options.c:100
-msgid "Can't enqueue and replace at the same time"
-msgstr "មិន​អាច​ដាក់​ជា​ជួយ និង​ជំនួស​នៅ​ពេល​តែ​មួយ​បាន​ទេ"
+msgid "Can’t enqueue and replace at the same time"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1112,8 +1131,8 @@ msgstr "ចំណង​ជើង %d"
 
 #: ../src/totem-playlist.c:992
 #, c-format
-msgid "The playlist '%s' could not be parsed. It might be damaged."
-msgstr "បញ្ជី​ចាក់ '%s' មិន​អាច​ត្រូវ​បាន​ញែក​ទេ ។ វា​អាច​ត្រូវ​បាន​បង្ខូច ។"
+msgid "The playlist “%s” could not be parsed. It might be damaged."
+msgstr ""
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1152,8 +1171,8 @@ msgstr "%d kbps"
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
+msgid "%d × %d"
+msgstr ""
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1503,12 +1522,12 @@ msgid "Support infrared remote control"
 msgstr "គាំទ្រ​ការ​គ្រប់គ្រង​ពី​ចម្ងាយ​របស់​អ៊ីនហ្វ្រារ៉េដ"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
-msgid "Couldn't initialize lirc."
-msgstr "មិន​អាច​ចាប់ផ្ដើម lirc បាន​ទេ ។"
+msgid "Couldn’t initialize lirc."
+msgstr ""
 
 #: ../src/plugins/lirc/totem-lirc.c:251
-msgid "Couldn't read lirc configuration."
-msgstr "មិន​អាច​អានការ​កំណត់​រចនាសម្ព័ន្ធ lirc បាន​ទេ ។"
+msgid "Couldn’t read lirc configuration."
+msgstr ""
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
 msgid "Media Player Keys"
@@ -1627,11 +1646,8 @@ msgstr "ពាក្យ​សម្ងាត់ rpdb2"
 #: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
-" remote access. If this is empty, a default of 'totem' will be used."
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"ពាក្យ​សម្ងាត់ ដើម្បី​ការពារ​ម៉ាស៊ីន​បម្រើ rpdb2 សម្រាប់បំបាត់​កំហុស Totem "
-"ពី​ការ​ចូល​ប្រើ​ពី​ចម្ងាយ​ដែល​មិន​បាន​អនុញ្ញាត ។ ប្រសិន​បើ​វា​ទទេ "
-"លំនាំដើម​របស់ 'totem' នឹង​ត្រូវ​បានប្រើ ។"
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1652,8 +1668,8 @@ msgstr "កម្មវិធី​បំបាត់​កំហុស Python"
 #. pylint: disable-msg=E1101
 #: ../src/plugins/pythonconsole/pythonconsole.py:90
 #, python-format
-msgid "You can access the Totem.Object through 'totem_object' :\\n%s"
-msgstr "អ្នក​អាច​ចូល​ប្រើ Totem.Object តាមរយៈ 'totem_object' :\\n%s"
+msgid "You can access the Totem.Object through “totem_object” :\\n%s"
+msgstr ""
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:94
 msgid "Totem Python Console"
@@ -1664,12 +1680,8 @@ msgstr "កុងសូល Python របស់ Totem"
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
-"default password ('totem')."
+"default password (“totem”)."
 msgstr ""
-"បន្ទាប់​ពី​អ្នក​ចុច​ យល់ព្រម Totem "
-"នឹង​រង់ចាំ​រហូត​ដល់​អ្នក​តភ្ជាប់​វា​ជា​មួយ winpdb ឬ rpdb2 ។ "
-"ប្រសិន​បើ​អ្នក​មិន​បាន​កំណត់​​ពាក្យ​សម្ងាត់​កម្មវិធី​បំបាត់​កំហុស​នៅ​ក្នុង "
-"DConf វា​នឹង​ប្រើ​ពាក្យ​សម្ងាត់​លំនាំដើម (របស់ 'totem') ។"
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1785,8 +1797,8 @@ msgstr ""
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
-msgid "Saving gallery as \"%s\""
-msgstr "រក្សាទុក​វិចិត្រសាល​ជា \"%s\""
+msgid "Saving gallery as “%s”"
+msgstr ""
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1811,8 +1823,8 @@ msgid "Skip To"
 msgstr "រំលង​ទៅ"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
-msgid "Provides the \"Skip to\" dialog"
-msgstr "ផ្ដល់​ប្រអប់ \"រំលង\""
+msgid "Provides the “Skip to” dialog"
+msgstr ""
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"

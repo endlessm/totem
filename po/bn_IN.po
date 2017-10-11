@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 13:35-0700\n"
+"POT-Creation-Date: 2017-10-11 13:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Bengali (India) (https://www.transifex.com/endless-mobile-inc/teams/9016/bn_IN/)\n"
@@ -123,30 +123,27 @@ msgid "Encoding character set for subtitle."
 msgstr "সাবটাইটেলের ক্ষেত্রে এনকোডিং অক্ষর সেট।"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
-msgid "Default location for the \"Open...\" dialogs"
-msgstr "\"খুলুন...\" ডায়লগ বক্সগুলির ক্ষেত্রে নির্ধারিত ডিফল্ট অবস্থান"
+msgid "Default location for the “Open…” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
-"Default location for the \"Open...\" dialogs. Default is the current "
-"directory."
+"Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"\"খুলুন...\" ডায়ালগের ক্ষেত্রে ডিফল্ট অবস্থান। ডিফল্ট হল বর্তমান ডিরেক্টরি।"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
-msgid "Default location for the \"Take Screenshot\" dialogs"
-msgstr "\"পর্দার ছবি নিন\" শীর্ষক ডায়লগ বক্সের ডিফল্ট অবস্থান"
+msgid "Default location for the “Take Screenshot” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
-"Default location for the \"Take Screenshot\" dialogs. Default is the "
-"Pictures directory."
-msgstr "\"স্ক্রীনশট নিন\" এর জন্য ডিফল্ট অবস্থান। ডিফল্ট হল ছবি ডিরেক্টরি।"
+"Default location for the “Take Screenshot” dialogs. Default is the Pictures "
+"directory."
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
-msgid "Whether to disable the plugins in the user's home directory"
+msgid "Whether to disable the plugins in the user’s home directory"
 msgstr ""
-"ব্যবহারকারীর ব্যক্তিগত ডিরেক্টরির মধ্যে প্লাগ-ইন নিষ্ক্রিয় করা হবে কি না"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -181,7 +178,7 @@ msgstr "দেখানোর ডিরেক্টরিগুলি"
 msgid "Directories to show in the browse interface, none by default"
 msgstr "ব্রাউজ ইন্টারফেসে দেখানোর ডিরেক্টরিগুলি, ডিফল্ট ভাবে কিছুই নয়"
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5644
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "স্টিরিও"
@@ -239,8 +236,8 @@ msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
 #: ../data/preferences.ui.h:15
-msgid "Plugins..."
-msgstr "প্লাগ-ইন..."
+msgid "Plugins…"
+msgstr ""
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -356,130 +353,155 @@ msgstr ""
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
-msgid "Quit"
+msgid "Properties"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
-msgid "Volume"
+msgid "Make Available Offline"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
-msgid "Increase volume"
+msgid "Take Screenshot"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
-msgid "Decrease volume"
+msgid "Quit"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
-msgid "View"
+msgid "Volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
-msgid "Toggle fullscreen"
+msgid "Increase volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
-msgid "Exit fullscreen"
+msgid "Decrease volume"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
-msgid "Zoom in"
+msgid "View"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
-msgid "Zoom out"
+msgid "Toggle fullscreen"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
-msgid "Playback"
+msgid "Exit fullscreen"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
-msgid "Play/Pause"
+msgid "Zoom in"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
-msgid "Previous video or chapter"
+msgid "Zoom out"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
-msgid "Next video or chapter"
+msgid "Rotate ↷"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
-msgid "Skip"
+msgid "Rotate ↶"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
-msgid "Go back 15 seconds"
+msgid "Playback"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
-msgid "Go forward 60 seconds"
+msgid "Play/Pause"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
-msgid "Go back 5 seconds"
+msgid "Previous video or chapter"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
-msgid "Go forward 15 seconds"
+msgid "Next video or chapter"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
-msgid "Go back 3 minutes"
+msgid "Skip"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
-msgid "Go forward 10 minutes"
+msgid "Go back 15 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
-msgid "Skip to…"
+msgid "Go forward 60 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
-msgid "DVD menu navigation"
+msgid "Go back 5 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
-msgid "Navigate up"
+msgid "Go forward 15 seconds"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
-msgid "Navigate down"
+msgid "Go back 3 minutes"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
-msgid "Navigate left"
+msgid "Go forward 10 minutes"
 msgstr ""
 
 #: ../data/shortcuts.ui.h:27
+msgctxt "shortcut window"
+msgid "Skip to…"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:28
+msgctxt "shortcut window"
+msgid "DVD menu navigation"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:29
+msgctxt "shortcut window"
+msgid "Navigate up"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:30
+msgctxt "shortcut window"
+msgid "Navigate down"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:31
+msgctxt "shortcut window"
+msgid "Navigate left"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr ""
@@ -598,55 +620,55 @@ msgstr "খোলার উদ্দেশ্যে ফাইলের ঠিক
 msgid "--:--"
 msgstr "--:--"
 
-#: ../src/backend/bacon-video-widget.c:1959
+#: ../src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "RTSP সার্ভারের জন্য অনুরোধ করা পাসওয়ার্ড"
 
-#: ../src/backend/bacon-video-widget.c:3329
+#: ../src/backend/bacon-video-widget.c:3341
 #, c-format
 msgid "Audio Track #%d"
 msgstr "অডিও ট্র্যাক সংখ্যা #%d"
 
-#: ../src/backend/bacon-video-widget.c:3331
+#: ../src/backend/bacon-video-widget.c:3343
 #, c-format
 msgid "Subtitle #%d"
 msgstr "অনুবাদলিপি #%d"
 
-#: ../src/backend/bacon-video-widget.c:3872
+#: ../src/backend/bacon-video-widget.c:3884
 msgid "The server you are trying to connect to is not known."
 msgstr "অাপনি যে সার্ভারের সংগে সংযোগের চেষ্টা করছেন তা অজ্ঞাত।"
 
-#: ../src/backend/bacon-video-widget.c:3875
+#: ../src/backend/bacon-video-widget.c:3887
 msgid "The connection to this server was refused."
 msgstr "এই সার্ভারে সংযোগ প্রত্যাখ্যান করা হয়েছে।"
 
-#: ../src/backend/bacon-video-widget.c:3878
+#: ../src/backend/bacon-video-widget.c:3890
 msgid "The specified movie could not be found."
 msgstr "নির্ধারিত মুভি পাওয়া যায়নি।"
 
-#: ../src/backend/bacon-video-widget.c:3885
+#: ../src/backend/bacon-video-widget.c:3897
 msgid "The server refused access to this file or stream."
 msgstr "সার্ভার এই ফাইল বা স্ট্রীমে অ্যাক্সেস প্রত্যাখ্যান করেছে।"
 
-#: ../src/backend/bacon-video-widget.c:3891
+#: ../src/backend/bacon-video-widget.c:3903
 msgid "Authentication is required to access this file or stream."
 msgstr "এই ফাইল বা স্ট্রীম অ্যাক্সেস করতে পরিচয় প্রমাণের প্রয়োজন"
 
-#: ../src/backend/bacon-video-widget.c:3898
+#: ../src/backend/bacon-video-widget.c:3910
 msgid "You are not allowed to open this file."
 msgstr "অাপনার এই ফাইল খোলার অনুমতি নেই।"
 
-#: ../src/backend/bacon-video-widget.c:3903
+#: ../src/backend/bacon-video-widget.c:3915
 msgid "This location is not a valid one."
 msgstr "এই অবস্থানটি বৈধ নয়।"
 
-#: ../src/backend/bacon-video-widget.c:3911
+#: ../src/backend/bacon-video-widget.c:3923
 msgid "The movie could not be read."
 msgstr "মুভি পড়া গেল না।"
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3934
-#: ../src/backend/bacon-video-widget.c:3942
+#: ../src/backend/bacon-video-widget.c:3946
+#: ../src/backend/bacon-video-widget.c:3954
 #, c-format
 msgid ""
 "The playback of this movie requires a %s plugin which is not installed."
@@ -660,12 +682,12 @@ msgstr[1] ""
 "\n"
 "%s"
 
-#: ../src/backend/bacon-video-widget.c:3954
+#: ../src/backend/bacon-video-widget.c:3966
 msgid ""
-"This stream cannot be played. It's possible that a firewall is blocking it."
-msgstr "এই স্ট্রীম বাজানো যাবে না। সম্ভবত কোনো ফায়াওয়্যাল এটিকে বাধা দিচ্ছে।"
+"This stream cannot be played. It’s possible that a firewall is blocking it."
+msgstr ""
 
-#: ../src/backend/bacon-video-widget.c:3957
+#: ../src/backend/bacon-video-widget.c:3969
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
@@ -674,7 +696,7 @@ msgstr ""
 "নির্দিষ্ট ধরনের মুভি প্লে করতে অাপনাকে অতিরিক্ত প্লাগ-ইন ইনস্টল করতে হতে "
 "পারে"
 
-#: ../src/backend/bacon-video-widget.c:3968
+#: ../src/backend/bacon-video-widget.c:3980
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
@@ -682,19 +704,19 @@ msgstr ""
 "এই ফাইলটি নেটওয়ার্কে প্লে করা যাবে না। প্রথমে এটি স্থানীয় ভাবে ডাউনলোড করার "
 "চেষ্টা করুন।"
 
-#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5640 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "সারাউন্ড"
 
-#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5642 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "মোনো"
 
-#: ../src/backend/bacon-video-widget.c:5917
+#: ../src/backend/bacon-video-widget.c:5929
 msgid "Media contains no supported video streams."
 msgstr "কোনো সমর্থিত ভিডিও স্ট্রিম মিডিয়ার মধ্যে উপস্থিত নেই।"
 
-#: ../src/backend/bacon-video-widget.c:6128
+#: ../src/backend/bacon-video-widget.c:6140
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -898,10 +920,6 @@ msgstr "সব নির্বাচন করুন"
 msgid "Select None"
 msgstr "একটিও নির্বাচন করবেন না"
 
-#: ../src/totem-audio-preview.c:172
-msgid "Audio Preview"
-msgstr "অডিও প্রি-ভিউ"
-
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr "থ্রেড-সেফ লাইব্রেরি চালু করা যায়নি।"
@@ -940,8 +958,8 @@ msgstr "চ্যানেলগুলি"
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
-msgid "Couldn't load the '%s' interface. %s"
-msgstr "'%s' ইন্টারফেস লোড করা যায়নি। %s"
+msgid "Couldn’t load the “%s” interface. %s"
+msgstr ""
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1009,8 +1027,8 @@ msgstr "চালানো হবে"
 #: ../src/totem-object.c:1472 ../src/totem-object.c:1499
 #: ../src/totem-object.c:1991
 #, c-format
-msgid "Totem could not play '%s'."
-msgstr "Totem সহযোগে '%s' চালানো যায়নি।"
+msgid "Totem could not play “%s”."
+msgstr ""
 
 #: ../src/totem-object.c:2162
 msgid "Totem could not display the help contents."
@@ -1112,8 +1130,8 @@ msgid "Movies to play"
 msgstr "চালানোর জন্য চিহ্নিত চলচ্চিত্র।"
 
 #: ../src/totem-options.c:100
-msgid "Can't enqueue and replace at the same time"
-msgstr "একই সময়ে সারিবন্ধন এবং প্রতিস্থাপন করা যায় না"
+msgid "Can’t enqueue and replace at the same time"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1124,8 +1142,8 @@ msgstr "শিরোনাম %d"
 
 #: ../src/totem-playlist.c:992
 #, c-format
-msgid "The playlist '%s' could not be parsed. It might be damaged."
-msgstr "প্লেতালিকা '%s' পার্স করা গেল না। এটি ক্ষতিগ্রস্ত হয়ে থাকতে পারে।"
+msgid "The playlist “%s” could not be parsed. It might be damaged."
+msgstr ""
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1164,8 +1182,8 @@ msgstr "%d কিলোবাইট/সেকেন্ড"
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
+msgid "%d × %d"
+msgstr ""
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1518,12 +1536,12 @@ msgid "Support infrared remote control"
 msgstr "ইনফ্রা-রেড রিমোট কন্ট্রোলের সহায়তা"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
-msgid "Couldn't initialize lirc."
-msgstr "lirc আরম্ভ করতে ব্যর্থ।"
+msgid "Couldn’t initialize lirc."
+msgstr ""
 
 #: ../src/plugins/lirc/totem-lirc.c:251
-msgid "Couldn't read lirc configuration."
-msgstr "lirc কনফিগারেশন পড়তে ব্যর্থ।"
+msgid "Couldn’t read lirc configuration."
+msgstr ""
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
 msgid "Media Player Keys"
@@ -1642,10 +1660,8 @@ msgstr "rpdb2 পাসওয়ার্ড"
 #: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
-" remote access. If this is empty, a default of 'totem' will be used."
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"অননুমোদিত রিমোট অ্যাক্সেস থেকে Totem ডিবাগিং এর জন্য rpdb2 সার্ভার সুরক্ষিত "
-"রাখার একটি পাসওয়ার্ড। এটি খালি থাকলে, একটি ডিফল্ট 'টোটেম' ব্যবহার করা হবে।"
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1666,9 +1682,8 @@ msgstr "Python ডিবাগার"
 #. pylint: disable-msg=E1101
 #: ../src/plugins/pythonconsole/pythonconsole.py:90
 #, python-format
-msgid "You can access the Totem.Object through 'totem_object' :\\n%s"
+msgid "You can access the Totem.Object through “totem_object” :\\n%s"
 msgstr ""
-"অাপনি এর মাধ্যমে Totem.Object অ্যাক্সেস করতে পারবেন 'totem_object' :\\n%s"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:94
 msgid "Totem Python Console"
@@ -1679,11 +1694,8 @@ msgstr "Totem Python কনসোল"
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
-"default password ('totem')."
+"default password (“totem”)."
 msgstr ""
-"অাপনি 'ওকে' টেপার পরে, অাপনি Totem এ winpdb বা rpdb2 দিয়ে সংযোগ না করা "
-"পর্যন্ত তা অপেক্ষা করবে। অাপনি DConf এ কোনো ডিবাগার পাসওয়ার্ড সেট করে না "
-"থাকলে, এটি ডিফল্ট পাসওয়ার্ড ('totem') ব্যবহার করবে।"
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1799,8 +1811,8 @@ msgstr "গ্যালারি নির্মাণ করা হচ্ছে
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
-msgid "Saving gallery as \"%s\""
-msgstr "\"%s\" নামে গ্যালারি সংরক্ষণ করা হচ্ছে"
+msgid "Saving gallery as “%s”"
+msgstr ""
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1825,8 +1837,8 @@ msgid "Skip To"
 msgstr "এতে চলে যান"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
-msgid "Provides the \"Skip to\" dialog"
-msgstr "\"এতে চলে যান\" ডায়ালগ প্রদান করে"
+msgid "Provides the “Skip to” dialog"
+msgstr ""
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"

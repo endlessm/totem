@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 13:35-0700\n"
+"POT-Creation-Date: 2017-10-11 13:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2017\n"
 "Language-Team: Serbian (https://www.transifex.com/endless-mobile-inc/teams/9016/sr/)\n"
@@ -123,29 +123,28 @@ msgid "Encoding character set for subtitle."
 msgstr "Скуп знакова кодирања за титл."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
-msgid "Default location for the \"Open...\" dialogs"
-msgstr "Подразумевана путања за прозорче „Отвори...“"
+msgid "Default location for the “Open…” dialogs"
+msgstr "Подразумевана путања за прозорче „Отвори…“"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
-"Default location for the \"Open...\" dialogs. Default is the current "
-"directory."
-msgstr "Подразумевана путања за прозорче „Отвори...“, иначе текућа фасцикла."
+"Default location for the “Open…” dialogs. Default is the current directory."
+msgstr "Подразумевана путања за прозорче „Отвори…“, иначе текућа фасцикла."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
-msgid "Default location for the \"Take Screenshot\" dialogs"
+msgid "Default location for the “Take Screenshot” dialogs"
 msgstr "Подразумевана путања за прозорче „Направи снимак екрана“"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
-"Default location for the \"Take Screenshot\" dialogs. Default is the "
-"Pictures directory."
+"Default location for the “Take Screenshot” dialogs. Default is the Pictures "
+"directory."
 msgstr ""
 "Подразумевана путања за прозорче „Направи снимак екрана“, у супротном "
 "подразумевана фасцикла са сликама."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
-msgid "Whether to disable the plugins in the user's home directory"
+msgid "Whether to disable the plugins in the user’s home directory"
 msgstr "Да ли да искључи прикључке у корисниковом личном директоријуму"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
@@ -179,7 +178,7 @@ msgstr "Директоријуми за показивање"
 msgid "Directories to show in the browse interface, none by default"
 msgstr "Директоријуми за показивање у сучељу разгледања, ништа по основи"
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5644
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "Стерео"
@@ -237,8 +236,8 @@ msgid "Plugins"
 msgstr "Прикључци"
 
 #: ../data/preferences.ui.h:15
-msgid "Plugins..."
-msgstr "Прикључци..."
+msgid "Plugins…"
+msgstr "Прикључци…"
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -354,130 +353,155 @@ msgstr "Опште"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
+msgid "Properties"
+msgstr "Својства"
+
+#: ../data/shortcuts.ui.h:3
+msgctxt "shortcut window"
+msgid "Make Available Offline"
+msgstr "Учините доступним ван мреже"
+
+#: ../data/shortcuts.ui.h:4
+msgctxt "shortcut window"
+msgid "Take Screenshot"
+msgstr "Сними екран"
+
+#: ../data/shortcuts.ui.h:5
+msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Затвара програм"
 
-#: ../data/shortcuts.ui.h:3
+#: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Volume"
 msgstr "Јачина звука"
 
-#: ../data/shortcuts.ui.h:4
+#: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Increase volume"
 msgstr "Појачава јачину звука"
 
-#: ../data/shortcuts.ui.h:5
+#: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Decrease volume"
 msgstr "Смањује јачину звука"
 
-#: ../data/shortcuts.ui.h:6
+#: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "View"
 msgstr "Преглед"
 
-#: ../data/shortcuts.ui.h:7
+#: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
 msgstr "Окида режим преко целог екрана"
 
-#: ../data/shortcuts.ui.h:8
+#: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
 msgstr "Напушта цео екран"
 
-#: ../data/shortcuts.ui.h:9
+#: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "Увећава"
 
-#: ../data/shortcuts.ui.h:10
+#: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "Умањује"
 
-#: ../data/shortcuts.ui.h:11
+#: ../data/shortcuts.ui.h:14
+msgctxt "shortcut window"
+msgid "Rotate ↷"
+msgstr "Окрени на десно"
+
+#: ../data/shortcuts.ui.h:15
+msgctxt "shortcut window"
+msgid "Rotate ↶"
+msgstr "Окрени на лево"
+
+#: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Пушта"
 
-#: ../data/shortcuts.ui.h:12
+#: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Play/Pause"
 msgstr "Пушта/паузира"
 
-#: ../data/shortcuts.ui.h:13
+#: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
 msgstr "Претходно поглавље или филм"
 
-#: ../data/shortcuts.ui.h:14
+#: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Next video or chapter"
 msgstr "Следеће поглавље или филм"
 
-#: ../data/shortcuts.ui.h:15
+#: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip"
 msgstr "Премотава на"
 
-#: ../data/shortcuts.ui.h:16
+#: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
 msgstr "Враћа назад за 15 секунде"
 
-#: ../data/shortcuts.ui.h:17
+#: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
 msgstr "Иде напред за 60 секунде"
 
-#: ../data/shortcuts.ui.h:18
+#: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
 msgstr "Враћа назад за 5 секунде"
 
-#: ../data/shortcuts.ui.h:19
+#: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
 msgstr "Иде напред за 15 секунде"
 
-#: ../data/shortcuts.ui.h:20
+#: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
 msgstr "Враћа назад за 3 минута"
 
-#: ../data/shortcuts.ui.h:21
+#: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
 msgstr "Иде напред за 10 минута"
 
-#: ../data/shortcuts.ui.h:22
+#: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Skip to…"
 msgstr "Премотава на…"
 
-#: ../data/shortcuts.ui.h:23
+#: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
 msgstr "Кретање кроз изборник ДВД-а"
 
-#: ../data/shortcuts.ui.h:24
+#: ../data/shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Navigate up"
 msgstr "Иде горе"
 
-#: ../data/shortcuts.ui.h:25
+#: ../data/shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Navigate down"
 msgstr "Иде доле"
 
-#: ../data/shortcuts.ui.h:26
+#: ../data/shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Navigate left"
 msgstr "Иде лево"
 
-#: ../data/shortcuts.ui.h:27
+#: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr "Иде десно"
@@ -596,55 +620,55 @@ msgstr "Унесите _адресу датотеке коју желите да
 msgid "--:--"
 msgstr "--:--"
 
-#: ../src/backend/bacon-video-widget.c:1959
+#: ../src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "Захтевана је лозинка за РТСП сервер"
 
-#: ../src/backend/bacon-video-widget.c:3329
+#: ../src/backend/bacon-video-widget.c:3341
 #, c-format
 msgid "Audio Track #%d"
 msgstr "Звучна нумера #%d"
 
-#: ../src/backend/bacon-video-widget.c:3331
+#: ../src/backend/bacon-video-widget.c:3343
 #, c-format
 msgid "Subtitle #%d"
 msgstr "Превод #%d"
 
-#: ../src/backend/bacon-video-widget.c:3872
+#: ../src/backend/bacon-video-widget.c:3884
 msgid "The server you are trying to connect to is not known."
 msgstr "Није познат сервер на који покушавате да се повежете."
 
-#: ../src/backend/bacon-video-widget.c:3875
+#: ../src/backend/bacon-video-widget.c:3887
 msgid "The connection to this server was refused."
 msgstr "Веза са овим сервером је одбијена."
 
-#: ../src/backend/bacon-video-widget.c:3878
+#: ../src/backend/bacon-video-widget.c:3890
 msgid "The specified movie could not be found."
 msgstr "Не могу да нађем наведени филм."
 
-#: ../src/backend/bacon-video-widget.c:3885
+#: ../src/backend/bacon-video-widget.c:3897
 msgid "The server refused access to this file or stream."
 msgstr "Сервер је одбио приступ овој датотеци или току."
 
-#: ../src/backend/bacon-video-widget.c:3891
+#: ../src/backend/bacon-video-widget.c:3903
 msgid "Authentication is required to access this file or stream."
 msgstr "Потребно је потврђивање идентитета за приступ овој датотеци или току."
 
-#: ../src/backend/bacon-video-widget.c:3898
+#: ../src/backend/bacon-video-widget.c:3910
 msgid "You are not allowed to open this file."
 msgstr "Вама није дозвољено да отворите ову датотеку."
 
-#: ../src/backend/bacon-video-widget.c:3903
+#: ../src/backend/bacon-video-widget.c:3915
 msgid "This location is not a valid one."
 msgstr "Ова путања није исправна."
 
-#: ../src/backend/bacon-video-widget.c:3911
+#: ../src/backend/bacon-video-widget.c:3923
 msgid "The movie could not be read."
 msgstr "Филм не може бити прочитан."
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3934
-#: ../src/backend/bacon-video-widget.c:3942
+#: ../src/backend/bacon-video-widget.c:3946
+#: ../src/backend/bacon-video-widget.c:3954
 #, c-format
 msgid ""
 "The playback of this movie requires a %s plugin which is not installed."
@@ -652,7 +676,7 @@ msgid_plural ""
 "The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
-msgstr[0] "Пуштање овог филма захтева прикључак „%s“ који није инсталиран."
+msgstr[0] "Пуштање овог филма захтева прикључак „%s“ који није инсталиран"
 msgstr[1] ""
 "Пуштање овог филма захтева следеће прикључке који нису инсталирани:\n"
 "\n"
@@ -662,13 +686,13 @@ msgstr[2] ""
 "\n"
 "%s"
 
-#: ../src/backend/bacon-video-widget.c:3954
+#: ../src/backend/bacon-video-widget.c:3966
 msgid ""
-"This stream cannot be played. It's possible that a firewall is blocking it."
+"This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
 "Овај ток не може бити пуштен. Може бити да га блокира мрежна баријера."
 
-#: ../src/backend/bacon-video-widget.c:3957
+#: ../src/backend/bacon-video-widget.c:3969
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
@@ -677,7 +701,7 @@ msgstr ""
 "Мораћете да инсталирате додатне прикључке да бисте могли да пуштате неке "
 "врсте филмова"
 
-#: ../src/backend/bacon-video-widget.c:3968
+#: ../src/backend/bacon-video-widget.c:3980
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
@@ -685,19 +709,19 @@ msgstr ""
 "Не могу да пустим ову датотеку преко мреже. Покушајте да је прво пренесете "
 "на диск."
 
-#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5640 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "Окружење"
 
-#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5642 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "Моно"
 
-#: ../src/backend/bacon-video-widget.c:5917
+#: ../src/backend/bacon-video-widget.c:5929
 msgid "Media contains no supported video streams."
 msgstr "Датотека не садржи подржане видео токове."
 
-#: ../src/backend/bacon-video-widget.c:6128
+#: ../src/backend/bacon-video-widget.c:6140
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -711,15 +735,15 @@ msgstr ""
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "_Нађи у „%s“"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "„%s“ је потребан за пуштање датотеке, али није инсталиран."
+msgstr[1] "„%s“ су потребни за пуштање датотеке, али нису инсталирани."
+msgstr[2] "„%s“ су потребни за пуштање датотеке, али нису инсталирани."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -906,10 +930,6 @@ msgstr "Изабери све"
 msgid "Select None"
 msgstr "Поништи избор"
 
-#: ../src/totem-audio-preview.c:172
-msgid "Audio Preview"
-msgstr "Звучни преглед"
-
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr "Нисам успео да учитам библиотеке за безбедан рад са нитима."
@@ -948,7 +968,7 @@ msgstr "Број канала"
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
-msgid "Couldn't load the '%s' interface. %s"
+msgid "Couldn’t load the “%s” interface. %s"
 msgstr "Не могу да учитам „%s“ сучеље. %s"
 
 #: ../src/totem-interface.c:179
@@ -1018,7 +1038,7 @@ msgstr "Пусти"
 #: ../src/totem-object.c:1472 ../src/totem-object.c:1499
 #: ../src/totem-object.c:1991
 #, c-format
-msgid "Totem could not play '%s'."
+msgid "Totem could not play “%s”."
 msgstr "Тотем не може да пусти „%s“."
 
 #: ../src/totem-object.c:2162
@@ -1121,7 +1141,7 @@ msgid "Movies to play"
 msgstr "Филмови за пуштање"
 
 #: ../src/totem-options.c:100
-msgid "Can't enqueue and replace at the same time"
+msgid "Can’t enqueue and replace at the same time"
 msgstr "Не могу да закажем и да заменим у исто време"
 
 #. This is "Title 3", where title is a DVD title
@@ -1133,7 +1153,7 @@ msgstr "Наслов %d"
 
 #: ../src/totem-playlist.c:992
 #, c-format
-msgid "The playlist '%s' could not be parsed. It might be damaged."
+msgid "The playlist “%s” could not be parsed. It might be damaged."
 msgstr "Не могу да учитам листу „%s“. Можда је оштећена."
 
 #: ../src/totem-preferences.c:184
@@ -1173,8 +1193,8 @@ msgstr "%d kb/s"
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
+msgid "%d × %d"
+msgstr "%d × %d"
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1526,11 +1546,11 @@ msgid "Support infrared remote control"
 msgstr "Подржани инфрацрвени управљачи"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
-msgid "Couldn't initialize lirc."
+msgid "Couldn’t initialize lirc."
 msgstr "Нисам успео да покренем лирц."
 
 #: ../src/plugins/lirc/totem-lirc.c:251
-msgid "Couldn't read lirc configuration."
+msgid "Couldn’t read lirc configuration."
 msgstr "Не могу да учитам поставке лирца."
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
@@ -1650,7 +1670,7 @@ msgstr "рпдб2 лозинка"
 #: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
-" remote access. If this is empty, a default of 'totem' will be used."
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 "Лозинка за заштиту рпдб2 сервера за отклањање грешака Тотема од неовлашћеног"
 " удаљеног приступа. Ако је ово празно, подразумевано „totem“ ће се "
@@ -1675,7 +1695,7 @@ msgstr "Питонов исправљач грешака"
 #. pylint: disable-msg=E1101
 #: ../src/plugins/pythonconsole/pythonconsole.py:90
 #, python-format
-msgid "You can access the Totem.Object through 'totem_object' :\\n%s"
+msgid "You can access the Totem.Object through “totem_object” :\\n%s"
 msgstr "Можете приступити тотемовом објекту кроз „totem_object“ :\\n%s"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:94
@@ -1687,7 +1707,7 @@ msgstr "Питонова конзола за Тотем"
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
-"default password ('totem')."
+"default password (“totem”)."
 msgstr ""
 "Након што притиснете У реду, Тотем ће сачекати да се повежете на њега преко "
 "„winpdb“ или „rpdb2“. Уколико нисте изабрали лозинку ради уклањања грешака у"
@@ -1807,7 +1827,7 @@ msgstr "Правим збирку…"
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
-msgid "Saving gallery as \"%s\""
+msgid "Saving gallery as “%s”"
 msgstr "Чувам збирку као „%s“"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
@@ -1833,7 +1853,7 @@ msgid "Skip To"
 msgstr "Премотај на"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
-msgid "Provides the \"Skip to\" dialog"
+msgid "Provides the “Skip to” dialog"
 msgstr "Приказује прозорче „Премотај на“"
 
 #: ../src/plugins/skipto/skipto.ui.h:1

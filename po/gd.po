@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 13:35-0700\n"
+"POT-Creation-Date: 2017-10-11 13:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Gaelic, Scottish (https://www.transifex.com/endless-mobile-inc/teams/9016/gd/)\n"
@@ -127,34 +127,27 @@ msgid "Encoding character set for subtitle."
 msgstr "Seata còdachadh charactaran airson nam fo-thiotalan"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
-msgid "Default location for the \"Open...\" dialogs"
-msgstr "Ionad bunaiteach airson nan còmhraidhean \"Fosgail...\""
+msgid "Default location for the “Open…” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
-"Default location for the \"Open...\" dialogs. Default is the current "
-"directory."
+"Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"Ionad bunaiteach airson nan còmhraidhean \"Fosgail...\". 'S e am pasgan "
-"làithreach a tha sa bhun-roghainn."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
-msgid "Default location for the \"Take Screenshot\" dialogs"
-msgstr "Ionad bunaiteach airson nan còmhraidhean \"Tog glacadh-sgrìn\""
+msgid "Default location for the “Take Screenshot” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
-"Default location for the \"Take Screenshot\" dialogs. Default is the "
-"Pictures directory."
+"Default location for the “Take Screenshot” dialogs. Default is the Pictures "
+"directory."
 msgstr ""
-"Ionad bunaiteach airson nan còmhraidhean \"Fosgail...\". 'S e am pasgan "
-"\"Dealbhan\" a tha sa bhun-roghainn."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
-msgid "Whether to disable the plugins in the user's home directory"
+msgid "Whether to disable the plugins in the user’s home directory"
 msgstr ""
-"Co-dhiù an tèid na plugain a chur à comas ann am pasgan dachaidh a' "
-"chleachdaiche no nach tèid"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -195,7 +188,7 @@ msgstr ""
 "Na pasganan a thèid a shealltainn san eadar-aghaidh rùrachaidh, gun ghin a "
 "ghnàth"
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5644
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "Stereo"
@@ -254,8 +247,8 @@ msgid "Plugins"
 msgstr "Plugain"
 
 #: ../data/preferences.ui.h:15
-msgid "Plugins..."
-msgstr "Plugain..."
+msgid "Plugins…"
+msgstr ""
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -371,130 +364,155 @@ msgstr "Coitcheann"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
+msgid "Properties"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:3
+msgctxt "shortcut window"
+msgid "Make Available Offline"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:4
+msgctxt "shortcut window"
+msgid "Take Screenshot"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:5
+msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Fàg an-seo"
 
-#: ../data/shortcuts.ui.h:3
+#: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Volume"
 msgstr "Àirde na fuaime"
 
-#: ../data/shortcuts.ui.h:4
+#: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Increase volume"
 msgstr "Meudaich àirde na fuaime"
 
-#: ../data/shortcuts.ui.h:5
+#: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Decrease volume"
 msgstr "Lùghdaich àirde na fuaime"
 
-#: ../data/shortcuts.ui.h:6
+#: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "View"
 msgstr "Sealladh"
 
-#: ../data/shortcuts.ui.h:7
+#: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
 msgstr "Toglaich am modh làn-sgrìn"
 
-#: ../data/shortcuts.ui.h:8
+#: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
 msgstr "Fàg an làn-sgrìn"
 
-#: ../data/shortcuts.ui.h:9
+#: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "Sùm a-steach"
 
-#: ../data/shortcuts.ui.h:10
+#: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "Sùm a-mach"
 
-#: ../data/shortcuts.ui.h:11
+#: ../data/shortcuts.ui.h:14
+msgctxt "shortcut window"
+msgid "Rotate ↷"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:15
+msgctxt "shortcut window"
+msgid "Rotate ↶"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Cluich"
 
-#: ../data/shortcuts.ui.h:12
+#: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Play/Pause"
 msgstr "Cluich/Cuir 'na stad"
 
-#: ../data/shortcuts.ui.h:13
+#: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
 msgstr "A' chaibideil no am film roimhe"
 
-#: ../data/shortcuts.ui.h:14
+#: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Next video or chapter"
 msgstr "An ath-chaibideil no film"
 
-#: ../data/shortcuts.ui.h:15
+#: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip"
 msgstr "Gearr leum"
 
-#: ../data/shortcuts.ui.h:16
+#: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
 msgstr "Rach air ais 15 diogan"
 
-#: ../data/shortcuts.ui.h:17
+#: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
 msgstr "Rach air adhart 60 diog"
 
-#: ../data/shortcuts.ui.h:18
+#: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
 msgstr "Rach air ais 5 diogan"
 
-#: ../data/shortcuts.ui.h:19
+#: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
 msgstr "Rach air adhart 15 diogan"
 
-#: ../data/shortcuts.ui.h:20
+#: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
 msgstr "Rach air ais 5 mionaidean"
 
-#: ../data/shortcuts.ui.h:21
+#: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
 msgstr "Rach air adhart 10 mionaidean"
 
-#: ../data/shortcuts.ui.h:22
+#: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Skip to…"
 msgstr "Gearr leum gu…"
 
-#: ../data/shortcuts.ui.h:23
+#: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
 msgstr "Seòladaireachd clàir-taice DVD"
 
-#: ../data/shortcuts.ui.h:24
+#: ../data/shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Navigate up"
 msgstr "Seòl suas"
 
-#: ../data/shortcuts.ui.h:25
+#: ../data/shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Navigate down"
 msgstr "Seòl sìos"
 
-#: ../data/shortcuts.ui.h:26
+#: ../data/shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Navigate left"
 msgstr "Seòl gun taobh chlì"
 
-#: ../data/shortcuts.ui.h:27
+#: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr "Seòl gun taobh deas"
@@ -613,56 +631,56 @@ msgstr "Cuir a-steach seòl_adh an fhaidhle bu toigh leat fhosgladh:"
 msgid "--:--"
 msgstr "--:--"
 
-#: ../src/backend/bacon-video-widget.c:1959
+#: ../src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "Chaidh facal-faire iarraidh airson frithealaiche RTSP"
 
-#: ../src/backend/bacon-video-widget.c:3329
+#: ../src/backend/bacon-video-widget.c:3341
 #, c-format
 msgid "Audio Track #%d"
 msgstr "Trac fuaime %d"
 
-#: ../src/backend/bacon-video-widget.c:3331
+#: ../src/backend/bacon-video-widget.c:3343
 #, c-format
 msgid "Subtitle #%d"
 msgstr "Fo-thiotal %d"
 
-#: ../src/backend/bacon-video-widget.c:3872
+#: ../src/backend/bacon-video-widget.c:3884
 msgid "The server you are trying to connect to is not known."
 msgstr ""
 "Chan eil am frithealaiche aithnichte a tha thu a' feuchainn ri ceangal ris."
 
-#: ../src/backend/bacon-video-widget.c:3875
+#: ../src/backend/bacon-video-widget.c:3887
 msgid "The connection to this server was refused."
 msgstr "Chaidh an ceangal ris an fhrithealaiche seo a dhiùltadh."
 
-#: ../src/backend/bacon-video-widget.c:3878
+#: ../src/backend/bacon-video-widget.c:3890
 msgid "The specified movie could not be found."
 msgstr "Cha b' urrainn dhuinn am film sònraichte a lorg."
 
-#: ../src/backend/bacon-video-widget.c:3885
+#: ../src/backend/bacon-video-widget.c:3897
 msgid "The server refused access to this file or stream."
 msgstr "Dhiùlt am frithealaiche inntrigeadh dhan fhaidhle no sruth seo."
 
-#: ../src/backend/bacon-video-widget.c:3891
+#: ../src/backend/bacon-video-widget.c:3903
 msgid "Authentication is required to access this file or stream."
 msgstr "Tha dearbhadh a dhìth gus am faidhle no sruth seo inntrigeadh."
 
-#: ../src/backend/bacon-video-widget.c:3898
+#: ../src/backend/bacon-video-widget.c:3910
 msgid "You are not allowed to open this file."
 msgstr "Chan eil cead agad gus am faidhle seo fhosgladh."
 
-#: ../src/backend/bacon-video-widget.c:3903
+#: ../src/backend/bacon-video-widget.c:3915
 msgid "This location is not a valid one."
 msgstr "Chan eil an t-ionad seo na ionad dligheach."
 
-#: ../src/backend/bacon-video-widget.c:3911
+#: ../src/backend/bacon-video-widget.c:3923
 msgid "The movie could not be read."
 msgstr "Cha b' urrainn dhuinn am film a leughadh."
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3934
-#: ../src/backend/bacon-video-widget.c:3942
+#: ../src/backend/bacon-video-widget.c:3946
+#: ../src/backend/bacon-video-widget.c:3954
 #, c-format
 msgid ""
 "The playback of this movie requires a %s plugin which is not installed."
@@ -685,14 +703,12 @@ msgstr[3] ""
 "Tha thu feumach air  a' phlugan %s gus am film seo a chluich is chan eil e "
 "stàlaichte."
 
-#: ../src/backend/bacon-video-widget.c:3954
+#: ../src/backend/bacon-video-widget.c:3966
 msgid ""
-"This stream cannot be played. It's possible that a firewall is blocking it."
+"This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
-"Cha ghabh an sruth seo a chluich. Dh'fhaoidte bu bheil cachaileith-theine "
-"'ga bhacadh."
 
-#: ../src/backend/bacon-video-widget.c:3957
+#: ../src/backend/bacon-video-widget.c:3969
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
@@ -701,7 +717,7 @@ msgstr ""
 "Dh'fhaoidte gum feum thu barrachd phlugan a stàladh airson cuid a "
 "sheòrsaichean de videothan a chluich"
 
-#: ../src/backend/bacon-video-widget.c:3968
+#: ../src/backend/bacon-video-widget.c:3980
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
@@ -709,19 +725,19 @@ msgstr ""
 "Cha ghabh am faidhle seo a chluich air an lìonra. Feuch an luchdaich thu "
 "a-nuas e gu ionadail an toiseach."
 
-#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5640 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "Surround"
 
-#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5642 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "Mono"
 
-#: ../src/backend/bacon-video-widget.c:5917
+#: ../src/backend/bacon-video-widget.c:5929
 msgid "Media contains no supported video streams."
 msgstr "Chan eil sruth video am broinn a' mheadhainn ris an cuirear taic."
 
-#: ../src/backend/bacon-video-widget.c:6128
+#: ../src/backend/bacon-video-widget.c:6140
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -735,16 +751,19 @@ msgstr ""
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "_lorg an-seo: %s"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
+msgstr[0] "Tha %s riatanach gus am faidhle a chluich ach cha deach a stàladh."
 msgstr[1] ""
+"Tha %s riatanach gus am faidhle a chluich ach cha deach an stàladh."
 msgstr[2] ""
+"Tha %s riatanach gus am faidhle a chluich ach cha deach an stàladh."
 msgstr[3] ""
+"Tha %s riatanach gus am faidhle a chluich ach cha deach an stàladh."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -935,10 +954,6 @@ msgstr "Tagh na h-uile"
 msgid "Select None"
 msgstr "Na tagh gin"
 
-#: ../src/totem-audio-preview.c:172
-msgid "Audio Preview"
-msgstr "Ro-shealladh fuaime"
-
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr ""
@@ -979,8 +994,8 @@ msgstr "Seanailean"
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
-msgid "Couldn't load the '%s' interface. %s"
-msgstr "Cha b' urrainn dhuinn an eadar-aghaidh \"%s\" a luchdadh. %s"
+msgid "Couldn’t load the “%s” interface. %s"
+msgstr ""
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1050,8 +1065,8 @@ msgstr "Cluich"
 #: ../src/totem-object.c:1472 ../src/totem-object.c:1499
 #: ../src/totem-object.c:1991
 #, c-format
-msgid "Totem could not play '%s'."
-msgstr "Cha b' urrainn dha Totem \"%s\" a chluich."
+msgid "Totem could not play “%s”."
+msgstr ""
 
 #: ../src/totem-object.c:2162
 msgid "Totem could not display the help contents."
@@ -1153,8 +1168,8 @@ msgid "Movies to play"
 msgstr "Fiolmaichean son cluich"
 
 #: ../src/totem-options.c:100
-msgid "Can't enqueue and replace at the same time"
-msgstr "Chan urrainn dhuinn cur sa chiudha is cur 'na àite aig an aon àm"
+msgid "Can’t enqueue and replace at the same time"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1165,10 +1180,8 @@ msgstr "Tiotal %d"
 
 #: ../src/totem-playlist.c:992
 #, c-format
-msgid "The playlist '%s' could not be parsed. It might be damaged."
+msgid "The playlist “%s” could not be parsed. It might be damaged."
 msgstr ""
-"Cha b' urrainn dhuinn an liosta-chluiche \"%s\" a pharsadh. Dh'fhaoidte gu "
-"bheil i coirbte."
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1207,8 +1220,8 @@ msgstr "%d kbps"
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
+msgid "%d × %d"
+msgstr ""
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1561,12 +1574,12 @@ msgid "Support infrared remote control"
 msgstr "Cuir taic ri uidheaman-smachd cèin fo-dhearg"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
-msgid "Couldn't initialize lirc."
-msgstr "Cha b' urrainn dhuinn lirc a thòiseachadh."
+msgid "Couldn’t initialize lirc."
+msgstr ""
 
 #: ../src/plugins/lirc/totem-lirc.c:251
-msgid "Couldn't read lirc configuration."
-msgstr "Cha b' urrainn dhuinn an rèiteachadh aig lirc a leughadh."
+msgid "Couldn’t read lirc configuration."
+msgstr ""
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
 msgid "Media Player Keys"
@@ -1685,11 +1698,8 @@ msgstr "Facal-faire rpdb2"
 #: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
-" remote access. If this is empty, a default of 'totem' will be used."
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"Seo facal-faire gus am frithealaiche rpdb2 airson dì-bhugachadh Totem a "
-"dhìon o inntrigeadh cèin gun chead. Ma tha e falamh, thèid \"totem\" a "
-"chleachdadh mar fhacal-faire bunaiteach."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1710,8 +1720,8 @@ msgstr "Dì-bhugaiche Python"
 #. pylint: disable-msg=E1101
 #: ../src/plugins/pythonconsole/pythonconsole.py:90
 #, python-format
-msgid "You can access the Totem.Object through 'totem_object' :\\n%s"
-msgstr "'S urrainn dhut Totem.Object inntrigeadh le \"totem_object\" :\\n%s"
+msgid "You can access the Totem.Object through “totem_object” :\\n%s"
+msgstr ""
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:94
 msgid "Totem Python Console"
@@ -1722,12 +1732,8 @@ msgstr "Consoil Python aig Totem"
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
-"default password ('totem')."
+"default password (“totem”)."
 msgstr ""
-"Às dèidh dhut brùthadh air \"Ceart ma-thà\", bidh Totem a' feitheamh gus an "
-"ceangail thu e ri winpdb no rpdb2. Mur an do shuidhich thu facal-faire a' "
-"dhì-bhugaiche ann an DConf, thèid am facal-faire bunaiteach (\"totem\") a "
-"chleachdadh."
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1847,8 +1853,8 @@ msgstr "A' cruthachadh gailearaidh…"
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
-msgid "Saving gallery as \"%s\""
-msgstr "A' sàbhaldh an gailearaidh mar \"%s\""
+msgid "Saving gallery as “%s”"
+msgstr ""
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1873,8 +1879,8 @@ msgid "Skip To"
 msgstr "Gearr leum gu"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
-msgid "Provides the \"Skip to\" dialog"
-msgstr "Solairichidh seo an còmhradh \"Gearr leum gu\""
+msgid "Provides the “Skip to” dialog"
+msgstr ""
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"

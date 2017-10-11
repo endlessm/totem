@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 13:35-0700\n"
+"POT-Creation-Date: 2017-10-11 13:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/endless-mobile-inc/teams/9016/nb/)\n"
@@ -123,30 +123,29 @@ msgid "Encoding character set for subtitle."
 msgstr "Tegnsett for koding av undertekst."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
-msgid "Default location for the \"Open...\" dialogs"
+msgid "Default location for the “Open…” dialogs"
 msgstr "Forvalgt plassering av «Åpne …»-dialoger"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
-"Default location for the \"Open...\" dialogs. Default is the current "
-"directory."
+"Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
 "Forvalgt plassering av «Åpne …»-dialoger. Standardverdi er gjeldende mappe."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
-msgid "Default location for the \"Take Screenshot\" dialogs"
+msgid "Default location for the “Take Screenshot” dialogs"
 msgstr "Forvalgt plassering av «Ta skjermbilde»-dialoger"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
-"Default location for the \"Take Screenshot\" dialogs. Default is the "
-"Pictures directory."
+"Default location for the “Take Screenshot” dialogs. Default is the Pictures "
+"directory."
 msgstr ""
 "Forvalgt plassering av «Ta skjermbilde»-dialoger. Standardverdi er brukerens"
 " bildemappe."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
-msgid "Whether to disable the plugins in the user's home directory"
+msgid "Whether to disable the plugins in the user’s home directory"
 msgstr "Om tillegg i brukerens hjemmemappe skal slås av"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
@@ -179,7 +178,7 @@ msgstr "Mapper som skal vises"
 msgid "Directories to show in the browse interface, none by default"
 msgstr "Mapper som skal vises i filgrensesnitt. Ingen som forvalg"
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5644
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "Stereo"
@@ -237,7 +236,7 @@ msgid "Plugins"
 msgstr "Tillegg"
 
 #: ../data/preferences.ui.h:15
-msgid "Plugins..."
+msgid "Plugins…"
 msgstr "Tillegg …"
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
@@ -354,130 +353,155 @@ msgstr "Generelt"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: ../data/shortcuts.ui.h:3
+msgctxt "shortcut window"
+msgid "Make Available Offline"
+msgstr "Gjør tilgjengelig frakoblet"
+
+#: ../data/shortcuts.ui.h:4
+msgctxt "shortcut window"
+msgid "Take Screenshot"
+msgstr "Ta skjermbilde"
+
+#: ../data/shortcuts.ui.h:5
+msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Avslutt"
 
-#: ../data/shortcuts.ui.h:3
+#: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Volume"
 msgstr "Volum"
 
-#: ../data/shortcuts.ui.h:4
+#: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Increase volume"
 msgstr "Øk volum"
 
-#: ../data/shortcuts.ui.h:5
+#: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Decrease volume"
 msgstr "Minsk volum"
 
-#: ../data/shortcuts.ui.h:6
+#: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "View"
 msgstr "Vis"
 
-#: ../data/shortcuts.ui.h:7
+#: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
 msgstr "Slå av/på fullskjerm"
 
-#: ../data/shortcuts.ui.h:8
+#: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
 msgstr "Avslutt fullskjerm"
 
-#: ../data/shortcuts.ui.h:9
+#: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "Zoom inn"
 
-#: ../data/shortcuts.ui.h:10
+#: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "Zoom ut"
 
-#: ../data/shortcuts.ui.h:11
+#: ../data/shortcuts.ui.h:14
+msgctxt "shortcut window"
+msgid "Rotate ↷"
+msgstr "Roter ↷"
+
+#: ../data/shortcuts.ui.h:15
+msgctxt "shortcut window"
+msgid "Rotate ↶"
+msgstr "Roter ↶"
+
+#: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Spill av"
 
-#: ../data/shortcuts.ui.h:12
+#: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Play/Pause"
 msgstr "Spill/pause"
 
-#: ../data/shortcuts.ui.h:13
+#: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
 msgstr "Forrige film eller kapittel"
 
-#: ../data/shortcuts.ui.h:14
+#: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Next video or chapter"
 msgstr "Neste film eller kapittel"
 
-#: ../data/shortcuts.ui.h:15
+#: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip"
 msgstr "Hopp til"
 
-#: ../data/shortcuts.ui.h:16
+#: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
 msgstr "Gå tilbake 15 sekunder"
 
-#: ../data/shortcuts.ui.h:17
+#: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
 msgstr "Gå frem 60 sekunder"
 
-#: ../data/shortcuts.ui.h:18
+#: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
 msgstr "Gå tilbake 5 sekunder"
 
-#: ../data/shortcuts.ui.h:19
+#: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
 msgstr "Gå frem 15 sekunder"
 
-#: ../data/shortcuts.ui.h:20
+#: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
 msgstr "Gå tilbake 3 minutter"
 
-#: ../data/shortcuts.ui.h:21
+#: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
 msgstr "Gå frem 10 minutter"
 
-#: ../data/shortcuts.ui.h:22
+#: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Skip to…"
 msgstr "Hopp til …"
 
-#: ../data/shortcuts.ui.h:23
+#: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
 msgstr "Navigering i DVD-meny"
 
-#: ../data/shortcuts.ui.h:24
+#: ../data/shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Navigate up"
 msgstr "Naviger opp"
 
-#: ../data/shortcuts.ui.h:25
+#: ../data/shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Navigate down"
 msgstr "Naviger ned"
 
-#: ../data/shortcuts.ui.h:26
+#: ../data/shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Navigate left"
 msgstr "Naviger til venstre"
 
-#: ../data/shortcuts.ui.h:27
+#: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr "Naviger til høyre"
@@ -596,56 +620,56 @@ msgstr "Oppgi _adressen for filen du ønsker å åpne:"
 msgid "--:--"
 msgstr "--.--"
 
-#: ../src/backend/bacon-video-widget.c:1959
+#: ../src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "Passord forespurt for RTSP-tjener"
 
-#: ../src/backend/bacon-video-widget.c:3329
+#: ../src/backend/bacon-video-widget.c:3341
 #, c-format
 msgid "Audio Track #%d"
 msgstr "Lydspor #%d"
 
-#: ../src/backend/bacon-video-widget.c:3331
+#: ../src/backend/bacon-video-widget.c:3343
 #, c-format
 msgid "Subtitle #%d"
 msgstr "Undertekst #%d"
 
-#: ../src/backend/bacon-video-widget.c:3872
+#: ../src/backend/bacon-video-widget.c:3884
 msgid "The server you are trying to connect to is not known."
 msgstr "Tjeneren du prøver å koble til er ikke kjent."
 
-#: ../src/backend/bacon-video-widget.c:3875
+#: ../src/backend/bacon-video-widget.c:3887
 msgid "The connection to this server was refused."
 msgstr "Tilkobling til denne tjeneren ble nektet."
 
-#: ../src/backend/bacon-video-widget.c:3878
+#: ../src/backend/bacon-video-widget.c:3890
 msgid "The specified movie could not be found."
 msgstr "Fant ikke valgt film."
 
-#: ../src/backend/bacon-video-widget.c:3885
+#: ../src/backend/bacon-video-widget.c:3897
 msgid "The server refused access to this file or stream."
 msgstr "Tjener nektet tilgang til denne filen eller strømmen."
 
-#: ../src/backend/bacon-video-widget.c:3891
+#: ../src/backend/bacon-video-widget.c:3903
 msgid "Authentication is required to access this file or stream."
 msgstr ""
 "Du må autentisere deg for å få tilgang til denne filen eller strømmen."
 
-#: ../src/backend/bacon-video-widget.c:3898
+#: ../src/backend/bacon-video-widget.c:3910
 msgid "You are not allowed to open this file."
 msgstr "Du har ikke tilgang til å åpne denne filen."
 
-#: ../src/backend/bacon-video-widget.c:3903
+#: ../src/backend/bacon-video-widget.c:3915
 msgid "This location is not a valid one."
 msgstr "Plasseringen er ugyldig."
 
-#: ../src/backend/bacon-video-widget.c:3911
+#: ../src/backend/bacon-video-widget.c:3923
 msgid "The movie could not be read."
 msgstr "Klarte ikke å lese filmen."
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3934
-#: ../src/backend/bacon-video-widget.c:3942
+#: ../src/backend/bacon-video-widget.c:3946
+#: ../src/backend/bacon-video-widget.c:3954
 #, c-format
 msgid ""
 "The playback of this movie requires a %s plugin which is not installed."
@@ -660,13 +684,13 @@ msgstr[1] ""
 "\n"
 "%s"
 
-#: ../src/backend/bacon-video-widget.c:3954
+#: ../src/backend/bacon-video-widget.c:3966
 msgid ""
-"This stream cannot be played. It's possible that a firewall is blocking it."
+"This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
 "Strømmen kan ikke spilles av. Det er mulig at den blokkeres av en brannmur."
 
-#: ../src/backend/bacon-video-widget.c:3957
+#: ../src/backend/bacon-video-widget.c:3969
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
@@ -674,7 +698,7 @@ msgstr ""
 "En lyd- eller videostrøm ble ikke håndtert pga manglende kodeker. Du må "
 "kanskje installere ekstra tillegg for å kunne spille av noen typer videoer"
 
-#: ../src/backend/bacon-video-widget.c:3968
+#: ../src/backend/bacon-video-widget.c:3980
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
@@ -682,19 +706,19 @@ msgstr ""
 "Denne filen kan ikke spilles av over nettverket. Prøv å laste den ned og "
 "spille den av lokalt."
 
-#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5640 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "Surround"
 
-#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5642 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "Mono"
 
-#: ../src/backend/bacon-video-widget.c:5917
+#: ../src/backend/bacon-video-widget.c:5929
 msgid "Media contains no supported video streams."
 msgstr "Medier inneholder ingen støttede videostrømmer."
 
-#: ../src/backend/bacon-video-widget.c:6128
+#: ../src/backend/bacon-video-widget.c:6140
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -707,14 +731,14 @@ msgstr ""
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "_Søk i %s"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s er påkrevet for å spille av filen, men er ikke installert."
+msgstr[1] "%s er påkrevet for å spille av filen, men er ikke installert."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -897,10 +921,6 @@ msgstr "Velg alle"
 msgid "Select None"
 msgstr "Velg ingen"
 
-#: ../src/totem-audio-preview.c:172
-msgid "Audio Preview"
-msgstr "Forhåndsvisning av lyd"
-
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr "Klarte ikke å starte opp trådsikre biblioteker."
@@ -939,7 +959,7 @@ msgstr "Kanaler"
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
-msgid "Couldn't load the '%s' interface. %s"
+msgid "Couldn’t load the “%s” interface. %s"
 msgstr "Klarte ikke å laste inn grensesnitt for «%s». %s"
 
 #: ../src/totem-interface.c:179
@@ -1008,7 +1028,7 @@ msgstr "Spill av"
 #: ../src/totem-object.c:1472 ../src/totem-object.c:1499
 #: ../src/totem-object.c:1991
 #, c-format
-msgid "Totem could not play '%s'."
+msgid "Totem could not play “%s”."
 msgstr "Totem klarte ikke å spille av «%s»."
 
 #: ../src/totem-object.c:2162
@@ -1111,7 +1131,7 @@ msgid "Movies to play"
 msgstr "Filmer som skal spilles av"
 
 #: ../src/totem-options.c:100
-msgid "Can't enqueue and replace at the same time"
+msgid "Can’t enqueue and replace at the same time"
 msgstr "Du kan ikke legge i kø og erstatte samtidig"
 
 #. This is "Title 3", where title is a DVD title
@@ -1123,7 +1143,7 @@ msgstr "Tittel %d"
 
 #: ../src/totem-playlist.c:992
 #, c-format
-msgid "The playlist '%s' could not be parsed. It might be damaged."
+msgid "The playlist “%s” could not be parsed. It might be damaged."
 msgstr "Klarte ikke å tolke spillelisten «%s». Den kan være skadet."
 
 #: ../src/totem-preferences.c:184
@@ -1163,7 +1183,7 @@ msgstr "%d kbps"
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
-msgid "%d x %d"
+msgid "%d × %d"
 msgstr "%d x %d"
 
 #: ../src/totem-properties-view.c:222
@@ -1513,11 +1533,11 @@ msgid "Support infrared remote control"
 msgstr "Støtte for infrarød fjernkontroll"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
-msgid "Couldn't initialize lirc."
+msgid "Couldn’t initialize lirc."
 msgstr "Klarte ikke å starte opp lirc."
 
 #: ../src/plugins/lirc/totem-lirc.c:251
-msgid "Couldn't read lirc configuration."
+msgid "Couldn’t read lirc configuration."
 msgstr "Klarte ikke å lese lirc-oppsett."
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
@@ -1637,7 +1657,7 @@ msgstr "rpdb2-passord"
 #: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
-" remote access. If this is empty, a default of 'totem' will be used."
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 "Et passord som skal beskytte rpdb2-tjener for feilsøking av Totem fra "
 "uautorisert tilgang. Hvis dette er tomt, brukes forvalgt passord «totem»."
@@ -1661,7 +1681,7 @@ msgstr "Python feilsøking"
 #. pylint: disable-msg=E1101
 #: ../src/plugins/pythonconsole/pythonconsole.py:90
 #, python-format
-msgid "You can access the Totem.Object through 'totem_object' :\\n%s"
+msgid "You can access the Totem.Object through “totem_object” :\\n%s"
 msgstr "Du kan få tilgang til Totem.Object gjennom «totem_object» :\\n%s"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:94
@@ -1673,7 +1693,7 @@ msgstr "Python-konsoll for Totem"
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
-"default password ('totem')."
+"default password (“totem”)."
 msgstr ""
 "Etter at du trykker OK, venter Totem til du kobler til med winpdb eller "
 "rpdb2. Hvis du ikke har valgt et passord for feilsøking i DConf, brukes "
@@ -1793,7 +1813,7 @@ msgstr "Lager galleri …"
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
-msgid "Saving gallery as \"%s\""
+msgid "Saving gallery as “%s”"
 msgstr "Lagrer galleri som «%s»"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
@@ -1820,7 +1840,7 @@ msgid "Skip To"
 msgstr "Hopp til"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
-msgid "Provides the \"Skip to\" dialog"
+msgid "Provides the “Skip to” dialog"
 msgstr "Støtte for «Hopp til»-dialogen"
 
 #: ../src/plugins/skipto/skipto.ui.h:1

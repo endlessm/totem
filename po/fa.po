@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 13:35-0700\n"
+"POT-Creation-Date: 2017-10-11 13:24-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2017\n"
 "Language-Team: Persian (https://www.transifex.com/endless-mobile-inc/teams/9016/fa/)\n"
@@ -123,31 +123,27 @@ msgid "Encoding character set for subtitle."
 msgstr "دسته‌ی کدگذاری، برای زیرنویس"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
-msgid "Default location for the \"Open...\" dialogs"
-msgstr "مکان پیش فرض برای محاوره‌های «باز کردن...»"
+msgid "Default location for the “Open…” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
-"Default location for the \"Open...\" dialogs. Default is the current "
-"directory."
+"Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"مکان پیش فرض برای محاوره‌های «بازکردن...». مکان پیش فرض شاخه‌ی فعلی می باشد"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
-msgid "Default location for the \"Take Screenshot\" dialogs"
-msgstr "مکان پیش فرض برای محاوره‌های «عکس گرفتن از صفحه»"
+msgid "Default location for the “Take Screenshot” dialogs"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
-"Default location for the \"Take Screenshot\" dialogs. Default is the "
-"Pictures directory."
+"Default location for the “Take Screenshot” dialogs. Default is the Pictures "
+"directory."
 msgstr ""
-"مکان پیش فرض برای محاوره‌های «عکس گرفتن از صفحه». محل پیش‌فرض شاخه‌ی عکس‌ها "
-"می‌باشد"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
-msgid "Whether to disable the plugins in the user's home directory"
-msgstr "اینکه متصل‌شونده‌های موجود در شاخه home کاربر غیر فعال شوند"
+msgid "Whether to disable the plugins in the user’s home directory"
+msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -184,7 +180,7 @@ msgstr "شاخه‌ها جهت نمایش"
 msgid "Directories to show in the browse interface, none by default"
 msgstr "شاخه‌های نشان داده شده در واسط مرور، پیش‌فرض هیچی نمایش داده نمی‌شود."
 
-#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5632
+#: ../data/preferences.ui.h:1 ../src/backend/bacon-video-widget.c:5644
 #: ../src/totem-properties-view.c:242
 msgid "Stereo"
 msgstr "استریو"
@@ -242,8 +238,8 @@ msgid "Plugins"
 msgstr "افزونه‌ها"
 
 #: ../data/preferences.ui.h:15
-msgid "Plugins..."
-msgstr "افزونه‌ها..."
+msgid "Plugins…"
+msgstr ""
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -359,130 +355,155 @@ msgstr "کلی"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
+msgid "Properties"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:3
+msgctxt "shortcut window"
+msgid "Make Available Offline"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:4
+msgctxt "shortcut window"
+msgid "Take Screenshot"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:5
+msgctxt "shortcut window"
 msgid "Quit"
 msgstr "خروج"
 
-#: ../data/shortcuts.ui.h:3
+#: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Volume"
 msgstr "بلندی صدا"
 
-#: ../data/shortcuts.ui.h:4
+#: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Increase volume"
 msgstr "بلند کردن صدا"
 
-#: ../data/shortcuts.ui.h:5
+#: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Decrease volume"
 msgstr "کم کردن صدا"
 
-#: ../data/shortcuts.ui.h:6
+#: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
 msgid "View"
 msgstr "نما"
 
-#: ../data/shortcuts.ui.h:7
+#: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
 msgstr "تغییر وضعیت حالت تمام‌صفحه"
 
-#: ../data/shortcuts.ui.h:8
+#: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
 msgstr "خروج از حالت تمام‌صفحه"
 
-#: ../data/shortcuts.ui.h:9
+#: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "بزرگ‌نمایی به داخل"
 
-#: ../data/shortcuts.ui.h:10
+#: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "بزرگ‌نمایی به خارح"
 
-#: ../data/shortcuts.ui.h:11
+#: ../data/shortcuts.ui.h:14
+msgctxt "shortcut window"
+msgid "Rotate ↷"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:15
+msgctxt "shortcut window"
+msgid "Rotate ↶"
+msgstr ""
+
+#: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "پخش"
 
-#: ../data/shortcuts.ui.h:12
+#: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Play/Pause"
 msgstr "پخش/مکث"
 
-#: ../data/shortcuts.ui.h:13
+#: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
 msgstr "فصل یا فیلم قبلی"
 
-#: ../data/shortcuts.ui.h:14
+#: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Next video or chapter"
 msgstr "فصل یا فیلم بعدی"
 
-#: ../data/shortcuts.ui.h:15
+#: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip"
 msgstr "پرش"
 
-#: ../data/shortcuts.ui.h:16
+#: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
 msgstr "۱۵ ثانیه به عقب برو"
 
-#: ../data/shortcuts.ui.h:17
+#: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
 msgstr "۶۰ ثانیه به جلو برو"
 
-#: ../data/shortcuts.ui.h:18
+#: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
 msgstr "۵ ثانیه به عقب برو"
 
-#: ../data/shortcuts.ui.h:19
+#: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
 msgstr "۱۵ ثانیه به عقب برو"
 
-#: ../data/shortcuts.ui.h:20
+#: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
 msgstr "۳ دقیقه به عقب برو"
 
-#: ../data/shortcuts.ui.h:21
+#: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
 msgstr "۱۰ دقیقه به جلو برو"
 
-#: ../data/shortcuts.ui.h:22
+#: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Skip to…"
 msgstr "پرش به..."
 
-#: ../data/shortcuts.ui.h:23
+#: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
 msgstr "ناوبری منو دی‌وی‌دی"
 
-#: ../data/shortcuts.ui.h:24
+#: ../data/shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Navigate up"
 msgstr "ناوش به بالا"
 
-#: ../data/shortcuts.ui.h:25
+#: ../data/shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Navigate down"
 msgstr "ناوش به پایین"
 
-#: ../data/shortcuts.ui.h:26
+#: ../data/shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Navigate left"
 msgstr "ناوش به چپ"
 
-#: ../data/shortcuts.ui.h:27
+#: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr "ناوش به راست"
@@ -601,55 +622,55 @@ msgstr "_نشانی پرونده‌ای را که می‌خواهید باز ک�
 msgid "--:--"
 msgstr "--:--"
 
-#: ../src/backend/bacon-video-widget.c:1959
+#: ../src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "گذرواژه برای کارگزار RTSP درخواست شده است"
 
-#: ../src/backend/bacon-video-widget.c:3329
+#: ../src/backend/bacon-video-widget.c:3341
 #, c-format
 msgid "Audio Track #%d"
 msgstr "قطعه صدا #%Id"
 
-#: ../src/backend/bacon-video-widget.c:3331
+#: ../src/backend/bacon-video-widget.c:3343
 #, c-format
 msgid "Subtitle #%d"
 msgstr "زیرنویس #%Id"
 
-#: ../src/backend/bacon-video-widget.c:3872
+#: ../src/backend/bacon-video-widget.c:3884
 msgid "The server you are trying to connect to is not known."
 msgstr "کارگزاری که شما در تلاش برای اتصال به آن هستید، شناخته شده نیست."
 
-#: ../src/backend/bacon-video-widget.c:3875
+#: ../src/backend/bacon-video-widget.c:3887
 msgid "The connection to this server was refused."
 msgstr "اتصال به کارگزار رد شد."
 
-#: ../src/backend/bacon-video-widget.c:3878
+#: ../src/backend/bacon-video-widget.c:3890
 msgid "The specified movie could not be found."
 msgstr "فیلم مشخص شده را نمی‌توان پیدا کرد."
 
-#: ../src/backend/bacon-video-widget.c:3885
+#: ../src/backend/bacon-video-widget.c:3897
 msgid "The server refused access to this file or stream."
 msgstr "کارگزار دسترسی به این پرونده یا جریان را رد کرد."
 
-#: ../src/backend/bacon-video-widget.c:3891
+#: ../src/backend/bacon-video-widget.c:3903
 msgid "Authentication is required to access this file or stream."
 msgstr "تصدیق‌هویت جهت دسترسی به این پرونده یا جریان لازم است."
 
-#: ../src/backend/bacon-video-widget.c:3898
+#: ../src/backend/bacon-video-widget.c:3910
 msgid "You are not allowed to open this file."
 msgstr "شما اجازه باز کردن این پرونده را ندارید."
 
-#: ../src/backend/bacon-video-widget.c:3903
+#: ../src/backend/bacon-video-widget.c:3915
 msgid "This location is not a valid one."
 msgstr "این مکان یک مکان معتبر نیست."
 
-#: ../src/backend/bacon-video-widget.c:3911
+#: ../src/backend/bacon-video-widget.c:3923
 msgid "The movie could not be read."
 msgstr "فیلم قابل خواندن نیست."
 
 #. should be exactly one missing thing (source or converter)
-#: ../src/backend/bacon-video-widget.c:3934
-#: ../src/backend/bacon-video-widget.c:3942
+#: ../src/backend/bacon-video-widget.c:3946
+#: ../src/backend/bacon-video-widget.c:3954
 #, c-format
 msgid ""
 "The playback of this movie requires a %s plugin which is not installed."
@@ -659,13 +680,12 @@ msgid_plural ""
 "%s"
 msgstr[0] "پخش این فیلم نیازمند یک افزونه %s است که نصب نشده است."
 
-#: ../src/backend/bacon-video-widget.c:3954
+#: ../src/backend/bacon-video-widget.c:3966
 msgid ""
-"This stream cannot be played. It's possible that a firewall is blocking it."
+"This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
-"این جریان قابل پخش نیست. ممکن است دیوارآتشین جریان را مسدود کرده باشد."
 
-#: ../src/backend/bacon-video-widget.c:3957
+#: ../src/backend/bacon-video-widget.c:3969
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
@@ -673,26 +693,26 @@ msgstr ""
 "یک جریان صوتی یا تصویری به دلیل نبود کُدِک مناسب قابل اجرا نیست. ممکن است "
 "لازم باشد جهت پخش بعضی از انواع فیلم‌ها، افزونه‌ای اضافی نصب کنید"
 
-#: ../src/backend/bacon-video-widget.c:3968
+#: ../src/backend/bacon-video-widget.c:3980
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
 msgstr ""
 "نمی توان این فایل را از شبکه پخش نمود. سعی کنید اول آنرا اول بارگیری کنید."
 
-#: ../src/backend/bacon-video-widget.c:5628 ../src/totem-properties-view.c:238
+#: ../src/backend/bacon-video-widget.c:5640 ../src/totem-properties-view.c:238
 msgid "Surround"
 msgstr "فراگیر"
 
-#: ../src/backend/bacon-video-widget.c:5630 ../src/totem-properties-view.c:240
+#: ../src/backend/bacon-video-widget.c:5642 ../src/totem-properties-view.c:240
 msgid "Mono"
 msgstr "واحد"
 
-#: ../src/backend/bacon-video-widget.c:5917
+#: ../src/backend/bacon-video-widget.c:5929
 msgid "Media contains no supported video streams."
 msgstr "رسانه حاوی هیچ ویدیوی جاری پشتیبانی شده‌ای نیست."
 
-#: ../src/backend/bacon-video-widget.c:6128
+#: ../src/backend/bacon-video-widget.c:6140
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly"
 " installed."
@@ -891,10 +911,6 @@ msgstr "انتخاب همه"
 msgid "Select None"
 msgstr "انتخاب هیچکدام"
 
-#: ../src/totem-audio-preview.c:172
-msgid "Audio Preview"
-msgstr "پیش‌نمایش صوتی"
-
 #: ../src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
 msgstr "مقدار دهی اولیه کتابخانه‌های thread-safe امکان‌پذیر نبود."
@@ -933,8 +949,8 @@ msgstr "کانال‌ها"
 
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
-msgid "Couldn't load the '%s' interface. %s"
-msgstr "بار کردن واسط «%s» ممکن نبود. %s"
+msgid "Couldn’t load the “%s” interface. %s"
+msgstr ""
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1001,8 +1017,8 @@ msgstr "پخش"
 #: ../src/totem-object.c:1472 ../src/totem-object.c:1499
 #: ../src/totem-object.c:1991
 #, c-format
-msgid "Totem could not play '%s'."
-msgstr "توتم نتوانست «%s» را پخش کند."
+msgid "Totem could not play “%s”."
+msgstr ""
 
 #: ../src/totem-object.c:2162
 msgid "Totem could not display the help contents."
@@ -1104,8 +1120,8 @@ msgid "Movies to play"
 msgstr "فیلم هایی که پخش خواهد شد"
 
 #: ../src/totem-options.c:100
-msgid "Can't enqueue and replace at the same time"
-msgstr "صف‌بندی و جایگزین‌کردن در یک‌زمان ممکن نیست"
+msgid "Can’t enqueue and replace at the same time"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1116,8 +1132,8 @@ msgstr "عنوان: %Id"
 
 #: ../src/totem-playlist.c:992
 #, c-format
-msgid "The playlist '%s' could not be parsed. It might be damaged."
-msgstr "تجزیه‌ی فهرست پخش «%s» ممکن نبود، ممکن است آسیب دیده باشد."
+msgid "The playlist “%s” could not be parsed. It might be damaged."
+msgstr ""
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1156,8 +1172,8 @@ msgstr "%Id کیلوبیت بر ثانیه"
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
-msgid "%d x %d"
-msgstr "%Id × %Id"
+msgid "%d × %d"
+msgstr ""
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1507,12 +1523,12 @@ msgid "Support infrared remote control"
 msgstr "پشتیبانی کنترل از راه دور مادون قرمز"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
-msgid "Couldn't initialize lirc."
-msgstr "نمی توان lirc را مقدار دهی کرد."
+msgid "Couldn’t initialize lirc."
+msgstr ""
 
 #: ../src/plugins/lirc/totem-lirc.c:251
-msgid "Couldn't read lirc configuration."
-msgstr "نمی‌توان تنظیمات lirc را خواند."
+msgid "Couldn’t read lirc configuration."
+msgstr ""
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
 msgid "Media Player Keys"
@@ -1631,11 +1647,8 @@ msgstr "گذرواژه‌ی rpdb2"
 #: ../src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in.h:2
 msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
-" remote access. If this is empty, a default of 'totem' will be used."
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"یک گذرواژه برای محافظت کارگزار rpdb2 از اشکال زدایی توتم با دسترسی‌های از "
-"راه دور هویت‌یابی نشده. اگر اینجا خالی باشد، مقدار پیش‌فرض 'totem' استفاده "
-"خواهد شد."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1656,8 +1669,8 @@ msgstr "اشکال‌یاب پیتون"
 #. pylint: disable-msg=E1101
 #: ../src/plugins/pythonconsole/pythonconsole.py:90
 #, python-format
-msgid "You can access the Totem.Object through 'totem_object' :\\n%s"
-msgstr "شما می‌توانید از طریق «totem_object« به توتم دسترسی داشته باشید:\\n%s"
+msgid "You can access the Totem.Object through “totem_object” :\\n%s"
+msgstr ""
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:94
 msgid "Totem Python Console"
@@ -1668,11 +1681,8 @@ msgstr "پایانه‌ی پیتون توتم"
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
-"default password ('totem')."
+"default password (“totem”)."
 msgstr ""
-"پس از تایید، توتم منتظر می‌ماند تا شما بوسیله winpdb یا rpdb2 متصل شوید. "
-"چنانچه شما گذرواژه‌ای برای اشکال‌زدا در GConf تعیین نکرده‌اید، از گذرواژه "
-"پیش‌فرض ('totem') استفاده می‌شود."
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1788,8 +1798,8 @@ msgstr "درحال ایجاد گالری..."
 #. Set the progress label
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
-msgid "Saving gallery as \"%s\""
-msgstr "ذخیره‌ی گالری به عنوان «%s»"
+msgid "Saving gallery as “%s”"
+msgstr ""
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1814,8 +1824,8 @@ msgid "Skip To"
 msgstr "پرش به"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
-msgid "Provides the \"Skip to\" dialog"
-msgstr "محاوره «پرش به» را فراهم می‌کند"
+msgid "Provides the “Skip to” dialog"
+msgstr ""
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"
