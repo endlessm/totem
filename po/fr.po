@@ -760,6 +760,8 @@ msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Ce type de fichier n'est pas pris en charge dans les vidéos actuellement. "
+"Vous pouvez cependant utiliser le lecteur multimédia VLC pour le lire."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:339
 msgid "Open with VLC"
