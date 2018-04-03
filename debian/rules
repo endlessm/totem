@@ -12,7 +12,10 @@ include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
 include /usr/share/gnome-pkg-tools/1/rules/gnome-version.mk
 
 %:
-	dh $@ --with gnome,gir --buildsystem=meson
+	dh $@ --with gnome,gir,eoscontent --buildsystem=meson
+
+override_dh_autoreconf:
+	dh_autoreconf --as-needed
 
 override_dh_auto_configure:
 	dh_auto_configure -- \

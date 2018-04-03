@@ -11,6 +11,8 @@ Build-Depends: appstream-util,
                debhelper (>= 11),
                dh-python,
                dpkg-dev (>= 1.16.1),
+               eos-shell-content-dev,
+               gnome-common,
                gnome-pkg-tools (>= 0.10),
                gobject-introspection (>= 0.9.12-4~),
                gsettings-desktop-schemas-dev,
@@ -29,6 +31,7 @@ Build-Depends: appstream-util,
                libgdk-pixbuf2.0-dev (>= 2.23.0),
                libgirepository1.0-dev (>= 0.9.12),
                libglib2.0-dev (>= 2.35.0),
+               libgl1-mesa-dri,
                libgnome-desktop-3-dev,
                libgrilo-0.3-dev (>= 0.3.0),
                libgstreamer-plugins-base1.0-dev,
@@ -45,7 +48,6 @@ Build-Depends: appstream-util,
                libxrandr-dev (>= 2:1.1.1),
                libxtst-dev,
                libxxf86vm-dev (>= 1:1.0.1),
-               libzeitgeist-2.0-dev (>= 0.9.12),
                meson (>= 0.41.0),
                pylint,
                python3 (>= 3.2),
@@ -74,6 +76,8 @@ Description: Main library for the Totem media player
 
 Package: totem
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Totem
+XSB-Eos-Core-App: yes
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          totem-common (>= ${source:Version}),
@@ -84,7 +88,6 @@ Depends: ${misc:Depends},
          gstreamer1.0-x,
          grilo-plugins-0.3
 Recommends: gstreamer1.0-libav,
-            gstreamer1.0-plugins-ugly,
             gstreamer1.0-plugins-bad,
             gstreamer1.0-pulseaudio,
             totem-plugins
@@ -136,7 +139,7 @@ Depends: ${misc:Depends},
          gir1.2-totem-1.0 (= ${binary:Version}),
          python3-gi (>= 2.90.3),
          python3-xdg
-Recommends: gnome-settings-daemon, zeitgeist-core
+Recommends: gnome-settings-daemon
 Suggests: gromit
 Description: Plugins for the Totem media player
  Totem is a simple yet featureful media player for GNOME which can read
