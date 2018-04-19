@@ -852,7 +852,7 @@ msgstr[3] "%d гадзін"
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d хвіліна"
-msgstr[1] "%d хвіліны"
+msgstr[1] "%d хвілін"
 msgstr[2] "%d хвілін"
 msgstr[3] "%d хвілін"
 

@@ -827,19 +827,19 @@ msgstr "0 ಮಾರ್ಗಗಳು"
 #, c-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d ಗಂಟೆಗಳು"
+msgstr[0] "%d ಗಂಟೆ"
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d ನಿಮಿಷಗಳು"
+msgstr[0] "%d ನಿಮಿಷ"
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "%d ಸೆಕೆಂಡ್‍ಗಳು"
+msgstr[0] "%d ಸೆಕೆಂಡ್‍"
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -864,7 +864,7 @@ msgstr "0 ಸೆಕೆಂಡುಗಳು"
 #, c-format
 msgid "%d frame per second"
 msgid_plural "%d frames per second"
-msgstr[0] "ಪ್ರತಿ ಸೆಕೆಂಡಿನಲ್ಲಿನ %d ಚೌಕಟ್ಟುಗಳು"
+msgstr[0] "ಪ್ರತಿ ಸೆಕೆಂಡಿನಲ್ಲಿನ %d ಚೌಕಟ್ಟು"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -1811,7 +1811,7 @@ msgstr "ಇಲ್ಲಿಗೆ ನೆಗೆ (_S):"
 #: ../src/plugins/skipto/totem-skipto.c:176
 msgid "second"
 msgid_plural "seconds"
-msgstr[0] "ಸೆಕೆಂಡುಗಳು"
+msgstr[0] "ಸೆಕೆಂಡು"
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value

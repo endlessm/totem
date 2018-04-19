@@ -81,26 +81,30 @@ msgstr "Кодова таблица на субтитрите"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
 msgid "Default location for the “Open…” dialogs"
-msgstr ""
+msgstr "Стандартно местоположение за диалоговите прозорци „Отваряне…“"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
+"Стандартно местоположение използвано от диалоговите прозорци „Отваряне…“, по"
+" подразбиране е текущата папка."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
 msgid "Default location for the “Take Screenshot” dialogs"
-msgstr ""
+msgstr "Стандартно местоположение за диалоговите прозорци „Снимане на кадър“"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
 msgstr ""
+"Стандартно местоположение използвано от диалоговите прозорци „Снимане на "
+"кадър“, по подразбиране е папката „Изображения“."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
 msgid "Whether to disable the plugins in the user’s home directory"
-msgstr ""
+msgstr "Дали да се изключат приставките в домашната директория на потребителя"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -194,7 +198,7 @@ msgstr "Приставки"
 
 #: ../data/preferences.ui.h:15
 msgid "Plugins…"
-msgstr ""
+msgstr "Приставки…"
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -311,17 +315,17 @@ msgstr "Общи"
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr ""
+msgstr "Подробности"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Make Available Offline"
-msgstr ""
+msgstr "Клипът да е достъпен и без мрежа"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr ""
+msgstr "Снимане на кадър"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
@@ -371,12 +375,12 @@ msgstr "Намаляване на образа"
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Rotate ↷"
-msgstr ""
+msgstr "Завъртане ↷"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Rotate ↶"
-msgstr ""
+msgstr "Завъртане ↶"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
@@ -644,6 +648,8 @@ msgstr[1] ""
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
+"Потокът не може да бъде изпълнен. Възможно е някоя защитна стена да го "
+"блокира."
 
 #: ../src/backend/bacon-video-widget.c:3974
 msgid ""
@@ -954,7 +960,7 @@ msgstr "Канали"
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr ""
+msgstr "Грешка при зареждането на интерфейса „%s“. %s"
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1023,7 +1029,7 @@ msgstr "Изпълнение"
 #: ../src/totem-object.c:1990
 #, c-format
 msgid "Totem could not play “%s”."
-msgstr ""
+msgstr "Totem не може да изпълни „%s“."
 
 #: ../src/totem-object.c:2161
 msgid "Totem could not display the help contents."
@@ -1126,7 +1132,7 @@ msgstr "Филми за изпълнение"
 
 #: ../src/totem-options.c:100
 msgid "Can’t enqueue and replace at the same time"
-msgstr ""
+msgstr "Не може едновременно да се добавя и заменя"
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1138,7 +1144,7 @@ msgstr "Заглавие %d"
 #: ../src/totem-playlist.c:992
 #, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
-msgstr ""
+msgstr "Списъкът „%s“ не може да бъде прочетен, възможно е да е повреден."
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1179,7 +1185,7 @@ msgstr "%d kbps"
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
 msgid "%d × %d"
-msgstr ""
+msgstr "%d × %d"
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1505,11 +1511,11 @@ msgstr "Поддръжка на инфрачервено дистанционн�
 
 #: ../src/plugins/lirc/totem-lirc.c:239
 msgid "Couldn’t initialize lirc."
-msgstr ""
+msgstr "Системата lirc не може да бъде инициализирана."
 
 #: ../src/plugins/lirc/totem-lirc.c:251
 msgid "Couldn’t read lirc configuration."
-msgstr ""
+msgstr "Настройките на lirc не могат да бъдат прочетени."
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
 msgid "Media Player Keys"
@@ -1525,7 +1531,7 @@ msgstr "Винаги най-отгоре"
 
 #: ../src/plugins/ontop/ontop.plugin.in.h:2
 msgid "Keep the main window on top when playing a movie"
-msgstr "Главният прозорец да стои най-отгоре при изпълнение на филм."
+msgstr "Главният прозорец да стои най-отгоре при изпълнение на филм"
 
 #: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:1
 msgid "Subtitle Downloader"
@@ -1630,6 +1636,8 @@ msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
 " remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
+"Парола за защита на сървъра за изчистване на грешки rpdb2 от неупълномощен "
+"достъп. Ако е празно, се използва стандартната парола „totem“."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1651,7 +1659,7 @@ msgstr "Изчистване на грешки на Python"
 #: ../src/plugins/pythonconsole/pythonconsole.py:97
 #, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr ""
+msgstr "Обектът на Totem е достъпен като „totem_object“: \\n%s"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1664,6 +1672,9 @@ msgid ""
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
+"След като натиснете „Добре“, Totem ще изчака да се свържете с него чрез "
+"winpdb или rpdb2. Ако не сте задали парола за изчистване на грешки в GConf, "
+"ще се ползва стандартната („totem“)."
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1780,7 +1791,7 @@ msgstr "Създаване на галерия…"
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
 msgid "Saving gallery as “%s”"
-msgstr ""
+msgstr "Запазване на галерията като „%s“"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1806,7 +1817,7 @@ msgstr "Прескачане до"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
 msgid "Provides the “Skip to” dialog"
-msgstr ""
+msgstr "Предоставя прозореца „Прескачане до“"
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"

@@ -192,7 +192,7 @@ msgstr "Zewnętrzne rozdziały"
 
 #: ../data/preferences.ui.h:13
 msgid "Load _chapter files when movie is loaded"
-msgstr "W_czytywanie plików rozdziałów po wczytaniu filmu"
+msgstr "W_czytywanie pliku rozdziałów po wczytaniu filmu"
 
 #: ../data/preferences.ui.h:14
 msgid "Plugins"
@@ -218,7 +218,7 @@ msgstr "Wyłączenie _usuwania przeplotu z filmów z przeplotem"
 
 #: ../data/preferences.ui.h:20
 msgid "Color Balance"
-msgstr "Korekcja koloru"
+msgstr "Korekcja kolorów"
 
 #: ../data/preferences.ui.h:21
 msgid "_Brightness:"
@@ -242,7 +242,7 @@ msgstr "P_rzywróć domyślne"
 
 #: ../data/preferences.ui.h:26
 msgid "Display"
-msgstr "Wyświetlanie"
+msgstr "Obraz"
 
 #: ../data/preferences.ui.h:27
 msgid "Audio Output"
@@ -250,7 +250,7 @@ msgstr "Wyjście dźwięku"
 
 #: ../data/preferences.ui.h:28
 msgid "_Audio output type:"
-msgstr "_Typ wyjścia dźwięku:"
+msgstr "_Typ:"
 
 #: ../data/preferences.ui.h:29 ../data/properties.ui.h:14
 #: ../src/totem-properties-view.c:283
@@ -491,7 +491,7 @@ msgstr "Dodaj _lokalny film…"
 
 #: ../data/totem.ui.h:6
 msgid "Add _Web Video…"
-msgstr "Dodaj film z _sieci…"
+msgstr "Dodaj film z _Internetu…"
 
 #: ../data/totem.ui.h:7
 msgid "_Aspect Ratio"
@@ -576,7 +576,7 @@ msgstr "Prędkość odtwarzania"
 
 #: ../data/uri.ui.h:1
 msgid "Enter the _address of the file you would like to open:"
-msgstr "Adres p_liku do otwarcia:"
+msgstr "Adres pliku do _otwarcia:"
 
 #. translators: Unknown remaining time
 #: ../src/backend/bacon-time-label.c:113
@@ -590,12 +590,12 @@ msgstr "Zażądano hasła dla serwera RTSP"
 #: ../src/backend/bacon-video-widget.c:3346
 #, c-format
 msgid "Audio Track #%d"
-msgstr "Ścieżka dźwiękowa #%d"
+msgstr "%d. ścieżka dźwiękowa"
 
 #: ../src/backend/bacon-video-widget.c:3348
 #, c-format
 msgid "Subtitle #%d"
-msgstr "Napisy #%d"
+msgstr "%d. napisy"
 
 #: ../src/backend/bacon-video-widget.c:3889
 msgid "The server you are trying to connect to is not known."
@@ -836,7 +836,7 @@ msgstr "Brak danych"
 #. Sample rate
 #: ../src/properties/bacon-video-widget-properties.c:137
 msgid "0 Hz"
-msgstr "0 Hz"
+msgstr "0 Hz"
 
 #. Channels
 #: ../src/properties/bacon-video-widget-properties.c:139
@@ -894,7 +894,7 @@ msgstr "0 sekund"
 msgid "%d frame per second"
 msgid_plural "%d frames per second"
 msgstr[0] "%d klatka na sekundę"
-msgstr[1] "%d klatki na sekundę"
+msgstr[1] "%d klatki na sekund"
 msgstr[2] "%d klatek na sekundę"
 msgstr[3] "%d klatek na sekundę"
 
@@ -953,14 +953,14 @@ msgstr "Czas trwania"
 #: ../src/totem-grilo.c:285
 #, c-format
 msgid "Season %d Episode %d"
-msgstr "Sezon %d, odcinek %d"
+msgstr "%d. sezon, %d. odcinek"
 
 #. translators: The first item is the show name, for example:
 #. * Boardwalk Empire (Season 1 Episode 1)
 #: ../src/totem-grilo.c:322
 #, c-format
 msgid "%s (Season %d Episode %d)"
-msgstr "%s (sezon %d, odcinek %d)"
+msgstr "%s (%d. sezon, %d. odcinek)"
 
 #: ../src/totem-grilo.c:677
 msgid "Browse Error"
@@ -1084,7 +1084,7 @@ msgstr "Brak powodu."
 
 #: ../src/totem-open-location.c:183
 msgid "Add Web Video"
-msgstr "Dodanie filmu z sieci"
+msgstr "Dodanie filmu z Internetu"
 
 #: ../src/totem-open-location.c:185 ../src/totem-uri.c:399
 #: ../src/totem-uri.c:460 ../src/plugins/screenshot/totem-gallery.c:98
@@ -1162,7 +1162,7 @@ msgstr "Nie można równocześnie dodać do kolejki i zamienić pliku"
 #: ../src/totem-playlist.c:232
 #, c-format
 msgid "Title %d"
-msgstr "Tytuł %d"
+msgstr "%d. tytuł"
 
 #: ../src/totem-playlist.c:992
 #, c-format
@@ -1202,7 +1202,7 @@ msgstr "Brak danych"
 #: ../src/plugins/properties/totem-movie-properties.c:165
 #, c-format
 msgid "%d kbps"
-msgstr "%d kb/s"
+msgstr "%d kb/s"
 
 #: ../src/totem-properties-view.c:190
 #: ../src/plugins/properties/totem-movie-properties.c:151
@@ -1214,7 +1214,7 @@ msgstr "%d×%d"
 #: ../src/plugins/properties/totem-movie-properties.c:168
 #, c-format
 msgid "%d Hz"
-msgstr "%d Hz"
+msgstr "%d Hz"
 
 #: ../src/totem-properties-view.c:230
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1427,7 +1427,7 @@ msgstr "Zwiastuny Apple"
 
 #: ../src/plugins/apple-trailers/apple-trailers.plugin.in.h:2
 msgid "Sets the user agent for the Apple Trailers site"
-msgstr "Ustawia agenta użytkownika dla witryny zwiastunów firmy Apple"
+msgstr "Ustawia agenta użytkownika dla strony zwiastunów firmy Apple"
 
 #: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:1
 msgid "Autoload Subtitles"
@@ -1580,7 +1580,7 @@ msgstr "Nie można połączyć się ze stroną OpenSubtitles"
 #: ../src/plugins/opensubtitles/opensubtitles.py:328
 #: ../src/plugins/opensubtitles/opensubtitles.py:346
 msgid "Could not contact the OpenSubtitles website."
-msgstr "Nie można połączyć się z witryną OpenSubtitles."
+msgstr "Nie można połączyć się ze stroną OpenSubtitles."
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:334
 msgid "No results found."
@@ -1636,7 +1636,7 @@ msgstr "Właściwości filmu"
 
 #: ../src/plugins/properties/movie-properties.plugin.in.h:2
 msgid "Adds movie properties menu item"
-msgstr "Dodaje element menu z właściwościami filmu"
+msgstr "Dodaje menu z właściwościami filmu"
 
 #: ../src/plugins/properties/totem-movie-properties.c:261
 msgid "Properties"
@@ -1820,8 +1820,7 @@ msgstr "Nie można wykonać zrzutu ekranu tego wideo."
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
 msgid "This is not supposed to happen; please file a bug report."
-msgstr ""
-"Ta sytuacja nie powinna mieć miejsca. Proszę wypełnić zgłoszenie błędu."
+msgstr "Ta sytuacja nie powinna mieć miejsca. Proszę zgłosić błąd."
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:339
 msgid "Take _Screenshot"
@@ -1838,7 +1837,7 @@ msgstr "Przejście do"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
 msgid "Provides the “Skip to” dialog"
-msgstr "Dostarcza okno dialogowe „Przejdź do”"
+msgstr "Dodaje okno dialogowe „Przejdź do”"
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"
@@ -1925,4 +1924,4 @@ msgstr "Vimeo"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:2
 msgid "Sets the user agent for the Vimeo site"
-msgstr "Ustawia agenta użytkownika dla witryny Vimeo"
+msgstr "Ustawia agenta użytkownika dla strony Vimeo"

@@ -81,25 +81,25 @@ msgstr "Tegnkodning til undertekster."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
 msgid "Default location for the “Open…” dialogs"
-msgstr "Forvalgt placering for \"Åbn …\"-dialogerne"
+msgstr "Forvalgt placering for “Åbn …”-dialogerne"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"Standardplacering for \"Åbn …\"-dialogerne. Standardværdien er den nuværende"
-" mappe."
+"Standardplacering for “Åbn …”-dialogerne. Standardværdien er den nuværende "
+"mappe."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
 msgid "Default location for the “Take Screenshot” dialogs"
-msgstr "Forvalgt placering for \"Gem skærmbillede\"-dialogerne"
+msgstr "Forvalgt placering for “Gem skærmbillede”-dialogerne"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
 msgstr ""
-"Standardplacering for \"Gem skærmbillede\"-dialogerne. Standardværdien er "
+"Standardplacering for “Gem skærmbillede”-dialogerne. Standardværdien er "
 "mappen Billeder."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
@@ -962,7 +962,7 @@ msgstr "Kanaler"
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr "Kunne ikke indlæse grænsefladen \"%s\". %s"
+msgstr "Kunne ikke indlæse grænsefladen “%s”. %s"
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1031,7 +1031,7 @@ msgstr "Afspil"
 #: ../src/totem-object.c:1990
 #, c-format
 msgid "Totem could not play “%s”."
-msgstr "Totem kunne ikke afspille \"%s\"."
+msgstr "Totem kunne ikke afspille “%s”."
 
 #: ../src/totem-object.c:2161
 msgid "Totem could not display the help contents."
@@ -1146,7 +1146,7 @@ msgstr "Titel %d"
 #: ../src/totem-playlist.c:992
 #, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
-msgstr "Afspilningslisten \"%s\" kunne ikke fortolkes. Den kan være beskadiget."
+msgstr "Afspilningslisten “%s” kunne ikke fortolkes. Den kan være beskadiget."
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1467,17 +1467,17 @@ msgstr ""
 #: ../src/plugins/dbusservice/dbusservice.py:236
 #, python-format
 msgid "The MediaPlayer2 object does not implement the ‘%s’ interface"
-msgstr "MediaPlayer2-objektet anvender ikke brugergrænsefladen \"%s\""
+msgstr "MediaPlayer2-objektet anvender ikke brugergrænsefladen “%s”"
 
 #: ../src/plugins/dbusservice/dbusservice.py:218
 #, python-format
 msgid "The property ‘%s’ is not writeable."
-msgstr "Egenskaben \"%s\" er ikke skrivbar."
+msgstr "Egenskaben “%s” er ikke skrivbar."
 
 #: ../src/plugins/dbusservice/dbusservice.py:231
 #, python-format
 msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
-msgstr "Et MediaPlayer2-objekt kræver en ukendt egenskab \"%s\""
+msgstr "Et MediaPlayer2-objekt kræver en ukendt egenskab “%s”"
 
 #: ../src/plugins/gromit/gromit.plugin.in.h:1
 msgid "Gromit Annotations"
@@ -1638,7 +1638,7 @@ msgid ""
 msgstr ""
 "En adgangskode til at beskytte rpdb2-serveren til fejlsøgning af Totem fra "
 "uautoriseret fjerntilgang, Hvis denne er tom, bruges standardværdien "
-"\"totem\"."
+"“totem”."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1660,7 +1660,7 @@ msgstr "Python-fejlsøger"
 #: ../src/plugins/pythonconsole/pythonconsole.py:97
 #, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr "Du kan tilgå Totem.Objekt'et med \"totem_object\" : \\n%s"
+msgstr "Du kan tilgå Totem.Objekt'et med “totem_object” : \\n%s"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1675,7 +1675,7 @@ msgid ""
 msgstr ""
 "Efter du har trykket OK, ventes indtil du forbinder til Totem med winpdb "
 "eller rpdb2. Hvis du ikke har indstillet en fejlsøgeradgangskode i DConf, "
-"vil standardadgangskoden blive benyttet (\"totem\")."
+"vil standardadgangskoden blive benyttet (“totem”)."
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1792,7 +1792,7 @@ msgstr "Opretter galleri …"
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
 msgid "Saving gallery as “%s”"
-msgstr "Gemmer galleri som \"%s\""
+msgstr "Gemmer galleri som “%s”"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1818,7 +1818,7 @@ msgstr "Spring til"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
 msgid "Provides the “Skip to” dialog"
-msgstr "Giver \"Spring til\"-dialogen"
+msgstr "Giver “Spring til”-dialogen"
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"

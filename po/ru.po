@@ -862,7 +862,7 @@ msgstr[3] "%d минут"
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
-msgstr[1] "%d секунд"
+msgstr[1] "%d секунды"
 msgstr[2] "%d секунд"
 msgstr[3] "%d секунд"
 

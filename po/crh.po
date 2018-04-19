@@ -639,7 +639,9 @@ msgid_plural ""
 msgstr[0] ""
 "Bu filmniñ oynatılması içün qurulmağan olğan bir %s plagini şarttır."
 msgstr[1] ""
-"Bu filmniñ oynatılması içün qurulmağan olğan bir %s plagini şarttır."
+"Bu filmniñ oynatılması içün qurulmağan olğan aşağıdaki plaginler şarttır:\n"
+"\n"
+"%s"
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""

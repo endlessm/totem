@@ -674,13 +674,13 @@ msgstr "缺少某些必須的外掛，請確定目前已安裝程式。"
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "在 %s 中尋找(_F)"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
+msgstr[0] "需要有 %s 以播放該檔案，但尚未安裝。"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""

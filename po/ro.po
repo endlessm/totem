@@ -20,19 +20,19 @@ msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
-msgstr "Luminozitatea video"
+msgstr "Luminozitatea videoului"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:2
 msgid "The contrast of the video"
-msgstr "Contrastul video"
+msgstr "Contrastul videoului"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:3
 msgid "The hue of the video"
-msgstr "Nuanța pentru video"
+msgstr "Nuanța videoului"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:4
 msgid "The saturation of the video"
-msgstr "Saturația video"
+msgstr "Saturația videoului"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:5
 msgid "Repeat mode"
@@ -60,11 +60,11 @@ msgstr ""
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:10
 msgid "Subtitle font"
-msgstr "Fontul subtitlului"
+msgstr "Fontul subtitlurilor"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:11
 msgid "Pango font description for subtitle rendering."
-msgstr "Descrierea fontului pango pentru randarea subtitlului."
+msgstr "Descrierea fontului pango pentru redarea subtitlurilor."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:12
 msgctxt "subtitle-encoding"
@@ -73,22 +73,22 @@ msgstr "'UTF-8'"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:13
 msgid "Subtitle encoding"
-msgstr "Codarea subtitlului"
+msgstr "Codarea subtitlurilor"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:14
 msgid "Encoding character set for subtitle."
-msgstr "Set codare caractere pentru subtitlu."
+msgstr "Set de caractere pentru codarea subtitlurilor."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
 msgid "Default location for the “Open…” dialogs"
-msgstr "Locația implicită pentru dialogurile „Deschide...”"
+msgstr "Locația implicită pentru dialogurile „Deschide…”"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"Locația implicită pentru dialogurile „Deschide...”. Implicit este dosarul "
-"curent."
+"Locația implicită pentru dialogurile „Deschide…”. Implicit este dosarul "
+"actual."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
 msgid "Default location for the “Take Screenshot” dialogs"
@@ -113,12 +113,13 @@ msgstr "Dacă se dezactivează combinațiile de taste"
 #: ../data/org.gnome.totem.gschema.xml.in.h:21
 msgid "Whether to autoload text subtitle files when a movie is loaded"
 msgstr ""
-"Dacă să fie încărcate automat fișierele de subtitlu la pornirea unui film"
+"Dacă să fie încărcate automat fișierele de subtitluri la pornirea unui film"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:22
 msgid "Whether to autoload external chapter files when a movie is loaded"
 msgstr ""
-"Dacă să fie încărcate automat fișierele capitolului la pornirea unui film"
+"Dacă să fie încărcate automat fișierele externe de capitol la încărcarea "
+"unui film"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:23
 msgid "Active plugins list"
@@ -302,7 +303,7 @@ msgstr "Bitrate:"
 
 #: ../data/properties.ui.h:15
 msgid "Sample rate:"
-msgstr "Eșantion:"
+msgstr "Rata de eșantionare:"
 
 #: ../data/properties.ui.h:16
 msgid "Channels:"
@@ -311,7 +312,7 @@ msgstr "Canale:"
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr "General"
+msgstr "Generale"
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
@@ -326,12 +327,12 @@ msgstr "Fă disponibil offline"
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "Realizează o captură de ecran"
+msgstr "Salvează o captură de ecran"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Paraseste"
+msgstr "Ieșire"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
@@ -341,12 +342,12 @@ msgstr "Volum"
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "Creste volum"
+msgstr "Crește volumul"
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "Scade volum"
+msgstr "Redu volumul"
 
 #: ../data/shortcuts.ui.h:9
 msgctxt "shortcut window"
@@ -356,22 +357,22 @@ msgstr "Vizualizare"
 #: ../data/shortcuts.ui.h:10
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "Comutare la ecran complet"
+msgstr "Comută pe tot ecranul"
 
 #: ../data/shortcuts.ui.h:11
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "Iesire din ecran complet"
+msgstr "Ieși de pe tot ecranul"
 
 #: ../data/shortcuts.ui.h:12
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "Zoom +"
+msgstr "Mărește"
 
 #: ../data/shortcuts.ui.h:13
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "Zoom -"
+msgstr "Micșorează"
 
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
@@ -391,82 +392,82 @@ msgstr "Redare"
 #: ../data/shortcuts.ui.h:17
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "Redare / Pauză"
+msgstr "Redare/Pauză"
 
 #: ../data/shortcuts.ui.h:18
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "Videoclip sau capitol anterior"
+msgstr "Precedentul video sau capitol"
 
 #: ../data/shortcuts.ui.h:19
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "Videoclip sau capitol urmator"
+msgstr "Următorul video sau capitol"
 
 #: ../data/shortcuts.ui.h:20
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "Sari"
+msgstr "Omite"
 
 #: ../data/shortcuts.ui.h:21
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr "Inapoi 15 secunde"
+msgstr "Întoarce-te 15 secunde"
 
 #: ../data/shortcuts.ui.h:22
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "Inainte 60 de secunde"
+msgstr "Înnaintează 60 secunde"
 
 #: ../data/shortcuts.ui.h:23
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "Inapoi 0 secunde"
+msgstr "Întoarce-te 5 secunde"
 
 #: ../data/shortcuts.ui.h:24
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "Inainte 15 secunde"
+msgstr "Înaintează 15 secunde"
 
 #: ../data/shortcuts.ui.h:25
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr "Inapoi 3 minute"
+msgstr "Întoarce-te 3 minute"
 
 #: ../data/shortcuts.ui.h:26
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr "Inainte 10 minute"
+msgstr "Înnaintează 10 minute"
 
 #: ../data/shortcuts.ui.h:27
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "Sari la..."
+msgstr "Derulează la…"
 
 #: ../data/shortcuts.ui.h:28
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr "Meniu de navigare DVD"
+msgstr "Meniul de navigare DVD"
 
 #: ../data/shortcuts.ui.h:29
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr "Navigheaza in sus"
+msgstr "Navighează în sus"
 
 #: ../data/shortcuts.ui.h:30
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr "Navighteaza in jos"
+msgstr "Navighează în jos"
 
 #: ../data/shortcuts.ui.h:31
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr "Navigheaza in stanga"
+msgstr "Navighează la stânga"
 
 #: ../data/shortcuts.ui.h:32
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr "Navigheaza in dreapta"
+msgstr "Navighează la dreapta"
 
 #: ../data/totem.ui.h:1
 msgid "Prefere_nces"
@@ -474,7 +475,7 @@ msgstr "Preferi_nțe"
 
 #: ../data/totem.ui.h:2
 msgid "_Keyboard Shortcuts"
-msgstr "_Scurtaturi tastatura"
+msgstr "S_curtături de tastatură"
 
 #: ../data/totem.ui.h:3
 msgid "_Help"
@@ -559,7 +560,7 @@ msgstr "Meniul _titlu"
 
 #: ../data/totem.ui.h:22
 msgid "A_udio Menu"
-msgstr "Meniu s_unet"
+msgstr "Meniu a_udio"
 
 #: ../data/totem.ui.h:23
 msgid "_Angle Menu"
@@ -594,7 +595,7 @@ msgstr "Piesa audio nr. %d"
 #: ../src/backend/bacon-video-widget.c:3348
 #, c-format
 msgid "Subtitle #%d"
-msgstr "Subtitlu nr. %d"
+msgstr "Subtitlul nr. %d"
 
 #: ../src/backend/bacon-video-widget.c:3889
 msgid "The server you are trying to connect to is not known."
@@ -652,8 +653,7 @@ msgstr[2] ""
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
-msgstr ""
-"Fluxul nu poate fi redat. Este posibil ca un firewall sa îl blocheaze."
+msgstr "Fluxul nu poate fi redat. Este posibil ca un firewall să îl blocheze."
 
 #: ../src/backend/bacon-video-widget.c:3974
 msgid ""
@@ -669,8 +669,8 @@ msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
 msgstr ""
-"Acest fișier nu a putut fi redat prin intermediul rețelei. Încercați să îl "
-"descărcați local mai întâi."
+"Acest fișier nu a putut fi redat prin intermediul rețelei. Încercați mai "
+"întâi să îl descărcați local."
 
 #: ../src/backend/bacon-video-widget.c:5645 ../src/totem-properties-view.c:238
 msgid "Surround"
@@ -698,7 +698,7 @@ msgstr ""
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:323
 #, c-format
 msgid "_Find in %s"
-msgstr "_Găsește în %s"
+msgstr "_Caută în %s"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:324
 #, c-format
@@ -929,7 +929,7 @@ msgstr ""
 
 #: ../src/totem-gallery-thumbnailer.c:658
 msgid "Filename"
-msgstr "Nume fișier"
+msgstr "Nume de fișier"
 
 #: ../src/totem-gallery-thumbnailer.c:660
 msgid "Resolution"
@@ -942,14 +942,14 @@ msgstr "Durată"
 #: ../src/totem-grilo.c:285
 #, c-format
 msgid "Season %d Episode %d"
-msgstr "Sezonul %d Episodul %d"
+msgstr "Sezonul %d episodul %d"
 
 #. translators: The first item is the show name, for example:
 #. * Boardwalk Empire (Season 1 Episode 1)
 #: ../src/totem-grilo.c:322
 #, c-format
 msgid "%s (Season %d Episode %d)"
-msgstr "%s (Sezonul %d Episodul %d)"
+msgstr "%s (Sezonul %d episodul %d)"
 
 #: ../src/totem-grilo.c:677
 msgid "Browse Error"
@@ -1018,14 +1018,14 @@ msgstr "Caută"
 #. language of a DVD
 #: ../src/totem-menu.c:435
 msgid "None"
-msgstr "Niciuna"
+msgstr "Fără"
 
 #. Translators: an entry in the "Languages" menu, used to choose the audio
 #. language of a DVD
 #: ../src/totem-menu.c:439
 msgctxt "Language"
 msgid "Auto"
-msgstr "Automată"
+msgstr "Automat"
 
 #: ../src/totem-object.c:1389 ../src/totem-options.c:51
 msgid "Pause"
@@ -1034,7 +1034,7 @@ msgstr "Pauză"
 #: ../src/totem-object.c:1394 ../src/totem-object.c:1404
 #: ../src/totem-options.c:50 ../src/totemselectiontoolbar.ui.h:3
 msgid "Play"
-msgstr "Redare"
+msgstr "Redă"
 
 #: ../src/totem-object.c:1471 ../src/totem-object.c:1498
 #: ../src/totem-object.c:1990
@@ -1119,7 +1119,7 @@ msgstr "Sunet oprit"
 
 #: ../src/totem-options.c:59
 msgid "Toggle Fullscreen"
-msgstr "Comută modul pe tot ecranul"
+msgstr "Comută pe tot ecranul"
 
 #: ../src/totem-options.c:60
 msgid "Quit"
@@ -1278,15 +1278,15 @@ msgstr "Croată"
 #: ../src/totem-subtitle-encoding.c:213 ../src/totem-subtitle-encoding.c:215
 #: ../src/totem-subtitle-encoding.c:217 ../src/totem-subtitle-encoding.c:219
 msgid "Cyrillic"
-msgstr "Chilirică"
+msgstr "Chirilică"
 
 #: ../src/totem-subtitle-encoding.c:222
 msgid "Cyrillic/Russian"
-msgstr "Chilirică/Rusă"
+msgstr "Chirilică/Rusă"
 
 #: ../src/totem-subtitle-encoding.c:225 ../src/totem-subtitle-encoding.c:227
 msgid "Cyrillic/Ukrainian"
-msgstr "Chilirică/Ucraineană"
+msgstr "Chirilică/Ucraineană"
 
 #: ../src/totem-subtitle-encoding.c:230
 msgid "Georgian"
@@ -1396,11 +1396,11 @@ msgstr "Fișiere video"
 
 #: ../src/totem-uri.c:346
 msgid "Subtitle files"
-msgstr "Fișiere subtitlu"
+msgstr "Fișiere subtitluri"
 
 #: ../src/totem-uri.c:396
 msgid "Select Text Subtitles"
-msgstr "Selectați textul subtitlurilor"
+msgstr "Selectați subtitlurile text"
 
 #: ../src/totem-uri.c:400
 msgid "_Open"
@@ -1412,19 +1412,19 @@ msgstr "Adaugă videouri"
 
 #: ../src/plugins/apple-trailers/apple-trailers.plugin.in.h:1
 msgid "Apple Trailers"
-msgstr "Reclame Apple"
+msgstr "Promoționale Apple"
 
 #: ../src/plugins/apple-trailers/apple-trailers.plugin.in.h:2
 msgid "Sets the user agent for the Apple Trailers site"
-msgstr "Stabilește agentul utilizatorului pentru situl cu reclame Apple"
+msgstr "Stabilește agentul de utilizator pentru situl cu promoționale Apple"
 
 #: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:1
 msgid "Autoload Subtitles"
-msgstr "Autoîncarcă subtitluri"
+msgstr "Autoîncarcă subtitlurile"
 
 #: ../src/plugins/autoload-subtitles/autoload-subtitles.plugin.in.h:2
 msgid "Autoloads text subtitles"
-msgstr "Încarcă automat subtitluri text"
+msgstr "Încarcă automat subtitlurile text"
 
 #: ../src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.in.h:1
 msgid "Video Disc Recorder"
@@ -1547,7 +1547,7 @@ msgstr ""
 
 #: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:1
 msgid "Subtitle Downloader"
-msgstr "Descărcare subtitluri"
+msgstr "Descărcător de subtitluri"
 
 #: ../src/plugins/opensubtitles/opensubtitles.plugin.in.h:2
 msgid "Look for subtitles for the currently playing movie"
@@ -1559,7 +1559,7 @@ msgstr "Portugheză braziliană"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:182
 msgid "Searching for subtitles…"
-msgstr "Se caută subtitrările…"
+msgstr "Se caută subtitluri…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:230
 #: ../src/plugins/opensubtitles/opensubtitles.py:611
@@ -1597,7 +1597,7 @@ msgstr "Aprecieri"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:528
 msgid "_Download Movie Subtitles…"
-msgstr "_Descarcă subtitluri pentru filme…"
+msgstr "_Descarcă subtitluri pentru film…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:568
 msgid "Searching subtitles…"
@@ -1605,23 +1605,23 @@ msgstr "Se caută subtitlurile…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:1
 msgid "Download Movie Subtitles"
-msgstr "Descarcă subtitlurile pentru filme"
+msgstr "Descarcă subtitluri pentru film"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:2
 msgid "Subtitle _language:"
-msgstr "_Limba subtitlului:"
+msgstr "_Limba subtitlurilor:"
 
 #: ../src/plugins/opensubtitles/opensubtitles.ui.h:3
 msgid "_Play with Subtitle"
-msgstr "_Redă cu subtitlu"
+msgstr "_Redă cu subtitlurile"
 
 #: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.h:1
 msgid "Subtitle language"
-msgstr "Limba subtitlului"
+msgstr "Limba subtitlurilor"
 
 #: ../src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in.h:2
 msgid "The language to search for subtitles for movies in."
-msgstr "Limba în care se vor căuta subtitluri pentru filme."
+msgstr "Limba în care se vor căuta subtitlurile pentru film."
 
 #: ../src/plugins/properties/movie-properties.plugin.in.h:1
 msgid "Movie Properties"
@@ -1648,8 +1648,9 @@ msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
 " remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"O parolă pentru a proteja serverul rpdb2 pentru depanarea Totem de la acces "
-"neautorizat. Dacă câmpul este gol, implicit se va folosi parola „totem”."
+"O parolă pentru a proteja serverul rpdb2 pentru depanarea Totem pentru acces"
+" de la distanță neautorizat. Dacă câmpul este gol, implicit se va folosi "
+"parola „totem”."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1874,7 +1875,7 @@ msgstr "× 0.75"
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
-msgstr "Normal"
+msgstr "Normală"
 
 #: ../src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
@@ -1903,11 +1904,11 @@ msgstr "Viteză: %s"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:1
 msgid "Variable Rate"
-msgstr "Rata Variabilă"
+msgstr "Rată variabliă"
 
 #: ../src/plugins/variable-rate/variable-rate.plugin.in.h:2
 msgid "Provides the variable rate menu item"
-msgstr "Furnizează elementul de meniu pentru rata variabilă"
+msgstr "Oferă meniul pentru rata variabilă"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:1
 msgid "Vimeo"
@@ -1915,4 +1916,4 @@ msgstr "Vimeo"
 
 #: ../src/plugins/vimeo/vimeo.plugin.in.h:2
 msgid "Sets the user agent for the Vimeo site"
-msgstr "Stabilește agentul utilizatorului pentru situl Vimeo"
+msgstr "Stabilește agentul de utilizator pentru situl Vimeo"

@@ -536,23 +536,23 @@ msgstr "S_ubtitel"
 
 #: ../data/totem.ui.h:17
 msgid "_Select Text Subtitles…"
-msgstr "_Pilih Teks Subtitel…"
+msgstr "Pilih Teks _Subtitel…"
 
 #: ../data/totem.ui.h:18
 msgid "_Eject"
-msgstr "_Keluarkan"
+msgstr "K_eluarkan"
 
 #: ../data/totem.ui.h:19
 msgid "_Repeat"
-msgstr "_Berulang"
+msgstr "Be_rulang"
 
 #: ../data/totem.ui.h:20
 msgid "_DVD Menu"
-msgstr "_Menu DVD"
+msgstr "Menu _DVD"
 
 #: ../data/totem.ui.h:21
 msgid "_Title Menu"
-msgstr "_Menu Judul"
+msgstr "Menu _Judul"
 
 #: ../data/totem.ui.h:22
 msgid "A_udio Menu"
@@ -560,11 +560,11 @@ msgstr "Menu A_udio"
 
 #: ../data/totem.ui.h:23
 msgid "_Angle Menu"
-msgstr "_Menu Sudut Kamera"
+msgstr "Menu S_udut Kamera"
 
 #: ../data/totem.ui.h:24
 msgid "_Chapter Menu"
-msgstr "_Menu Bab"
+msgstr "Menu _Bab"
 
 #: ../data/totem.ui.h:25
 msgid "Speed"
@@ -1427,7 +1427,7 @@ msgstr "Tak dapat menulis proyek."
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:394
 msgid "_Create Video Disc…"
-msgstr "_Buat Diska Video…"
+msgstr "Buat _Diska Video…"
 
 #: ../src/plugins/brasero-disc-recorder/totem-disc-recorder.c:395
 msgid "Copy Vide_o DVD…"
@@ -1569,7 +1569,7 @@ msgstr "Rating"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:528
 msgid "_Download Movie Subtitles…"
-msgstr "_Unduh Subtitel Film…"
+msgstr "Un_duh Subtitel Film…"
 
 #: ../src/plugins/opensubtitles/opensubtitles.py:568
 msgid "Searching subtitles…"

@@ -81,26 +81,29 @@ msgstr "Tekenset voor de ondertiteling"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:15
 msgid "Default location for the “Open…” dialogs"
-msgstr ""
+msgstr "Standaardlocatie voor de ‘Open…’-vensters"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:16
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
+"Standaardlocatie voor de ‘Open…’-vensters. Standaard is dit de huidige map."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:17
 msgid "Default location for the “Take Screenshot” dialogs"
-msgstr ""
+msgstr "Standaardlocatie voor de ‘Schermafdruk maken’-vensters"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:18
 msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
 msgstr ""
+"Standaardlocatie voor de ‘Schermafdruk maken’-vensters. Standaard is dit de "
+"afbeeldingenmap."
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:19
 msgid "Whether to disable the plugins in the user’s home directory"
-msgstr ""
+msgstr "Of de plug-ins in de persoonlijke map uitgezet moeten worden"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:20
 msgid "Whether to disable the keyboard shortcuts"
@@ -195,7 +198,7 @@ msgstr "Plug-ins"
 
 #: ../data/preferences.ui.h:15
 msgid "Plugins…"
-msgstr ""
+msgstr "Plug-ins…"
 
 #: ../data/preferences.ui.h:16 ../data/properties.ui.h:1
 msgid "General"
@@ -312,17 +315,17 @@ msgstr "Algemeen"
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr ""
+msgstr "Eigenschappen"
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Make Available Offline"
-msgstr ""
+msgstr "Offline beschikbaar maken"
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr ""
+msgstr "Schermafdruk maken"
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
@@ -372,12 +375,12 @@ msgstr "Inzoomen"
 #: ../data/shortcuts.ui.h:14
 msgctxt "shortcut window"
 msgid "Rotate ↷"
-msgstr ""
+msgstr "Draaien ↷"
 
 #: ../data/shortcuts.ui.h:15
 msgctxt "shortcut window"
 msgid "Rotate ↶"
-msgstr ""
+msgstr "Draaien ↶"
 
 #: ../data/shortcuts.ui.h:16
 msgctxt "shortcut window"
@@ -646,6 +649,8 @@ msgstr[1] ""
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
+"Deze stream kan niet worden afgespeeld, het is mogelijk dat een firewall "
+"deze blokkeert."
 
 #: ../src/backend/bacon-video-widget.c:3974
 msgid ""
@@ -956,7 +961,7 @@ msgstr "Kanalen"
 #: ../src/totem-interface.c:179 ../src/totem-interface.c:222
 #, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr ""
+msgstr "Kon de interface ‘%s’ niet laden. %s"
 
 #: ../src/totem-interface.c:179
 msgid "The file does not exist."
@@ -1025,7 +1030,7 @@ msgstr "Afspelen"
 #: ../src/totem-object.c:1990
 #, c-format
 msgid "Totem could not play “%s”."
-msgstr ""
+msgstr "Totem kan ‘%s’ niet afspelen."
 
 #: ../src/totem-object.c:2161
 msgid "Totem could not display the help contents."
@@ -1128,7 +1133,7 @@ msgstr "Films om af te spelen."
 
 #: ../src/totem-options.c:100
 msgid "Can’t enqueue and replace at the same time"
-msgstr ""
+msgstr "Kan niet tegelijk in de wachtrij zetten en overschrijven"
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1141,6 +1146,7 @@ msgstr "Titel %d"
 #, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
 msgstr ""
+"De speellijst ‘%s’ kan niet gelezen worden. Mogelijk is deze beschadigd."
 
 #: ../src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1181,7 +1187,7 @@ msgstr "%d kbps"
 #: ../src/plugins/properties/totem-movie-properties.c:151
 #, c-format
 msgid "%d × %d"
-msgstr ""
+msgstr "%d × %d"
 
 #: ../src/totem-properties-view.c:222
 #: ../src/plugins/properties/totem-movie-properties.c:168
@@ -1505,11 +1511,11 @@ msgstr "Ondersteuning voor infrarood afstandsbediening"
 
 #: ../src/plugins/lirc/totem-lirc.c:239
 msgid "Couldn’t initialize lirc."
-msgstr ""
+msgstr "Kon lirc niet initialiseren."
 
 #: ../src/plugins/lirc/totem-lirc.c:251
 msgid "Couldn’t read lirc configuration."
-msgstr ""
+msgstr "Kon de configuratie van lirc niet lezen."
 
 #: ../src/plugins/media-player-keys/media-player-keys.plugin.in.h:1
 msgid "Media Player Keys"
@@ -1630,6 +1636,8 @@ msgid ""
 "A password to protect the rpdb2 server for debugging Totem from unauthorized"
 " remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
+"Een wachtwoord om de rpdb2-server om het op afstand debuggen van Totem te "
+"beveiligen. Indien leeggelaten wordt de standaardwaarde ‘totem’ gebruikt."
 
 #: ../src/plugins/pythonconsole/pythonconsole.plugin.in.h:1
 msgid "Python Console"
@@ -1651,7 +1659,7 @@ msgstr "Python-debugger"
 #: ../src/plugins/pythonconsole/pythonconsole.py:97
 #, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr ""
+msgstr "U kunt het Totem.Object benaderen via ‘totem_object’ :\\n%s"
 
 #: ../src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1664,6 +1672,9 @@ msgid ""
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
+"Nadat u op OK drukt zal Totem wachten totdat u verbinding maakt met winpdb "
+"of rpdb2. Als u geen debugger-wachtwoord in GConf heeft ingesteld, zal het "
+"standaardwachtwoord ‘totem’ gebruikt worden."
 
 #: ../src/plugins/recent/recent.plugin.in.h:1
 msgid "Recent files"
@@ -1780,7 +1791,7 @@ msgstr "Galerij wordt aangemaakt…"
 #: ../src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
 msgid "Saving gallery as “%s”"
-msgstr ""
+msgstr "Galerij opslaan als ‘%s’"
 
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: ../src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1807,7 +1818,7 @@ msgstr "Doorspoelen naar"
 
 #: ../src/plugins/skipto/skipto.plugin.in.h:2
 msgid "Provides the “Skip to” dialog"
-msgstr ""
+msgstr "Biedt de ‘Doorspoelen naar’-dialoog"
 
 #: ../src/plugins/skipto/skipto.ui.h:1
 msgid "_Skip to:"
