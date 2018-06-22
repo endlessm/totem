@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kn\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -640,6 +640,10 @@ msgstr[0] ""
 "ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
 "\n"
 "%s"
+msgstr[1] ""
+"ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
+"\n"
+"%s"
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
@@ -696,6 +700,7 @@ msgstr ""
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -828,18 +833,21 @@ msgstr "0 ಮಾರ್ಗಗಳು"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ಗಂಟೆ"
+msgstr[1] "%d ಗಂಟೆ"
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d ನಿಮಿಷ"
+msgstr[1] "%d ನಿಮಿಷ"
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d ಸೆಕೆಂಡ್‍"
+msgstr[1] "%d ಸೆಕೆಂಡ್‍"
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -865,6 +873,7 @@ msgstr "0 ಸೆಕೆಂಡುಗಳು"
 msgid "%d frame per second"
 msgid_plural "%d frames per second"
 msgstr[0] "ಪ್ರತಿ ಸೆಕೆಂಡಿನಲ್ಲಿನ %d ಚೌಕಟ್ಟು"
+msgstr[1] "ಪ್ರತಿ ಸೆಕೆಂಡಿನಲ್ಲಿನ %d ಚೌಕಟ್ಟು"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -967,6 +976,7 @@ msgstr "ಅಂಶಗಳನ್ನು ಆರಿಸಲು ಅವುಗಳ ಮೇಲ
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d ಆರಿಸಲಾಗಿದೆ"
+msgstr[1] "%d ಆರಿಸಲಾಗಿದೆ"
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
@@ -1812,6 +1822,7 @@ msgstr "ಇಲ್ಲಿಗೆ ನೆಗೆ (_S):"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "ಸೆಕೆಂಡು"
+msgstr[1] "ಸೆಕೆಂಡು"
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value

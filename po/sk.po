@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -656,6 +656,10 @@ msgstr[2] ""
 "Prehrávanie tohto filmu vyžaduje nasledujúce zásuvné moduly, ktoré nie sú nainštalované:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Prehrávanie tohto filmu vyžaduje nasledujúce zásuvné moduly, ktoré nie sú nainštalované:\n"
+"\n"
+"%s"
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
@@ -713,6 +717,8 @@ msgstr[0] ""
 msgstr[1] ""
 "Zásuvný modul %s je potrebný na prehranie súboru, ale nie je nainštalovaný."
 msgstr[2] ""
+"Zásuvné moduly %s sú potrebné na prehranie súboru, ale nie sú nainštalované."
+msgstr[3] ""
 "Zásuvné moduly %s sú potrebné na prehranie súboru, ale nie sú nainštalované."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
@@ -848,6 +854,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d hodín"
 msgstr[1] "%d hodina"
 msgstr[2] "%d hodiny"
+msgstr[3] "%d hodiny"
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -856,6 +863,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minút"
 msgstr[1] "%d minúta"
 msgstr[2] "%d minúty"
+msgstr[3] "%d minúty"
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -864,6 +872,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekúnd"
 msgstr[1] "%d sekunda"
 msgstr[2] "%d sekundy"
+msgstr[3] "%d sekundy"
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -891,6 +900,7 @@ msgid_plural "%d frames per second"
 msgstr[0] "%d snímok za sekundu"
 msgstr[1] "%d snímka za sekundu"
 msgstr[2] "%d snímky za sekundu"
+msgstr[3] "%d snímky za sekundu"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -995,6 +1005,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d vybratých"
 msgstr[1] "%d vybratý"
 msgstr[2] "%d vybraté"
+msgstr[3] "%d vybraté"
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
@@ -1845,6 +1856,7 @@ msgid_plural "seconds"
 msgstr[0] "sekundu"
 msgstr[1] "sekundu"
 msgstr[2] "sekundu"
+msgstr[3] "sekundu"
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value

@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fa\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -639,6 +639,10 @@ msgstr[0] ""
 "پخش این فیلم نیازمند افزونه‌های مقابل است که نصب نشده‌اند:\n"
 "\n"
 "%s"
+msgstr[1] ""
+"پخش این فیلم نیازمند افزونه‌های مقابل است که نصب نشده‌اند:\n"
+"\n"
+"%s"
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
@@ -693,6 +697,7 @@ msgstr "_جست‌وجو در %s"
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "برای اجرای پرونده %s لازم است، اما نصب نشده است."
+msgstr[1] "برای اجرای پرونده %s لازم است، اما نصب نشده است."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -825,18 +830,21 @@ msgstr "۰ کانال"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%Id ساعت"
+msgstr[1] "%Id ساعت"
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%Id دقیقه"
+msgstr[1] "%Id دقیقه"
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%Id ثانیه"
+msgstr[1] "%Id ثانیه"
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -862,6 +870,7 @@ msgstr "۰ ثانیه"
 msgid "%d frame per second"
 msgid_plural "%d frames per second"
 msgstr[0] "%Id فریم بر ثانیه"
+msgstr[1] "%Id فریم بر ثانیه"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -964,6 +973,7 @@ msgstr "بر روی موارد کلیک کنید تا انتخاب شوند"
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%Id مورد انتخاب شد"
+msgstr[1] "%Id مورد انتخاب شد"
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
@@ -1804,6 +1814,7 @@ msgstr "_پرش به:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "ثانیه"
+msgstr[1] "ثانیه"
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value

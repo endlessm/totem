@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -641,6 +641,10 @@ msgstr[2] ""
 "Šiam filmui rodyti reikia šių įskiepių, kurie nėra įdiegti:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Šiam filmui rodyti reikia šių įskiepių, kurie nėra įdiegti:\n"
+"\n"
+"%s"
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
@@ -698,6 +702,7 @@ msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "Failui groti reikalingas %s, bet jis neįdiegtas."
 msgstr[1] "Failui groti reikalingi %s, bet jie neįdiegti."
 msgstr[2] "Failui groti reikalingi %s, bet jie neįdiegti."
+msgstr[3] "Failui groti reikalingi %s, bet jie neįdiegti."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -832,6 +837,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d valanda"
 msgstr[1] "%d valandos"
 msgstr[2] "%d valandų"
+msgstr[3] "%d valandų"
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -840,6 +846,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minutė"
 msgstr[1] "%d minutės"
 msgstr[2] "%d minučių"
+msgstr[3] "%d minučių"
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -848,6 +855,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekundė"
 msgstr[1] "%d sekundės"
 msgstr[2] "%d sekundžių"
+msgstr[3] "%d sekundžių"
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -875,6 +883,7 @@ msgid_plural "%d frames per second"
 msgstr[0] "%d kadras per sekundę"
 msgstr[1] "%d kadrai per sekundę"
 msgstr[2] "%d kadrų per sekundę"
+msgstr[3] "%d kadrų per sekundę"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -980,6 +989,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d pasirinktas"
 msgstr[1] "%d pasirinkti"
 msgstr[2] "%d pasirinktų"
+msgstr[3] "%d pasirinktų"
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
@@ -1830,6 +1840,7 @@ msgid_plural "seconds"
 msgstr[0] "sekundė"
 msgstr[1] "sekundės"
 msgstr[2] "sekundžių"
+msgstr[3] "sekundžių"
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value

@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: yo\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -628,7 +628,6 @@ msgid_plural ""
 "\n"
 "%s"
 msgstr[0] ""
-msgstr[1] ""
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
@@ -678,7 +677,6 @@ msgstr ""
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] ""
-msgstr[1] ""
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -811,21 +809,18 @@ msgstr ""
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] ""
-msgstr[1] ""
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] ""
-msgstr[1] ""
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -851,7 +846,6 @@ msgstr ""
 msgid "%d frame per second"
 msgid_plural "%d frames per second"
 msgstr[0] ""
-msgstr[1] ""
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -951,7 +945,6 @@ msgstr ""
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] ""
-msgstr[1] ""
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
@@ -1790,7 +1783,6 @@ msgstr ""
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] ""
-msgstr[1] ""
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value

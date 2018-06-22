@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -638,6 +638,10 @@ msgstr[0] ""
 "Бұл фильмді ойнату үшін келесі плагин(дер) керек:\n"
 "\n"
 "%s"
+msgstr[1] ""
+"Бұл фильмді ойнату үшін келесі плагин(дер) керек:\n"
+"\n"
+"%s"
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
@@ -688,6 +692,7 @@ msgstr "%s ішінен _табу"
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "Файлды ойнату үшін %s керек, бірақ, орнатылмаған."
+msgstr[1] "Файлды ойнату үшін %s керек, бірақ, орнатылмаған."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
@@ -820,18 +825,21 @@ msgstr "0 арна"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d сағат"
+msgstr[1] "%d сағат"
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d минут"
+msgstr[1] "%d минут"
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунд"
+msgstr[1] "%d секунд"
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -857,6 +865,7 @@ msgstr "0 секунд"
 msgid "%d frame per second"
 msgid_plural "%d frames per second"
 msgstr[0] "Секундына %d кадр"
+msgstr[1] "Секундына %d кадр"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -959,6 +968,7 @@ msgstr "Бірнәрсені таңдау үшін оның үстіне шер�
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d таңдалды"
+msgstr[1] "%d таңдалды"
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
@@ -1799,6 +1809,7 @@ msgstr "Дейін а_ттау:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунд"
+msgstr[1] "секунд"
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value

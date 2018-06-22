@@ -10,13 +10,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>, 2016\n"
+"Last-Translator: Vendula Durakova, 2018\n"
 "Language-Team: Czech (https://www.transifex.com/endless-os/teams/9016/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../data/org.gnome.totem.gschema.xml.in.h:1
 msgid "The brightness of the video"
@@ -649,6 +649,10 @@ msgstr[2] ""
 "Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které nejsou nainstalovány:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které nejsou nainstalovány:\n"
+"\n"
+"%s"
 
 #: ../src/backend/bacon-video-widget.c:3971
 msgid ""
@@ -711,26 +715,33 @@ msgstr[1] ""
 msgstr[2] ""
 "K přehrání souboru jsou zapotřebí zásuvné moduly %s, ale ty nejsou "
 "nainstalovány."
+msgstr[3] ""
+"K přehrání souboru jsou zapotřebí zásuvné moduly %s, ale ty nejsou "
+"nainstalovány."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:336
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Tento typ souboru momentálně není podporován. Můžete však použít přehrávač "
+"médií VLC."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:339
 msgid "Open with VLC"
-msgstr ""
+msgstr "Otevřít ve VLC"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:346
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Tento typ souboru momentálně není podporován. Můžete však použít přehrávač "
+"médií VLC z Centra aplikací."
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:349
 msgid "Get VLC"
-msgstr ""
+msgstr "Stáhnout VLC"
 
 #: ../src/backend/bacon-video-widget-gst-missing-plugins.c:408
 msgid "Unable to play the file"
@@ -845,6 +856,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d hodina"
 msgstr[1] "%d hodiny"
 msgstr[2] "%d hodin"
+msgstr[3] "%d hodin"
 
 #: ../src/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -853,6 +865,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minuta"
 msgstr[1] "%d minuty"
 msgstr[2] "%d minut"
+msgstr[3] "%d minut"
 
 #: ../src/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -861,6 +874,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekunda"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekund"
+msgstr[3] "%d sekund"
 
 #. 5 hours 2 minutes 12 seconds
 #: ../src/properties/bacon-video-widget-properties.c:166
@@ -888,6 +902,7 @@ msgid_plural "%d frames per second"
 msgstr[0] "%d snímek za sekundu"
 msgstr[1] "%d snímky za sekundu"
 msgstr[2] "%d snímků za sekundu"
+msgstr[3] "%d snímků za sekundu"
 
 #: ../src/grilo.ui.h:1
 msgid "Select All"
@@ -992,6 +1007,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d vybraná"
 msgstr[1] "%d vybrané"
 msgstr[2] "%d vybraných"
+msgstr[3] "%d vybraných"
 
 #: ../src/totem-main-toolbar.c:157
 #, c-format
@@ -1841,6 +1857,7 @@ msgid_plural "seconds"
 msgstr[0] "sekundu"
 msgstr[1] "sekundy"
 msgstr[2] "sekund"
+msgstr[3] "sekund"
 
 #. Fix the label width at the maximum necessary for the plural labels, to
 #. prevent it changing size when we change the spinner value
