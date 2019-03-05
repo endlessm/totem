@@ -1,3 +1,97 @@
+totem (3.31.91-1) experimental; urgency=medium
+
+  * New upstream development release
+  * Drop totem-plugin-gromit and totem-plugin-zeitgeist: No longer provided
+  * debian/totem-plugins.install: ontop plugin is no longer provided
+  * debian/totem.install: Nautilus 3.32 now handles showing audio/video
+    properties itself
+  * Bump minimum meson to 0.46.0
+  * Drop obsolete Build-Depends:
+    - intltool, libnautilus-extension-dev, libx11-dev, libxrandr-dev,
+      libxxf86vm-dev, valac, x11proto-core-dev
+  * Use xvfb for build tests
+  * Drop obsolete make-gromit-and-zeitgeist-plugins-builtin.patch
+
+ -- Jeremy Bicha <jbicha@debian.org>  Thu, 21 Feb 2019 10:57:52 -0500
+
+totem (3.30.0-4) unstable; urgency=medium
+
+  * Make sure that totem-plugin-gromit Breaks/Replaces older totem-plugins
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sun, 20 Jan 2019 09:43:11 -0500
+
+totem (3.30.0-3) unstable; urgency=medium
+
+  * Split gromit and zeitgeist plugins to separate packages
+    so they are available but not included in the default install
+  * Add make-gromit-and-zeitgeist-plugins-builtin.patch:
+    - Activate gromit and zeitgeist plugins by default if installed
+
+ -- Jeremy Bicha <jbicha@debian.org>  Fri, 18 Jan 2019 16:03:00 -0500
+
+totem (3.30.0-2) unstable; urgency=medium
+
+  * debian/control.in: Demote zeitgeist-core to Suggests
+  * debian/control.in: Bump Standards-Version to 4.3.0 (no further changes)
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 12 Jan 2019 13:34:29 +0100
+
+totem (3.30.0-1) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * New upstream release
+    - Fix gallery plugin (LP: #1798399)
+  * Restore -Wl,-O1 to our extra LDFLAGS
+  * Add apport hook from Ubuntu
+  * Suggest instead of recommend universe gstreamer packages on Ubuntu
+  * Depend on grilo-plugins-0.3-base on Ubuntu instead of full grilo-plugins
+  * Drop unnecessary Recommends: gnome-settings-daemon
+
+  [ Andrea Azzarone ]
+  * debian/control.in:
+    - Drop dependency on libxtst-dev since the screensaver inhibition code
+      using it is no longer upstream
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 05 Jan 2019 12:27:34 -0500
+
+totem (3.26.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/rules:
+    - Set Rules-Requires-Root to no
+    - Bump Standards-Version to 4.2.0
+
+ -- Andrea Azzarone <andrea.azzarone@canonical.com>  Thu, 23 Aug 2018 10:07:00 +0200
+
+totem (3.26.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jeremy Bicha ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Build-Depend on debhelper >= 11.1.3 to automatically build with the
+    C.UTF-8 locale
+  * Don't link with -Wl,-O1
+  * Do link with -Wl,-z,defs
+  * Update Build-Depends for meson build
+
+  [ Simon McVittie ]
+  * New upstream release
+    - Bump meson build-dependency to 0.43.0
+  * Drop patches
+    - d/p/fix-build-with-gtk-doc-126.patch: Applied upstream
+    - d/p/fix-vala-build.patch: Rejected upstream and no longer applies
+  * Build Totem-1.0.gir first to work around #874027; see
+    https://bugzilla.gnome.org/show_bug.cgi?id=786248 and
+    https://github.com/mesonbuild/meson/issues/1994
+  * d/p/debian/Don-t-run-pylint-at-build-time.patch:
+    Don't run pylint at build time. It's too fragile and requires an
+    X11 or equivalent display.
+    - d/control: Drop pylint build-dependency
+  * Bump Standards-Version to 4.1.4 (no changes)
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 02 Jul 2018 18:44:29 +0100
+
 totem (3.26.0-3) unstable; urgency=medium
 
   [ Jeremy Bicha ]
@@ -454,7 +548,7 @@ totem (3.4.2-1) experimental; urgency=low
     coming back.
 
   [ Josselin Mouette ]
-  * 02_revert_clutter.patch: un-clutter totem. Revert to the good old 
+  * 02_revert_clutter.patch: un-clutter totem. Revert to the good old
     XVideo code. It is less elegant, but works on many more systems.
   * Update build-dependencies accordingly.
   * Use dh-autoreconf.
@@ -537,7 +631,7 @@ totem (3.0.1-6) unstable; urgency=low
   * Remove coherence plugin leftovers. This plugin is gone for good.
 
   [ Josselin Mouette ]
-  * 03_gdata_0.9.patch: stolen from upstream git. Port totem to libgdata 
+  * 03_gdata_0.9.patch: stolen from upstream git. Port totem to libgdata
     0.9.
 
  -- Josselin Mouette <joss@debian.org>  Fri, 16 Dec 2011 21:34:28 +0100
@@ -568,7 +662,7 @@ totem (3.0.1-4) unstable; urgency=low
 totem (3.0.1-3) unstable; urgency=low
 
   [ Josselin Mouette ]
-  * Drop useless gst-alsa | gst-audiosink dependency; recommend 
+  * Drop useless gst-alsa | gst-audiosink dependency; recommend
     gst-pulseaudio instead.
 
   [ Michael Biebl ]
@@ -746,7 +840,7 @@ totem (2.30.2-3) unstable; urgency=low
   * Really ship the UPnP plugin in totem-coherence.
 
   [ Josselin Mouette ]
-  * 82_youtube_api.patch: patch from upstream git to fix youtube plugin, 
+  * 82_youtube_api.patch: patch from upstream git to fix youtube plugin,
     since the youtube API has changed *again* (sigh).
   * Switch to 3.0 source package format.
 
@@ -858,7 +952,7 @@ totem (2.29.4-1) experimental; urgency=low
 totem (2.28.5-2) unstable; urgency=low
 
   [ Josselin Mouette ]
-  * totem-mozilla.links: removed. We don’t need iceweasel-specific 
+  * totem-mozilla.links: removed. We don’t need iceweasel-specific
     links, it is able to use the files in /usr/lib/mozilla/plugins.
     Closes: #569891.
   * Require totem-common = ${source:Version}. Closes: #571164.
@@ -895,7 +989,7 @@ totem (2.28.4-1) unstable; urgency=low
       - Regenerated.
 
   [ Josselin Mouette ]
-  * Let the transitional totem-xine package depend on gst-plugins-bad 
+  * Let the transitional totem-xine package depend on gst-plugins-bad
     and -ugly. Closes: #559558.
 
  -- Sebastian Dröge <slomo@debian.org>  Tue, 08 Dec 2009 15:50:19 +0100
@@ -1068,7 +1162,7 @@ totem (2.27.1-2) experimental; urgency=low
         to clarify that totem uses GIO nowadays.
 
   [ Josselin Mouette ]
-  * Remove gstreamer0.10-gnomevfs from the dependencies and bump 
+  * Remove gstreamer0.10-gnomevfs from the dependencies and bump
     requirement on -good to a version with a working soup plugin.
     Closes: #530663.
 
@@ -1130,19 +1224,19 @@ totem (2.26.1-1) experimental; urgency=low
 
 totem (2.24.3-3) unstable; urgency=low
 
-  * totem-mozilla.docs: ship README.browser-plugin which explains how to 
+  * totem-mozilla.docs: ship README.browser-plugin which explains how to
     disable the plugin for some MIME types.
-  * rules: remove the hack that only let totem-xine support VCDs and 
+  * rules: remove the hack that only let totem-xine support VCDs and
     DVDs, now that GStreamer supports them. Closes: #370789.
-  * 01_fake_keypresses.patch: new patch. Completely disable the broken 
+  * 01_fake_keypresses.patch: new patch. Completely disable the broken
     XTEST code that generates fake keypresses. Closes: #500330.
   * 90_autotools.patch: regenerated.
-  * Build-depend on nautilus 2.22 to be sure to build the extension for 
+  * Build-depend on nautilus 2.22 to be sure to build the extension for
     the correct version.
   * totem-xine depends on libxine1-x.
   * Standards version is 3.8.1.
   * Upload to unstable.
-  * 04_tracker_build.patch: new patch, stolen upstream. Fix build with 
+  * 04_tracker_build.patch: new patch, stolen upstream. Fix build with
     latest tracker version.
 
  -- Josselin Mouette <joss@debian.org>  Tue, 07 Apr 2009 15:21:00 +0200
@@ -1181,7 +1275,7 @@ totem (2.24.3-1) experimental; urgency=low
     default.
 
   [ Josselin Mouette ]
-  * 03_disable_debug.patch: new patch. Drop debugging output in the 
+  * 03_disable_debug.patch: new patch. Drop debugging output in the
     browser plugin. Closes: #507491.
 
   [ Sjoerd Simons ]
@@ -1198,10 +1292,10 @@ totem (2.24.3-1) experimental; urgency=low
 totem (2.22.2-5) unstable; urgency=low
 
   * Don’t build-depend on libbluetooth-dev on kfreebsd. Closes: #499384.
-  * Remove the conditional build-dep on hal, which now builds on the 
+  * Remove the conditional build-dep on hal, which now builds on the
     said systems.
-  * 30_fix_youtube_plugin.patch: update youtube plugin to the version in 
-    GNOME 2.24 to match the changes on the server side, excluding 
+  * 30_fix_youtube_plugin.patch: update youtube plugin to the version in
+    GNOME 2.24 to match the changes on the server side, excluding
     changes in the C code. Closes: #503363.
 
  -- Josselin Mouette <joss@debian.org>  Sat, 25 Oct 2008 12:55:59 +0200
@@ -1219,7 +1313,7 @@ totem (2.22.2-4) unstable; urgency=low
     installation.
 
   [ Josselin Mouette ]
-  * 02_flv.patch: the canonical MIME type for Flash videos is 
+  * 02_flv.patch: the canonical MIME type for Flash videos is
     video/x-flv, not video/flv. Closes: #486468.
 
   [ Sjoerd Simons ]
@@ -1252,13 +1346,13 @@ totem (2.22.2-2) unstable; urgency=low
 
   [ Josselin Mouette ]
   * Build-depend on iceape-dev 1.1.9-5.
-  * Use the iceape gecko variant. This way it should work with both 
+  * Use the iceape gecko variant. This way it should work with both
     gecko 1.8 and 1.9. Closes: #479344, #480809.
   * 01_gecko_iceape.patch: support iceape as a valid gecko variant.
   * 70_autoconf.patch: re-run autoconf on top of that.
   * Require debhelper 5.0.51 for dh_icons.
-  * Build-depend on python-support; call dh_pysupport; depend on 
-    ${python:Depends}. Adds correct dependencies for the python scripts 
+  * Build-depend on python-support; call dh_pysupport; depend on
+    ${python:Depends}. Adds correct dependencies for the python scripts
     in totem-{gstreamer,xine} and the module in totem-plugins.
 
  -- Josselin Mouette <joss@debian.org>  Mon, 12 May 2008 15:04:36 +0200
@@ -2449,5 +2543,3 @@ totem (0.9.1-1) unstable; urgency=low
   * Initial Release.
 
  -- Sebastien Bacher <seb128@debian.org>  Sat, 24 Aug 2002 15:12:51 +0200
-
-

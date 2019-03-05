@@ -1,21 +1,12 @@
 #!/usr/bin/make -f
-#-*- makefile -*-
-
-# https://lists.debian.org/debian-devel/2017/09/msg00006.html
-# https://github.com/mesonbuild/meson/issues/2268
-export LC_ALL=C.UTF-8
-
-export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,--as-needed
-export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-
-include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
+include /usr/share/dpkg/pkg-info.mk
 include /usr/share/gnome-pkg-tools/1/rules/gnome-version.mk
 
-%:
-	dh $@ --with gnome,gir,eoscontent --buildsystem=meson
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-O1 -Wl,-z,defs -Wl,--as-needed
 
-override_dh_autoreconf:
-	dh_autoreconf --as-needed
+%:
+	dh $@ --with gnome,gir
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
@@ -25,6 +16,13 @@ override_dh_auto_configure:
 		-Denable-nautilus=yes \
 		-Denable-python=yes \
 		-Denable-vala=yes
+
+override_dh_auto_build:
+	dh_auto_build -- src/Totem-1.0.gir
+	dh_auto_build
+
+override_dh_auto_test:
+	xvfb-run -a dh_auto_test
 
 override_dh_strip:
 	dh_strip --dbgsym-migration='totem-dbg (<< 3.20.1-1~)'
@@ -42,9 +40,21 @@ override_dh_python3:
 	dh_python3 --remaining-packages
 
 override_dh_install:
-	find debian \( -name '*.a' -o -name '*.la' \) -delete
 	rm -rf debian/tmp/usr/lib/*/totem/plugins/*/__pycache__
 	dh_install
 
 override_dh_missing:
 	dh_missing --fail-missing
+
+# Some gstreamer packages are in Ubuntu universe so only suggest them there
+# Similarly, Ubuntu has a minified version of grilo-plugins
+override_dh_gencontrol:
+ifneq ($(shell dpkg-vendor --query vendor),Ubuntu)
+	dh_gencontrol -- \
+		-Vgst:Recommends="gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-plugins-ugly" \
+		-Vgrilo:Depends="grilo-plugins-0.3"
+else
+	dh_gencontrol -- \
+		-Vgst:Suggests="gstreamer1.0-plugins-bad, gstreamer1.0-libav, gstreamer1.0-plugins-ugly" \
+		-Vgrilo:Depends="grilo-plugins-0.3-base"
+endif
