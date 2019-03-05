@@ -1,0 +1,23 @@
+From: Simon McVittie <smcv@debian.org>
+Date: Mon, 2 Jul 2018 18:41:57 +0100
+Subject: Don't run pylint at build time
+
+It's too fragile.
+
+Forwarded: no, Debian-specific
+---
+ src/plugins/samplepython/meson.build | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/src/plugins/samplepython/meson.build b/src/plugins/samplepython/meson.build
+index e89e038..bada009 100644
+--- a/src/plugins/samplepython/meson.build
++++ b/src/plugins/samplepython/meson.build
+@@ -21,7 +21,3 @@ custom_target(
+   install: plugin_install,
+   install_dir: plugin_dir
+ )
+-
+-if pylint.found()
+-  test('pylint-' + plugin_name, pylint, args: pylint_flags + files([ plugin_name + '.py' ]))
+-endif

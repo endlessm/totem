@@ -1,3 +1,4 @@
+debian/source_totem.py usr/share/apport/package-hooks
 usr/share/GConf
 usr/share/glib-2.0
 usr/share/gtk-doc
