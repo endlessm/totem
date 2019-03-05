@@ -43,6 +43,7 @@
 #include <gdk/gdkkeysyms.h>
 #include <gio/gio.h>
 #include <libgd/gd.h>
+#include <stdlib.h>
 
 #include <string.h>
 
