@@ -21,7 +21,3 @@ custom_target(
   install: plugin_install,
   install_dir: plugin_dir
 )
-
-if pylint.found()
-  test('pylint-' + plugin_name, pylint, args: pylint_flags + files([ plugin_name + '.py' ]))
-endif
