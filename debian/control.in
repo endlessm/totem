@@ -7,6 +7,7 @@ Build-Depends: appstream-util,
                debhelper (>= 11.1.3),
                dh-python,
                dpkg-dev (>= 1.16.1),
+               eos-shell-content-dev,
                gnome-pkg-tools (>= 0.10),
                gobject-introspection (>= 0.9.12-4~),
                gsettings-desktop-schemas-dev,
@@ -63,6 +64,8 @@ Description: Main library for the Totem media player
 
 Package: totem
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Totem
+XSB-Eos-Core-App: yes
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          ${grilo:Depends},
