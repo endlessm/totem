@@ -1,40 +1,31 @@
-# Czech translation of totem.
-# Copyright (C) 2002, 2008 the author(s) of totem.
-# Copyright (C) 2003, 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
-# Copyright (C) 2006 Lukas Novotny <lukasnov@cvs.gnome.org>.
-# Copyright (C) 2009 Martin Picek <picek.martin@gnome-cesko.cz>.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the totem package.
-#
-# Michal Bukovjan <bukm@centrum.cz>, 2002, 2003.
-# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
-# Petr Tomeš <ptomes@gmail.com>, 2006.
-# Lukas Novotny <lukasnov@cvs.gnome.org>, 2006.
-# Jakub Friedl <jfriedl@suse.cz>, 2006, 2007.
-# Kamil Páral <ripper42@gmail.com>, 2008.
-# Petr Kovar <pknbe@volny.cz>, 2008.
-# Pavel Šefránek <ps@pjoul.cz>, 2008.
-# Martin Picek <picek.martin@gnome-cesko.cz>, 2009.
-# Lucas Lommer <llommer@svn.gnome.org>, 2009. (just fixes)
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
+# Vendula Durakova, 2018
+# Will Thompson <wjt@endlessm.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
-"POT-Creation-Date: 2019-02-26 18:03+0000\n"
-"PO-Revision-Date: 2019-02-28 10:47+0100\n"
-"Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
-"Language: cs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
+"Language-Team: Czech (https://www.transifex.com/endless-os/teams/9016/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
-#: src/totem-grilo.c:1898 src/totem-object.c:3726
+#: src/totem-grilo.c:1901 src/totem-object.c:3729
 msgid "Videos"
 msgstr "Videa"
 
@@ -47,8 +38,8 @@ msgstr "Přehrávání filmů"
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
 "Aplikace Videa je oficiální přehrávač filmů v uživatelském prostředí GNOME. "
 "Můžete vyhledávat v seznamech místních videí a DVD, stejně jako ve videích "
@@ -64,12 +55,14 @@ msgstr ""
 "Přináší i rozšiřující funkce, jako je stahování titulků, zrychlování a "
 "zpomalování přehrávání, vytváření galerií snímků a podpora nahrávání DVD."
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr "Video;Film;Klip;Seriál;Přehrávač;DVD;TV;Disk;"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr "org.gnome.Totem"
@@ -143,7 +136,8 @@ msgstr "Výchozí umístění v dialogových oknech „Otevřít…“"
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"Výchozí umístění v dialogových oknech „Otevřít…“. Výchozí je aktuální složka."
+"Výchozí umístění v dialogových oknech „Otevřít…“. Výchozí je aktuální "
+"složka."
 
 #: data/org.gnome.totem.gschema.xml.in:60
 msgid "Default location for the “Take Screenshot” dialogs"
@@ -190,7 +184,7 @@ msgid "Directories to show in the browse interface, none by default"
 msgstr ""
 "Složky, které se mají zobrazit v rozhraní prohlížeče; výchozí není žádná"
 
-#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5659
+#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5675
 msgid "Stereo"
 msgstr "Stereo"
 
@@ -275,7 +269,6 @@ msgstr "_Sytost:"
 msgid "_Hue:"
 msgstr "_Odstín:"
 
-# TEST
 #: data/preferences.ui:726
 msgid "Reset to _Defaults"
 msgstr "Vrátit na _výchozí"
@@ -490,31 +483,36 @@ msgstr "Přidat _webové video…"
 msgid "_Aspect Ratio"
 msgstr "Poměr str_an"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "Automaticky"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
 msgctxt "Aspect ratio"
 msgid "Square"
 msgstr "Čtvercový"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
 msgstr "4∶3 (TV)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
 msgstr "16∶9 (širokoúhlá obrazovka)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
@@ -532,12 +530,10 @@ msgstr "Přepnout ú_hly"
 msgid "_Languages"
 msgstr "_Jazyky"
 
-# TEST
 #: data/totem.ui:97
 msgid "S_ubtitles"
 msgstr "Tit_ulky"
 
-# TEST
 #: data/totem.ui:100
 msgid "_Select Text Subtitles…"
 msgstr "_Vybrat titulky…"
@@ -592,8 +588,8 @@ msgid ""
 "The source seems encrypted and can’t be read. Are you trying to play an "
 "encrypted DVD without libdvdcss?"
 msgstr ""
-"Vypadá to, že zdroj je šifrovaný a nejde jej přečíst. Nepokoušíte se přehrát "
-"šifrované DVD bez knihovny libdvdcss?"
+"Vypadá to, že zdroj je šifrovaný a nejde jej přečíst. Nepokoušíte se přehrát"
+" šifrované DVD bez knihovny libdvdcss?"
 
 #: src/backend/bacon-video-widget.c:3903
 msgid "The server you are trying to connect to is not known."
@@ -603,7 +599,6 @@ msgstr "Server, ke kterému se snažíte připojit, není známý."
 msgid "The connection to this server was refused."
 msgstr "Připojení k tomuto serveru bylo zamítnuto."
 
-# TEST
 #: src/backend/bacon-video-widget.c:3909
 msgid "The specified movie could not be found."
 msgstr "Zadaný film nebyl nalezen."
@@ -620,12 +615,10 @@ msgstr "Pro přístup k tomuto souboru či vysílání je zapotřebí ověření
 msgid "You are not allowed to open this file."
 msgstr "Nemáte oprávnění otevřít tento soubor."
 
-# TEST
 #: src/backend/bacon-video-widget.c:3934
 msgid "This location is not a valid one."
 msgstr "Toto není platné upístění."
 
-# TEST
 #: src/backend/bacon-video-widget.c:3942
 msgid "The movie could not be read."
 msgstr "Film nebylo možno přečíst."
@@ -641,23 +634,25 @@ msgstr "Soubor, kterou zkoušíte přehrát, je prázdný."
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] ""
 "Pro přehrání tohoto filmu je vyžadován zásuvný modul %s, který není "
 "nainstalován."
 msgstr[1] ""
-"Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které "
-"nejsou nainstalovány:\n"
+"Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které nejsou nainstalovány:\n"
 "\n"
 "%s"
 msgstr[2] ""
-"Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které "
-"nejsou nainstalovány:\n"
+"Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které nejsou nainstalovány:\n"
+"\n"
+"%s"
+msgstr[3] ""
+"Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které nejsou nainstalovány:\n"
 "\n"
 "%s"
 
@@ -682,31 +677,35 @@ msgid ""
 msgstr ""
 "Tento soubor nelze přehrávat po síti. Zkuste jej nejdřív stáhnout na disk."
 
-#: src/backend/bacon-video-widget.c:5655
+#: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
 msgstr "Surround"
 
-#: src/backend/bacon-video-widget.c:5657
+#: src/backend/bacon-video-widget.c:5673
 msgid "Mono"
 msgstr "Mono"
 
-#: src/backend/bacon-video-widget.c:5945
+#: src/backend/bacon-video-widget.c:5961
 msgid "Media contains no supported video streams."
 msgstr "Médium neobsahuje žádný podporované video."
 
-#: src/backend/bacon-video-widget.c:6157
+#: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
 "Některé nutné zásuvné moduly chybí. Ujistěte se, že je program nainstalován "
 "správně."
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:277
-msgid "Unable to play the file"
-msgstr "Nelze přehrát soubor"
+#. TRANSLATORS: this is a button to launch a codec installer.
+#. * %s will be replaced with the software installer's name, e.g.
+#. * 'Software' in case of gnome-software.
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:255
+#, c-format
+msgid "_Find in %s"
+msgstr "_Najít v aplikaci %s"
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:280
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:256
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
@@ -718,61 +717,76 @@ msgstr[1] ""
 msgstr[2] ""
 "K přehrání souboru jsou zapotřebí zásuvné moduly %s, ale ty nejsou "
 "nainstalovány."
+msgstr[3] ""
+"K přehrání souboru jsou zapotřebí zásuvné moduly %s, ale ty nejsou "
+"nainstalovány."
 
-#. TRANSLATORS: this is a button to launch a codec installer.
-#. * %s will be replaced with the software installer's name, e.g.
-#. * 'Software' in case of gnome-software.
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:288
-#, c-format
-msgid "_Find in %s"
-msgstr "_Najít v aplikaci %s"
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:268
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
+msgstr ""
+"Tento typ souboru momentálně není podporován. Můžete však použít přehrávač "
+"médií VLC."
 
-# TEST
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:271
+msgid "Open with VLC"
+msgstr "Otevřít ve VLC"
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:278
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player from the App Center to play it."
+msgstr ""
+"Tento typ souboru momentálně není podporován. Můžete však použít přehrávač "
+"médií VLC z Centra aplikací."
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:281
+msgid "Get VLC"
+msgstr "Stáhnout VLC"
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:340
+msgid "Unable to play the file"
+msgstr "Nelze přehrát soubor"
+
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
 msgid "%d:%02d:%02d"
 msgstr "%d∶%02d∶%02d"
 
-# TEST
 #. -hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
 #, c-format
 msgctxt "long time format"
 msgid "-%d:%02d:%02d"
 msgstr "-%d∶%02d∶%02d"
 
-# TEST
 #. -minutes:seconds
 #. Translators: This is a time format, like "-5:02" for 5
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
 #, c-format
 msgctxt "short time format"
 msgid "-%d:%02d"
 msgstr "-%d∶%02d"
 
-# TEST
 #. minutes:seconds
 #. Translators: This is a time format, like "5:02" for 5
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -795,10 +809,12 @@ msgstr "Nelze inicializovat knihovny podporující vlákna."
 msgid "Verify your system installation. Totem will now exit."
 msgstr "Zkontrolujte svou instalaci systému. Totem nyní skončí."
 
-# TEST
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -810,17 +826,14 @@ msgstr ""
 "<b>%s</b>: %d×%d\n"
 "<b>%s</b>: %s"
 
-# TEST
 #: src/totem-gallery-thumbnailer.c:632
 msgid "Filename"
 msgstr "Název souboru"
 
-# TEST
 #: src/totem-gallery-thumbnailer.c:634
 msgid "Resolution"
 msgstr "Rozlišení"
 
-# TEST
 #: src/totem-gallery-thumbnailer.c:637
 msgid "Duration"
 msgstr "Délka"
@@ -841,15 +854,15 @@ msgstr "%s (řada %d, epizoda %d)"
 msgid "Browse Error"
 msgstr "Chyba při procházení"
 
-#: src/totem-grilo.c:818
+#: src/totem-grilo.c:821
 msgid "Search Error"
 msgstr "Chyba při hledání"
 
-#: src/totem-grilo.c:1298
+#: src/totem-grilo.c:1301
 msgid "Local"
 msgstr "Místní"
 
-#: src/totem-grilo.c:1907
+#: src/totem-grilo.c:1910
 msgid "Channels"
 msgstr "Kanály"
 
@@ -878,6 +891,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d vybraná"
 msgstr[1] "%d vybrané"
 msgstr[2] "%d vybraných"
+msgstr[3] "%d vybraných"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -892,7 +906,6 @@ msgstr "Zpět"
 msgid "Select"
 msgstr "Vybrat"
 
-# TEST
 #: src/totemmaintoolbar.ui:69 src/totemmaintoolbar.ui:72
 msgid "Cancel"
 msgstr "Zrušit"
@@ -905,62 +918,62 @@ msgstr "Hledat"
 msgid "Audio Track"
 msgstr "Zvuková stopa"
 
-# TEST
 #: src/totem-menu.c:411
 msgid "Subtitle"
 msgstr "Titulky"
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "Žádný"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
 msgctxt "Language"
 msgid "Auto"
 msgstr "Automaticky"
 
-#: src/totem-object.c:1388 src/totem-options.c:51
+#: src/totem-object.c:1391 src/totem-options.c:51
 msgid "Pause"
 msgstr "Pozastavit"
 
-#: src/totem-object.c:1393 src/totem-object.c:1403 src/totem-options.c:50
+#: src/totem-object.c:1396 src/totem-object.c:1406 src/totem-options.c:50
 #: src/totemselectiontoolbar.ui:43
 msgid "Play"
 msgstr "Přehrát"
 
-#: src/totem-object.c:1470 src/totem-object.c:1498 src/totem-object.c:2045
+#: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
 #, c-format
 msgid "Totem could not play “%s”."
 msgstr "Totem nemohl přehrát „%s“."
 
-#: src/totem-object.c:2217
+#: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
 msgstr "Totem nemohl zobrazit obsah nápovědy."
 
-#: src/totem-object.c:2479
+#: src/totem-object.c:2482
 msgid "An error occurred"
 msgstr "Došlo k chybě"
 
-#: src/totem-object.c:3824
+#: src/totem-object.c:3827
 msgid "Previous Chapter/Movie"
 msgstr "Předchozí kapitola/film"
 
-#: src/totem-object.c:3830
+#: src/totem-object.c:3833
 msgid "Play / Pause"
 msgstr "Přehrát / pozastavit"
 
-#: src/totem-object.c:3836
+#: src/totem-object.c:3839
 msgid "Next Chapter/Movie"
 msgstr "Následující kapitola/film"
 
-#: src/totem-object.c:4059
+#: src/totem-object.c:4062
 msgid "Totem could not startup."
 msgstr "Totem se nemohl spustit."
 
-# :-)
-#: src/totem-object.c:4059
+#: src/totem-object.c:4062
 msgid "No reason."
 msgstr "Žádný důvod."
 
@@ -968,7 +981,6 @@ msgstr "Žádný důvod."
 msgid "Add Web Video"
 msgstr "Přidání webového videa"
 
-# TEST
 #: src/totem-open-location.c:185 src/totem-uri.c:399 src/totem-uri.c:460
 #: src/plugins/screenshot/totem-gallery.c:98
 #: src/plugins/screenshot/totem-gallery-progress.c:103
@@ -1008,7 +1020,6 @@ msgstr "Zvýšit hlasitost"
 msgid "Volume Down"
 msgstr "Snížit hlasitost"
 
-# TEST
 #: src/totem-options.c:58
 msgid "Mute sound"
 msgstr "Ztlumit zvuk"
@@ -1176,7 +1187,6 @@ msgstr "Islandské"
 msgid "Japanese"
 msgstr "Japonské"
 
-# :-)
 #: src/totem-subtitle-encoding.c:271 src/totem-subtitle-encoding.c:273
 #: src/totem-subtitle-encoding.c:275 src/totem-subtitle-encoding.c:277
 msgid "Korean"
@@ -1236,7 +1246,6 @@ msgstr "Soubory videa"
 msgid "Subtitle files"
 msgstr "Soubory s titulky"
 
-# TEST
 #: src/totem-uri.c:396
 msgid "Select Text Subtitles"
 msgstr "Zvolte titulky"
@@ -1257,55 +1266,45 @@ msgstr "Upoutávky Apple"
 msgid "Sets the user agent for the Apple Trailers site"
 msgstr "Nastaví uživatelského agenta pro server upoutávek Apple"
 
-# TEST
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:6
 msgid "Autoload Subtitles"
 msgstr "Načítat titulky"
 
-# TEST
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:7
 msgid "Autoloads text subtitles"
 msgstr "Automaticky načítá titulky"
 
-# TEST
 #: src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.desktop.in:6
 msgid "Video Disc Recorder"
 msgstr "Vypalování filmových disků"
 
-# TEST
 #: src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.desktop.in:7
 msgid "Records (S)VCDs or video DVDs"
 msgstr "Vypalování disků (S)VCD nebo video DVD"
 
-# TEST
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:101
 msgid "The video disc could not be duplicated."
 msgstr "Filmový disk se nepodařilo zkopírovat."
 
-# TEST
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:103
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:249
 msgid "The movie could not be recorded."
 msgstr "Film se nepodařilo vypálit."
 
-# TEST
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:129
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:139
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:235
 msgid "Unable to write a project."
 msgstr "Nepodařilo se zapsat projekt."
 
-# TEST
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:375
 msgid "_Create Video Disc…"
 msgstr "Vytvořit _filmový disk…"
 
-# TEST
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:376
 msgid "Copy Vide_o DVD…"
 msgstr "Zkopírovat vide_oDVD…"
 
-# TEST
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:377
 msgid "Copy (S)VCD…"
 msgstr "Zkopírovat (S)VCD…"
@@ -1370,94 +1369,77 @@ msgstr "Klávesy přehrávače"
 msgid "Support additional media player keys"
 msgstr "Podpora doplňkových kláves pro přehrávače"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.plugin.desktop.in:6
 msgid "Subtitle Downloader"
 msgstr "Stahování titulků"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.plugin.desktop.in:7
 msgid "Look for subtitles for the currently playing movie"
 msgstr "Vyhledat titulky k právě přehrávanému filmu"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:46
 msgid "Brazilian Portuguese"
 msgstr "Brazilská portugalština"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:187
 msgid "Searching for subtitles…"
 msgstr "Vyhledávají se titulky…"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:235
 #: src/plugins/opensubtitles/opensubtitles.py:615
 msgid "Downloading the subtitles…"
 msgstr "Stahují se titulky…"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:300
 msgid "Could not contact the OpenSubtitles website"
 msgstr "Nepodařilo se spojit s webovou stránkou OpenSubtitles"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:333
 #: src/plugins/opensubtitles/opensubtitles.py:351
 msgid "Could not contact the OpenSubtitles website."
 msgstr "Nepodařilo se spojit s webovou stránkou OpenSubtitles."
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:339
 msgid "No results found."
 msgstr "Nenalezeny žádné výsledky."
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:482
 msgid "Subtitles"
 msgstr "Titulky"
 
-# TEST
 #. translators comment:
 #. This is the file-type of the subtitle file detected
 #: src/plugins/opensubtitles/opensubtitles.py:488
 msgid "Format"
 msgstr "Formát"
 
-# TEST
 #. translators comment:
 #. This is a rating of the quality of the subtitle
 #: src/plugins/opensubtitles/opensubtitles.py:493
 msgid "Rating"
 msgstr "Hodnocení"
 
-# TEST
 #. pylint: disable=no-member
 #: src/plugins/opensubtitles/opensubtitles.py:533
 msgid "_Download Movie Subtitles…"
 msgstr "Sta_hnout titulky k filmům…"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.py:572
 msgid "Searching subtitles…"
 msgstr "Vyhledávají se titulky…"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.ui:27
 msgid "Download Movie Subtitles"
 msgstr "Stahování titulků k filmům"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.ui:43
 msgid "Subtitle _language:"
 msgstr "_Jazyk titulků:"
 
-# TEST
 #: src/plugins/opensubtitles/opensubtitles.ui:124
 msgid "_Play with Subtitle"
 msgstr "_Přehrát s titulky"
 
-# TEST
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:6
 msgid "Subtitle language"
 msgstr "Jazyk titulků"
@@ -1644,6 +1626,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d hodina"
 msgstr[1] "%d hodiny"
 msgstr[2] "%d hodin"
+msgstr[3] "%d hodin"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1652,6 +1635,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minuta"
 msgstr[1] "%d minuty"
 msgstr[2] "%d minut"
+msgstr[3] "%d minut"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1660,6 +1644,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekunda"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekund"
+msgstr[3] "%d sekund"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1686,8 +1671,8 @@ msgstr "heslo rpdb2"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 "Heslo sloužící k ochraně serveru rpdb2, používaného pro ladění aplikace "
 "Totem, při neautorizovaném vzdáleném přístupu. Pokud je prázdné, platí "
@@ -1729,8 +1714,8 @@ msgid ""
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
-"Po stisknutí Budiž aplikace Totem počká, než se k ní připojíte pomocí winpdb "
-"nebo rpdb2. Pokud jste nenastavili heslo ladění v GConf, tak se použije "
+"Po stisknutí Budiž aplikace Totem počká, než se k ní připojíte pomocí winpdb"
+" nebo rpdb2. Pokud jste nenastavili heslo ladění v GConf, tak se použije "
 "výchozí heslo („totem“)."
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
@@ -1749,25 +1734,22 @@ msgstr "Zásuvný modul otáčení"
 msgid "Allows videos to be rotated if they are in the wrong orientation"
 msgstr "Umožňuje video otočit v případě, že je otočeno nesprávně"
 
-#: src/plugins/rotation/totem-rotation.c:258
+#: src/plugins/rotation/totem-rotation.c:259
 msgid "_Rotate ↷"
 msgstr "_Otočit ↷"
 
-#: src/plugins/rotation/totem-rotation.c:262
+#: src/plugins/rotation/totem-rotation.c:263
 msgid "Rotate ↶"
 msgstr "Otočit ↶"
 
-# TEST
 #: src/plugins/save-file/save-file.plugin.desktop.in:6
 msgid "Save Copy"
 msgstr "Uložit kopii"
 
-# TEST
 #: src/plugins/save-file/save-file.plugin.desktop.in:7
 msgid "Save a copy of the currently playing movie"
 msgstr "Uložit kopii právě přehráváného filmu"
 
-# TEST
 #: src/plugins/save-file/totem-save-file.c:89
 msgid "The video could not be made available offline."
 msgstr "Nelze zařídit, aby video bylo dostupné bez připojení."
@@ -1799,17 +1781,14 @@ msgstr "Vypne šetřič obrazovky, když se přehrává film"
 msgid "Playing a movie"
 msgstr "Přehrávání videa"
 
-# TEST
 #: src/plugins/screenshot/gallery.ui:41
 msgid "Screenshot width (in pixels):"
 msgstr "Šířka snímku (v pixelech):"
 
-# TEST
 #: src/plugins/screenshot/gallery.ui:50
 msgid "Calculate the number of screenshots"
 msgstr "Vypočítat počet snímků"
 
-# TEST
 #: src/plugins/screenshot/gallery.ui:73
 msgid "Number of screenshots:"
 msgstr "Počet snímků:"
@@ -1837,7 +1816,6 @@ msgstr "Snímek obrazovky"
 msgid "Allows screenshots and galleries to be taken of videos"
 msgstr "Umožňuje vytvářet snímky a galerie z přehrávaných videí"
 
-# TEST
 #: src/plugins/screenshot/totem-gallery.c:92
 msgid "Save Gallery"
 msgstr "Uložit galerii"
@@ -1855,20 +1833,17 @@ msgstr "_Uložit"
 msgid "Gallery-%s-%d.jpg"
 msgstr "Galerie - %s (%d).jpg"
 
-# TEST
 #. Set up the window
 #: src/plugins/screenshot/totem-gallery-progress.c:101
 msgid "Creating Gallery…"
 msgstr "Vytváří se galerie…"
 
-# TEST
 #. Set the progress label
 #: src/plugins/screenshot/totem-gallery-progress.c:107
 #, c-format
 msgid "Saving gallery as “%s”"
 msgstr "Galerie se ukládá jako „%s“"
 
-# TEST
 #: src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
 msgid "Totem could not get a screenshot of the video."
@@ -1876,13 +1851,13 @@ msgstr "Aplikaci Totem se nepodařilo zachytit snímek z tohoto videa."
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
 msgid "This is not supposed to happen; please file a bug report."
-msgstr "Tato situace by neměla nikdy nastat; ohlaste chybu vývojářům programu."
+msgstr ""
+"Tato situace by neměla nikdy nastat; ohlaste chybu vývojářům programu."
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:339
 msgid "Take _Screenshot"
 msgstr "Zachytit _snímek obrazovky"
 
-# TEST
 #: src/plugins/screenshot/totem-screenshot-plugin.c:345
 msgid "Create Screenshot _Gallery…"
 msgstr "Vytvořit _galerii snímků…"
@@ -1900,7 +1875,8 @@ msgstr "Nabízí dialogové okno „Přeskočit na“"
 msgid "_Skip to:"
 msgstr "_Přeskočit na:"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
 msgid "second"
@@ -1908,11 +1884,16 @@ msgid_plural "seconds"
 msgstr[0] "sekundu"
 msgstr[1] "sekundy"
 msgstr[2] "sekund"
+msgstr[3] "sekund"
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
@@ -1931,7 +1912,6 @@ msgctxt "playback rate"
 msgid "× 0.75"
 msgstr "× 0,75"
 
-# TEST
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
@@ -1977,23 +1957,3 @@ msgstr "Vimeo"
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr "Nastaví uživatelského agenta pro server Vimeo"
-
-#~ msgid "Whether to autoload external chapter files when a movie is loaded"
-#~ msgstr ""
-#~ "Zda automaticky načíst externí soubor s kapitolami, když je načten film"
-
-#~ msgid "External Chapters"
-#~ msgstr "Externí kapitoly"
-
-#~ msgid "Load _chapter files when movie is loaded"
-#~ msgstr "Po načtení filmu načíst soubory s _kapitolami"
-
-# TEST
-#~ msgid "Subtitle #%d"
-#~ msgstr "Titulky č. %d"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#~ msgid "Seek to %s / %s"
-#~ msgstr "Přeskočit na %s / %s"
