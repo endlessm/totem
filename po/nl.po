@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Totem\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
-"POT-Creation-Date: 2019-02-21 20:05+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 13:45+0000\n"
 "PO-Revision-Date: 2019-02-24 14:59+0100\n"
 "Last-Translator: Nathan Follens <nthn@unseen.is>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
-#: src/totem-grilo.c:1898 src/totem-object.c:3723
+#: src/totem-grilo.c:1901 src/totem-object.c:3729
 msgid "Videos"
 msgstr "Video’s"
 
@@ -170,30 +170,25 @@ msgstr ""
 "film"
 
 #: data/org.gnome.totem.gschema.xml.in:77
-msgid "Whether to autoload external chapter files when a movie is loaded"
-msgstr ""
-"Of hoofdstukbestanden automatisch geladen worden bij het laden van een film"
-
-#: data/org.gnome.totem.gschema.xml.in:81
 msgid "Active plugins list"
 msgstr "Lijst van actieve plug-ins"
 
-#: data/org.gnome.totem.gschema.xml.in:82
+#: data/org.gnome.totem.gschema.xml.in:78
 msgid ""
 "A list of the names of the plugins which are currently active (loaded and "
 "running)."
 msgstr ""
 "Een lijst met de namen van de huidige actieve plug-ins (geladen en draaiend)"
 
-#: data/org.gnome.totem.gschema.xml.in:86
+#: data/org.gnome.totem.gschema.xml.in:82
 msgid "Directories to show"
 msgstr "Te tonen mappen"
 
-#: data/org.gnome.totem.gschema.xml.in:87
+#: data/org.gnome.totem.gschema.xml.in:83
 msgid "Directories to show in the browse interface, none by default"
 msgstr "Te tonen mappen in de blader-interface, standaard geen"
 
-#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5659
+#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5675
 msgid "Stereo"
 msgstr "Stereo"
 
@@ -239,72 +234,63 @@ msgid "_Encoding:"
 msgstr "_Tekenset:"
 
 #: data/preferences.ui:312
-msgid "External Chapters"
-msgstr "Externe hoofdstukken"
-
-# Vrij vertaald (Wouter Bolsterlee)
-#: data/preferences.ui:360
-msgid "Load _chapter files when movie is loaded"
-msgstr "_Hoofdstukbestanden automatisch laden"
-
-#: data/preferences.ui:403
 msgid "Plugins"
 msgstr "Plug-ins"
 
-#: data/preferences.ui:429
+#: data/preferences.ui:338
 msgid "Plugins…"
 msgstr "Plug-ins…"
 
-#: data/preferences.ui:464 src/plugins/properties/properties.ui:23
+#: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
 msgstr "Algemeen"
 
 #. Tab label in the Preferences dialogue
-#: data/preferences.ui:498 src/plugins/properties/properties.ui:321
+#: data/preferences.ui:407 src/plugins/properties/properties.ui:321
 msgid "Video"
 msgstr "Video"
 
-#: data/preferences.ui:527
+#: data/preferences.ui:436
 msgid "Disable _deinterlacing of interlaced videos"
 msgstr "‘_Deinterlacing’ van ‘interlaced’ video’s uitschakelen"
 
-#: data/preferences.ui:568
+#: data/preferences.ui:477
 msgid "Color Balance"
 msgstr "Kleurbalans"
 
-#: data/preferences.ui:622
+#: data/preferences.ui:531
 msgid "_Brightness:"
 msgstr "_Helderheid:"
 
-#: data/preferences.ui:649
+#: data/preferences.ui:558
 msgid "Co_ntrast:"
 msgstr "_Contrast:"
 
-#: data/preferences.ui:715
+#: data/preferences.ui:624
 msgid "Sat_uration:"
 msgstr "Ver_zadiging:"
 
-#: data/preferences.ui:742
+#: data/preferences.ui:651
 msgid "_Hue:"
 msgstr "_Tint:"
 
-#: data/preferences.ui:817
+#: data/preferences.ui:726
 msgid "Reset to _Defaults"
 msgstr "_Standaardinstellingen herstellen"
 
-#: data/preferences.ui:864
+#: data/preferences.ui:773
 msgid "Display"
 msgstr "Weergave"
 
-#: data/preferences.ui:905
+#: data/preferences.ui:814
 msgid "Audio Output"
 msgstr "Geluidsweergave"
 
-#: data/preferences.ui:949
+#: data/preferences.ui:858
 msgid "_Audio output type:"
 msgstr "Type _geluidsweergave:"
 
-#: data/preferences.ui:1023 src/plugins/properties/properties.ui:512
+#: data/preferences.ui:932 src/plugins/properties/properties.ui:512
 msgid "Audio"
 msgstr "Audio"
 
@@ -692,19 +678,19 @@ msgstr ""
 "Kan dit bestand niet over het netwerk afspelen. Probeer het bestand eerst te "
 "downloaden en op te slaan."
 
-#: src/backend/bacon-video-widget.c:5655
+#: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
 msgstr "Surround"
 
-#: src/backend/bacon-video-widget.c:5657
+#: src/backend/bacon-video-widget.c:5673
 msgid "Mono"
 msgstr "Mono"
 
-#: src/backend/bacon-video-widget.c:5945
+#: src/backend/bacon-video-widget.c:5961
 msgid "Media contains no supported video streams."
 msgstr "Media bevat geen ondersteunde videostromen."
 
-#: src/backend/bacon-video-widget.c:6157
+#: src/backend/bacon-video-widget.c:6173
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly "
 "installed."
@@ -712,11 +698,15 @@ msgstr ""
 "Enkele noodzakelijke plug-ins ontbreken. Controleer of het programma juist "
 "is geïnstalleerd."
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:277
-msgid "Unable to play the file"
-msgstr "Kan bestand niet afspelen"
+#. TRANSLATORS: this is a button to launch a codec installer.
+#. * %s will be replaced with the software installer's name, e.g.
+#. * 'Software' in case of gnome-software.
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:255
+#, c-format
+msgid "_Find in %s"
+msgstr "_Zoeken in %s"
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:280
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:256
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
@@ -726,13 +716,29 @@ msgstr[1] ""
 "%s zijn vereist voor het afspelen van het bestand, maar zijn niet "
 "geïnstalleerd."
 
-#. TRANSLATORS: this is a button to launch a codec installer.
-#. * %s will be replaced with the software installer's name, e.g.
-#. * 'Software' in case of gnome-software.
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:288
-#, c-format
-msgid "_Find in %s"
-msgstr "_Zoeken in %s"
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:268
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:271
+msgid "Open with VLC"
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:278
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player from the App Center to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:281
+msgid "Get VLC"
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:340
+msgid "Unable to play the file"
+msgstr "Kan bestand niet afspelen"
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
@@ -841,15 +847,15 @@ msgstr "%s (seizoen %d aflevering %d)"
 msgid "Browse Error"
 msgstr "Bladeren mislukt"
 
-#: src/totem-grilo.c:818
+#: src/totem-grilo.c:821
 msgid "Search Error"
 msgstr "Zoeken mislukt"
 
-#: src/totem-grilo.c:1298
+#: src/totem-grilo.c:1301
 msgid "Local"
 msgstr "Lokaal"
 
-#: src/totem-grilo.c:1907
+#: src/totem-grilo.c:1910
 msgid "Channels"
 msgstr "Kanalen"
 
@@ -919,45 +925,45 @@ msgctxt "Language"
 msgid "Auto"
 msgstr "Automatisch"
 
-#: src/totem-object.c:1387 src/totem-options.c:51
+#: src/totem-object.c:1391 src/totem-options.c:51
 msgid "Pause"
 msgstr "Pauzeren"
 
-#: src/totem-object.c:1392 src/totem-object.c:1402 src/totem-options.c:50
+#: src/totem-object.c:1396 src/totem-object.c:1406 src/totem-options.c:50
 #: src/totemselectiontoolbar.ui:43
 msgid "Play"
 msgstr "Afspelen"
 
-#: src/totem-object.c:1469 src/totem-object.c:1496 src/totem-object.c:2032
+#: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
 #, c-format
 msgid "Totem could not play “%s”."
 msgstr "Totem kan ‘%s’ niet afspelen."
 
-#: src/totem-object.c:2203
+#: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
 msgstr "Totem kan de hulpinhoud niet weergeven."
 
-#: src/totem-object.c:2465
+#: src/totem-object.c:2482
 msgid "An error occurred"
 msgstr "Er is een fout opgetreden"
 
-#: src/totem-object.c:3821
+#: src/totem-object.c:3827
 msgid "Previous Chapter/Movie"
 msgstr "Vorige hoofdstuk/film"
 
-#: src/totem-object.c:3827
+#: src/totem-object.c:3833
 msgid "Play / Pause"
 msgstr "Afspelen / pauzeren"
 
-#: src/totem-object.c:3833
+#: src/totem-object.c:3839
 msgid "Next Chapter/Movie"
 msgstr "Volgende hoofdstuk/film"
 
-#: src/totem-object.c:4056
+#: src/totem-object.c:4062
 msgid "Totem could not startup."
 msgstr "Totem kan niet worden opgestart."
 
-#: src/totem-object.c:4056
+#: src/totem-object.c:4062
 msgid "No reason."
 msgstr "Geen reden."
 
@@ -1061,7 +1067,7 @@ msgid "_Close"
 msgstr "_Sluiten"
 
 # voor de ondertiteling
-#: src/totem-preferences.c:303
+#: src/totem-preferences.c:299
 msgid "Select Subtitle Font"
 msgstr "Selecteer het lettertype voor de ondertitels"
 
@@ -1547,7 +1553,6 @@ msgstr "Kanalen:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#| msgid "Unknown"
 msgctxt "Title"
 msgid "Unknown"
 msgstr "Onbekend"
@@ -1728,11 +1733,11 @@ msgstr "Kantel-plug-in"
 msgid "Allows videos to be rotated if they are in the wrong orientation"
 msgstr "Laat toe video’s te draaien als ze verkeerd georiënteerd zijn"
 
-#: src/plugins/rotation/totem-rotation.c:258
+#: src/plugins/rotation/totem-rotation.c:259
 msgid "_Rotate ↷"
 msgstr "D_raaien ↷"
 
-#: src/plugins/rotation/totem-rotation.c:262
+#: src/plugins/rotation/totem-rotation.c:263
 msgid "Rotate ↶"
 msgstr "Draaien ↶"
 
@@ -1948,6 +1953,18 @@ msgstr "Vimeo"
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr "Stelt de gebruikersagent in voor de Vimeo-site"
+
+#~ msgid "Whether to autoload external chapter files when a movie is loaded"
+#~ msgstr ""
+#~ "Of hoofdstukbestanden automatisch geladen worden bij het laden van een "
+#~ "film"
+
+#~ msgid "External Chapters"
+#~ msgstr "Externe hoofdstukken"
+
+# Vrij vertaald (Wouter Bolsterlee)
+#~ msgid "Load _chapter files when movie is loaded"
+#~ msgstr "_Hoofdstukbestanden automatisch laden"
 
 #~ msgid "_Quit"
 #~ msgstr "A_fsluiten"

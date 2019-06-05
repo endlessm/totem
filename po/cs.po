@@ -20,8 +20,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
-"POT-Creation-Date: 2019-02-26 18:03+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 13:45+0000\n"
 "PO-Revision-Date: 2019-02-28 10:47+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
-#: src/totem-grilo.c:1898 src/totem-object.c:3726
+#: src/totem-grilo.c:1901 src/totem-object.c:3729
 msgid "Videos"
 msgstr "Videa"
 
@@ -190,7 +190,7 @@ msgid "Directories to show in the browse interface, none by default"
 msgstr ""
 "Složky, které se mají zobrazit v rozhraní prohlížeče; výchozí není žádná"
 
-#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5659
+#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5675
 msgid "Stereo"
 msgstr "Stereo"
 
@@ -682,19 +682,19 @@ msgid ""
 msgstr ""
 "Tento soubor nelze přehrávat po síti. Zkuste jej nejdřív stáhnout na disk."
 
-#: src/backend/bacon-video-widget.c:5655
+#: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
 msgstr "Surround"
 
-#: src/backend/bacon-video-widget.c:5657
+#: src/backend/bacon-video-widget.c:5673
 msgid "Mono"
 msgstr "Mono"
 
-#: src/backend/bacon-video-widget.c:5945
+#: src/backend/bacon-video-widget.c:5961
 msgid "Media contains no supported video streams."
 msgstr "Médium neobsahuje žádný podporované video."
 
-#: src/backend/bacon-video-widget.c:6157
+#: src/backend/bacon-video-widget.c:6173
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly "
 "installed."
@@ -702,11 +702,15 @@ msgstr ""
 "Některé nutné zásuvné moduly chybí. Ujistěte se, že je program nainstalován "
 "správně."
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:277
-msgid "Unable to play the file"
-msgstr "Nelze přehrát soubor"
+#. TRANSLATORS: this is a button to launch a codec installer.
+#. * %s will be replaced with the software installer's name, e.g.
+#. * 'Software' in case of gnome-software.
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:255
+#, c-format
+msgid "_Find in %s"
+msgstr "_Najít v aplikaci %s"
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:280
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:256
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
@@ -719,13 +723,29 @@ msgstr[2] ""
 "K přehrání souboru jsou zapotřebí zásuvné moduly %s, ale ty nejsou "
 "nainstalovány."
 
-#. TRANSLATORS: this is a button to launch a codec installer.
-#. * %s will be replaced with the software installer's name, e.g.
-#. * 'Software' in case of gnome-software.
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:288
-#, c-format
-msgid "_Find in %s"
-msgstr "_Najít v aplikaci %s"
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:268
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:271
+msgid "Open with VLC"
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:278
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player from the App Center to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:281
+msgid "Get VLC"
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:340
+msgid "Unable to play the file"
+msgstr "Nelze přehrát soubor"
 
 # TEST
 #. hour:minutes:seconds
@@ -841,15 +861,15 @@ msgstr "%s (řada %d, epizoda %d)"
 msgid "Browse Error"
 msgstr "Chyba při procházení"
 
-#: src/totem-grilo.c:818
+#: src/totem-grilo.c:821
 msgid "Search Error"
 msgstr "Chyba při hledání"
 
-#: src/totem-grilo.c:1298
+#: src/totem-grilo.c:1301
 msgid "Local"
 msgstr "Místní"
 
-#: src/totem-grilo.c:1907
+#: src/totem-grilo.c:1910
 msgid "Channels"
 msgstr "Kanály"
 
@@ -921,46 +941,46 @@ msgctxt "Language"
 msgid "Auto"
 msgstr "Automaticky"
 
-#: src/totem-object.c:1388 src/totem-options.c:51
+#: src/totem-object.c:1391 src/totem-options.c:51
 msgid "Pause"
 msgstr "Pozastavit"
 
-#: src/totem-object.c:1393 src/totem-object.c:1403 src/totem-options.c:50
+#: src/totem-object.c:1396 src/totem-object.c:1406 src/totem-options.c:50
 #: src/totemselectiontoolbar.ui:43
 msgid "Play"
 msgstr "Přehrát"
 
-#: src/totem-object.c:1470 src/totem-object.c:1498 src/totem-object.c:2045
+#: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
 #, c-format
 msgid "Totem could not play “%s”."
 msgstr "Totem nemohl přehrát „%s“."
 
-#: src/totem-object.c:2217
+#: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
 msgstr "Totem nemohl zobrazit obsah nápovědy."
 
-#: src/totem-object.c:2479
+#: src/totem-object.c:2482
 msgid "An error occurred"
 msgstr "Došlo k chybě"
 
-#: src/totem-object.c:3824
+#: src/totem-object.c:3827
 msgid "Previous Chapter/Movie"
 msgstr "Předchozí kapitola/film"
 
-#: src/totem-object.c:3830
+#: src/totem-object.c:3833
 msgid "Play / Pause"
 msgstr "Přehrát / pozastavit"
 
-#: src/totem-object.c:3836
+#: src/totem-object.c:3839
 msgid "Next Chapter/Movie"
 msgstr "Následující kapitola/film"
 
-#: src/totem-object.c:4059
+#: src/totem-object.c:4062
 msgid "Totem could not startup."
 msgstr "Totem se nemohl spustit."
 
 # :-)
-#: src/totem-object.c:4059
+#: src/totem-object.c:4062
 msgid "No reason."
 msgstr "Žádný důvod."
 
@@ -1749,11 +1769,11 @@ msgstr "Zásuvný modul otáčení"
 msgid "Allows videos to be rotated if they are in the wrong orientation"
 msgstr "Umožňuje video otočit v případě, že je otočeno nesprávně"
 
-#: src/plugins/rotation/totem-rotation.c:258
+#: src/plugins/rotation/totem-rotation.c:259
 msgid "_Rotate ↷"
 msgstr "_Otočit ↷"
 
-#: src/plugins/rotation/totem-rotation.c:262
+#: src/plugins/rotation/totem-rotation.c:263
 msgid "Rotate ↶"
 msgstr "Otočit ↶"
 

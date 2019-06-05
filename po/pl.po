@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
-"POT-Creation-Date: 2019-02-21 20:05+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 13:45+0000\n"
 "PO-Revision-Date: 2019-02-22 18:50+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
-#: src/totem-grilo.c:1898 src/totem-object.c:3723
+#: src/totem-grilo.c:1901 src/totem-object.c:3729
 msgid "Videos"
 msgstr "Filmy"
 
@@ -171,30 +171,24 @@ msgstr ""
 "filmu"
 
 #: data/org.gnome.totem.gschema.xml.in:77
-msgid "Whether to autoload external chapter files when a movie is loaded"
-msgstr ""
-"Określa, czy automatycznie wczytywać zewnętrzne pliki rozdziałów podczas "
-"wczytywania filmu"
-
-#: data/org.gnome.totem.gschema.xml.in:81
 msgid "Active plugins list"
 msgstr "Lista aktywnych wtyczek"
 
-#: data/org.gnome.totem.gschema.xml.in:82
+#: data/org.gnome.totem.gschema.xml.in:78
 msgid ""
 "A list of the names of the plugins which are currently active (loaded and "
 "running)."
 msgstr "Lista aktywnych wtyczek (wczytanych i uruchomionych)."
 
-#: data/org.gnome.totem.gschema.xml.in:86
+#: data/org.gnome.totem.gschema.xml.in:82
 msgid "Directories to show"
 msgstr "Katalogi do wyświetlania"
 
-#: data/org.gnome.totem.gschema.xml.in:87
+#: data/org.gnome.totem.gschema.xml.in:83
 msgid "Directories to show in the browse interface, none by default"
 msgstr "Katalogi do wyświetlania w interfejsie przeglądania, domyślnie brak"
 
-#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5659
+#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5675
 msgid "Stereo"
 msgstr "Stereo"
 
@@ -239,71 +233,63 @@ msgid "_Encoding:"
 msgstr "_Kodowanie:"
 
 #: data/preferences.ui:312
-msgid "External Chapters"
-msgstr "Zewnętrzne rozdziały"
-
-#: data/preferences.ui:360
-msgid "Load _chapter files when movie is loaded"
-msgstr "W_czytywanie pliku rozdziałów po wczytaniu filmu"
-
-#: data/preferences.ui:403
 msgid "Plugins"
 msgstr "Wtyczki"
 
-#: data/preferences.ui:429
+#: data/preferences.ui:338
 msgid "Plugins…"
 msgstr "Wtyczki…"
 
-#: data/preferences.ui:464 src/plugins/properties/properties.ui:23
+#: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
 msgstr "Ogólne"
 
 #. Tab label in the Preferences dialogue
-#: data/preferences.ui:498 src/plugins/properties/properties.ui:321
+#: data/preferences.ui:407 src/plugins/properties/properties.ui:321
 msgid "Video"
 msgstr "Wideo"
 
-#: data/preferences.ui:527
+#: data/preferences.ui:436
 msgid "Disable _deinterlacing of interlaced videos"
 msgstr "Wyłączenie _usuwania przeplotu z filmów z przeplotem"
 
-#: data/preferences.ui:568
+#: data/preferences.ui:477
 msgid "Color Balance"
 msgstr "Korekcja kolorów"
 
-#: data/preferences.ui:622
+#: data/preferences.ui:531
 msgid "_Brightness:"
 msgstr "_Jasność:"
 
-#: data/preferences.ui:649
+#: data/preferences.ui:558
 msgid "Co_ntrast:"
 msgstr "Ko_ntrast:"
 
-#: data/preferences.ui:715
+#: data/preferences.ui:624
 msgid "Sat_uration:"
 msgstr "Nasy_cenie:"
 
-#: data/preferences.ui:742
+#: data/preferences.ui:651
 msgid "_Hue:"
 msgstr "_Odcień:"
 
-#: data/preferences.ui:817
+#: data/preferences.ui:726
 msgid "Reset to _Defaults"
 msgstr "P_rzywróć domyślne"
 
-#: data/preferences.ui:864
+#: data/preferences.ui:773
 msgid "Display"
 msgstr "Obraz"
 
-#: data/preferences.ui:905
+#: data/preferences.ui:814
 msgid "Audio Output"
 msgstr "Wyjście dźwięku"
 
-#: data/preferences.ui:949
+#: data/preferences.ui:858
 msgid "_Audio output type:"
 msgstr "_Typ:"
 
-#: data/preferences.ui:1023 src/plugins/properties/properties.ui:512
+#: data/preferences.ui:932 src/plugins/properties/properties.ui:512
 msgid "Audio"
 msgstr "Dźwięk"
 
@@ -692,19 +678,19 @@ msgstr ""
 "Ten plik nie może być odtwarzany przez sieć. Proszę spróbować najpierw "
 "pobrać plik na dysk."
 
-#: src/backend/bacon-video-widget.c:5655
+#: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
 msgstr "Przestrzenny"
 
-#: src/backend/bacon-video-widget.c:5657
+#: src/backend/bacon-video-widget.c:5673
 msgid "Mono"
 msgstr "Mono"
 
-#: src/backend/bacon-video-widget.c:5945
+#: src/backend/bacon-video-widget.c:5961
 msgid "Media contains no supported video streams."
 msgstr "Plik multimediów zawiera nieobsługiwany strumień wideo."
 
-#: src/backend/bacon-video-widget.c:6157
+#: src/backend/bacon-video-widget.c:6173
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly "
 "installed."
@@ -712,11 +698,15 @@ msgstr ""
 "Brak kilku wymaganych wtyczek. Proszę się upewnić, że program jest poprawnie "
 "zainstalowany."
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:277
-msgid "Unable to play the file"
-msgstr "Nie można odtworzyć pliku"
+#. TRANSLATORS: this is a button to launch a codec installer.
+#. * %s will be replaced with the software installer's name, e.g.
+#. * 'Software' in case of gnome-software.
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:255
+#, c-format
+msgid "_Find in %s"
+msgstr "_Znajdź w „%s”"
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:280
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:256
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
@@ -724,13 +714,29 @@ msgstr[0] "%s jest wymagane do odtworzenia pliku, ale nie jest zainstalowane."
 msgstr[1] "%s są wymagane do odtworzenia pliku, ale nie są zainstalowane."
 msgstr[2] "%s są wymagane do odtworzenia pliku, ale nie są zainstalowane."
 
-#. TRANSLATORS: this is a button to launch a codec installer.
-#. * %s will be replaced with the software installer's name, e.g.
-#. * 'Software' in case of gnome-software.
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:288
-#, c-format
-msgid "_Find in %s"
-msgstr "_Znajdź w „%s”"
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:268
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:271
+msgid "Open with VLC"
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:278
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player from the App Center to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:281
+msgid "Get VLC"
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:340
+msgid "Unable to play the file"
+msgstr "Nie można odtworzyć pliku"
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
@@ -840,15 +846,15 @@ msgstr "%s (%d. sezon, %d. odcinek)"
 msgid "Browse Error"
 msgstr "Błąd przeglądania"
 
-#: src/totem-grilo.c:818
+#: src/totem-grilo.c:821
 msgid "Search Error"
 msgstr "Błąd wyszukiwania"
 
-#: src/totem-grilo.c:1298
+#: src/totem-grilo.c:1301
 msgid "Local"
 msgstr "Lokalne pliki"
 
-#: src/totem-grilo.c:1907
+#: src/totem-grilo.c:1910
 msgid "Channels"
 msgstr "Kanały"
 
@@ -918,45 +924,45 @@ msgctxt "Language"
 msgid "Auto"
 msgstr "Automatyczny"
 
-#: src/totem-object.c:1387 src/totem-options.c:51
+#: src/totem-object.c:1391 src/totem-options.c:51
 msgid "Pause"
 msgstr "Wstrzymuje"
 
-#: src/totem-object.c:1392 src/totem-object.c:1402 src/totem-options.c:50
+#: src/totem-object.c:1396 src/totem-object.c:1406 src/totem-options.c:50
 #: src/totemselectiontoolbar.ui:43
 msgid "Play"
 msgstr "Odtwarza"
 
-#: src/totem-object.c:1469 src/totem-object.c:1496 src/totem-object.c:2032
+#: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
 #, c-format
 msgid "Totem could not play “%s”."
 msgstr "Nie można odtworzyć „%s”."
 
-#: src/totem-object.c:2203
+#: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
 msgstr "Nie można wyświetlić spisu treści pomocy."
 
-#: src/totem-object.c:2465
+#: src/totem-object.c:2482
 msgid "An error occurred"
 msgstr "Wystąpił błąd"
 
-#: src/totem-object.c:3821
+#: src/totem-object.c:3827
 msgid "Previous Chapter/Movie"
 msgstr "Poprzedni rozdział/film"
 
-#: src/totem-object.c:3827
+#: src/totem-object.c:3833
 msgid "Play / Pause"
 msgstr "Odtwarza/wstrzymuje"
 
-#: src/totem-object.c:3833
+#: src/totem-object.c:3839
 msgid "Next Chapter/Movie"
 msgstr "Następny rozdział/film"
 
-#: src/totem-object.c:4056
+#: src/totem-object.c:4062
 msgid "Totem could not startup."
 msgstr "Nie można uruchomić programu."
 
-#: src/totem-object.c:4056
+#: src/totem-object.c:4062
 msgid "No reason."
 msgstr "Brak powodu."
 
@@ -1055,7 +1061,7 @@ msgstr "Konfiguracja wtyczek"
 msgid "_Close"
 msgstr "Za_mknij"
 
-#: src/totem-preferences.c:303
+#: src/totem-preferences.c:299
 msgid "Select Subtitle Font"
 msgstr "Wybór czcionki napisów"
 
@@ -1715,11 +1721,11 @@ msgstr "Wtyczka obracania"
 msgid "Allows videos to be rotated if they are in the wrong orientation"
 msgstr "Umożliwia obracanie filmów, jeśli mają błędną orientację"
 
-#: src/plugins/rotation/totem-rotation.c:258
+#: src/plugins/rotation/totem-rotation.c:259
 msgid "_Rotate ↷"
 msgstr "_Obróć ↷"
 
-#: src/plugins/rotation/totem-rotation.c:262
+#: src/plugins/rotation/totem-rotation.c:263
 msgid "Rotate ↶"
 msgstr "Obróć ↶"
 
@@ -1931,3 +1937,14 @@ msgstr "Vimeo"
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr "Ustawia agenta użytkownika dla strony Vimeo"
+
+#~ msgid "Whether to autoload external chapter files when a movie is loaded"
+#~ msgstr ""
+#~ "Określa, czy automatycznie wczytywać zewnętrzne pliki rozdziałów podczas "
+#~ "wczytywania filmu"
+
+#~ msgid "External Chapters"
+#~ msgstr "Zewnętrzne rozdziały"
+
+#~ msgid "Load _chapter files when movie is loaded"
+#~ msgstr "W_czytywanie pliku rozdziałów po wczytaniu filmu"

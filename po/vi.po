@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: totem master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/totem/issues\n"
-"POT-Creation-Date: 2019-02-27 17:45+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 13:45+0000\n"
 "PO-Revision-Date: 2019-02-28 08:07+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
-#: src/totem-grilo.c:1898 src/totem-object.c:3726
+#: src/totem-grilo.c:1901 src/totem-object.c:3729
 msgid "Videos"
 msgstr "Xem phim"
 
@@ -180,7 +180,7 @@ msgstr "Các thư mục muốn xem"
 msgid "Directories to show in the browse interface, none by default"
 msgstr "Các thư mục được hiển thị trong giao diện duyệt, không là mặc định"
 
-#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5659
+#: data/preferences.ui:13 src/backend/bacon-video-widget.c:5675
 msgid "Stereo"
 msgstr "Âm lập thể"
 
@@ -657,19 +657,19 @@ msgid ""
 "first."
 msgstr "Không thể phát tập tin này qua mạng. Hãy thử tải về trước."
 
-#: src/backend/bacon-video-widget.c:5655
+#: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
 msgstr "Âm thanh vòm"
 
-#: src/backend/bacon-video-widget.c:5657
+#: src/backend/bacon-video-widget.c:5673
 msgid "Mono"
 msgstr "Âm đơn"
 
-#: src/backend/bacon-video-widget.c:5945
+#: src/backend/bacon-video-widget.c:5961
 msgid "Media contains no supported video streams."
 msgstr "Thiết bị lưu trữ không hỗ trợ phát phim."
 
-#: src/backend/bacon-video-widget.c:6157
+#: src/backend/bacon-video-widget.c:6173
 msgid ""
 "Some necessary plug-ins are missing. Make sure that the program is correctly "
 "installed."
@@ -677,24 +677,45 @@ msgstr ""
 "Thiếu một số phần bổ sung cần thiết. Hãy kiểm tra xem chương trình được cài "
 "đặt đúng chưa."
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:277
-msgid "Unable to play the file"
-msgstr "Không thể phát tập tin"
+#. TRANSLATORS: this is a button to launch a codec installer.
+#. * %s will be replaced with the software installer's name, e.g.
+#. * 'Software' in case of gnome-software.
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:255
+#, c-format
+msgid "_Find in %s"
+msgstr "_Tìm trong %s"
 
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:280
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:256
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] ""
 "%s cần thiết để có thể phát tập tin nhưng mà nó lại chưa được cài đặt."
 
-#. TRANSLATORS: this is a button to launch a codec installer.
-#. * %s will be replaced with the software installer's name, e.g.
-#. * 'Software' in case of gnome-software.
-#: src/backend/bacon-video-widget-gst-missing-plugins.c:288
-#, c-format
-msgid "_Find in %s"
-msgstr "_Tìm trong %s"
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:268
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:271
+#, fuzzy
+msgid "Open with VLC"
+msgstr "Mở _bằng \"%s\""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:278
+msgid ""
+"This file type is currently unsupported in Videos. However, you can use VLC "
+"media player from the App Center to play it."
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:281
+msgid "Get VLC"
+msgstr ""
+
+#: src/backend/bacon-video-widget-gst-missing-plugins.c:340
+msgid "Unable to play the file"
+msgstr "Không thể phát tập tin"
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
@@ -802,15 +823,15 @@ msgstr "%s (Chương %d Hồi %d)"
 msgid "Browse Error"
 msgstr "Lỗi duyệt"
 
-#: src/totem-grilo.c:818
+#: src/totem-grilo.c:821
 msgid "Search Error"
 msgstr "Lỗi tìm kiếm"
 
-#: src/totem-grilo.c:1298
+#: src/totem-grilo.c:1301
 msgid "Local"
 msgstr "Nội bộ"
 
-#: src/totem-grilo.c:1907
+#: src/totem-grilo.c:1910
 msgid "Channels"
 msgstr "Kênh"
 
@@ -878,45 +899,45 @@ msgctxt "Language"
 msgid "Auto"
 msgstr "Tự động"
 
-#: src/totem-object.c:1388 src/totem-options.c:51
+#: src/totem-object.c:1391 src/totem-options.c:51
 msgid "Pause"
 msgstr "Tạm dừng"
 
-#: src/totem-object.c:1393 src/totem-object.c:1403 src/totem-options.c:50
+#: src/totem-object.c:1396 src/totem-object.c:1406 src/totem-options.c:50
 #: src/totemselectiontoolbar.ui:43
 msgid "Play"
 msgstr "Phát"
 
-#: src/totem-object.c:1470 src/totem-object.c:1498 src/totem-object.c:2045
+#: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
 #, c-format
 msgid "Totem could not play “%s”."
 msgstr "Totem không thể phát “%s”."
 
-#: src/totem-object.c:2217
+#: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
 msgstr "Totem không thể hiển thị nội dung trợ giúp."
 
-#: src/totem-object.c:2479
+#: src/totem-object.c:2482
 msgid "An error occurred"
 msgstr "Đã xảy ra lỗi"
 
-#: src/totem-object.c:3824
+#: src/totem-object.c:3827
 msgid "Previous Chapter/Movie"
 msgstr "Phần/Phim trước"
 
-#: src/totem-object.c:3830
+#: src/totem-object.c:3833
 msgid "Play / Pause"
 msgstr "Phát / Dừng"
 
-#: src/totem-object.c:3836
+#: src/totem-object.c:3839
 msgid "Next Chapter/Movie"
 msgstr "Phần/Phim kế"
 
-#: src/totem-object.c:4059
+#: src/totem-object.c:4062
 msgid "Totem could not startup."
 msgstr "Totem không thể khởi động."
 
-#: src/totem-object.c:4059
+#: src/totem-object.c:4062
 msgid "No reason."
 msgstr "Không lý do."
 
@@ -1666,11 +1687,11 @@ msgstr "Phần bổ sung xoay vòng"
 msgid "Allows videos to be rotated if they are in the wrong orientation"
 msgstr "Cho phép phim xoay nếu chúng sai hướng"
 
-#: src/plugins/rotation/totem-rotation.c:258
+#: src/plugins/rotation/totem-rotation.c:259
 msgid "_Rotate ↷"
 msgstr "_Quay ↷"
 
-#: src/plugins/rotation/totem-rotation.c:262
+#: src/plugins/rotation/totem-rotation.c:263
 msgid "Rotate ↶"
 msgstr "Quay ↶"
 
@@ -2067,9 +2088,6 @@ msgstr "Đặt chương trình đại diện cho trang Vimeo"
 
 #~ msgid "No URI to play"
 #~ msgstr "Không có URI để phát"
-
-#~ msgid "_Open with \"%s\""
-#~ msgstr "Mở _bằng \"%s\""
 
 #~ msgid "Totem Movie Player"
 #~ msgstr "Bộ phát phim Totem"
