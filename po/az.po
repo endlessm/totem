@@ -881,7 +881,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] "%d saniyə"
+msgstr[0] ""
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1917,6 +1917,7 @@ msgstr "Buraya _sar:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "saniyə"
+msgstr[1] "saniyə"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the

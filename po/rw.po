@@ -941,6 +941,7 @@ msgstr ""
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%dISEGONDA"
+msgstr[1] "%dISEGONDA"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1737,18 +1738,21 @@ msgstr ""
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%dISAHA"
+msgstr[1] "%dISAHA"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, fuzzy, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%dUMUNOTA"
+msgstr[1] "%dUMUNOTA"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, fuzzy, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%dISEGONDA"
+msgstr[1] "%dISEGONDA"
 
 # desktop/source\app\ssodlg.src:DLG_SSOLOGIN.text
 #. 5 hours 2 minutes 12 seconds

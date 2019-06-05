@@ -893,7 +893,6 @@ msgstr ""
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "0 saat"
-msgstr[1] "0 saat"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1699,8 +1698,7 @@ msgstr[0] "%d minit"
 #, fuzzy, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "0 saat"
-msgstr[1] "0 saat"
+msgstr[0] "%d saat"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1941,7 +1939,6 @@ msgstr "_Langkah ke:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "saat"
-msgstr[1] "saat"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the

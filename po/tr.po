@@ -3127,6 +3127,7 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgid "Showing %i - %i of %i match"
 #~ msgid_plural "Showing %i - %i of %i matches"
 #~ msgstr[0] "%3$i eşleşme içinde %1$i - %2$i gösteriliyor"
+#~ msgstr[1] "%3$i eşleşme içinde %1$i - %2$i gösteriliyor"
 
 #~ msgid "0 x 0"
 #~ msgstr "0 x 0"

@@ -873,6 +873,9 @@ msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d eilenn"
 msgstr[1] "%d eilennoù"
+msgstr[2] "%d eilennoù"
+msgstr[3] "%d eilennoù"
+msgstr[4] "%d eilennoù"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1902,6 +1905,9 @@ msgid "second"
 msgid_plural "seconds"
 msgstr[0] "eilenn"
 msgstr[1] "eilenn"
+msgstr[2] "eilenn"
+msgstr[3] "eilenn"
+msgstr[4] "eilenn"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the

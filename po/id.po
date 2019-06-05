@@ -634,11 +634,6 @@ msgstr[0] ""
 "terpasang:\n"
 "\n"
 "%s"
-msgstr[1] ""
-"Untuk memutar film ini, memerlukan pengaya berikut yang saat ini belum "
-"terpasang:\n"
-"\n"
-"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -694,7 +689,6 @@ msgstr "_Cari dalam %s"
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "%s diperlukan untuk memutar berkas, tapi tak terpasang."
-msgstr[1] "%s diperlukan untuk memutar berkas, tapi tak terpasang."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -865,7 +859,6 @@ msgstr "Klik pada butir untuk memilih mereka"
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d dipilih"
-msgstr[1] "%d dipilih"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1597,21 +1590,18 @@ msgstr "0 Kanal"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d jam"
-msgstr[1] "%d jam"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d menit"
-msgstr[1] "%d menit"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d detik"
-msgstr[1] "%d detik"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1847,7 +1837,6 @@ msgstr "_Melompat ke:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "detik"
-msgstr[1] "detik"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1944,7 +1933,6 @@ msgstr "Atur user agent bagi situs Vimeo"
 #~ msgid "%d frame per second"
 #~ msgid_plural "%d frames per second"
 #~ msgstr[0] "%d gambar per detik"
-#~ msgstr[1] "%d gambar per detik"
 
 #~ msgid "Audio/Video"
 #~ msgstr "Audio/Video"

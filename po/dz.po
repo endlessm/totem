@@ -672,9 +672,7 @@ msgid_plural ""
 "\n"
 "%s"
 msgstr[0] ""
-"འ་ནི་གློག་བརྙན་འདི་གི་ གླུ་གཞས་གཏང་ནི་ལུ་ གཞི་བཙུགས་འབད་མི་ '%s' པ་ལག་ཨིན་ཅིག་དགོཔ་ཨིན་"
 msgstr[1] ""
-"འ་ནི་གློག་བརྙན་འདི་གི་ གླུ་གཞས་གཏང་ནི་ལུ་ གཞི་བཙུགས་འབད་མི་ '%s' པ་ལག་ཨིན་ཅིག་དགོཔ་ཨིན་"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -900,7 +898,6 @@ msgstr ""
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "སྐར་ཆ་%d"
-msgstr[1] "སྐར་ཆ་%d"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1928,7 +1925,6 @@ msgstr "ལུ་ གོམ་འགྱོ་:(_S)"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "སྐར་ཆ་ཚུ"
-msgstr[1] "སྐར་ཆ་ཚུ"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the

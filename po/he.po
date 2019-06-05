@@ -3253,6 +3253,8 @@ msgstr "הגדרת סוכן המשתמש ל־Vimeo"
 #~ msgid_plural "Showing %i - %i of %i matches"
 #~ msgstr[0] "מוצגת %i‏ - %i מתוך התאמה אחת"
 #~ msgstr[1] "מוצגות %i‏ - %i מתוך %i התאמות"
+#~ msgstr[2] "מוצגות %i‏ - %i מתוך %i התאמות"
+#~ msgstr[3] "מוצגות %i‏ - %i מתוך %i התאמות"
 
 #~ msgid "Page"
 #~ msgstr "עמוד"

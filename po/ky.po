@@ -1593,21 +1593,18 @@ msgstr "0 канал"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d саат"
-msgstr[1] "%d саат"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d мүнөт"
-msgstr[1] "%d мүнөт"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
-msgstr[1] "%d секунда"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1840,7 +1837,6 @@ msgstr "_Өтүү:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунда"
-msgstr[1] "секунда"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
