@@ -1,28 +1,26 @@
-# Persian translation of totem.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the totem package.
-# Copyright (C) 2010-2011 Iranian Free Software Users Group (IFSUG.org)translation team.
-# Copyright (C) 2005 Sharif FarsiWeb, Inc.
-# Meelad Zakaria <meelad@farsiweb.info>, 2005.
-# Roozbeh Pournader <roozbeh@farsiweb.info>, 2005.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
-# Mohammad Javad Badiee <m.j.badiee@gmail.com>, 2010.
-# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2011.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
+# Will Thompson <wjt@endlessm.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: totem HEAD\n"
+"Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2017-09-22 22:42+0330\n"
-"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
-"Language-Team: Persian\n"
-"Language: fa\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
+"Language-Team: Persian (https://www.transifex.com/endless-os/teams/9016/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.3\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -36,34 +34,28 @@ msgid "Play movies"
 msgstr "پخش فیلم‌ها"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:11
-#, fuzzy
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
-"ویدئوها، که با عنوان توتم نیز شناخته می‌شود، پخش‌کننده‌ی ویدئویی پیش‌فرض محیط "
-"میزکار گنوم است. شامل یک فهرست قابل جست‌وجو از ویدئوهای محلی، دی‌وی‌دی‌ها، در "
-"کنار ویدئوهای محلی به‌اشتراک گذاشته شده در شبکه (با استفاده از UPnP/DLNA) و "
-"نمایش ویدئوهای پرطرفدار از تعدادی از سایت‌های اینترنتی است."
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
-#, fuzzy
 msgid ""
 "Videos comes with added functionality such as a subtitle downloader, the "
 "ability to speed up or down playback, create screenshot galleries, and "
 "support for recording DVDs."
 msgstr ""
-"توتم با ویژگی‌های افزوده‌ای مثل: بارگیری زیرنویس، و پشتیبانی از ضبط دی‌وی‌دی‌ها "
-"ارائه می‌شود."
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr "ویدئو;فیلم سینمایی;فیلم;کلیپ;سریال;پخش کننده;دی وی دی;تلویزیون;دیسک;"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -105,8 +97,8 @@ msgid ""
 "Amount of data to buffer for network streams before starting to display the "
 "stream (in seconds)."
 msgstr ""
-"مقدار اطلاعاتی که برای جریان‌های شبکه‌ای، قبل از نمایش دادن جریان‌ها میانگیر "
-"می‌شود (به ثانیه)"
+"مقدار اطلاعاتی که برای جریان‌های شبکه‌ای، قبل از نمایش دادن جریان‌ها میانگیر"
+" می‌شود (به ثانیه)"
 
 #: data/org.gnome.totem.gschema.xml.in:39
 msgid "Subtitle font"
@@ -136,7 +128,8 @@ msgstr "مکان پیش‌فرض برای محاوره‌های «باز کرد�
 #: data/org.gnome.totem.gschema.xml.in:56
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
-msgstr "مکان پیش‌فرض برای محاوره‌های «بازکردن…». مکان پیش‌فرض شاخهٔ فعلی می‌باشد."
+msgstr ""
+"مکان پیش‌فرض برای محاوره‌های «بازکردن…». مکان پیش‌فرض شاخهٔ فعلی می‌باشد."
 
 #: data/org.gnome.totem.gschema.xml.in:60
 msgid "Default location for the “Take Screenshot” dialogs"
@@ -147,8 +140,8 @@ msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
 msgstr ""
-"مکان پیش‌فرض برای محاوره‌های «عکس گرفتن از صفحه». محل پیش‌فرض شاخهٔ «عکس‌ها» "
-"می‌باشد"
+"مکان پیش‌فرض برای محاوره‌های «عکس گرفتن از صفحه». محل پیش‌فرض شاخهٔ «عکس‌ها»"
+" می‌باشد"
 
 #: data/org.gnome.totem.gschema.xml.in:65
 msgid "Whether to disable the plugins in the user’s home directory"
@@ -160,7 +153,8 @@ msgstr "اینکه آیا میانبرهای صفحه کلید غیرفعال ش
 
 #: data/org.gnome.totem.gschema.xml.in:73
 msgid "Whether to autoload text subtitle files when a movie is loaded"
-msgstr "اینکه پس از بارگیری فیلم به طور خودکار پرونده‌های زیرنویس بارگیری شوند."
+msgstr ""
+"اینکه پس از بارگیری فیلم به طور خودکار پرونده‌های زیرنویس بارگیری شوند."
 
 #: data/org.gnome.totem.gschema.xml.in:77
 msgid "Active plugins list"
@@ -171,8 +165,8 @@ msgid ""
 "A list of the names of the plugins which are currently active (loaded and "
 "running)."
 msgstr ""
-"فهرستی از نام متصل شونده‌ها که در حال حاضر فعال هستند (بارگذاری شده و در حال "
-"اجرا)."
+"فهرستی از نام متصل شونده‌ها که در حال حاضر فعال هستند (بارگذاری شده و در حال"
+" اجرا)."
 
 #: data/org.gnome.totem.gschema.xml.in:82
 msgid "Directories to show"
@@ -481,31 +475,36 @@ msgstr "اضافه کردن ویدئو ا_ینترنتی..."
 msgid "_Aspect Ratio"
 msgstr "_نسبت عرض به ارتفاع"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "خودکار"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
 msgctxt "Aspect ratio"
 msgid "Square"
 msgstr "مربع"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
 msgstr "۴:۳ (تلویزیون)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
 msgstr "۱۶:۹ (صفحه عریض)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
@@ -615,9 +614,8 @@ msgid "The movie could not be read."
 msgstr "فیلم قابل خواندن نیست."
 
 #: src/backend/bacon-video-widget.c:3948
-#, fuzzy
 msgid "This file is encrypted and cannot be played back."
-msgstr "پرونده‌ی صوتی/تصویری قابل پخش نیست."
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3954
 msgid "The file you tried to play is an empty file."
@@ -626,10 +624,10 @@ msgstr ""
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] ""
@@ -644,15 +642,16 @@ msgstr[1] ""
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
-msgstr "این جریان قابل پخش نیست. ممکن است دیوارآتشین جریان را مسدود کرده باشد."
+msgstr ""
+"این جریان قابل پخش نیست. ممکن است دیوارآتشین جریان را مسدود کرده باشد."
 
 #: src/backend/bacon-video-widget.c:4000
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
-"یک جریان صوتی یا تصویری به دلیل نبود کُدِک مناسب قابل اجرا نیست. ممکن است لازم "
-"باشد جهت پخش بعضی از انواع فیلم‌ها، افزونه‌ای اضافی نصب کنید"
+"یک جریان صوتی یا تصویری به دلیل نبود کُدِک مناسب قابل اجرا نیست. ممکن است "
+"لازم باشد جهت پخش بعضی از انواع فیلم‌ها، افزونه‌ای اضافی نصب کنید"
 
 #: src/backend/bacon-video-widget.c:4011
 msgid ""
@@ -675,8 +674,8 @@ msgstr "رسانه حاوی هیچ ویدیوی جاری پشتیبانی شده
 
 #: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
 "تعدادی از افزونه‌های لازم موجود نیست. مطمئن شوید که برنامه به‌درستی نصب شده "
 "است."
@@ -703,9 +702,8 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
-#, fuzzy
 msgid "Open with VLC"
-msgstr "_باز کردن با «%s»"
+msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
@@ -726,7 +724,6 @@ msgstr "پخش پرونده ممکن نبود"
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -738,7 +735,6 @@ msgstr "%Id:%I02d:%I02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
 #, c-format
 msgctxt "long time format"
@@ -750,7 +746,6 @@ msgstr "-%Id:%I02d:%I02d"
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
 #, c-format
 msgctxt "short time format"
@@ -762,7 +757,6 @@ msgstr "-%Id:%I02d"
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -785,9 +779,12 @@ msgstr "مقدار دهی اولیه کتابخانه‌های thread-safe ام�
 msgid "Verify your system installation. Totem will now exit."
 msgstr "از صحت نصب سیستمتان مطمئن شوید. توتم خارج می‌شود."
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -886,21 +883,21 @@ msgid "Search"
 msgstr "جستجو"
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "قطعه صدا #%Id"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "زیرنویس‌ها"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "هیچ‌کدام"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
 msgctxt "Language"
 msgid "Auto"
@@ -1289,8 +1286,8 @@ msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
-"ارسال اعلان مربوط به فیلم‌های درحال پخش کنونی و اجازه کنترل دوردست با استفاده "
-"از MPRIS."
+"ارسال اعلان مربوط به فیلم‌های درحال پخش کنونی و اجازه کنترل دوردست با "
+"استفاده از MPRIS."
 
 #: src/plugins/dbusservice/dbusservice.py:210
 #: src/plugins/dbusservice/dbusservice.py:238
@@ -1518,38 +1515,33 @@ msgstr "کانال‌ها:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "ناشناخته"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "ناشناخته"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "ناشناخته"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "ناشناخته"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "ناشناخته"
+msgstr ""
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
@@ -1641,11 +1633,12 @@ msgstr "گذرواژه‌ی rpdb2"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"یک گذرواژه برای محافظت کارگزار rpdb2 از اشکال زدایی توتم با دسترسی‌هایِ از راه "
-"دورِ تایید نشده. اگر اینجا خالی باشد، مقدار پیش‌فرض «totem» استفاده خواهد شد."
+"یک گذرواژه برای محافظت کارگزار rpdb2 از اشکال زدایی توتم با دسترسی‌هایِ از "
+"راه دورِ تایید نشده. اگر اینجا خالی باشد، مقدار پیش‌فرض «totem» استفاده "
+"خواهد شد."
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
 msgid "Python Console"
@@ -1671,7 +1664,8 @@ msgstr "اشکال‌یاب پیتون"
 #, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
 msgstr ""
-"شما می‌توانید از طریق «totem_object» به Totem.Object دسترسی داشته باشید:\\n%s"
+"شما می‌توانید از طریق «totem_object» به Totem.Object دسترسی داشته "
+"باشید:\\n%s"
 
 #: src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1721,9 +1715,8 @@ msgid "Save a copy of the currently playing movie"
 msgstr "ذخیره یک رونوشت از فیلمی که هم‌اکنون پخش می‌شود"
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "امکان رونوشت از دیسک ویدیو نبود."
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1845,7 +1838,8 @@ msgstr "محاوره «پرش به» را فراهم می‌کند"
 msgid "_Skip to:"
 msgstr "_پرش به:"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
 msgid "second"
@@ -1853,10 +1847,14 @@ msgid_plural "seconds"
 msgstr[0] "ثانیه"
 msgstr[1] "ثانیه"
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
@@ -1920,1248 +1918,3 @@ msgstr "Vimeo"
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr "تنظیم مامور کاربر (user agent) برای سایت Vimeo"
-
-#~ msgid "Whether to autoload external chapter files when a movie is loaded"
-#~ msgstr ""
-#~ "اینکه پس از بارگیری فیلم، پرونده‌های فصل‌های خارجی به طور خودکار بارگیری "
-#~ "شوند."
-
-#~ msgid "External Chapters"
-#~ msgstr "فصل‌های خارجی"
-
-#~ msgid "Load _chapter files when movie is loaded"
-#~ msgstr "بعد از بارگیری فیلم، پرونده‌های فصل _بارگیری شوند"
-
-#~ msgid "_Quit"
-#~ msgstr "_خروج"
-
-#~ msgid "Subtitle #%d"
-#~ msgstr "زیرنویس #%Id"
-
-#~ msgid "%d frame per second"
-#~ msgid_plural "%d frames per second"
-#~ msgstr[0] "%Id فریم بر ثانیه"
-#~ msgstr[1] "%Id فریم بر ثانیه"
-
-#~ msgid "Audio/Video"
-#~ msgstr "صوتی/تصویری"
-
-#~ msgid "N/A"
-#~ msgstr "نامعلوم"
-
-#~ msgctxt "Number of audio channels"
-#~ msgid "N/A"
-#~ msgstr "نامعلوم"
-
-#~ msgid "%s / %s"
-#~ msgstr "‏%s‏ / ‏%s‏"
-
-#~ msgid "Seek to %s / %s"
-#~ msgstr "پریدن به ‏%s‏ / ‏%s‏"
-
-#~ msgid "Gromit Annotations"
-#~ msgstr "یادداشت‌های گرومیت"
-
-#~ msgid "Presentation helper to make annotations on screen"
-#~ msgstr "دستیار ارایه برای ایجاد یادداشت‌ها روی صفحه‌نمایش"
-
-#~ msgid "The gromit binary was not found."
-#~ msgstr "فایل اجرایی گرومیت (grmoit) یافت نشد."
-
-#~ msgid "Always On Top"
-#~ msgstr "همیشه در بالا"
-
-#~ msgid "Keep the main window on top when playing a movie"
-#~ msgstr "بالا نگاه داشتن پنجره‌ی اصلی هنگام پخش فیلم"
-
-#~ msgid "Zeitgeist Plugin"
-#~ msgstr "افزونه Zeitgeist"
-
-#~ msgid "A plugin sending events to Zeitgeist"
-#~ msgstr "یک پلاگین برای ارسال اتفاقات به Zeitgeist"
-
-#~ msgid "Video thumbnailer for the file manager"
-#~ msgstr "ساخت عکس بندانگشتی ویدئوها برای مدیرپرونده"
-
-#~ msgid "Files properties tab"
-#~ msgstr "زبانه ‌ویژگی‌های پرونده"
-
-#~ msgid "Plugins..."
-#~ msgstr "افزونه‌ها..."
-
-#~ msgctxt "shortcut window"
-#~ msgid "Preferences"
-#~ msgstr "ترجیحات"
-
-#~ msgid "Audio Preview"
-#~ msgstr "پیش‌نمایش صوتی"
-
-#~ msgid "%d x %d"
-#~ msgstr "%Id × %Id"
-
-#~ msgid "Whether to enable debug for the playback engine"
-#~ msgstr "این که آیا اشکال‌زدا برای موتور پخش به کار انداخته بشود یا نه."
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "برای مشاهده لیست کاملی از گزینه‌های خط فرمان دستور '%s --help' را اجرا "
-#~ "نمایید.\n"
-
-#~ msgid "Enable debug"
-#~ msgstr "به کار انداختن اشکال‌زدا"
-
-#~ msgid "- Play movies and songs"
-#~ msgstr "- آهنگ ها و فیلم ها را پخش کن"
-
-#~ msgid "_Remove Chapter"
-#~ msgstr "_حذف فصل"
-
-#~ msgid "Remove the chapter from the list"
-#~ msgstr "حذف فصل از فهرست"
-
-#~ msgid "_Go to Chapter"
-#~ msgstr "_برو به فصل"
-
-#~ msgid "Go to the chapter in the movie"
-#~ msgstr "‌رفتن به فصل در این فیلم"
-
-#~ msgid "Add Chapter…"
-#~ msgstr "اضافه‌کردن فصل..."
-
-#~ msgid "Remove Chapter"
-#~ msgstr "حذف فصل"
-
-#~ msgid "Go to Chapter"
-#~ msgstr "برو به فصل"
-
-#~ msgid "Save Changes"
-#~ msgstr "ذخیره‌ی تغییرات"
-
-#~ msgid "No chapter data"
-#~ msgstr "داده‌ای از فصل موجود نیست"
-
-#~ msgid "Load Chapters…"
-#~ msgstr "بارکردن فصل‌ها..."
-
-#~ msgid "Load chapters from an external CMML file"
-#~ msgstr "بارکردن فصل‌ها از پرونده‌ی خارجی CMML"
-
-#~ msgid "Add New Chapters"
-#~ msgstr "افزودن فصل‌های جدید"
-
-#~ msgid "Create a new chapter list for the movie"
-#~ msgstr "ایجاد یک فهرست فصل‌های جدید برایاین فیلم"
-
-#~ msgid "Chapters"
-#~ msgstr "فصل‌ها"
-
-#~ msgid "Support chapter markers in movies"
-#~ msgstr "پشتیبانی از نشانگرهای فصل در فیلم‌ها"
-
-#~ msgid ""
-#~ "<b>Title: </b>%s\n"
-#~ "<b>Start time: </b>%s"
-#~ msgstr ""
-#~ "<b>عنوان: </b>%s\n"
-#~ "<b>زمان شروع: </b>%s"
-
-#~ msgid "Error while reading file with chapters"
-#~ msgstr "خطا در هنگام خواندن پرونده با فصل‌ها"
-
-#~ msgid "Chapter with the same time already exists"
-#~ msgstr "فصلی با همین زمان پیشاپیش وجود دارد"
-
-#~ msgid "Try another name or remove an existing chapter."
-#~ msgstr "نام دیگری امتحان کنید و یا یک فصل موجود را حذف کنید"
-
-#~ msgid "Error while writing file with chapters"
-#~ msgstr "خطا در هنگام نوشتن پرونده همراه با فصل‌ها"
-
-#~ msgid "Error occurred while saving chapters"
-#~ msgstr "خطایی هنگام ذخیره‌ی فصل‌ها رخ داد."
-
-#~ msgid ""
-#~ "Please check you have permission to write to the folder containing the "
-#~ "movie."
-#~ msgstr ""
-#~ "لطفا بررسی کنید که آیا مجوز برای نوشتن در پوشه‌ی دربرگیرنده‌ی فیلم را داشته "
-#~ "باشید."
-
-#~ msgid "Open Chapter File"
-#~ msgstr "باز کردن پرونده‌ی فصل"
-
-#~ msgid "Supported files"
-#~ msgstr "پرونده‌هایی که پشتیبانی می‌شود"
-
-#~ msgid "Chapter Screenshot"
-#~ msgstr "عکس صفحه‌ی فصل"
-
-#~ msgid "Chapter Title"
-#~ msgstr "عنوان فصل"
-
-#~ msgid "Save changes to chapter list before closing?"
-#~ msgstr "آیا پیش از خروج، تغییرات در فهرست فصل‌ها ذخیره شوند؟"
-
-#~ msgid "Close without Saving"
-#~ msgstr "بستن بدون ذخیره"
-
-#~ msgid "Save"
-#~ msgstr "ذخیره"
-
-#~ msgid "If you don't save, changes to the chapter list will be lost."
-#~ msgstr "اگر ذخیره نکنید، تغییرات در فهرست فصل‌ها از دست خواهد رفت."
-
-#~ msgid "Add Chapter"
-#~ msgstr "اضافه‌کردن فصل"
-
-#~ msgid "Stopped"
-#~ msgstr "متوقف شده"
-
-#~ msgid "Paused"
-#~ msgstr "مکث شده"
-
-#~ msgid "Playing"
-#~ msgstr "در حال پخش"
-
-#~ msgid "No URI to play"
-#~ msgstr "آدرسی برای پخش نیست"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "پخش‌کننده‌ی فیلم توتم"
-
-#~ msgid "No playlist or playlist empty"
-#~ msgstr "فهرست پخشی وجود ندارد و یا خالی است"
-
-#~ msgid "Movie browser plugin"
-#~ msgstr "افزونه‌ی مرورگر فیلم"
-
-#~ msgid "Verify your system installation. The Totem plugin will now exit."
-#~ msgstr "از درستی نصب سیستمتان مطمئن شوید. افزونه‌ی توتم هم‌اکنون خارج می‌شود."
-
-#~ msgid "Leave Fullscreen"
-#~ msgstr "ترک حالت تمام‌صفحه"
-
-#~ msgid "Time:"
-#~ msgstr "زمان:"
-
-#~ msgid "Allow the screensaver to activate when playing audio"
-#~ msgstr "اجازه بده تا محافظ صفحه‌نمایش در هنگام پخش صوت فعال شود"
-
-#~ msgid ""
-#~ "Allow the screensaver to activate when playing audio. Disable if you have "
-#~ "monitor-powered speakers."
-#~ msgstr ""
-#~ "هنگام پخش صوت اجازه‌ی فعالیت محافظ صفحه نمایش را بده. در صورت داشتن "
-#~ "بلندگوهای monitor-powered این گزینه را غیرفعال کنید."
-
-#~ msgid "Show visual effects when no video is displayed"
-#~ msgstr "نشان دادن جلوه‌های تصویری وقتی ویدیویی پخش نمی‌شود"
-
-#~ msgid "Show visual effects when playing an audio only file."
-#~ msgstr "نشان دادن جلوه‌های تصویری هنگام پخش پرونده‌های فقط صوتی"
-
-#~ msgid "Name of the visual effects plugin"
-#~ msgstr "نام متصل‌شونده‌ی جلوه‌های تصویری"
-
-#~ msgid "Resize the canvas automatically on file load"
-#~ msgstr "تغییر اندازه‌ی خودکار بوم هنگام بار کردن پرونده"
-
-#~ msgid "Shuffle mode"
-#~ msgstr "حالت تصادفی"
-
-#~ msgid "Visualization quality setting"
-#~ msgstr "تنظیمات کیفیت تصویرسازی"
-
-#~ msgid "Quality setting for the audio visualization."
-#~ msgstr "تنظیمات کیفیت برای تصویر‌سازی صوتی"
-
-#~ msgid ""
-#~ "Whether to remember the position of played audio/video files when pausing "
-#~ "or closing them"
-#~ msgstr ""
-#~ "اینکه آیا محل پرونده‌ی صوتی/تصویری که پخش شده است در زمان مکث با خروج به "
-#~ "خاطر بماند با خیر"
-
-#~ msgid "_Remove"
-#~ msgstr "_حذف"
-
-#~ msgid "Remove file from playlist"
-#~ msgstr "حذف فایل از فهرست پخش"
-
-#~ msgid "_Copy Location"
-#~ msgstr "_رونوشت از مکان"
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "رونوشت از مکان در تخته‌گیره"
-
-#~ msgid "_Select Text Subtitles..."
-#~ msgstr "_انتخاب متن زیرنویس..."
-
-#~ msgid "Select a file to use for text subtitles"
-#~ msgstr "یک فایل را برای استفاده به عنوان زیرنویس انتخاب کنید"
-
-#~ msgid "Add..."
-#~ msgstr "افزودن..."
-
-#~ msgid "Remove"
-#~ msgstr "حذف"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "ذخیره‌ی فهرست پخش..."
-
-#~ msgid "Move Up"
-#~ msgstr "بالا رفتن"
-
-#~ msgid "Move Down"
-#~ msgstr "پایین رفتن"
-
-#~ msgid "Large"
-#~ msgstr "بزرگ"
-
-#~ msgid "Extra Large"
-#~ msgstr "خیلی بزرگ"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "ترجیحات توتم"
-
-#~ msgid "Start playing files from last position"
-#~ msgstr "شروع به پخش پرونده‌ها از محل قبلی"
-
-#~ msgid "_Resize the window when a new video is loaded"
-#~ msgstr "_تنظیم اندازه پنجره هنگام بارگیری یک ویدیو جدید"
-
-#~ msgid "Disable screensaver when playing"
-#~ msgstr "از کار انداختن محافظ صفحه‌نمایش هنگام پخش"
-
-#~ msgctxt "Screensaver disable"
-#~ msgid "Video"
-#~ msgstr "ویديو"
-
-#~ msgid "Video or Audio"
-#~ msgstr "ویدیو یا صوت"
-
-#~ msgid "Visual Effects"
-#~ msgstr "جلوه‌های تصویری"
-
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr "نشان دادن _جلوه‌های تصویری هنگام پخش پرونده‌های صوتی"
-
-#~ msgid "_Type of visualization:"
-#~ msgstr "نو_ع تصویرسازی:"
-
-#~ msgid "Visualization _size:"
-#~ msgstr "ا_ندازه‌ی تصویرسازی:"
-
-#~ msgid "Open _Location"
-#~ msgstr "باز کردن _مکان"
-
-#~ msgid "_Fullscreen"
-#~ msgstr "_تمام‌صفحه"
-
-#~ msgid "_Movie"
-#~ msgstr "_فیلم"
-
-#~ msgid "Eject the current disc"
-#~ msgstr "بیرون دادن دیسک کنونی"
-
-#~ msgid "View the properties of the current stream"
-#~ msgstr "نمایش ترجیحات جریان جاری"
-
-#~ msgid "Play / P_ause"
-#~ msgstr "_پخش/مکث"
-
-#~ msgid "Play or pause the movie"
-#~ msgstr "پخش یا مکث در پخش فیلم"
-
-#~ msgid "_Edit"
-#~ msgstr "_ویرایش"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "پا_ک کردن فهرست پخش"
-
-#~ msgid "Clear the playlist"
-#~ msgstr "پاک کردن فهرست پخش"
-
-#~ msgid "Configure plugins to extend the application"
-#~ msgstr "پیکربندی افزونه‌ها برای گسترش برنامه"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "_هم‌اندازه کردن پنجره با فیلم"
-
-#~ msgid "_Resize 1∶2"
-#~ msgstr "ت_غییر اندازه ۱:۲"
-
-#~ msgid "Resize to half the original video size"
-#~ msgstr "تغییر اندازه به نصف اندازه‌ی ویدیوی اصلی"
-
-#~ msgid "Resize _1∶1"
-#~ msgstr "تغییر اندازه _۱:۱"
-
-#~ msgid "Resize to the original video size"
-#~ msgstr "تغییر اندازه به اندازه‌ی ویدیوی اصلی"
-
-#~ msgid "Resize _2∶1"
-#~ msgstr "تغییر اندازه _۱:۲"
-
-#~ msgid "Resize to double the original video size"
-#~ msgstr "تغییر اندازه به دوبرابر اندازه‌ی ویدیوی اصلی"
-
-#~ msgid "Switch camera angles"
-#~ msgstr "تعویض زاویه‌های دوربین"
-
-#~ msgid "_Go"
-#~ msgstr "_رفتن"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "رفتن به منوی دی‌وی‌دی"
-
-#~ msgid "Go to the title menu"
-#~ msgstr "رفتن به منوی عنوان"
-
-#~ msgid "Go to the audio menu"
-#~ msgstr "رفتن به منوی صدا"
-
-#~ msgid "Go to the angle menu"
-#~ msgstr "رفتن به منوی زاویه"
-
-#~ msgid "Go to the chapter menu"
-#~ msgstr "‌رفتن به منوی فصل‌ها"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "فصل/فیلم _بعدی"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "فصل یا فیلم بعدی"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "فصل/فیلم _قبلی"
-
-#~ msgid "_Sound"
-#~ msgstr "_صدا"
-
-#~ msgid "Volume _Up"
-#~ msgstr "_زیاد کردن صدا"
-
-#~ msgid "Volume _Down"
-#~ msgstr "_کم کردن صدا"
-
-#~ msgid "_Contents"
-#~ msgstr "_محتویات"
-
-#~ msgid "Help contents"
-#~ msgstr "محتویات راهنما"
-
-#~ msgid "_About"
-#~ msgstr "_درباره"
-
-#~ msgid "About this application"
-#~ msgstr "درباره‌ی این برنامه"
-
-#~ msgid "Show _Controls"
-#~ msgstr "نشان دادن _کنترل‌ها"
-
-#~ msgid "Show controls"
-#~ msgstr "نشان دادن کنترل‌ها"
-
-#~ msgid "S_idebar"
-#~ msgstr "نوار _کناری"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "نمایش یا عدم نمایش نوار کناری"
-
-#~ msgid "Sets automatic aspect ratio"
-#~ msgstr "تنظیم خودکار نسبت عرض به ارتفاع"
-
-#~ msgid "Sets square aspect ratio"
-#~ msgstr "تنظیم نسبت عرض به ارتفاع مربعی"
-
-#~ msgid "Sets 4∶3 (TV) aspect ratio"
-#~ msgstr "تنظیم نسبت عرض به ارتفاع ۴:۳ (تلویزیون)‏"
-
-#~ msgid "Sets 16∶9 (widescreen) aspect ratio"
-#~ msgstr "تنظیم نسبت عرض به ارتفاع ۱۶:۹ (صفحه عریض)‏"
-
-#~ msgid "Sets 2.11∶1 (DVB) aspect ratio"
-#~ msgstr "تنظیم نسبت عرض به ارتفاع ۲٫۱۱:۱ (DVB)"
-
-#~ msgid "Skip _Forward"
-#~ msgstr "پرش به _جلو"
-
-#~ msgid "Skip forward"
-#~ msgstr "پرش به جلو"
-
-#~ msgid "Skip _Backwards"
-#~ msgstr "پرش به _عقب"
-
-#~ msgid "Skip backwards"
-#~ msgstr "پرش به عقب"
-
-#~ msgid "Time seek bar"
-#~ msgstr "نوار پویش زمان"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "این یک پرونده‌ی معتبر desktop. نمی‌باشد"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "نسخه‌ی پرونده‌ی رومیزی ناشناخته '%s'"
-
-#~ msgid "Starting %s"
-#~ msgstr "در حال آغاز %s"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "برنامه  سندها را از طریق خط فرمان قبول نمی‌کند"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "گزینه‌ی راه‌اندازی ناشناخته‌: %Id"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr "امکان انتقال آدرس سند به یک ورودی رومیزی «Type=Link» نیست"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "مورد غیرقابل راه‌اندازی"
-
-#~ msgid "File _Format: %s"
-#~ msgstr "قالب _پرونده: %s"
-
-#~ msgid "All Files"
-#~ msgstr "تمام پرونده‌ها"
-
-#~ msgid "All Supported Files"
-#~ msgstr "همه‌ی پرونده‌های پشتیبانی شده"
-
-#~ msgid "By Extension"
-#~ msgstr "بر مبنای پسوند"
-
-#~ msgid "File Format"
-#~ msgstr "قالب پرونده"
-
-#~ msgid "Extension(s)"
-#~ msgstr "ضمیمه"
-
-#~ msgid ""
-#~ "The program was not able to find out the file format you want to use for `"
-#~ "%s'. Please make sure to use a known extension for that file or manually "
-#~ "choose a file format from the list below."
-#~ msgstr ""
-#~ "برنامه قادر به پیدا کردن قالبی که شما برای استفاده در «%s» انتخاب کرده‌اید "
-#~ "نشد. لطفا مطمئن شوید که از یک پسوند شناخته شده برای آن پرونده استفاده "
-#~ "می‌کنید و یا به صورت دستی یک قالب از فهرست زیر انتخاب کنید."
-
-#~ msgid "File format not recognized"
-#~ msgstr "قالب پرونده شناسایی نشد"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "از کار انداختن اتصال به مدیر نشست"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "مشخص کردن پرونده‌ی شامل پیکربندی ذخیره شده"
-
-#~ msgid "FILE"
-#~ msgstr "پرونده"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "شناسه‌ی مدیریت نشست را مشخص کنید"
-
-#~ msgid "ID"
-#~ msgstr "شناسه"
-
-#~ msgid "Session management options:"
-#~ msgstr "گزینه‌های مدیریت نشست:"
-
-#~ msgid "Show session management options"
-#~ msgstr "نمایش گزینه‌های مدیریت نشست"
-
-#~ msgid "_Play Now"
-#~ msgstr "در _حال پخش"
-
-#~ msgid "_Add to Playlist"
-#~ msgstr "_افزودن به فهرست پخش"
-
-#~ msgid "No File"
-#~ msgstr "پرونده‌ای نیست"
-
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "توتم یک نرم افزار آزاد است. شما می توانید بر اساس شروط مجوز GPL که توسط "
-#~ "بنیاد نرم افزار های آزاد (FSF) منتشر شده است، آنرا تغییر داده و یا توزیع "
-#~ "مجدد نمایید شما می توانید با صلاحدید خودتان از نسخه ۲ مجوز GPL یا نسخه "
-#~ "های بعدی استفاده کنید."
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "توتم به این امید توزیع می شود که کارآیی لازم را داشته باشد، ولی هیچ "
-#~ "تضمینی نمی دهد. حتی تضمین ضمنی برای کارامدی یا مناسب بودن برای یک کاربرد "
-#~ "خاص. برای اطلاعات بیشتر مجوز GPL را ملاحظه نمایید."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "احتمالا شما یک کپی از مجوز GPL را همراه توتم دریافت نموده اید. در غیر این "
-#~ "صورت تقاضای دریافت یک کپی را به آدرس زیر ارسال نمایید: Free Software "
-#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-
-#~ msgid ""
-#~ "Totem contains an exception to allow the use of proprietary GStreamer "
-#~ "plugins."
-#~ msgstr ""
-#~ "توتم حاوی یک استثنا برای استفاده اختصاصی از پلاگین GStreamer می باشد."
-
-#~ msgid "Copyright © 2002-2009 Bastien Nocera"
-#~ msgstr "Copyright © 2002-2005 Bastien Nocera"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "مهیار مقیمی <mahyar.moqimi@gmail.com>\n"
-#~ "محمد جواد بدیعی <m.j.badiee@gmail.com>‏‏\n"
-#~ "میلاد زکریا <meelad@farsiweb.info>‏\n"
-#~ "روزبه پورنادر <roozbeh@farsiweb.info>\n"
-#~ "آرش موسوی <mousavi.arash@gmail.com>"
-
-#~ msgid "Totem Website"
-#~ msgstr "پایگاه وب توتم"
-
-#~ msgid "Totem %s"
-#~ msgstr "توتم  %s"
-
-#~ msgid "Fullscreen"
-#~ msgstr "تمام‌صفحه"
-
-#~ msgid "Open Location..."
-#~ msgstr "باز کردن مکان..."
-
-#~ msgid "Show/Hide Controls"
-#~ msgstr "نمایش/عدم نمایش کنترل‌ها"
-
-#~ msgid "Playlist index"
-#~ msgstr "ایندکس فهرست پخش"
-
-#~ msgid "MP3 ShoutCast playlist"
-#~ msgstr "فهرست پخش MP3 ShoutCast"
-
-#~ msgid "MP3 audio (streamed)"
-#~ msgstr "قالب صوتی MP3(جریان یافته)"
-
-#~ msgid "MP3 audio (streamed, DOS format)"
-#~ msgstr "قالب صوتی MP3 (جریان یافته،قالب DOS)"
-
-#~ msgid "XML Shareable Playlist"
-#~ msgstr "قالب فهرست پخش قابل اشتراک XML ‏(XSPF)"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "ذخیره‌ی فهرست پخش ممکن نشد"
-
-#~ msgid "Save Playlist"
-#~ msgstr "ذخیره‌ی فهرست پخش"
-
-#~ msgid "Playlist"
-#~ msgstr "فهرست پخش"
-
-#~ msgid "Playlist error"
-#~ msgstr "خطای فهرست پخش"
-
-#~ msgid "0:00 / 0:00"
-#~ msgstr "۰:۰۰ / ۰:۰۰"
-
-#~ msgid "%s (Streaming)"
-#~ msgstr "%s (جاری)"
-
-#~ msgid "Buffering"
-#~ msgstr "در حال میانگیری"
-
-#~ msgid "%lf %%"
-#~ msgstr "٪%lf"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s، %s"
-
-#~ msgid "%s, %f %%"
-#~ msgstr "%s و ٪%If"
-
-#~ msgid "Audio files"
-#~ msgstr "پرونده‌های صوتی"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "فیلم یا فهرست پخش انتخاب کنید"
-
-#~ msgid "Add Directory"
-#~ msgstr "اضافه‌کردن لغت‌نامه"
-
-#~ msgid "Create a video DVD or a (S)VCD from the currently opened movie"
-#~ msgstr "ساخت ویدیو دی‌وی‌دی یا (اس)وی‌سی‌دی از فیلمی که هم‌اکنون باز شده"
-
-#~ msgid "Copy the currently playing video DVD"
-#~ msgstr "رونوشت از ویدیو دی‌وی‌دی که هم‌اکنون پخش می‌شود"
-
-#~ msgid "Copy the currently playing (S)VCD"
-#~ msgstr "رونوشت از (اس)وی‌سی‌دی که هم‌اکنون پخش می‌شود"
-
-#~ msgid "Add Chapter..."
-#~ msgstr "افزودن فصل..."
-
-#~ msgid "D-Bus Service"
-#~ msgstr "سرویس D-Bus"
-
-#~ msgid "The URI ‘%s’ is not supported."
-#~ msgstr "آدرس «%s» پشتیبانی می‌شود."
-
-#~ msgid "Grilo Browser"
-#~ msgstr "مرورگر گریلو"
-
-#~ msgid "A plugin to let you browse media content from various sources"
-#~ msgstr "یک پلاگین که به شما امکان مرور رسانه‌ها از منابع مختلف می‌دهد"
-
-#~ msgid "Copy Location"
-#~ msgstr "رونوشت از مکان"
-
-#~ msgid "Browse"
-#~ msgstr "مرور"
-
-#~ msgid "Download movie subtitles from OpenSubtitles"
-#~ msgstr "باگیری زیرنویس فیلم‌ها از OpenSubtitles"
-
-#~ msgid "Python Console Menu"
-#~ msgstr "منوی پایانه‌ی پیتون"
-
-#~ msgid "Show Totem's Python console"
-#~ msgstr "نمایش پایانه‌ی پیتون توتم"
-
-#~ msgid "Enable remote Python debugging with rpdb2"
-#~ msgstr "فعال کردن اشکال‌یابی دوردست پیتون بوسیله rpdb2"
-
-#~ msgid "_Rotate Clockwise"
-#~ msgstr "_چرخش در جهت عقربه‌ها"
-
-#~ msgid "Rotate Counterc_lockwise"
-#~ msgstr "جرخش بر_خلاف جهت عقربه‌ها"
-
-#~ msgid "Save a Copy..."
-#~ msgstr "ذخیرهٔ یک رونوشت..."
-
-#~ msgid "Save a copy of the movie"
-#~ msgstr "ذخیره‌ی یک رونوشت از فیلم"
-
-#~ msgid "Save a Copy"
-#~ msgstr "ذخیره‌ی یک رونوشت"
-
-#~ msgid "Movie stream"
-#~ msgstr "جریان فیلم"
-
-#~ msgid "Take a screenshot"
-#~ msgstr "گرفتن یک عکس از صفحه"
-
-#~ msgid "Create a gallery of screenshots"
-#~ msgstr "ساخت یک گالری از عکس‌های صفحه"
-
-#~ msgid "_Skip To..."
-#~ msgstr "_پرش به..."
-
-#~ msgid "Skip to a specific time"
-#~ msgstr "پرش به زمان مشخص"
-
-#~ msgid "No error message"
-#~ msgstr "پیغام خطایی وجود ندارد"
-
-#~ msgid "Add the video to the playlist"
-#~ msgstr "افزودن ویديو به فهرست پخش"
-
-#~ msgid "Unknown video"
-#~ msgstr "ویديوی ناشناس"
-
-#~ msgid "No video URI"
-#~ msgstr "بدون آدرس ویدیو"
-
-#~ msgid "Play movies and songs"
-#~ msgstr "پخش فیلم و آهنگ"
-
-#~ msgid "Open a file"
-#~ msgstr "باز کردن یک پرونده"
-
-#~ msgid "Open a non-local file"
-#~ msgstr "باز کردن یک پرونده‌ی غیر محلی"
-
-#~ msgid "Quit the program"
-#~ msgstr "ترک برنامه"
-
-#~ msgid "Configure the application"
-#~ msgstr "پیکربندی برنامه"
-
-#~ msgid "Set the repeat mode"
-#~ msgstr "تنظیم حالت تکرار"
-
-#~ msgid "Set the shuffle mode"
-#~ msgstr "تنظیم حالت تصادفی"
-
-#~ msgid "14.4 Kbps Modem"
-#~ msgstr "مودم با سرعت ۱۴.۴ کیلوبیت/ثانیه"
-
-#~ msgid "19.2 Kbps Modem"
-#~ msgstr "مودم با سرعت ۱۹.۲ کیلوبیت/ثانیه"
-
-#~ msgid "28.8 Kbps Modem"
-#~ msgstr "مودم با سرعت ۲۸.۸ کیلوبیت/ثانیه"
-
-#~ msgid "33.6 Kbps Modem"
-#~ msgstr "مودم با سرعت ۳۳.۶ کیلوبیت/ثانیه"
-
-#~ msgid "34.4 Kbps Modem"
-#~ msgstr "مودم با سرعت ۲۴.۴ کیلوبیت/ثانیه"
-
-#~ msgid "56 Kbps Modem/ISDN"
-#~ msgstr "مودم/ISDN با سرعت ۵۶ کیلوبیت/ثانیه"
-
-#~ msgid "112 Kbps Dual ISDN/DSL"
-#~ msgstr "نوع ISDN/DSL دوگانه با سرعت ۱۱۲ کیلوبیت/ثانیه"
-
-#~ msgid "256 Kbps DSL/Cable"
-#~ msgstr "DSL/Cable با سرعت ۲۵۶ کیلوبیت/ثانیه"
-
-#~ msgid "384 Kbps DSL/Cable"
-#~ msgstr "نوع DSL/Cable با سرعت ۳۸۴ کیلوبیت/ثانیه"
-
-#~ msgid "512 Kbps DSL/Cable"
-#~ msgstr "نوع DSL/Cable با سرعت ۵۱۲ کیلوبیت/ثانیه"
-
-#~ msgid "1.5 Mbps T1/Intranet/LAN"
-#~ msgstr "اینترانت/شبکه محلی/T1 با سرعت ۱.۵ Mbps"
-
-#~ msgid "Intranet/LAN"
-#~ msgstr "اینترانت/شبکه محلی"
-
-#~ msgid "Networking"
-#~ msgstr "شبکه"
-
-#~ msgid "Connection _speed:"
-#~ msgstr "_سرعت اتصال:"
-
-#~ msgid "Network connection speed"
-#~ msgstr "سرعت اتصال شبکه"
-
-#~ msgid ""
-#~ "Approximate network connection speed, used to select quality on media "
-#~ "over the network."
-#~ msgstr ""
-#~ "سرعت تقریبی اتصال شبکه، برای انتخاب کیفیت در رسانه بر روی شبکه استفاده "
-#~ "می‌شود."
-
-#~ msgid "Play Image '%s'"
-#~ msgstr "پخش تصویб دیسک '%s'"
-
-#~ msgid "device%l"
-#~ msgstr "ابزار %Id"
-
-#~ msgid "Play Disc '%s'"
-#~ msgstr "پخش دیسک «%s»"
-
-#~ msgid "Movie Player using %s"
-#~ msgstr "پخش‌کننده‌ی فیلم با استفاده از %s"
-
-#~ msgid ""
-#~ "Totem could not play this media (%s) although a plugin is present to "
-#~ "handle it."
-#~ msgstr ""
-#~ "توتم نتوانست این رسانه (%s) را پخش کند هر چند متصل‌شونده‌ای برای کار کردن "
-#~ "با آن موجود است."
-
-#~ msgid ""
-#~ "You might want to check that a disc is present in the drive and that it "
-#~ "is correctly configured."
-#~ msgstr "بهتر از وجود دیسک در دیسک‌گردان و پیکریندی صحیح آن  مطمئن شوید."
-
-#~ msgid "More information about media plugins"
-#~ msgstr "اطلاعات بیشتر درباره افزونه‌های صوتی/تصویری"
-
-#~ msgid ""
-#~ "Please install the necessary plugins and restart Totem to be able to play "
-#~ "this media."
-#~ msgstr ""
-#~ "لطفاٌ متصل‌شونده‌های مورد نیاز را نصب کنید و توتم را مجدداً راه‌اندازی کنید تا "
-#~ "بتواند این رسانه را پخش کند."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it does not have the "
-#~ "appropriate plugins to be able to read from the disc."
-#~ msgstr ""
-#~ "توتم نمی‌تواند این نوع رسانه (%s) را پخش کند چون پلاگین های مناسب برای کار "
-#~ "کردن با آن را ندارد تا بتواند دیسک را بخواند."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because you do not have the "
-#~ "appropriate plugins to handle it."
-#~ msgstr ""
-#~ "توتم نمی‌تواند این نوع رسانه (%s) را پخش کند چون شما متصل‌شونده‌های مناسب "
-#~ "برای کار کردن با آن را ندارید."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it is not supported."
-#~ msgstr ""
-#~ "توتم نمی‌تواند این نوع رسانه (%s) را پخش کند چون این نوع رسانه پشتیبانی "
-#~ "نمی شود."
-
-#~ msgid "Please insert another disc to play back."
-#~ msgstr "لطفا دیسک دیگری برای پخش کردن وارد کنید."
-
-#~ msgid "Totem does not support playback of Audio CDs"
-#~ msgstr "توتم از دیسک های صوتی پشتیبانی نمی‌کند."
-
-#~ msgid ""
-#~ "Please consider using a music player or a CD extractor to play this CD"
-#~ msgstr ""
-#~ "برای پخش کردن این سی دی بهتر است از یک نرم افزار پخش موزیک یا نرم افزار "
-#~ "استخراج فایل‌های صوتی استفاده کنید"
-
-#~ msgid "%d %%"
-#~ msgstr "٪%Id"
-
-#~ msgid ""
-#~ "The requested audio output was not found. Please select another audio "
-#~ "output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "خروجی صوتی درخواست شده پیدا نشد. لطفاً در انتخاب‌گر سیستم‌های چندرسانه‌ای "
-#~ "خروجی صوتی دیگری را انتخاب کنید."
-
-#~ msgid "Location not found."
-#~ msgstr "مکان پیدا نشد."
-
-#~ msgid ""
-#~ "Could not open location; you might not have permission to open the file."
-#~ msgstr ""
-#~ "نمی توان این مکان را باز کرد. شاید شما اجازه‌ی باز کردن آن را ندارید."
-
-#~ msgid ""
-#~ "The video output is in use by another application. Please close other "
-#~ "video applications, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "خروجی ویدیو توسط برنامه دیگری در حال استفاده می باشد. لطفا برنامه های "
-#~ "ویدیویی دیگر را ببندید، یا از طریق انتخاب گر سیستم های جند رسانه ای خروجی "
-#~ "ویدیویی دیگری انتخاب کنید."
-
-#~ msgid ""
-#~ "The audio output is in use by another application. Please select another "
-#~ "audio output in the Multimedia Systems Selector. You may want to consider "
-#~ "using a sound server."
-#~ msgstr ""
-#~ "خروجی صوتی توسط برنامه‌ی دیگری در حال استفاده می‌باشد. لطفا برنامه‌های صوتی "
-#~ "دیگر را ببندید، یا از طریق انتخاب‌گر سیستم‌های جند رسانه‌ای خروجی صوتی دیگری "
-#~ "انتخاب کنید. شاید بهتر باشد از یک کارگزار صدا استفاده کنید."
-
-#~ msgid ""
-#~ "Failed to create a GStreamer play object. Please check your GStreamer "
-#~ "installation."
-#~ msgstr ""
-#~ "نمی توان شیئ پخش GStreamer را ایجاد کرد. لطفا نصب GStreamer را بررسی کنید."
-
-#~ msgid ""
-#~ "Failed to open audio output. You may not have permission to open the "
-#~ "sound device, or the sound server may not be running. Please select "
-#~ "another audio output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "خطا در هنگام باز کردن خروجی صوتی. ممکن است حق دسترسی به دستگاه صوتی را "
-#~ "نداشته باشید، یا اینکه سرور صوتی در حال اجرا نباشد. لطفا از طریق انتخاب‌گر "
-#~ "چندرسانه‌ای یک خروجی صوتی دیگر انتخاب نمایید."
-
-#~ msgid ""
-#~ "Could not find the audio output. You may need to install additional "
-#~ "GStreamer plugins, or select another audio output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "امکان پیدا کردن خروجی صوتی نبود. ممکن است نیاز باشد که افزونه‌های اضافی "
-#~ "GStreamer را نصب کنید، و یا از طریق انتخاب‌گر سیستم‌های جندرسانه ای خروجی "
-#~ "صوتی دیگری را انتخاب نمایید."
-
-#~ msgid "BBC iPlayer"
-#~ msgstr "BBC iPlayer"
-
-#~ msgid ""
-#~ "Stream BBC programs from the last 7 days from the BBC iPlayer service."
-#~ msgstr "اجرای برنامه‌های BBC در ۷ روز گذشته از سرویس BBC iPlayer."
-
-#~ msgid "Error listing channel categories"
-#~ msgstr "خطا در فهرست کردن شاخه‌های کانال‌ها"
-
-#~ msgid ""
-#~ "There was an unknown error getting the list of television channels "
-#~ "available on BBC iPlayer."
-#~ msgstr ""
-#~ "خطایی در هنگام دریافت فهرست کانل‌های تلویزیون موجود در BBC iPlayer رخ داد."
-
-#~ msgid "Loading…"
-#~ msgstr "درحال بارکردن..."
-
-#~ msgid "Error getting programme feed"
-#~ msgstr "خطا در گرفتن فید برنامه"
-
-#~ msgid ""
-#~ "There was an error getting the list of programmes for this channel and "
-#~ "category combination."
-#~ msgstr ""
-#~ "خطایی هنگام دریافت فهرست برنامه‌های این کانال و مجموعه‌ی دسته‌های آن رخ داده "
-#~ "است."
-
-#~ msgid "<no reason given>"
-#~ msgstr "<هیچ دلیلی داده نشده>"
-
-#~ msgid "Programme unavailable (\"%s\")"
-#~ msgstr "برنامه در دسترس نیست («%s»)"
-
-#~ msgid "Publisher protocol to use"
-#~ msgstr "پروتکل منتشر‌کننده برای استفاده"
-
-#~ msgid ""
-#~ "The transport protocol to use when publishing playlists over the network."
-#~ msgstr "پروتکل حمل و نقلی که بهنگام نشر فهرست پخش در شبکه استفاده می‌شود."
-
-#~ msgid "Format for network service name"
-#~ msgstr "قالب برای نام سرویس شبکه"
-
-#~ msgid ""
-#~ "A format string used to build the network service name used when "
-#~ "publishing playlists over the network. The following format placeholders "
-#~ "can be used: • %a: the program name as returned by "
-#~ "g_get_application_name() • %h: the machine's host name in title case • "
-#~ "%u: the user's login name in title case • %U: the user's real name • %%: "
-#~ "the percent sign"
-#~ msgstr ""
-#~ "یک رشته‌ی قالب که برای ساختن نام سرویس شبکه استفاده می‌شود، برای منتشر کردن "
-#~ "فهرست پخش روی شبکه. این رشته‌های را می‌توان استفاده کرد: • %a: اسم برنامه "
-#~ "که با g_get_application_name()  گرفته می‌شود • %h: اسم میزبان ماشین در "
-#~ "حالت عنوان •  %u: اسم کاربری کاربر در حالت عنوان • %U: اسم واقعی کاربر • %"
-#~ "%: علامت درصد"
-
-#~ msgid "Neighbors"
-#~ msgstr "همسایه‌ها"
-
-#~ msgid "Publish Playlist"
-#~ msgstr "انتشار فهرست پخش"
-
-#~ msgid "Share the current playlist via HTTP"
-#~ msgstr "به اشتراک گذاشتن فهرست پخش فعلی از طریق پروتکل HTTP"
-
-#~ msgid "Service _Name:"
-#~ msgstr "_نام خدمات:"
-
-#~ msgid ""
-#~ "The name used for announcing the playlist service on the network.\n"
-#~ "All occurrences of the string <b>%u</b> will be replaced by your name,\n"
-#~ "and <b>%h</b> will be replaced by your computer's host name."
-#~ msgstr ""
-#~ "نامی که برای شناسایی فهرست پخش بر روی شبکه استفاده می‌شود.\n"
-#~ "تمامی موارد رشته‌ی <b>%u</b> جایگزین با نام شما خواهد شد.\n"
-#~ "و <b>%h</b> جایگزین با نام میزبان رایانه شما خواهد شد."
-
-#~ msgid "Use _encrypted transport protocol (HTTPS)"
-#~ msgstr "از پروتکل انتقال _رمزنگاری‌شده استفاده شود (HTTPS)"
-
-#~ msgid "_Name:"
-#~ msgstr "_نام:"
-
-#~ msgid "Save in _folder:"
-#~ msgstr "ذخیره در _پوشه:"
-
-#~ msgid "There was an error saving the screenshot."
-#~ msgstr "هنگام ذخیره کردن عکس صفحه خطایی رخ داد."
-
-#~ msgid "Save Screenshot"
-#~ msgstr "ذخیره‌ی عکس صفحه"
-
-#~ msgid "Bemused"
-#~ msgstr "Bemused"
-
-#~ msgid "Control Totem through a mobile phone with a Bemused client"
-#~ msgstr "کنترل توتم از طریق یک گوشی موبایل بوسیله یک کارگیر Bemused."
-
-#~ msgid "Untitled %d"
-#~ msgstr "بدون عنوان %Id"
-
-#~ msgid "Totem Bemused Server"
-#~ msgstr "کارگزار Bemused توتم"
-
-#~ msgid "Totem Bemused Server version 1.0"
-#~ msgstr "کارگزار Bemused توتم نسخه ۱.۰"
-
-#~ msgid "A plugin to let you browse YouTube videos."
-#~ msgstr "یک پلاگین که به شما امکان مرور ویدیوهای یوتیوب را می‌دهد."
-
-#~ msgid "YouTube Browser"
-#~ msgstr "مرورگر یوتیوب"
-
-#~ msgid "Related Videos"
-#~ msgstr "ویدیوهای مرتبط"
-
-#~ msgid "Search Results"
-#~ msgstr "نتایج جستجو"
-
-#~ msgid "_Open in Web Browser"
-#~ msgstr "باز کردن در مرورگر وب"
-
-#~ msgid "Open the video in your web browser"
-#~ msgstr "ویدیو را در مرورگر وب شما باز می کند"
-
-#~ msgid "YouTube"
-#~ msgstr "یوتیوب"
-
-#~ msgid "Cancelling query…"
-#~ msgstr "درحال لغو پرس‌وجو..."
-
-#~ msgid "Error Searching for Videos"
-#~ msgstr "خطا در جستجوی ویدیوها"
-
-#~ msgid ""
-#~ "The response from the server could not be understood. Please check you "
-#~ "are running the latest version of libgdata."
-#~ msgstr ""
-#~ "پاسخ کارگزار قابل فهم نیست. لطفا بررسی کنید که از آخرین نسخه libgdata "
-#~ "استفاده می‌کنید."
-
-#~ msgid "Fetching search results…"
-#~ msgstr "درحال گرفتن نتایج جستجو..."
-
-#~ msgid "Fetching related videos…"
-#~ msgstr "درحال گرفتن ویدیوهای مرتبط..."
-
-#~ msgid "Error Opening Video in Web Browser"
-#~ msgstr "خطا در بازکردن ویدیو در مرورگر وب"
-
-#~ msgid "Fetching more videos…"
-#~ msgstr "گرفتن فیلم‌های بیشتر..."
-
-#~ msgid "Video Format Not Supported"
-#~ msgstr "قالب ویدئویی پشتیبانی نمی‌شود"
-
-#~ msgid ""
-#~ "This video is not available in any formats which Totem supports. Would "
-#~ "you like to open it in your web browser instead?"
-#~ msgstr ""
-#~ "این ویدئو در هیچ قالبی که توتم از آن پشتیبانی میکند اجرا نمی‌شود. آیا "
-#~ "مایلید آن را در مرورگر خود باز کنید؟"
-
-#~ msgid "0 frames per second"
-#~ msgstr "۰ فریم بر ثانیه"
-
-#~ msgid "0 kbps"
-#~ msgstr "۰ کیلو‌بیت/ثانیه"
-
-#~ msgid "0 x 0"
-#~ msgstr "۰ × ۰"
-
-#~ msgid ""
-#~ "The playback of this movie requires the following decoders which are not "
-#~ "installed:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "پخش این فیلم نیازمند رمزگشاهای زیر است که نصب نشده اند:\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Failed to open video output. It may not be available. Please select "
-#~ "another video output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "خطا در هنگام باز کردن خروجی ویدیو. ممکن است خروجی در دسترس نباشد. لطفا  "
-#~ "از طریق انتخاب‌گر سیستم‌های جندرسانه ای خروجی ویدیو دیگری را انتخاب نمایید."
-
-#~ msgid "%s"
-#~ msgstr "%s"
-
-#~ msgid "Coherence DLNA/UPnP Client"
-#~ msgstr "کارگیر Coherence DLNA/UPnP"
-
-#~ msgid "A DLNA/UPnP client for Totem powered by Coherence"
-#~ msgstr "یک کارگیر DLNA/UPnP برای توتم قدرت گرفته از Coherence"
-
-#~ msgid "By artist"
-#~ msgstr "براساس هنرمند"
-
-#~ msgid "By tag"
-#~ msgstr "براساس برچسب"
-
-#~ msgid "Jamendo Album Page"
-#~ msgstr "صفحه‌ی آلبوم Jamendo"
-
-#~ msgid "Latest Releases"
-#~ msgstr "آخرین انتشارها"
-
-#~ msgid "Number of albums to _retrieve:"
-#~ msgstr "تعداد آلبوم‌ها برای _بازیافتن:"
-
-#~ msgid "Popular"
-#~ msgstr "مردم پسند"
-
-#~ msgid "Preferred audio _format:"
-#~ msgstr "_قالب صوتی برگزیده:"
-
-#~ msgid "_Open Jamendo Album Page in Browser"
-#~ msgstr "_باز کردن صفحه‌ی Jamendo در مرورگر"
-
-#~ msgid "Jamendo"
-#~ msgstr "Jamendo"
-
-#~ msgid ""
-#~ "Listen to the large collection of Creative Commons licensed music on "
-#~ "Jamendo."
-#~ msgstr ""
-#~ "به مجموعه‌ی بزرگی از موسیقی‌هایی تحت مجوز Creative Commons بر روی Jamendo "
-#~ "گوش کنید."
-
-#~ msgid "You need to install the Python simplejson module."
-#~ msgstr "شما لازم است ماژول simplejson پایتون را نصب کنید."
-
-#~ msgid "Artist: %s"
-#~ msgstr "هنرمند: %s"
-
-#~ msgid "%Y-%m-%d"
-#~ msgstr "%Y-%m-%d"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "Released on: %s"
-#~ msgstr "منتشر شده در: %s"
-
-#~ msgid "License: %s"
-#~ msgstr "مجوز: %s"
-
-#~ msgid "%02d. %s"
-#~ msgstr "%02d. %s"
-
-#~ msgid "Album: %s"
-#~ msgstr "آلبوم: %s"
-
-#~ msgid "Duration: %s"
-#~ msgstr "مدت پخش: %s"
-
-#~ msgid "Fetching albums, please wait…"
-#~ msgstr " در حال گرفتن آلبوم‌ها، لطفا منتظر بمانید..."
-
-#~ msgid ""
-#~ "Failed to connect to Jamendo server.\n"
-#~ "%s."
-#~ msgstr ""
-#~ "خطا در هنگام اتصال به سرور Jamendo.\n"
-#~ "%s."
-
-#~ msgid "The Jamendo server returned code %s."
-#~ msgstr "کارگزار Jamendo کد %s را برگرداند."
-
-#~ msgid "An error occurred while fetching albums."
-#~ msgstr "هنگام گرفتن آلبوم‌ها خطایی رخ داد."
-
-#~ msgid "%H:%M:%S"
-#~ msgstr "%OH:%OM:%OS"
-
-#~ msgid "%M:%S"
-#~ msgstr "%OM:%OS"

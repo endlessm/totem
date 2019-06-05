@@ -1,23 +1,25 @@
-# Zulu translation of totem.
-# Copyright (C) 2011
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the totem package.
-# Priscilla Mahlangu <priny@translate.za>, 2011.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2016
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2011-06-21 11:37+0200\n"
-"Last-Translator: Priscilla Mahlangu <priny@translate.za>\n"
-"Language-Team: translate.org.za\n"
-"Language: zu\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Roddy Shuler <roddy@stanfordalumni.org>, 2016\n"
+"Language-Team: Zulu (https://www.transifex.com/endless-os/teams/9016/zu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-DamnedLies-Scope: partial\n"
-"X-Generator: Virtaal 0.7.0\n"
-"X-Project-Style: gnome\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -27,16 +29,15 @@ msgstr "Amavidiyo"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:7
 #: data/org.gnome.Totem.desktop.in.in:4
-#, fuzzy
 msgid "Play movies"
-msgstr "Ukudlala i-movie"
+msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:11
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
@@ -46,12 +47,14 @@ msgid ""
 "support for recording DVDs."
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -193,9 +196,8 @@ msgid "Preferences"
 msgstr "Izintandokazi"
 
 #: data/preferences.ui:130
-#, fuzzy
 msgid "External Subtitles"
-msgstr "Amagama angezansi wombalo"
+msgstr ""
 
 #: data/preferences.ui:178
 msgid "_Load subtitle files when movie is loaded"
@@ -210,14 +212,12 @@ msgid "_Encoding:"
 msgstr "Uku_faka ikhodi:"
 
 #: data/preferences.ui:312
-#, fuzzy
 msgid "Plugins"
-msgstr "Ama-plugin..."
+msgstr ""
 
 #: data/preferences.ui:338
-#, fuzzy
 msgid "Plugins…"
-msgstr "Ama-plugin..."
+msgstr ""
 
 #: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
@@ -273,16 +273,14 @@ msgid "Audio"
 msgstr "Umsindo"
 
 #: data/shortcuts.ui:16
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Okujikelele"
+msgstr ""
 
 #: data/shortcuts.ui:21
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr "Izakhiwo"
+msgstr ""
 
 #: data/shortcuts.ui:28
 msgctxt "shortcut window"
@@ -290,64 +288,54 @@ msgid "Make Available Offline"
 msgstr ""
 
 #: data/shortcuts.ui:35
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "Thatha i_sithombe-skrini..."
+msgstr ""
 
 #: data/shortcuts.ui:42
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Yeka"
+msgstr ""
 
 #: data/shortcuts.ui:50
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "Ivolumu phezulu"
+msgstr ""
 
 #: data/shortcuts.ui:55
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "Khuphukisa ivolumu"
+msgstr ""
 
 #: data/shortcuts.ui:62
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "Yehlisa ivolumu"
+msgstr ""
 
 #: data/shortcuts.ui:70
-#, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "Bu_ka"
+msgstr ""
 
 #: data/shortcuts.ui:75
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "Guqula isimo sesikrini esigcwele"
+msgstr ""
 
 #: data/shortcuts.ui:82
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "Guqulela kwisikrini esigcwele"
+msgstr ""
 
 #: data/shortcuts.ui:89
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "Sondeza phakathi"
+msgstr ""
 
 #: data/shortcuts.ui:96
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "Sondeza phakathi"
+msgstr ""
 
 #: data/shortcuts.ui:103
 msgctxt "shortcut window"
@@ -360,34 +348,29 @@ msgid "Rotate ↶"
 msgstr ""
 
 #: data/shortcuts.ui:119
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "Dlalela emuva"
+msgstr ""
 
 #: data/shortcuts.ui:124
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "Dlala/Misa okwesikhashana"
+msgstr ""
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "Isiqephu esedlule noma i-movie"
+msgstr ""
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "Igama lesiqephu esisha:"
+msgstr ""
 
 #: data/shortcuts.ui:164
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "Yeqela ku"
+msgstr ""
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
@@ -395,10 +378,9 @@ msgid "Go back 15 seconds"
 msgstr ""
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "Imizuzwana engu-0"
+msgstr ""
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -411,16 +393,14 @@ msgid "Step forward one frame"
 msgstr ""
 
 #: data/shortcuts.ui:200 data/shortcuts.ui:248
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "Imizuzwana engu-0"
+msgstr ""
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "Uzimele ongu-0 ngomzuzwana"
+msgstr ""
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
@@ -433,10 +413,9 @@ msgid "Go forward 10 minutes"
 msgstr ""
 
 #: data/shortcuts.ui:279
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "_Yeqela ku:"
+msgstr ""
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
@@ -487,39 +466,40 @@ msgstr ""
 msgid "_Aspect Ratio"
 msgstr "I-_aspect ratio"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "Ukuzenzakalela"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "Square"
-msgstr "Isikwele"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
-msgstr "4:3 (i-TV)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
-msgstr "16:9 (Isikrini esibanzi)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
-msgstr "2.11:1 (DVB)"
+msgstr ""
 
 #: data/totem.ui:81
 msgid "Zoom In"
@@ -538,18 +518,16 @@ msgid "S_ubtitles"
 msgstr "_Umbhalo wagezansi"
 
 #: data/totem.ui:100
-#, fuzzy
 msgid "_Select Text Subtitles…"
-msgstr "Khetha umbhalo ongezansi wokulotshiwe"
+msgstr ""
 
 #: data/totem.ui:123
 msgid "_Eject"
 msgstr "_Khipha"
 
 #: data/totem.ui:134
-#, fuzzy
 msgid "_Repeat"
-msgstr "In_dlela yokuphinda"
+msgstr ""
 
 #: data/totem.ui:140
 msgid "_DVD Menu"
@@ -603,9 +581,8 @@ msgid "The connection to this server was refused."
 msgstr ""
 
 #: src/backend/bacon-video-widget.c:3909
-#, fuzzy
 msgid "The specified movie could not be found."
-msgstr "Ividiyo ayikwazanga ukuqophiwa."
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3916
 msgid "The server refused access to this file or stream."
@@ -616,19 +593,16 @@ msgid "Authentication is required to access this file or stream."
 msgstr ""
 
 #: src/backend/bacon-video-widget.c:3929
-#, fuzzy
 msgid "You are not allowed to open this file."
-msgstr "I-Totem ayikwazanga ukudlala leli diski."
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3934
-#, fuzzy
 msgid "This location is not a valid one."
-msgstr "Ifayela alivumelekile .ifayela lobuso bekhompuyutha"
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3942
-#, fuzzy
 msgid "The movie could not be read."
-msgstr "Ividiyo ayikwazanga ukuqophiwa."
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3948
 msgid "This file is encrypted and cannot be played back."
@@ -640,15 +614,15 @@ msgstr ""
 
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
-#, fuzzy, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+#, c-format
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
-msgstr[0] "Ukudlalela emuva kwale movie kufuna i-plugin ye-%s angafakwanga."
-msgstr[1] "Ukudlalela emuva kwale movie kufuna i-plugin ye-%s angafakwanga."
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -662,13 +636,10 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget.c:4011
-#, fuzzy
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
 msgstr ""
-"Ayikwazi ukudlala leli fayela kwinethiwekhi. Zama ukulayisha ungenise "
-"kwidicki kuqala."
 
 #: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
@@ -684,8 +655,8 @@ msgstr "Imidiya iqukethe okuqashiwe kokusakaza kwevidiyo."
 
 #: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
 
 #. TRANSLATORS: this is a button to launch a codec installer.
@@ -710,9 +681,8 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
-#, fuzzy
 msgid "Open with VLC"
-msgstr "_Vula nge-\"%s\""
+msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
@@ -725,16 +695,14 @@ msgid "Get VLC"
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
-#, fuzzy
 msgid "Unable to play the file"
-msgstr "Kuhlulekile ukuhlwaya ifayela le-CMML"
+msgstr ""
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -746,31 +714,28 @@ msgstr "%d:%02d:%02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
-#, fuzzy, c-format
+#, c-format
 msgctxt "long time format"
 msgid "-%d:%02d:%02d"
-msgstr "%d:%02d:%02d"
+msgstr ""
 
 #. -minutes:seconds
 #. Translators: This is a time format, like "-5:02" for 5
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
-#, fuzzy, c-format
+#, c-format
 msgctxt "short time format"
 msgid "-%d:%02d"
-msgstr "%d:%02d"
+msgstr ""
 
 #. minutes:seconds
 #. Translators: This is a time format, like "5:02" for 5
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -778,14 +743,12 @@ msgid "%d:%02d"
 msgstr "%d:%02d"
 
 #: src/grilo.ui:7
-#, fuzzy
 msgid "Select All"
-msgstr "Khetha ifolda"
+msgstr ""
 
 #: src/grilo.ui:12
-#, fuzzy
 msgid "Select None"
-msgstr "Khetha ifolda"
+msgstr ""
 
 #: src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
@@ -795,9 +758,12 @@ msgstr "Ayikwazanga ukusungula uchungechunge oluphephile lwamalabhulali."
 msgid "Verify your system installation. Totem will now exit."
 msgstr "QInisekisa ukufaka kwakho kohlelo. I-Totem ngeke iphume."
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -846,14 +812,13 @@ msgid "Local"
 msgstr ""
 
 #: src/totem-grilo.c:1910
-#, fuzzy
 msgid "Channels"
-msgstr "Amashaneli:"
+msgstr ""
 
 #: src/totem-interface.c:179 src/totem-interface.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr "Ayikwazanga i-'%s' isixhumi esibonakalayo. %s"
+msgstr ""
 
 #: src/totem-interface.c:179
 msgid "The file does not exist."
@@ -869,11 +834,11 @@ msgid "Click on items to select them"
 msgstr ""
 
 #: src/totem-main-toolbar.c:136
-#, fuzzy, c-format
+#, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] "umzuzwana ongu-%d"
-msgstr[1] "imizuzwana engu-%d"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -893,26 +858,25 @@ msgid "Cancel"
 msgstr "Khansela"
 
 #: src/totemmaintoolbar.ui:90
-#, fuzzy
 msgid "Search"
-msgstr "Usesho lwaseduze"
+msgstr ""
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "I-track yomsindo #%d"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "Umbhalo wagezansi"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "Akukho"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
 msgctxt "Language"
 msgid "Auto"
@@ -928,9 +892,9 @@ msgid "Play"
 msgstr "Dlala"
 
 #: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
-#, fuzzy, c-format
+#, c-format
 msgid "Totem could not play “%s”."
-msgstr "I-Totem ayikwazanga ukudlala '%s'."
+msgstr ""
 
 #: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
@@ -968,9 +932,8 @@ msgstr ""
 #: src/plugins/screenshot/totem-gallery.c:98
 #: src/plugins/screenshot/totem-gallery-progress.c:103
 #: src/plugins/skipto/totem-skipto.c:221
-#, fuzzy
 msgid "_Cancel"
-msgstr "Khansela"
+msgstr ""
 
 #: src/totem-open-location.c:186 src/totem-uri.c:461
 msgid "_Add"
@@ -1033,9 +996,8 @@ msgid "Movies to play"
 msgstr "Ama-movie wokudlala"
 
 #: src/totem-options.c:100
-#, fuzzy
 msgid "Can’t enqueue and replace at the same time"
-msgstr "Ayikwazi uku-enqueue kanye nokubuza ngesikhathi sinye"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1045,11 +1007,9 @@ msgid "Title %d"
 msgstr "Isihloko %d"
 
 #: src/totem-playlist.c:993
-#, fuzzy, c-format
+#, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
 msgstr ""
-"Uhlu lokudlalwayo lwe-'%s' alikwazanga ukuhlwaywa. Kungahle kwenzeke ukuthi "
-"lonakele."
 
 #: src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1064,20 +1024,17 @@ msgid "Select Subtitle Font"
 msgstr "Khetha ifonti yamagama angezansi"
 
 #: src/totemselectiontoolbar.ui:15
-#, fuzzy
 msgid "Add to Favourites"
-msgstr "Engez_a uhlu lokudlalwayo"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:40
-#, fuzzy
 msgctxt "button"
 msgid "Play"
-msgstr "Dlala"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
-#, fuzzy
 msgid "Shuffle"
-msgstr "Indlela yokuhlangah_langanisa"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:80 src/totemselectiontoolbar.ui:83
 msgid "Delete"
@@ -1241,14 +1198,12 @@ msgid "Select Text Subtitles"
 msgstr "Khetha umbhalo ongezansi wokulotshiwe"
 
 #: src/totem-uri.c:400
-#, fuzzy
 msgid "_Open"
-msgstr "_Vula..."
+msgstr ""
 
 #: src/totem-uri.c:457
-#, fuzzy
 msgid "Add Videos"
-msgstr "Amavidiyo"
+msgstr ""
 
 #: src/plugins/apple-trailers/apple-trailers.plugin.desktop.in:6
 msgid "Apple Trailers"
@@ -1259,14 +1214,12 @@ msgid "Sets the user agent for the Apple Trailers site"
 msgstr ""
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:6
-#, fuzzy
 msgid "Autoload Subtitles"
-msgstr "Layisha ungenise amagama angezansi we-movie"
+msgstr ""
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:7
-#, fuzzy
 msgid "Autoloads text subtitles"
-msgstr "Layisha ungenise umbhalo engezansi…"
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.desktop.in:6
 msgid "Video Disc Recorder"
@@ -1292,19 +1245,16 @@ msgid "Unable to write a project."
 msgstr "Ayikwazanga ukubhala iphrojekthi."
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:375
-#, fuzzy
 msgid "_Create Video Disc…"
-msgstr "_Dala idiski levidiyo..."
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:376
-#, fuzzy
 msgid "Copy Vide_o DVD…"
-msgstr "Kopisha i-DVD yevidiy_o..."
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:377
-#, fuzzy
 msgid "Copy (S)VCD…"
-msgstr "Kopisha i-(S)VCD..."
+msgstr ""
 
 #: src/plugins/dbusservice/dbusservice.plugin.desktop.in:6
 msgid "MPRIS D-Bus Interface"
@@ -1333,9 +1283,8 @@ msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
 msgstr ""
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:6
-#, fuzzy
 msgid "Instant Messenger Status"
-msgstr "Isimo sesithunywa esisheshayo"
+msgstr ""
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:7
 msgid "Set your Instant Messenger status to away when a movie is playing"
@@ -1351,19 +1300,16 @@ msgid "Support infrared remote control"
 msgstr "Sekela isilawuli sakude se-infrared"
 
 #: src/plugins/lirc/totem-lirc.c:239
-#, fuzzy
 msgid "Couldn’t initialize lirc."
-msgstr "Iyikwazanga ukuqalisa i-lirc."
+msgstr ""
 
 #: src/plugins/lirc/totem-lirc.c:251
-#, fuzzy
 msgid "Couldn’t read lirc configuration."
-msgstr "Ayikwazanga ukufunda izilungiselelo ze-lirc."
+msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:5
-#, fuzzy
 msgid "Media Player Keys"
-msgstr "Isidlali se-movie"
+msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:6
 msgid "Support additional media player keys"
@@ -1374,18 +1320,16 @@ msgid "Subtitle Downloader"
 msgstr "Isilayishi singenise samagama angezansi"
 
 #: src/plugins/opensubtitles/opensubtitles.plugin.desktop.in:7
-#, fuzzy
 msgid "Look for subtitles for the currently playing movie"
-msgstr "Buka amagama angezansi we-movie edlala manje."
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:46
 msgid "Brazilian Portuguese"
 msgstr "IsiPotukezi sase-Brazil"
 
 #: src/plugins/opensubtitles/opensubtitles.py:187
-#, fuzzy
 msgid "Searching for subtitles…"
-msgstr "Sesha umbhalo ongezansi…"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:235
 #: src/plugins/opensubtitles/opensubtitles.py:615
@@ -1402,9 +1346,8 @@ msgid "Could not contact the OpenSubtitles website."
 msgstr "Ayikwazanga ukuxhumana newebhusayithi ye-OpenSubtitles."
 
 #: src/plugins/opensubtitles/opensubtitles.py:339
-#, fuzzy
 msgid "No results found."
-msgstr "Akukho miphumela etholiwe."
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:482
 msgid "Subtitles"
@@ -1444,18 +1387,16 @@ msgid "_Play with Subtitle"
 msgstr "_Dlala ngamagama angezansi"
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:6
-#, fuzzy
 msgid "Subtitle language"
-msgstr "Il_imi lwamagama angezansi:"
+msgstr ""
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:7
 msgid "The language to search for subtitles for movies in."
 msgstr ""
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:6
-#, fuzzy
 msgid "Movie Properties"
-msgstr "Izakhiwo"
+msgstr ""
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:7
 msgid "Adds movie properties menu item"
@@ -1552,38 +1493,33 @@ msgstr "Amashaneli:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "Akwaziwa"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "Akwaziwa"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "Akwaziwa"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "Akwaziwa"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "Akwaziwa"
+msgstr ""
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
@@ -1652,17 +1588,17 @@ msgstr[1] "imizuzwana engu-%d"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
-#, fuzzy, c-format
+#, c-format
 msgctxt "time"
 msgid "%s %s %s"
-msgstr "%s %s %s"
+msgstr ""
 
 #. 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:169
-#, fuzzy, c-format
+#, c-format
 msgctxt "time"
 msgid "%s %s"
-msgstr "%s %s"
+msgstr ""
 
 #. 0 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:175
@@ -1675,8 +1611,8 @@ msgstr "Iphasiwedi ye-rpdb2"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
@@ -1684,9 +1620,8 @@ msgid "Python Console"
 msgstr "I-Python Console"
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:7
-#, fuzzy
 msgid "Interactive Python console"
-msgstr "I-Interactive Python console."
+msgstr ""
 
 #. pylint: disable=no-member
 #. pylint: disable=no-member
@@ -1701,9 +1636,9 @@ msgstr "I-Python Debugger"
 
 #. pylint: disable=E1101
 #: src/plugins/pythonconsole/pythonconsole.py:97
-#, fuzzy, python-format
+#, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr "Ungafinyelela i-Totem.Object kwi-'totem_object' :\\n%s"
+msgstr ""
 
 #: src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1711,20 +1646,15 @@ msgstr "I-Totem Python Console"
 
 #. pylint: disable=W0613
 #: src/plugins/pythonconsole/pythonconsole.py:111
-#, fuzzy
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
-"Emva kokuchofoza u-Kulungile, i-Totem uyoma uze uxhumane nayo nge-winpdb "
-"noma nge-rpdb2. Uma ungasethanga iphasiwedi ye-debugger kwi-DConf, "
-"izosebenzisa iphasiwedi ezenzakalelayo ('totem')."
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
-#, fuzzy
 msgid "Recent files"
-msgstr "Amafayela wevidiyo"
+msgstr ""
 
 #: src/plugins/recent/recent.plugin.desktop.in:7
 msgid "Adds files that have been played to recent files"
@@ -1747,19 +1677,16 @@ msgid "Rotate ↶"
 msgstr ""
 
 #: src/plugins/save-file/save-file.plugin.desktop.in:6
-#, fuzzy
 msgid "Save Copy"
-msgstr "Gcina ikhophi"
+msgstr ""
 
 #: src/plugins/save-file/save-file.plugin.desktop.in:7
-#, fuzzy
 msgid "Save a copy of the currently playing movie"
-msgstr "Kopisha i-DVD yevidiyo edlala manje"
+msgstr ""
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "Idiski levidiyo alikwazanga ukufanisiwa."
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1781,9 +1708,8 @@ msgid "Screen Saver"
 msgstr ""
 
 #: src/plugins/screensaver/screensaver.plugin.desktop.in:7
-#, fuzzy
 msgid "Deactivates the screen saver when a movie is playing"
-msgstr "Khubaza isigciniskrini uma udlala "
+msgstr ""
 
 #: src/plugins/screensaver/totem-screensaver.c:79
 msgid "Playing a movie"
@@ -1804,22 +1730,21 @@ msgstr "Inani lezithombe-skrini:"
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:147
-#, fuzzy, c-format
+#, c-format
 msgid "Screenshot from %s.png"
-msgstr "Isithombe-skrini.png"
+msgstr ""
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:154
-#, fuzzy, c-format
+#, c-format
 msgid "Screenshot from %s - %d.png"
-msgstr "Isithombe-skrini-%s-%d.png"
+msgstr ""
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:6
-#, fuzzy
 msgid "Screenshot"
-msgstr "Isithombe-skrini.png"
+msgstr ""
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:7
 msgid "Allows screenshots and galleries to be taken of videos"
@@ -1830,9 +1755,8 @@ msgid "Save Gallery"
 msgstr "Gcina i-gallery"
 
 #: src/plugins/screenshot/totem-gallery.c:99
-#, fuzzy
 msgid "_Save"
-msgstr "Gcina"
+msgstr ""
 
 #. Translators: The first argument is the movie title. The second
 #. * argument is a number which is used to prevent overwriting files.
@@ -1845,15 +1769,14 @@ msgstr "i-Gallery-%s-%d.jpg"
 
 #. Set up the window
 #: src/plugins/screenshot/totem-gallery-progress.c:101
-#, fuzzy
 msgid "Creating Gallery…"
-msgstr "Kudalwa i-gallery..."
+msgstr ""
 
 #. Set the progress label
 #: src/plugins/screenshot/totem-gallery-progress.c:107
-#, fuzzy, c-format
+#, c-format
 msgid "Saving gallery as “%s”"
-msgstr "Kugcinwa i-gallery njenge-\"%s\""
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1865,14 +1788,12 @@ msgid "This is not supposed to happen; please file a bug report."
 msgstr "Lokhu akumelanga ukwenzeke, sicela ubhalisele umbiko wesiphazamiso."
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:339
-#, fuzzy
 msgid "Take _Screenshot"
-msgstr "Thatha i_sithombe-skrini..."
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:345
-#, fuzzy
 msgid "Create Screenshot _Gallery…"
-msgstr "Dala i-_gallery yesithombe-skrini..."
+msgstr ""
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:6
 #: src/plugins/skipto/totem-skipto.c:219
@@ -1887,7 +1808,8 @@ msgstr ""
 msgid "_Skip to:"
 msgstr "_Yeqela ku:"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
 msgid "second"
@@ -1895,24 +1817,26 @@ msgid_plural "seconds"
 msgstr[0] "Umzuzwana"
 msgstr[1] "Imizuzwana"
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
 msgstr "10"
 
 #: src/plugins/skipto/totem-skipto.c:222
-#, fuzzy
 msgid "_Skip To"
-msgstr "Yeqela ku"
+msgstr ""
 
 #: src/plugins/skipto/totem-skipto-plugin.c:206
-#, fuzzy
 msgid "_Skip To…"
-msgstr "Yeqela ku"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
@@ -1920,10 +1844,9 @@ msgid "× 0.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
-#, fuzzy
 msgctxt "playback rate"
 msgid "Normal"
-msgstr "Okujwayelekile"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
@@ -1946,9 +1869,9 @@ msgid "× 1.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "Speed: %s"
-msgstr "Uhlobo: %s"
+msgstr ""
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:6
 msgid "Variable Rate"
@@ -1965,1130 +1888,3 @@ msgstr ""
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr ""
-
-#~ msgid "Leave Fullscreen"
-#~ msgstr "Yeka isikrini esigcwele"
-
-#~ msgid "Time:"
-#~ msgstr "Isikhathi:"
-
-#~ msgid "Add..."
-#~ msgstr "Yengeza..."
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "Kopisha indawo kwi-clipboard"
-
-#~ msgid "Move Down"
-#~ msgstr "Iya phansi"
-
-#~ msgid "Move Up"
-#~ msgstr "Iya phezulu"
-
-#~ msgid "Remove"
-#~ msgstr "Khipha"
-
-#~ msgid "Remove file from playlist"
-#~ msgstr "Susa ifayela kuhlu lokudlalwayo"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "Gcina uhlu lokudlalwayo..."
-
-#~ msgid "Select a file to use for text subtitles"
-#~ msgstr "Khetha ifayela ozolisebenzisa kumbalo ongezansi"
-
-#~ msgid "_Copy Location"
-#~ msgstr "_Kopisha indawo"
-
-#~ msgid "_Remove"
-#~ msgstr "S_usa"
-
-#~ msgid "_Select Text Subtitles..."
-#~ msgstr "_Khetha umbhalo ongezansi wokulotshiwe..."
-
-#~ msgid "0 kbps"
-#~ msgstr "0 kbps"
-
-#~ msgid "0 x 0"
-#~ msgstr "0 x 0"
-
-#~ msgid "Add the video to the playlist"
-#~ msgstr "Engeza ividiyo yohlu lokudlalwayo"
-
-#~ msgid "Play movies and songs"
-#~ msgstr "Dlala ama-movie kanye namaculo"
-
-#~ msgid "1.5 Mbps T1/Intranet/LAN"
-#~ msgstr "1.5 Mbps T1/Intranet/LAN"
-
-#~ msgid "112 Kbps Dual ISDN/DSL"
-#~ msgstr "112 Kbps Dual ISDN/DSL"
-
-#~ msgid "14.4 Kbps Modem"
-#~ msgstr "14.4 Kbps Modem"
-
-#~ msgid "19.2 Kbps Modem"
-#~ msgstr "19.2 Kbps Modem"
-
-#~ msgid "256 Kbps DSL/Cable"
-#~ msgstr "256 Kbps DSL/Cable"
-
-#~ msgid "28.8 Kbps Modem"
-#~ msgstr "28.8 Kbps Modem"
-
-#~ msgid "33.6 Kbps Modem"
-#~ msgstr "33.6 Kbps Modem"
-
-#~ msgid "34.4 Kbps Modem"
-#~ msgstr "34.4 Kbps Modem"
-
-#~ msgid "384 Kbps DSL/Cable"
-#~ msgstr "384 Kbps DSL/Cable"
-
-#~ msgid "512 Kbps DSL/Cable"
-#~ msgstr "512 Kbps DSL/Cable"
-
-#~ msgid "56 Kbps Modem/ISDN"
-#~ msgstr "56 Kbps Modem/ISDN"
-
-#~ msgid "About this application"
-#~ msgstr "Mayelana nalolu hlelo lokusebenza"
-
-#~ msgid "Clear the playlist"
-#~ msgstr "Cima uhlu lokudlalwayo"
-
-#~ msgid "Configure plugins to extend the application"
-#~ msgstr "Lungiselela ama-plugin ukunwebisa uhlelo lokusebenza"
-
-#~ msgid "Configure the application"
-#~ msgstr "Lungiselela uhlelo lokusebenza"
-
-#~ msgid "Connection _speed:"
-#~ msgstr "I_sivinini soxhumano:"
-
-#~ msgid "Eject the current disc"
-#~ msgstr "Khipha idiski yamanje"
-
-#~ msgid "External Chapters"
-#~ msgstr "Iziqephu zangaphandle"
-
-#~ msgid "Extra Large"
-#~ msgstr "Ubukhulu obungeziwe"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "Linganisa iwindi kwi-movie"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "Iya kwimenyu ye-DVD"
-
-#~ msgid "Go to the angle menu"
-#~ msgstr "Iya kwimenyu yengoni"
-
-#~ msgid "Go to the audio menu"
-#~ msgstr "Iya kwimenyu yomsindo"
-
-#~ msgid "Go to the chapter menu"
-#~ msgstr "Iya kwimenyu yesiqephu"
-
-#~ msgid "Go to the title menu"
-#~ msgstr "Iya kwimenyu yesihloko"
-
-#~ msgid "Help contents"
-#~ msgstr "Okuqukethwe kokusiza"
-
-#~ msgid "Intranet/LAN"
-#~ msgstr "I-intanethi yangaphakathi/LAN"
-
-#~ msgid "Large"
-#~ msgstr "Okukhulu"
-
-#~ msgid "Load _chapter files when movie is loaded"
-#~ msgstr "Layisha amafayela we_siqephu uma i-movie ilayishwa"
-
-#~ msgid "Networking"
-#~ msgstr "Ukunethiwekha"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "Isiqephu esilandelayo noma i-movie"
-
-#~ msgid "Open _Location..."
-#~ msgstr "Vula inda_wo..."
-
-#~ msgid "Open a file"
-#~ msgstr "Vula ifayela"
-
-#~ msgid "Open a non-local file"
-#~ msgstr "Vula ifayela elingesiyo lasekhaya"
-
-#~ msgid "Play / P_ause"
-#~ msgstr "Dlala / Mis_a okwesikhashana"
-
-#~ msgid "Play or pause the movie"
-#~ msgstr "Dlala noma misa i-movie okwesikhashana"
-
-#~ msgid "Quit the program"
-#~ msgstr "Yeka uhlelo"
-
-#~ msgid "Resize _1:1"
-#~ msgstr "Beka isayizi futhi _1:1"
-
-#~ msgid "Resize _2:1"
-#~ msgstr "Beka isayizi futhi _2:1"
-
-#~ msgid "Resize to double the original video size"
-#~ msgstr "Beka isayizi"
-
-#~ msgid "Resize to half the original video size"
-#~ msgstr "Beka isayizi futhi lwesayizi yokuqala yevidiyo"
-
-#~ msgid "Resize to the original video size"
-#~ msgstr "Beka isayizi njengesayizi yokuqala yevidiyo"
-
-#~ msgid "S_idebar"
-#~ msgstr "Ibha yasecelen_i"
-
-#~ msgid "Set the repeat mode"
-#~ msgstr "Misa indlela yokuphinda"
-
-#~ msgid "Set the shuffle mode"
-#~ msgstr "Misa indlela yokuhlangahlanganisa"
-
-#~ msgid "Sets 16:9 (widescreen) aspect ratio"
-#~ msgstr "Imisa i-16:9 (widescreen) aspect ratio"
-
-#~ msgid "Sets 2.11:1 (DVB) aspect ratio"
-#~ msgstr "Imisa i-2.11:1 (DVB) aspect ratio"
-
-#~ msgid "Sets 4:3 (TV) aspect ratio"
-#~ msgstr "Imisa i-4:3 (TV) aspect ratio"
-
-#~ msgid "Sets automatic aspect ratio"
-#~ msgstr "Imisa i-aspect ration ezenzakalelayo"
-
-#~ msgid "Sets square aspect ratio"
-#~ msgstr "Imisa i-aspect ratio yesikwele"
-
-#~ msgid "Show _Controls"
-#~ msgstr "Bonisa ula_wulo"
-
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr "Bonisa imiphumela ebo_niwayo uma ifayela lomsindo lidlalwa"
-
-#~ msgid "Show controls"
-#~ msgstr "Bonisa ulawulo"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "Bonisa noma fihla ibha yaseceleni"
-
-#~ msgid "Skip _Backwards"
-#~ msgstr "Yeqela e_muva"
-
-#~ msgid "Skip _Forward"
-#~ msgstr "Yeqela _phambili"
-
-#~ msgid "Skip backwards"
-#~ msgstr "Yeqela emuva"
-
-#~ msgid "Skip forward"
-#~ msgstr "Yeqela phambili"
-
-#~ msgid "Start playing files from last position"
-#~ msgstr "Qalisa ukudlala amafayela kusuka kwisimo sakugcina"
-
-#~ msgid "Switch camera angles"
-#~ msgstr "Shintsha ukubukeka kwekhamela"
-
-#~ msgid "Time seek bar"
-#~ msgstr "Ibha yokufuna kwesikhathi"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "Izintandokazi ze-Totem"
-
-#~ msgid "Video or Audio"
-#~ msgstr "Ividiyo noma umsindo"
-
-#~ msgid "View the properties of the current stream"
-#~ msgstr "Buka izakhiwo zokusakaza kwamanje"
-
-#~ msgid "Visual Effects"
-#~ msgstr "Imiphumela yokubukeka"
-
-#~ msgid "Visualization _size:"
-#~ msgstr "I_sayizi yokubukekayo:"
-
-#~ msgid "Volume _Down"
-#~ msgstr "Ivolumu _phansi"
-
-#~ msgid "Volume _Up"
-#~ msgstr "Ivolumu phez_ulu"
-
-#~ msgid "_About"
-#~ msgstr "M_ayelana"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "S_usa uhlu lokudlalwayo"
-
-#~ msgid "_Contents"
-#~ msgstr "O_kuqukethwe"
-
-#~ msgid "_Edit"
-#~ msgstr "Hl_ela"
-
-#~ msgid "_Fullscreen"
-#~ msgstr "Isik_rini esigcwele"
-
-#~ msgid "_Go"
-#~ msgstr "I_ya"
-
-#~ msgid "_Movie"
-#~ msgstr "I-_movie"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "Isiqephu/I-movie esila_ndelayo"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "Isiqephu/I-movie eya_dlula"
-
-#~ msgid "_Quit"
-#~ msgstr "_Yeka"
-
-#~ msgid "_Resize 1:2"
-#~ msgstr "Beka isayizi futhi _1:2"
-
-#~ msgid "_Resize the window when a new video is loaded"
-#~ msgstr "_Beka usayizi futhi lwewindi uma ividiyo entsha ilayishiwa"
-
-#~ msgid "_Sound"
-#~ msgstr "_Umsindo"
-
-#~ msgid "_Type of visualization:"
-#~ msgstr "Uh_lobo lokubukekayo:"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "Inguquko '%s' yefayela lobuso bekhompuyutha engaziwa"
-
-#~ msgid "Starting %s"
-#~ msgstr "Kuqaliswa i-%s"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "Uhlelo lokusebenza alivumeli amadokhumende kwilayini yokuyala"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "Ukhetho lokuqalisa olungaziwa: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr ""
-#~ "Ayikwazi ukudlulisela idokhumende le-URIs kwi-'Uhlobo=Isixhumanisi' "
-#~ "lokufakwa kobuso kwekhompyutha"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "Into engakwazi ukuqaliswa"
-
-#~ msgid "File _Format: %s"
-#~ msgstr "If_omethi yefayela: %s"
-
-#~ msgid "All Files"
-#~ msgstr "Amafayela wonke"
-
-#~ msgid "All Supported Files"
-#~ msgstr "Amafayela wonke axhasiwe"
-
-#~ msgid "By Extension"
-#~ msgstr "Ngokwangaphandle"
-
-#~ msgid "File Format"
-#~ msgstr "Ifonethi lefayela"
-
-#~ msgid "Extension(s)"
-#~ msgstr "Okwangaphandle"
-
-#~ msgid ""
-#~ "The program was not able to find out the file format you want to use for `"
-#~ "%s'. Please make sure to use a known extension for that file or manually "
-#~ "choose a file format from the list below."
-#~ msgstr ""
-#~ "Uhlelo alikwazanga ukuthola ifomethi lefayela ofuna ukulidebenzisela i-`"
-#~ "%s'. Sicela uqinisekise ukuthi usebenzisa okwangaphendle kwalelo fayela "
-#~ "noma ukhethe ngezandla ifomethi lefayela kusuka kuhlu olungezansi."
-
-#~ msgid "File format not recognized"
-#~ msgstr "Ifomethi lefayela alaziwa"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "Khubaza ukuxhumana kumphathi wesikhathi"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "Cacisa ifayela eliqukethe izilungiselelo ezigciniwe"
-
-#~ msgid "FILE"
-#~ msgstr "IFAYELA"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "Cacisa ubunikazi bokuphatha isikhathi"
-
-#~ msgid "ID"
-#~ msgstr "Ubunikazi"
-
-#~ msgid "Session management options:"
-#~ msgstr "Izinketho zokuphatha isikhathi:"
-
-#~ msgid "Show session management options"
-#~ msgstr "Bonisa izinketho zokuphatha isikhathi"
-
-#~ msgid "%d frame per second"
-#~ msgid_plural "%d frames per second"
-#~ msgstr[0] "uzimele ongu-%d ngomzuzwana"
-#~ msgstr[1] "ozimele ongu-%d ngomzuzwana"
-
-#~ msgid "Audio Preview"
-#~ msgstr "Ukubuka kuqala komsindo"
-
-#~ msgid "Unknown video"
-#~ msgstr "Ividiyo engaziwa"
-
-#~ msgid "_Play Now"
-#~ msgstr "_Dlala manje"
-
-#~ msgid "No File"
-#~ msgstr "Akukho fayela"
-
-#, fuzzy
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "I-Totem iyisofthiwe engakhokhwa; ungayisabalalisa futhi futhi noma "
-#~ "uyilungise ngaphansi kwemigomo yelayisense ye-GNU yomphakathi jikelele "
-#~ "njengomshiceleli we-foundation yesofthiwe yamahhala; noma kuyinguquko "
-#~ "yesi-2 yelayisense, noma (ngenketho yakho) nanoma kuyiphi inguquko ezayo."
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "I-Totem isatshalaliswa ngokuthemba ukuthi izobanosizo, nodwa ngaphandle "
-#~ "KWESITHEMBISO; ngaphandle futhi ngesithembiso esishiwo SOKUTHENGISEKA "
-#~ "noma UKULUNGA KWESIZATHU ESITHILE.  Bona ilayisense ye-GNU yomphakathi "
-#~ "jikelele ukuze uthole ulwazi olungaphezulu."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "Kumele ngabe uthole ikhophi yelayisense ye-GNU yomphakathi jikelele kanye "
-#~ "ne-Totem; vuma kungenjalo, bhalela i-foundation yesofthiwe yamahhala, "
-#~ "Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-
-#~ msgid ""
-#~ "Totem contains an exception to allow the use of proprietary GStreamer "
-#~ "plugins."
-#~ msgstr ""
-#~ "I-Toetem iqukethe ukukhipha okuvumela ukusetshenziswa kobunikazi "
-#~ "GStreamer plugin."
-
-#~ msgid "Play Image '%s'"
-#~ msgstr "Dlala isithombe '%s'"
-
-#~ msgid "device%d"
-#~ msgstr "isisetshenziswa%d"
-
-#~ msgid "Play Disc '%s'"
-#~ msgstr "Dlala idiski '%s'"
-
-#~ msgid "Movie Player using %s"
-#~ msgstr "I-Movie Player kusetshenziswa i-%s"
-
-#~ msgid "Copyright © 2002-2009 Bastien Nocera"
-#~ msgstr "I-copyright © 2002-2009 Bastien Nocera"
-
-#~ msgid "translator-credits"
-#~ msgstr "Priscilla Mahlangu"
-
-#~ msgid "Totem Website"
-#~ msgstr "Iwebhusayithi ye-Totem"
-
-#~ msgid "Totem %s"
-#~ msgstr "I-Totem %s"
-
-#~ msgid "Playing"
-#~ msgstr "Iyadlala"
-
-#~ msgid "Paused"
-#~ msgstr "Kumiswe okwesikhashana"
-
-#~ msgid "Stopped"
-#~ msgstr "Kumisiwe"
-
-#~ msgid ""
-#~ "Totem could not play this media (%s) although a plugin is present to "
-#~ "handle it."
-#~ msgstr ""
-#~ "I-Totem ayikwazanga ukudlala lemidiya (%s) noma ngabe i-plugin ikhona "
-#~ "ukuyiphatha."
-
-#~ msgid ""
-#~ "You might want to check that a disc is present in the drive and that it "
-#~ "is correctly configured."
-#~ msgstr ""
-#~ "Ungahle ufune ukuhlola ukuthi idiski ikhona kwi-drive futhi ukuthi "
-#~ "ilungiselelwe kahle."
-
-#~ msgid "More information about media plugins"
-#~ msgstr "Ulwazi oluningi mayelana nama-plugin wemidiya"
-
-#~ msgid ""
-#~ "Please install the necessary plugins and restart Totem to be able to play "
-#~ "this media."
-#~ msgstr ""
-#~ "Sicela ufake ama-plugin adingekile bese uqala futhi i-Totem ukuze ukwazi "
-#~ "ukudlala le midiya."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it does not have the "
-#~ "appropriate plugins to be able to read from the disc."
-#~ msgstr ""
-#~ "I-Totem ayikwazi ukudlala loluhlobo lwemidiya (%s) ngoba ayinama-plugin "
-#~ "alungile ukuze kufundwe idiski."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because you do not have the "
-#~ "appropriate plugins to handle it."
-#~ msgstr ""
-#~ "I-Totem ayikwazi ukudlala lolu hlobo lwemidiya (%s) ngoba awunawo ama-"
-#~ "plugin alungile wokuyenza lokhu."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it is not supported."
-#~ msgstr ""
-#~ "I-Totem ayikwazi ukudlala loluhlobo lwemidiya (%s) ngoba aluxhasiwe."
-
-#~ msgid "Please insert another disc to play back."
-#~ msgstr "Sicela ufake idiski enye ukuze uyidlalele emuva."
-
-#~ msgid "Totem does not support playback of Audio CDs"
-#~ msgstr "I-Totem ayixhasi ukudlalela emuva kwama-CD womsindo"
-
-#~ msgid ""
-#~ "Please consider using a music player or a CD extractor to play this CD"
-#~ msgstr ""
-#~ "Sicela ucabange ukusebenzisa isidlali somculo noma isikhiphi se-CD ukuze "
-#~ "udlale leli CD"
-
-#~ msgid "No error message"
-#~ msgstr "Akukho myalezo wephutha"
-
-#~ msgid "Fullscreen"
-#~ msgstr "Isikrini esigcwele"
-
-#~ msgid "Open Location..."
-#~ msgstr "Vula indawo..."
-
-#~ msgid "Enable debug"
-#~ msgstr "Nikela i-debug amandla"
-
-#~ msgid "Show/Hide Controls"
-#~ msgstr "Veza/Fihla izilawuli"
-
-#~ msgid "Playlist index"
-#~ msgstr "Inkomba yohlu lokudlalwayo"
-
-#~ msgid "MP3 ShoutCast playlist"
-#~ msgstr "Uhlu lokudlalwayo lwe-MP3 ShoutCast"
-
-#~ msgid "MP3 audio (streamed)"
-#~ msgstr "Umsindo we-MP3 (kusakaziwe)"
-
-#~ msgid "MP3 audio (streamed, DOS format)"
-#~ msgstr "Umsindo we-MP3 (kusakaziwe, ifomethi ye-DOS)"
-
-#~ msgid "XML Shareable Playlist"
-#~ msgstr "Uhlu lokudlalwayo elabanekekayo le-XML"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "Iyikwazanga ukugcina uhlu lokudlalwayo"
-
-#~ msgid "Save Playlist"
-#~ msgstr "Gcina uhlu lokudlalwayo"
-
-#~ msgid "Playlist"
-#~ msgstr "Uhlu lokudlalwayo"
-
-#~ msgid "Playlist error"
-#~ msgstr "Iphutha lohlu lokudlalwayo"
-
-#~ msgid "Audio/Video"
-#~ msgstr "Umsindo/Ividiyo"
-
-#~ msgid "N/A"
-#~ msgstr "Akusebenzi"
-
-#~ msgid "%d x %d"
-#~ msgstr "%d x %d"
-
-#~ msgctxt "Number of audio channels"
-#~ msgid "N/A"
-#~ msgstr "Akusebenzi"
-
-#~ msgid "0:00 / 0:00"
-#~ msgstr "0:00 / 0:00"
-
-#~ msgid "%s (Streaming)"
-#~ msgstr "%s (Ukusakaza)"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#, fuzzy
-#~ msgid "Seek to %s / %s"
-#~ msgstr "Funa ku-%s noma ku-%s"
-
-#~ msgid "Buffering"
-#~ msgstr "Iyabhafara"
-
-#~ msgid "%d %%"
-#~ msgstr "%d %%"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s, %s"
-
-#~ msgid "%s, %d %%"
-#~ msgstr "%s, %d %%"
-
-#~ msgid "No video URI"
-#~ msgstr "Akukho vidiyo URI"
-
-#~ msgid "Supported files"
-#~ msgstr "Amafayela axhasiwe"
-
-#~ msgid "Audio files"
-#~ msgstr "Amafayela womsindo"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "Khetha ama-movie noma uhlu lokudlalwayo"
-
-#~ msgid "- Play movies and songs"
-#~ msgstr "- Dlala ama-movie kanye namaculo"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "Hambisa '%s --help' ukuze ubone uhlu oluphelele olukhona lezinketho "
-#~ "zelayini yomyalo.\n"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "Isidlali sama-movie se-Totem"
-
-#~ msgid "Subtitle #%d"
-#~ msgstr "Umbhalo ongezansi #%d"
-
-#~ msgid ""
-#~ "The requested audio output was not found. Please select another audio "
-#~ "output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "Okukhishwayo komsindo okuceliwe akutholiwanga. Sicela ukhethe umsindo "
-#~ "okhiswayo omunye kwisikhethi se-Multimedia Systems."
-
-#~ msgid "Location not found."
-#~ msgstr "Indawo ayitholwanga."
-
-#~ msgid ""
-#~ "Could not open location; you might not have permission to open the file."
-#~ msgstr ""
-#~ "Ayikwazanga ukuvula indawo; kungayenza ukuthi awunayo imvume yokuvula "
-#~ "ifayela."
-
-#~ msgid ""
-#~ "The video output is in use by another application. Please close other "
-#~ "video applications, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "Okukhishwayo kwevidiyo kusetshenziswa uhlelo olunye lokusebenza. Sicela "
-#~ "uvale olunye uhlelo lokusebenza alevidiyo, noma ukhethe okunye "
-#~ "ukukhishwayo kwevidiyo kwesikhethi se-Multimedia Systems."
-
-#~ msgid ""
-#~ "The audio output is in use by another application. Please select another "
-#~ "audio output in the Multimedia Systems Selector. You may want to consider "
-#~ "using a sound server."
-#~ msgstr ""
-#~ "Okukhishwayo komsindo kusetshenziswa uhlelo olunye lokusebenza. Sicela "
-#~ "ukhethe okukhishwayo okunye komsindo kwisikhethi se-Multimedia Systems. "
-#~ "Ungafuna ukucabanga ukusebenzisa isiphakeli somsindo."
-
-#~ msgid ""
-#~ "Failed to create a GStreamer play object. Please check your GStreamer "
-#~ "installation."
-#~ msgstr ""
-#~ "Ihluleke ukudala into yokudlala ye-GStreamer. SIiela uhlole ukufakwa kwe-"
-#~ "GStreamer."
-
-#~ msgid ""
-#~ "Failed to open audio output. You may not have permission to open the "
-#~ "sound device, or the sound server may not be running. Please select "
-#~ "another audio output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "Ihluleke ukuvula okukhishwayo komsindo. Kungayenzeka ukuti awunayo imvume "
-#~ "yokuvula isisetshenziswa somsindo, noma isiphakeli somsindo singahle "
-#~ "singahambi. Sicela ukhethe okukhishwayo okunye komsindo kwisikhethi se-"
-#~ "Multimedia Systems."
-
-#~ msgid ""
-#~ "Could not find the audio output. You may need to install additional "
-#~ "GStreamer plugins, or select another audio output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "Ayikwazanga ukuthola okukhishwayo komsindo. Kungayenzeka ukuthi udinge "
-#~ "ukufaka ama-plugin engeziwe we-GStreamer, noma khetha okukhishwayo okunye "
-#~ "komsindo kwisikhethi se-Multimedia Systems."
-
-#~ msgid "Bemused"
-#~ msgstr "I-Bemused"
-
-#~ msgid "Control Totem through a mobile phone with a Bemused client"
-#~ msgstr "Lawula i-Totem kwiselula ngekhasimende le-Bemused"
-
-#~ msgid "Untitled %d"
-#~ msgstr "I-%d engenasihloko"
-
-#~ msgid "Totem Bemused Server"
-#~ msgstr "Isiphakeli se-Totem Bemused"
-
-#~ msgid "Totem Bemused Server version 1.0"
-#~ msgstr "Inguquko ye-Totem Bemused 1.0"
-
-#~ msgid "Create a video DVD or a (S)VCD from the currently opened movie"
-#~ msgstr "Dala i-DVD yevidiyo noma i-(S)VCD kusuka kwi-movie evuliwe yamanje"
-
-#~ msgid "Copy the currently playing (S)VCD"
-#~ msgstr "Kopisha i-(S)VCD edlala manje"
-
-#~ msgid "Chapters"
-#~ msgstr "Iziqephu"
-
-#~ msgid "Support chapter markers in movies."
-#~ msgstr "Sekela omaki beziqephu zama-movie."
-
-#~ msgid "Add Chapter..."
-#~ msgstr "Engeza isiqephu..."
-
-#~ msgid "Add New Chapters"
-#~ msgstr "Engeza isiqephu esisha"
-
-#~ msgid "Create a new chapter list for the movie"
-#~ msgstr "Dala uhlu lwesiqephu esisha se-movie"
-
-#~ msgid "Go to Chapter"
-#~ msgstr "Iya kwisiqephu"
-
-#~ msgid "Go to the chapter in the movie"
-#~ msgstr "Iya kwisiqephu esiku-movie"
-
-#~ msgid "Load Chapters..."
-#~ msgstr "Layisha isiqephu..."
-
-#~ msgid "Load chapters from an external CMML file"
-#~ msgstr "Layisha isiqephu kusuka kufayela le-CMML langaphandle"
-
-#~ msgid "No chapter data"
-#~ msgstr "Akukho datha yesiqephu"
-
-#~ msgid "Remove Chapter"
-#~ msgstr "Susa isiqephu"
-
-#~ msgid "Remove the chapter from the list"
-#~ msgstr "Susa isiqephu kuhlu"
-
-#~ msgid "Save Changes"
-#~ msgstr "Gcina izinguquko"
-
-#~ msgid "_Go to Chapter"
-#~ msgstr "_Iya kwisiqephu"
-
-#~ msgid "_Remove Chapter"
-#~ msgstr "_Susa isiqephu"
-
-#~ msgid ""
-#~ "<b>Title: </b>%s\n"
-#~ "<b>Start time: </b>%s"
-#~ msgstr ""
-#~ "<b>Isihloko: </b>%s\n"
-#~ "<b>Isikhathi sokuqala: </b>%s"
-
-#~ msgid "Error while reading file with chapters"
-#~ msgstr "Kwenzeke iphutha uma kufundwa ifayela leziqephu"
-
-#~ msgid "Chapter with the same time already exists"
-#~ msgstr "Iziqephu ezinesikhathi esisodwa naleso esikhona"
-
-#~ msgid "Try another name or remove an existing chapter."
-#~ msgstr "Zama igama elinye noma susa isiqephu esisesikhona."
-
-#~ msgid "Error while writing file with chapters"
-#~ msgstr "Kube nephutha uma kubhaliwa ifayela leziqephu"
-
-#~ msgid "Error occurred while saving chapters"
-#~ msgstr "Kwenzeke iphutha uma kugcinwa iziqephu"
-
-#~ msgid ""
-#~ "Please check you have permission to write to the folder containing the "
-#~ "movie."
-#~ msgstr ""
-#~ "Sicela uhlole ukuthi unayo imvume yokubhala kwifolda equkethe i-movie."
-
-#~ msgid "Open Chapter File"
-#~ msgstr "Vula ifayela lesiqephu"
-
-#~ msgid "Chapter Screenshot"
-#~ msgstr "Isithombe-skrini sesiqephu"
-
-#~ msgid "Chapter Title"
-#~ msgstr "Isihloko sesiqephu"
-
-#~ msgid "Save changes to chapter list before closing?"
-#~ msgstr "Gcina ushintsho kuhlu lwesoqephu ngaphambi kokuba uvale?"
-
-#~ msgid "Close without Saving"
-#~ msgstr "Vala ngaphandle kokugcina"
-
-#~ msgid "If you don't save, changes to the chapter list will be lost."
-#~ msgstr "Uma ungagcini, izinguqulo zakho zesiqephu zizolahleka."
-
-#~ msgid "Gromit Annotations"
-#~ msgstr "Amazwana we-Gromit"
-
-#~ msgid "Presentation helper to make annotations on screen"
-#~ msgstr "Isisizi sokwethula ukwenza amazwana kwiskrini"
-
-#~ msgid "The gromit binary was not found."
-#~ msgstr "Ibinary ye-gromit ayitholwanga."
-
-#~ msgid "BBC iPlayer"
-#~ msgstr "i-BBC iPlayer"
-
-#~ msgid ""
-#~ "Stream BBC programs from the last 7 days from the BBC iPlayer service."
-#~ msgstr ""
-#~ "Sakaza uhlelo lwe-BBC kusuka kwizinsuku ezingu-7 zokugcina kwinsizakalo "
-#~ "ye-BBC iPlayer."
-
-#~ msgid "Error listing channel categories"
-#~ msgstr "Kwenzeke iphutha uma kuhlelwa izigaba zeshaneli"
-
-#~ msgid ""
-#~ "There was an unknown error getting the list of television channels "
-#~ "available on BBC iPlayer."
-#~ msgstr ""
-#~ "Kwenzeke iphutha elingaziwa uma kutholwa uhlu lwamashaneli wakamabonakude "
-#~ "akhona kwi-BBC iPlayer."
-
-#~ msgid "Loading…"
-#~ msgstr "Kuyalayisha…"
-
-#~ msgid "Error getting programme feed"
-#~ msgstr "Kwenzeke iphutha ekulandeni ukufunza kohlelo"
-
-#~ msgid ""
-#~ "There was an error getting the list of programmes for this channel and "
-#~ "category combination."
-#~ msgstr ""
-#~ "Kube nephutha uma kulandwa uhlu lohlelo kwishaneli kanye nokuhlanganwa "
-#~ "kwezigaba."
-
-#~ msgid "<no reason given>"
-#~ msgstr "<akukho sizathu esinikiwe>"
-
-#~ msgid "Programme unavailable (\"%s\")"
-#~ msgstr "Uhlelo alukho (\"%s\")"
-
-#~ msgid "Download movie subtitles from OpenSubtitles"
-#~ msgstr "Layisha ungenise umbhalo ongezansi kusuka ku-OpenSubtitles"
-
-#~ msgid "Always On Top"
-#~ msgstr "Kuhlala kuphezulu"
-
-#~ msgid "Keep the main window on top when playing a movie"
-#~ msgstr "Gcina iwindi elikhulu liphezulu uma udlala i-movie"
-
-#~ msgid "Publisher protocol to use"
-#~ msgstr "iziphakamiso eziyisikelo zomshicileli ezingasetshenziswa"
-
-#~ msgid "Neighbors"
-#~ msgstr "Abakhelwane"
-
-#~ msgid "Publish Playlist"
-#~ msgstr "Shicilela uhlu lokudlalwayo"
-
-#~ msgid "Share the current playlist via HTTP"
-#~ msgstr "Abelana ngohlu oludlalwayo lwamanje kuhamba nge-HTTP"
-
-#~ msgid "Service _Name:"
-#~ msgstr "Igama l_ensizakalo:"
-
-#~ msgid ""
-#~ "The name used for announcing the playlist service on the network.\n"
-#~ "All occurrences of the string <b>%u</b> will be replaced by your name,\n"
-#~ "and <b>%h</b> will be replaced by your computer's host name."
-#~ msgstr ""
-#~ "Igama elisetshenziselwa ukumemezela insizakalo yohlu lokudlalwayo "
-#~ "kwinethiwekhi.\n"
-#~ "Izenzakalo zonke zentambo <b>%u</b> zizomelwa igama lakho,\n"
-#~ "futhi i-<b>%h</b> izomela igama lesikhungo sekhomphyutha yakho."
-
-#~ msgid "Use _encrypted transport protocol (HTTPS)"
-#~ msgstr ""
-#~ "Sebenzisa iphrothokholi yesithuthi esibhalwe ngo_kufihlekileyo‫‫ (HTTPS)"
-
-#~ msgid "Save a Copy..."
-#~ msgstr "Gcina ikhophi..."
-
-#~ msgid "Save a copy of the movie"
-#~ msgstr "Gcina ikhophi le-movie"
-
-#~ msgid "Movie stream"
-#~ msgstr "Ukusakazwa kwe-movie"
-
-#~ msgid "Save in _folder:"
-#~ msgstr "Gcina kwi_folda:"
-
-#~ msgid "_Name:"
-#~ msgstr "Iga_ma:"
-
-#~ msgid "There was an error saving the screenshot."
-#~ msgstr "Kwenzeke iphutha umu kugcinwa isithombe-skrini."
-
-#~ msgid "Save Screenshot"
-#~ msgstr "Gcina isithombe-skrini"
-
-#~ msgid "Take a screenshot"
-#~ msgstr "Thwebula isithombe-skrini"
-
-#~ msgid "Create a gallery of screenshots"
-#~ msgstr "Dala i-gallery yezithombe-skrini"
-
-#~ msgid "_Skip To..."
-#~ msgstr "_Yeqela ku..."
-
-#~ msgid "Skip to a specific time"
-#~ msgstr "Yeqela esikhathini esicacisiwe"
-
-#~ msgid "A plugin to let you browse YouTube videos."
-#~ msgstr "I-Plugin ekuyeka ukuba udlulise amehlo kumavidiyo waku-YouTube."
-
-#~ msgid "YouTube Browser"
-#~ msgstr "Isiphequluli se-YouTube"
-
-#~ msgid "Related Videos"
-#~ msgstr "Amavidiyo ahlobene"
-
-#~ msgid "Search Results"
-#~ msgstr "Imiphumela yosesho"
-
-#~ msgid "_Open in Web Browser"
-#~ msgstr "_Vula kwisiphequluli sewebhu"
-
-#~ msgid "Open the video in your web browser"
-#~ msgstr "Vula ividiyo yakho kwisiphequluli sewebhu"
-
-#~ msgid "YouTube"
-#~ msgstr "I-YouTube"
-
-#~ msgid "Cancelling query…"
-#~ msgstr "Ikhansela umbuzo…"
-
-#~ msgid "Error Searching for Videos"
-#~ msgstr "Kwenzeke iphutha uma kuseshwa amavidiyo"
-
-#~ msgid ""
-#~ "The response from the server could not be understood. Please check you "
-#~ "are running the latest version of libgdata."
-#~ msgstr ""
-#~ "Impendulo evela kwisiphakeli ayikwazanga ukuzwisisiwa. Sicela uhlole "
-#~ "ukuthi uhamba ngenguquko yamanje ye-libgdata."
-
-#~ msgid "Fetching search results…"
-#~ msgstr "Kulandwa imiphumela yosesho…"
-
-#~ msgid "Fetching related videos…"
-#~ msgstr "Kulandwa amavidiyo ahlobene…"
-
-#~ msgid "Error Opening Video in Web Browser"
-#~ msgstr "Kwenzeke iphutha uma kuvulwa ividiyo kwisiphequluli sewebhu"
-
-#~ msgid "Fetching more videos…"
-#~ msgstr "Kulandwa amavidiyo angaphezulu…"
-
-#~ msgid "Video Format Not Supported"
-#~ msgstr "Ifomethi yevidiyo ayixhasiwe"
-
-#~ msgid ""
-#~ "This video is not available in any formats which Totem supports. Would "
-#~ "you like to open it in your web browser instead?"
-#~ msgstr ""
-#~ "Le vidiyo ayikho kumafomethi axhaswa yi-Totem. Ungathanda ukuyivula "
-#~ "kwisiphequluli sakho sewebhu?"
-
-#~ msgid "No URI to play"
-#~ msgstr "Akukho URI angadlalwa"
-
-#~ msgid "No playlist or playlist empty"
-#~ msgstr "Akukho hlu lokudlalwayo noma akuna lutho"
-
-#~ msgid "Movie browser plugin"
-#~ msgstr "I-plugin yesiphequluli se-movie"
-
-#~ msgid "Verify your system installation. The Totem plugin will now exit."
-#~ msgstr "Qinisekisa ukufakwa kohlelo. I-plugin ye-Totem ngeke iphume."
-
-#~ msgid "Python Console Menu"
-#~ msgstr "Imenyu ye-Python Console"
-
-#~ msgid "Show Totem's Python console"
-#~ msgstr "Bonisa i-python console ye-Totem"
-
-#~ msgid "Enable remote Python debugging with rpdb2"
-#~ msgstr "Nika i-remote python debugging amandla nge-rpdb2"
-
-#, fuzzy
-#~ msgid "A plugin to let you browse media content from various sources."
-#~ msgstr "I-Plugin ekuyeka ukuba udlulise amehlo kumavidiyo waku-YouTube."
-
-#, fuzzy
-#~ msgid "Grilo Browser"
-#~ msgstr "Isiphequluli se-YouTube"
-
-#~ msgid "%s"
-#~ msgstr "%s"
-
-#~ msgid "By artist"
-#~ msgstr "Ngomculi"
-
-#~ msgid "By tag"
-#~ msgstr "Ngemaki"
-
-#~ msgid "Jamendo Album Page"
-#~ msgstr "Ikhasi le-albham"
-
-#~ msgid "Latest Releases"
-#~ msgstr "Ukukhshiwe okusha"
-
-#~ msgid "Number of albums to _retrieve:"
-#~ msgstr "Inani lama-albhamu okumele a_buyiswe:"
-
-#~ msgid "Popular"
-#~ msgstr "Okuthandwayo"
-
-#~ msgid "Preferred audio _format:"
-#~ msgstr "I_fomethi yomsindo ethandwayo:"
-
-#~ msgid "_Open Jamendo Album Page in Browser"
-#~ msgstr "_Vula ikhasi le-albhamu ye-Jamendo kwisiphequluli"
-
-#~ msgid "Jamendo"
-#~ msgstr "I-Jamendo"
-
-#~ msgid ""
-#~ "Listen to the large collection of Creative Commons licensed music on "
-#~ "Jamendo."
-#~ msgstr ""
-#~ "Lalela umculo omkhulu oqoqiwe olayisenswe yi-Creative Commons ku-Jamendo."
-
-#~ msgid "You need to install the Python simplejson module."
-#~ msgstr "Udinga ukufaka imojuli ye-Python simplejson."
-
-#~ msgid "Artist: %s"
-#~ msgstr "Ingcweti: %s"
-
-#~ msgid "%Y-%m-%d"
-#~ msgstr "%Y-%m-%d"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "Released on: %s"
-#~ msgstr "Kukhululwe ngomhla ka: %s"
-
-#~ msgid "License: %s"
-#~ msgstr "Ilayisense: %s"
-
-#~ msgid "%02d. %s"
-#~ msgstr "%02d. %s"
-
-#~ msgid "Album: %s"
-#~ msgstr "I-albhamu: %s"
-
-#~ msgid "Duration: %s"
-#~ msgstr "Ubude besikhathi: %s"
-
-#~ msgid "Fetching albums, please wait…"
-#~ msgstr "Ilanda ama-albhamu, sicela ulinde…"
-
-#~ msgid ""
-#~ "Failed to connect to Jamendo server.\n"
-#~ "%s."
-#~ msgstr ""
-#~ "Ihlulekile ukuxhumana nesiphakeli se-Jamendo.\n"
-#~ "%s."
-
-#~ msgid "The Jamendo server returned code %s."
-#~ msgstr "Isiphakeli se-Jamendo sibuyise ikhodi %s."
-
-#~ msgid "An error occurred while fetching albums."
-#~ msgstr "Kwenzeke iphutha uma kulandwa ama-albhamu."
-
-#~ msgid "%H:%M:%S"
-#~ msgstr "%H:%M:%S"
-
-#~ msgid "%M:%S"
-#~ msgstr "%M:%S"
-
-#~ msgid "en"
-#~ msgstr "en"
-
-#~ msgid "Number of results per page"
-#~ msgstr "Inani lemiphumela kuya ngekhasi:"
-
-#~ msgid "Could not connect to Tracker"
-#~ msgstr "Ayikwazi ukuxhumana ne-Tracker"
-
-#~ msgid "No results"
-#~ msgstr "Akukho miphumela"
-
-#~ msgid "Showing %i - %i of %i match"
-#~ msgid_plural "Showing %i - %i of %i matches"
-#~ msgstr[0] "Kuboniswa okungu %i - %i kwesifaniso se %i"
-#~ msgstr[1] "Kuboniswa okungu %i - %i kwezifaniso ze %i"
-
-#~ msgid "Page"
-#~ msgstr "Ikhasi"
-
-#~ msgid "Search for local videos using Tracker"
-#~ msgstr "Sesha amavidiyo waseduze usebenzisa i-Tracker"
-
-#~ msgid "Browser Plugin using %s"
-#~ msgstr "Dlulisa amahlo kwi-plugin usebenzisa i-%s"
-
-#~ msgid "Totem Browser Plugin"
-#~ msgstr "I-plugin yesiphequluli se-Totem"
-
-#~ msgid ""
-#~ "The playback of this movie requires the following decoders which are not "
-#~ "installed:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ukudlalela emuva kwale-movie kudinga ama-decoder angafakwanga "
-#~ "alandelayo:\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "Coherence DLNA/UPnP Client"
-#~ msgstr "Ikhasimende le-Coherence DLNA/UPnP"
-
-#~ msgid "A DLNA/UPnP client for Totem powered by Coherence"
-#~ msgstr "Ikhasimende le-DLNA/UPnP le-Totem elinikwe amandla yi-Coherene"

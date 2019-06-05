@@ -1,21 +1,25 @@
-# Uighur Translation of Totem
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Abduxukur Abdurixit <abduxukur.abdurixit@t-systems.ch>, 2005
-# Sahran <sahran.ug@gmail.com>, 2011
-# I just made up the Plural-Forms here so that it passed msgfmt.
+# This file is distributed under the same license as the totem package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2016
+# Will Thompson <wjt@endlessm.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2013-02-24 12:58+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
-"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: ug\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
+"Language-Team: Uighur (https://www.transifex.com/endless-os/teams/9016/ug/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ug\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
@@ -33,8 +37,8 @@ msgstr "كىنولارنى قويۇش"
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
@@ -44,14 +48,16 @@ msgid ""
 "support for recording DVDs."
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr ""
-"Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;سىن;كىنو;فىلىم;سىن پارچىسى;"
-"كۆپ قىسىملىق;قويغۇ;DVD;TV;دىسكا;"
+"Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;سىن;كىنو;فىلىم;سىن "
+"پارچىسى;كۆپ قىسىملىق;قويغۇ;DVD;TV;دىسكا;"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -117,36 +123,27 @@ msgid "Encoding character set for subtitle."
 msgstr "ئېكران خېتىنىڭ كودلىنىش ھەرپ توپلىمى."
 
 #: data/org.gnome.totem.gschema.xml.in:55
-#, fuzzy
 msgid "Default location for the “Open…” dialogs"
-msgstr "«ئاچ…» سۆزلەشكۈسىنىڭ كۆڭۈلدىكى ئورنى"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:56
-#, fuzzy
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"«ئاچ…» سۆزلەشكۈسىنىڭ كۆڭۈلدىكى ئورنى. ھازىرقى مۇندەرىجە كۆڭۈلدىكى ئورنى "
-"بولىدۇ."
 
 #: data/org.gnome.totem.gschema.xml.in:60
-#, fuzzy
 msgid "Default location for the “Take Screenshot” dialogs"
-msgstr "«ئېكران كۆرۈنۈشىنى سۈرەتكە ئال» سۆزلەشكۈسىنىڭ كۆڭۈلدىكى ئورنى"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:61
-#, fuzzy
 msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
 msgstr ""
-"«ئېكران كۆرۈنۈشىنى سۈرەتكە ئال» سۆزلەشكۈسىنىڭ كۆڭۈلدىكى ئورنى. سۈرەت "
-"مۇندەرىجىسى كۆڭۈلدىكى ئورۇندۇر."
 
 #: data/org.gnome.totem.gschema.xml.in:65
-#, fuzzy
 msgid "Whether to disable the plugins in the user’s home directory"
-msgstr "ئىشلەتكۈچى ماكان مۇندەرىجىسىدىكى قىستۇرما چەكلىنەمدۇ يوق"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:69
 msgid "Whether to disable the keyboard shortcuts"
@@ -203,9 +200,8 @@ msgid "Preferences"
 msgstr "مايىللىق"
 
 #: data/preferences.ui:130
-#, fuzzy
 msgid "External Subtitles"
-msgstr "تېكىست فىلىم خېتى"
+msgstr ""
 
 #: data/preferences.ui:178
 msgid "_Load subtitle files when movie is loaded"
@@ -220,14 +216,12 @@ msgid "_Encoding:"
 msgstr "كودلاش(_E):"
 
 #: data/preferences.ui:312
-#, fuzzy
 msgid "Plugins"
-msgstr "قىستۇرمىلار..."
+msgstr ""
 
 #: data/preferences.ui:338
-#, fuzzy
 msgid "Plugins…"
-msgstr "قىستۇرمىلار..."
+msgstr ""
 
 #: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
@@ -283,16 +277,14 @@ msgid "Audio"
 msgstr "ئۈن"
 
 #: data/shortcuts.ui:16
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr "ئادەتتىكى"
+msgstr ""
 
 #: data/shortcuts.ui:21
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr "خاسلىق"
+msgstr ""
 
 #: data/shortcuts.ui:28
 msgctxt "shortcut window"
@@ -300,64 +292,54 @@ msgid "Make Available Offline"
 msgstr ""
 
 #: data/shortcuts.ui:35
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "ئېكران كۆرۈنۈشى تۇت(_S)"
+msgstr ""
 
 #: data/shortcuts.ui:42
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "ئاخىرلاشتۇر"
+msgstr ""
 
 #: data/shortcuts.ui:50
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "ئاۋازنى يۇقىرىلات"
+msgstr ""
 
 #: data/shortcuts.ui:55
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "ئاۋازنى يۇقىرىلات"
+msgstr ""
 
 #: data/shortcuts.ui:62
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "ئاۋازنى تۆۋەنلەت"
+msgstr ""
 
 #: data/shortcuts.ui:70
-#, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "كۆرۈنۈش(_V)"
+msgstr ""
 
 #: data/shortcuts.ui:75
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "پۈتۈن ئېكران شەكلىگە ئالمىشىش"
+msgstr ""
 
 #: data/shortcuts.ui:82
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "تولۇق ئېكرانغا ئۆزگەرتىدۇ"
+msgstr ""
 
 #: data/shortcuts.ui:89
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "چوڭايت"
+msgstr ""
 
 #: data/shortcuts.ui:96
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "كىچىكلەت"
+msgstr ""
 
 #: data/shortcuts.ui:103
 msgctxt "shortcut window"
@@ -370,34 +352,29 @@ msgid "Rotate ↶"
 msgstr ""
 
 #: data/shortcuts.ui:119
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "قويۇش"
+msgstr ""
 
 #: data/shortcuts.ui:124
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "قويۇش/توختىتىش"
+msgstr ""
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "تۇتقىدەك كىنو يوق"
+msgstr ""
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "تۇتقىدەك كىنو يوق"
+msgstr ""
 
 #: data/shortcuts.ui:164
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "ئاتلاش"
+msgstr ""
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
@@ -405,10 +382,9 @@ msgid "Go back 15 seconds"
 msgstr ""
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "0 سېكۇنت"
+msgstr ""
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -421,16 +397,14 @@ msgid "Step forward one frame"
 msgstr ""
 
 #: data/shortcuts.ui:200 data/shortcuts.ui:248
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "0 سېكۇنت"
+msgstr ""
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "%d كاندۇك(بىر سېكۇنتتىكى)"
+msgstr ""
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
@@ -443,10 +417,9 @@ msgid "Go forward 10 minutes"
 msgstr ""
 
 #: data/shortcuts.ui:279
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "غا ئاتلاپ ئۆتۈش(_S) ...."
+msgstr ""
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
@@ -497,39 +470,40 @@ msgstr ""
 msgid "_Aspect Ratio"
 msgstr "ئېگىز-كەڭلىك نىسبىتى(_A)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "ئاپتوماتىك"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "Square"
-msgstr "تۆت چاسا"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
-msgstr "4:3 (TV)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
-msgstr "16∶9 (كەڭ ئېكرانلىق)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
-msgstr "2.11:1 (DVB)"
+msgstr ""
 
 #: data/totem.ui:81
 msgid "Zoom In"
@@ -548,9 +522,8 @@ msgid "S_ubtitles"
 msgstr "فىلىم خېتى(_U)"
 
 #: data/totem.ui:100
-#, fuzzy
 msgid "_Select Text Subtitles…"
-msgstr "ئېكران خەت تېكىستىنى تاللاش"
+msgstr ""
 
 #: data/totem.ui:123
 msgid "_Eject"
@@ -598,13 +571,10 @@ msgid "Password requested for RTSP server"
 msgstr "RTSP مۇلازىمېتىرغا ئىم زۆرۈر"
 
 #: src/backend/bacon-video-widget.c:3889
-#, fuzzy
 msgid ""
 "The source seems encrypted and can’t be read. Are you trying to play an "
 "encrypted DVD without libdvdcss?"
 msgstr ""
-"مەنبە قارىماققا قۇلۇپلانغان ھەم ئوقۇغىلى بولمايدۇ. قۇلۇپلانغان DVD  نى "
-"libdvdcss سىز قويماقچىمۇسىز؟ "
 
 #: src/backend/bacon-video-widget.c:3903
 msgid "The server you are trying to connect to is not known."
@@ -649,15 +619,14 @@ msgstr ""
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] ""
-"بۇ كىنونى قويۇش ئۈچۈن تېخى ئورنىتىلمىغان تۆۋەندىكى قىستۇرمىلار كېرەك "
-"بولىدۇ:\n"
+"بۇ كىنونى قويۇش ئۈچۈن تېخى ئورنىتىلمىغان تۆۋەندىكى قىستۇرمىلار كېرەك بولىدۇ:\n"
 "\n"
 "%s"
 
@@ -695,11 +664,11 @@ msgstr "ۋاسىتىدە تېخى ئىشلەتكىلى بولمايدىغان(ق
 
 #: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
-"بىر قىسىم زۆرۈر قىستۇرمىلار يوق ئىكەن. پروگرامما توغرا ئورنىتىلدىمۇ تەكشۈرۈپ "
-"كۆرۈڭ."
+"بىر قىسىم زۆرۈر قىستۇرمىلار يوق ئىكەن. پروگرامما توغرا ئورنىتىلدىمۇ تەكشۈرۈپ"
+" كۆرۈڭ."
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. * %s will be replaced with the software installer's name, e.g.
@@ -722,9 +691,8 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
-#, fuzzy
 msgid "Open with VLC"
-msgstr "«%s»دا ئاچ(_O)"
+msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
@@ -737,16 +705,14 @@ msgid "Get VLC"
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
-#, fuzzy
 msgid "Unable to play the file"
-msgstr "CMML ھۆججىتىنى تەھلىل قىلىش مەغلۇپ بولدى"
+msgstr ""
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -758,31 +724,28 @@ msgstr "%d:%02d:%02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
-#, fuzzy, c-format
+#, c-format
 msgctxt "long time format"
 msgid "-%d:%02d:%02d"
-msgstr "%d:%02d:%02d"
+msgstr ""
 
 #. -minutes:seconds
 #. Translators: This is a time format, like "-5:02" for 5
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
-#, fuzzy, c-format
+#, c-format
 msgctxt "short time format"
 msgid "-%d:%02d"
-msgstr "%d:%02d"
+msgstr ""
 
 #. minutes:seconds
 #. Translators: This is a time format, like "5:02" for 5
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -790,14 +753,12 @@ msgid "%d:%02d"
 msgstr "%d:%02d"
 
 #: src/grilo.ui:7
-#, fuzzy
 msgid "Select All"
-msgstr "قىسقۇچ تاللاڭ"
+msgstr ""
 
 #: src/grilo.ui:12
-#, fuzzy
 msgid "Select None"
-msgstr "قىسقۇچ تاللاڭ"
+msgstr ""
 
 #: src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
@@ -807,9 +768,12 @@ msgstr "thread-safe فۇنكسىيە ئامبارلىرىنى دەسلەپلەش
 msgid "Verify your system installation. Totem will now exit."
 msgstr "سىستېما"
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -858,14 +822,13 @@ msgid "Local"
 msgstr ""
 
 #: src/totem-grilo.c:1910
-#, fuzzy
 msgid "Channels"
-msgstr "قانال:"
+msgstr ""
 
 #: src/totem-interface.c:179 src/totem-interface.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr "«%s» دېگەن ئارايۈزنى ئوقۇغىلى بولمىدى. %s"
+msgstr ""
 
 #: src/totem-interface.c:179
 msgid "The file does not exist."
@@ -881,10 +844,10 @@ msgid "Click on items to select them"
 msgstr ""
 
 #: src/totem-main-toolbar.c:136
-#, fuzzy, c-format
+#, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] "%d سېكۇنت"
+msgstr[0] ""
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -908,21 +871,21 @@ msgid "Search"
 msgstr "ئىزدە"
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "ئاۋاز يولى #%d"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "فىلىم خېتى"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "يوق"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
 msgctxt "Language"
 msgid "Auto"
@@ -938,9 +901,9 @@ msgid "Play"
 msgstr "قوي"
 
 #: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
-#, fuzzy, c-format
+#, c-format
 msgid "Totem could not play “%s”."
-msgstr "Totem «%s» نى قويالمىدى"
+msgstr ""
 
 #: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
@@ -978,9 +941,8 @@ msgstr ""
 #: src/plugins/screenshot/totem-gallery.c:98
 #: src/plugins/screenshot/totem-gallery-progress.c:103
 #: src/plugins/skipto/totem-skipto.c:221
-#, fuzzy
 msgid "_Cancel"
-msgstr "ئەمەلدىن قالدۇر"
+msgstr ""
 
 #: src/totem-open-location.c:186 src/totem-uri.c:461
 msgid "_Add"
@@ -1043,9 +1005,8 @@ msgid "Movies to play"
 msgstr "قويۇلىدىغان كىنولار"
 
 #: src/totem-options.c:100
-#, fuzzy
 msgid "Can’t enqueue and replace at the same time"
-msgstr "ئوخشاش بىر ۋاقىتتا قاتارغا كىرىپ ھەم ئالماشتۇرالمايدۇ"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1055,9 +1016,9 @@ msgid "Title %d"
 msgstr "ماۋزۇ %d"
 
 #: src/totem-playlist.c:993
-#, fuzzy, c-format
+#, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
-msgstr "قويۇش تىزىمى«%s»نى تەھلىل قىلغىلى بولمىدى. بۇزۇلغان بولۇشى مۇمكىن."
+msgstr ""
 
 #: src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1072,20 +1033,17 @@ msgid "Select Subtitle Font"
 msgstr "فىلىم خېتىنىڭ خەت نۇسخىسىنى تاللاش"
 
 #: src/totemselectiontoolbar.ui:15
-#, fuzzy
 msgid "Add to Favourites"
-msgstr "قويۇش تىزىمىغا قوش"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:40
-#, fuzzy
 msgctxt "button"
 msgid "Play"
-msgstr "قوي"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
-#, fuzzy
 msgid "Shuffle"
-msgstr "تەرتىپسىز(_L)"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:80 src/totemselectiontoolbar.ui:83
 msgid "Delete"
@@ -1253,9 +1211,8 @@ msgid "_Open"
 msgstr "ئاچ(_O)"
 
 #: src/totem-uri.c:457
-#, fuzzy
 msgid "Add Videos"
-msgstr "سىنلار"
+msgstr ""
 
 #: src/plugins/apple-trailers/apple-trailers.plugin.desktop.in:6
 msgid "Apple Trailers"
@@ -1297,32 +1254,26 @@ msgid "Unable to write a project."
 msgstr "قۇرۇلۇشقا يازالمىدى."
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:375
-#, fuzzy
 msgid "_Create Video Disc…"
-msgstr "سىن دىسكا ياسا(_C)…"
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:376
-#, fuzzy
 msgid "Copy Vide_o DVD…"
-msgstr "سىن DVDنى كۆچۈر(_O)…"
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:377
-#, fuzzy
 msgid "Copy (S)VCD…"
-msgstr "‎(S)VCD كۆچۈر…"
+msgstr ""
 
 #: src/plugins/dbusservice/dbusservice.plugin.desktop.in:6
 msgid "MPRIS D-Bus Interface"
 msgstr ""
 
 #: src/plugins/dbusservice/dbusservice.plugin.desktop.in:7
-#, fuzzy
 msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
-"D-Bus تارماق سىستېمىغا نۆۋەتتە قويۇۋاتقان سىننىڭ ئۇقتۇرۇش قىستۇرمىسىنى "
-"يوللايدۇ."
 
 #: src/plugins/dbusservice/dbusservice.py:210
 #: src/plugins/dbusservice/dbusservice.py:238
@@ -1357,14 +1308,12 @@ msgid "Support infrared remote control"
 msgstr "ئىنفرا قىزىل نۇرلۇق تىزگىنەكنى قوللايدۇ"
 
 #: src/plugins/lirc/totem-lirc.c:239
-#, fuzzy
 msgid "Couldn’t initialize lirc."
-msgstr "lirc نى دەسلەپلەشتۈرەلمىدى."
+msgstr ""
 
 #: src/plugins/lirc/totem-lirc.c:251
-#, fuzzy
 msgid "Couldn’t read lirc configuration."
-msgstr "lirc سەپلىمىسىنى ئوقۇيالمىدى."
+msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:5
 msgid "Media Player Keys"
@@ -1458,9 +1407,8 @@ msgid "Movie Properties"
 msgstr "كىنو خاسلىقى"
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:7
-#, fuzzy
 msgid "Adds movie properties menu item"
-msgstr "يان كۆزنەككە كىنو خاسلىقىنى قوشسۇن"
+msgstr ""
 
 #: src/plugins/properties/totem-movie-properties.c:152
 #, c-format
@@ -1553,38 +1501,33 @@ msgstr "قانال:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "نامەلۇم"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "نامەلۇم"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "نامەلۇم"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "نامەلۇم"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "نامەلۇم"
+msgstr ""
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
@@ -1672,14 +1615,10 @@ msgid "rpdb2 password"
 msgstr "rpdb2 ئىم"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
-#, fuzzy
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"Totem نى سازلاشنىڭ ئالدىنى ئېلىشقا ئىشلىتىدىغان rpdb2 مۇلازىمېتىر ئىجازەت "
-"بېرىلمىگەن تور زىيارەت ئىمغا يولۇقتى. ئەگەر بوش قالدۇرۇلسا، كۆڭۈلدىكى "
-"ئەھۋالدا 'totem' ئىم سۈپىتىدە ئىشلىتىلىدۇ."
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
 msgid "Python Console"
@@ -1702,9 +1641,9 @@ msgstr "Python سازلىغۇچ"
 
 #. pylint: disable=E1101
 #: src/plugins/pythonconsole/pythonconsole.py:97
-#, fuzzy, python-format
+#, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr "سىز 'totem_object' ئارقىلىق Totem نەڭنى زىيارەت قىلالايسىز:\\n%s"
+msgstr ""
 
 #: src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1712,15 +1651,11 @@ msgstr "Totem Python  كونترول سۇپىسى"
 
 #. pylint: disable=W0613
 #: src/plugins/pythonconsole/pythonconsole.py:111
-#, fuzzy
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
-"جەزملە چېكىلگەندىن كېيىن، Totem سىزنىڭ winpdb ياكى  rpdb2 غا باغلانغۇچە "
-"كۈتىدۇ. ئەگەر سىز DConf دا سازلىغۇچ ئىمنى تەڭشىمىگەن بولسىڭىز، كۆڭۈلدىكى ئىم "
-"('totem')نى ئىشلىتىدۇ."
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
 msgid "Recent files"
@@ -1755,9 +1690,8 @@ msgid "Save a copy of the currently playing movie"
 msgstr "قويۇلۇۋاتقان كىنونى ساقلىۋالىدۇ"
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "سىن دىسكىنى كۆپەيتەلمەيدۇ."
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1826,9 +1760,8 @@ msgid "Save Gallery"
 msgstr "توپلامنى ساقلا"
 
 #: src/plugins/screenshot/totem-gallery.c:99
-#, fuzzy
 msgid "_Save"
-msgstr "ساقلا"
+msgstr ""
 
 #. Translators: The first argument is the movie title. The second
 #. * argument is a number which is used to prevent overwriting files.
@@ -1841,15 +1774,14 @@ msgstr "Gallery-%s-%d.jpg"
 
 #. Set up the window
 #: src/plugins/screenshot/totem-gallery-progress.c:101
-#, fuzzy
 msgid "Creating Gallery…"
-msgstr "سۈرەت توپلىمى قۇرۇۋاتىدۇ…"
+msgstr ""
 
 #. Set the progress label
 #: src/plugins/screenshot/totem-gallery-progress.c:107
-#, fuzzy, c-format
+#, c-format
 msgid "Saving gallery as “%s”"
-msgstr "رەسىم توپلىمىنى «%s» غا ساقلا"
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1865,9 +1797,8 @@ msgid "Take _Screenshot"
 msgstr "ئېكران كۆرۈنۈشى تۇت(_S)"
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:345
-#, fuzzy
 msgid "Create Screenshot _Gallery…"
-msgstr "ئېكران كۆرۈنۈشى توپلىمىنى قۇر(_G)…"
+msgstr ""
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:6
 #: src/plugins/skipto/totem-skipto.c:219
@@ -1875,39 +1806,41 @@ msgid "Skip To"
 msgstr "ئاتلاش"
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:7
-#, fuzzy
 msgid "Provides the “Skip to” dialog"
-msgstr "«ئاتلاپ ئۆتۈش» سۆزلەشكۈسىنى تەمىنلەيدۇ"
+msgstr ""
 
 #: src/plugins/skipto/skipto.ui:22
 msgid "_Skip to:"
 msgstr "غا ئاتلاپ ئۆتۈش(_S) ...."
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "سېكۇنت"
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
 msgstr "7"
 
 #: src/plugins/skipto/totem-skipto.c:222
-#, fuzzy
 msgid "_Skip To"
-msgstr "ئاتلاش"
+msgstr ""
 
 #: src/plugins/skipto/totem-skipto-plugin.c:206
-#, fuzzy
 msgid "_Skip To…"
-msgstr "ئاتلاش"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
@@ -1915,10 +1848,9 @@ msgid "× 0.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
-#, fuzzy
 msgctxt "playback rate"
 msgid "Normal"
-msgstr "نورمال"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
@@ -1941,9 +1873,9 @@ msgid "× 1.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "Speed: %s"
-msgstr "ئېقىم: %s"
+msgstr ""
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:6
 msgid "Variable Rate"
@@ -1958,1554 +1890,5 @@ msgid "Vimeo"
 msgstr ""
 
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
-#, fuzzy
 msgid "Sets the user agent for the Vimeo site"
-msgstr "Apple Trailers تورتۇراسىنىڭ ئىشلەتكۈچى ۋاكالەتچىسىنى بەلگىلەيدۇ"
-
-#~ msgid "Stopped"
-#~ msgstr "توختىدى"
-
-#~ msgid "Paused"
-#~ msgstr "ۋاقىتلىق توختىدى"
-
-#~ msgid "Playing"
-#~ msgstr "قويۇۋاتىدۇ"
-
-#~ msgid "No URI to play"
-#~ msgstr "قويىدىغان URI يوق"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "توتېم(Totem) كىنو قويغۇچ"
-
-#~ msgid "No playlist or playlist empty"
-#~ msgstr "قويۇش تىزىمى يوق ياكى قويۇش تىزىمى قۇرۇق"
-
-#~ msgid "Movie browser plugin"
-#~ msgstr "كىنو كۆرگۈ قىستۇرمىسى"
-
-#~ msgid "Verify your system installation. The Totem plugin will now exit."
-#~ msgstr ""
-#~ "سىستېمىڭىزنىڭ ئورنىتىلىش ئەھۋالىنى تەكشۈرۈپ كۆرۈڭ. Totem قىستۇرمىسى ھازىر "
-#~ "ئاخىرلىشىدۇ."
-
-#~ msgid "Leave Fullscreen"
-#~ msgstr "تولۇق ئېكراندىن چېكىن"
-
-#~ msgid "Time:"
-#~ msgstr "ۋاقتى:"
-
-#~ msgid "Allow the screensaver to activate when playing audio"
-#~ msgstr "ئۈن قويغاندا ئېكران قوغدىغۇچقا يول قوي"
-
-#~ msgid ""
-#~ "Allow the screensaver to activate when playing audio. Disable if you have "
-#~ "monitor-powered speakers."
-#~ msgstr ""
-#~ "ئۈن قويغاندا ئېكران قوغدىغۇچقا يول قوي. ئەگەر ئېكران توك تەمىنلەيدىغان "
-#~ "ياڭراتقۇ ئىشلەتسىڭىز چەكلەڭ."
-
-#~ msgid "Show visual effects when no video is displayed"
-#~ msgstr "كۆرسىتىلىدىغان كىنو يوق چاغدا كۆرۈش ئۈنۈمىنى كۆرسەت"
-
-#~ msgid "Show visual effects when playing an audio only file."
-#~ msgstr "ئاۋاز ھۆججىتىنى قويۇۋاتقاندا كۆرۈنۈش ئۈنۈمىنى كۆرسەت"
-
-#~ msgid "Name of the visual effects plugin"
-#~ msgstr "كۆرۈنۈش ئۈنۈمى قىستۇرمىسىنىڭ ئاتى."
-
-#~ msgid "Resize the canvas automatically on file load"
-#~ msgstr "ھۆججەت ئوقۇغاندا canvas نىڭ چوڭلۇقىنى ئۆزگەرت"
-
-#~ msgid "Shuffle mode"
-#~ msgstr "تەرتىپسىز قويۇش شەكلى"
-
-#~ msgid "Whether to enable debug for the playback engine"
-#~ msgstr "قايتا قويۇش ماتورىنىڭ سازلاش ئىقتىدارىنى قوزغىتامدۇ يوق"
-
-#~ msgid "Visualization quality setting"
-#~ msgstr "كۆرۈنۈش ئۈنۈمىنىڭ سۈپەت تەڭشىكى"
-
-#~ msgid "Quality setting for the audio visualization."
-#~ msgstr "ئاۋاز كۆرۈنۈش ئۈنۈمىنىڭ سۈپەت تەڭشىكى."
-
-#~ msgid "Whether to autoload external chapter files when a movie is loaded"
-#~ msgstr ""
-#~ "كىنونى يۈكلەۋاتقاندا سىرتقى باب ھۆججەتلىرىنى ئۆزلۈكىدىن يۈكلەمدۇ يوق"
-
-#~ msgid ""
-#~ "Whether to remember the position of played audio/video files when pausing "
-#~ "or closing them"
-#~ msgstr ""
-#~ "ئۈن/سىن ھۆججىتىنى ۋاقىتلىق توختاتقان ياكى ياپقاندا قويۇش ئورنىنى ئەستە "
-#~ "تۇتامدۇ يوق"
-
-#~ msgid "_Remove"
-#~ msgstr "چىقىرىۋەت(_R)"
-
-#~ msgid "Remove file from playlist"
-#~ msgstr "قويۇش تىزىمىدىن چىقىرىۋېتىش"
-
-#~ msgid "_Copy Location"
-#~ msgstr "ئادرېسنى كۆچۈرۈش(_C)"
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "ئادرېسنى چاپلاش تاختىسىغا كۆچۈر"
-
-#~ msgid "_Select Text Subtitles..."
-#~ msgstr "ئېكران خەت تېكىستىنى تاللا(_S)…"
-
-#~ msgid "Select a file to use for text subtitles"
-#~ msgstr "فىلىم خېتىگە ئىشلىتىدىغان ھۆججەتنى تاللاڭ"
-
-#~ msgid "Add..."
-#~ msgstr "قوش…"
-
-#~ msgid "Remove"
-#~ msgstr "چىقىرىۋەت"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "قويۇش تىزىمىنى ساقلاش..."
-
-#~ msgid "Move Up"
-#~ msgstr "ئۈستىگە"
-
-#~ msgid "Move Down"
-#~ msgstr "پەسكە"
-
-#~ msgid "Large"
-#~ msgstr "چوڭ"
-
-#~ msgid "Extra Large"
-#~ msgstr "زىيادە چوڭ"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "Totem تەڭشەكلىرى"
-
-#~ msgid "Start playing files from last position"
-#~ msgstr ""
-#~ "ھۆججەتلەرنى ئەڭ ئاخىرقى قېتىم كۆرگەندە كەلگەن ئورۇندىن باشلاپ قويىدۇ."
-
-#~ msgid "External Chapters"
-#~ msgstr "باشقا بۆلەكلەر"
-
-#~ msgid "Load _chapter files when movie is loaded"
-#~ msgstr "كىنونى يۈكلەۋاتقاندا بۆلەك ھۆججەتلىرىنى يۈكلە(_C)"
-
-#~ msgid "_Resize the window when a new video is loaded"
-#~ msgstr "يېڭى كىنونى ئوقۇغاندا كۆزنەك چوڭلۇقىنى ئۆزگەرت(_R)"
-
-#~ msgid "Disable screensaver when playing"
-#~ msgstr "قويۇۋاتقاندا ئېكران قوغداشنى ئىناۋەتسىز قىل"
-
-#~ msgctxt "Screensaver disable"
-#~ msgid "Video"
-#~ msgstr "سىن"
-
-#~ msgid "Video or Audio"
-#~ msgstr "سىن ياكى ئۈن"
-
-#~ msgid "Visual Effects"
-#~ msgstr "كۆرۈنۈش ئۈنۈمى"
-
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr "ئاۋاز ھۆججىتىنى قويۇۋاتقاندا كۆرۈش ئۈنۈمىنى كۆرسىتىش(_V)"
-
-#~ msgid "_Type of visualization:"
-#~ msgstr "كۆرۈنۈش ئۈنۈمى تىپى(_T):"
-
-#~ msgid "Visualization _size:"
-#~ msgstr ":كۆرۈنۈش ئۈنۈمىنىڭ چوڭلۇقى(_S):"
-
-#~ msgid "Open _Location"
-#~ msgstr "ئادرېس ئاچ(_L)"
-
-#~ msgid "_Fullscreen"
-#~ msgstr "تولۇق ئېكران( _F)"
-
-#~ msgid "_Quit"
-#~ msgstr "ئاخىرلاشتۇر(_Q)"
-
-#~ msgid "_Movie"
-#~ msgstr "كىنو(_M)"
-
-#~ msgid "Eject the current disc"
-#~ msgstr "نۆۋەتتىكى دىسكىنى قاڭقىت"
-
-#~ msgid "View the properties of the current stream"
-#~ msgstr "ھازىرقى ئېقىمنىڭ خاسلىقىنى كۆرسىتىدۇ"
-
-#~ msgid "Play / P_ause"
-#~ msgstr "چال/بىردەم توختا(_A)"
-
-#~ msgid "Play or pause the movie"
-#~ msgstr "كىنونى قويۇش ياكى ۋاقىتلىق توختىتىش"
-
-#~ msgid "_Edit"
-#~ msgstr "تەھرىر(_E)"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "قويۇش تىزىمىنى تازىلا(_C)"
-
-#~ msgid "Clear the playlist"
-#~ msgstr "قويۇش تىزىمىنى تازىلايدۇ"
-
-#~ msgid "Configure plugins to extend the application"
-#~ msgstr "بۇ پروگراممىنىڭ ئىقتىدارىنى كېڭەيتىش ئۈچۈن قىستۇرمىلارنى سەپلەش"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "كۆزنەكنى كىنوغا ماسلاشتۇر"
-
-#~ msgid "_Resize 1∶2"
-#~ msgstr "چوڭ-كىچىكلىكىنى 1:2 گە ئۆزگەرت(_R)"
-
-#~ msgid "Resize to half the original video size"
-#~ msgstr "ئەسلىدىكىسىنىڭ يېرىمىغا ئۆزگەرتىدۇ"
-
-#~ msgid "Resize _1∶1"
-#~ msgstr "1:1 گە ئۆزگەرت(_1)"
-
-#~ msgid "Resize to the original video size"
-#~ msgstr "ئەسلىدىكىسىگە ئوخشاش قىلىپ ئۆزگەرتىدۇ"
-
-#~ msgid "Resize _2∶1"
-#~ msgstr "2∶1 گە ئۆزگەرت(_2)"
-
-#~ msgid "Resize to double the original video size"
-#~ msgstr "ئەسلىدىكىسىنىڭ ئىككى ھەسسىسىگە ئۆزگەرتىدۇ"
-
-#~ msgid "Switch camera angles"
-#~ msgstr "كامېرا بۇلۇڭىنى ئالماشتۇرىدۇ"
-
-#~ msgid "_Go"
-#~ msgstr "يۆتكەل(_G)"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "DVD تىزىملىكىگە يۆتكەل"
-
-#~ msgid "Go to the title menu"
-#~ msgstr "ماۋزۇ تىزىملىكىگە يۆتكەل"
-
-#~ msgid "Go to the audio menu"
-#~ msgstr "ئۈن تىزىملىكىگە يۆتكەل"
-
-#~ msgid "Go to the angle menu"
-#~ msgstr "بۇلۇڭلۇق تىزىملىككە يۆتكەل"
-
-#~ msgid "Go to the chapter menu"
-#~ msgstr "بۆلۈم تىزىملىكىگە يۆتكەل"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "كېيىنكى بۆلەك / كىنو(_N)"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "كېيىنكى بۆلەك ياكى كىنو"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "ئالدىنقى بۆلەك / كىنو(_P)"
-
-#~ msgid "Previous chapter or movie"
-#~ msgstr "ئالدىنقى بۆلەك ياكى كىنو"
-
-#~ msgid "_Sound"
-#~ msgstr "ئاۋاز(_S)"
-
-#~ msgid "Volume _Up"
-#~ msgstr "ئاۋازىنى كۆتۈرۈش(_U)"
-
-#~ msgid "Volume _Down"
-#~ msgstr "ئاۋازىنى پەسەيتىش(_D)"
-
-#~ msgid "_Contents"
-#~ msgstr "مەزمۇنلار(_C)"
-
-#~ msgid "Help contents"
-#~ msgstr "ياردەم ھۆججىتى"
-
-#~ msgid "_About"
-#~ msgstr "ھەققىدە(_A)"
-
-#~ msgid "About this application"
-#~ msgstr "بۇ پروگرامما ھەققىدە"
-
-#~ msgid "Show _Controls"
-#~ msgstr "كونتروللىغۇچنى كۆرسىتىش(_C)"
-
-#~ msgid "Show controls"
-#~ msgstr "كونتروللىغۇچنى كۆرسىتىش"
-
-#~ msgid "S_idebar"
-#~ msgstr "يان بالداق(_I)"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "يان بالداقنى كۆرسىتىش ياكى يوشۇرۇش"
-
-#~ msgid "Sets automatic aspect ratio"
-#~ msgstr "كەڭلىك-ئېگىزلىك نىسبىتىنى ئاپتوماتىك تەڭشەش"
-
-#~ msgid "Sets square aspect ratio"
-#~ msgstr "كەڭلىك-ئېگىزلىك نىسبىتىنى تۆت چاسىغا تەڭشەش"
-
-#~ msgid "Sets 4∶3 (TV) aspect ratio"
-#~ msgstr "كەڭلىك-ئېگىزلىك نىسبىتىنى 4:3 (تېلېۋىزور) گە تەڭشەيدۇ"
-
-#~ msgid "Sets 16∶9 (widescreen) aspect ratio"
-#~ msgstr "كەڭلىك-ئېگىزلىك نىسبىتىنى 16:9(كەڭ ئېكران)  گە تەڭشەيدۇ"
-
-#~ msgid "Sets 2.11∶1 (DVB) aspect ratio"
-#~ msgstr "كەڭلىك-ئېگىزلىك نىسبىتىنى (DVD) 2.11:1  گە تەڭشەيدۇ"
-
-#~ msgid "Skip _Forward"
-#~ msgstr "تېز ئالدىغا ماڭدۇرۇش(_F)"
-
-#~ msgid "Skip forward"
-#~ msgstr "تېز ئالدىغا ماڭدۇرۇش"
-
-#~ msgid "Skip _Backwards"
-#~ msgstr "تېز ئارقىغا ياندۇرۇش(_B)"
-
-#~ msgid "Skip backwards"
-#~ msgstr "تېز ئارقىغا ياندۇرۇش"
-
-#~ msgid "Time seek bar"
-#~ msgstr "ۋاقىت ئىزدەش بالدىقى"
-
-#~ msgid "Subtitle #%d"
-#~ msgstr "فىلىم خېتى  #%d"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "ھۆججەت ئىناۋەتلىك .desktop ھۆججىتى ئەمەس."
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "تونۇيالمىغان ئۈستەلئۈستى ھۆججەت نەشرى ‹%s›"
-
-#~ msgid "Starting %s"
-#~ msgstr "قوزغىلىۋاتقىنى %s"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "پروگرامما بۇيرۇق قۇرىدا پۈتۈكنى قوبۇل قىلالمايدۇ"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "تونۇمايدىغان ئىجرا تاللانمىسى: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr "URI پۈتۈكنى 'Type=Link' ئۈستەلئۈستى تۈرىگە يوللىيالمىدى."
-
-#~ msgid "Not a launchable item"
-#~ msgstr "ئىجراچان تۈر ئەمەس"
-
-#~ msgid "File _Format: %s"
-#~ msgstr "ھۆججەت فورماتى(_F): %s"
-
-#~ msgid "All Files"
-#~ msgstr "بارلىق ھۆججەتلەر"
-
-#~ msgid "All Supported Files"
-#~ msgstr "قوللايدىغان ھەممە ھۆججەتلەر"
-
-#~ msgid "By Extension"
-#~ msgstr "كېڭەيتىلمە ئاتى بويىچە"
-
-#~ msgid "File Format"
-#~ msgstr "ھۆججەت فورماتى"
-
-#~ msgid "Extension(s)"
-#~ msgstr "كېڭەيتىلمە(لەر)"
-
-#~ msgid ""
-#~ "The program was not able to find out the file format you want to use for `"
-#~ "%s'. Please make sure to use a known extension for that file or manually "
-#~ "choose a file format from the list below."
-#~ msgstr ""
-#~ "پروگرامما سىز قوللانماقچى بولغان `%s' تاللانمىنىڭ ھۆججەت فورماتىنى "
-#~ "تاپالمىدى. ھۆججەتكە مەلۇملۇق فورمات ئىشلىتىلگەننى جەزملەڭ ياكى تۆۋەندىكى "
-#~ "تىزىملىكتىن ھۆججەت فورماتىدىن بىرنى قولدا تاللاڭ"
-
-#~ msgid "File format not recognized"
-#~ msgstr "ھۆججەت فورماتىنى تونۇيالمىدى"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "ئەڭگىمە باشقۇرغۇچقا باغلىنىشنى ئىناۋەتسىز قىل"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "سەپلىمە ساقلانغان ھۆججەتنى بەلگىلە"
-
-#~ msgid "FILE"
-#~ msgstr "FILE"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "ئەڭگىمە باشقۇرغۇ ID سېنى بەلگىلە"
-
-#~ msgid "ID"
-#~ msgstr "كىملىكى(ID)"
-
-#~ msgid "Session management options:"
-#~ msgstr "ئەڭگىمە باشقۇرغۇ تاللانمىلىرى:"
-
-#~ msgid "Show session management options"
-#~ msgstr "ئەڭگىمە باشقۇرغۇ تاللانمىلىرى كۆرسەت"
-
-#~ msgid "Audio Preview"
-#~ msgstr "ئۈننى ئالدىن كۆرۈش"
-
-#~ msgid "_Play Now"
-#~ msgstr "ھازىر قوي(_P)"
-
-#~ msgid "_Add to Playlist"
-#~ msgstr "قويۇش تىزىمىغا قوش(_A)"
-
-#~ msgid "No File"
-#~ msgstr "ھۆججەت يوق"
-
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "Totem ئەركىن يۇمشاق دېتال؛ سىز ئەركىن يۇمشاق دېتال فوندى تارقاتقان GNU "
-#~ "ئادەتتىكى ئاممىۋى ئىجازەتنامىسىنىڭ ماددىلىرىغا ئاساسەن ئۇنى ئەركىن "
-#~ "تارقىتىپ ياكى ئۆزگەرتسىڭىز بولىدۇ؛  ئىجازەتنامىنىڭ ئىككىنچى نەشرى ياكى "
-#~ "ئۇنىڭدىن كېيىنكى نەشرىنى ئىشلىتىڭ."
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "Totem نى تارقىتىشنىڭ مەقسىتى ئۇنىڭ سىزگە كېرەكلىك بولۇشى ئۈچۈن، ئەمما "
-#~ "ئۇنىڭ ھېچقانداق كاپالىتى يوق؛ ئۇنى ئىشلىتىپ كېلىپ چىققان ھەر قانداق "
-#~ "بىۋاسىتە ياكى ۋاسىتىلىك ئاقىۋەتكە ھېچقانداق مەسئۇلىيەتنى ئۈستىگە "
-#~ "ئالمايمىز. GNU ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىدىكى تەپسىلاتنى كۆرۈڭ."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "سىز Totem بىلەن بىللە GNU ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنىڭ "
-#~ "كۆچۈرۈلمىسىدىن بىر نۇسخا تاپشۇرۇۋالىسىز؛ ئەگەر تاپشۇرۇۋالمىغان بولسىڭىز "
-#~ "ئەركىن يۇمشاق دېتال ۋەخپىسىگە خەت يېزىڭ. مەنزىل:  the Free Software "
-#~ "Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02110-1301  USA"
-
-#~ msgid ""
-#~ "Totem contains an exception to allow the use of proprietary GStreamer "
-#~ "plugins."
-#~ msgstr ""
-#~ "GStreamer ئىشلىتىشكە يول قويىدىغان مەخسۇس قىستۇرمىنىڭ مۇستەسناسىنى Totem "
-#~ "ئۆز ئىچىگە ئالىدۇ"
-
-#~ msgid "Copyright © 2002-2009 Bastien Nocera"
-#~ msgstr "نەشر ھوقۇقى © 2002-2009 Bastien Nocera"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Gheyret Kenji <gheyret@gmail.com>\n"
-#~ "Sahran<sahran@live.com>\n"
-#~ "Muhemmed Erdem <misran_erdem@hotmail.com>"
-
-#~ msgid "Totem Website"
-#~ msgstr "Totem تورتۇراسى"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "'%s --help' ئىجرا قىلىپ بۇيرۇق قۇرىنىڭ تولۇق تاللانما تىزىمىنى كۆرۈڭ.\n"
-
-#~ msgid "Totem %s"
-#~ msgstr "Totem %s"
-
-#~ msgid "No error message"
-#~ msgstr "خاتالىق ئۇچۇرى يوق"
-
-#~ msgid "Fullscreen"
-#~ msgstr "پۈتۈن ئېكران"
-
-#~ msgid "Open Location..."
-#~ msgstr "ئېچىش ئورنى…"
-
-#~ msgid "Enable debug"
-#~ msgstr "سازلاشنى قوزغات"
-
-#~ msgid "Show/Hide Controls"
-#~ msgstr "كونتروللىغۇچنى كۆرسەت/يوشۇر"
-
-#~ msgid "Playlist index"
-#~ msgstr "قويۇش تىزىمى ئىندېكسى"
-
-#~ msgid "- Play movies and songs"
-#~ msgstr "- كىنو ۋە نەغمىلەرنى قويۇش"
-
-#~ msgid "MP3 ShoutCast playlist"
-#~ msgstr "MP3 ShoutCast قويۇش تىزىمى"
-
-#~ msgid "MP3 audio (streamed)"
-#~ msgstr "MP3 ئۈن (ئېقىم)"
-
-#~ msgid "MP3 audio (streamed, DOS format)"
-#~ msgstr "MP3 ئۈن (ئېقىم، DOS فورماتى)"
-
-#~ msgid "XML Shareable Playlist"
-#~ msgstr "XML ھەمبەھىرلىگىلى بولىدىغان قويۇش تىزىمى"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "قويۇش تىزىمىنى ساقلىغىلى بولمىدى"
-
-#~ msgid "Save Playlist"
-#~ msgstr "قويۇش تىزىملىكنى ساقلاش"
-
-#~ msgid "Playlist"
-#~ msgstr "قويۇش تىزىمى"
-
-#~ msgid "Playlist error"
-#~ msgstr "قويۇش تىزىمى خاتالىقى"
-
-#~ msgid "Audio/Video"
-#~ msgstr "ئاۋاز/سۈرەت"
-
-#~ msgid "N/A"
-#~ msgstr "N/A"
-
-#~ msgid "%d x %d"
-#~ msgstr "%d x %d"
-
-#~ msgctxt "Number of audio channels"
-#~ msgid "N/A"
-#~ msgstr "N/A"
-
-#~ msgid "0:00 / 0:00"
-#~ msgstr "0:00 / 0:00"
-
-#~ msgid "%s (Streaming)"
-#~ msgstr "%s (ئېقىم)"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#~ msgid "Seek to %s / %s"
-#~ msgstr "%s / %s گىچە ئىزدە"
-
-#~ msgid "Buffering"
-#~ msgstr "يىغلەككە يىغىۋاتىدۇ"
-
-#~ msgid "%lf %%"
-#~ msgstr "%lf %%"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s، %s"
-
-#~ msgid "%s, %f %%"
-#~ msgstr "%s، %f %%"
-
-#~ msgid "Supported files"
-#~ msgstr "ئىشلەتكىلى بولىدىغان ھۆججەتلەر"
-
-#~ msgid "Audio files"
-#~ msgstr "ئۈن ھۆججەتلىرى"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "كىنو ياكى قويۇش تىزىمىنى تاللاش"
-
-#~ msgid "Add Directory"
-#~ msgstr "مۇندەرىجە قوش"
-
-#~ msgid "Create a video DVD or a (S)VCD from the currently opened movie"
-#~ msgstr "ھازىرقى ئوچۇق كىنونى ئىشلىتىپ DVD ياكى (S)VCD ياسايدۇ."
-
-#~ msgid "Copy the currently playing video DVD"
-#~ msgstr "ھازىر قويۇۋاتقان سىن DVD نى كۆچۈرىدۇ"
-
-#~ msgid "Copy the currently playing (S)VCD"
-#~ msgstr "ھازىر قويۇۋاتقان (S)VCD  نى كۆچۈرىدۇ"
-
-#~ msgid "Name for new chapter:"
-#~ msgstr "يېڭى بابنىڭ ئاتى:"
-
-#~ msgid "_Remove Chapter"
-#~ msgstr "بابنى چىقىرىۋەت(_R)"
-
-#~ msgid "Remove the chapter from the list"
-#~ msgstr "تىزىمدىن بابلارنى ئۆچۈرىدۇ"
-
-#~ msgid "_Go to Chapter"
-#~ msgstr "بابقا يۆتكەل(_G)"
-
-#~ msgid "Go to the chapter in the movie"
-#~ msgstr "كىنودىكى كۆرسىتىلگەن بابقا يۆتكىلىدۇ"
-
-#~ msgid "Add Chapter..."
-#~ msgstr "باب قوش…"
-
-#~ msgid "Remove Chapter"
-#~ msgstr "باب ئۆچۈر"
-
-#~ msgid "Go to Chapter"
-#~ msgstr "بابقا يۆتكەل"
-
-#~ msgid "Save Changes"
-#~ msgstr "ئۆزگەرتكەننى ساقلا"
-
-#~ msgid "No chapter data"
-#~ msgstr "باب سانلىق-مەلۇماتلىرى يوق"
-
-#~ msgid "Load Chapters..."
-#~ msgstr "بابلارنى يۈكلە…"
-
-#~ msgid "Load chapters from an external CMML file"
-#~ msgstr "سىرتقى CMML ھۆججىتىدىن بابلارنى ئوقۇيدۇ"
-
-#~ msgid "Add New Chapters"
-#~ msgstr "يېڭى بابلارنى قوشۇش"
-
-#~ msgid "Create a new chapter list for the movie"
-#~ msgstr "كىنوغا يېڭى باب تىزىمى قوشىدۇ"
-
-#~ msgid "Chapters"
-#~ msgstr "بابلار"
-
-#~ msgid "Support chapter markers in movies"
-#~ msgstr "كىنولاردىكى باب بەلگىسىنى قوللىسۇن"
-
-#~ msgid ""
-#~ "<b>Title: </b>%s\n"
-#~ "<b>Start time: </b>%s"
-#~ msgstr ""
-#~ "<b>ماۋزۇ: </b>%s\n"
-#~ "<b>باشلىنىش ۋاقتى: </b>%s"
-
-#~ msgid "Error while reading file with chapters"
-#~ msgstr "بۆلەك ئىشلىتىپ ھۆججەت ئوقۇغاندا خاتالىق كۆرۈلدى"
-
-#~ msgid "Chapter with the same time already exists"
-#~ msgstr "ئوخشاش ۋاقىتتىكى بۆلەك مەۋجۇت"
-
-#~ msgid "Try another name or remove an existing chapter."
-#~ msgstr "باشقا نامدا سىناپ كۆرۈڭ ياكى بارىنى چىقىرىۋېتىڭ."
-
-#~ msgid "Error while writing file with chapters"
-#~ msgstr "بۆلەك ئىشلىتىپ ھۆججەت يازغاندا خاتالىق كۆرۈلدى"
-
-#~ msgid "Error occurred while saving chapters"
-#~ msgstr "بابلارنى ساقلاۋاتقاندا خاتالىق كۆرۈلدى"
-
-#~ msgid ""
-#~ "Please check you have permission to write to the folder containing the "
-#~ "movie."
-#~ msgstr "كىنو بار مۇندەرىجىگە يېزىش ھوقۇقىڭىز بارمىكەن تەكشۈرۈپ كۆرۈڭ."
-
-#~ msgid "Open Chapter File"
-#~ msgstr "باب ھۆججەتنى ئاچ"
-
-#~ msgid "Chapter Screenshot"
-#~ msgstr "بابنىڭ ئېكران كۆرۈنۈشى"
-
-#~ msgid "Chapter Title"
-#~ msgstr "باب ماۋزۇسى"
-
-#~ msgid "Save changes to chapter list before closing?"
-#~ msgstr "تاقاشتىن بۇرۇن ئۆزگىرىشلەرنى باب تىزىمىغا ساقلىسۇنمۇ؟"
-
-#~ msgid "Close without Saving"
-#~ msgstr "ساقلىماي تاقا"
-
-#~ msgid "If you don't save, changes to the chapter list will be lost."
-#~ msgstr "ساقلىمىسىڭىز باب تىزىمىدىكى ئۆزگىرىشلەر يوقايدۇ."
-
-#~ msgid "Add Chapter"
-#~ msgstr "باب قوش"
-
-#~ msgid "D-Bus Service"
-#~ msgstr "D-Bus مۇلازىمىتى"
-
-#~ msgid "The URI ‘%s’ is not supported."
-#~ msgstr "URI «%s» نى قوللىمايدۇ."
-
-#~ msgid "Grilo Browser"
-#~ msgstr "Grilo كۆرگۈ"
-
-#~ msgid "A plugin to let you browse media content from various sources"
-#~ msgstr ""
-#~ "بۇ قىستۇرما سىزنىڭ ۋاسىتە مەزمۇنىنى ھەر خىل مەنبەلەردىن كۆز "
-#~ "يۈگۈرتۈشىڭىزگە يول قويىدۇ"
-
-#~ msgid "Copy Location"
-#~ msgstr "ئورۇن كۆچۈر"
-
-#~ msgid "Browse"
-#~ msgstr "كۆز يۈگۈرت"
-
-#~ msgid "Gromit Annotations"
-#~ msgstr "Gromit ئىزاھاتى"
-
-#~ msgid "Presentation helper to make annotations on screen"
-#~ msgstr "ئېكراندا ئىزاھات قوشقان كۆرسەتمە ياردەمچىسى"
-
-#~ msgid "The gromit binary was not found."
-#~ msgstr "gromit ئىككىلىك سىستېمىدىكى ھۆججىتى تېپىلمىدى."
-
-#~ msgid "Always On Top"
-#~ msgstr "ھەمىشە ئەڭ ئۈستىدە"
-
-#~ msgid "Keep the main window on top when playing a movie"
-#~ msgstr "كىنو قويغاندا ئاساسىي كۆزنەك ئەڭ ئۈستىدە"
-
-#~ msgid "Download movie subtitles from OpenSubtitles"
-#~ msgstr "OpenSubtitles دىن فىلىم خېتىنى چۈشۈر"
-
-#~ msgid "Python Console Menu"
-#~ msgstr "Python  كونترول سۇپا تىزىملىكى"
-
-#~ msgid "Show Totem's Python console"
-#~ msgstr "Totem نىڭ Python  كونترول سۇپىسىنى كۆرسەت"
-
-#~ msgid "Enable remote Python debugging with rpdb2"
-#~ msgstr "rpdb2 ئىشلىتىپ يىراقتىن Python سازلاشنى قوزغات"
-
-#~ msgid "_Rotate Clockwise"
-#~ msgstr "ئوڭغا چۆرگىلەت(_R)"
-
-#~ msgid "Rotate Counterc_lockwise"
-#~ msgstr "سولغا چۆرگىلەت(_L)"
-
-#~ msgid "Save a Copy..."
-#~ msgstr "كۆچۈرمىسىنى ساقلا…"
-
-#~ msgid "Save a copy of the movie"
-#~ msgstr "كىنونىڭ زاپاس نۇسخىسىنى ساقلىۋالىدۇ"
-
-#~ msgid "Save a Copy"
-#~ msgstr "بىر نۇسخا ساقلا"
-
-#~ msgid "Movie stream"
-#~ msgstr "كىنو ئېقىمى"
-
-#~ msgid "Take a screenshot"
-#~ msgstr "ئېكران كۆرۈنۈشىنى سۈرەتكە ئال"
-
-#~ msgid "Create a gallery of screenshots"
-#~ msgstr "ئېكران كۆرۈنۈشى توپلىمىنى قۇر"
-
-#~ msgid "_Skip To..."
-#~ msgstr "غا ئاتلا(_S) …"
-
-#~ msgid "Skip to a specific time"
-#~ msgstr "بەلگىلەنگەن ۋاقىتقا بېرىش"
-
-#~ msgid "0 frames per second"
-#~ msgstr "سېكۇنتىغا 0 كاندۇك"
-
-#~ msgid "0 kbps"
-#~ msgstr "0 kbps"
-
-#~ msgid "0 x 0"
-#~ msgstr "0 x 0"
-
-#~ msgid "Add the video to the playlist"
-#~ msgstr "سىننى قويۇش تىزىملىكىگە قوشىدۇ"
-
-#~ msgid "Play movies and songs"
-#~ msgstr "كىنو ۋە ناخشىلارنى قويىدۇ"
-
-#~ msgid "1.5 Mbps T1/Intranet/LAN"
-#~ msgstr "1.5 Mbps T1/Intranet/LAN"
-
-#~ msgid "112 Kbps Dual ISDN/DSL"
-#~ msgstr "112 Kbps Dual ISDN/DSL"
-
-#~ msgid "14.4 Kbps Modem"
-#~ msgstr "14.4 Kbps مودېم"
-
-#~ msgid "19.2 Kbps Modem"
-#~ msgstr "19.2 Kbps مودېم"
-
-#~ msgid "256 Kbps DSL/Cable"
-#~ msgstr "256 Kbps DSL/Cable"
-
-#~ msgid "28.8 Kbps Modem"
-#~ msgstr "28.8 Kbps  مودېم"
-
-#~ msgid "33.6 Kbps Modem"
-#~ msgstr "33.6 Kbps  مودېم"
-
-#~ msgid "34.4 Kbps Modem"
-#~ msgstr "34.4 Kbps  مودېم"
-
-#~ msgid "384 Kbps DSL/Cable"
-#~ msgstr "384 Kbps DSL/Cable"
-
-#~ msgid "512 Kbps DSL/Cable"
-#~ msgstr "512 Kbps DSL/Cable"
-
-#~ msgid "56 Kbps Modem/ISDN"
-#~ msgstr "56 Kbps مودېم/ISDN"
-
-#~ msgid "Configure the application"
-#~ msgstr "پروگرامما سەپلەش"
-
-#~ msgid "Connection _speed:"
-#~ msgstr "باغلىنىش تېزلىكى(_S)"
-
-#~ msgid "Intranet/LAN"
-#~ msgstr "Intranet/LAN"
-
-#~ msgid "Networking"
-#~ msgstr "تور"
-
-#~ msgid "Open a file"
-#~ msgstr "ھۆججەت ئاچىدۇ"
-
-#~ msgid "Open a non-local file"
-#~ msgstr "يەرلىك بولمىغان ھۆججەتنى ئاچ"
-
-#~ msgid "Quit the program"
-#~ msgstr "پروگراممىدىن چېكىنىدۇ"
-
-#~ msgid "Set the repeat mode"
-#~ msgstr "قايتىلاش شەكلىنى تەڭشە"
-
-#~ msgid "Set the shuffle mode"
-#~ msgstr "خالىغان تەرتىپتە قويۇش شەكلىنى تەڭشە"
-
-#~ msgid ""
-#~ "Approximate network connection speed, used to select quality on media "
-#~ "over the network."
-#~ msgstr ""
-#~ "تەخمىنەن تور سۈرئىتى، تور ئاقما ۋاسىتىنىڭ سۈپىتىنى تاللاشقا ئىشلىتىلىدۇ."
-
-#~ msgid "Network connection speed"
-#~ msgstr "تور باغلىنىشىنىڭ تېزلىكى"
-
-#~ msgid "Unknown video"
-#~ msgstr "نامەلۇم سىن"
-
-#~ msgid "Play Image '%s'"
-#~ msgstr "سۈرەت «%s» نى قويىدۇ"
-
-#~ msgid "device%d"
-#~ msgstr "ئۈسكۈنە %d"
-
-#~ msgid "Play Disc '%s'"
-#~ msgstr "دىسكا «%s» نى قويۇش"
-
-#~ msgid "Movie Player using %s"
-#~ msgstr "%s نى ئىشلىتىدىغان كىنو قويغۇچ"
-
-#~ msgid ""
-#~ "Totem could not play this media (%s) although a plugin is present to "
-#~ "handle it."
-#~ msgstr ""
-#~ "گەرچە ئۇنى بىر تەرەپ قىلىدىغان قىستۇرما بولسىمۇ، بۇ ۋاسىتە (%s)نى Totem "
-#~ "قويالمىدى."
-
-#~ msgid ""
-#~ "You might want to check that a disc is present in the drive and that it "
-#~ "is correctly configured."
-#~ msgstr ""
-#~ "قوزغاتقۇچنىڭ ئىچىدە دىسكا بار-يوقلىغىنى ۋە توغرا تەڭشەلگەنلىكىنى تەكشۈرۈپ "
-#~ "كۆرۈڭ"
-
-#~ msgid "More information about media plugins"
-#~ msgstr "ۋاسىتە قىستۇرمىلىرى ھەققىدە تېخىمۇ كۆپ ئۇچۇر"
-
-#~ msgid ""
-#~ "Please install the necessary plugins and restart Totem to be able to play "
-#~ "this media."
-#~ msgstr ""
-#~ "Totem دا بۇ ۋاسىتىنى قويۇش ئۈچۈن زۆرۈر بولغان قىستۇرمىلارنى ئورنىتىڭ."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it does not have the "
-#~ "appropriate plugins to be able to read from the disc."
-#~ msgstr ""
-#~ "Totem دا دىسكىدىكى بۇ خىل ۋاسىتە(%s)نى ئوقۇيالايدىغان مۇۋاپىق قىستۇرما "
-#~ "بولمىغاچقا، بۇ خىلدىكى ۋاسىتىنى قويغىلى بولمايدۇ."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because you do not have the "
-#~ "appropriate plugins to handle it."
-#~ msgstr ""
-#~ "Totem دا بۇ خىل ۋاسىتە(%s)نى بىر تەرەپ قىلىدىغان مۇۋاپىق قىستۇرما "
-#~ "بولمىغاچقا، بۇ خىلدىكى ۋاسىتىنى قويغىلى بولمايدۇ."
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because it is not supported."
-#~ msgstr ""
-#~ "Totem دا بۇ خىل ۋاسىتە(%s)نى تېخى بىر تەرەپ قىلغىلى بولمىغاچقا، بۇ "
-#~ "خىلدىكى ۋاسىتىنى قويغىلى بولمايدۇ."
-
-#~ msgid "Please insert another disc to play back."
-#~ msgstr "قويۇش ئۈچۈن باشقا دىسكا سېلىڭ."
-
-#~ msgid "Totem does not support playback of Audio CDs"
-#~ msgstr "Totem تېخى ئۈن CDs نى قويالمايدۇ"
-
-#~ msgid ""
-#~ "Please consider using a music player or a CD extractor to play this CD"
-#~ msgstr "مۇزىكا قويغۇ ياكى باشقا CD ئايرىغۇ ئارقىلىق مەزكۇر CD نى قويۇڭ"
-
-#~ msgid "%d %%"
-#~ msgstr "%d %%"
-
-#~ msgid "No video URI"
-#~ msgstr "سىن URI ئى يوق"
-
-#~ msgid ""
-#~ "The requested audio output was not found. Please select another audio "
-#~ "output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "ئىلتىماس قىلغان ئۈن چىقىرىشنى تاپالمىدى. كۆپ ۋاسىتە تاللىغۇچتىن باشقا ئۈن "
-#~ "چىقىرىشنى تاللاڭ."
-
-#~ msgid "Location not found."
-#~ msgstr "ئورۇن(ئادرېس) تېپىلمىدى."
-
-#~ msgid ""
-#~ "Could not open location; you might not have permission to open the file."
-#~ msgstr ""
-#~ "ئورۇن(ئادرېس) تېپىلمىدى. سىزنىڭ بۇ ھۆججەتنى قويۇش ھوقۇقىڭىز يوقتەك قىلىدۇ"
-
-#~ msgid ""
-#~ "The video output is in use by another application. Please close other "
-#~ "video applications, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "سىننى چىقىرىدىغان ئۈسكىنىنى باشقا پروگرامما ئىشلىتىۋېتىپتۇ. شۇ "
-#~ "پروگراممىنى ئاخىرلاشتۇرۇڭ ياكى Multimedia Systems Selector دىن باشقا "
-#~ "ئۈسكۈنە تاللاڭ."
-
-#~ msgid ""
-#~ "The audio output is in use by another application. Please select another "
-#~ "audio output in the Multimedia Systems Selector. You may want to consider "
-#~ "using a sound server."
-#~ msgstr ""
-#~ "ئۈننى چىقىرىدىغان ئۈسكىنىنى باشقا پروگرامما ئىشلىتىۋېتىپتۇ. شۇ "
-#~ "پروگراممىنى ئاخىرلاشتۇرۇڭ ياكى Multimedia Systems Selector دىن باشقا "
-#~ "ئۈسكۈنە تاللاڭ.سىز يەنە ئۈن مۇلازىمېتىرىنى ئىشلىتىشنى ئويلىشىپ كۆرسىڭىزمۇ "
-#~ "بولىدۇ."
-
-#~ msgid ""
-#~ "Failed to create a GStreamer play object. Please check your GStreamer "
-#~ "installation."
-#~ msgstr ""
-#~ "GStreamer قويۇش نەڭىنى قۇرۇش مەغلۇپ بولدى. GStreamer نىڭ ئورنىتىلىش "
-#~ "ئەھۋالىنى تەكشۈرۈڭ."
-
-#~ msgid ""
-#~ "Failed to open audio output. You may not have permission to open the "
-#~ "sound device, or the sound server may not be running. Please select "
-#~ "another audio output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "ئۈن چىقىرىش ئۈسكۈنىسى ئېچىش مەغلۇپ بولدى. سىزنىڭ ئۈن ئۈسكۈنىسىنى ئېچىش "
-#~ "ھوقۇقىڭىز يوقتەك قىلىدۇ ياكى ئۈن مۇلازىمېتىرى ئىجرا قىلىنمىغاندەك قىلىدۇ. "
-#~ "كۆپ ۋاسىتە سىستېما تاللىغۇچتىن باشقا ئۈن چىقىرىش ئۈسكۈنىسىنى تاللاڭ."
-
-#~ msgid ""
-#~ "Could not find the audio output. You may need to install additional "
-#~ "GStreamer plugins, or select another audio output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "ئۈن چىقىرىش ئۈسكۈنىسى تېپىلمىدى. سىز GStreamer قىستۇرمىسىنى ئورنىتىشىڭىز "
-#~ "ياكى كۆپ ۋاسىتە سىستېما تاللىغۇچتىن باشقا بىر ئۈن چىقىرىش ئۈسكۈنىسىنى "
-#~ "تاللىشىڭىز زۆرۈر."
-
-#~ msgid "Bemused"
-#~ msgstr "Bemused"
-
-#~ msgid "Control Totem through a mobile phone with a Bemused client"
-#~ msgstr ""
-#~ "يانفون ياكى كۆكچىش خېرىدار (Bemused) ئارقىلىق Totem نى كونترول قىلىدۇ"
-
-#~ msgid "Untitled %d"
-#~ msgstr "ماۋزۇسىز %d"
-
-#~ msgid "Totem Bemused Server"
-#~ msgstr "Totem Bemused مۇلازىمېتىرى"
-
-#~ msgid "Totem Bemused Server version 1.0"
-#~ msgstr "Totem Bemused مۇلازىمېتىرىنىڭ 1.0 نەشرى"
-
-#~ msgid "BBC iPlayer"
-#~ msgstr "BBC iPlayer"
-
-#~ msgid ""
-#~ "Stream BBC programs from the last 7 days from the BBC iPlayer service."
-#~ msgstr "يېقىنقى 7 كۈندىكى BBC iPlayer مۇلازىمىتىنىڭ Stream BBC پروگراممىسى"
-
-#~ msgid "Error listing channel categories"
-#~ msgstr "قانال كاتېگورىيەسىنى كۆرۈۋاتقاندا خاتالىق كۆرۈلدى"
-
-#~ msgid ""
-#~ "There was an unknown error getting the list of television channels "
-#~ "available on BBC iPlayer."
-#~ msgstr ""
-#~ "BBC iPlayer دا ئىشلەتكىلى بولىدىغان تېلېۋىزىيە قاناللىرىنى قوبۇل "
-#~ "قىلىۋاتقاندا نامەلۇم خاتالىق كۆرۈلدى."
-
-#~ msgid "Loading…"
-#~ msgstr "يۈكلەۋاتىدۇ…"
-
-#~ msgid "Error getting programme feed"
-#~ msgstr "پروگرامما مۇشتەرى تىزىملىكىگە ئېرىشىشتە خاتالىق كۆرۈلدى"
-
-#~ msgid ""
-#~ "There was an error getting the list of programmes for this channel and "
-#~ "category combination."
-#~ msgstr "بۇ قانال ۋە تۈرنىڭ تىزىملىكىگە ئېرىشىشتە خاتالىق كۆرۈلدى."
-
-#~ msgid "<no reason given>"
-#~ msgstr "<سەۋەبى يوق>"
-
-#~ msgid "Programme unavailable (\"%s\")"
-#~ msgstr "پروگراممىنى ئىشلەتكىلى بولمايدۇ (\"%s\")"
-
-#~ msgid ""
-#~ "A format string used to build the network service name used when "
-#~ "publishing playlists over the network. The following format placeholders "
-#~ "can be used: • %a: the program name as returned by "
-#~ "g_get_application_name() • %h: the machine's host name in title case • "
-#~ "%u: the user's login name in title case • %U: the user's real name • %%: "
-#~ "the percent sign"
-#~ msgstr ""
-#~ "توردا قويۇش تىزىملىكىنى تارقاتقاندا تور مۇلازىمېتىر ئاتىغا ئىشلىتىدىغان "
-#~ "فورمات بەلگە تىزىقى. تۆۋەندىكى فورمات ئورۇن بەلگىسىنى ئىشلىتىشكە بولىدۇ: "
-#~ "• %a: g_get_application_name() قايتۇرغان پروگرامما ئىسمى: %h: بۇ "
-#~ "كومپيۇتېرنىڭ ئىسمى، چوڭ يېزىلىش شەكلىنى ئىشلىتىدۇ. %u: ئىشلەتكۈچى تىزىمغا "
-#~ "كىرىش ئاتى، چوڭ يېزىلىش شەكلىنى ئىشلىتىدۇ.%U: ئىشلەتكۈچىنىڭ ھەقىقىي ئاتى  "
-#~ "• %%: پىرسەنت بەلگىسى"
-
-#~ msgid "Format for network service name"
-#~ msgstr "تور مۇلازىمەت ئاتنىڭ فورماتى"
-
-#~ msgid "Publisher protocol to use"
-#~ msgstr "تارقىتىشتا ئىشلىتىدىغان كېلىشىم"
-
-#~ msgid ""
-#~ "The transport protocol to use when publishing playlists over the network."
-#~ msgstr "تور ئارقىلىق قويۇش تىزىملىكىنى تارقىتىشتا ئىشلىتىدىغان كېلىشىم"
-
-#~ msgid "Neighbors"
-#~ msgstr "قوشنىلار"
-
-#~ msgid "Publish Playlist"
-#~ msgstr "قويۇش تىزىملىكى تارقات"
-
-#~ msgid "Share the current playlist via HTTP"
-#~ msgstr "HTTP ئارقىلىق نۆۋەتتىكى قويۇش تىزىملىكىنى ھەمبەھىرلە"
-
-#~ msgid "Service _Name:"
-#~ msgstr "مۇلازىمەت ئاتى(_N):"
-
-#~ msgid ""
-#~ "The name used for announcing the playlist service on the network.\n"
-#~ "All occurrences of the string <b>%u</b> will be replaced by your name,\n"
-#~ "and <b>%h</b> will be replaced by your computer's host name."
-#~ msgstr ""
-#~ "توردىكى قويۇش تىزىملىكى مۇلازىمىتىدە ئېلان قىلىدىغان ئات.\n"
-#~ "كۆرۈنگەن بارلىق ھەرپ تىزمىسى<b>%u</b> ئىسمىڭىزغا ئالماشتۇرۇلىدۇ ھەمدە <b>"
-#~ "%h</b>  ئىسمىڭىزغا ئالماشتۇرۇلىدۇ."
-
-#~ msgid "Use _encrypted transport protocol (HTTPS)"
-#~ msgstr "شىفىرلانغان كېلىشىم ئىشلەتHTTPS(_E)"
-
-#~ msgid "Save in _folder:"
-#~ msgstr "قىسقۇچقا ساقلا(_F):"
-
-#~ msgid "_Name:"
-#~ msgstr "ئاتى(_N):"
-
-#~ msgid "There was an error saving the screenshot."
-#~ msgstr "ئېكران كەسمىسىنى ساقلاشتا خاتالىق كۆرۈلدى."
-
-#~ msgid "Save Screenshot"
-#~ msgstr "تارتىلغان سۈرەتنى ساقلاش"
-
-#~ msgid "A plugin to let you browse YouTube videos."
-#~ msgstr "YouTube سىننى قويۇشقا يول قويىدىغان قىستۇرما"
-
-#~ msgid "YouTube Browser"
-#~ msgstr "YouTube كۆرگۈ"
-
-#~ msgid "Related Videos"
-#~ msgstr "مۇناسىۋەتلىك سىنلار"
-
-#~ msgid "Search Results"
-#~ msgstr "ئىزدەش نەتىجىسى"
-
-#~ msgid "_Open in Web Browser"
-#~ msgstr "توركۆرگۈدە ئاچ(_O)"
-
-#~ msgid "Open the video in your web browser"
-#~ msgstr "بۇ سىننى توركۆرگۈدە ئاچىدۇ"
-
-#~ msgid "YouTube"
-#~ msgstr "YouTube"
-
-#~ msgid "Cancelling query…"
-#~ msgstr "سۈرۈشتۈرۈشتىن ۋاز كېچىۋاتىدۇ..."
-
-#~ msgid "Error Searching for Videos"
-#~ msgstr "سىن ئىزدەۋاتقاندا خاتالىق كۆرۈلدى"
-
-#~ msgid ""
-#~ "The response from the server could not be understood. Please check you "
-#~ "are running the latest version of libgdata."
-#~ msgstr ""
-#~ "مۇلازىمېتىر قايتۇرغان جاۋابنى چۈشىنەلمىدى. libgdata نىڭ ئەڭ يېڭى نەشرىنى "
-#~ "ئىشلىتىۋاتقانلىقىڭىزنى تەكشۈرۈڭ."
-
-#~ msgid "Fetching search results…"
-#~ msgstr "ئىزدەش نەتىجىلىرىگە ئېرىشىۋاتىدۇ…"
-
-#~ msgid "Fetching related videos…"
-#~ msgstr "مۇناسىۋەتلىك سىنلارغا ئېرىشىۋاتىدۇ…"
-
-#~ msgid "Error Opening Video in Web Browser"
-#~ msgstr "سىننى توركۆرگۈدە ئېچىۋاتقاندا خاتالىق كۆرۈلدى"
-
-#~ msgid "Fetching more videos…"
-#~ msgstr "تېخىمۇ كۆپ سىنلارغا ئېرىشىۋاتىدۇ…"
-
-#~ msgid "Video Format Not Supported"
-#~ msgstr "سىن فورماتىنى قوللىمايدۇ"
-
-#~ msgid ""
-#~ "This video is not available in any formats which Totem supports. Would "
-#~ "you like to open it in your web browser instead?"
-#~ msgstr ""
-#~ "بۇ سىننىڭ فورماتى Totem قوللايدىغان ھېچقانداق فورماتتا ئەمەس ئىكەن. شۇڭا "
-#~ "ئۇنى توركۆرگۈدە ئېچىپ باقامسىز؟"
-
-#~ msgid "Browser Plugin using %s"
-#~ msgstr "%s نى ئىشلىتىۋاتقان كىنو قويغۇچ"
-
-#~ msgid "Totem Browser Plugin"
-#~ msgstr "Totem توركۆرگۈ قىستۇرمىسى"
-
-#~ msgid "%s"
-#~ msgstr "%s"
-
-#~ msgid "By artist"
-#~ msgstr "سەنئەتكار بويىچە"
-
-#~ msgid "By tag"
-#~ msgstr "بەلگە بويىچە"
-
-#~ msgid "Jamendo Album Page"
-#~ msgstr "Jamendo پلاستىنكا توپلام بېتى"
-
-#~ msgid "Latest Releases"
-#~ msgstr "ئەڭ يېڭى تارقاتقىنى"
-
-#~ msgid "Number of albums to _retrieve:"
-#~ msgstr "ئىزدەيدىغان پلاستىنكا توپلام سانى(_R):"
-
-#~ msgid "Popular"
-#~ msgstr "ئاممىباب"
-
-#~ msgid "Preferred audio _format:"
-#~ msgstr "ئالدىن تاللىنىدىغان ئۈن فورماتى(_F):"
-
-#~ msgid "_Open Jamendo Album Page in Browser"
-#~ msgstr "توركۆرگۈدە Jamendo پلاستىنكا توپلام بېتىنى ئاچ(_O)"
-
-#~ msgid "Jamendo"
-#~ msgstr "Jamendo"
-
-#~ msgid ""
-#~ "Listen to the large collection of Creative Commons licensed music on "
-#~ "Jamendo."
-#~ msgstr ""
-#~ "Jamendo توپلىغان ئىجادىيەت ئاممىۋى ئىجازەتنامىسىدە تارقىتىلغان كۆپ "
-#~ "مىقداردىكى نەغمىنى تىڭشاش."
-
-#~ msgid "You need to install the Python simplejson module."
-#~ msgstr "سىز  Python simplejson بۆلىكىنى ئورنىتىشىڭىز زۆرۈر."
-
-#~ msgid "Artist: %s"
-#~ msgstr "سەنئەتكار: ‎%s"
-
-#~ msgid "%Y-%m-%d"
-#~ msgstr "%Y-%m-%d"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "Released on: %s"
-#~ msgstr "تارقىتىش تارىخى: %s"
-
-#~ msgid "License: %s"
-#~ msgstr "ئىجازەتنامە: %s"
-
-#~ msgid "%02d. %s"
-#~ msgstr "%02d. %s"
-
-#~ msgid "Album: %s"
-#~ msgstr "پلاستىنكا توپلىمى: ‎%s"
-
-#~ msgid "Duration: %s"
-#~ msgstr "داۋاملاشقان ۋاقىت: %s"
-
-#~ msgid "Fetching albums, please wait…"
-#~ msgstr "ئالبوملارنى ئوقۇۋاتىدۇ، سەل ساقلاڭ..."
-
-#~ msgid ""
-#~ "Failed to connect to Jamendo server.\n"
-#~ "%s."
-#~ msgstr ""
-#~ "Jamendo مۇلازىمېتىرىغا باغلىنىش مەغلۇپ بولدى.\n"
-#~ "%s."
-
-#~ msgid "The Jamendo server returned code %s."
-#~ msgstr "Jamendo مۇلازىمېتىر قايتۇرغان كود %s."
-
-#~ msgid "An error occurred while fetching albums."
-#~ msgstr "پلاستىنكا توپلىمىغا ئېرىشىۋاتقاندا خاتالىق كۆرۈلدى."
-
-#~ msgid "%H:%M:%S"
-#~ msgstr "%H:%M:%S"
-
-#~ msgid "%M:%S"
-#~ msgstr "%M:%S"
-
-#~ msgid "en"
-#~ msgstr "ug"
-
-#~ msgid "Audio format to download from Jamendo"
-#~ msgstr "Jamendo دىن چۈشۈرگەن ئۈن فورماتى"
-
-#~ msgid "Number of results per page"
-#~ msgstr "بىر بەتتىكى نەتىجە سانى"
-
-#~ msgid ""
-#~ "The number of Jamendo search results to display in each page of results."
-#~ msgstr "ھەر بىر بەتتە كۆرسىتىدىغان Jamendo ئىزدەش نەتىجىسىنىڭ سانى"
-
-#~ msgid "The preferred audio format to download tracks from Jamendo in."
-#~ msgstr "Jamendo دىن ئۈن چۈشۈرگەندە ئالدىن ئىشلىتىدىغان ئۈن فورماتى."
-
-#~ msgid "Could not connect to Tracker"
-#~ msgstr "Tracker غا باغلىنالمىدى"
-
-#~ msgid "No results"
-#~ msgstr "نەتىجە يوق"
-
-#~ msgid "Showing %i - %i of %i match"
-#~ msgid_plural "Showing %i - %i of %i matches"
-#~ msgstr[0] "كۆرسەتكىنى %i - %i، جەمئىي %i"
-
-#~ msgid "Page"
-#~ msgstr "بەت"
-
-#~ msgid "Search for local videos using Tracker"
-#~ msgstr "Tracker ئىشلىتىپ يەرلىك سىن ئىزدە"
-
-#~ msgid "Zoom Out"
-#~ msgstr "كىچىكلىتىش"
-
-#~ msgid "Zoom Reset"
-#~ msgstr "چوڭ-كىچىكلىكىنى ئەسلىگە كەلتۈرۈش"
-
-#~ msgid "Zoom reset"
-#~ msgstr "چوڭ-كىچىكلىكىنى ئەسلىگە كەلتۈرۈش"
-
-#~ msgid ""
-#~ "The playback of this movie requires the following decoders which are not "
-#~ "installed:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "بۇ كىنونى قويۇش ئۈچۈن تېخى ئورنىتىلمىغان تۆۋەندىكى يەشكۈچلەر كېرەك "
-#~ "بولىدۇ:\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "Media file could not be played."
-#~ msgstr "ۋاسىتە ھۆججىتىنى قويغىلى بولمىدى."
-
-#~ msgid "Too old version of GStreamer installed."
-#~ msgstr "GStreamer بەكلا كونا نەشرى ئورنىتىلغان."
-
-#~ msgid ""
-#~ "Failed to open video output. It may not be available. Please select "
-#~ "another video output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "سىن چىقىرىش ئۈسكۈنىسىنى ئېچىش مەغلۇپ بولدى. ئۇ يوق بولۇشى مۇمكىن. "
-#~ "Multimedia Systems Selector دىن باشقا بىر سىن چىقىرىش ئۈسكۈنىسىنى تاللاڭ."
-
-#~ msgid ""
-#~ "Could not find the video output. You may need to install additional "
-#~ "GStreamer plugins, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "سىن چىقىرىش ئۈسكۈنىسى تېپىلمىدى. سىز GStreamer قىستۇرمىسىنى ئورنىتىشىڭىز "
-#~ "ياكى Multimedia Systems Selector دىن باشقا بىر سىن چىقىرىش ئۈسكۈنىسىنى "
-#~ "تاللىشىڭىز زۆرۈر."
-
-#~ msgid "Coherence DLNA/UPnP Client"
-#~ msgstr "Coherence DLNA/UPnP خېرىدارى"
-
-#~ msgid "A DLNA/UPnP client for Totem powered by Coherence"
-#~ msgstr "Coherence قوللايدىغان Totem نىڭ DLNA/UPnP خېرىدارى"
-
-#~ msgid "Language"
-#~ msgstr "تىل"
-
-#~ msgid "Set the window icon to the thumbnail of the playing movie"
-#~ msgstr "كۆزنەك سىنبەلگىسىنى قويۇۋاتقان كىنونىڭ كىچىك سۈرىتىگە تەڭشە"
-
-#~ msgid "Thumbnail"
-#~ msgstr "كىچىك سۈرەت"
-
-#~ msgid "Enable visual effects?"
-#~ msgstr "كۆرۈنۈش ئۈنۈمىنى قوزغىتامدۇ؟"
-
-#~ msgid ""
-#~ "It seems you are running Totem remotely.\n"
-#~ "Are you sure you want to enable the visual effects?"
-#~ msgstr ""
-#~ "Totem نى يىراقتا تۇرۇپ ئىجرا قىلىۋاتقاندەك قىلىسىز. كۆرۈنۈش ئۈنۈمىنى "
-#~ "راستلا ئىناۋەتلىك قىلسۇنمۇ؟"
-
-#~ msgid "Error loading Galago plugin"
-#~ msgstr "Galago قىستۇرمىنى يۈكلەۋاتقاندا خاتالىق كۆرۈلدى"
-
-#~ msgid "Could not connect to the Galago daemon."
-#~ msgstr "Galago نازارەتچىگە باغلىنالمىدى"
-
-#~ msgid "seconds"
-#~ msgstr "سېكۇنت"
-
-#~ msgid "Could not get name and thumbnail for %s: %s"
-#~ msgstr "%s نىڭ ئاتى ۋە كىچىك سۈرەتكە ئېرىشەلمىدى: %s"
-
-#~ msgid "Error Looking Up Video URI"
-#~ msgstr "سىن URI نى ئىزدەۋاتقاندا خاتالىق كۆرۈلدى"
-
-#~ msgid "Chapters support"
-#~ msgstr "بۆلەك قوللاش"
-
-#~ msgid "Continue to watch movie without loaded chapters"
-#~ msgstr "يۈكلەنگەن بۆلەكنى ئىشلەتمەي كىنو كۆرۈشنى داۋالاشتۇر"
-
-#~ msgid "_Go to"
-#~ msgstr "يۆتكەل(_G)"
-
-#~ msgid "Please check you rights and free space"
-#~ msgstr "ھوقۇقىڭىز ۋە ئەركىن بوشلۇقنى تەكشۈرۈڭ"
-
-#~ msgid "_Download Movie Subtitles..."
-#~ msgstr "كىنو خېتىنى چۈشۈر(_D)…"
-
-#~ msgid "Repeat _mode"
-#~ msgstr "قايتىلاش شەكلى"
-
-#~ msgid "Shuf_fle mode"
-#~ msgstr "خالىغان تەرتىپتە قويۇش شەكلى"
-
-#~ msgid "Volume up"
-#~ msgstr "ئاۋازىنى كۆتۈرۈش"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "<b>Audio</b>"
-#~ msgstr "<b>ئاۋاز</b>"
-
-#~ msgid "<b>General</b>"
-#~ msgstr "<b>ئادەتتىكى</b>"
-
-#~ msgid "<b>Video</b>"
-#~ msgstr "<b>كىنو</b>"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "<b>Preview</b>"
-#~ msgstr "<b>ئالدىن كۆرۈش</b>"
-
-#~ msgid "Save screenshot"
-#~ msgstr "تارتىلغان سۈرەتنى ساقلاش"
-
-#~ msgid "Save screenshot to _desktop"
-#~ msgstr "(_d)تارتىلغان سۈرەتنى ئېكرانغا ساقلاش"
-
-#~ msgid "Save screenshot to _file:"
-#~ msgstr "(_f)تارتىلغان سۈرەتنى ھۆججەتكە ساقلاش"
-
-#~ msgid ""
-#~ "14.4 Kbps Modem\n"
-#~ "19.2 Kbps Modem\n"
-#~ "28.8 Kbps Modem\n"
-#~ "33.6 Kbps Modem\n"
-#~ "34.4 Kbps Modem\n"
-#~ "56 Kbps Modem/ISDN\n"
-#~ "112 Kbps Dual ISDN/DSL\n"
-#~ "256 Kbps DSL/Cable\n"
-#~ "384 Kbps DSL/Cable\n"
-#~ "512 Kbps DSL/Cable\n"
-#~ "1.5 Mbps T1/Intranet/LAN\n"
-#~ "Intranet/LAN"
-#~ msgstr ""
-#~ "14.4 Kbps Modem\n"
-#~ "19.2 Kbps Modem\n"
-#~ "28.8 Kbps Modem\n"
-#~ "33.6 Kbps Modem\n"
-#~ "34.4 Kbps Modem\n"
-#~ "56 Kbps Modem/ISDN\n"
-#~ "112 Kbps Dual ISDN/DSL\n"
-#~ "256 Kbps DSL/Cable\n"
-#~ "384 Kbps DSL/Cable\n"
-#~ "512 Kbps DSL/Cable\n"
-#~ "1.5 Mbps T1/Intranet/LAN\n"
-#~ "Intranet/LAN"
-
-#~ msgid "<b>Display</b>"
-#~ msgstr "<b>كۆرسىتىش</b>"
-
-#~ msgid "<b>Subtitles</b>"
-#~ msgstr "<b>كىنونىڭ خېتى</b>"
-
-#~ msgid "<b>TV-Out</b>"
-#~ msgstr "<b>تېلېۋىزورغا چىقىش</b>"
-
-#~ msgid "<span size=\"medium\"><b>No File</b></span>"
-#~ msgstr "<span size=\"medium\"><b> ھۆججەت يوق</b></span>"
-
-#~ msgid "<span size=\"medium\"><b>No file</b></span>"
-#~ msgstr "<span size=\"medium\"><b>  ھۆججەت يوق</b></span>"
-
-#~ msgid "Always on top"
-#~ msgstr "ھەمىشە ئۈستىدە"
-
-#~ msgid "Deinterlace"
-#~ msgstr "قۇرمۇ-قۇر سۈرۈش"
-
-#~ msgid "No Language Selection Available"
-#~ msgstr "تاللىغۇدەك تىل يوق"
-
-#~ msgid "No subtitles selection available"
-#~ msgstr "كىنونىڭ خېتى يوق"
-
-#~ msgid "Resize to twice the video size"
-#~ msgstr "ئەسلىدىكى چوڭلۇقىنىڭ 2 ھەسسىسىگە ئۆزگەرتىش"
-
-#~ msgid "Resize to video size"
-#~ msgstr "كىنونىڭ چوڭ-كىچىكلىگىنى ئۆزگەرتىش"
-
-#~ msgid "Set the aspect ratio"
-#~ msgstr "كەڭلىك-ئېگىزلىك نىسبىتىنى تەڭشەش"
-
-#~ msgid ""
-#~ "Small\n"
-#~ "Normal\n"
-#~ "Large\n"
-#~ "Extra Large"
-#~ msgstr ""
-#~ "كىچىك\n"
-#~ "نورمال\n"
-#~ "چوڭ\n"
-#~ "بەك چوڭ"
-
-#~ msgid ""
-#~ "Stereo\n"
-#~ "4-channel\n"
-#~ "4.1-channel\n"
-#~ "5.0-channel\n"
-#~ "5.1-channel\n"
-#~ "AC3 Passthrough"
-#~ msgstr ""
-#~ "Stereo\n"
-#~ "4-channel\n"
-#~ "4.1-channel\n"
-#~ "5.0-channel\n"
-#~ "5.1-channel\n"
-#~ "AC3 Passthrough"
-
-#~ msgid "Volume down"
-#~ msgstr "ئاۋازىنى تۆۋەنلىتىش"
-
-#~ msgid "_DXR3 TV-out"
-#~ msgstr "(_D)چىقىش TV DXR3"
-
-#~ msgid "_Deinterlace"
-#~ msgstr "(_D)قۇرمۇ-قۇر سۈرۈش"
-
-#~ msgid "_No TV-out"
-#~ msgstr "(_N)چىقىشى يوق TV"
-
-#~ msgid "_Show/Hide Playlist"
-#~ msgstr "قويۇش تىزىملىكىنى كۆرسىتىش / يوشۇرۇش"
-
-#~ msgid "Repeat mode."
-#~ msgstr "قايتىلاش شەكلى"
-
-#~ msgid "The screenshot was not saved"
-#~ msgstr "تۇتۇلغان رەسىم ساقلانمىدى"
-
-#~ msgid "Shadow type"
-#~ msgstr "سايە شەكلى"
-
-#~ msgid "%s - Totem Movie Player"
-#~ msgstr "كىنو قويغۇچ Totem - %s"
-
-#~ msgid "Make sure that Totem is correctly installed."
-#~ msgstr "نىڭ توغرا قاچىلانغان-قاچىلانمىغانلىغىنى تەكشۈرۈڭ Totem"
-
-#~ msgid "Make sure that GNOME is properly installed."
-#~ msgstr "نىڭ توغرا قاچىلانغان-قاچىلانمىغانلىغىنى تەكشۈرۈڭ GNOME"
-
-#~ msgid "main window"
-#~ msgstr "ئاساسى كۆزنەك"
-
-#~ msgid "video popup menu"
-#~ msgstr "كىنونىڭ سەكرەپ چىقىدىغان تاللاش تىزىملىكى"
-
-#~ msgid "Debug mode on"
-#~ msgstr "تەڭشەش شەكلى ئوچۇق"
-
-#~ msgid "For security reasons, this movie can not be played back."
-#~ msgstr "بىخەتەرلىك سەۋەبىدىن بۇ كىنونى قويغىلى بولمايدۇ"
-
-#~ msgid "The audio device is busy. Is another application using it?"
-#~ msgstr "ئاۋاز زاپچىسى ئالدىراش. باشقا پروگرامما ئۇنى شلىتىۋاتقانمۇ؟"
-
-#~ msgid "There is no plugin to handle this movie."
-#~ msgstr "بۇ كىنونى بىر تەرەپ قىلىلىغۇدەك قىستۇرغۇچ زاپچاس يوق"
-
-#~ msgid "This movie is broken and can not be played further."
-#~ msgstr "بۇ كىنو بۇزۇلغان، داۋاملىق قويغىلى بولمايدۇ"
-
-#~ msgid "This movie could not be opened."
-#~ msgstr "بۇ كىنونى ئاچقىلى بولمىدى"
-
-#~ msgid "This movie is a still image. You can open it with an image viewer."
-#~ msgstr "بۇ كىنو بولسا بىر سىتاتىك رەسىم. ئۇنى سۈرەت كۆرگۈچ بىلەن كۆرەلەيسىز"
-
-#~ msgid "This is an audio-only file, and there is no audio output available."
-#~ msgstr "بۇ بىر ئاۋاز ھۆججىتى ھەم ئاۋاز چىقىشى يوق"
-
-#~ msgid "Language %d"
-#~ msgstr "تىلى %d"
-
-#~ msgid "Please check that a disc is present in the drive."
-#~ msgstr "دىسكىنىڭ ھەيدىگۈچ ئىچىدە بار يوقلىغىنى تەكشۈرۈڭ"
-
-#~ msgid "Failed to open device %s for reading: %s"
-#~ msgstr "%s :دىسكىنى ئېچىشتا خاتالىق كۆرۈلدى %s ئوقۇش ئۈچۈن"
-
-#~ msgid "Error getting %s disc status: %s"
-#~ msgstr "%s :دىسكىنىڭ ھالىتىنى ئىگىلەشتە خاتالىق كۆرۈلدى %s"
-
-#~ msgid "Unexpected/unknown cd type 0x%x (%s)"
-#~ msgstr "0x%x (%s)  ئالاھىدە/تونۇمايدىغان دىسكا "
-
-#~ msgid "Audio CD"
-#~ msgstr "Audio CD"
-
-#~ msgid "DVD"
-#~ msgstr "DVD"
-
-#~ msgid "Couldn't write parser: %s"
-#~ msgstr "%s :ئانالىز قىلغۇچىنى يازالمىدى"
+msgstr ""

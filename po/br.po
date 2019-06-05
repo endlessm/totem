@@ -1,21 +1,25 @@
-# Breton translation of Totem
-# Copyright (C) 2006 Free Software Foundation, Inc.
-# This file is distributed under the GNU General Public License Version 2.
-# Jérémy Ar Floc'h <jérémy.lefloch@gmail.com>, 2006
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the totem package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sound-juicer 2.14\n"
+"Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2009-09-06 00:08+0100\n"
-"Last-Translator: Denis\n"
-"Language-Team: GNOME Breton team <jeremy.lefloch@gmail.com>\n"
-"Language: br\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Roddy Shuler <roddy@stanfordalumni.org>, 2018\n"
+"Language-Team: Breton (https://www.transifex.com/endless-os/teams/9016/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Language: br\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -25,16 +29,15 @@ msgstr "Videoioù"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:7
 #: data/org.gnome.Totem.desktop.in.in:4
-#, fuzzy
 msgid "Play movies"
-msgstr "O lenn ur film"
+msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:11
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
@@ -44,12 +47,14 @@ msgid ""
 "support for recording DVDs."
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -101,10 +106,9 @@ msgid "Pango font description for subtitle rendering."
 msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:43
-#, fuzzy
 msgctxt "subtitle-encoding"
 msgid "'UTF-8'"
-msgstr "UTF-8"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:50
 msgid "Subtitle encoding"
@@ -192,9 +196,8 @@ msgid "Preferences"
 msgstr "Gwellvezioù"
 
 #: data/preferences.ui:130
-#, fuzzy
 msgid "External Subtitles"
-msgstr "Iztitloù an testenn"
+msgstr ""
 
 #: data/preferences.ui:178
 msgid "_Load subtitle files when movie is loaded"
@@ -209,14 +212,12 @@ msgid "_Encoding:"
 msgstr "Bon_egañ :"
 
 #: data/preferences.ui:312
-#, fuzzy
 msgid "Plugins"
-msgstr "Enlugellad"
+msgstr ""
 
 #: data/preferences.ui:338
-#, fuzzy
 msgid "Plugins…"
-msgstr "Enlugellad"
+msgstr ""
 
 #: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
@@ -272,16 +273,14 @@ msgid "Audio"
 msgstr "Klewed"
 
 #: data/shortcuts.ui:16
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Hollek"
+msgstr ""
 
 #: data/shortcuts.ui:21
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr "Perzhioù"
+msgstr ""
 
 #: data/shortcuts.ui:28
 msgctxt "shortcut window"
@@ -289,64 +288,54 @@ msgid "Make Available Offline"
 msgstr ""
 
 #: data/shortcuts.ui:35
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "Tennañ ur pakad _skrammad"
+msgstr ""
 
 #: data/shortcuts.ui:42
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Kuitaat"
+msgstr ""
 
 #: data/shortcuts.ui:50
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "Kre_skiñ an ampled"
+msgstr ""
 
 #: data/shortcuts.ui:55
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "Kreskiñ an ampled"
+msgstr ""
 
 #: data/shortcuts.ui:62
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "Izelaat an ampled"
+msgstr ""
 
 #: data/shortcuts.ui:70
-#, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "G_welout"
+msgstr ""
 
 #: data/shortcuts.ui:75
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "Kuitaat ar skramm-leun"
+msgstr ""
 
 #: data/shortcuts.ui:82
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "Lakaat e skramm-leun"
+msgstr ""
 
 #: data/shortcuts.ui:89
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "Brasaat ar skeul"
+msgstr ""
 
 #: data/shortcuts.ui:96
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "Digreskiñ ar skeul"
+msgstr ""
 
 #: data/shortcuts.ui:103
 msgctxt "shortcut window"
@@ -359,34 +348,29 @@ msgid "Rotate ↶"
 msgstr ""
 
 #: data/shortcuts.ui:119
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "Lenn"
+msgstr ""
 
 #: data/shortcuts.ui:124
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "Lenn/Ehan"
+msgstr ""
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "Klewed ebet da bakout."
+msgstr ""
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "Klewed ebet da bakout."
+msgstr ""
 
 #: data/shortcuts.ui:164
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "Buan da"
+msgstr ""
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
@@ -394,10 +378,9 @@ msgid "Go back 15 seconds"
 msgstr ""
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "0 eilenn"
+msgstr ""
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -410,16 +393,14 @@ msgid "Step forward one frame"
 msgstr ""
 
 #: data/shortcuts.ui:200 data/shortcuts.ui:248
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "0 eilenn"
+msgstr ""
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "0 stern dre eilenn"
+msgstr ""
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
@@ -432,10 +413,9 @@ msgid "Go forward 10 minutes"
 msgstr ""
 
 #: data/shortcuts.ui:279
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "Buan da"
+msgstr ""
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
@@ -486,35 +466,36 @@ msgstr ""
 msgid "_Aspect Ratio"
 msgstr "Parenn an n_euz "
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "Auto"
-msgstr "Emgefreek"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "Square"
-msgstr "Karrez"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
-msgstr "4:3 (Skinwel)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
-msgstr "16:9 (Skramm ledan)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
@@ -537,18 +518,16 @@ msgid "S_ubtitles"
 msgstr "Iztitloù"
 
 #: data/totem.ui:100
-#, fuzzy
 msgid "_Select Text Subtitles…"
-msgstr "Diuzañ iztitloù ar testenn"
+msgstr ""
 
 #: data/totem.ui:123
 msgid "_Eject"
 msgstr "Kas er-maez"
 
 #: data/totem.ui:134
-#, fuzzy
 msgid "_Repeat"
-msgstr "Mod a_dlenn"
+msgstr ""
 
 #: data/totem.ui:140
 msgid "_DVD Menu"
@@ -598,9 +577,8 @@ msgid "The server you are trying to connect to is not known."
 msgstr ""
 
 #: src/backend/bacon-video-widget.c:3906
-#, fuzzy
 msgid "The connection to this server was refused."
-msgstr "O kennaskañ ouzh an dafariad..."
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3909
 msgid "The specified movie could not be found."
@@ -627,9 +605,8 @@ msgid "The movie could not be read."
 msgstr "N'eus ket tu da lenn ar film."
 
 #: src/backend/bacon-video-widget.c:3948
-#, fuzzy
 msgid "This file is encrypted and cannot be played back."
-msgstr "Ar restr media n'hell ket bezañ lennet."
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3954
 msgid "The file you tried to play is an empty file."
@@ -638,14 +615,17 @@ msgstr ""
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -659,13 +639,10 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget.c:4011
-#, fuzzy
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
 msgstr ""
-"N'eus ket tu da lenn ar restr-mañ dre ar rouedad. Klaskit kargañ anezhañ war "
-"ar bladenn da gentañ."
 
 #: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
@@ -681,8 +658,8 @@ msgstr ""
 
 #: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
 
 #. TRANSLATORS: this is a button to launch a codec installer.
@@ -699,6 +676,9 @@ msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -707,9 +687,8 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
-#, fuzzy
 msgid "Open with VLC"
-msgstr "_Digeriñ gant \"%s\""
+msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
@@ -722,16 +701,14 @@ msgid "Get VLC"
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
-#, fuzzy
 msgid "Unable to play the file"
-msgstr "Ne oa ket gouest Totem da lenn ar bladenn-mañ."
+msgstr ""
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -743,31 +720,28 @@ msgstr "%d:%02d:%02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
-#, fuzzy, c-format
+#, c-format
 msgctxt "long time format"
 msgid "-%d:%02d:%02d"
-msgstr "%d:%02d:%02d"
+msgstr ""
 
 #. -minutes:seconds
 #. Translators: This is a time format, like "-5:02" for 5
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
-#, fuzzy, c-format
+#, c-format
 msgctxt "short time format"
 msgid "-%d:%02d"
-msgstr "%d:%02d"
+msgstr ""
 
 #. minutes:seconds
 #. Translators: This is a time format, like "5:02" for 5
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -775,14 +749,12 @@ msgid "%d:%02d"
 msgstr "%d:%02d"
 
 #: src/grilo.ui:7
-#, fuzzy
 msgid "Select All"
-msgstr "Diuzañ un teuliad"
+msgstr ""
 
 #: src/grilo.ui:12
-#, fuzzy
 msgid "Select None"
-msgstr "Diuzañ un teuliad"
+msgstr ""
 
 #: src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
@@ -792,9 +764,12 @@ msgstr ""
 msgid "Verify your system installation. Totem will now exit."
 msgstr "Gwiriekait staliadur ho reizhiad. Kuitaat a ra Totem bremañ."
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -831,23 +806,20 @@ msgid "%s (Season %d Episode %d)"
 msgstr ""
 
 #: src/totem-grilo.c:677
-#, fuzzy
 msgid "Browse Error"
-msgstr "Fazi restr"
+msgstr ""
 
 #: src/totem-grilo.c:821
-#, fuzzy
 msgid "Search Error"
-msgstr "Fazi restr"
+msgstr ""
 
 #: src/totem-grilo.c:1301
 msgid "Local"
 msgstr ""
 
 #: src/totem-grilo.c:1910
-#, fuzzy
 msgid "Channels"
-msgstr "Sanelloù :"
+msgstr ""
 
 #: src/totem-interface.c:179 src/totem-interface.c:222
 #, c-format
@@ -868,14 +840,14 @@ msgid "Click on items to select them"
 msgstr ""
 
 #: src/totem-main-toolbar.c:136
-#, fuzzy, c-format
+#, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] "%d eilenn"
-msgstr[1] "%d eilennoù"
-msgstr[2] "%d eilennoù"
-msgstr[3] "%d eilennoù"
-msgstr[4] "%d eilennoù"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -895,31 +867,29 @@ msgid "Cancel"
 msgstr "Nullañ"
 
 #: src/totemmaintoolbar.ui:90
-#, fuzzy
 msgid "Search"
-msgstr "Disoc'hoù ar c'hlask"
+msgstr ""
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "Klewed"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "Iztitloù"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "Hini ebet"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
-#, fuzzy
 msgctxt "Language"
 msgid "Auto"
-msgstr "Emgefreek"
+msgstr ""
 
 #: src/totem-object.c:1391 src/totem-options.c:51
 msgid "Pause"
@@ -931,9 +901,9 @@ msgid "Play"
 msgstr "Lenn"
 
 #: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
-#, fuzzy, c-format
+#, c-format
 msgid "Totem could not play “%s”."
-msgstr "Ne oa ket tu da dTotem lenn '%s'."
+msgstr ""
 
 #: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
@@ -971,9 +941,8 @@ msgstr ""
 #: src/plugins/screenshot/totem-gallery.c:98
 #: src/plugins/screenshot/totem-gallery-progress.c:103
 #: src/plugins/skipto/totem-skipto.c:221
-#, fuzzy
 msgid "_Cancel"
-msgstr "Nullañ"
+msgstr ""
 
 #: src/totem-open-location.c:186 src/totem-uri.c:461
 msgid "_Add"
@@ -1064,29 +1033,25 @@ msgid "Select Subtitle Font"
 msgstr "Diuzañ un nodrezh evit an iztitloù"
 
 #: src/totemselectiontoolbar.ui:15
-#, fuzzy
 msgid "Add to Favourites"
-msgstr "Ouzhpenn_añ er roll tonioù"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:40
-#, fuzzy
 msgctxt "button"
 msgid "Play"
-msgstr "Lenn"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
-#, fuzzy
 msgid "Shuffle"
-msgstr "Mod dre-zegouezh"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:80 src/totemselectiontoolbar.ui:83
 msgid "Delete"
 msgstr "Dilemel"
 
 #: src/totem-subtitle-encoding.c:156
-#, fuzzy
 msgid "Current Locale"
-msgstr "Lokal-red (en implij)"
+msgstr ""
 
 #: src/totem-subtitle-encoding.c:159 src/totem-subtitle-encoding.c:161
 #: src/totem-subtitle-encoding.c:163 src/totem-subtitle-encoding.c:165
@@ -1242,14 +1207,12 @@ msgid "Select Text Subtitles"
 msgstr "Diuzañ iztitloù ar testenn"
 
 #: src/totem-uri.c:400
-#, fuzzy
 msgid "_Open"
-msgstr "_Digeriñ..."
+msgstr ""
 
 #: src/totem-uri.c:457
-#, fuzzy
 msgid "Add Videos"
-msgstr "Videoioù"
+msgstr ""
 
 #: src/plugins/apple-trailers/apple-trailers.plugin.desktop.in:6
 msgid "Apple Trailers"
@@ -1260,14 +1223,12 @@ msgid "Sets the user agent for the Apple Trailers site"
 msgstr ""
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:6
-#, fuzzy
 msgid "Autoload Subtitles"
-msgstr "Iztitloù an testenn"
+msgstr ""
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:7
-#, fuzzy
 msgid "Autoloads text subtitles"
-msgstr "O pellgargañ an iztitloù..."
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.desktop.in:6
 msgid "Video Disc Recorder"
@@ -1293,19 +1254,16 @@ msgid "Unable to write a project."
 msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:375
-#, fuzzy
 msgid "_Create Video Disc…"
-msgstr "_Krouiñ ur gantenn video..."
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:376
-#, fuzzy
 msgid "Copy Vide_o DVD…"
-msgstr "Eilañ an DVD vide_o..."
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:377
-#, fuzzy
 msgid "Copy (S)VCD…"
-msgstr "Eilañ an (S) VCD..."
+msgstr ""
 
 #: src/plugins/dbusservice/dbusservice.plugin.desktop.in:6
 msgid "MPRIS D-Bus Interface"
@@ -1358,9 +1316,8 @@ msgid "Couldn’t read lirc configuration."
 msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:5
-#, fuzzy
 msgid "Media Player Keys"
-msgstr "Lenner filmoù"
+msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:6
 msgid "Support additional media player keys"
@@ -1379,15 +1336,13 @@ msgid "Brazilian Portuguese"
 msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:187
-#, fuzzy
 msgid "Searching for subtitles…"
-msgstr "O klask an iztitloù..."
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:235
 #: src/plugins/opensubtitles/opensubtitles.py:615
-#, fuzzy
 msgid "Downloading the subtitles…"
-msgstr "O pellgargañ an iztitloù..."
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:300
 msgid "Could not contact the OpenSubtitles website"
@@ -1399,9 +1354,8 @@ msgid "Could not contact the OpenSubtitles website."
 msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:339
-#, fuzzy
 msgid "No results found."
-msgstr "Disoc'h ebet"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:482
 msgid "Subtitles"
@@ -1416,20 +1370,17 @@ msgstr "Mentrezh"
 #. translators comment:
 #. This is a rating of the quality of the subtitle
 #: src/plugins/opensubtitles/opensubtitles.py:493
-#, fuzzy
 msgid "Rating"
-msgstr "Notenn"
+msgstr ""
 
 #. pylint: disable=no-member
 #: src/plugins/opensubtitles/opensubtitles.py:533
-#, fuzzy
 msgid "_Download Movie Subtitles…"
-msgstr "O pellgargañ an iztitloù..."
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:572
-#, fuzzy
 msgid "Searching subtitles…"
-msgstr "O klask an iztitloù..."
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.ui:27
 msgid "Download Movie Subtitles"
@@ -1444,18 +1395,16 @@ msgid "_Play with Subtitle"
 msgstr "_Lenn gant an iztitkoù"
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:6
-#, fuzzy
 msgid "Subtitle language"
-msgstr "Yezh an iztitl :"
+msgstr ""
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:7
 msgid "The language to search for subtitles for movies in."
 msgstr ""
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:6
-#, fuzzy
 msgid "Movie Properties"
-msgstr "Perzhioù"
+msgstr ""
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:7
 msgid "Adds movie properties menu item"
@@ -1474,10 +1423,9 @@ msgstr ""
 
 #: src/plugins/properties/totem-movie-properties.c:155
 #: src/plugins/properties/totem-movie-properties.c:166
-#, fuzzy
 msgctxt "Stream bit rate"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #: src/plugins/properties/totem-movie-properties.c:169
 #, c-format
@@ -1485,10 +1433,9 @@ msgid "%d Hz"
 msgstr "%d Hz"
 
 #: src/plugins/properties/totem-movie-properties.c:169
-#, fuzzy
 msgctxt "Sample rate"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #: src/plugins/properties/totem-movie-properties.c:280
 msgid "Properties"
@@ -1554,78 +1501,67 @@ msgstr "Sanelloù :"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "Dianav"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "Dianav"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "Dianav"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "Dianav"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "Dianav"
+msgstr ""
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
-#, fuzzy
 msgctxt "Dimensions"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #. Video Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:123
-#, fuzzy
 msgctxt "Video codec"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #: src/plugins/properties/bacon-video-widget-properties.c:126
-#, fuzzy
 msgctxt "Video bit rate"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #: src/plugins/properties/bacon-video-widget-properties.c:129
 #: src/plugins/properties/bacon-video-widget-properties.c:237
-#, fuzzy
 msgctxt "Frame rate"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #: src/plugins/properties/bacon-video-widget-properties.c:133
-#, fuzzy
 msgctxt "Audio bit rate"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #. Audio Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:135
-#, fuzzy
 msgctxt "Audio codec"
 msgid "N/A"
-msgstr "K/G"
+msgstr ""
 
 #. Sample rate
 #: src/plugins/properties/bacon-video-widget-properties.c:137
@@ -1669,17 +1605,17 @@ msgstr[4] "%d eilennoù"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
-#, fuzzy, c-format
+#, c-format
 msgctxt "time"
 msgid "%s %s %s"
-msgstr "%s %s %s"
+msgstr ""
 
 #. 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:169
-#, fuzzy, c-format
+#, c-format
 msgctxt "time"
 msgid "%s %s"
-msgstr "%s %s"
+msgstr ""
 
 #. 0 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:175
@@ -1692,8 +1628,8 @@ msgstr ""
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
@@ -1701,9 +1637,8 @@ msgid "Python Console"
 msgstr "Penel Python"
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:7
-#, fuzzy
 msgid "Interactive Python console"
-msgstr "Penel Python Totem"
+msgstr ""
 
 #. pylint: disable=no-member
 #. pylint: disable=no-member
@@ -1735,9 +1670,8 @@ msgid ""
 msgstr ""
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
-#, fuzzy
 msgid "Recent files"
-msgstr "Restroù video"
+msgstr ""
 
 #: src/plugins/recent/recent.plugin.desktop.in:7
 msgid "Adds files that have been played to recent files"
@@ -1768,9 +1702,8 @@ msgid "Save a copy of the currently playing movie"
 msgstr ""
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "N'eus ket tu da lenn ar film."
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1780,9 +1713,8 @@ msgstr ""
 #. translators: Movie is the default saved movie filename,
 #. * without the suffix
 #: src/plugins/save-file/totem-save-file.c:172
-#, fuzzy
 msgid "Movie"
-msgstr "_Film"
+msgstr ""
 
 #: src/plugins/save-file/totem-save-file.c:456
 msgid "Make Available Offline"
@@ -1815,22 +1747,21 @@ msgstr ""
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:147
-#, fuzzy, c-format
+#, c-format
 msgid "Screenshot from %s.png"
-msgstr "Eilskramm%d.png"
+msgstr ""
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:154
-#, fuzzy, c-format
+#, c-format
 msgid "Screenshot from %s - %d.png"
-msgstr "Eilskramm%d.png"
+msgstr ""
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:6
-#, fuzzy
 msgid "Screenshot"
-msgstr "Eilskramm.png"
+msgstr ""
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:7
 msgid "Allows screenshots and galleries to be taken of videos"
@@ -1874,20 +1805,17 @@ msgid "This is not supposed to happen; please file a bug report."
 msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:339
-#, fuzzy
 msgid "Take _Screenshot"
-msgstr "Tennañ ur pakad _skrammad"
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:345
-#, fuzzy
 msgid "Create Screenshot _Gallery…"
-msgstr "Krouiñ garidell ar pakadoù skrammad..."
+msgstr ""
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:6
 #: src/plugins/skipto/totem-skipto.c:219
-#, fuzzy
 msgid "Skip To"
-msgstr "Buan da"
+msgstr ""
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:7
 msgid "Provides the “Skip to” dialog"
@@ -1897,36 +1825,38 @@ msgstr ""
 msgid "_Skip to:"
 msgstr "_Buan da:"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
-#, fuzzy
 msgid "second"
 msgid_plural "seconds"
-msgstr[0] "eilenn"
-msgstr[1] "eilenn"
-msgstr[2] "eilenn"
-msgstr[3] "eilenn"
-msgstr[4] "eilenn"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
 msgstr ""
 
 #: src/plugins/skipto/totem-skipto.c:222
-#, fuzzy
 msgid "_Skip To"
-msgstr "_Buan da:"
+msgstr ""
 
 #: src/plugins/skipto/totem-skipto-plugin.c:206
-#, fuzzy
 msgid "_Skip To…"
-msgstr "_Buan da:"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
@@ -1934,10 +1864,9 @@ msgid "× 0.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
-#, fuzzy
 msgctxt "playback rate"
 msgid "Normal"
-msgstr "Reizh"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
@@ -1960,9 +1889,9 @@ msgid "× 1.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:76
-#, fuzzy, c-format
+#, c-format
 msgid "Speed: %s"
-msgstr "Doare : %s"
+msgstr ""
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:6
 msgid "Variable Rate"
@@ -1979,664 +1908,3 @@ msgstr ""
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr ""
-
-#~ msgid "Time:"
-#~ msgstr "Amzer :"
-
-#~ msgid "Add..."
-#~ msgstr "Ouzhpennañ..."
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "Eilañ lec'hiadur er golver"
-
-#~ msgid "Move Down"
-#~ msgstr "Diskenn"
-
-#~ msgid "Move Up"
-#~ msgstr "Pignat"
-
-#~ msgid "Remove"
-#~ msgstr "Lemel kuit"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "Enrollañ ar roll tonioù..."
-
-#~ msgid "_Copy Location"
-#~ msgstr "_Eilañ al lec'hiadur"
-
-#~ msgid "_Remove"
-#~ msgstr "_Dilemel"
-
-#~ msgid "Author:"
-#~ msgstr "Aozer :"
-
-#~ msgid "C_onfigure..."
-#~ msgstr "_Kefluniañ..."
-
-#~ msgid "Copyright:"
-#~ msgstr "Copyright:"
-
-#~ msgid "Description:"
-#~ msgstr "Deskrivadur :"
-
-#~ msgid "Site:"
-#~ msgstr "Lec'hienn :"
-
-#~ msgid "0 x 0"
-#~ msgstr "0 x 0"
-
-#~ msgid "Play movies and songs"
-#~ msgstr "Lenn filmoù ha sonennoù"
-
-#~ msgid "About this application"
-#~ msgstr "Diwar-benn an arload"
-
-#~ msgid "Clear the playlist"
-#~ msgstr "Skarzhañ ar roll tonioù"
-
-#~ msgid "Configure the application"
-#~ msgstr "Kefluniañ an arload"
-
-#~ msgid "Connection _speed:"
-#~ msgstr "_Tizh kennaskañ :"
-
-#~ msgid "Deinterlace"
-#~ msgstr "Digenweañ"
-
-#, fuzzy
-#~ msgid "Extra Large"
-#~ msgstr "Bras kenañ"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "Lakaat ar prenestr da genglotañ gant ar film"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "Mont d'al lañser DVD"
-
-#~ msgid "Go to the angle menu"
-#~ msgstr "Mont d'al lañser kogn"
-
-#~ msgid "Go to the audio menu"
-#~ msgstr "Mont d'al lañser klewed"
-
-#~ msgid "Go to the chapter menu"
-#~ msgstr "Mont d'al lañser chabistr"
-
-#~ msgid "Go to the title menu"
-#~ msgstr "Mont d'al lañser titl"
-
-#~ msgid "Help contents"
-#~ msgstr "Endalc'hadoù ar  skoazell"
-
-#~ msgid "Intranet/LAN"
-#~ msgstr "Intranet/LAN"
-
-#~ msgid "Large"
-#~ msgstr "Bras"
-
-#~ msgid "Networking"
-#~ msgstr "Rouedad"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "Chabistr pe film da heul"
-
-#~ msgid "Open _Location..."
-#~ msgstr "Digeriñ ul _lec'hiadur..."
-
-#~ msgid "Open a file"
-#~ msgstr "Digeriñ ur restr"
-
-#~ msgid "Open a non-local file"
-#~ msgstr "Digeriñ ur restr nannlec'hel"
-
-#~ msgid "Play / P_ause"
-#~ msgstr "Lenn / Eh_an"
-
-#~ msgid "Play or pause the movie"
-#~ msgstr "Lenn pe ehanañ ar film"
-
-#~ msgid "Plugins..."
-#~ msgstr "Enlugelladoù"
-
-#~ msgid "Previous chapter or movie"
-#~ msgstr "Chabistr/Film a-raok"
-
-#~ msgid "Quit the program"
-#~ msgstr "Kuitaat ar goulev"
-
-#~ msgid "Resize _1:1"
-#~ msgstr "Adventañ _1:1"
-
-#~ msgid "Resize _2:1"
-#~ msgstr "Adventañ _2:1"
-
-#~ msgid "S_idebar"
-#~ msgstr "Barr_enn gostez"
-
-#, fuzzy
-#~ msgid "Sets 16:9 (widescreen) aspect ratio"
-#~ msgstr "Arventenniñ ar c'henfeurioù 16:9 (widescreen)"
-
-#, fuzzy
-#~ msgid "Sets 2.11:1 (DVB) aspect ratio"
-#~ msgstr "Arventenniñ ar c'henfeurioù 2.11:1 (DVB)"
-
-#~ msgid "Sets 4:3 (TV) aspect ratio"
-#~ msgstr "Arventenniñ ar c'henfeurioù 4:3 (TV)"
-
-#~ msgid "Show _Controls"
-#~ msgstr "Diskouez ar _reoliadoù"
-
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr "Diskouez skeudoù-fiñv pa vez lennet ur restr-son"
-
-#~ msgid "Show controls"
-#~ msgstr "Diskouez ar reoliadoù"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "Diskouez pe kuzhat ar varrenn gostez"
-
-#~ msgid "Shuff_le Mode"
-#~ msgstr "Mod dre-z_egouezh"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "Gwellvezioù Totem"
-
-#, fuzzy
-#~ msgid "Visual Effects"
-#~ msgstr "Efedoù a wel"
-
-#~ msgid "Volume _Down"
-#~ msgstr "_Izelaat an ampled"
-
-#~ msgid "Zoom Out"
-#~ msgstr "Zoum bihanaat"
-
-#~ msgid "_About"
-#~ msgstr "_A-zivout"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "Skarzhañ ar roll tonioù"
-
-#~ msgid "_Contents"
-#~ msgstr "_Endalc'hadoù"
-
-#~ msgid "_Deinterlace"
-#~ msgstr "_Digenweañ"
-
-#~ msgid "_Edit"
-#~ msgstr "K_emmañ"
-
-#~ msgid "_Fullscreen"
-#~ msgstr "Skramm leun"
-
-#~ msgid "_Go"
-#~ msgstr "_Mont"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "Chabistr/Film da _heul"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "Chabistr/Film kent"
-
-#~ msgid "_Quit"
-#~ msgstr "_Kuitaat"
-
-#~ msgid "_Resize 1:2"
-#~ msgstr "_Adventañ 1:2"
-
-#~ msgid "_Sound"
-#~ msgstr "_Son"
-
-#~ msgid "Buffer size"
-#~ msgstr "Ment ar buffer"
-
-#~ msgid "Name of the visual effects plugins"
-#~ msgstr "Anv an adveziantoù skeudoù-fiñv"
-
-#, fuzzy
-#~ msgid ""
-#~ "Quality settings for the audio visualization: \"0\" for small, \"1\" for "
-#~ "normal, \"2\" for large, \"3\" for extra large."
-#~ msgstr "Arventennoù ar perzhded evit "
-
-#~ msgid "Sound volume"
-#~ msgstr "Ampled ar son"
-
-#~ msgid "Sound volume, in percent, between 0 and 100"
-#~ msgstr "Ampled ar son, e dregantad, etre 0 ha 100"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "N'eo ket ur restr mod .desktop talvoudek"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "Handelv '%s' restr ar burev n'eo ket bet anavezet"
-
-#~ msgid "Starting %s"
-#~ msgstr "O kregiñ gant %s"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "An arload ne zedegemer ket an teulioù dre arroudennoù arc'had"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "Dibarzh lañsañ dianavezet : %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr ""
-#~ "N'haller lakaat URIoù an teul da dremen d'un enankad war ar burev evel "
-#~ "'Type=Link'"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "N'eo ket un dra a c'haller lañsañ"
-
-#~ msgid "File _Format: %s"
-#~ msgstr "_Mentrezh ar restr : %s"
-
-#~ msgid "All Files"
-#~ msgstr "An holl restroù"
-
-#~ msgid "All Supported Files"
-#~ msgstr "An holl restroù skoret"
-
-#~ msgid "By Extension"
-#~ msgstr "Dre an askouezhadenn"
-
-#~ msgid "File Format"
-#~ msgstr "Mentrezh ar restr"
-
-#~ msgid "Extension(s)"
-#~ msgstr "Askouezhadenn"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "Lazhañ kennask ouzh ardoer an estez"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "Erspizit ar restr gant ar c'hefluniadur enrollet enni"
-
-#~ msgid "FILE"
-#~ msgstr "RESTR"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "Dibab ID ardoadur an estez"
-
-#~ msgid "ID"
-#~ msgstr "Hennader (ID)"
-
-#~ msgid "Session management options:"
-#~ msgstr "Dibarzhioù ardeiñ an estez :"
-
-#~ msgid "Show session management options"
-#~ msgstr "Diskouez dibarzhioù ardeiñ an estez :"
-
-#~ msgid "Audio Preview"
-#~ msgstr "Alberz aodio"
-
-#~ msgid "Unknown video"
-#~ msgstr "Video dianav"
-
-#~ msgid "_Play Now"
-#~ msgstr "_Lenn bremañ"
-
-#~ msgid "No File"
-#~ msgstr "Restr ebet"
-
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "Ur meziant digor eo Totem ; dasparzhet pe/ha daskemmet e vez dindan "
-#~ "termenoù al Lañvaz Foran Hollek GNU evel ma'z eo bet embannet gant "
-#~ "Diazezadenn ar Meziantoù Digor ; da lâret eo handelv 2 eus al lañvaz pe "
-#~ "(evel ma plij deoc'h) ne vern pe handelv nevesoc'h."
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "Dasparzhet eo Totem gant ar spi e vo talvoudus met GANT GWARANT EBET ; "
-#~ "hep ar gwarant enpleg a-fet TALVOUDEGEZH KENWERZHEL pe VARREGEZH EVIT UR "
-#~ "PAL PERSONEL. Taolit ur sell war Lañvaz Foran Hollek GNU evit gouzout "
-#~ "hiroc'h."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "Moarvat hoc'h eus bet un eilad eus al Lañvaz Foran Hollek GNU gant "
-#~ "Totem ; ma n'hoc'h eus ket bet,skrivit da : Free Software Foundation, "
-#~ "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
-
-#~ msgid "Play Disc '%s'"
-#~ msgstr "Lenn ar bladenn '%s'"
-
-#~ msgid "device%d"
-#~ msgstr "trobarzhell%d"
-
-#~ msgid "Movie Player using %s"
-#~ msgstr "Lenner filmoù oc'h arverañ %s"
-
-#~ msgid "Copyright © 2002-2009 Bastien Nocera"
-#~ msgstr "Copyright © 2002-2009 Bastien Nocera"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>\n"
-#~ "Giulia Fraboulet https://launchpad.net/~djoulia"
-
-#~ msgid "Totem Website"
-#~ msgstr "Lec'hienn Totem"
-
-#~ msgid "Playing"
-#~ msgstr "O lenn"
-
-#~ msgid "Paused"
-#~ msgstr "Ehanet"
-
-#~ msgid "Stopped"
-#~ msgstr "Harzet"
-
-#~ msgid ""
-#~ "Please install the necessary plugins and restart Totem to be able to play "
-#~ "this media."
-#~ msgstr ""
-#~ "Marplij, staliit an adveziantoù ret hag adlañsit Totem evit gellout lenn "
-#~ "ar media-mañ."
-
-#~ msgid "No error message"
-#~ msgstr "Kemenn fazi ebet"
-
-#~ msgid "Open Location..."
-#~ msgstr "Digeriñ ul lec'hiadur..."
-
-#, fuzzy
-#~ msgid "Enable debug"
-#~ msgstr "Enaouiñ debug"
-
-#~ msgid "Show/Hide Controls"
-#~ msgstr "Diskouezh/Kuzhat ar reoliadoù"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "Ne oa ket tu da enrollañ ar roll tonioù"
-
-#~ msgid "Save Playlist"
-#~ msgstr "Enrollañ ar roll tonioù"
-
-#~ msgid "Playlist"
-#~ msgstr "Roll tonioù"
-
-#~ msgid "Playlist error"
-#~ msgstr "Fazi roll-tonioù"
-
-#~ msgid "Enable visual effects?"
-#~ msgstr "Enaouiñ ar skeudoù fiñv"
-
-#~ msgid "Audio/Video"
-#~ msgstr "Kleved/Gweled"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#~ msgid "%d %%"
-#~ msgstr "%d %%"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s, %s"
-
-#~ msgid "%s, %d %%"
-#~ msgstr "%s, %d %%"
-
-#~ msgid "Supported files"
-#~ msgstr "Restroù skoret"
-
-#~ msgid "Audio files"
-#~ msgstr "Restroù audio"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "Dibab filmoù pe rollioù-tonioù"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "Lenner filmoù Totem"
-
-#~ msgid "- Play movies and songs"
-#~ msgstr "- Lenn filmoù ha sonennoù"
-
-#, fuzzy
-#~ msgid ""
-#~ "%s\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "Lañsañ '%s --help' evit gwelout ur roll leun dibarzhioù arc'had linenn.\n"
-
-#~ msgid "Make sure that GNOME is properly installed."
-#~ msgstr "Gwiriekait eo bet staliet GNOME en un doare a-feson."
-
-#~ msgid "Subtitle #%d"
-#~ msgstr "Iztitl #%d"
-
-#~ msgid "Location not found."
-#~ msgstr "N'eo ket bet kavet al lec'hiadur."
-
-#~ msgid "Too old version of GStreamer installed."
-#~ msgstr "Re gozh eo an handelv GStreamer bet staliet."
-
-#~ msgid "%s"
-#~ msgstr "%s"
-
-#~ msgid "Enabled"
-#~ msgstr "Gweredekaet"
-
-#~ msgid "Plugin Error"
-#~ msgstr "Fazi enlugellad"
-
-#~ msgid "Untitled %d"
-#~ msgstr "Diditl %d"
-
-#~ msgid "BBC iPlayer"
-#~ msgstr "Lenner iPlayer BBC"
-
-#~ msgid "Loading…"
-#~ msgstr "O kargañ..."
-
-#~ msgid "By artist"
-#~ msgstr "Dre arzour"
-
-#~ msgid "By tag"
-#~ msgstr "Dre klavioù"
-
-#~ msgid "Latest Releases"
-#~ msgstr "Handelv nevesañ"
-
-#~ msgid "Jamendo"
-#~ msgstr "Jamendo"
-
-#~ msgid "Artist: %s"
-#~ msgstr "Arzour : %s"
-
-#~ msgid "%Y-%m-%d"
-#~ msgstr "%d-%m-%Y"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "License: %s"
-#~ msgstr "Lañvaz : %s"
-
-#~ msgid "%02d. %s"
-#~ msgstr "%02d. %s"
-
-#~ msgid "Album: %s"
-#~ msgstr "Albom : %s"
-
-#~ msgid "Duration: %s"
-#~ msgstr "Padelezh : %s"
-
-#~ msgid "%H:%M:%S"
-#~ msgstr "%H:%M:%S"
-
-#~ msgid "%M:%S"
-#~ msgstr "%M:%S"
-
-#~ msgid "en"
-#~ msgstr "fr"
-
-#~ msgid "<b>Language</b>"
-#~ msgstr "<b>Yezh</b>"
-
-#, fuzzy
-#~ msgid "Always On Top"
-#~ msgstr "Atav a-us"
-
-#~ msgid "%d x %d"
-#~ msgstr "%d x %d"
-
-#, fuzzy
-#~ msgid "%d frames per second"
-#~ msgstr "0 stern dre eilenn"
-
-#~ msgid "Publish Playlist"
-#~ msgstr "Embann ar roll-tonioù"
-
-#~ msgid "Service _Name:"
-#~ msgstr "A_nv servij :"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "Save in _folder:"
-#~ msgstr "Enrollañ en _teuliad :"
-
-#~ msgid "_Name:"
-#~ msgstr "_Anv :"
-
-#~ msgid "Screenshot%d.jpg"
-#~ msgstr "Pakad_skrammad%d.jpg"
-
-#~ msgid "There was an error saving the screenshot."
-#~ msgstr "Ur fazi ez eus bet e-pad ma oa o tennañ ar pakad skrammad."
-
-#~ msgid "Save Screenshot"
-#~ msgstr "Enrollañ ar pakad skrammad"
-
-#~ msgid "Take a screenshot"
-#~ msgstr "Tennañ ur pakad skrammad"
-
-#~ msgid "Create a gallery of screenshots"
-#~ msgstr "Krouiñ ur garidell ar pakadoù skrammad"
-
-#~ msgid "_Skip to..."
-#~ msgstr "B_uan da..."
-
-#~ msgid "Page"
-#~ msgstr "Pajenn"
-
-#~ msgid "Thumbnail"
-#~ msgstr "Melvenn"
-
-#~ msgid "YouTube Browser"
-#~ msgstr "Merdeer YouTube"
-
-#, fuzzy
-#~ msgid "Related Videos"
-#~ msgstr "E-touez ar _videoioù"
-
-#~ msgid "_Open in Web Browser"
-#~ msgstr "_Digeriñ er merdeer web"
-
-#~ msgid "YouTube"
-#~ msgstr "YouTube"
-
-#~ msgid "Error Opening Video in Web Browser"
-#~ msgstr "_Fazi en ur zigeriñ er merdeer web"
-
-#~ msgid "Totem could not play '%s'"
-#~ msgstr "Ne oa ket tu da dTotem lenn '%s'."
-
-#~ msgid "Python Console Menu"
-#~ msgstr "Lañser ar penel Pyton "
-
-#~ msgid "This movie could not be opened."
-#~ msgstr "N'eus ket tu da zigeriñ ar film-mañ."
-
-#~ msgid "Language %d"
-#~ msgstr "Yezh %d"
-
-#~ msgid "BBC"
-#~ msgstr "BBC"
-
-#~ msgid "No details available"
-#~ msgstr "Munud hegerz ebet"
-
-#~ msgid "Children's"
-#~ msgstr "Bugale"
-
-#~ msgid "Activities"
-#~ msgstr "Obererezhioù"
-
-#~ msgid "Music"
-#~ msgstr "Sonerezh"
-
-#~ msgid "News"
-#~ msgstr "Keloù"
-
-#~ msgid "Musical"
-#~ msgstr "Sonerezh"
-
-#~ msgid "History"
-#~ msgstr "Istoradur"
-
-#~ msgid "Money"
-#~ msgstr "Arc'hant"
-
-#~ msgid "Travel"
-#~ msgstr "Beajoù"
-
-#~ msgid "Classical"
-#~ msgstr "Klasel"
-
-#~ msgid "Country"
-#~ msgstr "Bro"
-
-#~ msgid "Folk"
-#~ msgstr "Folk"
-
-#~ msgid "Hip Hop, RnB & Dancehall"
-#~ msgstr "Hip Hop, RnB & Dancehall"
-
-#~ msgid "Jazz & Blues"
-#~ msgstr "Jazz & Blues"
-
-#~ msgid "Golf"
-#~ msgstr "Golf"
-
-#~ msgid "Handball"
-#~ msgstr "Handball"
-
-#~ msgid "Hockey"
-#~ msgstr "Hockey"
-
-#~ msgid "Judo"
-#~ msgstr "Judo"
-
-#~ msgid "Snooker"
-#~ msgstr "Bilhard"
-
-#~ msgid "Taekwondo"
-#~ msgstr "Taekwondo"
-
-#~ msgid "Tennis"
-#~ msgstr "Tennis"
-
-#~ msgid "Triathlon"
-#~ msgstr "Triathlon"
-
-#~ msgid "Weather"
-#~ msgstr "Amzer"
-
-#~ msgid "Unknown: "
-#~ msgstr "Dianav :"

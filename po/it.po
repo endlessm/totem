@@ -1,23 +1,26 @@
-# Totem's Italian translation.
-# Copyright (C) 2002-20014 Free Software Foundation, Inc.
-# Pier Luigi Fiorini <plfiorini@supereva.it>, 2002.
-# Davide Patti <dpatti@diit.unict.it>, 2008.
-# Gianvito Cavasoli <gianvito@gmx.it>, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the totem package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2017
+# Will Thompson <wjt@endlessm.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2017-03-10 11:01+0100\n"
-"Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
-"Language-Team: Italiano <gnome-it-list@gnome.org>\n"
-"Language: it\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
+"Language-Team: Italian (https://www.transifex.com/endless-os/teams/9016/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.7\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -31,34 +34,28 @@ msgid "Play movies"
 msgstr "Riproduce filmati"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:11
-#, fuzzy
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
-"Video, conosciuto anche come Totem, è il riproduttore di filmati ufficiale "
-"dell'ambiente desktop GNOME. Ha come caratteristiche un elenco ricercabile "
-"di video locali, DVD, così come le condivisioni di video nella rete locale "
-"(tramite UPnP/DLNA) e video evidenziati da un certo numero di siti web."
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
-#, fuzzy
 msgid ""
 "Videos comes with added functionality such as a subtitle downloader, the "
 "ability to speed up or down playback, create screenshot galleries, and "
 "support for recording DVDs."
 msgstr ""
-"Totem possiede funzionalità aggiuntive come: lo scaricatore di sottotitoli e "
-"il supporto per la registrazione di DVD."
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr "Video;Filmato;Film;Clip;Serie;Riproduttore;DVD;TV;Disco;"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -159,8 +156,8 @@ msgstr "Indica se disabilitare le scorciatoie da tastiera"
 #: data/org.gnome.totem.gschema.xml.in:73
 msgid "Whether to autoload text subtitle files when a movie is loaded"
 msgstr ""
-"Indica se caricare automaticamente i file dei sottotitoli all'apertura di un "
-"filmato"
+"Indica se caricare automaticamente i file dei sottotitoli all'apertura di un"
+" filmato"
 
 #: data/org.gnome.totem.gschema.xml.in:77
 msgid "Active plugins list"
@@ -188,32 +185,22 @@ msgstr ""
 msgid "Stereo"
 msgstr "Stereo"
 
-# LF - GNOME-2-22-2
-# ripresa da totem 2.18
 #: data/preferences.ui:16
 msgid "4-channel"
 msgstr "4 canali"
 
-# LF - GNOME-2-22-2
-# ripresa da totem 2.18
 #: data/preferences.ui:19
 msgid "4.1-channel"
 msgstr "4.1 canali"
 
-# LF - GNOME-2-22-2
-# ripresa da totem 2.18
 #: data/preferences.ui:22
 msgid "5.0-channel"
 msgstr "5.0 canali"
 
-# LF - GNOME-2-22-2
-# ripresa da totem 2.18
 #: data/preferences.ui:25
 msgid "5.1-channel"
 msgstr "5.1 canali"
 
-# LF - GNOME-2-22-2
-# ripresa da totem 2.18
 #: data/preferences.ui:28
 msgid "AC3 Passthrough"
 msgstr "Segnale AC3"
@@ -493,31 +480,36 @@ msgstr "Aggiungi video _web…"
 msgid "_Aspect Ratio"
 msgstr "Rapporto d'_aspetto"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "Automatico"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
 msgctxt "Aspect ratio"
 msgid "Square"
 msgstr "Quadrato"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
 msgstr "4:3 (TV)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
 msgstr "16:9 (Widescreen)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
@@ -637,17 +629,17 @@ msgstr ""
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] ""
-"La riproduzione di questo filmato richiede un plugin %s che non è installato."
+"La riproduzione di questo filmato richiede un plugin %s che non è "
+"installato."
 msgstr[1] ""
-"La riproduzione di questo filmato richiede i seguenti plugin che non sono "
-"installati:\n"
+"La riproduzione di questo filmato richiede i seguenti plugin che non sono installati:\n"
 "\n"
 "%s"
 
@@ -655,16 +647,16 @@ msgstr[1] ""
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
 msgstr ""
-"Questo flusso non può essere riprodotto. È possibile che un firewall lo stia "
-"bloccando."
+"Questo flusso non può essere riprodotto. È possibile che un firewall lo stia"
+" bloccando."
 
 #: src/backend/bacon-video-widget.c:4000
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
-"Un flusso audio o video non è gestito per mancanza di codec. Potrebbe essere "
-"necessario installare ulteriori plugin per poter riprodurre alcuni tipi di "
+"Un flusso audio o video non è gestito per mancanza di codec. Potrebbe essere"
+" necessario installare ulteriori plugin per poter riprodurre alcuni tipi di "
 "filmati"
 
 #: src/backend/bacon-video-widget.c:4011
@@ -689,8 +681,8 @@ msgstr "Il file multimediale non contiene alcun flusso video supportato."
 
 #: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
 "Mancano alcuni plugin necessari. Assicurarsi che il programma sia "
 "correttamente installato."
@@ -739,7 +731,6 @@ msgstr "Impossibile riprodurre il file"
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -751,7 +742,6 @@ msgstr "%d:%02d:%02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
 #, c-format
 msgctxt "long time format"
@@ -763,7 +753,6 @@ msgstr "-%d:%02d:%02d"
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
 #, c-format
 msgctxt "short time format"
@@ -775,7 +764,6 @@ msgstr "-%d:%02d"
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -798,9 +786,12 @@ msgstr "Impossibile inizializzare le librerie thread-safe."
 msgid "Verify your system installation. Totem will now exit."
 msgstr "Verificare l'installazione del sistema. Totem verrà chiuso."
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -899,21 +890,21 @@ msgid "Search"
 msgstr "Ricerca"
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "Traccia audio n° %d"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "Sottotitoli"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "Nessuno"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
 msgctxt "Language"
 msgid "Auto"
@@ -1393,8 +1384,6 @@ msgstr "Nessun risultato trovato."
 msgid "Subtitles"
 msgstr "Sottotitoli"
 
-# LF - GNOME-2-22-2
-# ripresa da totem 2.18
 #. translators comment:
 #. This is the file-type of the subtitle file detected
 #: src/plugins/opensubtitles/opensubtitles.py:488
@@ -1535,38 +1524,33 @@ msgstr "Canali:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "Sconosciuto"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "Sconosciuto"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "Sconosciuto"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "Sconosciuto"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "Sconosciuto"
+msgstr ""
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
@@ -1658,8 +1642,8 @@ msgstr "Password rpdb2"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 "Una password per proteggere il server rpdb2 per il debug dell'applicazione "
 "da accessi remoti non autorizzati. Se lasciata vuota, verrà usata \"totem\" "
@@ -1738,9 +1722,8 @@ msgid "Save a copy of the currently playing movie"
 msgstr "Salva una copra del filmato attualmente in riproduzione"
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "Impossibile duplicare il disco video."
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1862,7 +1845,8 @@ msgstr "Fornisce il dialogo «Salta a»"
 msgid "_Skip to:"
 msgstr "_Salta a:"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
 msgid "second"
@@ -1870,10 +1854,14 @@ msgid_plural "seconds"
 msgstr[0] "secondo"
 msgstr[1] "secondi"
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
@@ -1892,8 +1880,6 @@ msgctxt "playback rate"
 msgid "× 0.75"
 msgstr "× 0.75"
 
-# LF - GNOME-2-22-2
-# ripresa da totem 2.18
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 msgctxt "playback rate"
 msgid "Normal"
@@ -1939,75 +1925,3 @@ msgstr "Vimeo"
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr "Imposta lo user agent per il sito di Vimeo"
-
-#~ msgid "Video thumbnailer for the file manager"
-#~ msgstr "Anteprima video per il gestore dei file"
-
-#~ msgid "Files properties tab"
-#~ msgstr "Scheda proprietà dei file"
-
-#~ msgid "Whether to autoload external chapter files when a movie is loaded"
-#~ msgstr ""
-#~ "Indica se caricare automaticamente file di capitoli esterni all'apertura "
-#~ "di un filmato"
-
-#~ msgid "External Chapters"
-#~ msgstr "Capitoli esterni"
-
-#~ msgid "Load _chapter files when movie is loaded"
-#~ msgstr "Caricare i file dei ca_pitoli all'apertura di un filmato"
-
-#~ msgid "_Quit"
-#~ msgstr "_Esci"
-
-#~ msgid "Subtitle #%d"
-#~ msgstr "Sottotitolo n° %d"
-
-#~ msgid "%d frame per second"
-#~ msgid_plural "%d frames per second"
-#~ msgstr[0] "%d fotogramma al secondo"
-#~ msgstr[1] "%d fotogrammi al secondo"
-
-#~ msgid "Audio Preview"
-#~ msgstr "Anteprima audio"
-
-#~ msgid "Audio/Video"
-#~ msgstr "Audio/Video"
-
-#~ msgid "N/A"
-#~ msgstr "N/D"
-
-#~ msgctxt "Number of audio channels"
-#~ msgid "N/A"
-#~ msgstr "N/D"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#~ msgid "Seek to %s / %s"
-#~ msgstr "Salta a %s / %s"
-
-#~ msgid "Gromit Annotations"
-#~ msgstr "Annotazioni Gromit"
-
-#~ msgid "Presentation helper to make annotations on screen"
-#~ msgstr ""
-#~ "Strumento per le presentazione che consente di creare annotazioni sullo "
-#~ "schermo"
-
-#~ msgid "The gromit binary was not found."
-#~ msgstr "Impossibile trovare l'eseguibile \"gromit\"."
-
-#~ msgid "Always On Top"
-#~ msgstr "Sempre in primo piano"
-
-#~ msgid "Keep the main window on top when playing a movie"
-#~ msgstr ""
-#~ "Mantiene la finestra principale in primo piano durante la riproduzione di "
-#~ "un filmato"
-
-#~ msgid "Zeitgeist Plugin"
-#~ msgstr "Plugin Zeitgeist"
-
-#~ msgid "A plugin sending events to Zeitgeist"
-#~ msgstr "Un plugin che invia gli eventi a Zeitgeist"

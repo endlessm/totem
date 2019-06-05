@@ -1,43 +1,44 @@
-# Dzongkha translation of totem.
-# Copyright @ 2006, Free software foundation, Inc.
-# Mindu Dorji.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the totem package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2017
+# Will Thompson <wjt@endlessm.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: totem.HEAD.dz\n"
+"Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2007-05-22 00:08+0530\n"
-"Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
-"Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
-"Language: dz\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
+"Language-Team: Dzongkha (https://www.transifex.com/endless-os/teams/9016/dz/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Country: BHUTAN\n"
-"X-Poedit-Language: Dzongkha\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: dz\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
 #: src/totem-grilo.c:1901 src/totem-object.c:3729
-#, fuzzy
 msgid "Videos"
-msgstr "ཝི་ཌིའོ།"
+msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:7
 #: data/org.gnome.Totem.desktop.in.in:4
-#, fuzzy
 msgid "Play movies"
-msgstr "གློག་བརྙན་ཅིག་གཏང་དོ།"
+msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:11
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
@@ -47,12 +48,14 @@ msgid ""
 "support for recording DVDs."
 msgstr ""
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -78,9 +81,8 @@ msgid "Repeat mode"
 msgstr "བསྐྱར་ལོག་ཐབས་འཕྲུལ།"
 
 #: data/org.gnome.totem.gschema.xml.in:26
-#, fuzzy
 msgid "Whether to disable deinterlacing for interlaced movies"
-msgstr "གཏང་འཕྲུལ་གྱི་དོན་ལུ་ རྐྱེན་སེལ་ལྕོགས་ཅན་ བཟོ་ནི་ཨིན་ན།"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:30
 msgid "Type of audio output to use"
@@ -91,73 +93,58 @@ msgid "Network buffering threshold"
 msgstr "ཡོངས་འབྲེལ་གནད་ཁོངས་ནང་གཏང་ནིའི་ ཐེརེཤི་ཧཱོལཌི།"
 
 #: data/org.gnome.totem.gschema.xml.in:35
-#, fuzzy
 msgid ""
 "Amount of data to buffer for network streams before starting to display the "
 "stream (in seconds)."
 msgstr ""
-"རྒྱུན་རིམ་བཀྲམ་སྟོན་མ་འབད་བའི་ཧེ་མར་ ཡོངས་འབྲེལ་རྒྱུན་རིམ་གྱི་དོན་ལུ་ གནད་ཁོངས་ནང་གནད་སྡུད་གསོག་འཇོག་"
-"འབད་དགོ་པའི་བསྡོམས། (སྐར་ཆའི་ནང་)"
 
 #: data/org.gnome.totem.gschema.xml.in:39
 msgid "Subtitle font"
 msgstr "མགོ་མིང་ཡན་ལག་གི་ཡིག་གཟུགས།"
 
 #: data/org.gnome.totem.gschema.xml.in:40
-#, fuzzy
 msgid "Pango font description for subtitle rendering."
-msgstr "མགོ་མིང་ཡན་ལག་ ལྷག་སྟོན་འབད་ནིའི་དོན་ལུ་ པང་ཀོ་ཡིག་གཟུགས་ཀྱི་འགྲེལ་བཤད།"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:43
-#, fuzzy
 msgctxt "subtitle-encoding"
 msgid "'UTF-8'"
-msgstr "ཡུ་ཊི་ཨེཕ་-༨།"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:50
 msgid "Subtitle encoding"
 msgstr "མགོ་མིང་ཡན་ལག་གི་ཨིན་ཀོ་ཌིང་།"
 
 #: data/org.gnome.totem.gschema.xml.in:51
-#, fuzzy
 msgid "Encoding character set for subtitle."
-msgstr "ཡན་ལག་མགོ་མིང་གི་དོན་ལུ་ ཡིག་འབྲུའི་ཆ་ཚན་གྱི་ ཨིན་ཀོ་ཌིང་།"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:55
-#, fuzzy
 msgid "Default location for the “Open…” dialogs"
-msgstr " \"Open...\" གཏམ་གླེང་འདི་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་གནས་ཁོངས་"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:56
-#, fuzzy
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-" \"Open...\" གཏམ་གླེང་འདི་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་གནས་ཁོངས་  སྔོན་སྒྲིག་འདི་ ད་ལྟོའི་སྣོད་ཐོ་ཨིན་"
 
 #: data/org.gnome.totem.gschema.xml.in:60
-#, fuzzy
 msgid "Default location for the “Take Screenshot” dialogs"
-msgstr " \"Take Screenshot\" གཏམ་གླེང་འདི་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་གནས་ཁོངས་"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:61
-#, fuzzy
 msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
 msgstr ""
-" \"Take Screenshot\" གཏམ་གླེང་འདི་ཚུ་གི་དོན་ལུ་ སྔོན་སྒྲིག་གནས་ཁོངས་  སྔོན་སྒྲིག་འདི་ པར་གྱི་སྣོད་ཐོ་"
-"ཨིན་"
 
 #: data/org.gnome.totem.gschema.xml.in:65
-#, fuzzy
 msgid "Whether to disable the plugins in the user’s home directory"
-msgstr "ལག་ལེན་པའི་ཁྱིམ་གྱི་སྣོད་ཐོ་ནང་ལུ་པ་ལག་ཨིན་ཤུགས་མེད་བཟོ་ནི་ཨིན་ན"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:69
-#, fuzzy
 msgid "Whether to disable the keyboard shortcuts"
-msgstr "ལག་ལེན་པའི་ཁྱིམ་གྱི་སྣོད་ཐོ་ནང་ལུ་པ་ལག་ཨིན་ཤུགས་མེད་བཟོ་ནི་ཨིན་ན"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:73
 msgid "Whether to autoload text subtitle files when a movie is loaded"
@@ -186,43 +173,36 @@ msgid "Stereo"
 msgstr "གླུ་སྒྲོམ"
 
 #: data/preferences.ui:16
-#, fuzzy
 msgid "4-channel"
-msgstr " རྒྱུ་ལམ:"
+msgstr ""
 
 #: data/preferences.ui:19
-#, fuzzy
 msgid "4.1-channel"
-msgstr " རྒྱུ་ལམ:"
+msgstr ""
 
 #: data/preferences.ui:22
-#, fuzzy
 msgid "5.0-channel"
-msgstr "༠ རྒྱུ་ལམ་"
+msgstr ""
 
 #: data/preferences.ui:25
-#, fuzzy
 msgid "5.1-channel"
-msgstr " རྒྱུ་ལམ:"
+msgstr ""
 
 #: data/preferences.ui:28
 msgid "AC3 Passthrough"
 msgstr ""
 
 #: data/preferences.ui:80
-#, fuzzy
 msgid "Preferences"
-msgstr "དགའ་གདམ་ཚུ།(_n)"
+msgstr ""
 
 #: data/preferences.ui:130
-#, fuzzy
 msgid "External Subtitles"
-msgstr "ཚིག་ཡིག་གི་མགོ་མིང་ཡན་ལག་ཚུ"
+msgstr ""
 
 #: data/preferences.ui:178
-#, fuzzy
 msgid "_Load subtitle files when movie is loaded"
-msgstr "ཝི་ཌིའོ་བཀྲམ་སྟོན་མེད་པའི་སྐབས་ལུ་ པར་གྱི་འཆར་སྣང་སྟོན།"
+msgstr ""
 
 #: data/preferences.ui:199
 msgid "_Font:"
@@ -233,14 +213,12 @@ msgid "_Encoding:"
 msgstr "ཨིན་ཀོ་ཌིང་:(_E)"
 
 #: data/preferences.ui:312
-#, fuzzy
 msgid "Plugins"
-msgstr "པ་ལག་ཨིན།"
+msgstr ""
 
 #: data/preferences.ui:338
-#, fuzzy
 msgid "Plugins…"
-msgstr "པ་ལག་ཨིན།"
+msgstr ""
 
 #: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
@@ -256,9 +234,8 @@ msgid "Disable _deinterlacing of interlaced videos"
 msgstr ""
 
 #: data/preferences.ui:477
-#, fuzzy
 msgid "Color Balance"
-msgstr "ཚོས་གཞིའི་ཚད་སྙོམས"
+msgstr ""
 
 #: data/preferences.ui:531
 msgid "_Brightness:"
@@ -277,9 +254,8 @@ msgid "_Hue:"
 msgstr "ཚོན་མདངས:(_H)"
 
 #: data/preferences.ui:726
-#, fuzzy
 msgid "Reset to _Defaults"
-msgstr "སྔོན་སྒྲིག་ལུ་ སླར་སྒྲིག་འབད།(_D)"
+msgstr ""
 
 #: data/preferences.ui:773
 msgid "Display"
@@ -298,16 +274,14 @@ msgid "Audio"
 msgstr "རྣར་ཉན།"
 
 #: data/shortcuts.ui:16
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr "ཡོངས་ཁྱབ་།"
+msgstr ""
 
 #: data/shortcuts.ui:21
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr "རྒྱུ་དངོས་ཚུ།"
+msgstr ""
 
 #: data/shortcuts.ui:28
 msgctxt "shortcut window"
@@ -315,22 +289,19 @@ msgid "Make Available Offline"
 msgstr ""
 
 #: data/shortcuts.ui:35
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "གསལ་གཞིའི་པར་བཏབ་...(_S)"
+msgstr ""
 
 #: data/shortcuts.ui:42
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "སྤངས།"
+msgstr ""
 
 #: data/shortcuts.ui:50
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "སྐད་ཤུགས་"
+msgstr ""
 
 #: data/shortcuts.ui:55
 msgctxt "shortcut window"
@@ -343,34 +314,29 @@ msgid "Decrease volume"
 msgstr ""
 
 #: data/shortcuts.ui:70
-#, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "མཐོང་སྣང་།(_V)"
+msgstr ""
 
 #: data/shortcuts.ui:75
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "གསལ་གཞི་གངམ་སོར་སྟོན་འབད།"
+msgstr ""
 
 #: data/shortcuts.ui:82
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "གསལ་གཞི་ཧྲིལ་བུ་ ཕྱིར་འཐོན་འབད།"
+msgstr ""
 
 #: data/shortcuts.ui:89
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "ཕྱིར་རྒྱས།"
+msgstr ""
 
 #: data/shortcuts.ui:96
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "ནང་ན་ཟུམ།"
+msgstr ""
 
 #: data/shortcuts.ui:103
 msgctxt "shortcut window"
@@ -383,34 +349,29 @@ msgid "Rotate ↶"
 msgstr ""
 
 #: data/shortcuts.ui:119
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "གཏང་"
+msgstr ""
 
 #: data/shortcuts.ui:124
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "གཏང་/ཐེམ།"
+msgstr ""
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "བཟུང་ནིའི་ཝི་ཌིའོ་མིན་འདུག"
+msgstr ""
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "བཟུང་ནིའི་ཝི་ཌིའོ་མིན་འདུག"
+msgstr ""
 
 #: data/shortcuts.ui:164
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "ལུ་གོམ་འགྱོ།"
+msgstr ""
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
@@ -418,10 +379,9 @@ msgid "Go back 15 seconds"
 msgstr ""
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "སྐར་ཆ་༠།"
+msgstr ""
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -434,16 +394,14 @@ msgid "Step forward one frame"
 msgstr ""
 
 #: data/shortcuts.ui:200 data/shortcuts.ui:248
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "སྐར་ཆ་༠།"
+msgstr ""
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "སྐར་ཆ་རེ་ནང་ གཞི་ཁྲམ་༠།"
+msgstr ""
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
@@ -456,10 +414,9 @@ msgid "Go forward 10 minutes"
 msgstr ""
 
 #: data/shortcuts.ui:279
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "ལུ་གོམ་འགྱོ།"
+msgstr ""
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
@@ -510,40 +467,40 @@ msgstr ""
 msgid "_Aspect Ratio"
 msgstr "རྣམ་པའི་དཔྱ་ཚད།(_A)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "Auto"
-msgstr "རང་བཞིན།"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "Square"
-msgstr "གྲུ་བཞི།"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
-msgstr "༤:༣ (རྒྱང་མཐོང་)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
-msgstr "༡༦:༩ (རྒྱ་ཆེར་གསལ་གཞི་)"
+msgstr ""
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
-#, fuzzy
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
-msgstr "༢.༡༡:༡ (ཌི་ཝི་བི)"
+msgstr ""
 
 #: data/totem.ui:81
 msgid "Zoom In"
@@ -562,18 +519,16 @@ msgid "S_ubtitles"
 msgstr "མགོ་མིང་ཡན་ལག་ཚུ།(_u)"
 
 #: data/totem.ui:100
-#, fuzzy
 msgid "_Select Text Subtitles…"
-msgstr "ཚིག་ཡིག་གི་མགོ་མིང་ཡན་ལག་ཚུ"
+msgstr ""
 
 #: data/totem.ui:123
 msgid "_Eject"
 msgstr "ཕྱིར་བཏོན།(_E)"
 
 #: data/totem.ui:134
-#, fuzzy
 msgid "_Repeat"
-msgstr "ཡང་བསྐྱར་ཐབས་ལམ།(_R)"
+msgstr ""
 
 #: data/totem.ui:140
 msgid "_DVD Menu"
@@ -613,13 +568,10 @@ msgid "Password requested for RTSP server"
 msgstr ""
 
 #: src/backend/bacon-video-widget.c:3889
-#, fuzzy
 msgid ""
 "The source seems encrypted and can’t be read. Are you trying to play an "
 "encrypted DVD without libdvdcss?"
 msgstr ""
-"འབྱུང་ཁུངས་དེ་ གསང་བ་བཟོ་བཟོཝ་བཟུམ་ཅིག་ཨིནམ་ལས་ ལྷག་མི་ཚུགས། ཁྱོད་ཀྱིས་ libdvdcss ་མེད་པའི་ "
-"གསང་བཟོས་ཌི་བི་ཌི་ཅིག་ གཏང་ཐབས་འབདཝ་ཨིན་ན?"
 
 #: src/backend/bacon-video-widget.c:3903
 msgid "The server you are trying to connect to is not known."
@@ -635,12 +587,12 @@ msgstr "གསལ་བཀོད་འབད་མི་ གློག་བར�
 
 #: src/backend/bacon-video-widget.c:3916
 msgid "The server refused access to this file or stream."
-msgstr "སར་བར་དེ་གིས་ ཡིག་སྣོད་འདིའམ་ སིཊིམ་འདི་ལུ་ འཛུལ་སྤྱོད་ངོས་ལེན་འབད་མ་བཏུབ།"
+msgstr ""
+"སར་བར་དེ་གིས་ ཡིག་སྣོད་འདིའམ་ སིཊིམ་འདི་ལུ་ འཛུལ་སྤྱོད་ངོས་ལེན་འབད་མ་བཏུབ།"
 
 #: src/backend/bacon-video-widget.c:3922
-#, fuzzy
 msgid "Authentication is required to access this file or stream."
-msgstr "སར་བར་དེ་གིས་ ཡིག་སྣོད་འདིའམ་ སིཊིམ་འདི་ལུ་ འཛུལ་སྤྱོད་ངོས་ལེན་འབད་མ་བཏུབ།"
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:3929
 msgid "You are not allowed to open this file."
@@ -664,15 +616,14 @@ msgstr "ཁྱོད་ཀྱིས་གཏང་ནི་སྦེ་ འབ�
 
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
-#, fuzzy, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+#, c-format
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -680,20 +631,16 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget.c:4000
-#, fuzzy
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
-"རྣར་ཉན་ཀོ་ཌེཀ་'%s'དེ་ ལེགས་སྐྱོང་མ་འཐབ་པས། གློག་བརྙན་གྱི་དབྱེ་བ་ ལ་ལོ་ཅིག་གཏང་ཚུགས་ནིའི་དོན་ལུ་ ཁྱོད་"
-"ཀྱིས་ པ་ལག་ཨིནསི་ ཁ་སྐོང་གཞི་བཙུགས་འབད་དགོཔ་འོང་། "
 
 #: src/backend/bacon-video-widget.c:4011
-#, fuzzy
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
-msgstr "ཡིག་སྣོད་འདི་ཡོངས་འབྲེལ་ཐོག་ལུ་ གཏང་མི་ཚུགས་པས། དང་པ་རང་ ཌིཀསི་གུ་ཕབ་ལེན་འབད།"
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
@@ -708,11 +655,10 @@ msgid "Media contains no supported video streams."
 msgstr "བརྡ་ལམ་ནང་ལུ་ རྒྱབ་སྐྱོར་ལྡན་པའི་ ཝི་ཌིའོ་རྒྱུན་རིམ་མིན་འདུག"
 
 #: src/backend/bacon-video-widget.c:6173
-#, fuzzy
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
-msgstr "ཝི་ཌིའོ་གི་ཨའུཊི་པུཊི་ མི་འཐོབ་པས། ལས་རིམ་དེ་ ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
+msgstr ""
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. * %s will be replaced with the software installer's name, e.g.
@@ -727,7 +673,6 @@ msgstr ""
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -750,16 +695,14 @@ msgid "Get VLC"
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
-#, fuzzy
 msgid "Unable to play the file"
-msgstr "ཊོ་ཊེམ་གྱིས་ཌིཀསི་འདི་ གཏང་མི་ཚུགས་པས།"
+msgstr ""
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -771,7 +714,6 @@ msgstr ""
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
 #, c-format
 msgctxt "long time format"
@@ -783,7 +725,6 @@ msgstr ""
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
 #, c-format
 msgctxt "short time format"
@@ -795,7 +736,6 @@ msgstr ""
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -803,14 +743,12 @@ msgid "%d:%02d"
 msgstr ""
 
 #: src/grilo.ui:7
-#, fuzzy
 msgid "Select All"
-msgstr "སི་ཌི་སེལ་འཐུ་འབད།"
+msgstr ""
 
 #: src/grilo.ui:12
-#, fuzzy
 msgid "Select None"
-msgstr "སི་ཌི་སེལ་འཐུ་འབད།"
+msgstr ""
 
 #: src/totem.c:67
 msgid "Could not initialize the thread-safe libraries."
@@ -818,11 +756,16 @@ msgstr "ཐེརེཌི་སེཕ་ དཔེ་མཛོད་དེ་ �
 
 #: src/totem.c:67
 msgid "Verify your system installation. Totem will now exit."
-msgstr "ཁྱོད་རའི་རིམ་ལུགས་གཞི་བཙུགས་ལུ་ བདེན་སྦྱོར་འབད། ཊོ་ཊེམ་ད་ལྟོ་རང་ ཕྱིར་འཐོན་འགྱོ་འོང་།"
+msgstr ""
+"ཁྱོད་རའི་རིམ་ལུགས་གཞི་བཙུགས་ལུ་ བདེན་སྦྱོར་འབད། ཊོ་ཊེམ་ད་ལྟོ་རང་ "
+"ཕྱིར་འཐོན་འགྱོ་འོང་།"
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -832,18 +775,16 @@ msgid ""
 msgstr ""
 
 #: src/totem-gallery-thumbnailer.c:632
-#, fuzzy
 msgid "Filename"
-msgstr "བེཊི་ནཱ་མིསི།"
+msgstr ""
 
 #: src/totem-gallery-thumbnailer.c:634
 msgid "Resolution"
 msgstr ""
 
 #: src/totem-gallery-thumbnailer.c:637
-#, fuzzy
 msgid "Duration"
-msgstr "མཐའ་ཚད:"
+msgstr ""
 
 #: src/totem-grilo.c:285
 #, c-format
@@ -862,23 +803,21 @@ msgid "Browse Error"
 msgstr ""
 
 #: src/totem-grilo.c:821
-#, fuzzy
 msgid "Search Error"
-msgstr "ཇེ་ནི་རིཀ་ འཛོལ་བ།"
+msgstr ""
 
 #: src/totem-grilo.c:1301
 msgid "Local"
 msgstr ""
 
 #: src/totem-grilo.c:1910
-#, fuzzy
 msgid "Channels"
-msgstr " རྒྱུ་ལམ:"
+msgstr ""
 
 #: src/totem-interface.c:179 src/totem-interface.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr "'%s' འབད་མི་ ངོས་འདྲ་བ་ མངོན་གསལ་འབད་མ་ཚུགས།"
+msgstr ""
 
 #: src/totem-interface.c:179
 msgid "The file does not exist."
@@ -894,10 +833,10 @@ msgid "Click on items to select them"
 msgstr ""
 
 #: src/totem-main-toolbar.c:136
-#, fuzzy, c-format
+#, c-format
 msgid "%d selected"
 msgid_plural "%d selected"
-msgstr[0] "སྐར་ཆ་%d"
+msgstr[0] ""
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -909,9 +848,8 @@ msgid "Back"
 msgstr ""
 
 #: src/totemmaintoolbar.ui:44
-#, fuzzy
 msgid "Select"
-msgstr "སི་ཌི་སེལ་འཐུ་འབད།"
+msgstr ""
 
 #: src/totemmaintoolbar.ui:69 src/totemmaintoolbar.ui:72
 msgid "Cancel"
@@ -922,26 +860,25 @@ msgid "Search"
 msgstr ""
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "རྣར་ཉན་སི་ཌི།"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "མགོ་མིང་ཡན་ལག"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "ཅི་མེད།"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
-#, fuzzy
 msgctxt "Language"
 msgid "Auto"
-msgstr "རང་བཞིན།"
+msgstr ""
 
 #: src/totem-object.c:1391 src/totem-options.c:51
 msgid "Pause"
@@ -953,9 +890,9 @@ msgid "Play"
 msgstr "གཏང་"
 
 #: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
-#, fuzzy, c-format
+#, c-format
 msgid "Totem could not play “%s”."
-msgstr "ཊོ་ཊེམ་གྱིས་'%s'གཏང་མ་ཚུགས།"
+msgstr ""
 
 #: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
@@ -1029,9 +966,8 @@ msgid "Volume Down"
 msgstr "སྐད་ཤུགས་ཕབ།"
 
 #: src/totem-options.c:58
-#, fuzzy
 msgid "Mute sound"
-msgstr "སྐད་མེད་བཟོས་པ་"
+msgstr ""
 
 #: src/totem-options.c:59
 msgid "Toggle Fullscreen"
@@ -1064,14 +1000,14 @@ msgstr ""
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
 #: src/totem-playlist.c:231
-#, fuzzy, c-format
+#, c-format
 msgid "Title %d"
-msgstr "མགོ་མིང་:"
+msgstr ""
 
 #: src/totem-playlist.c:993
-#, fuzzy, c-format
+#, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
-msgstr "གླུ་ཐོ་'%s' དེ་ མིང་དཔྱད་འབད་མ་ཚུགས། འདི་མེདཔ་བཏང་ཡོདཔ་འོང་ནི་མས།"
+msgstr ""
 
 #: src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1090,15 +1026,13 @@ msgid "Add to Favourites"
 msgstr ""
 
 #: src/totemselectiontoolbar.ui:40
-#, fuzzy
 msgctxt "button"
 msgid "Play"
-msgstr "གཏང་"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
-#, fuzzy
 msgid "Shuffle"
-msgstr "ཐབས་ལམ་རིམ་དཀྲུགས་འབད།"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:80 src/totemselectiontoolbar.ui:83
 msgid "Delete"
@@ -1254,24 +1188,20 @@ msgid "Video files"
 msgstr "ཝི་ཌིའོ་གི་ཡིག་སྣོད་ཚུ"
 
 #: src/totem-uri.c:346
-#, fuzzy
 msgid "Subtitle files"
-msgstr "མགོ་མིང་ཡན་ལག"
+msgstr ""
 
 #: src/totem-uri.c:396
-#, fuzzy
 msgid "Select Text Subtitles"
-msgstr "ཚིག་ཡིག་གི་མགོ་མིང་ཡན་ལག་ཚུ"
+msgstr ""
 
 #: src/totem-uri.c:400
-#, fuzzy
 msgid "_Open"
-msgstr "ཁ་ཕྱེ་...(_O)"
+msgstr ""
 
 #: src/totem-uri.c:457
-#, fuzzy
 msgid "Add Videos"
-msgstr "ཝི་ཌིའོ།"
+msgstr ""
 
 #: src/plugins/apple-trailers/apple-trailers.plugin.desktop.in:6
 msgid "Apple Trailers"
@@ -1282,14 +1212,12 @@ msgid "Sets the user agent for the Apple Trailers site"
 msgstr ""
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:6
-#, fuzzy
 msgid "Autoload Subtitles"
-msgstr "ཚིག་ཡིག་གི་མགོ་མིང་ཡན་ལག་ཚུ"
+msgstr ""
 
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:7
-#, fuzzy
 msgid "Autoloads text subtitles"
-msgstr "ཚིག་ཡིག་གི་མགོ་མིང་ཡན་ལག་ཚུ"
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin.desktop.in:6
 msgid "Video Disc Recorder"
@@ -1300,15 +1228,13 @@ msgid "Records (S)VCDs or video DVDs"
 msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:101
-#, fuzzy
 msgid "The video disc could not be duplicated."
-msgstr "གློག་བརྙན་དེ་ ལྷག་མ་ཚུགས།"
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:103
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:249
-#, fuzzy
 msgid "The movie could not be recorded."
-msgstr "གློག་བརྙན་དེ་ ལྷག་མ་ཚུགས།"
+msgstr ""
 
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:129
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:139
@@ -1355,13 +1281,14 @@ msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
 msgstr ""
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:6
-#, fuzzy
 msgid "Instant Messenger Status"
-msgstr "འཕྲལ་མྱུར་་འཕྲིན་སྐྱེལ་པའི་གནས་ཚད་ཚུ"
+msgstr ""
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:7
 msgid "Set your Instant Messenger status to away when a movie is playing"
-msgstr "གློག་བརྙན་གཏང་པའི་སྐབས ཁྱོད་ཀྱི་འཕྲལ་མྱུར་འཕརིན་སྐྱེལ་པའི་གནས་ཚད་ཐག་རིང་སར་བཞག"
+msgstr ""
+"གློག་བརྙན་གཏང་པའི་སྐབས "
+"ཁྱོད་ཀྱི་འཕྲལ་མྱུར་འཕརིན་སྐྱེལ་པའི་གནས་ཚད་ཐག་རིང་སར་བཞག"
 
 #: src/plugins/lirc/lirc.plugin.desktop.in:5
 msgid "Infrared Remote Control"
@@ -1372,54 +1299,45 @@ msgid "Support infrared remote control"
 msgstr ""
 
 #: src/plugins/lirc/totem-lirc.c:239
-#, fuzzy
 msgid "Couldn’t initialize lirc."
-msgstr "ཐེརེཌི་སེཕ་ དཔེ་མཛོད་དེ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
+msgstr ""
 
 #: src/plugins/lirc/totem-lirc.c:251
 msgid "Couldn’t read lirc configuration."
 msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:5
-#, fuzzy
 msgid "Media Player Keys"
-msgstr "ཊོ་ཊེམ་གློག་བརྙན་གཏང་འཕྲུལ།"
+msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:6
 msgid "Support additional media player keys"
 msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.plugin.desktop.in:6
-#, fuzzy
 msgid "Subtitle Downloader"
-msgstr "མགོ་མིང་ཡན་ལག་གི་ཡིག་གཟུགས།"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.plugin.desktop.in:7
-#, fuzzy
 msgid "Look for subtitles for the currently playing movie"
-msgstr "ད་ལྟོ་གཏང་བའི་བསྒང་གི་སི་ཌི་དེ་ སེལ་འཐུ་འབད།"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:46
 msgid "Brazilian Portuguese"
 msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:187
-#, fuzzy
 msgid "Searching for subtitles…"
-msgstr "ཡན་ལག་མགོ་མིང་གི་དོན་ལུ་ ཡིག་འབྲུའི་ཆ་ཚན་གྱི་ ཨིན་ཀོ་ཌིང་།"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:235
 #: src/plugins/opensubtitles/opensubtitles.py:615
-#, fuzzy
 msgid "Downloading the subtitles…"
-msgstr "ཡན་ལག་མགོ་མིང་གི་དོན་ལུ་ ཡིག་འབྲུའི་ཆ་ཚན་གྱི་ ཨིན་ཀོ་ཌིང་།"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:300
-#, fuzzy
 msgid "Could not contact the OpenSubtitles website"
 msgstr ""
-"བེ་ནི་ཊི་གིས་ ཝེབ་ཀེམ་ལུ་ འབྲེལ་བ་འཐབ་མ་ཚུགས། \n"
-"རྒྱུ་མཚན་: %s"
 
 #: src/plugins/opensubtitles/opensubtitles.py:333
 #: src/plugins/opensubtitles/opensubtitles.py:351
@@ -1427,9 +1345,8 @@ msgid "Could not contact the OpenSubtitles website."
 msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:339
-#, fuzzy
 msgid "No results found."
-msgstr "རྒྱུ་མཚན་མིན་འདུག"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.py:482
 msgid "Subtitles"
@@ -1461,28 +1378,24 @@ msgid "Download Movie Subtitles"
 msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.ui:43
-#, fuzzy
 msgid "Subtitle _language:"
-msgstr "མགོ་མིང་ཡན་ལག་གི་ཡིག་གཟུགས།"
+msgstr ""
 
 #: src/plugins/opensubtitles/opensubtitles.ui:124
-#, fuzzy
 msgid "_Play with Subtitle"
-msgstr "ཚིག་ཡིག་གི་མགོ་མིང་ཡན་ལག་ཚུ"
+msgstr ""
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:6
-#, fuzzy
 msgid "Subtitle language"
-msgstr "མགོ་མིང་ཡན་ལག་གི་ཡིག་གཟུགས།"
+msgstr ""
 
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:7
 msgid "The language to search for subtitles for movies in."
 msgstr ""
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:6
-#, fuzzy
 msgid "Movie Properties"
-msgstr "རྒྱུ་དངོས་ཚུ།"
+msgstr ""
 
 #: src/plugins/properties/movie-properties.plugin.desktop.in:7
 msgid "Adds movie properties menu item"
@@ -1501,10 +1414,9 @@ msgstr "ཀེ་བི་པི་ཨེསི་%d"
 
 #: src/plugins/properties/totem-movie-properties.c:155
 #: src/plugins/properties/totem-movie-properties.c:166
-#, fuzzy
 msgctxt "Stream bit rate"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #: src/plugins/properties/totem-movie-properties.c:169
 #, c-format
@@ -1512,10 +1424,9 @@ msgid "%d Hz"
 msgstr "%d ཨེཇ་ཛེཏི་"
 
 #: src/plugins/properties/totem-movie-properties.c:169
-#, fuzzy
 msgctxt "Sample rate"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #: src/plugins/properties/totem-movie-properties.c:280
 msgid "Properties"
@@ -1581,78 +1492,67 @@ msgstr " རྒྱུ་ལམ:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "ངོ་མ་ཤེསཔ།"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "ངོ་མ་ཤེསཔ།"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "ངོ་མ་ཤེསཔ།"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "ངོ་མ་ཤེསཔ།"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "ངོ་མ་ཤེསཔ།"
+msgstr ""
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
-#, fuzzy
 msgctxt "Dimensions"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #. Video Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:123
-#, fuzzy
 msgctxt "Video codec"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #: src/plugins/properties/bacon-video-widget-properties.c:126
-#, fuzzy
 msgctxt "Video bit rate"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #: src/plugins/properties/bacon-video-widget-properties.c:129
 #: src/plugins/properties/bacon-video-widget-properties.c:237
-#, fuzzy
 msgctxt "Frame rate"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #: src/plugins/properties/bacon-video-widget-properties.c:133
-#, fuzzy
 msgctxt "Audio bit rate"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #. Audio Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:135
-#, fuzzy
 msgctxt "Audio codec"
 msgid "N/A"
-msgstr "ཨེན་/ཨེ།"
+msgstr ""
 
 #. Sample rate
 #: src/plugins/properties/bacon-video-widget-properties.c:137
@@ -1684,17 +1584,17 @@ msgstr[0] "སྐར་ཆ་%d"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
-#, fuzzy, c-format
+#, c-format
 msgctxt "time"
 msgid "%s %s %s"
-msgstr "%s %s %s"
+msgstr ""
 
 #. 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:169
-#, fuzzy, c-format
+#, c-format
 msgctxt "time"
 msgid "%s %s"
-msgstr "%s %s"
+msgstr ""
 
 #. 0 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:175
@@ -1707,8 +1607,8 @@ msgstr ""
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
@@ -1749,18 +1649,16 @@ msgid ""
 msgstr ""
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
-#, fuzzy
 msgid "Recent files"
-msgstr "ཝི་ཌིའོ་གི་ཡིག་སྣོད་ཚུ"
+msgstr ""
 
 #: src/plugins/recent/recent.plugin.desktop.in:7
 msgid "Adds files that have been played to recent files"
 msgstr ""
 
 #: src/plugins/rotation/rotation.plugin.desktop.in:6
-#, fuzzy
 msgid "Rotation Plugin"
-msgstr "སྒྲ་དབྱངས་སྒྲོམ་གྱི་པ་ལག་ཨིན་ཚུ"
+msgstr ""
 
 #: src/plugins/rotation/rotation.plugin.desktop.in:7
 msgid "Allows videos to be rotated if they are in the wrong orientation"
@@ -1779,14 +1677,12 @@ msgid "Save Copy"
 msgstr ""
 
 #: src/plugins/save-file/save-file.plugin.desktop.in:7
-#, fuzzy
 msgid "Save a copy of the currently playing movie"
-msgstr "ད་ལྟོ་གཏང་བའི་བསྒང་གི་སི་ཌི་དེ་ སེལ་འཐུ་འབད།"
+msgstr ""
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "གློག་བརྙན་དེ་ ལྷག་མ་ཚུགས།"
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1796,23 +1692,20 @@ msgstr ""
 #. translators: Movie is the default saved movie filename,
 #. * without the suffix
 #: src/plugins/save-file/totem-save-file.c:172
-#, fuzzy
 msgid "Movie"
-msgstr "གློག་བརྙན།(_M)"
+msgstr ""
 
 #: src/plugins/save-file/totem-save-file.c:456
 msgid "Make Available Offline"
 msgstr ""
 
 #: src/plugins/screensaver/screensaver.plugin.desktop.in:6
-#, fuzzy
 msgid "Screen Saver"
-msgstr "གསལ་གཞིའི་ཉེན་སྲུང་"
+msgstr ""
 
 #: src/plugins/screensaver/screensaver.plugin.desktop.in:7
-#, fuzzy
 msgid "Deactivates the screen saver when a movie is playing"
-msgstr "གློག་བརྙན་གཏང་པའི་སྐབས་གསལ་གཞིའི་ཉེན་སྲུང་ཤུགས་མེད་བཟོཝ་ཨིན"
+msgstr ""
 
 #: src/plugins/screensaver/totem-screensaver.c:79
 msgid "Playing a movie"
@@ -1827,43 +1720,39 @@ msgid "Calculate the number of screenshots"
 msgstr ""
 
 #: src/plugins/screenshot/gallery.ui:73
-#, fuzzy
 msgid "Number of screenshots:"
-msgstr "གསལ་གཞིའི་ པར་ཅིག་བཏབ།"
+msgstr ""
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:147
-#, fuzzy, c-format
+#, c-format
 msgid "Screenshot from %s.png"
-msgstr "གསལ་གཞིའི་པར་%d.པི་ཨེན་ཇི་།"
+msgstr ""
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:154
-#, fuzzy, c-format
+#, c-format
 msgid "Screenshot from %s - %d.png"
-msgstr "གསལ་གཞིའི་པར་%d.པི་ཨེན་ཇི་།"
+msgstr ""
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:6
-#, fuzzy
 msgid "Screenshot"
-msgstr "གསལ་གཞིའི་པར་.པི་ཨེན་ཇི།"
+msgstr ""
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:7
 msgid "Allows screenshots and galleries to be taken of videos"
 msgstr ""
 
 #: src/plugins/screenshot/totem-gallery.c:92
-#, fuzzy
 msgid "Save Gallery"
-msgstr "ཡིག་སྣོད་སྲུངས།"
+msgstr ""
 
 #: src/plugins/screenshot/totem-gallery.c:99
-#, fuzzy
 msgid "_Save"
-msgstr "སྲུངས་..."
+msgstr ""
 
 #. Translators: The first argument is the movie title. The second
 #. * argument is a number which is used to prevent overwriting files.
@@ -1887,18 +1776,16 @@ msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
-#, fuzzy
 msgid "Totem could not get a screenshot of the video."
-msgstr "ཊོ་ཊེམ་གྱིས་ གློག་བརྙན་དེ་གི་ གསལ་གཞིའི་པར་ཅིག་ ཐོབ་མ་ཚུགས།"
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
 msgid "This is not supposed to happen; please file a bug report."
 msgstr "དེ་སྦེ་འབྱུང་དགོཔ་ཅིག་མེདཔ་ལས་ རྐྱེན་གྱི་སྙན་ཞུ་ཅིག་གཏང་གནང་།"
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:339
-#, fuzzy
 msgid "Take _Screenshot"
-msgstr "གསལ་གཞིའི་པར་བཏབ་...(_S)"
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:345
 msgid "Create Screenshot _Gallery…"
@@ -1906,9 +1793,8 @@ msgstr ""
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:6
 #: src/plugins/skipto/totem-skipto.c:219
-#, fuzzy
 msgid "Skip To"
-msgstr "ལུ་གོམ་འགྱོ།"
+msgstr ""
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:7
 msgid "Provides the “Skip to” dialog"
@@ -1918,32 +1804,34 @@ msgstr ""
 msgid "_Skip to:"
 msgstr "ལུ་ གོམ་འགྱོ་:(_S)"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
-#, fuzzy
 msgid "second"
 msgid_plural "seconds"
-msgstr[0] "སྐར་ཆ་ཚུ"
+msgstr[0] ""
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
 msgstr ""
 
 #: src/plugins/skipto/totem-skipto.c:222
-#, fuzzy
 msgid "_Skip To"
-msgstr "ལུ་ གོམ་འགྱོ་:(_S)"
+msgstr ""
 
 #: src/plugins/skipto/totem-skipto-plugin.c:206
-#, fuzzy
 msgid "_Skip To…"
-msgstr "ལུ་ གོམ་འགྱོ་:(_S)"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
@@ -1995,1243 +1883,3 @@ msgstr ""
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr ""
-
-#~ msgid "Add..."
-#~ msgstr "ཁ་སྐོང་རྐྱབས་..."
-
-#~ msgid "Move Down"
-#~ msgstr "མར་སྤོ།"
-
-#~ msgid "Move Up"
-#~ msgstr "ཡར་སྤོ།"
-
-#~ msgid "Playlist"
-#~ msgstr "གླུ་ཐོ།"
-
-#~ msgid "Remove"
-#~ msgstr "རྩ་བསྐྲད།"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "གླུ་ཐོ་སྲུངས..."
-
-#~ msgid "Author:"
-#~ msgstr "རྩོམ་པ་པོ:"
-
-#~ msgid "C_onfigure..."
-#~ msgstr "རིམ་སྒྲིག་འབད...(_o)"
-
-#~ msgid "Copyright:"
-#~ msgstr "འདྲ་བཤུས་དབང་ཆ:"
-
-#~ msgid "Description:"
-#~ msgstr "འགྲེལ་བཤད:"
-
-#~ msgid "Site:"
-#~ msgstr "ས་ཁོངས:"
-
-#~ msgid "0 kbps"
-#~ msgstr "ཀེ་བི་པི་ཨེསི་༠།"
-
-#~ msgid "0 x 0"
-#~ msgstr "༠ x ༠"
-
-#~ msgid "Play movies and songs"
-#~ msgstr "གློག་བརྙན་དང་ ཞབས་ཁྲ་གཏང་།"
-
-#~ msgid ""
-#~ "14.4 Kbps Modem\n"
-#~ "19.2 Kbps Modem\n"
-#~ "28.8 Kbps Modem\n"
-#~ "33.6 Kbps Modem\n"
-#~ "34.4 Kbps Modem\n"
-#~ "56 Kbps Modem/ISDN\n"
-#~ "112 Kbps Dual ISDN/DSL\n"
-#~ "256 Kbps DSL/Cable\n"
-#~ "384 Kbps DSL/Cable\n"
-#~ "512 Kbps DSL/Cable\n"
-#~ "1.5 Mbps T1/Intranet/LAN\n"
-#~ "Intranet/LAN"
-#~ msgstr ""
-#~ "མོ་ཌེམ་ ཀེ་བི་པི་ཨེསི་ ༡༤.༤། \n"
-#~ "མོ་ཌེམ་ ཀེ་བི་པི་ཨེསི་ ༡༩.༢། \n"
-#~ "མོ་ཌེམ་ ཀེ་བི་པི་ཨེསི་ ༢༨.༨། \n"
-#~ "མོ་ཌེམ་ ཀེ་བི་པི་ཨེསི་ ༣༣.༦། \n"
-#~ "མོ་ཌེམ་ ཀེ་བི་པི་ཨེསི་ ༣༤.༤། \n"
-#~ "མོ་ཌེམ་/ཨའི་ཨེསི་ཌི་ཨེན་ ཀེ་བི་པི་ཨེསི་ ༥༦། \n"
-#~ "ཌུ་ཡེལ་ ཨའི་ཨེསི་ཌི་ཨེན་/ཌི་ཨེསི་ཨེལ་ ཀེ་བི་པི་ཨེསི་ ༡༡༢། \n"
-#~ "ཌི་ཨེསི་ཨེལ་/ཀེ་བཱལ་ ཀེ་བི་པི་ཨེསི་༢༥༦། \n"
-#~ "ཌི་ཨེསི་ཨེལ་/ཀེ་བཱལ་ ཀེ་བི་པི་ཨེསི་༣༨༤། \n"
-#~ "ཌི་ཨེསི་ཨེལ་/ཀེ་བཱལ་ ཀེ་བི་པི་ཨེསི་༥༡༢། \n"
-#~ "ཊི་༡/ཨིན་ཊཱ་ནེཊི་/ཉེ་གནས་ཡོངས་འབྲེལ་ ༡.༥ ཨེམ་བི་པི་ཨེསི་། \n"
-#~ "ཨིན་ཊཱ་ནེཊི་/ཉེ་གནས་ཡོངས་འབྲེལ།"
-
-#~ msgid "Automatically _resize the window when a new video is loaded"
-#~ msgstr ""
-#~ "ཝི་ཌིའོ་གསརཔ་ཅིག་ མངོན་གསལ་འབདཝ་ད་ རང་བཞིན་གྱིས་ སྒོ་སྒྲིག་གི་ཚད་སླར་སྒྲིག་འབདཝ་ཨིན།(_r)"
-
-#~ msgid "Connection _speed:"
-#~ msgstr "མཐུད་ལམ་མགྱོགས་ཚད་:(_s)"
-
-#~ msgid "Leave Fullscreen"
-#~ msgstr "གསལ་གཞི་གངམ་སྦེ་བཞག"
-
-#~ msgid "Networking"
-#~ msgstr "ཡོངས་འབྲེལ་བཟོ་བ"
-
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr "རྣར་ཉན་ཡིག་སྣོད་ཅིག་གཏངམ་ད་ པར་གྱི་འཆར་སྣང་སྟོནམ་ཨིན།(_v)"
-
-#~ msgid ""
-#~ "Small\n"
-#~ "Normal\n"
-#~ "Large\n"
-#~ "Extra Large"
-#~ msgstr ""
-#~ "ཆུང་ཀུ། \n"
-#~ "སྤྱིར་བཏང་གི་ཚད། \n"
-#~ "སྦོམ། \n"
-#~ "སྦོམ་སུ། "
-
-#~ msgid ""
-#~ "Stereo\n"
-#~ "4-channel\n"
-#~ "4.1-channel\n"
-#~ "5.0-channel\n"
-#~ "5.1-channel\n"
-#~ "AC3 Passthrough"
-#~ msgstr ""
-#~ "གླུ་སྒྲོམ། \n"
-#~ "རྒྱུ་ལམ་-༤། \n"
-#~ "རྒྱུ་ལམ་-༤.༡། \n"
-#~ "རྒྱུ་ལམ་-༥.༠། \n"
-#~ "རྒྱུ་ལམ་-༥.༡། \n"
-#~ "ཨེ་སི་༣ བརྒྱུད་དེ་འགྱོ་ནི།"
-
-#~ msgid "TV-Out"
-#~ msgstr "རྒྱང་མཐོང་-ཕྱིར་གཏང་"
-
-#~ msgid "TV-out in fullscreen by Nvidia (NTSC)"
-#~ msgstr "ནི་བི་ཌི་ཡ་གིས་ གསལ་གཞི་གང་ནང་ ཊི་ཝི་ཕྱིར་གཏང་། (ཨེན་ཊི་ཨེསི་སི་)"
-
-#~ msgid "TV-out in fullscreen by Nvidia (PAL)"
-#~ msgstr "ནི་བི་ཌི་ཡ་གིས་ གསལ་གཞི་གང་ནང་ ཊིཝི་-ཕྱིར་གཏང་། (པཱལ)"
-
-#~ msgid "Time seek bar"
-#~ msgstr "ཆུ་ཚོད་འཚོལ་ནིའི་ཕྲ་རིང་"
-
-#~ msgid "Time:"
-#~ msgstr "ཆུ་ཚོད་:"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "ཊོ་ཊེམ་གློག་བརྙན་གཏང་འཕྲུལ།"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "ཊོ་ཊེམ་གྱི་དགའ་གདམ་ཚུ།"
-
-#~ msgid "Visual Effects"
-#~ msgstr "མཐོང་བའི་ནུས་པ་ཚུ"
-
-#~ msgid "Visualization _size:"
-#~ msgstr "མཐོང་གསལ་གྱི་ཚད་:(_s)"
-
-#~ msgid "_No TV-out"
-#~ msgstr "རྒྱང་མཐོང་-ཕྱིར་གཏང་མ་འབད།(_N)"
-
-#~ msgid "_Type of visualization:"
-#~ msgstr "མཐོང་གསལ་གྱི་དབྱེ་བ་:(_T)"
-
-#~ msgid "Buffer size"
-#~ msgstr "གནད་ཁོངས་ཀྱི་ཚད།"
-
-#~ msgid "Enable deinterlacing"
-#~ msgstr "ལྷས་བཤོལ་ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Maximum amount of data to decode ahead of display (in seconds)"
-#~ msgstr "བཀྲམ་སྟོན་མ་འབད་བའི་ཧེ་མར་ ཌི་ཀོཌི་འབད་དགོ་པའི་ གནད་སྡུད་ཀྱི་བསྡོམས། (སྐར་ཆའི་ནང་)"
-
-#~ msgid "Name of the visual effects plugins"
-#~ msgstr "པར་གྱི་འཆར་སྣང་ པ་ལག་ཨིནསི་གི་མིང་།"
-
-#~ msgid "Resize the canvas automatically on file load"
-#~ msgstr "ཡིག་སྣོད་མངོན་གསལ་གུ་ རང་བཞིན་གྱིས་ འབྲི་གཞིའི་ཚད་སླར་སྒྲིག་འབད།"
-
-#~ msgid "Show visual effects when playing an audio only file."
-#~ msgstr "རྣར་ཉན་ཡིག་སྣོད་རྐྱངམ་གཅིག་ གཏང་བའི་སྐབས་ལུ་ པར་གྱི་འཆར་སྣང་སྟོན།"
-
-#~ msgid "Sound volume"
-#~ msgstr "སྐད་ཤུགས།"
-
-#~ msgid "Sound volume, in percent, between 0 and 100"
-#~ msgstr "སྐད་ཤུགས་ བརྒྱ་ཆའི་ནང་ ༠ ལས་ ༡༠༠ གི་བར་ན།"
-
-#~ msgid ""
-#~ "Type of audio output to use: \"0\" for stereo, \"1\" for 4-channel "
-#~ "output, \"2\" for 5.0 channel output, \"3\" for 5.1 channel output, \"4\" "
-#~ "for AC3 Passthrough."
-#~ msgstr ""
-#~ "ལག་ལེན་འཐབ་ནིའི་ རྣར་ཉན་ཨའུཊི་པུཊི་གི་དབྱེ་བ: \"0\" གླུ་སྒྲོམ་དོན་ལུ། \"1\" རྒྱུ་ལམ་-༤ གི་ཨའུཊི་"
-#~ "པུཊི་གི་དོན་ལུ། \"2\" རྒྱུ་ལམ་-༥.༠ གི་ཨའུཊི་པུཊི་གི་དོན་ལུ། \"3\" རྒྱུ་ལམ་-༥.༡ གི་ཨའུཊི་པུཊི་གི་དོན་"
-#~ "ལུ། \"4\" ཨེ་སི་༣ བརྒྱུད་དེ་འགྱོ་བའི་དོན་ལུ།"
-
-#~ msgid "Whether the main window should stay on top"
-#~ msgstr "སྒོ་སྒྲིག་གཙོ་བོ་དེ་ མགོ་ལུ་སྡོད་དགོཔ་ཨིན་ན།"
-
-#~ msgid "Whether the main window should stay on top of the other ones"
-#~ msgstr "སྒོ་སྒྲིག་གཙོ་བོ་དེ་ གཞན་ཚུ་གི་མགོ་ལུ་སྡོད་དགོཔ་ཨིན་ན།"
-
-#~ msgid "Open Location"
-#~ msgstr "གནས་ཁོངས་ཁ་ཕྱེ།"
-
-#~ msgid "%d x %d"
-#~ msgstr "%d x %d"
-
-#~ msgid "%d frames per second"
-#~ msgstr "སྐར་ཆ་རེར་ གཞི་ཁྲམ་%d"
-
-#~ msgid "Properties dialog"
-#~ msgstr "རྒྱུ་དངོས་ཀྱི་ཌའི་ལོག"
-
-#~ msgid "+"
-#~ msgstr "+"
-
-#~ msgid "-"
-#~ msgstr "-"
-
-#~ msgid "Full Volume"
-#~ msgstr "སྐད་ཤུགས་གང་"
-
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "ཊོ་ཊེམ་འདི་རང་དབང་མཉེན་ཆས་ཅིག་ཨིན་ ཁྱོད་ཀྱིས་ འདི་ཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་གྱི་ཐ་སྙད་འོག་"
-#~ "ལུ་ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ཀྱིས་དཔེ་བསྐྲུན་འབད་དོ་བཟུམ་སྦེ་ ལོག་བགོ་བཀྲམ་འབད་ཚུགས དེ་ལས་/ཡང་"
-#~ "ན་ལེགས་བཅོས་འབད་ཚུགས་  ཡང་ཅིན་ ཆོག་ཐམ་གྱི་ཐོན་རིམ་༢ ཡང་ན་(ཁྱོད་རའི་གདམ་ཁ་ཐོག་)ཤུལ་ལས་ཀྱི་"
-#~ "ཐོན་རིམ་ག་འབད་རུང་།"
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "ཊོ་ཊེམ་འདི་ ཕན་ཐོག་ཅན་ཅིག་གི་རེ་བ་ལུ་དམིགས་ཏེ་བགོ་བཀྲམ་འབད་འབདཝ་ཨིན་ དེ་འབདཝ་ད་ཉེན་ལེན་ག་"
-#~ "ནི་ཡང་མེད་པར་ ཡང་ན་ ཚོང་འབྲེལ་ཡང་ན་དམིགས་བསལ་དགོས་དོན་ཅིག་གི་དོན་ལུ་ཚིད་སྒྲིག་གི་ བསྟར་སྤྱོད་"
-#~ "འབད་འབད་བའི་ཉེན་ལེན་ག་ནི་ཡང་མེད་པར། རྒྱས་བཤད་ཐེབས་ཀྱི་དོན་ལུ་ ཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་"
-#~ "ཐམ་འདི་བལྟ།"
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་ཇི་ཨེན་ཡུ་ཡོངས་ཁྱབ་མི་མང་ཆོག་ཐམ་འདི་གི་འདྲ་བཤུས་ཅིག་ ཊོ་ཊེམ་དང་གཅིག་ཁར་ཐོབ་ཐོབ་འོང་  "
-#~ "མ་ཐོབ་པ་ཅིན་ རང་དབང་མཉེན་ཆས་གཞི་ཚོགས་ Inc., 59 Temple Place, Suite 330, "
-#~ "Boston, MA  02111-1307  USA ལུ་འབྲི།"
-
-#~ msgid ""
-#~ "Totem contains an exception to allow the use of proprietary GStreamer "
-#~ "plugins."
-#~ msgstr ""
-#~ "ཊོ་ཊེམ་འདི་གི་ནང་ན་ ཚོང་བདག་གི་ཇི་སི་ཊི་མར་པ་ལག་ཨིནསི་ལག་ལེན་འཐབ་བཅུག་མི་ དམིགས་བསལ་ཅིག་"
-#~ "ཡོད།"
-
-#~ msgid "Play Disc '%s'"
-#~ msgstr "ཌིཀསི་'%s'གཏང་།"
-
-#~ msgid "device%d"
-#~ msgstr "ཐབས་འཕྲུལ་%d"
-
-#~ msgid "GTK+"
-#~ msgstr "ཇི་ཊི་ཀེ་+"
-
-#~ msgid "GNOME"
-#~ msgstr "ཇི་ནོམ།"
-
-#~ msgid "Movie Player using %s and %s"
-#~ msgstr "གློག་བརྙན་གཏང་འཕྲུལ་གྱིས་%s དང་%sལག་ལེན་འཐབ་དོ།"
-
-#~ msgid "Copyright © 2002-2006 Bastien Nocera"
-#~ msgstr "འདྲ་བཤུས་དབང་ཆ་© ༢༠༠༢-༢༠༠༦ བཱསི་ཊིན་ ནོ་སི་ར།"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "ཨའི་ཌི་ཨར་སི་གི་མ་དངུལ་རྒྱབ་སྐྱོར་ཐོག་ལས་ བརྡ་དོན་འཕྲུལ་རིག་ལས་ཁུངས་ནང་ སྐད་བསྒྱུར་འབད་ཡི། ཁ་"
-#~ "གསལ་གྱི་དོན་ལུ་ འབྲེལ་བ་འཐབ་ས་: <pema_geyleg@druknet.bt>/<pgeyleg@dit.gov.bt>"
-
-#~ msgid "Open a file"
-#~ msgstr "ཡིག་སྣོད་ཅིག་ཁ་ཕྱེ།"
-
-#~ msgid "Open _Location..."
-#~ msgstr "གནས་ཁོངས་ཁ་ཕྱེ་...(_L)"
-
-#~ msgid "Open a non-local file"
-#~ msgstr "ཉེ་གནས་ཡིག་སྣོད་མེནམ་ཅིག་ཁ་ཕྱེ།"
-
-#~ msgid "Play / Pa_use"
-#~ msgstr "གཏང་/ཐེམ།(_u)"
-
-#~ msgid "Play or pause the movie"
-#~ msgstr "གློག་བརྙན་གཏང་ ཡང་ན་ ཐེམ།"
-
-#~ msgid "_Quit"
-#~ msgstr "སྤངས།(_Q)"
-
-#~ msgid "Quit the program"
-#~ msgstr "ལས་རིམ་འདི་སྤང་"
-
-#~ msgid "_Edit"
-#~ msgstr "ཞུན་དག(_E)"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "གླུ་ཐོ་བསལ(_C)"
-
-#~ msgid "Clear playlist"
-#~ msgstr "གླུ་ཐོ་བསལ"
-
-#~ msgid "Plugins..."
-#~ msgstr "པ་ལག་ཨིན..."
-
-#~ msgid "_Fullscreen"
-#~ msgstr "གསལ་གཞི་གངམ།(_F)"
-
-#~ msgid "Switch to fullscreen"
-#~ msgstr "གསལ་གཞི་གངམ་ལུ་ སོར་བསྒྱུར་འབད།"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "སྒོ་སྒྲིག་གློག་བརྙན་ལུ་ཚུད་སྒྲིག་འབད།"
-
-#~ msgid "_Resize 1:2"
-#~ msgstr "༡:༢ ལུ་ སླར་ཚད་སྒྲིག(_R)"
-
-#~ msgid "Resize to half the video size"
-#~ msgstr "ཚད་གཞི་ཝི་ཌིའོ་གི་ཕྱེད་ལུ་སླར་སྒྲིག"
-
-#~ msgid "Resize _1:1"
-#~ msgstr "ཚད་གཞི ༡:༡ ལུ་ སླར་སྒྲིག(_1)"
-
-#~ msgid "Resize to video size"
-#~ msgstr "ཚད་གཞི་ཝི་ཌིའོ་གི་ཚད་ལུ་སླར་སྒྲིག"
-
-#~ msgid "Resize _2:1"
-#~ msgstr "ཚད་གཞི་ ༢:༡ ལུ་ སླར་སྒྲིག(_2)"
-
-#~ msgid "Resize to twice the video size"
-#~ msgstr "ཚད་གཞི་ཝི་ཌིའོ་གི་ ལོག་བལྟབ་ལུ་སླར་སྒྲིག"
-
-#~ msgid "Switch angles"
-#~ msgstr "ཟུར་ཁུག་ཚུ་སོར་བསྒྱུར་འབད།"
-
-#~ msgid "_Go"
-#~ msgstr "འགྱོ།(_G)"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "ཌི་བི་ཌི་ དཀར་ཆག་ལུ་འགྱོ།"
-
-#~ msgid "Go to the title menu"
-#~ msgstr "མགོ་མིང་དཀར་ཆག་ལུ་འགྱོ།"
-
-#~ msgid "Go to the audio menu"
-#~ msgstr "རྣར་ཉན་དཀར་ཆག་ལུ་འགྱོ།"
-
-#~ msgid "Go to the angle menu"
-#~ msgstr "ཟུར་ཁུག་དཀར་ཆག་ལུ་འགྱོ།"
-
-#~ msgid "Go to the chapter menu"
-#~ msgstr "ལེའུའི་དཀར་ཆག་ལུ་འགྱོ།"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "ལེའུ་/གློག་བརྙན་ཤུལ་མམ།(_N)"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "ལེའུ་ ཡང་ཅིན་ གློག་བརྙནཤུལ་མམ།"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "ལེའུ་/གློག་བརྙནཧེ་མམ།(_P)"
-
-#~ msgid "Previous chapter or movie"
-#~ msgstr "ལེའུ་ ཡང་ཅིན་ གློག་བརྙན་ཧེ་མམ།"
-
-#~ msgid "_Skip to..."
-#~ msgstr "གོམ་འགྱོ་...(_S)"
-
-#~ msgid "Skip to a specific time"
-#~ msgstr "དམིགས་བསལ་དུས་ཚོད་ཅིག་ལུ་གོམ་འགྱོ།"
-
-#~ msgid "_Sound"
-#~ msgstr "སྒྲ་སྐད།(_S)"
-
-#~ msgid "Volume _Up"
-#~ msgstr "སྐད་ཤུགས་སེང་།(_U)"
-
-#~ msgid "Volume up"
-#~ msgstr "སྐད་ཤུགས་སེང་།"
-
-#~ msgid "Volume _Down"
-#~ msgstr "སྐད་ཤུགས་ཕབ།(_D)"
-
-#~ msgid "Volume down"
-#~ msgstr "སྐད་ཤུགས་ཕབ།"
-
-#~ msgid "_Contents"
-#~ msgstr "ནང་དོན་ཚུ།(_C)"
-
-#~ msgid "Help contents"
-#~ msgstr "ནང་དོན་ཚུ་ལུ་ གྲོགས་རམ་འབད།"
-
-#~ msgid "_About"
-#~ msgstr "སྐོར་ལས།(_A)"
-
-#~ msgid "Zoom Reset"
-#~ msgstr "རྒྱས་ཟུམ་སླར་སྒྲིག།"
-
-#~ msgid "Zoom reset"
-#~ msgstr "རྒྱས་ཟུམ་སླར་སྒྲིག།"
-
-#~ msgid "Zoom Out"
-#~ msgstr "ནང་ན་ཟུམ།"
-
-#~ msgid "Skip _Forward"
-#~ msgstr "གདོང་ཕྱོགས་ གོམ་འགྱོ།(_F)"
-
-#~ msgid "Skip forward"
-#~ msgstr "གདོང་ཕྱོགས་གོམ་འགྱོ།"
-
-#~ msgid "Skip _Backwards"
-#~ msgstr "རྒྱབ་ཕྱོགས་ གོམ་འགྱོ།(_B)"
-
-#~ msgid "Skip backwards"
-#~ msgstr "རྒྱབ་ཕྱོགས་གོམ་འགྱོ།"
-
-#~ msgid "Set the repeat mode"
-#~ msgstr "བསྐྱར་ལོག་ཐབས་ལམ་ གཞི་སྒྲིག་འབད།"
-
-#~ msgid "Shuff_le Mode"
-#~ msgstr "ཐབས་ལམ་རིམ་དཀྲུགས་འབད།(_l)"
-
-#~ msgid "Set the shuffle mode"
-#~ msgstr "རིམ་དཀྲུགས་ཐབས་ལམ་ གཞི་སྒྲིག་འབད།"
-
-#~ msgid "_Deinterlace"
-#~ msgstr "ལྷས་བཤོལ་འབད།(_D)"
-
-#~ msgid "Deinterlace"
-#~ msgstr "ལྷས་བཤོལ་འབད།"
-
-#~ msgid "Show _Controls"
-#~ msgstr "ཚད་འཛིན་ཚུ་སྟོན།(_C)"
-
-#~ msgid "Show controls"
-#~ msgstr "ཚད་འཛིན་ཚུ་སྟོན།"
-
-#~ msgid "_Sidebar"
-#~ msgstr "ཟུར་ཁའི་ཕྲ་རིང་།(_S)"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "ཟུར་ཁའི་ཕྲ་རིང་སྟོན་ ཡང་ན་ སྦ་བཞག"
-
-#~ msgid "Sets automatic aspect ratio"
-#~ msgstr "རང་བཞིན་རྣམ་པའི་དཔྱ་ཚད་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
-
-#~ msgid "Sets square aspect ratio"
-#~ msgstr "གྲུ་བཞིའི་རྣམ་པའི་དཔྱ་ཚད་ གཞི་སྒྲིག་འབདཝ་ཨིན།"
-
-#~ msgid "Sets 4:3 (TV) aspect ratio"
-#~ msgstr "རྣམ་པའི་དཔྱ་ཚད་ ༤.༣ (རྒྱང་མཐོང་) གཞི་སྒྲིག་འབདཝ་ཨིན། "
-
-#~ msgid "Sets 16:9 (Anamorphic) aspect ratio"
-#~ msgstr "རྣམ་པའི་དཔྱ་ཚད་ ༡༦.༩ (ཨ་ན་མོར་ཕིཀ) གཞི་སྒྲིག་འབདཝ་ཨིན། "
-
-#~ msgid "Sets 2.11:1 (DVB) aspect ratio"
-#~ msgstr "རྣམ་པའི་དཔྱ་ཚད་ ༢.༡༡.༡ (ཌི་ཝི་བི) གཞི་སྒྲིག་འབདཝ་ཨིན། "
-
-#~ msgid "Couldn't load the 'ui description' file"
-#~ msgstr "'ཡུ་ཨའི་འགྲེལ་བཤད་'ཡིག་སྣོད་འདི་མངོན་གསལ་འབད་མ་ཚུགས་"
-
-#~ msgid "Enable debug"
-#~ msgstr "རྐྱེན་སེལ་ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Show/Hide Controls"
-#~ msgstr "ཚད་འཛིན་ཚུ་ སྟོན་/སྦ་བཞག"
-
-#~ msgid "Print playing movie"
-#~ msgstr "གློག་བརྙན་གཏང་་ཡོད་མི་དཔར་བསྐྲུན་འབད"
-
-#~ msgid "Playlist index"
-#~ msgstr "གླུ་ཐོའི་ཟུར་ཐོ་"
-
-#~ msgid "_Remove"
-#~ msgstr "རྩ་བསྐྲད་(_R)"
-
-#~ msgid "Remove file from playlist"
-#~ msgstr "རྩེད་ཐོ་ལས་ ཡིག་སྣོད་རྩ་བསྐྲད་གཏང་"
-
-#~ msgid "_Copy Location"
-#~ msgstr "གནས་ཁོངས་འདྲ་བཤུས་རྐྱབས (_C)"
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "གནས་ཁོངས་འདི་ འཛིན་པང་ལུ་འད་བཤུས་རྐྱབས་"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "གླུ་ཐོ་སྲུང་མ་ཚུགས།"
-
-#~ msgid "Unknown file extension."
-#~ msgstr "མ་ཤེས་པའི་ཡིག་སྣོད་རྒྱ་བསྐྱེད།"
-
-#~ msgid "Select playlist format:"
-#~ msgstr "གླུ་ཐོ་རྩ་སྒྲིག་སེལ་འཐུ་འབད་:"
-
-#~ msgid "By extension"
-#~ msgstr "རྒྱ་བསྐྱེད་ཐོག་ལས།"
-
-#~ msgid "Save Playlist"
-#~ msgstr "གླུ་ཐོ་སྲུངས།"
-
-#~ msgid "playlist"
-#~ msgstr "གླུ་ཐོ།"
-
-#~ msgid "Playlist error"
-#~ msgstr "གླུ་ཐོའི་འཛོལ་བ།"
-
-#~ msgid "Enable visual effects?"
-#~ msgstr "པར་གྱི་འཆར་སྣང་ ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid ""
-#~ "It seems you are running Totem remotely.\n"
-#~ "Are you sure you want to enable the visual effects?"
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་ཊོ་ཊེམ་ཐག་རིང་ལས་ གཡོག་བཀོལ་དོ་བཟུམ་ཅིག་འདུག \n"
-#~ "ཁྱོད་ཀྱིས་པར་གྱི་འཆར་སྣང་ ལྕོགས་ཅན་བཟོ་ནི་ ངེས་ཏིག་ཨིན་ན?"
-
-#~ msgid ""
-#~ "The change of this setting will only take effect for the next movie, or "
-#~ "when Totem is restarted."
-#~ msgstr ""
-#~ "གཞི་སྒྲིག་འདི་གི་བསྒྱུར་བཅོས་དེ་ གློག་བརྙན་ཤུལ་མམ་གྱི་དོན་ལུ་དང་ ཡང་ཅིན་ ཊོ་ཊེམ་ལོག་འགོ་བཙུགསཔ་ད་"
-#~ "རྐྱངམ་གཅིག་ ནུས་པ་འཐོབ་ཚུགས།"
-
-#~ msgid ""
-#~ "Changing the visuals effect type will require a restart to take effect."
-#~ msgstr "པར་གྱི་འཆར་སྣང་དབྱེ་བ་ བསྒྱུར་བཅོས་འབདཝ་ད་ ནུས་པ་འཐོབ་ནི་ལུ་ ལོག་འགོ་བཙུགས་དགོ"
-
-#~ msgid ""
-#~ "The change of audio output type will only take effect when Totem is "
-#~ "restarted."
-#~ msgstr ""
-#~ "རྣར་ཉན་ཨའུཊི་པུཊི་གི་དབྱེ་བ་ བསྒྱུར་བཅོས་འབད་མི་དེ་ ཊོ་ཊེམ་ལོག་འགོ་བཙུགསཔ་ད་མ་གཏོགས་ ནུས་པ་མི་"
-#~ "འཐོབ།"
-
-#~ msgid "Audio/Video"
-#~ msgstr "རྣར་ཉན་/ཝི་ཌིའོ།"
-
-#~ msgid "There was an error saving the screenshot."
-#~ msgstr "གསལ་གཞིའི་པར་ སྲུང་བཞག་འབད་ནི་ལུ་ འཛོལ་བ་ཅིག་འདུག"
-
-#~ msgid "Save Screenshot"
-#~ msgstr "གསལ་གཞིའི་པར་སྲུངས།"
-
-#~ msgid "0:00 / 0:00"
-#~ msgstr "༠:༠༠ / ༠:༠༠"
-
-#~ msgid "Stopped"
-#~ msgstr "བཀག་ཡོདཔ།"
-
-#~ msgid "%s (Streaming)"
-#~ msgstr "%s(སི་ཊི་མིང་)"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#~ msgid "Seek to %s / %s"
-#~ msgstr "%s / %sལུ་འཚོལ།"
-
-#~ msgid "Buffering"
-#~ msgstr "གནད་ཁོངས་ནང་གསོག་འཇོག་འབད་དོ།"
-
-#~ msgid "%d %%"
-#~ msgstr "%d %%"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s, %s"
-
-#~ msgid "%s, %d %%"
-#~ msgstr "%s, %d %%"
-
-#~ msgid "Supported files"
-#~ msgstr "རྒྱབ་སྐྱོར་ལྡན་པའི་ཡིག་སྣོད་ཚུ།"
-
-#~ msgid "Audio files"
-#~ msgstr "རྣར་ཉན་ཡིག་སྣོད་ཚུ"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "གློག་བརྙན་ནམ་ གླུ་ཐོ་སེལ་འཐུ་འབད།"
-
-#~ msgid "Playing"
-#~ msgstr "གཏང་དོ།"
-
-#~ msgid "Paused"
-#~ msgstr "ཐེམ་ཡོད།"
-
-#~ msgid "Totem could not eject the optical media."
-#~ msgstr "ཊོ་ཊེམ་གྱིས་ མཐོང་བའི་བརྡ་ལམ་ ཕྱིར་བཏོན་འབད་མ་ཚུགས།"
-
-#~ msgid ""
-#~ "Totem cannot play this type of media (%s) because you do not have the "
-#~ "appropriate plugins to handle it."
-#~ msgstr ""
-#~ "ཊོ་ཊེམ་གྱིས་ འདི་བཟུམ་མའི་བརྡ་ལམ་(%s) གཏང་མི་ཚུགས་པས་ ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ཁྱོད་ལུ་འདི་ལེགས་སྐྱོང་"
-#~ "འཐབ་ནིའི་དོན་ལུ་ འོས་ལྡན་གྱི་ པ་ལག་ཨིནསི་མིན་འདུག"
-
-#~ msgid ""
-#~ "Please install the necessary plugins and restart Totem to be able to play "
-#~ "this media."
-#~ msgstr ""
-#~ "བརྡ་ལམ་འདི་ གཏང་ཚུགས་ནིའི་དོན་ལུ་ ཉེར་མཁོའི་པ་ལག་ཨིནསི་ཚུ་ གཞི་བཙུགས་འབད་ཞིནམ་ལས་ ཊོ་ཊེམ་ལོག་"
-#~ "འགོ་བཙུགས།"
-
-#~ msgid ""
-#~ "Totem could not play this media (%s) although a plugin is present to "
-#~ "handle it."
-#~ msgstr ""
-#~ "འདི་ལེགས་སྐྱོང་འཐབ་ནིའི་ པ་ལག་ཨིན་ཅིག་ ཡོད་དེ་རང་འབད་རུང་ ཊོ་ཊེམ་གྱིས་ བརྡ་ལམ་(%s)འདི་ གཏང་"
-#~ "མི་ཚུགས་པས།"
-
-#~ msgid ""
-#~ "You might want to check that a disc is present in the drive and that it "
-#~ "is correctly configured."
-#~ msgstr ""
-#~ "ཁྱོད་ཀྱིས་འདྲེན་བྱེད་ནང་ལུ་ ཌིཀསིཡོད་མེད་དང་ དེ་ཚུལ་བཞིན་དུ་ རིམ་སྒྲིག་འབད་མ་འབད་ ཞིབ་དཔྱད་འབད་"
-#~ "དགོཔ་འོང་།"
-
-#~ msgid "Open Location..."
-#~ msgstr "གནས་ཁོངས་ཁ་ཕྱེ།..."
-
-#~ msgid "No File"
-#~ msgstr "ཡིག་སྣོད་མིན་འདུག"
-
-#~ msgid "No error message"
-#~ msgstr "འཛོལ་བའི་འཕྲིན་དོན་མིན་འདུག"
-
-#~ msgid "Totem could not seek in '%s'."
-#~ msgstr "'%s' ནང་ལུ་ ཊོ་ཊེམ་གྱིས་ འཚོལ་མ་ཐོབ།"
-
-#~ msgid "- Play movies and songs"
-#~ msgstr "- གློག་བརྙན་དང་ ཞབས་ཁྲ་ཚུ་གཏང་"
-
-#~ msgid "Totem could not parse the command-line options"
-#~ msgstr "ཊོ་ཊེམ་གྱིས་ བརྡ་བཀོད་གྲལ་ཐིག་གདམ་ཁ་འདི་ཚུ་ མིང་དཔྱད་འབད་མ་ཚུགས་"
-
-#~ msgid "Totem could not initialize the configuration engine."
-#~ msgstr "ཊོ་ཊེམ་གྱིས་ རིམ་སྒྲིག་མ་འཕྲུལ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
-
-#~ msgid "Make sure that GNOME is properly installed."
-#~ msgstr "ཇི་ནོམ་ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
-
-#~ msgid "main window"
-#~ msgstr "སྒོ་སྒྲིག་གཙོ་བོ།"
-
-#~ msgid ""
-#~ "The requested audio output was not found. Please select another audio "
-#~ "output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "ཞུ་བ་འབད་མི་ རྣར་ཉན་ཨའུཊི་པུཊི་དེ་ འཚོལ་མ་ཐོབ། སྣ་མང་བརྡ་ལམ་རིམ་ལུགས་སེལ་བྱེད་ནང་ལས་ རྣར་ཉན་"
-#~ "ཨའུཊི་པུཊི་གཞན་ཅིག་ སེལ་འཐུ་འབད་གནང་།"
-
-#~ msgid "Location not found."
-#~ msgstr "གནས་ཁོངས་འཚོལ་མ་ཐོབ།"
-
-#~ msgid ""
-#~ "Could not open location; you might not have permission to open the file."
-#~ msgstr "གནས་ཁོངས་ཁ་ཕྱེ་མ་ཚུགས; ཁྱོད་ལུ་ཡིག་སྣོད་དེ་ ཁ་ཕྱེ་ནིའི་གནང་བ་མེདཔ་འོང་ནི་མས།"
-
-#~ msgid ""
-#~ "The video output is in use by another application. Please close other "
-#~ "video applications, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "ཝི་ཌིའོ་ཨའུཊི་པུཊི་དེ་ གློག་རིམ་གཞན་ཅིག་གིས་ ལག་ལེན་འཐབ་སྟེ་འདུག ཝི་ཌིའོ་གློག་རིམ་གཞན་ཚུ་ ཁ་བསྡམས་ "
-#~ "ཡང་ན་ སྣ་མང་བརྡ་ལམ་ རིམ་ལུགས་སེལ་བྱེད་ནང་ལས་ ཝི་ཌིའོ་ཨའུཊི་པུཊི་གཞན་ཅིག་སེལ་འཐུ་འབད།"
-
-#~ msgid ""
-#~ "The audio output is in use by another application. Please select another "
-#~ "audio output in the Multimedia Systems Selector. You may want to consider "
-#~ "using a sound server."
-#~ msgstr ""
-#~ "རྣར་ཉན་ཨའུཊི་པུཊི་དེ་ གློག་རིམ་གཞན་ཅིག་གིས་ ལག་ལེན་འཐབ་སྟེ་འདུག སྣ་མང་བརྡ་ལམ་རིམ་ལུགས་སེལ་བྱེད་"
-#~ "ནང་ལས་ རྣར་ཉན་ཨའུཊི་པུཊི་གཞན་ཅིག་ སེལ་འཐུ་འབད་གནང་། ཁྱོད་ཀྱིས་སྒྲ་སྐད་སར་བར་ཅིག་ ལག་ལེན་"
-#~ "འཐབ་དགོཔ་འོང་།"
-
-#~ msgid ""
-#~ "The playback of this movie requires the following decoders which are not "
-#~ "installed:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "འ་ནི་གློག་བརྙན་འདི་གི་ གླུ་གཞས་གཏང་ནི་ལུ་ གཞི་བཙུགས་འབད་མི་ འོག་གི་ཌི་ཀོ་ཌར་ཚུ་དགོཔ་ཨིན་:\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "Media file could not be played."
-#~ msgstr "བརྡ་ལམ་ཡིག་སྣོད་དེ་གཏང་མ་ཚུགས།"
-
-#~ msgid "Failed to retrieve working directory"
-#~ msgstr "ལཱ་འབད་བའི་བསྒང་གི་སྣོད་ཐོ་ སླར་འདྲེན་འབད་མ་ཚུགས།"
-
-#~ msgid "Too old version of GStreamer installed."
-#~ msgstr "རྙིང་དྲགས་ཐལ་མི་ ཇི་སི་ཊི་མར་ཐོན་རིམ་ གཞི་བཙུགས་འབད་ནུག"
-
-#~ msgid ""
-#~ "Failed to create a GStreamer play object. Please check your GStreamer "
-#~ "installation."
-#~ msgstr ""
-#~ "ཇི་སི་ཊི་མར་ གཏང་ནིའི་དངོས་པོ་ཅིག་ གསར་བསྐྲུན་འབད་མ་ཚུགས། ཁྱོད་རའི་ཇི་སི་ཊི་མར་གཞི་བཙུགས་ལུ་ "
-#~ "ཞིབ་དཔྱད་འབད་གནང་།"
-
-#~ msgid ""
-#~ "Failed to open video output. It may not be available. Please select "
-#~ "another video output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "ཝི་ཌིའོ་ཨའུཊི་པུཊི་ ཁ་ཕྱེ་མ་ཚུགས། འདི་མེདཔ་འོང་ནི་མས། སྣ་མང་བརྡ་ལམ་རིམ་ལུགས་སེལ་བྱེད་ནང་ལས་ ཝི་"
-#~ "ཌིའོ་ཨའུཊི་པུཊི་གཞན་ཅིག་ སེལ་འཐུ་འབད།"
-
-#~ msgid ""
-#~ "Could not find the video output. You may need to install additional "
-#~ "GStreamer plugins, or select another video output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ "ཝི་ཌིའོ་ཨའུཊི་པུཊི་འཚོལ་མ་ཐོབ། ཁྱོད་ཀྱིས་ཇི་སི་ཊི་མར་པ་ལག་ཨིན་ ཧེང་བཀལ་གཞི་བཙུགས་འབད་དགོཔ་འོང་ནི་"
-#~ "དང་ ཡང་ན་ མང་བརྡ་ལམ་རིམ་ལུགས་སེལ་བྱེད་ནང་ལས་ ཝི་ཌིའོ་ཨའུཊི་པུཊི་གཞན་ཅིག་ སེལ་འཐུ་འབད་དགོང་"
-#~ "འོང་།"
-
-#~ msgid ""
-#~ "Failed to open audio output. You may not have permission to open the "
-#~ "sound device, or the sound server may not be running. Please select "
-#~ "another audio output in the Multimedia Systems Selector."
-#~ msgstr ""
-#~ "རྣར་ཉན་ཨའུཊི་པུཊི་ ཁ་ཕྱེ་མ་ཚུགས། ཁྱོད་ལུ་སྒྲ་སྐད་ཐབས་འཕྲུལ་དེ་ ཁ་ཕྱེ་ནིའི་གནང་བ་མེདཔ་འོང་ནི་དང་ "
-#~ "ཡང་ན་ སྒྲ་སྐད་སར་བར་དེ་ གཡོག་བཀོལ་དོ་མེདཔ་འོང་ནི་མས། སྣ་མང་བརྡ་ལམ་རིམ་ལུགས་སེལ་བྱེད་ནང་ལས་ "
-#~ "རྣར་ཉན་ཨའུཊི་པུཊི་གཞན་ཅིག་ སེལ་འཐུ་འབད་གནང་།"
-
-#~ msgid ""
-#~ "Could not find the audio output. You may need to install additional "
-#~ "GStreamer plugins, or select another audio output in the Multimedia "
-#~ "Systems Selector."
-#~ msgstr ""
-#~ " རྣར་ཉན་ཨའུཊི་པུཊི་དེ་ འཚོལ་མ་ཐོབ། ཁྱོད་ཀྱིས་ཇི་སི་ཊི་མར་པ་ལག་ཨིན་ ཧེང་བཀལ་གཞི་བཙུགས་འབད་དགོཔ་"
-#~ "འོང་ནི་དང་ ཡང་ན་ མང་བརྡ་ལམ་རིམ་ལུགས་སེལ་བྱེད་ནང་ལས་ རྣར་ཉན་ཨའུཊི་པུཊི་གཞན་ཅིག་ སེལ་འཐུ་"
-#~ "འབད་དགོང་འོང་།"
-
-#~ msgid ""
-#~ "Couldn't load the '%s' audio driver\n"
-#~ "Check that the device is not busy."
-#~ msgstr ""
-#~ "རྣར་ཉན་འདྲེན་བྱེད་'%s' མངོན་གསལ་འབད་མ་ཚུགས། \n"
-#~ "ཐབས་འཕྲུལ་དེ་ ཁོམ་མེད་ཨིནམ་མེནམ་ ཞིབ་དཔྱད་འབད།"
-
-#~ msgid "The device name you specified (%s) seems to be invalid."
-#~ msgstr "ཁྱོད་ཀྱིས་གསལ་བཀོད་འབད་མི་ ཐབས་འཕྲུལ་མིང་(%s)དེ་ ནུས་མེད་ཨིནམ་བཟུམ་ཅིག་འདུག"
-
-#~ msgid "The server you are trying to connect to (%s) is unreachable."
-#~ msgstr "ཁྱོད་ཀྱིས་མཐུད་ཐབས་འབད་མི་ སར་བར་(%s)དེ་ བདའ་མི་ཟུན་པས།"
-
-#~ msgid "A problem occurred while loading a library or a decoder (%s)."
-#~ msgstr ""
-#~ "དཔེ་མཛོད་ཅིག་ ཡང་ན་ ཌི་ཀོ་ཌར་(%s)ཅིག་ མངོན་གསལ་འབད་བའི་སྐབས་ལུ་ དཀའ་ངལ་ཅིག་བྱུང་ཡི།"
-
-#~ msgid "For security reasons, this movie can not be played back."
-#~ msgstr "སྲུང་སྐྱོབ་ཀྱི་རྒྱུ་མཚན་ལུ་བརྟེན་ཏེ་ གློག་བརྙན་འདི་གཏང་་མི་ཚུགས།"
-
-#~ msgid "The audio device is busy. Is another application using it?"
-#~ msgstr ""
-#~ "རྣར་ཉན་ཐབས་འཕྲུལ་དེ་ ཁོམ་མེད་ཨིན་པས། གློག་རིམ་གཞན་ཅིག་གིས་ འདི་ལག་ལེན་འཐབ་དོ་ཡོདཔ་ཨིན་ན?"
-
-#~ msgid "There is no input plugin to handle the location of this movie"
-#~ msgstr "གློག་བརྙན་འདི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ ཨིན་པུཊི་གི་པ་ལག་ཨིན་མིན་འདུག"
-
-#~ msgid "There is no plugin to handle this movie."
-#~ msgstr "གློག་བརྙན་འདི་ ལེགས་སྐྱོང་འཐབ་ནིའི་དོན་ལུ་ པ་ལག་ཨིན་མིན་འདུག"
-
-#~ msgid "This movie is broken and can not be played further."
-#~ msgstr "གློག་བརྙན་དེ་ མེདཔ་ཐལ་ཡོདཔ་ལས་ དེ་ལས་བརྒལ་ཏེ་ གཏང་འབད་མི་བཏུབ།"
-
-#~ msgid "This movie could not be opened."
-#~ msgstr "གློག་བརྙན་འདི་ ཁ་ཕྱེ་མ་ཚུགས།"
-
-#~ msgid ""
-#~ "Video codec '%s' is not handled. You might need to install additional "
-#~ "plugins to be able to play some types of movies"
-#~ msgstr ""
-#~ "ཝི་ཌིའོ་ ཀོ་ཌེཀ་'%s'དེ་ ལེགས་སྐྱོང་མ་འཐབ་པས། གློག་བརྙན་གྱི་དབྱེ་བ་ ལ་ལོ་ཅིག་གཏང་ཚུགས་ནིའི་དོན་ལུ་ "
-#~ "ཁྱོད་ཀྱིས་ པ་ལག་ཨིནསི་ ཁ་སྐོང་གཞི་བཙུགས་འབད་དགོཔ་འོང་།"
-
-#~ msgid "This is an audio-only file, and there is no audio output available."
-#~ msgstr "འདི་རྣར་ཉན་ཙམ་གྱི་ཡིག་སྣོད་ཅིག་ཨིནམ་ལས་ རྣར་ཉན་གྱི་ཨའུཊི་པུཊི་ འཐོབ་མི་ཚུགས་པས།"
-
-#~ msgid "Language %d"
-#~ msgstr "སྐད་ཡིག་%d"
-
-#~ msgid "Video codec is not handled."
-#~ msgstr "ཝི་ཌིའོ་ཀོ་ཌེཀ་ ལེགས་སྐྱོང་མ་འཐབ་པས།"
-
-#~ msgid "Movie is not playing."
-#~ msgstr "གློག་བརྙན་དེ་ གཏང་མི་བཏུབ་པས།"
-
-#~ msgid "long time format|%d:%02d:%02d"
-#~ msgstr "%d:%02d:%02d།"
-
-#~ msgid "short time format|%d:%02d"
-#~ msgstr "%d:%02d།"
-
-#~ msgid "%s"
-#~ msgstr "%s"
-
-#~ msgid "Failed to find mountpoint for device %s"
-#~ msgstr "ཐབས་འཕྲུལ་%sགི་དོན་ལུ་ སྦྱར་་བརྩེགས་འབད་ས་འཚོལ་མ་ཐོབ།"
-
-#~ msgid "Could not connect to the HAL daemon"
-#~ msgstr "ཨེཆ་ཨེ་ཨེལ་ཌེ་མཱོན་ལུ་ མཐུད་མ་ཚུགས།"
-
-#~ msgid "Please check that a disc is present in the drive."
-#~ msgstr "འདྲེན་འཕྲུལ་ནང་ ཌིཀསི་ཅིག་ཡོད་མེད་ ཞིབ་དཔྱད་འབད།"
-
-#~ msgid "Failed to mount %s"
-#~ msgstr "%s སྦྱར་བརྩེགས་འབད་མ་ཚུགས།"
-
-#~ msgid "Failed to find mountpoint for %s"
-#~ msgstr "%sགི་དོན་ལུ་སྦྱར་་བརྩེགས་འབད་ས་ འཚོལ་མ་ཐོབ།"
-
-#~ msgid "Video CD"
-#~ msgstr "ཝི་ཌིའོ་སི་ཌི།"
-
-#~ msgid "DVD"
-#~ msgstr "ཌི་བི་ཌི།"
-
-#~ msgid "Couldn't write parser: %s"
-#~ msgstr "མིང་དཔྱད་པ་: %s འབྲི་མ་ཚུགས།"
-
-#~ msgid "Couldn't open file '%s': %s"
-#~ msgstr "ཡིག་སྣོད་%s': %sཁ་ཕྱེ་མ་ཚུགས།"
-
-#~ msgid "Enabled"
-#~ msgstr "ལྕོགས་ཅན་བཟོ་ཡོདཔ"
-
-#~ msgid "Plugins Manager"
-#~ msgstr "པ་ལག་ཨིན་འཛིན་སྐྱོང་པ"
-
-#~ msgid "Unable to activate plugin %s"
-#~ msgstr "པ་ལག་ཨིན་%s་ཤུགས་ལྡན་ལུ་བཟོ་མི་ཚུགས"
-
-#~ msgid "Plugin Error"
-#~ msgstr "པ་ལག་ཨིན་འཛོལ་བ"
-
-#~ msgid "Always On Top"
-#~ msgstr "ཨ་རྟག་རང་མགོ་ལུ"
-
-#~ msgid "Keep the main window on top when playing a movie"
-#~ msgstr "གློག་བརྙན་གཏང་པའི་སྐབས་ཝིན་ཌོ་གཙོ་བོ་འདི་ལྟག་ལུ་བཞག"
-
-#~ msgid "No URI to play"
-#~ msgstr "རྩེ་ནིའི་དོན་ལས་ ཡུ་ཨར་ཨའི་མེད་"
-
-#~ msgid "Totem could not play '%s'"
-#~ msgstr "ཊོ་ཊེམ་གྱིས་ '%s' གཏང་མ་ཚུགས་"
-
-#~ msgid "Opening %s"
-#~ msgstr "'%s' ཁ་ཕྱེ་དོ་"
-
-#~ msgid "Browser Plugin using %s"
-#~ msgstr " %s ལག་ལེན་འཐབ་ཐོག་ བརའུ་ཟར་པ་ལག་ཨིན་"
-
-#~ msgid "Totem Browser Plugin"
-#~ msgstr "ཊོ་ཊེམ་བརའུ་ཟར་པ་ལག་ཨིན་"
-
-#~ msgid "The Totem plugin could not startup."
-#~ msgstr "ཊོ་ཊེམ་པ་ལག་ཨིན་ འགོ་བཙུགས་མ་ཚུགས།"
-
-#~ msgid "Menu"
-#~ msgstr "དཀར་ཆག།"
-
-#~ msgid "No playlist or playlist empty"
-#~ msgstr "རྩེད་ཐོ་མེད་ ཡང་ན་རྩེད་ཐེ་སྟོངམ་"
-
-#~ msgid "Could not initialise the thread-safe libraries."
-#~ msgstr "ཐེརེཌི་སེཕ་ དཔེ་མཛོད་དེ་ འགོ་འབྱེད་འབད་མ་ཚུགས།"
-
-#~ msgid "Verify your system installation. The Totem plugin will now exit."
-#~ msgstr "ཁྱོད་རའི་རིམ་ལུགས་འགོ་འབྱེད་ལུ་ བདེན་སྦྱོར་འབད། ཊོ་ཊེམ་པ་ལག་ཨིན་དེ་ ད་ཕྱིར་འཐོན་འགྱོ་འོང་།"
-
-#~ msgid "<b>Audio</b>"
-#~ msgstr "<b>རྣར་ཉན་</b>"
-
-#~ msgid "<b>General</b>"
-#~ msgstr "<b>ཡོངས་ཁྱབ་</b>"
-
-#~ msgid "<b>Video</b>"
-#~ msgstr "<b>ཝི་ཌིའོ</b>"
-
-#~ msgid "<i>Channels:</i>"
-#~ msgstr "<i>རྒྱུ་ལམ་ཚུ་:</i>"
-
-#~ msgid "<i>Duration:</i>"
-#~ msgstr "<i>དུས་ཡུན་:</i>"
-
-#~ msgid "<i>Title:</i>"
-#~ msgstr "<i>མགོ་མིང་:</i>"
-
-#~ msgid "<i>Year:</i>"
-#~ msgstr "<i>ལོ་:</i>"
-
-#~ msgid "<b>Preview</b>"
-#~ msgstr "<b> སྔོན་ལྟ་ </b>"
-
-#~ msgid "Save screenshot"
-#~ msgstr "གསལ་གཞིའི་པར་སྲུངས།"
-
-#~ msgid "Save screenshot to _desktop"
-#~ msgstr "གསལ་གཞིའི་པར་ ཌེསིཀ་ཊོཔ་ལུ་སྲུངས།(_d)"
-
-#~ msgid "Save screenshot to _file:"
-#~ msgstr "གསལ་གཞིའི་པར་ ཡིག་སྣོད་ལུ་སྲུངས་:(_f)"
-
-#~ msgid "<b>Display</b>"
-#~ msgstr "<b>བཀྲམ་སྟོན་ </b>"
-
-#~ msgid "<span size=\"medium\"><b>No file</b></span>"
-#~ msgstr "<span size=\"medium\"><b>ཡིག་སྣོད་མིན་འདུག་</b></span>"
-
-#~ msgid "Vanity Webcam utility"
-#~ msgstr "བེ་ནི་ཊི་ ཝེབ་ཀེམ་ སྤྱོད་ཆས།"
-
-#~ msgid "View live webcam and upload pictures"
-#~ msgstr "དངོས་མཐོང་ཝེབ་ཀེམ་སྟོན་ཞིནམ་ལས་ པར་ཚུ་མངོན་གསལ་འབད།"
-
-#~ msgid "Vanity"
-#~ msgstr "བེ་ནི་ཊི།"
-
-#~ msgid "Vanity Preferences"
-#~ msgstr "བེ་ནི་ཊི་གི་ དགའ་གདམ་ཚུ།"
-
-#~ msgid "Zoom 1:1"
-#~ msgstr "རྒྱས་ཟུམ་ ༡:༡"
-
-#~ msgid "Zoom 1:2"
-#~ msgstr "རྒྱས་ཟུམ་ ༡:༢"
-
-#~ msgid "Zoom 2:1"
-#~ msgstr "རྒྱས་ཟུམ་ ༢:༡"
-
-#~ msgid "Zoom _1:1"
-#~ msgstr "རྒྱས་ཟུམ་ ༡:༡(_1)"
-
-#~ msgid "Zoom _2:1"
-#~ msgstr "རྒྱས་ཟུམ་ ༢:༡(_2)"
-
-#~ msgid "_Picture"
-#~ msgstr "པར།(_P)"
-
-#~ msgid "_Zoom 1:2"
-#~ msgstr "རྒྱས་ཟུམ་༡:༢(_Z)"
-
-#~ msgid "Unnamed CDROM"
-#~ msgstr "མིང་མ་བཏགས་པའི་ སི་ཌི་རཱོམ།"
-
-#~ msgid "Always on top"
-#~ msgstr "ཨ་རྟག་རང་མགོ་ལུ།"
-
-#~ msgid "File '%s' already exists."
-#~ msgstr "ཡིག་སྣོད་'%s' ཧེ་མ་ལས་རང་འདུག"
-
-#~ msgid "The screenshot was not saved"
-#~ msgstr "གསལ་གཞིའི་པར་ མ་བསྲུངས་པས།"
-
-#~ msgid "Shadow type"
-#~ msgstr "གྱིབ་མའི་དབྱེ་བ།"
-
-#~ msgid "Style of bevel around the statusbar text"
-#~ msgstr "གནས་ཚད་ཕྲ་རིང་ ཚིག་ཡིག་གི་མཐའ་སྐོར་གྱི་ སེར་ཁའི་བཟོ་རྣམ།"
-
-#~ msgid "Backend options"
-#~ msgstr "རྒྱབ་མཐའི་གདམ་ཁ།"
-
-#~ msgid "Debug mode on"
-#~ msgstr "ལུ་ ་ཐབས་ལམ་རྐྱེན་སེལ་འབད།"
-
-#~ msgid "Webcam utility using %s"
-#~ msgstr "%sལག་ལེན་པའི་ ཝེབ་ཀེམ་གྱི་སྤྱོད་ཆས།"
-
-#~ msgid "Copyright © 2002-2005 Bastien Nocera"
-#~ msgstr "འདྲ་བཤུས་དབང་ཆ་© ༢༠༠༢-༢༠༠༥ བཱསི་ཊིན་ ནོ་སི་ར།"
-
-#~ msgid ""
-#~ "Vanity could not startup:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "བེ་ནི་ཊི་ འགོ་བཙུགས་མ་ཚུགས། \n"
-#~ "%s"
-
-#~ msgid "No reason"
-#~ msgstr "རྒྱུ་མཚན་མིན་འདུག"
-
-#~ msgid ""
-#~ "Vanity could not play video from the webcam.\n"
-#~ "Reason: %s"
-#~ msgstr ""
-#~ "བེ་ནི་ཊི་གིས་ ཝེབ་ཀེམ་ནང་ལས་ ཝི་ཌིའོ་གཏང་མ་ཚུགས། \n"
-#~ "རྒྱུ་མཚན་: %s"
-
-#~ msgid "Vanity Webcam Utility"
-#~ msgstr "བེ་ནི་ཊི་ ཝེབ་ཀེམ་ སྤྱོད་ཆས།"
-
-#~ msgid ""
-#~ "Could not initialize the thread-safe libraries.\n"
-#~ "Verify your system installation. Vanity will now exit."
-#~ msgstr ""
-#~ "ཐེརེཌི་-སེཕ་ དཔེ་མཛོད་དེ་ འགོ་འབྱེད་འབད་མ་ཚུགས། \n"
-#~ "ཁྱོད་རའི་རིམ་ལུགས་གཞི་བཙུགས་ལུ་ བདེན་སྦྱོར་འབད། བེ་ནི་ཊི་ ད་ལྟོ་ཕྱིར་འཐོན་འགྱོ་འོང་།"
-
-#~ msgid ""
-#~ "Vanity could not initialize the \n"
-#~ "configuration engine:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "བེ་ནི་ཊི་གིས་ རིམ་སྒྲིག་མ་འཕྲུལ་\n"
-#~ "འགོ་འབྱེད་འབད་མ་ཚུགས། \n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Couldn't load the main interface (vanity.glade).\n"
-#~ "Make sure that Vanity is properly installed."
-#~ msgstr ""
-#~ "ངོས་འདྲ་བ་གཙོ་བོ་ (vanity.glade)མངོན་གསལ་འབད་མ་ཚུགས། \n"
-#~ "Vanity ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
-
-#~ msgid ""
-#~ "The playback of this movie requires a '%s' plugin, which his not "
-#~ "installed."
-#~ msgstr ""
-#~ "འ་ནི་གློག་བརྙན་འདི་གི་ གླུ་གཞས་གཏང་ནི་ལུ་ གཞི་བཙུགས་འབད་མི་ '%s' པ་ལག་ཨིན་ཅིག་དགོཔ་ཨིན་"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "Languages"
-#~ msgstr "སྐད་ཡིག་ཚུ།"
-
-#~ msgid "No Language Selection Available"
-#~ msgstr "སྐད་ཡིག་གི་སེལ་འཐུ་ འཐོབ་མི་ཚུགས་པས།"
-
-#~ msgid "No subtitles selection available"
-#~ msgstr "མགོ་མིང་ཡན་ལག་གི་སེལ་འཐུ་ འཐོབ་མི་ཚུགས་པས།"
-
-#~ msgid "Set the aspect ratio"
-#~ msgstr "རྣམ་པའི་དཔྱ་ཚད་ གཞི་སྒྲིག་འབད།"
-
-#~ msgid "Side_bar"
-#~ msgstr "ཟུར་ཁའི་ཕྲ་རིང་།(_b)"
-
-#~ msgid "Height of the video widget"
-#~ msgstr "ཝི་ཌིའོ་ ཝི་གེཊི་གི་མཐོ་ཚད།"
-
-#~ msgid "Whether the sidebar is shown"
-#~ msgstr "ཟུར་ཁའི་ཕྲ་རིང་དེ་ སྟོན་ག་མ་སྟོན།"
-
-#~ msgid "Width of the video widget"
-#~ msgstr "ཝི་ཌིའོ་ ཝི་གེཊི་གི་རྒྱ་ཚད།"
-
-#~ msgid "Empty"
-#~ msgstr "སྟོངམ།"
-
-#~ msgid "Failed to start stand-alone movie player"
-#~ msgstr "རང་རྐྱང་གནས་མི་ གློག་བརྙན་གཏང་འཕྲུལ་ འགོ་བཙུགས་མ་ཚུགས།"
-
-#~ msgid "Unknown reason"
-#~ msgstr "མ་ཤེས་པའི་རྒྱུ་མཚན།"
-
-#~ msgid "Option '%s' is unknown and was ignored\n"
-#~ msgstr "གདམ་ཁ་'%s' དེ་ ངོ་མ་ཤེསཔ་ལས་ སྣང་མེད་བཞག་ཅི།\n"
-
-#~ msgid "Overwrite file?"
-#~ msgstr "ཡིག་སྣོད་ཚབ་སྲུང་འབད་ག?"
-
-#~ msgid ""
-#~ "A file named '%s' already exists.  Are you sure you want to overwrite it?"
-#~ msgstr ""
-#~ "ཡིག་སྣོད་མིང་%s' འབད་མི་ཅིག་ ཧེ་མ་ལས་རང་འདུག འདི་ཁྱོད་ཀྱིས་ ཚབ་སྲུང་འབད་ནི་ ངེས་ཏིག་ཨིན་ན?"
-
-#~ msgid ""
-#~ "Switching on or off this type of TV-Out requires a restart to take effect."
-#~ msgstr ""
-#~ "འདི་བཟུམ་མའི་ རྒྱང་མཐོང་ཕྱིར་གཏང་ཚུ་ ཨཱོན་བརྐྱབ་ནི་དང་ ཨོཕ་བརྐྱབ་ནི་ལུ་ ནུས་པ་འཐོབ་ནིའི་དོན་ལས་ "
-#~ "ལོག་འགོ་བཙུགས་དགོཔ་ཨིན།"
-
-#~ msgid "video popup menu"
-#~ msgstr "ཝི་ཌིའོ་ པོཔ་ཨཔ་ དཀར་ཆག"
-
-#~ msgid "This movie is a still image. You can open it with an image viewer."
-#~ msgstr ""
-#~ "གློག་བརྙན་འདི་ འགུལ་མེད་གཟུགས་བརྙན་ཅིག་ཨིན་པས། འདི་གཟུགས་བརྙན་མཐོང་བྱེད་ཅིག་གིས་འབད་ ཁ་ཕྱེ་"
-#~ "ཚུགས།"
-
-#~ msgid "Failed to find real device node for %s: %s"
-#~ msgstr "%s: %sགི་དོན་ལུ་ ཐབས་ལམ་ནོཌི་ ངོ་མ་དེ་ འཚོལ་མ་ཐོབ།"
-
-#~ msgid "Failed to read symbolic link %s: %s"
-#~ msgstr "བརྡ་མཚོན་འབྲེལ་ལམ་%s: %s ལྷག་མ་ཚུགས།"
-
-#~ msgid "Totem couldn't show the movie properties window."
-#~ msgstr "ཊོ་ཊེམ་གྱིས་ གློག་བརྙན་རྒྱུ་དངོས་ཀྱི་སྒོ་སྒྲིག་ སྟོན་མ་ཚུགས།"
-
-#~ msgid "Make sure that Totem is correctly installed."
-#~ msgstr "ཊོ་ཊེམ་ངེས་བདེན་་སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
-
-#~ msgid "Totem"
-#~ msgstr "ཊོ་ཊེམ།"
-
-#~ msgid "Totem Video Window"
-#~ msgstr "ཊོ་ཊེམ་ ཝི་ཌིའོ་སྒོ་སྒྲིག"
-
-#~ msgid "Failed to open media file; unknown error"
-#~ msgstr "བརྡ་ལམ་ཡིག་སྣོད་ཁ་ཕྱེ་མ་ཚུགས། འཛོལ་བ་ག་ཅི་ཨིན་ན་མ་ཤེས།"
-
-#~ msgid "Failed to play: %s"
-#~ msgstr "%s གཏང་མ་ཚུགས།"
-
-#~ msgid "unknown error"
-#~ msgstr "མ་ཤེས་པའི་འཛོལ་བ།"
-
-#~ msgid "Failed to find mountpoint for device %s in /etc/fstab"
-#~ msgstr "//etc/fstab ཐབས་ལམ་%s གི་དོན་ལུ་སྦྱར་་བརྩེགས་འབད་ས་ འཚོལ་མ་ཐོབ།"
-
-#~ msgid "Failed to open device %s for reading: %s"
-#~ msgstr "ཐབས་འཕྲུལ་%s དེ་%sལྷག་ནིའི་དོན་ལུ་ ཁ་ཕྱེ་མ་ཚུགས།"
-
-#~ msgid "Failed to retrieve capabilities of device %s: %s"
-#~ msgstr "ཐབས་འཕྲུལ་%s: %sགི་ལྕོགས་གྲུབ་ སླར་འདྲེན་འབད་མ་ཚུགས།"
-
-#~ msgid "Drive status 0x%x (%s) - check disc"
-#~ msgstr "འདྲེན་བྱེད་གནས་ཚད་0x%x (%s) - ཌིཀསི་ལུ་ ཞིབ་དཔྱད་འབད།"
-
-#~ msgid "Error getting %s disc status: %s"
-#~ msgstr "%s ལེན་ནི་ལུ་འཛོལ་བ། ཌིཀསི་གི་གནས་ཚད་%sཨིན་པས།"
-
-#~ msgid "Unexpected/unknown cd type 0x%x (%s)"
-#~ msgstr "རེ་བ་མེདཔ་/ངོ་མ་ཤེས་པའི་ སི་ཌི་དབྱེ་བ་0x%x (%s)"
-
-#~ msgid "_DXR3 TV-out"
-#~ msgstr "ཌི་ཨེགསི་ཨར་༣ རྒྱང་མཐོང་-ཕྱིར་གཏང་།(_D)"
-
-#~ msgid "Failed to play Audio/Video Disc"
-#~ msgstr "རྣར་ཉན་/ཝི་ཌིའོ་ཌིཀསི་ གཏང་མ་ཚུགས།"
-
-#~ msgid "Reason unknown"
-#~ msgstr "རྒྱུ་མཚན་མ་ཤེས།"
-
-#~ msgid "Unexpected error status %d while mounting %s"
-#~ msgstr "རེ་བ་མེད་པའི་འཛོལ་བའི་གནས་ཚད་ %d བྱུང་ཡི། %s སྦྱར་བརྩེགས་འབད་བའི་སྐབས།"
-
-#~ msgid "Repeat _mode"
-#~ msgstr "བསྐྱར་ལོག་ཐབས་ལམ།(_m)"
-
-#~ msgid "Shuf_fle mode"
-#~ msgstr "རིམ་དཀྲུགས་ཐབས་ལམ།(_f)"
-
-#~ msgid "<b>Optical Device</b>"
-#~ msgstr "<b>མཐོང་བའི་ཐབས་འཕྲུལ་</b>"
-
-#~ msgid "<b>Proprietary Plugins</b>"
-#~ msgstr "<b>ཚོང་བདག་གི་ པ་ལག་ཨིནསི་ </b>"
-
-#~ msgid "<span size=\"medium\"><b>No File</b></span>"
-#~ msgstr "<span size=\"medium\"><b>ཡིག་སྣོད་མིན་འདུག་</b></span>"
-
-#~ msgid "Play a Video or Audio Disc"
-#~ msgstr "ཝི་ཌིའོ་ ཡང་ན་ རྣར་ཉན་ཌིཀསི་གཏང་།"
-
-#~ msgid "Show/Hide Playlist"
-#~ msgstr "གླུ་ཐོ་སྟོན་/སྦ་བཞག"
-
-#~ msgid "_Add Proprietary Plugins..."
-#~ msgstr "ཚོང་བདག་གི་ པ་ལག་ཨིནསི་ ཁ་སྐོང་རྐྱབས...(_A)"
-
-#~ msgid "_Optical device path:"
-#~ msgstr "མཐོང་བའི་ཐབས་ལམ་འགྲུལ་ལམ་:(_O)"
-
-#~ msgid "_Show/Hide Playlist"
-#~ msgstr "གླུ་ཐོ་སྟོན་/སྦ་བཞག(_S)"
-
-#~ msgid "Enable deinterlacing."
-#~ msgstr "ལྷས་བཤོལ་ལྕོགས་ཅན་བཟོ།"
-
-#~ msgid "Name of the visual effects plugins."
-#~ msgstr "པར་གྱི་འཆར་སྣང་ པ་ལག་ཨིནསི་གི་མིང་།"
-
-#~ msgid "Path to the optical media device"
-#~ msgstr "མཐོང་བའི་བརྡ་ལམ་ཐབས་འཕྲུལ་ལུ་འགྲུལ་ལམ།"
-
-#~ msgid "Path to the optical media device."
-#~ msgstr "མཐོང་བའི་བརྡ་ལམ་ཐབས་འཕྲུལ་ལུ་འགྲུལ་ལམ།"
-
-#~ msgid "Repeat mode."
-#~ msgstr "བསྐྱར་ལོག་ཐབས་འཕྲུལ།"
-
-#~ msgid "Resize the canvas automatically on file load."
-#~ msgstr "ཡིག་སྣོད་མངོན་གསལ་གུ་ རང་བཞིན་གྱིས་ འབྲི་གཞིའི་ཚད་སླར་སྒྲིག་འབད།"
-
-#~ msgid "Shuffle mode."
-#~ msgstr "ཐབས་ལམ་རིམ་དཀྲུགས་འབད།"
-
-#~ msgid "The brightness of the video."
-#~ msgstr "ཝི་ཌིའོ་གི་དཀར་མདངས།"
-
-#~ msgid "The contrast of the video."
-#~ msgstr "ཝི་ཌིའོ་གི་ཁྱད་པར།"
-
-#~ msgid "The hue of the video."
-#~ msgstr "ཝི་ཌིའོ་གི་ཚོན་མདངས།"
-
-#~ msgid "The saturation of the video."
-#~ msgstr "ཝི་ཌིའོ་གི་མཐའ་ཚད།"
-
-#~ msgid "Whether to enable debug for the playback engine."
-#~ msgstr "གཏང་འཕྲུལ་གྱི་དོན་ལུ་ རྐྱེན་སེལ་ལྕོགས་ཅན་ བཟོ་ནི་ཨིན་ན།"
-
-#~ msgid "X coordinate for the Playlist"
-#~ msgstr "གླུ་ཐོའི་དོན་ལུ་ ཨེགསི་ཆ་སྙོམ།"
-
-#~ msgid "X coordinate for the Playlist."
-#~ msgstr "གླུ་ཐོའི་དོན་ལུ་ ཨེགསི་ཆ་སྙོམ།"
-
-#~ msgid "Y coordinate for the Playlist"
-#~ msgstr "གླུ་ཐོའི་དོན་ལུ་ ཝའི་ཆ་སྙོམ།"
-
-#~ msgid "Y coordinate for the Playlist."
-#~ msgstr "གླུ་ཐོའི་དོན་ལུ་ ཝའི་ཆ་སྙོམ།"
-
-#~ msgid "Open from URI"
-#~ msgstr "ཡུ་ཨར་ཨའི་ནང་ལས་ ཁ་ཕྱེ།"
-
-#~ msgid "0 second"
-#~ msgstr "སྐར་ཆ་༠།"
-
-#~ msgid "Couldn't load the main interface (mozilla-viewer.glade)."
-#~ msgstr "ངོས་འདྲ་བ་གཙོ་བོ་(mozilla-viewer.glade) མངོན་གསལ་འབད་མ་ཚུགས།"
-
-#~ msgid "Make sure that the Totem plugin is properly installed."
-#~ msgstr "ཊོ་ཊེམ་གྱི་ པ་ལག་ཨིན་དེ་ ངེས་བདེན་སྦེ་ གཞི་བཙུགས་འབད་ཡོདཔ་ ངེས་ཏིག་བཟོ།"
-
-#~ msgid "Totem could not start the file manager."
-#~ msgstr "ཊོ་ཊེམ་གྱིས་ ཡིག་སྣོད་འཛིན་སྐྱོང་པ་ འགོ་བཙུགས་མ་ཚུགས།"
-
-#~ msgid "%s - Totem Movie Player"
-#~ msgstr "%s - ཊོ་ཊེམ་གློག་བརྙན་གཏང་འཕྲུལ།"
-
-#~ msgid "Please file a bug, this isn't supposed to happen."
-#~ msgstr "འབྱུང་དགོཔ་མེད་པའི་ རྐྱེན་ཅིག་གཏང་གནང་།"
-
-#~ msgid "Please file a bug, this isn't supposed to happen"
-#~ msgstr "འབྱུང་དགོཔ་མེད་པའི་ རྐྱེན་ཅིག་གཏང་གནང་།"

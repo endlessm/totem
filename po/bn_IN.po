@@ -1,29 +1,27 @@
-# translation of bn_IN.po to Bengali INDIA
-# This file is distributed under the same license as the TOTEM package.
-#
-# Runa Bhattacharjee<runa77@softhome.net>, 2003.
-# Runa Bhattacharjee <runabh@gmail.com>, 2007.
-# Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
-# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009, 2010.
-# sray <sray@redhat.com>, 2013, 2014. #zanata.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the totem package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2016
+# Will Thompson <wjt@endlessm.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: bn_IN\n"
+"Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2014-09-29 11:42+0000\n"
-"Last-Translator: \n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: bn_IN\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
+"Language-Team: Bengali (India) (https://www.transifex.com/endless-os/teams/9016/bn_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
-"\n"
-"X-Generator: Lokalize 1.5\n"
 
-# ঠিক করেন
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
 #: src/totem-grilo.c:1901 src/totem-object.c:3729
@@ -36,34 +34,28 @@ msgid "Play movies"
 msgstr "মুভি প্লে করুন"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:11
-#, fuzzy
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
-"ভিডিও, টোটেম নামেও পরিচিত, হল GNOME ডেস্কটপ এনভায়রনমেন্টের অফিসিয়াল মুভি "
-"প্লেয়ার। এটিতে স্থানীয় ভিডিও, এবং DVD'র একটি অনুসন্ধানযোগ্য তালিকা রয়েছে, তাছাড়া "
-"রয়েছৈ স্থানীয় নেটওয়ার্ক ভিডিও শেয়ার (UPnP/DLNA ব্যবহার করে) এবং বেশ কতকগুলি "
-"ওয়েবসাইট থেকে ভিডিও হাইলাইট।"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
-#, fuzzy
 msgid ""
 "Videos comes with added functionality such as a subtitle downloader, the "
 "ability to speed up or down playback, create screenshot galleries, and "
 "support for recording DVDs."
 msgstr ""
-"টোটেমের মধ্যে এই ধরনের অতিরিক্ত বৈশিষ্ট্য রয়েছে: সাবটাইটেল ডাউনলোডার, এবং DVD "
-"রেকর্ড করার জন্য সহায়তা।"
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr "ভিডিও;মুভি;ফিল্ম;ক্লিপ;সিরিজ;প্লেয়ার;DVD;টিভি;ডিস্ক;"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -105,8 +97,8 @@ msgid ""
 "Amount of data to buffer for network streams before starting to display the "
 "stream (in seconds)."
 msgstr ""
-"স্ট্রীম দেখাতে শুরু করার পূর্বে নেটওয়ার্ক স্ট্রীমের ক্ষেত্রে যত পরিমাণ ডেটা বাফার হবে "
-"(সেকেন্ডে)।"
+"স্ট্রীম দেখাতে শুরু করার পূর্বে নেটওয়ার্ক স্ট্রীমের ক্ষেত্রে যত পরিমাণ ডেটা "
+"বাফার হবে (সেকেন্ডে)।"
 
 #: data/org.gnome.totem.gschema.xml.in:39
 msgid "Subtitle font"
@@ -130,32 +122,27 @@ msgid "Encoding character set for subtitle."
 msgstr "সাবটাইটেলের ক্ষেত্রে এনকোডিং অক্ষর সেট।"
 
 #: data/org.gnome.totem.gschema.xml.in:55
-#, fuzzy
 msgid "Default location for the “Open…” dialogs"
-msgstr "\"খুলুন...\" ডায়লগ বক্সগুলির ক্ষেত্রে নির্ধারিত ডিফল্ট অবস্থান"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:56
-#, fuzzy
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
-msgstr "\"খুলুন...\" ডায়ালগের ক্ষেত্রে ডিফল্ট অবস্থান। ডিফল্ট হল বর্তমান ডিরেক্টরি।"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:60
-#, fuzzy
 msgid "Default location for the “Take Screenshot” dialogs"
-msgstr "\"পর্দার ছবি নিন\" শীর্ষক ডায়লগ বক্সের ডিফল্ট অবস্থান"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:61
-#, fuzzy
 msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
-msgstr "\"স্ক্রীনশট নিন\" এর জন্য ডিফল্ট অবস্থান। ডিফল্ট হল ছবি ডিরেক্টরি।"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:65
-#, fuzzy
 msgid "Whether to disable the plugins in the user’s home directory"
-msgstr "ব্যবহারকারীর ব্যক্তিগত ডিরেক্টরির মধ্যে প্লাগ-ইন নিষ্ক্রিয় করা হবে কি না"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:69
 msgid "Whether to disable the keyboard shortcuts"
@@ -173,7 +160,8 @@ msgstr "সক্রিয় প্লাগ-ইন তালিকা"
 msgid ""
 "A list of the names of the plugins which are currently active (loaded and "
 "running)."
-msgstr "বর্তমানে সক্রিয় থাকা প্লাগ-ইনের নামের একটি তালিকা (লোড হয়েছে এবং চলছে)‌"
+msgstr ""
+"বর্তমানে সক্রিয় থাকা প্লাগ-ইনের নামের একটি তালিকা (লোড হয়েছে এবং চলছে)‌"
 
 #: data/org.gnome.totem.gschema.xml.in:82
 msgid "Directories to show"
@@ -232,15 +220,13 @@ msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
 #: data/preferences.ui:338
-#, fuzzy
 msgid "Plugins…"
-msgstr "প্লাগ-ইন"
+msgstr ""
 
 #: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
 msgstr "সাধারণ"
 
-# ঠিক করেন
 #. Tab label in the Preferences dialogue
 #: data/preferences.ui:407 src/plugins/properties/properties.ui:321
 msgid "Video"
@@ -278,7 +264,6 @@ msgstr "ডিফল্ট মান পুনরায় স্থাপন ক�
 msgid "Display"
 msgstr "প্রদর্শন"
 
-# msgstr "অ্যাঙ্গেল (কোণ) মেনু"
 #: data/preferences.ui:814
 msgid "Audio Output"
 msgstr "অডিও আউটপুট"
@@ -287,139 +272,109 @@ msgstr "অডিও আউটপুট"
 msgid "_Audio output type:"
 msgstr "অডিও আউটপুটের ধরন: (_A)"
 
-# msgstr "কোনটিই নয়"
-# msgstr "একটিও নয়"
 #: data/preferences.ui:932 src/plugins/properties/properties.ui:512
 msgid "Audio"
 msgstr "অডিও"
 
 #: data/shortcuts.ui:16
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr "সাধারণ"
+msgstr ""
 
-# এটা কি ঠিক আছে ?
 #: data/shortcuts.ui:21
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr "বৈশিষ্ট্যাবলী"
+msgstr ""
 
 #: data/shortcuts.ui:28
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Make Available Offline"
-msgstr "অফলাইনে উপলব্ধ করান"
+msgstr ""
 
-# auto translated by TM merge from project: gnome-screenshot, version: 3.8.3, DocId: gnome-screenshot
 #: data/shortcuts.ui:35
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "পর্দার ছবি নিন (_S)"
+msgstr ""
 
 #: data/shortcuts.ui:42
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "প্রস্থান"
+msgstr ""
 
 #: data/shortcuts.ui:50
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "শব্দের মাত্রা বৃদ্ধি করুন"
+msgstr ""
 
 #: data/shortcuts.ui:55
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "আওয়াজ বৃদ্ধি করুন"
+msgstr ""
 
 #: data/shortcuts.ui:62
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "আওয়াজ হ্রাস করুন"
+msgstr ""
 
-# ঠিক করেন
 #: data/shortcuts.ui:70
-#, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "প্রদর্শন (_V)"
+msgstr ""
 
 #: data/shortcuts.ui:75
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন করা হবে/হবে না"
+msgstr ""
 
-# msgstr "বের করে দেওয়া হোক (_ব)"
-# Eject অর্থে 'বার' শব্দটা সম্ভবত কথ্য ভাষার। Dict দেখেন।
 #: data/shortcuts.ui:82
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন"
+msgstr ""
 
-# msgstr "১:২ অনুপাতে প্রদর্শন করা হোক"
 #: data/shortcuts.ui:89
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "বড় মাপে প্রদর্শন"
+msgstr ""
 
-# msgstr "১:২ অনুপাতে প্রদর্শন করা হোক"
 #: data/shortcuts.ui:96
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "বড় মাপে প্রদর্শন"
+msgstr ""
 
 #: data/shortcuts.ui:103
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Rotate ↷"
-msgstr "ঘোরান ↷ (_R)"
+msgstr ""
 
 #: data/shortcuts.ui:110
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Rotate ↶"
-msgstr "ঘোরান ↶"
+msgstr ""
 
 #: data/shortcuts.ui:119
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "চালানো হবে"
+msgstr ""
 
-# msgstr "চলচ্চিত্রটি চালানো অথবা স্থগিত রাখা হোক"
 #: data/shortcuts.ui:124
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "চালানো/থামানো হবে"
+msgstr ""
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "পূর্ববর্তী অধ্যায় অথবা চলচ্চিত্র"
+msgstr ""
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "নতুন চ্যাপ্টারের নাম:"
+msgstr ""
 
 #: data/shortcuts.ui:164
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "এতে চলে যান"
+msgstr ""
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
@@ -427,10 +382,9 @@ msgid "Go back 15 seconds"
 msgstr ""
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "০ সেকেন্ড"
+msgstr ""
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -443,16 +397,14 @@ msgid "Step forward one frame"
 msgstr ""
 
 #: data/shortcuts.ui:200 data/shortcuts.ui:248
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "০ সেকেন্ড"
+msgstr ""
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "সেকেন্ড প্রতি %d ফ্রেম"
+msgstr ""
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
@@ -465,10 +417,9 @@ msgid "Go forward 10 minutes"
 msgstr ""
 
 #: data/shortcuts.ui:279
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "এতে চলে যান (_S)…"
+msgstr ""
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
@@ -519,38 +470,41 @@ msgstr "ওয়েব ভিডিও যোগ করুন (_W)…"
 msgid "_Aspect Ratio"
 msgstr "অ্যাসপেক্টের অনুপাত (_A)"
 
-# auto translated by TM merge from project: ekiga, version: 4.0.1, DocId: ekiga
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "স্বয়ংক্রিয়"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
 msgctxt "Aspect ratio"
 msgid "Square"
 msgstr "চৌকো"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
 msgstr "4∶3 (টিভি)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
 msgstr "16∶9 (ওয়াইডস্ক্রীন)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
 msgstr "2.11∶1 (DVB)"
 
-# msgstr "১:২ অনুপাতে প্রদর্শন করা হোক"
 #: data/totem.ui:81
 msgid "Zoom In"
 msgstr "বড় মাপে প্রদর্শন"
@@ -567,12 +521,10 @@ msgstr "ভাষা (_L)"
 msgid "S_ubtitles"
 msgstr "অনুবাদলিপি (_u)"
 
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
 #: data/totem.ui:100
 msgid "_Select Text Subtitles…"
 msgstr "পাঠ্য উপশিরোনাম নির্বাচন করুন (_S)…"
 
-# বাংলায় লিখতে পারেন
 #: data/totem.ui:123
 msgid "_Eject"
 msgstr "বহিষ্কার (_E)"
@@ -589,7 +541,6 @@ msgstr "DVD মেনু (_D)"
 msgid "_Title Menu"
 msgstr "শিরোনাম মেনু (_T)"
 
-# msgstr "অ্যাঙ্গেল (কোণ) মেনু"
 #: data/totem.ui:151
 msgid "A_udio Menu"
 msgstr "অডিও মেনু (_u)"
@@ -598,7 +549,6 @@ msgstr "অডিও মেনু (_u)"
 msgid "_Angle Menu"
 msgstr "অ্যাঙ্গেল মেনু (_A)"
 
-# msgstr "নতুন ভিডিও লোড করা হলে স্বয়ংক্রিয়ভাবে উইন্ডোর আকার পরিবর্তন করা হোক" <-- একটু সোজা করে দিলাম ;-)
 #: data/totem.ui:161
 msgid "_Chapter Menu"
 msgstr "অধ্যায় মেনু (_C)"
@@ -669,10 +619,10 @@ msgstr ""
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] "এই মুভি প্লেব্যাকের জন্য %s প্লাগ-ইন আবশ্যক, যা ইনস্টল করা নেই।"
@@ -682,10 +632,9 @@ msgstr[1] ""
 "%s"
 
 #: src/backend/bacon-video-widget.c:3997
-#, fuzzy
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
-msgstr "এই স্ট্রীম বাজানো যাবে না। সম্ভবত কোনো ফায়াওয়্যাল এটিকে বাধা দিচ্ছে।"
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:4000
 msgid ""
@@ -693,7 +642,8 @@ msgid ""
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
 "কোডেকের অনুপস্থিতির কারণে, অডিও বা ভিডিও স্ট্রীম পরিচালনা করা গেল না। কিছু "
-"নির্দিষ্ট ধরনের মুভি প্লে করতে অাপনাকে অতিরিক্ত প্লাগ-ইন ইনস্টল করতে হতে পারে"
+"নির্দিষ্ট ধরনের মুভি প্লে করতে অাপনাকে অতিরিক্ত প্লাগ-ইন ইনস্টল করতে হতে "
+"পারে"
 
 #: src/backend/bacon-video-widget.c:4011
 msgid ""
@@ -717,11 +667,11 @@ msgstr "কোনো সমর্থিত ভিডিও স্ট্রিম
 
 #: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
-"কিছু প্রয়োজনীয় প্লাগ-ইন অনুপস্থিত। প্রোগ্রামটি সঠিক ভাবে ইনস্টল করা হয়েছে তা নিশ্চিত "
-"হয়ে নিন।"
+"কিছু প্রয়োজনীয় প্লাগ-ইন অনুপস্থিত। প্রোগ্রামটি সঠিক ভাবে ইনস্টল করা হয়েছে তা"
+" নিশ্চিত হয়ে নিন।"
 
 #. TRANSLATORS: this is a button to launch a codec installer.
 #. * %s will be replaced with the software installer's name, e.g.
@@ -745,9 +695,8 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
-#, fuzzy
 msgid "Open with VLC"
-msgstr "\"%s\" সহযোগে খুলুন (_O)"
+msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
@@ -768,7 +717,6 @@ msgstr ""
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -780,7 +728,6 @@ msgstr "%d:%02d:%02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
 #, c-format
 msgctxt "long time format"
@@ -792,7 +739,6 @@ msgstr "-%d:%02d:%02d"
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
 #, c-format
 msgctxt "short time format"
@@ -804,7 +750,6 @@ msgstr "-%d:%02d"
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -827,9 +772,12 @@ msgstr "থ্রেড-সেফ লাইব্রেরি চালু ক�
 msgid "Verify your system installation. Totem will now exit."
 msgstr "আপনার সিস্টেমের ইনস্টলেশন পরীক্ষা করুন। Totem এখন বন্ধ করা হবে।"
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -882,9 +830,9 @@ msgid "Channels"
 msgstr "চ্যানেলগুলি"
 
 #: src/totem-interface.c:179 src/totem-interface.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr "'%s' ইন্টারফেস লোড করা যায়নি। %s"
+msgstr ""
 
 #: src/totem-interface.c:179
 msgid "The file does not exist."
@@ -923,28 +871,26 @@ msgstr "নির্বাচন করুন"
 msgid "Cancel"
 msgstr "বাতিল"
 
-# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
 #: src/totemmaintoolbar.ui:90
 msgid "Search"
 msgstr "অনুসন্ধান"
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "অডিও ট্র্যাক সংখ্যা #%d"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "অনুবাদলিপি"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "ফাঁকা"
 
-# auto translated by TM merge from project: ekiga, version: 4.0.1, DocId: ekiga
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
 msgctxt "Language"
 msgid "Auto"
@@ -960,9 +906,9 @@ msgid "Play"
 msgstr "চালানো হবে"
 
 #: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
-#, fuzzy, c-format
+#, c-format
 msgid "Totem could not play “%s”."
-msgstr "Totem সহযোগে '%s' চালানো যায়নি।"
+msgstr ""
 
 #: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
@@ -1007,7 +953,6 @@ msgstr "বাতিল করুন (_C)"
 msgid "_Add"
 msgstr "যোগ করুন (_A)"
 
-# msgstr "চলচ্চিত্রটি চালানো অথবা স্থগিত রাখা হোক"
 #: src/totem-options.c:49
 msgid "Play/Pause"
 msgstr "চালানো/থামানো হবে"
@@ -1016,7 +961,6 @@ msgstr "চালানো/থামানো হবে"
 msgid "Next"
 msgstr "পরবর্তী"
 
-# msgstr "চালানো/স্থগিত রাখা হোক"
 #: src/totem-options.c:53
 msgid "Previous"
 msgstr "পূর্ববর্তী"
@@ -1049,8 +993,6 @@ msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্
 msgid "Quit"
 msgstr "প্রস্থান"
 
-# msgstr "প্রস্থান"
-# "বেরিয়ে" যাওয়া কথ্য ভাষায় Use হয়। তাই "বাহির হয়ে আসা" লেখা উচিৎ।
 #: src/totem-options.c:61
 msgid "Enqueue"
 msgstr "সারিবদ্ধ করা হবে"
@@ -1068,9 +1010,8 @@ msgid "Movies to play"
 msgstr "চালানোর জন্য চিহ্নিত চলচ্চিত্র।"
 
 #: src/totem-options.c:100
-#, fuzzy
 msgid "Can’t enqueue and replace at the same time"
-msgstr "একই সময়ে সারিবন্ধন এবং প্রতিস্থাপন করা যায় না"
+msgstr ""
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1080,9 +1021,9 @@ msgid "Title %d"
 msgstr "শিরোনাম %d"
 
 #: src/totem-playlist.c:993
-#, fuzzy, c-format
+#, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
-msgstr "প্লেতালিকা '%s' পার্স করা গেল না। এটি ক্ষতিগ্রস্ত হয়ে থাকতে পারে।"
+msgstr ""
 
 #: src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1092,7 +1033,6 @@ msgstr "প্লাগ-ইন কনফিগার করুন"
 msgid "_Close"
 msgstr "বন্ধ করুন (_C)"
 
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
 #: src/totem-preferences.c:299
 msgid "Select Subtitle Font"
 msgstr "অনুবাদলিপির ফন্ট নির্বাচন"
@@ -1102,10 +1042,9 @@ msgid "Add to Favourites"
 msgstr "পছন্দসইতে যোগ করুন"
 
 #: src/totemselectiontoolbar.ui:40
-#, fuzzy
 msgctxt "button"
 msgid "Play"
-msgstr "চালানো হবে"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
 msgid "Shuffle"
@@ -1256,12 +1195,10 @@ msgstr "পশ্চিমি"
 msgid "Vietnamese"
 msgstr "ভিয়েতনামিস"
 
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
 #: src/totem-uri.c:329
 msgid "All files"
 msgstr "সমস্ত ফাইল"
 
-# ঠিক করেন
 #: src/totem-uri.c:335
 msgid "Video files"
 msgstr "ভিডিও ফাইল"
@@ -1270,17 +1207,14 @@ msgstr "ভিডিও ফাইল"
 msgid "Subtitle files"
 msgstr "অনুবাদলিপির ফাইল"
 
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
 #: src/totem-uri.c:396
 msgid "Select Text Subtitles"
 msgstr "অনুবাদলিপি নির্বাচন করুন"
 
-# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
 #: src/totem-uri.c:400
 msgid "_Open"
 msgstr "খুলুন (_O)"
 
-# ঠিক করেন
 #: src/totem-uri.c:457
 msgid "Add Videos"
 msgstr "ভিডিওগুলি যোগ করুন"
@@ -1345,8 +1279,8 @@ msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
-"বর্তমানে চালনা করা ভিডিওগুলির বিজ্ঞপ্তি পাঠান এবং MPRIS ব্যবহার করে দূরবর্তী "
-"নিয়ন্ত্রণের অনুমতি দিন।"
+"বর্তমানে চালনা করা ভিডিওগুলির বিজ্ঞপ্তি পাঠান এবং MPRIS ব্যবহার করে দূরবর্তী"
+" নিয়ন্ত্রণের অনুমতি দিন।"
 
 #: src/plugins/dbusservice/dbusservice.py:210
 #: src/plugins/dbusservice/dbusservice.py:238
@@ -1362,7 +1296,8 @@ msgstr "‘%s’ বিশিষ্টতা লিখনযোগ্য নয়�
 #: src/plugins/dbusservice/dbusservice.py:233
 #, python-format
 msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
-msgstr "একটি MediaPlayer 2 অবজেক্টের অজানা বিশিষ্টতা ‘%s’ এর অনুরোধ জানানো হয়েছে"
+msgstr ""
+"একটি MediaPlayer 2 অবজেক্টের অজানা বিশিষ্টতা ‘%s’ এর অনুরোধ জানানো হয়েছে"
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:6
 msgid "Instant Messenger Status"
@@ -1370,7 +1305,9 @@ msgstr "ইনস্ট্যান্ট মেসেঞ্জার স্ট�
 
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:7
 msgid "Set your Instant Messenger status to away when a movie is playing"
-msgstr "চলচ্চিত্র চলাকালীন ইনস্ট্যান্ট মেসেঞ্জার-এ নিজেকে অনুপস্থিত রূপে চিহ্নিত করুন"
+msgstr ""
+"চলচ্চিত্র চলাকালীন ইনস্ট্যান্ট মেসেঞ্জার-এ নিজেকে অনুপস্থিত রূপে চিহ্নিত "
+"করুন"
 
 #: src/plugins/lirc/lirc.plugin.desktop.in:5
 msgid "Infrared Remote Control"
@@ -1381,14 +1318,12 @@ msgid "Support infrared remote control"
 msgstr "ইনফ্রা-রেড রিমোট কন্ট্রোলের সহায়তা"
 
 #: src/plugins/lirc/totem-lirc.c:239
-#, fuzzy
 msgid "Couldn’t initialize lirc."
-msgstr "lirc আরম্ভ করতে ব্যর্থ।"
+msgstr ""
 
 #: src/plugins/lirc/totem-lirc.c:251
-#, fuzzy
 msgid "Couldn’t read lirc configuration."
-msgstr "lirc কনফিগারেশন পড়তে ব্যর্থ।"
+msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:5
 msgid "Media Player Keys"
@@ -1496,7 +1431,6 @@ msgstr ""
 msgid "%d kbps"
 msgstr "%d কিলোবাইট/সেকেন্ড"
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #: src/plugins/properties/totem-movie-properties.c:155
 #: src/plugins/properties/totem-movie-properties.c:166
 msgctxt "Stream bit rate"
@@ -1508,18 +1442,15 @@ msgstr "প্রযোজ্য নয়"
 msgid "%d Hz"
 msgstr "%d হার্টজ"
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #: src/plugins/properties/totem-movie-properties.c:169
 msgctxt "Sample rate"
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
-# এটা কি ঠিক আছে ?
 #: src/plugins/properties/totem-movie-properties.c:280
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
-# এটা কি ঠিক আছে ?
 #: src/plugins/properties/totem-movie-properties.c:305
 msgid "_Properties"
 msgstr "বিবিধ বৈশিষ্ট্য (_P)"
@@ -1580,73 +1511,62 @@ msgstr "চ্যানেল:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "অজানা"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "অজানা"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "অজানা"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "অজানা"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "অজানা"
+msgstr ""
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
 msgctxt "Dimensions"
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #. Video Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:123
 msgctxt "Video codec"
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #: src/plugins/properties/bacon-video-widget-properties.c:126
 msgctxt "Video bit rate"
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #: src/plugins/properties/bacon-video-widget-properties.c:129
 #: src/plugins/properties/bacon-video-widget-properties.c:237
 msgctxt "Frame rate"
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #: src/plugins/properties/bacon-video-widget-properties.c:133
 msgctxt "Audio bit rate"
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
 #. Audio Codec
 #: src/plugins/properties/bacon-video-widget-properties.c:135
 msgctxt "Audio codec"
@@ -1663,7 +1583,6 @@ msgstr "০ হার্টজ"
 msgid "0 Channels"
 msgstr "০ চ্যানেল"
 
-# msgstr "টোটেম ভিডিও উইন্ডো" <-- ঠিক আছেনা ?
 #: src/plugins/properties/bacon-video-widget-properties.c:155
 #, c-format
 msgid "%d hour"
@@ -1709,13 +1628,10 @@ msgid "rpdb2 password"
 msgstr "rpdb2 পাসওয়ার্ড"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
-#, fuzzy
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"অননুমোদিত রিমোট অ্যাক্সেস থেকে Totem ডিবাগিং এর জন্য rpdb2 সার্ভার সুরক্ষিত রাখার "
-"একটি পাসওয়ার্ড। এটি খালি থাকলে, একটি ডিফল্ট 'টোটেম' ব্যবহার করা হবে।"
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
 msgid "Python Console"
@@ -1738,9 +1654,9 @@ msgstr "Python ডিবাগার"
 
 #. pylint: disable=E1101
 #: src/plugins/pythonconsole/pythonconsole.py:97
-#, fuzzy, python-format
+#, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr "অাপনি এর মাধ্যমে Totem.Object অ্যাক্সেস করতে পারবেন 'totem_object' :\\n%s"
+msgstr ""
 
 #: src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1748,15 +1664,11 @@ msgstr "Totem Python কনসোল"
 
 #. pylint: disable=W0613
 #: src/plugins/pythonconsole/pythonconsole.py:111
-#, fuzzy
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
-"অাপনি 'ওকে' টেপার পরে, অাপনি Totem এ winpdb বা rpdb2 দিয়ে সংযোগ না করা পর্যন্ত "
-"তা অপেক্ষা করবে। অাপনি DConf এ কোনো ডিবাগার পাসওয়ার্ড সেট করে না থাকলে, এটি "
-"ডিফল্ট পাসওয়ার্ড ('totem') ব্যবহার করবে।"
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
 msgid "Recent files"
@@ -1782,7 +1694,6 @@ msgstr "ঘোরান ↷ (_R)"
 msgid "Rotate ↶"
 msgstr "ঘোরান ↶"
 
-# auto translated by TM merge from project: gnome-dictionary, version: 3.8.0, DocId: gnome-dictionary
 #: src/plugins/save-file/save-file.plugin.desktop.in:6
 msgid "Save Copy"
 msgstr "প্রতিলিপি সংরক্ষণ করুন"
@@ -1792,9 +1703,8 @@ msgid "Save a copy of the currently playing movie"
 msgstr "বর্তমানে প্লে হওয়া মুভির একটি অনুলিপি সংরক্ষণ করুন"
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "ভিডিও ডিস্কের প্রতিলিপি তৈরি করতে ব্যর্থ।"
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1835,7 +1745,6 @@ msgstr "স্ক্রিন-শটের সংখ্যা গণনা ক�
 msgid "Number of screenshots:"
 msgstr "স্ক্রিন-শটের সংখ্যা:"
 
-# auto translated by TM merge from project: gnome-screenshot, version: 3.8.3, DocId: gnome-screenshot
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
 #: src/plugins/screenshot/screenshot-filename-builder.c:147
@@ -1843,7 +1752,6 @@ msgstr "স্ক্রিন-শটের সংখ্যা:"
 msgid "Screenshot from %s.png"
 msgstr "%s.png থেকে প্রাপ্ত পর্দার ছবি"
 
-# auto translated by TM merge from project: gnome-screenshot, version: 3.8.3, DocId: gnome-screenshot
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
@@ -1852,7 +1760,6 @@ msgstr "%s.png থেকে প্রাপ্ত পর্দার ছবি"
 msgid "Screenshot from %s - %d.png"
 msgstr "%s - %d.png থেকে প্রাপ্ত পর্দার ছবি"
 
-# auto translated by TM merge from project: virt-viewer, version: 0.5.7, DocId: virt-viewer
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:6
 msgid "Screenshot"
 msgstr "স্ক্রিন-শট"
@@ -1865,7 +1772,6 @@ msgstr "ভিডিওর স্ক্রীনশট এবং গ্যাল
 msgid "Save Gallery"
 msgstr "গ্যালারি সংরক্ষণ করুন"
 
-# auto translated by TM merge from project: RHEL Installation Guide, version: 6.4, DocId: Trouble_During_x86_ppc-section-2-variablelist-1
 #: src/plugins/screenshot/totem-gallery.c:99
 msgid "_Save"
 msgstr "সংরক্ষণ করুন (_S)"
@@ -1886,9 +1792,9 @@ msgstr "গ্যালারি নির্মাণ করা হচ্ছে
 
 #. Set the progress label
 #: src/plugins/screenshot/totem-gallery-progress.c:107
-#, fuzzy, c-format
+#, c-format
 msgid "Saving gallery as “%s”"
-msgstr "\"%s\" নামে গ্যালারি সংরক্ষণ করা হচ্ছে"
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1899,7 +1805,6 @@ msgstr "Totem দ্বারা ভিডিওর ছবি গ্রহণ �
 msgid "This is not supposed to happen; please file a bug report."
 msgstr "এই আচরণ প্রত্যাশিত নয়; অনুগ্রহ করে বাগ-রিপোর্ট নথিভুক্ত করুন"
 
-# auto translated by TM merge from project: gnome-screenshot, version: 3.8.3, DocId: gnome-screenshot
 #: src/plugins/screenshot/totem-screenshot-plugin.c:339
 msgid "Take _Screenshot"
 msgstr "পর্দার ছবি নিন (_S)"
@@ -1914,17 +1819,15 @@ msgid "Skip To"
 msgstr "এতে চলে যান"
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:7
-#, fuzzy
 msgid "Provides the “Skip to” dialog"
-msgstr "\"এতে চলে যান\" ডায়ালগ প্রদান করে"
+msgstr ""
 
-# msgstr "সামনে"
 #: src/plugins/skipto/skipto.ui:22
 msgid "_Skip to:"
 msgstr "চিহ্নিত স্থানে চলুন: (_S)"
 
-# auto translated by TM merge from project: gnome-packagekit, version: 3.8.2, DocId: gnome-packagekit
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
 msgid "second"
@@ -1932,11 +1835,14 @@ msgid_plural "seconds"
 msgstr[0] "সেকেন্ড"
 msgstr[1] "সেকেন্ড"
 
-# auto translated by TM merge from project: RHEL Deployment Guide, version: 6.2, DocId: Managing_Users_and_Groups
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
@@ -1956,10 +1862,9 @@ msgid "× 0.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
-#, fuzzy
 msgctxt "playback rate"
 msgid "Normal"
-msgstr "স্বাভাবিক"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
@@ -2001,814 +1906,3 @@ msgstr "Vimeo"
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr "Vimeo সাইটের জন্য ব্যবহারকারী এজেন্ট সেট করে"
-
-#~ msgid "Video thumbnailer for the file manager"
-#~ msgstr "ফাইল ম্যানেজারের জন্য ভিডিও থাম্বনেলার"
-
-#~| msgid "Movie Properties"
-#~ msgid "Files properties tab"
-#~ msgstr "ফাইলগুলির বিশিষ্টতা ট্যাব"
-
-#~ msgid "Whether to enable debug for the playback engine"
-#~ msgstr "প্লেব্যাক ইঞ্জিনের জন্য ডিবাগ সক্রিয় করা হবে কিনা"
-
-#~ msgid "Whether to autoload external chapter files when a movie is loaded"
-#~ msgstr ""
-#~ "একটি মুভি লোড হওয়ার সময়ে বাহ্যিক চ্যাপ্টার ফাইলগুলি স্বয়ংক্রিয় ভাবে লোড করা হবে "
-#~ "কিনা"
-
-#~ msgid "External Chapters"
-#~ msgstr "বাহ্যিক চ্যাপ্টারগুলি"
-
-#~ msgid "Load _chapter files when movie is loaded"
-#~ msgstr "মুভি লোড হলে চ্যাপ্টার ফাইলগুলি লোড করন (_c)"
-
-#~ msgid "Plugins..."
-#~ msgstr "প্লাগ-ইন..."
-
-#~ msgid "_Quit"
-#~ msgstr "প্রস্থান (_Q)"
-
-#~ msgid "Subtitle #%d"
-#~ msgstr "অনুবাদলিপি #%d"
-
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
-#~ msgid "Audio Preview"
-#~ msgstr "অডিও প্রি-ভিউ"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "কমান্ড-লাইন থেকে ব্যবহারযোগ্য বিকল্পের সম্পূর্ণ তালিকা দেখার জন্য '%s --help' "
-#~ "ব্যবহার করুন।\n"
-
-#~ msgid "Enable debug"
-#~ msgstr "ডি-বাগ ব্যবস্থা সক্রিয় করা হবে"
-
-# msgstr "বৎসর:" <-- বানান
-# msgstr "বছর:"
-#~ msgid "- Play movies and songs"
-#~ msgstr "- চলচ্চিত্র ও সংগীত পরিবেশন"
-
-# msgstr "কোনটিই নয়"
-# msgstr "একটিও নয়"
-#~ msgid "Audio/Video"
-#~ msgstr "অডিও/ভিডিও"
-
-#~ msgid "N/A"
-#~ msgstr "প্রযোজ্য নয়"
-
-#~ msgid "%d x %d"
-#~ msgstr "%d x %d"
-
-# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
-#~ msgctxt "Number of audio channels"
-#~ msgid "N/A"
-#~ msgstr "প্রযোজ্য নয়"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#~ msgid "Seek to %s / %s"
-#~ msgstr "%s / %s অনুসন্ধান করা হবে"
-
-#~ msgid "_Remove Chapter"
-#~ msgstr "চ্যাপ্টার সরান (_R)"
-
-#~ msgid "Remove the chapter from the list"
-#~ msgstr "তালিকা থেকে চ্যাপ্টারটি সরান"
-
-#~ msgid "_Go to Chapter"
-#~ msgstr "চ্যাপ্টারে যান (_G)"
-
-#~ msgid "Go to the chapter in the movie"
-#~ msgstr "মুভিতে চ্যাপ্টারটিতে যান"
-
-#~| msgid "Add Chapter"
-#~ msgid "Add Chapter…"
-#~ msgstr "চ্যাপ্টার যোগ করুন…"
-
-#~ msgid "Remove Chapter"
-#~ msgstr "চ্যাপ্টার সরান"
-
-#~ msgid "Go to Chapter"
-#~ msgstr "চ্যাপ্টারে যান"
-
-#~ msgid "Save Changes"
-#~ msgstr "পরিবর্তনগুলি সংরক্ষণ করুন"
-
-#~ msgid "No chapter data"
-#~ msgstr "কোনো চ্যাপ্টার ডেটা নেই"
-
-#~| msgid "Load Chapters..."
-#~ msgid "Load Chapters…"
-#~ msgstr "চ্যাপ্টারগুলি লোড করুন..."
-
-#~ msgid "Load chapters from an external CMML file"
-#~ msgstr "একটি বাহ্যিক CMML ফাইল থেকে চ্যাপ্টারগুলি লোড করুন"
-
-#~ msgid "Add New Chapters"
-#~ msgstr "নতুন চ্যাপ্টারগুলি যোগ করুন"
-
-#~ msgid "Create a new chapter list for the movie"
-#~ msgstr "মুভি থেকে একটি নতুন চ্যাপ্টার তালিকা তৈরি করুন"
-
-#~ msgid "Chapters"
-#~ msgstr "চ্যাপ্টারগুলি"
-
-#~ msgid "Support chapter markers in movies"
-#~ msgstr "মুভিগুলিতে চ্যাপ্টার প্রস্তুতির সুবিধা উপস্থিত"
-
-#~ msgid ""
-#~ "<b>Title: </b>%s\n"
-#~ "<b>Start time: </b>%s"
-#~ msgstr ""
-#~ "<b>শিরোনাম: </b>%s\n"
-#~ "<b>অারম্ভ সময়: </b>%s"
-
-#~ msgid "Error while reading file with chapters"
-#~ msgstr "চ্যাপ্টার সমেত ফাইল পড়ার সময়ে ত্রুটি"
-
-#~ msgid "Chapter with the same time already exists"
-#~ msgstr "একই সময়ে বিশিষ্ট চ্যাপ্টার ইতিমধ্যেই অাছে"
-
-#~ msgid "Try another name or remove an existing chapter."
-#~ msgstr "অপর কোনো নাম দিয়ে চেষ্টা করুন বা বিদ্যমান কোনো চ্যাপ্টার সরান।"
-
-#~ msgid "Error while writing file with chapters"
-#~ msgstr "চ্যাপ্টার ফাইল লেখার সময়ে ত্রুটি"
-
-#~ msgid "Error occurred while saving chapters"
-#~ msgstr "চ্যাপ্টারগুলি সংরক্ষণের সময়ে ত্রুটি ঘটেছে"
-
-#~ msgid ""
-#~ "Please check you have permission to write to the folder containing the "
-#~ "movie."
-#~ msgstr "মুভি বিশিষ্ট ফোল্ডারে অাপনার যে লেখার অনুমতি অাছে দয়া করে তা দেখে নিন।"
-
-#~ msgid "Open Chapter File"
-#~ msgstr "চ্যাপ্টার ফাইল খুলুন"
-
-#~ msgid "Supported files"
-#~ msgstr "সমর্থিত ফাইল"
-
-#~ msgid "Chapter Screenshot"
-#~ msgstr "চ্যাপ্টার স্ক্রীনশট"
-
-#~ msgid "Chapter Title"
-#~ msgstr "চ্যাপ্টার শিরোনাম"
-
-#~ msgid "Save changes to chapter list before closing?"
-#~ msgstr "বন্ধ করার পূর্বে চ্যাপ্টার তালিকায় পরিবর্তনগুলি সংরক্ষণ করবেন?"
-
-#~ msgid "Close without Saving"
-#~ msgstr "সংরক্ষণ না করেই বন্ধ করুন"
-
-# auto translated by TM merge from project: RHEL Installation Guide, version: 6.4, DocId: Trouble_During_x86_ppc-section-2-variablelist-1
-#~ msgid "Save"
-#~ msgstr "সংরক্ষণ করুন"
-
-#~ msgid "If you don't save, changes to the chapter list will be lost."
-#~ msgstr "অাপনি সংরক্ষণ না করলে, চ্যাপ্টার তালিকায় করা পরিবর্তনগুলি হারিয়ে যাবে।"
-
-#~ msgid "Add Chapter"
-#~ msgstr "চ্যাপ্টার যোগ করুন"
-
-#~ msgid "Gromit Annotations"
-#~ msgstr "Gromit অ্যানোটেশন"
-
-#~ msgid "Presentation helper to make annotations on screen"
-#~ msgstr "পর্দায় অ্যানোটেশন নির্মাণের জন্য প্রেসেন্টেশন সহায়তা ব্যবস্থা"
-
-#~ msgid "The gromit binary was not found."
-#~ msgstr "gromit বাইনারি পাওয়া যায়নি।"
-
-#~ msgid "Always On Top"
-#~ msgstr "সর্বদা উপরে রাখা হবে"
-
-#~ msgid "Keep the main window on top when playing a movie"
-#~ msgstr "চলচ্চিত্র চালানোর সময়, প্রধান উইন্ডোর সর্বদা উপরে প্রদর্শন করা হবে"
-
-#~ msgid "Zeitgeist Plugin"
-#~ msgstr "Zeitgeist প্লাগ-ইন"
-
-#~ msgid "A plugin sending events to Zeitgeist"
-#~ msgstr "Zeitgeist এ একটি প্লাগ-ইন প্রেরণ ইভেন্ট"
-
-# msgstr "স্ট্যাটাসবারে লিখিত টেক্সটের চারপাশে প্রদর্শিত বেভেলের ধরন"
-#~ msgid "Stopped"
-#~ msgstr "স্থগিত"
-
-#~ msgid "Paused"
-#~ msgstr "থামানো হয়েছে"
-
-#~ msgid "Playing"
-#~ msgstr "চালানো হচ্ছে"
-
-#~ msgid "No URI to play"
-#~ msgstr "চালানোর জন্য কোনো URI চিহ্নিত করা হয়নি"
-
-# বাজানো হোক, দেখানো হোক
-# msgstr "চলচ্চিত্র ও গান চালানো হোক" <-- Short cut ;-)
-#~ msgid "Totem Movie Player"
-#~ msgstr "Totem মুভি প্লেয়ার"
-
-#~ msgid "No playlist or playlist empty"
-#~ msgstr "প্লে-লিস্ট ফাঁকা অথবা অনুপস্থিত"
-
-# বাজানো হোক, দেখানো হোক
-# msgstr "চলচ্চিত্র ও গান চালানো হোক" <-- Short cut ;-)
-#~ msgid "Movie browser plugin"
-#~ msgstr "চলচ্চিত্র ব্রাউজার প্লাগ-ইন"
-
-#~ msgid "Verify your system installation. The Totem plugin will now exit."
-#~ msgstr "আপনার সিস্টেমের ইনস্টলেশন পরীক্ষা করুন। Totem প্লাগ-ইন এখন বন্ধ করা হবে।"
-
-# msgstr "বের করে দেওয়া হোক (_ব)"
-# Eject অর্থে 'বার' শব্দটা সম্ভবত কথ্য ভাষার। Dict দেখেন।
-#~ msgid "Leave Fullscreen"
-#~ msgstr "সম্পূর্ণ পর্দায় প্রদর্শন বন্ধ করুন"
-
-#~ msgid "Time:"
-#~ msgstr "সময়:"
-
-#~ msgid "Allow the screensaver to activate when playing audio"
-#~ msgstr "অডিও চালনার সময় স্ক্রিন-সেভার সক্রিয় করার সুবিধা উপলব্ধ করা হবে"
-
-#~ msgid ""
-#~ "Allow the screensaver to activate when playing audio. Disable if you have "
-#~ "monitor-powered speakers."
-#~ msgstr ""
-#~ "অডিও চালনার সময় স্ক্রিন-সেভার সক্রিয় করার সুবিধা উপলব্ধ করা হবে। মনিটর থেকে "
-#~ "বিদ্যুৎ প্রয়োগ করে চালিত স্পিকারের ক্ষেত্রে এটি নিষ্ক্রিয় করুন।"
-
-# msgstr "ফাইল লোড করা হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের আকার পরিবর্তন করা হোক" <-- এটাও সোজা করে দিলাম ;-)
-#~ msgid "Show visual effects when no video is displayed"
-#~ msgstr "কোনো ভিডিও প্রদর্শন না করা হলে ভিজুয়াল ইফেক্ট প্রদর্শন করা হবে"
-
-#~ msgid "Show visual effects when playing an audio only file."
-#~ msgstr "শুধুমাত্র অডিও সহ ফাইল চালানো হলে ভিজুয়াল ইফেক্ট প্রদর্শন করা হবে।"
-
-#~ msgid "Name of the visual effects plugin"
-#~ msgstr "ভিজুয়াল ইফেক্ট প্লাগ-ইনের নাম"
-
-#~ msgid "Resize the canvas automatically on file load"
-#~ msgstr "ফাইল লোড হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের মাপ পুনরায় নির্ধারণ করা হবে"
-
-#~ msgid "Shuffle mode"
-#~ msgstr "পাঁচমিশালি মোড"
-
-#~ msgid "Visualization quality setting"
-#~ msgstr "ভিশুয়ালাইজেশন প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
-
-#~ msgid "Quality setting for the audio visualization."
-#~ msgstr "অডিও ভিজুয়ালাইজেশনের ক্ষেত্রে গুণমান সেটিং।"
-
-#~ msgid ""
-#~ "Whether to remember the position of played audio/video files when pausing "
-#~ "or closing them"
-#~ msgstr ""
-#~ "চালানো অডিও/ভিডিও ফাইলগুলি সাময়িক ভাবে থামানো বা বন্ধ করার সময়ে তাদের "
-#~ "অবস্থান মনে রাখা হবে কিনা"
-
-#~ msgid "_Remove"
-#~ msgstr "অপসারণ (_R)"
-
-#~ msgid "Remove file from playlist"
-#~ msgstr "প্লে-লিস্ট থেকে ফাইল মুছে ফেলুন"
-
-#~ msgid "_Copy Location"
-#~ msgstr "অবস্থান কপি করুন(_C)"
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "নির্বাচিত অবস্থান ক্লিপ-বোর্ডে কপি করুন"
-
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
-#~ msgid "_Select Text Subtitles..."
-#~ msgstr "অনুবাদলিপির লেখনি নির্বাচন করুন...(_S)"
-
-#~ msgid "Select a file to use for text subtitles"
-#~ msgstr "অনুবাদলিপির জন্য ব্যবহারযোগ্য ফাইল নির্বাচন করুন"
-
-#~ msgid "Add..."
-#~ msgstr "যোগ করুন..."
-
-#~ msgid "Remove"
-#~ msgstr "অপসারণ"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "প্লে-লিস্ট সংরক্ষণ করুন..."
-
-#~ msgid "Move Up"
-#~ msgstr "উপরে স্থানান্তর"
-
-#~ msgid "Move Down"
-#~ msgstr "নীচে স্থানান্তর"
-
-#~ msgid "Large"
-#~ msgstr "বৃহৎ"
-
-#~ msgid "Extra Large"
-#~ msgstr "অধিক বৃহৎ"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "Totem সংক্রান্ত পছন্দ"
-
-#~ msgid "Start playing files from last position"
-#~ msgstr "সর্বশেষ স্থান থেকে আরম্ভ করে ফাইল চালানো হবে"
-
-#~ msgid "_Resize the window when a new video is loaded"
-#~ msgstr "একটি নতুন ভিডিও লোড হলে উইন্ডো পরিবর্তন করুন (_R)"
-
-#~ msgid "Disable screensaver when playing"
-#~ msgstr "প্লে করার সময়ে স্ক্রীন সেভার নিষ্ক্রিয় করুন"
-
-# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
-#~ msgctxt "Screensaver disable"
-#~ msgid "Video"
-#~ msgstr "ভিডিও"
-
-#~ msgid "Video or Audio"
-#~ msgstr "ভিডিও বা অডিও"
-
-#~ msgid "Visual Effects"
-#~ msgstr "ভিজুয়াল ইফেক্ট"
-
-# msgstr "ফাইল লোড করা হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের আকার পরিবর্তন করা হোক" <-- এটাও সোজা করে দিলাম ;-)
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr "অডিও ফাইল চালানো হলে ভিজুয়াল ইফেক্ট প্রদর্শন করা হবে (_v)"
-
-#~ msgid "_Type of visualization:"
-#~ msgstr "ভিশুয়ালাইজেশনের ধরন: (_T)"
-
-#~ msgid "Visualization _size:"
-#~ msgstr "ভিশুয়ালাইজেশন প্রদর্শনের মাপ: (_s)"
-
-#~ msgid "Open _Location"
-#~ msgstr "অবস্থান খুলুন (_L)"
-
-# msgstr "বের করে দেওয়া হোক (_ব)"
-# Eject অর্থে 'বার' শব্দটা সম্ভবত কথ্য ভাষার। Dict দেখেন।
-#~ msgid "_Fullscreen"
-#~ msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন (_F)"
-
-# msgstr "চালানো হোক (_চ)"
-# msgstr "প্রদর্শন করা হোক (_প)"
-# msgstr "প্রদর্শন (_প)"
-# আমি এটার Context সম্পর্কে জানিনা। তাই ভালভাবে বুঝতে পারতেছি না।
-#~ msgid "_Movie"
-#~ msgstr "চলচ্চিত্র (_M)"
-
-#~ msgid "Eject the current disc"
-#~ msgstr "বর্তমান ডিস্ক বের করে নিন"
-
-#~ msgid "View the properties of the current stream"
-#~ msgstr "বর্তমানে স্ট্রিমের বৈশিষ্ট্য প্রদর্শন করা হবে"
-
-#~ msgid "Play / P_ause"
-#~ msgstr "চালানো / থামানো হবে (_a)"
-
-# ঠিক করেন
-#~ msgid "Play or pause the movie"
-#~ msgstr "চলচ্চিত্র চালানো অথবা থামানো হবে"
-
-#~ msgid "_Edit"
-#~ msgstr "সম্পাদনা (_E)"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "প্লে-লিস্ট ফাঁকা করুন (_C)"
-
-# Header পরিবর্তন করা হইছে
-# Chapter=অধ্যায়
-# অশুদ্ধ - পরিক্ষা
-# শুদ্ধ - পরীক্ষা
-#~ msgid "Clear the playlist"
-#~ msgstr "প্লে-লিস্ট পরিষ্কার করুন"
-
-#~ msgid "Configure plugins to extend the application"
-#~ msgstr "অ্যাপ্লিকেশনের বৈশিষ্ট্য বৃদ্ধি করার জন্য প্লাগ-ইন কনফিগার করুন"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "চলচ্চিত্র অনুযায়ী উইন্ডোর মাপ পরিবর্তন করা হবে"
-
-#~ msgid "_Resize 1∶2"
-#~ msgstr "মাপ পরিবর্তন (_R) 1∶2"
-
-#~ msgid "Resize to half the original video size"
-#~ msgstr "ভিডিও-র মাপ অনুযায়ী অর্ধেক মাপ নির্ধারণ করা হবে"
-
-#~ msgid "Resize _1∶1"
-#~ msgstr "মাপ পরিবর্তন _1∶1"
-
-#~ msgid "Resize to the original video size"
-#~ msgstr "ভিডিও-র মাপ অনুযায়ী প্রকৃত মাপ নির্ধারণ করা হবে"
-
-#~ msgid "Resize _2∶1"
-#~ msgstr "মাপ পরিবর্তন _2∶1"
-
-#~ msgid "Resize to double the original video size"
-#~ msgstr "ভিডিও-র মাপ অনুযায়ী দ্বিগুণ মাপ নির্ধারণ করা হবে"
-
-#~ msgid "Switch camera angles"
-#~ msgstr "ক্যামেরার কোণ পরিবর্তন করুন"
-
-#~ msgid "_Go"
-#~ msgstr "চালনা (_G)"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "DVD মেনু প্রদর্শন"
-
-# msgstr "অধ্যায় মেনুতে দেখানো হোক"
-#~ msgid "Go to the title menu"
-#~ msgstr "শিরোনাম মেনু প্রদর্শন"
-
-# msgstr "অ্যাঙ্গেল (কোণ) মেনু দেখানো হোক"
-#~ msgid "Go to the audio menu"
-#~ msgstr "অডিও মেনু প্রদর্শন"
-
-# msgstr "ডিভিডি মেনু দেখানো হোক"
-#~ msgid "Go to the angle menu"
-#~ msgstr "অ্যাঙ্গেল মেনু প্রদর্শন"
-
-# msgstr "অডিও মেনু দেখানো হোক"
-#~ msgid "Go to the chapter menu"
-#~ msgstr "চ্যাপ্টার মেনু প্রদর্শন"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "পরবর্তী অধ্যায়/চলচ্চিত্র (_N)"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "পরবর্তি অধ্যায় অথবা চলচ্চিত্র"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "পূর্ববর্তী অধ্যায়/চলচ্চিত্র (_P)"
-
-#~ msgid "_Sound"
-#~ msgstr "শব্দ (_S)"
-
-#~ msgid "Volume _Up"
-#~ msgstr "শব্দের মাত্রা বৃদ্ধি করুন (_U)"
-
-#~ msgid "Volume _Down"
-#~ msgstr "শব্দের মাত্রা হ্রাস করুন (_D)"
-
-#~ msgid "_Contents"
-#~ msgstr "সূচিপত্র (_C)"
-
-#~ msgid "Help contents"
-#~ msgstr "সহায়িকার বিষয়বস্তু"
-
-# msgstr "কোনটিই নয়"
-# msgstr "একটিও নয়"
-#~ msgid "_About"
-#~ msgstr "পরিচিতি (_A)"
-
-#~ msgid "About this application"
-#~ msgstr "অ্যাপ্লিকেশন পরিচিতি"
-
-#~ msgid "Show _Controls"
-#~ msgstr "নিয়ন্ত্রক বাটন প্রদর্শন করা হবে (_C)"
-
-#~ msgid "Show controls"
-#~ msgstr "নিয়ন্ত্রক বাটন প্রদর্শন করা হবে"
-
-#~ msgid "S_idebar"
-#~ msgstr "সাইড-বার (_i)"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "সাইড-বার প্রদর্শন অথবা আড়াল করুন"
-
-# msgstr "_অ্যাস্পেক্টের (আবয়ব) অনুপাত পরিবর্তন করা হোক"
-#~ msgid "Sets automatic aspect ratio"
-#~ msgstr "স্বয়ংক্রিয়রূপে অ্যাস্পেক্টের অনুপাত নির্ধারণ করে"
-
-# msgstr "_অ্যাস্পেক্টের (আবয়ব) অনুপাত পরিবর্তন করা হোক"
-# ../data/totem.glade.ue:h:71
-#~ msgid "Sets square aspect ratio"
-#~ msgstr "চতুষ্কোন অ্যাস্পেক্ট অনুপাত নির্ধারণ করে"
-
-#~ msgid "Sets 4∶3 (TV) aspect ratio"
-#~ msgstr "4∶3 (টিভি) অ্যাসপেক্ট অনুপাত সেট করে"
-
-#~ msgid "Sets 16∶9 (widescreen) aspect ratio"
-#~ msgstr "16∶9 (ওয়াইডস্ক্রীন) অ্যাসপেক্ট অনুপাত সেট করে"
-
-#~ msgid "Sets 2.11∶1 (DVB) aspect ratio"
-#~ msgstr "2.11∶1 (DVB) অ্যাসপেক্ট অনুপাত সেট করে"
-
-# msgstr "পেছনে"
-#~ msgid "Skip _Forward"
-#~ msgstr "এগিয়ে চলুন (_F)"
-
-# msgstr "পেছনে"
-#~ msgid "Skip forward"
-#~ msgstr "এগিয়ে চলুন"
-
-# আগেরটার মত
-#~ msgid "Skip _Backwards"
-#~ msgstr "পিছিয়ে যান (_B)"
-
-# আগেরটার মত
-#~ msgid "Skip backwards"
-#~ msgstr "পিছিয়ে যান"
-
-#~ msgid "Time seek bar"
-#~ msgstr "সময় প্রাপ্ত করতে ব্যবহৃত বার"
-
-# msgstr "এই চলচ্চিত্রটি ভাঙা এবং এর পরবর্তি অংশ চালানো সম্ভব নয়" <-- বানান
-# msgstr "এই চলচ্চিত্রটি ত্রুটিযুক্ত এবং এর পরবর্তী অংশ চালানো সম্ভব নয়"
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "এটি বৈধ .desktop ফাইল নয়"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "ডেস্কটপ ফাইলের অজ্ঞাত সংস্করণ '%s'"
-
-#~ msgid "Starting %s"
-#~ msgstr "%s আরম্ভ করা হচ্ছে"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "অ্যাপ্লিকেশন দ্বারা কমান্ড-লাইনের মাধ্যমে নথিপত্র গ্রহণ করা হয় না"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "প্রারম্ভিক বিকল্প অজানা: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr "'Type=Link' ডেস্কটপ এনট্রির ক্ষেত্রে নথিপত্রের URI উল্লেখ করা সম্ভব নয়"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "প্রারম্ভ করার যোগ্য বস্তু নয়"
-
-#~ msgid "File _Format: %s"
-#~ msgstr "ফাইলের বিন্যাস: %s (_F)"
-
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
-#~ msgid "All Files"
-#~ msgstr "সকল ফাইল"
-
-#~ msgid "All Supported Files"
-#~ msgstr "সমর্থিত সকল ফাইল"
-
-#~ msgid "By Extension"
-#~ msgstr "এক্সটেনশন অনুযায়ী"
-
-#~ msgid "File Format"
-#~ msgstr "ফাইলের বিন্যাস"
-
-#~ msgid "Extension(s)"
-#~ msgstr "এক্সটেনশন"
-
-#~ msgid ""
-#~ "The program was not able to find out the file format you want to use for `"
-#~ "%s'. Please make sure to use a known extension for that file or manually "
-#~ "choose a file format from the list below."
-#~ msgstr ""
-#~ "`%s'-র জন্য ব্যবহারের উদ্দেশ্যে ফাইলের বিন্যাসটি এই প্রোগ্রাম দ্বারা সনাক্ত করা "
-#~ "সম্ভব হয়নি। অনুগ্রহ করে এই ফাইলের জন্য একটি পরিচিত এনক্সটেশন  প্রয়োগ করুন অথবা "
-#~ "নিম্নলিখিত তালিকা থেকে একটি ফাইলের বিন্যাস নির্বাচন করুন।"
-
-#~ msgid "File format not recognized"
-#~ msgstr "ফাইলের বিন্যাস সনাক্ত করা যায়নি"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "সেশান পরিচালনব্যবস্থার সাথে সংযোগ বিচ্ছিন্ন করা হবে"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "সংরক্ষিত কনফিগারেশন ধারণকারী ফাইল উল্লেখ করুন"
-
-#~ msgid "FILE"
-#~ msgstr "FILE"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "সেশান পরিচালনার ID উল্লেখ করুন"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Session management options:"
-#~ msgstr "সেশান পরিচালনা সংক্রান্ত বিকল্প:"
-
-#~ msgid "Show session management options"
-#~ msgstr "সেশান পরিচালনা সংক্রান্ত বিকল্প প্রদর্শন করা হবে"
-
-#~ msgid "_Play Now"
-#~ msgstr "এখন চালানো হবে (_P)"
-
-# Header পরিবর্তন করা হইছে
-# Chapter=অধ্যায়
-# অশুদ্ধ - পরিক্ষা
-# শুদ্ধ - পরীক্ষা
-#~ msgid "_Add to Playlist"
-#~ msgstr "প্লে-লিস্টের মধ্যে যোগ করুন (_A)"
-
-#~ msgid "No File"
-#~ msgstr "ফাইল নেই।"
-
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "Totem একটি মুক্ত সফ্টওয়্যার; Free Software Foundation দ্বারা প্রকাশিত GNU "
-#~ "General Public License-র শর্তানুযায়ী এটি বিতরণ ও পরিবর্তন করা যাবে; "
-#~ "লাইসেন্সের সংস্করণ ২ অথবা (আপনার সুবিধানুযায়ী) ঊর্ধ্বতন কোনো সংস্করণের অধীন।"
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "Totem বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু এটির "
-#~ "জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো সুনির্দিষ্ট কর্ম সাধনের "
-#~ "জন্য অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে GNU General Public License "
-#~ "পড়ুন।"
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "Totem-র সাথে GNU General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া উচিত; "
-#~ "না থাকলে নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software Foundation, "
-#~ "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
-
-#~ msgid ""
-#~ "Totem contains an exception to allow the use of proprietary GStreamer "
-#~ "plugins."
-#~ msgstr ""
-#~ "Totem দ্বারা প্রোপ্রাইটারি GStreamer প্লাগ-ইন ব্যবহারের জন্য প্রযোজ্য অনুমোদন "
-#~ "উপস্থিত রয়েছে।"
-
-#~ msgid "Copyright © 2002-2009 Bastien Nocera"
-#~ msgstr "স্বত্বাধিকার ২০০২-২০০৯ বেস্টিয়ান নোসেরা"
-
-#~ msgid "translator-credits"
-#~ msgstr "রুণা ভট্টাচার্য্য"
-
-#~ msgid "Totem Website"
-#~ msgstr "Totem ওয়েব-সাইট"
-
-#~ msgid "Totem %s"
-#~ msgstr "Totem %s"
-
-#~ msgid "No error message"
-#~ msgstr "সমস্যাজড়িত বার্তা নেই"
-
-#~ msgid "Open Location..."
-#~ msgstr "অবস্থান খুলুন..."
-
-# Playlist=চলচ্চিত্রের তালিকা
-#~ msgid "Show/Hide Controls"
-#~ msgstr "নিয়ন্ত্রক বাটন প্রদর্শন/আড়াল করা হবে"
-
-# Header পরিবর্তন করা হইছে
-# Chapter=অধ্যায়
-# অশুদ্ধ - পরিক্ষা
-# শুদ্ধ - পরীক্ষা
-#~ msgid "Playlist index"
-#~ msgstr "প্লে-লিস্টের ইনডেক্স"
-
-# Header পরিবর্তন করা হইছে
-# Chapter=অধ্যায়
-# অশুদ্ধ - পরিক্ষা
-# শুদ্ধ - পরীক্ষা
-#~ msgid "MP3 ShoutCast playlist"
-#~ msgstr "MP3 ShoutCast প্লে-লিস্ট"
-
-#~ msgid "MP3 audio (streamed)"
-#~ msgstr "MP3 অডিও (স্ট্রিম করা)"
-
-#~ msgid "MP3 audio (streamed, DOS format)"
-#~ msgstr "MP3 অডিও (স্ট্রিম করা, DOS বিন্যাস)"
-
-#~ msgid "XML Shareable Playlist"
-#~ msgstr "XML সহযোগে যৌথভাবে ব্যবহারযোগ্য প্লে-লিস্ট"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "প্লে-লিস্ট সংরক্ষণ করা যায়নি"
-
-#~ msgid "Save Playlist"
-#~ msgstr "প্লে-লিস্ট সংরক্ষণ করুন"
-
-# Header পরিবর্তন করা হইছে
-# Chapter=অধ্যায়
-# অশুদ্ধ - পরিক্ষা
-# শুদ্ধ - পরীক্ষা
-#~ msgid "Playlist"
-#~ msgstr "প্লে-লিস্ট"
-
-# Header পরিবর্তন করা হইছে
-# Chapter=অধ্যায়
-# অশুদ্ধ - পরিক্ষা
-# শুদ্ধ - পরীক্ষা
-#~ msgid "Playlist error"
-#~ msgstr "প্লে-লিস্ট সংক্রান্ত সমস্যা"
-
-# msgstr "স্থগিত"
-#~ msgid "0:00 / 0:00"
-#~ msgstr "০:০০ / ০:০০"
-
-#~ msgid "%s (Streaming)"
-#~ msgstr "%s (স্ট্রিম করা হচ্ছে)"
-
-#~ msgid "Buffering"
-#~ msgstr "বাফার করা হচ্ছে"
-
-#~ msgid "%lf %%"
-#~ msgstr "%lf %%"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s, %s"
-
-#~ msgid "%s, %f %%"
-#~ msgstr "%s, %f %%"
-
-# msgstr "এই পাসওয়ার্ডটি মনে রাখা হবে"
-#~ msgid "Audio files"
-#~ msgstr "অডিও ফাইল"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "চলচ্চিত্র অথবা প্লে-লিস্ট নির্বাচন করুন"
-
-#~ msgid "Add Directory"
-#~ msgstr "ডিরেক্টরি যোগ করুন"
-
-#~ msgid "Create a video DVD or a (S)VCD from the currently opened movie"
-#~ msgstr "বর্তমানে চলমান চলচ্চিত্র থেকে ভিডিও DVD অথবা (S)VCD নির্মাণ করুন"
-
-#~ msgid "Copy the currently playing video DVD"
-#~ msgstr "বর্তমানে চলমান ভিডিও DVD কপি করুন"
-
-#~ msgid "Copy the currently playing (S)VCD"
-#~ msgstr "বর্তমানে চলমান (S)VCD কপি করুন"
-
-#~ msgid "Add Chapter..."
-#~ msgstr "চ্যাপ্টার যোগ করুন..."
-
-#~ msgid "D-Bus Service"
-#~ msgstr "D-Bus পরিসেবা"
-
-#~ msgid "The URI ‘%s’ is not supported."
-#~ msgstr "URI ‘%s’ সমর্থিত নয়।"
-
-#~ msgid "Grilo Browser"
-#~ msgstr "Grilo ব্রাউজার"
-
-#~ msgid "A plugin to let you browse media content from various sources"
-#~ msgstr ""
-#~ "একটি প্লাগ-ইন যা বিভিন্ন উৎস থেকে অাপনাকে মিডিয়া বিষয়বস্তু ব্রাউজ করতে সাহায্য "
-#~ "করে"
-
-#~ msgid "Copy Location"
-#~ msgstr "অবস্থান অনুলিপি করুন"
-
-# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
-#~ msgid "Browse"
-#~ msgstr "ব্রাউজ করুন"
-
-#~ msgid "Download movie subtitles from OpenSubtitles"
-#~ msgstr "OpenSubtitles থেকে চলচ্চিত্রের অনুবাদলিপি ডাউনলোড করুন"
-
-#~ msgid "Python Console Menu"
-#~ msgstr "Python কনসোল মেনু"
-
-#~ msgid "Show Totem's Python console"
-#~ msgstr "Totem-র python কনসোল প্রদর্শন করা হবে"
-
-#~ msgid "Enable remote Python debugging with rpdb2"
-#~ msgstr "rpdb2-র সাহায্যে দূরবর্তী অবস্থান থেকে python ডিবাগ প্রক্রিয়া সক্রিয় করুন"
-
-#~ msgid "_Rotate Clockwise"
-#~ msgstr "ঘড়ির কাঁটার দিকে ঘোরান (_R)"
-
-#~ msgid "Rotate Counterc_lockwise"
-#~ msgstr "ঘড়ির কাঁটার বিপরীত দিকে ঘোরান (_l)"
-
-#~ msgid "Save a Copy..."
-#~ msgstr "একটি প্রতিলিপি সংরক্ষণ করুন..."
-
-#~ msgid "Save a copy of the movie"
-#~ msgstr "মুভির একটি প্রতিলিপি সংরক্ষণ করুন"
-
-# auto translated by TM merge from project: gnome-dictionary, version: 3.8.0, DocId: gnome-dictionary
-#~ msgid "Save a Copy"
-#~ msgstr "একটি প্রতিলিপি সংরক্ষণ করুন"
-
-#~ msgid "Movie stream"
-#~ msgstr "মুভি স্ট্রীম"
-
-#~ msgid "Take a screenshot"
-#~ msgstr "পর্দার ছবি নিন"
-
-#~ msgid "Create a gallery of screenshots"
-#~ msgstr "স্ক্রিন-শটের গ্যালারি নির্মাণ করুন"
-
-#~ msgid "_Skip To..."
-#~ msgstr "এতে চলে যান (_S)..."
-
-# যাওয়া হোক। আগের কয়েকটাতেও এই সমস্যা আছে
-#~ msgid "Skip to a specific time"
-#~ msgstr "চিহ্নিত সময়ে এগিয়ে চলুন"

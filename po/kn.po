@@ -1,23 +1,26 @@
-# translation of totem.master.kn.po to Kannada
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2010, 2012, 2013, 2014.
-# Shankar <svenkate@redhat.com>, 2014. #zanata.
+# This file is distributed under the same license as the totem package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
+# Will Thompson <wjt@endlessm.com>, 2019
+# 
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: totem.master.kn\n"
+"Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-05 14:09+0000\n"
-"PO-Revision-Date: 2014-09-22 23:00+0530\n"
-"Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
-"Language-Team: Kannada <kde-i18n-doc@kde.org>\n"
-"Language: kn\n"
+"PO-Revision-Date: 2016-11-18 06:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
+"Language-Team: Kannada (https://www.transifex.com/endless-os/teams/9016/kn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -31,34 +34,28 @@ msgid "Play movies"
 msgstr "ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸು"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:11
-#, fuzzy
 msgid ""
 "Videos is the official movie player of the GNOME desktop environment. It "
 "features a searchable list of local videos, and DVDs, as well as local "
-"network video shares (using UPnP/DLNA) and video highlights from a number of "
-"web sites."
+"network video shares (using UPnP/DLNA) and video highlights from a number of"
+" web sites."
 msgstr ""
-"Totem ಎಂದೂ ಕರೆಯಲಾಗುವ Videos, GNOME ಗಣಕತೆರೆ ಪರಿಸರದ ಅಧೀಕೃತ ಚಲನಚಿತ್ರ ಚಾಲಕವಾಗಿದೆ. "
-"ಇದು ಸ್ಥಳೀಯ ವೀಡಿಯೊಗಳ, ಮತ್ತು DVD ಗಳ ಹುಡುಕಬಹುದಾ ಪಟ್ಟಿಯನ್ನು, ಹಾಗೂ ಸ್ಥಳೀಯ ಜಾಲಬಂಧ "
-"ವೀಡಿಯೊ ಹಂಚಿಕೆಗಳು (UPnP/DLNA ಅನ್ನು ಬಳಸಿಕೊಂಡು) ಮತ್ತು ಹಲವಾರು ಜಾಲ ತಾಣಗಳಿಂದ ವೀಡಿಯೊ "
-"ಹೈಲೈಟ್‌ಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ."
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:17
-#, fuzzy
 msgid ""
 "Videos comes with added functionality such as a subtitle downloader, the "
 "ability to speed up or down playback, create screenshot galleries, and "
 "support for recording DVDs."
 msgstr ""
-"Totem ನೊಂದಿಗೆ ಹಲವಾರು ಕ್ರಿಯಾಶೀಲತೆಯನ್ನು ಹೊಂದಿರುತ್ತದೆ, ಅವುಗಳೆಂದರೆ: ಉಪಶೀರ್ಷಿಕೆ "
-"ಡೌನ್‌ಲೋಡರ್, ಮತ್ತು DVDಗಳನ್ನು ರೆಕಾರ್ಡಿಂಗ್‌ ಮಾಡುವುದನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ."
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Totem.desktop.in.in:6
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr "ವೀಡಿಯೊ;ಚಲನಚಿತ್ರ;ಫಿಲ್ಮ್‍;ಕ್ಲಿಪ್;ಸರನಿ;ಚಾಲಕ;DVD;TV;ಡಿಸ್ಕ್‍;"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Totem.desktop.in.in:9
 msgid "org.gnome.Totem"
 msgstr ""
@@ -100,8 +97,8 @@ msgid ""
 "Amount of data to buffer for network streams before starting to display the "
 "stream (in seconds)."
 msgstr ""
-"ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ತೋರಿಸುವ ಮೊದಲು ಜಾಲಬಂಧ ಸ್ಟ್ರೀಮ್‌ಗಳಿಗಾಗಿ ಬಫರ್ ಮಾಡಬೇಕಿರುವ ದತ್ತಾಂಶದ ಪ್ರಮಾಣ "
-"(ಸೆಕೆಂಡುಗಳಲ್ಲಿ)."
+"ಸ್ಟ್ರೀಮ್‌ಗಳನ್ನು ತೋರಿಸುವ ಮೊದಲು ಜಾಲಬಂಧ ಸ್ಟ್ರೀಮ್‌ಗಳಿಗಾಗಿ ಬಫರ್ ಮಾಡಬೇಕಿರುವ "
+"ದತ್ತಾಂಶದ ಪ್ರಮಾಣ (ಸೆಕೆಂಡುಗಳಲ್ಲಿ)."
 
 #: data/org.gnome.totem.gschema.xml.in:39
 msgid "Subtitle font"
@@ -125,35 +122,27 @@ msgid "Encoding character set for subtitle."
 msgstr "ಉಪಶೀರ್ಷಿಕೆಗಾಗಿನ ಎನ್ಕೋಡಿಂಗ್ ಅಕ್ಷರ"
 
 #: data/org.gnome.totem.gschema.xml.in:55
-#, fuzzy
 msgid "Default location for the “Open…” dialogs"
-msgstr "\"ತೆರೆ...\" ಸಂವಾದಗಳಿಗಾಗಿನ ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಥಳ"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:56
-#, fuzzy
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr ""
-"\"ತೆರೆ...\" ಸಂವಾದಗಳಿಗಾಗಿನ ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಥಳ, ಪ್ರಸಕ್ತ ಕೋಶವು ಪೂರ್ವನಿಯೋಜಿತವಾಗಿರುತ್ತದೆ"
 
 #: data/org.gnome.totem.gschema.xml.in:60
-#, fuzzy
 msgid "Default location for the “Take Screenshot” dialogs"
-msgstr "\"ತೆರೆಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊ...\" ಸಂವಾದಗಳಿಗಾಗಿನ ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಥಳ"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:61
-#, fuzzy
 msgid ""
 "Default location for the “Take Screenshot” dialogs. Default is the Pictures "
 "directory."
 msgstr ""
-"\"ತೆರೆಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊ...\" ಸಂವಾದಗಳಿಗಾಗಿನ ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಥಳ, ಚಿತ್ರಗಳ ಕೋಶವು "
-"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿರುತ್ತದೆ"
 
 #: data/org.gnome.totem.gschema.xml.in:65
-#, fuzzy
 msgid "Whether to disable the plugins in the user’s home directory"
-msgstr "ಬಳಕೆದಾರರ ನೆಲೆ ಕೋಶಗಳಲ್ಲಿ ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬೇಕೆ"
+msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:69
 msgid "Whether to disable the keyboard shortcuts"
@@ -161,7 +150,8 @@ msgstr "ಬಳಕೆದಾರರ ನೆಲೆ ಕೋಶಗಳಲ್ಲಿ ಕೀ
 
 #: data/org.gnome.totem.gschema.xml.in:73
 msgid "Whether to autoload text subtitle files when a movie is loaded"
-msgstr "ಚಲನಚಿತ್ರವನ್ನು ಲೋಡ್‌ ಮಾಡಿದಾಗ ಪಠ್ಯ ಉಪಶೀರ್ಷಿಕೆ ಕಡತಗಳನ್ನು ತಾನಾಗಿಯೆ ಲೋಡ್‌ ಮಾಡು"
+msgstr ""
+"ಚಲನಚಿತ್ರವನ್ನು ಲೋಡ್‌ ಮಾಡಿದಾಗ ಪಠ್ಯ ಉಪಶೀರ್ಷಿಕೆ ಕಡತಗಳನ್ನು ತಾನಾಗಿಯೆ ಲೋಡ್‌ ಮಾಡು"
 
 #: data/org.gnome.totem.gschema.xml.in:77
 msgid "Active plugins list"
@@ -182,7 +172,8 @@ msgstr "ತೋರಿಸಲು ಕೋಶಗಳು"
 #: data/org.gnome.totem.gschema.xml.in:83
 msgid "Directories to show in the browse interface, none by default"
 msgstr ""
-"ವೀಕ್ಷಣಾ ಸಂಪರ್ಕಸಾಧನದಲ್ಲಿ ತೋರಿಸಲಾಗುವ ಕೋಶಗಳು, ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಏನೂ ಇಲ್ಲ ಎಂದಿರುತ್ತದೆ"
+"ವೀಕ್ಷಣಾ ಸಂಪರ್ಕಸಾಧನದಲ್ಲಿ ತೋರಿಸಲಾಗುವ ಕೋಶಗಳು, ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಏನೂ ಇಲ್ಲ "
+"ಎಂದಿರುತ್ತದೆ"
 
 #: data/preferences.ui:13 src/backend/bacon-video-widget.c:5675
 msgid "Stereo"
@@ -233,9 +224,8 @@ msgid "Plugins"
 msgstr "ಪ್ಲಗ್ಇನ್‌ಗಳು"
 
 #: data/preferences.ui:338
-#, fuzzy
 msgid "Plugins…"
-msgstr "ಪ್ಲಗ್ಇನ್‌ಗಳು"
+msgstr ""
 
 #: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
@@ -291,124 +281,104 @@ msgid "Audio"
 msgstr "ಆಡಿಯೋ"
 
 #: data/shortcuts.ui:16
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
-msgstr "ಸಾಮಾನ್ಯ"
+msgstr ""
 
 #: data/shortcuts.ui:21
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Properties"
-msgstr "ಗುಣಲಕ್ಷಣಗಳು"
+msgstr ""
 
 #: data/shortcuts.ui:28
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Make Available Offline"
-msgstr "ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಲಭ್ಯವಾಗುವಂತೆ ಮಾಡು"
+msgstr ""
 
 #: data/shortcuts.ui:35
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "ಒಂದು ತೆರೆಚಿತ್ರವನ್ನು ತೆಗೆದುಕೋ (_S)"
+msgstr ""
 
 #: data/shortcuts.ui:42
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "ತ್ಯಜಿಸು"
+msgstr ""
 
 #: data/shortcuts.ui:50
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "ಧ್ವನಿಯ ಪ್ರಮಾಣವನ್ನು ಹೆಚ್ಚುಮಾಡು"
+msgstr ""
 
 #: data/shortcuts.ui:55
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "ಧ್ವನಿಯ ಪ್ರಮಾಣ"
+msgstr ""
 
 #: data/shortcuts.ui:62
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "ಧ್ವನಿಯ ಪ್ರಮಾಣವನ್ನು ಕಡಿಮೆ ಮಾಡು"
+msgstr ""
 
 #: data/shortcuts.ui:70
-#, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "ನೋಟ (_V)"
+msgstr ""
 
 #: data/shortcuts.ui:75
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "ಪೂರ್ಣತೆರೆಗೆ ಟಾಗಲ್‌ ಮಾಡು"
+msgstr ""
 
 #: data/shortcuts.ui:82
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "ಪೂರ್ಣತೆರೆ"
+msgstr ""
 
 #: data/shortcuts.ui:89
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "ಹಿಗ್ಗಿಸು"
+msgstr ""
 
 #: data/shortcuts.ui:96
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "ಹಿಗ್ಗಿಸು"
+msgstr ""
 
 #: data/shortcuts.ui:103
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Rotate ↷"
-msgstr "ತಿರುಗಿಸು (_R) ↷"
+msgstr ""
 
 #: data/shortcuts.ui:110
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Rotate ↶"
-msgstr "ತಿರುಗಿಸಿ ↶"
+msgstr ""
 
 #: data/shortcuts.ui:119
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "ಪ್ಲೇಬ್ಯಾಕ್"
+msgstr ""
 
 #: data/shortcuts.ui:124
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "ಚಲಾಯಿಸು/ವಿರಮಿಸು"
+msgstr ""
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "ಹಿಂದಿನ ಅಧ್ಯಾಯ ಅಥವ ಚಲನಚಿತ್ರ"
+msgstr ""
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "ಹೊಸ ಅಧ್ಯಾಯಕ್ಕಾಗಿನ ಹೆಸರು:"
+msgstr ""
 
 #: data/shortcuts.ui:164
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "ಇಲ್ಲಿಗೆ ನೆಗೆ"
+msgstr ""
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
@@ -416,10 +386,9 @@ msgid "Go back 15 seconds"
 msgstr ""
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "0 ಸೆಕೆಂಡುಗಳು"
+msgstr ""
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -432,16 +401,14 @@ msgid "Step forward one frame"
 msgstr ""
 
 #: data/shortcuts.ui:200 data/shortcuts.ui:248
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "0 ಸೆಕೆಂಡುಗಳು"
+msgstr ""
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "ಪ್ರತಿ ಸೆಕೆಂಡಿನಲ್ಲಿನ %d ಚೌಕಟ್ಟು"
+msgstr ""
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
@@ -454,10 +421,9 @@ msgid "Go forward 10 minutes"
 msgstr ""
 
 #: data/shortcuts.ui:279
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "ಇಲ್ಲಿಗೆ ಹೋಗು (_S)..."
+msgstr ""
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
@@ -508,31 +474,36 @@ msgstr "ವೆಬ್‌ ವೀಡಿಯೊವನ್ನು ಸೇರಿಸು (_W
 msgid "_Aspect Ratio"
 msgstr "ಆಕಾರ ಅನುಪಾತ (_A)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:54
 msgctxt "Aspect ratio"
 msgid "Auto"
 msgstr "ಸ್ವಯಂಚಾಲಿತ"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:59
 msgctxt "Aspect ratio"
 msgid "Square"
 msgstr "ಚೌಕ"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:64
 msgctxt "Aspect ratio"
 msgid "4∶3 (TV)"
 msgstr "4∶3 (TV)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:69
 msgctxt "Aspect ratio"
 msgid "16∶9 (Widescreen)"
 msgstr "16:9 (ಅಗಲತೆರೆ)"
 
-#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the displayed aspect ratio of a video
+#. Translators: an entry in the 'Aspect Ratio' menu, used to choose the
+#. displayed aspect ratio of a video
 #: data/totem.ui:74
 msgctxt "Aspect ratio"
 msgid "2.11∶1 (DVB)"
@@ -652,45 +623,42 @@ msgstr ""
 #. should be exactly one missing thing (source or converter)
 #: src/backend/bacon-video-widget.c:3977 src/backend/bacon-video-widget.c:3985
 #, c-format
-msgid "The playback of this movie requires a %s plugin which is not installed."
+msgid ""
+"The playback of this movie requires a %s plugin which is not installed."
 msgid_plural ""
-"The playback of this movie requires the following plugins which are not "
-"installed:\n"
+"The playback of this movie requires the following plugins which are not installed:\n"
 "\n"
 "%s"
 msgstr[0] ""
-"ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ "
-"ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
+"ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
 "\n"
 "%s"
 msgstr[1] ""
-"ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ "
-"ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
+"ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
 "\n"
 "%s"
 
 #: src/backend/bacon-video-widget.c:3997
-#, fuzzy
 msgid ""
 "This stream cannot be played. It’s possible that a firewall is blocking it."
-msgstr "ಸ್ಟ್ರೀಮ್ ಅನ್ನು ಚಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಫೈರ್ವಾಲ್ ಇದನ್ನು ತಡೆಯುತ್ತಿರುವ ಸಾಧ್ಯತೆ ಇದೆ."
+msgstr ""
 
 #: src/backend/bacon-video-widget.c:4000
 msgid ""
 "An audio or video stream is not handled due to missing codecs. You might "
 "need to install additional plugins to be able to play some types of movies"
 msgstr ""
-"ಕೋಡೆಕ್‌ಗಳು ದೊರೆಯದೆ ಇದ್ದುದ್ದರಿಂದ ಒಂದು ಆಡಿಯೊ ಅಥವ ವಿಡಿಯೊ ಸ್ಟ್ರೀಮ್ ಅನ್ನು ನಿಭಾಯಿಸಲು "
-"ಸಾಧ್ಯವಾಗಿಲ್ಲ.ಕೆಲವು ಬಗೆಯ ಚಲನಚಿತ್ರಗಳನ್ನು ಚಲಾಯಿಸಲು ನೀವು ಹೆಚ್ಚುವರಿ ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು "
-"ಅನುಸ್ಥಾಪಿಸಬೇಕಾಗಬಹುದು."
+"ಕೋಡೆಕ್‌ಗಳು ದೊರೆಯದೆ ಇದ್ದುದ್ದರಿಂದ ಒಂದು ಆಡಿಯೊ ಅಥವ ವಿಡಿಯೊ ಸ್ಟ್ರೀಮ್ ಅನ್ನು "
+"ನಿಭಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.ಕೆಲವು ಬಗೆಯ ಚಲನಚಿತ್ರಗಳನ್ನು ಚಲಾಯಿಸಲು ನೀವು ಹೆಚ್ಚುವರಿ "
+"ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸಬೇಕಾಗಬಹುದು."
 
 #: src/backend/bacon-video-widget.c:4011
 msgid ""
 "This file cannot be played over the network. Try downloading it locally "
 "first."
 msgstr ""
-"ಈ ಕಡತವನ್ನು ಜಾಲಬಂಧದಲ್ಲಿ ಚಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ. ಅದನ್ನು ಮೊದಲು ಸ್ಥಳೀಯವಾಗಿ ಇಳಿಸಿಕೊಳ್ಳಲು "
-"ಪ್ರಯತ್ನಿಸಿ."
+"ಈ ಕಡತವನ್ನು ಜಾಲಬಂಧದಲ್ಲಿ ಚಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ. ಅದನ್ನು ಮೊದಲು ಸ್ಥಳೀಯವಾಗಿ "
+"ಇಳಿಸಿಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸಿ."
 
 #: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
@@ -706,8 +674,8 @@ msgstr "ಮೀಡಿಯಾದಲ್ಲಿ ಯಾವುದೆ ಬೆಂಬಲಿ�
 
 #: src/backend/bacon-video-widget.c:6173
 msgid ""
-"Some necessary plug-ins are missing. Make sure that the program is correctly "
-"installed."
+"Some necessary plug-ins are missing. Make sure that the program is correctly"
+" installed."
 msgstr ""
 "ಅನುಸ್ಥಾಪಿಸಲಾದ ಕೆಲವು ಪ್ಲಗ್‌-ಇನ್‌ಗಳು ಕಾಣಿಸುತ್ತಿಲ್ಲ. ಪ್ರೊಗ್ರಾಮ್ ಅನ್ನು ಸರಿಯಾಗಿ "
 "ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
@@ -734,9 +702,8 @@ msgid ""
 msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
-#, fuzzy
 msgid "Open with VLC"
-msgstr "\"%s\" ನೊಂದಿಗೆ ತೆರೆ (_O)"
+msgstr ""
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
@@ -757,7 +724,6 @@ msgstr ""
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
 #. * the separator that your locale uses or use "%Id" instead
 #. * of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:70 src/plugins/skipto/totem-time-entry.c:57
 #, c-format
 msgctxt "long time format"
@@ -769,7 +735,6 @@ msgstr "%d:%02d:%02d"
 #. * hours, 5 minutes, and 2 seconds playback remaining. You may
 #. * change ":" to the separator that your locale uses or use
 #. * "%Id" instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:78
 #, c-format
 msgctxt "long time format"
@@ -781,7 +746,6 @@ msgstr "-%d:%02d:%02d"
 #. * minutes and 2 seconds playback remaining. You may change
 #. * ":" to the separator that your locale uses or use "%Id"
 #. * instead of "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:89
 #, c-format
 msgctxt "short time format"
@@ -793,7 +757,6 @@ msgstr "-%d:%02d"
 #. * minutes and 2 seconds. You may change ":" to the
 #. * separator that your locale uses or use "%Id" instead of
 #. * "%d" if your locale uses localized digits.
-#.
 #: src/gst/totem-time-helpers.c:98
 #, c-format
 msgctxt "short time format"
@@ -816,9 +779,12 @@ msgstr "ಎಳೆ-ಸುರಕ್ಷಿತ(ತ್ರೆಡ್‌-ಸೇಫ್‌
 msgid "Verify your system installation. Totem will now exit."
 msgstr "ನಿಮ್ಮ ಗಣಕದ ಅನುಸ್ಥಾಪನೆಯನ್ನು ಪರಿಶೀಲಿಸಿ. Totem ಈಗ ನಿರ್ಗಮಿಸುತ್ತದೆ."
 
-#. Translators: The first string is "Filename" (as translated); the second is an actual filename.
-#. The third string is "Resolution" (as translated); the fourth and fifth are screenshot height and width, respectively.
-#. The sixth string is "Duration" (as translated); the seventh is the movie duration in words.
+#. Translators: The first string is "Filename" (as translated); the second is
+#. an actual filename.
+#. The third string is "Resolution" (as translated); the fourth and fifth are
+#. screenshot height and width, respectively.
+#. The sixth string is "Duration" (as translated); the seventh is the movie
+#. duration in words.
 #: src/totem-gallery-thumbnailer.c:631
 #, c-format
 msgid ""
@@ -871,9 +837,9 @@ msgid "Channels"
 msgstr "ಚಾನಲ್‌ಗಳು"
 
 #: src/totem-interface.c:179 src/totem-interface.c:222
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t load the “%s” interface. %s"
-msgstr "'%s' ಸಂಪರ್ಕಸಾಧನವನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. %s"
+msgstr ""
 
 #: src/totem-interface.c:179
 msgid "The file does not exist."
@@ -917,21 +883,21 @@ msgid "Search"
 msgstr "ಹುಡುಕು"
 
 #: src/totem-menu.c:408
-#, fuzzy
 msgid "Audio Track"
-msgstr "ಆಡಿಯೊ ಟ್ರಾಕ್ #%d"
+msgstr ""
 
 #: src/totem-menu.c:411
-#, fuzzy
 msgid "Subtitle"
-msgstr "ಉಪಶೀರ್ಷಕೆಗಳು"
+msgstr ""
 
-#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle language of a DVD
+#. Translators: an entry in the "Subtitles" menu, used to choose the subtitle
+#. language of a DVD
 #: src/totem-menu.c:531
 msgid "None"
 msgstr "ಯಾವುದೂ ಇಲ್ಲ"
 
-#. Translators: an entry in the "Languages" menu, used to choose the audio language of a DVD
+#. Translators: an entry in the "Languages" menu, used to choose the audio
+#. language of a DVD
 #: src/totem-menu.c:535
 msgctxt "Language"
 msgid "Auto"
@@ -947,9 +913,9 @@ msgid "Play"
 msgstr "ಚಲಾಯಿಸು"
 
 #: src/totem-object.c:1473 src/totem-object.c:1501 src/totem-object.c:2048
-#, fuzzy, c-format
+#, c-format
 msgid "Totem could not play “%s”."
-msgstr "'%s' ಅನ್ನು Totem ಇಂದ ಚಲಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+msgstr ""
 
 #: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
@@ -1051,10 +1017,8 @@ msgid "Movies to play"
 msgstr "ಚಲಾಯಿಸಬೇಕಿರುವ ಚಲನಚಿತ್ರ"
 
 #: src/totem-options.c:100
-#, fuzzy
 msgid "Can’t enqueue and replace at the same time"
 msgstr ""
-"ಒಂದೇ ಸಮಯದಲ್ಲಿ ಸರತಿಯಲ್ಲಿ ನಿಲ್ಲುಸುವುದು ಮತ್ತು ಬದಲಾಯಿಸುವುದು ಎರಡನ್ನೂ ಮಾಡಲಾಗುವುದಿಲ್ಲ"
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1064,9 +1028,9 @@ msgid "Title %d"
 msgstr "ಶೀರ್ಷಿಕೆ %d"
 
 #: src/totem-playlist.c:993
-#, fuzzy, c-format
+#, c-format
 msgid "The playlist “%s” could not be parsed. It might be damaged."
-msgstr "ಚಾಲನಾಪಟ್ಟಿ '%s' ಅನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬಹುಷಃ ಅದು ಹಾಳಾಗಿರಬಹುದು."
+msgstr ""
 
 #: src/totem-preferences.c:184
 msgid "Configure Plugins"
@@ -1085,10 +1049,9 @@ msgid "Add to Favourites"
 msgstr "ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸು"
 
 #: src/totemselectiontoolbar.ui:40
-#, fuzzy
 msgctxt "button"
 msgid "Play"
-msgstr "ಚಲಾಯಿಸು"
+msgstr ""
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
 msgid "Shuffle"
@@ -1323,8 +1286,8 @@ msgid ""
 "Send notifications of currently-playing videos and allow remote control "
 "using MPRIS."
 msgstr ""
-"ಪ್ರಸಕ್ತ ಚಲಾಯಿತಗೊಳ್ಳುತ್ತಿರುವ ವೀಡಿಯೊಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಸೂಚನೆಗಳನ್ನು ಕಳುಹಿಸುತ್ತದೆ ಮತ್ತು "
-"MPRIS ಬಳಸಿಕೊಂಡು ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ."
+"ಪ್ರಸಕ್ತ ಚಲಾಯಿತಗೊಳ್ಳುತ್ತಿರುವ ವೀಡಿಯೊಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಸೂಚನೆಗಳನ್ನು ಕಳುಹಿಸುತ್ತದೆ "
+"ಮತ್ತು MPRIS ಬಳಸಿಕೊಂಡು ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ."
 
 #: src/plugins/dbusservice/dbusservice.py:210
 #: src/plugins/dbusservice/dbusservice.py:238
@@ -1349,8 +1312,8 @@ msgstr "ಕ್ಷಿಪ್ರ ಸಂದೇಶಗಾರನ (ಇನ್ಸ್ಟಂ
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:7
 msgid "Set your Instant Messenger status to away when a movie is playing"
 msgstr ""
-"ಒಂದು ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸುತ್ತಿರುವಾಗ ಕ್ಷಿಪ್ರ ಸಂದೇಶಗಾರನ ಸ್ಥಿತಿಯಲ್ಲಿ ಇಲ್ಲಿಲ್ಲ ಎಂಬ "
-"ಸಂದೇಶವನ್ನು ಇರಿಸು"
+"ಒಂದು ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸುತ್ತಿರುವಾಗ ಕ್ಷಿಪ್ರ ಸಂದೇಶಗಾರನ ಸ್ಥಿತಿಯಲ್ಲಿ ಇಲ್ಲಿಲ್ಲ "
+"ಎಂಬ ಸಂದೇಶವನ್ನು ಇರಿಸು"
 
 #: src/plugins/lirc/lirc.plugin.desktop.in:5
 msgid "Infrared Remote Control"
@@ -1361,14 +1324,12 @@ msgid "Support infrared remote control"
 msgstr "ಇನ್‌ಫ್ರಾರೆಡ್‌ ದೂರಸ್ಥ ನಿಯಂತ್ರಣವನ್ನು ಬೆಂಬಲಿಸು"
 
 #: src/plugins/lirc/totem-lirc.c:239
-#, fuzzy
 msgid "Couldn’t initialize lirc."
-msgstr "lirc ಅನ್ನು ಆರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+msgstr ""
 
 #: src/plugins/lirc/totem-lirc.c:251
-#, fuzzy
 msgid "Couldn’t read lirc configuration."
-msgstr "lirc ಸಂರಚನೆಯನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+msgstr ""
 
 #: src/plugins/media-player-keys/media-player-keys.plugin.desktop.in:5
 msgid "Media Player Keys"
@@ -1556,38 +1517,33 @@ msgstr "ಮಾರ್ಗಗಳು:"
 
 #. Title
 #: src/plugins/properties/bacon-video-widget-properties.c:106
-#, fuzzy
 msgctxt "Title"
 msgid "Unknown"
-msgstr "ಗೊತ್ತಿರದ"
+msgstr ""
 
 #. Artist
 #: src/plugins/properties/bacon-video-widget-properties.c:108
-#, fuzzy
 msgctxt "Artist"
 msgid "Unknown"
-msgstr "ಗೊತ್ತಿರದ"
+msgstr ""
 
 #. Album
 #: src/plugins/properties/bacon-video-widget-properties.c:110
-#, fuzzy
 msgctxt "Album"
 msgid "Unknown"
-msgstr "ಗೊತ್ತಿರದ"
+msgstr ""
 
 #. Year
 #: src/plugins/properties/bacon-video-widget-properties.c:112
-#, fuzzy
 msgctxt "Year"
 msgid "Unknown"
-msgstr "ಗೊತ್ತಿರದ"
+msgstr ""
 
 #. Container
 #: src/plugins/properties/bacon-video-widget-properties.c:118
-#, fuzzy
 msgctxt "Media container"
 msgid "Unknown"
-msgstr "ಗೊತ್ತಿರದ"
+msgstr ""
 
 #. Dimensions
 #: src/plugins/properties/bacon-video-widget-properties.c:121
@@ -1678,14 +1634,10 @@ msgid "rpdb2 password"
 msgstr "rpdb2 ಗುಪ್ತಪದ"
 
 #: src/plugins/pythonconsole/org.gnome.totem.plugins.pythonconsole.gschema.xml.in:7
-#, fuzzy
 msgid ""
-"A password to protect the rpdb2 server for debugging Totem from unauthorized "
-"remote access. If this is empty, a default of “totem” will be used."
+"A password to protect the rpdb2 server for debugging Totem from unauthorized"
+" remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
-"Totem ದೋಷನಿವಾರಣೆಗಾಗಿ ಅನಧೀಕೃತವಾದ ದೂರಸ್ಥ ನಿಲುಕಣೆಯನ್ನು ನಡೆಸದಂತೆ rpdb2 "
-"ಪೂರೈಕೆಗಣಕವನ್ನು ಸಂರಕ್ಷಿಸುವ ಒಂದು ಗುಪ್ತಪದ. ಖಾಲಿ ಬಿಟ್ಟಲ್ಲಿ, 'totem' ನ ಪೂರ್ವನಿಯೋಜಿತವನ್ನು "
-"ಬಳಸಲಾಗುತ್ತದೆ."
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
 msgid "Python Console"
@@ -1708,9 +1660,9 @@ msgstr "ಪೈಥಾನ್ ದೋಷನಿವಾರಕ"
 
 #. pylint: disable=E1101
 #: src/plugins/pythonconsole/pythonconsole.py:97
-#, fuzzy, python-format
+#, python-format
 msgid "You can access the Totem.Object through “totem_object” :\\n%s"
-msgstr "ನೀವು Totem.Object ಅನ್ನು 'totem_object' ಮೂಲಕ ನಿಲುಕಿಸಿಕೊಳ್ಳಬಹುದು :\\n%s"
+msgstr ""
 
 #: src/plugins/pythonconsole/pythonconsole.py:101
 msgid "Totem Python Console"
@@ -1718,15 +1670,11 @@ msgstr "Totem ಪೈಥಾನ್ ಕನ್ಸೋಲ್"
 
 #. pylint: disable=W0613
 #: src/plugins/pythonconsole/pythonconsole.py:111
-#, fuzzy
 msgid ""
 "After you press OK, Totem will wait until you connect to it with winpdb or "
 "rpdb2. If you have not set a debugger password in DConf, it will use the "
 "default password (“totem”)."
 msgstr ""
-"ನೀವು ಸರಿ ಅನ್ನು ಒತ್ತಿದ ನಂತರ, winpdb ಅಥವ rpdb2 ನೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದುವವರೆಗೂ Totem "
-"ಕಾಯುತ್ತದೆ. ಎಲ್ಲಿಯಾದರೂ DConf ನಲ್ಲಿ ದೋಷನಿವಾರಕ ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಿದೆ ಇದ್ದಲ್ಲಿ, ಅದು "
-"ಪೂರ್ವನಿಯೋಜಿತ ಗುಪ್ತಪದವನ್ನು ಬಳಸುತ್ತದೆ ('totem')."
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
 msgid "Recent files"
@@ -1743,7 +1691,8 @@ msgstr "ತಿರುಗುವಿಕೆಯ ಪ್ಲಗ್‌ಇನ್"
 #: src/plugins/rotation/rotation.plugin.desktop.in:7
 msgid "Allows videos to be rotated if they are in the wrong orientation"
 msgstr ""
-"ವೀಡಿಯೊಗಳು ತಪ್ಪಾಗಿ ಇರಿಸಲಾಗಿದ್ದರೆ ಸರಿಯಾಗಿ ಕಾಣಿಸುವಂತೆ ಅದನ್ನು ತಿರುಗಿಸಲು ಅನುಮತಿಸುತ್ತದೆ"
+"ವೀಡಿಯೊಗಳು ತಪ್ಪಾಗಿ ಇರಿಸಲಾಗಿದ್ದರೆ ಸರಿಯಾಗಿ ಕಾಣಿಸುವಂತೆ ಅದನ್ನು ತಿರುಗಿಸಲು "
+"ಅನುಮತಿಸುತ್ತದೆ"
 
 #: src/plugins/rotation/totem-rotation.c:259
 msgid "_Rotate ↷"
@@ -1762,9 +1711,8 @@ msgid "Save a copy of the currently playing movie"
 msgstr "ಈಗ ಚಲಾಯಿತಗೊಳ್ಳುತ್ತಿರುವ ಚಲನಚಿತ್ರದ ಪ್ರತಿಯನ್ನು ಉಳಿಸು"
 
 #: src/plugins/save-file/totem-save-file.c:89
-#, fuzzy
 msgid "The video could not be made available offline."
-msgstr "ವೀಡಿಯೋ ಡಿಸ್ಕಿನ ನಕಲು ಪ್ರತಿಯನ್ನು ತಯಾರಿಸಲಾಗಿಲ್ಲ."
+msgstr ""
 
 #. translators: “Files” refers to nautilus' name
 #: src/plugins/save-file/totem-save-file.c:91
@@ -1826,7 +1774,8 @@ msgstr "ತೆರೆಚಿತ್ರ"
 
 #: src/plugins/screenshot/screenshot.plugin.desktop.in:7
 msgid "Allows screenshots and galleries to be taken of videos"
-msgstr "ವೀಡಿಯೊಗಳಿಂದ ತೆಗೆದುಕೊಳ್ಳಲಾದ ತೆರೆಚಿತ್ರಗಳು ಮತ್ತು ಅವುಗಳ ಚಿತ್ರಸಂಗ್ರಹಕ್ಕೆ ಅನುಮತಿಸು"
+msgstr ""
+"ವೀಡಿಯೊಗಳಿಂದ ತೆಗೆದುಕೊಳ್ಳಲಾದ ತೆರೆಚಿತ್ರಗಳು ಮತ್ತು ಅವುಗಳ ಚಿತ್ರಸಂಗ್ರಹಕ್ಕೆ ಅನುಮತಿಸು"
 
 #: src/plugins/screenshot/totem-gallery.c:92
 msgid "Save Gallery"
@@ -1852,9 +1801,9 @@ msgstr "ಚಿತ್ರಸಂಗ್ರಹವನ್ನು ನಿರ್ಮಿಸ�
 
 #. Set the progress label
 #: src/plugins/screenshot/totem-gallery-progress.c:107
-#, fuzzy, c-format
+#, c-format
 msgid "Saving gallery as “%s”"
-msgstr "\"%s\" ಆಗಿ ಚಿತ್ರಸಂಗ್ರಹವನ್ನು ಉಳಿಸಲಾಗುತ್ತಿದೆ"
+msgstr ""
 
 #: src/plugins/screenshot/totem-screenshot-plugin.c:221
 #: src/plugins/screenshot/totem-screenshot-plugin.c:230
@@ -1879,15 +1828,15 @@ msgid "Skip To"
 msgstr "ಇಲ್ಲಿಗೆ ನೆಗೆ"
 
 #: src/plugins/skipto/skipto.plugin.desktop.in:7
-#, fuzzy
 msgid "Provides the “Skip to” dialog"
-msgstr "\"ಇಲ್ಲಿಗೆ ನೆಗೆ\" ಸಂವಾದಚೌಕವನ್ನು ಒದಗಿಸುತ್ತದೆ"
+msgstr ""
 
 #: src/plugins/skipto/skipto.ui:22
 msgid "_Skip to:"
 msgstr "ಇಲ್ಲಿಗೆ ನೆಗೆ (_S):"
 
-#. Update the "seconds" label so that it always has the correct singular/plural form
+#. Update the "seconds" label so that it always has the correct
+#. singular/plural form
 #. Translators: label for the seconds selector in the "Skip to" dialogue
 #: src/plugins/skipto/totem-skipto.c:176
 msgid "second"
@@ -1895,10 +1844,14 @@ msgid_plural "seconds"
 msgstr[0] "ಸೆಕೆಂಡು"
 msgstr[1] "ಸೆಕೆಂಡು"
 
-#. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
-#. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
-#. * translations for "second" and "seconds", as translated elsewhere in this file. For example, in English, "second" is 6 characters long and
-#. * "seconds" is 7 characters long, so this string should be translated to "7". See: bgo#639398
+#. Fix the label width at the maximum necessary for the plural labels, to
+#. prevent it changing size when we change the spinner value
+#. Translators: you should translate this string to a number (written in
+#. digits) which corresponds to the longer character length of the
+#. * translations for "second" and "seconds", as translated elsewhere in this
+#. file. For example, in English, "second" is 6 characters long and
+#. * "seconds" is 7 characters long, so this string should be translated to
+#. "7". See: bgo#639398
 #: src/plugins/skipto/totem-skipto.c:213
 msgctxt "Skip To label length"
 msgid "7"
@@ -1918,10 +1871,9 @@ msgid "× 0.75"
 msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
-#, fuzzy
 msgctxt "playback rate"
 msgid "Normal"
-msgstr "ಸಾಮಾನ್ಯ"
+msgstr ""
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
@@ -1963,739 +1915,3 @@ msgstr "Vimeo"
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:7
 msgid "Sets the user agent for the Vimeo site"
 msgstr "Vimeo ತಾಣಕ್ಕಾಗಿ ಬಳಕೆದಾರ ಮಧ್ಯವರ್ತಿಯನ್ನು ಹೊಂದಿಸುತ್ತದೆ"
-
-#~ msgid "Video thumbnailer for the file manager"
-#~ msgstr "ಕಡತ ವ್ಯವಸ್ಥಾಪಕಕ್ಕಾಗಿ ವೀಡಿಯೊ ತಂಬ್‌ನೈಲರ್‌"
-
-#~ msgid "Files properties tab"
-#~ msgstr "ಕಡತಗಳ ಗುಣಲಕ್ಷಣಗಳ ಟ್ಯಾಬ್"
-
-#~ msgid "Whether to enable debug for the playback engine"
-#~ msgstr "ಚಾಲನಾಎಂಜಿನಿನಲ್ಲಿ ದೋಷನಿವಾರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಬೇಕೆ"
-
-#~ msgid "Whether to autoload external chapter files when a movie is loaded"
-#~ msgstr "ಚಲನಚಿತ್ರವನ್ನು ಲೋಡ್‌ ಮಾಡಿದಾಗ ಬಾಹ್ಯ ಅಧ್ಯಾಯ ಕಡತಗಳನ್ನು ತಾನಾಗಿಯೆ ಲೋಡ್‌ ಮಾಡು"
-
-#~ msgid "External Chapters"
-#~ msgstr "ಬಾಹ್ಯ ಅಧ್ಯಾಯಗಳು"
-
-#~ msgid "Load _chapter files when movie is loaded"
-#~ msgstr "ಚಲನಚಿತ್ರವನ್ನು ಲೋಡ್‌ ಮಾಡಿದಾಗ ಅಧ್ಯಾಯ ಕಡತಗಳನ್ನು ಲೋಡ್‌ ಮಾಡು (_c)"
-
-#~ msgid "Plugins..."
-#~ msgstr "ಪ್ಲಗ್ಇನ್‍ಗಳು..."
-
-#~ msgid "_Quit"
-#~ msgstr "ನಿರ್ಗಮಿಸು (_Q)"
-
-#~ msgid "Subtitle #%d"
-#~ msgstr "ಉಪಶೀರ್ಷಕೆ #%d"
-
-#~ msgid "Audio Preview"
-#~ msgstr "ಆಡಿಯೋ ಮುನ್ನೋಟ"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "%s\n"
-#~ "ಲಭ್ಯವಿರುವ ಎಲ್ಲಾ ಆಜ್ಞಾ ಸಾಲಿನ ಆಯ್ಕೆಗಳ ಪಟ್ಟಿಯನ್ನು ನೋಡಲು '%s --help' ಅನ್ನು ಚಲಾಯಿಸಿ.\n"
-
-#~ msgid "Enable debug"
-#~ msgstr "ದೋಷನಿವಾರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು"
-
-#~ msgid "- Play movies and songs"
-#~ msgstr "- ಚಲನಚಿತ್ರಗಳನ್ನು ಹಾಗು ಹಾಡುಗಳನ್ನು ಚಲಾಯಿಸುತ್ತದೆ"
-
-#~ msgid "Audio/Video"
-#~ msgstr "ಆಡಿಯೋ/ವೀಡಿಯೊ"
-
-#~ msgid "N/A"
-#~ msgstr "N/A"
-
-#~ msgid "%d x %d"
-#~ msgstr "%d x %d"
-
-#~ msgctxt "Number of audio channels"
-#~ msgid "N/A"
-#~ msgstr "ಲಭ್ಯವಿಲ್ಲ"
-
-#~ msgid "%s / %s"
-#~ msgstr "%s / %s"
-
-#~ msgid "Seek to %s / %s"
-#~ msgstr "%s / %s ಗೆ ಹೋಗು"
-
-#~ msgid "_Remove Chapter"
-#~ msgstr "ಅಧ್ಯಾಯವನ್ನು ತೆಗೆದು ಹಾಕು (_R)"
-
-#~ msgid "Remove the chapter from the list"
-#~ msgstr "ಅಧ್ಯಾಯವನ್ನು ಚಾಲನಾಪಟ್ಟಿಯಿಂದ (ಪ್ಲೇಲಿಸ್ಟ್‍) ತೆಗೆದು ಹಾಕು"
-
-#~ msgid "_Go to Chapter"
-#~ msgstr "ಅಧ್ಯಾಯ ಪರಿವಿಡಿಗೆ ತೆರಳು (_G)"
-
-#~ msgid "Go to the chapter in the movie"
-#~ msgstr "ಚಲನಚಿತ್ರದ ಅಧ್ಯಾಯಕ್ಕೆ ತೆರಳು"
-
-#~ msgid "Add Chapter…"
-#~ msgstr "ಅಧ್ಯಾಯವನ್ನು ಸೇರಿಸು..."
-
-#~ msgid "Remove Chapter"
-#~ msgstr "ಅಧ್ಯಾಯವನ್ನು ತೆಗೆದು ಹಾಕು"
-
-#~ msgid "Go to Chapter"
-#~ msgstr "ಅಧ್ಯಾಯಕ್ಕೆ ತೆರಳು"
-
-#~ msgid "Save Changes"
-#~ msgstr "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸು"
-
-#~ msgid "No chapter data"
-#~ msgstr "ಯಾವುದೆ ಅಧ್ಯಾಯ ದತ್ತಾಂಶವಿಲ್ಲ"
-
-#~ msgid "Load Chapters…"
-#~ msgstr "ಅಧ್ಯಾಯಗಳನ್ನು ಲೋಡ್ ಮಾಡು..."
-
-#~ msgid "Load chapters from an external CMML file"
-#~ msgstr "ಬಾಹ್ಯ CMML ಕಡತದಿಂದ ಅಧ್ಯಾಯಗಳನ್ನು ಲೋಡ್ ಮಾಡು"
-
-#~ msgid "Add New Chapters"
-#~ msgstr "ಹೊಸ ಅಧ್ಯಾಯಗಳನ್ನು ಸೇರಿಸು"
-
-#~ msgid "Create a new chapter list for the movie"
-#~ msgstr "ಚಲನಚಿತ್ರಕ್ಕಾಗಿ ಒಂದು ಹೊಸ ಅಧ್ಯಾಯವನ್ನು ರಚಿಸಿ"
-
-#~ msgid "Chapters"
-#~ msgstr "ಅಧ್ಯಾಯಗಳು"
-
-#~ msgid "Support chapter markers in movies"
-#~ msgstr "ಚಲನಚಿತ್ರದಲ್ಲಿ ಅಧ್ಯಾಯದ ಗುರುತುಗಳಿಗೆ ಬೆಂಬಲ"
-
-#~ msgid ""
-#~ "<b>Title: </b>%s\n"
-#~ "<b>Start time: </b>%s"
-#~ msgstr ""
-#~ "<b>ಶೀರ್ಷಿಕೆ: </b>%s\n"
-#~ "<b>ಆರಂಭದ ಸಮಯ: </b>%s"
-
-#~ msgid "Error while reading file with chapters"
-#~ msgstr "ಅಧ್ಯಾಯಗಳೊಂದಿಗೆ ಕಡತವನ್ನು ಓದುವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ"
-
-#~ msgid "Chapter with the same time already exists"
-#~ msgstr "ಒಂದೇ ಸಮಯದ ಅಧ್ಯಾಯಗಳು ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
-
-#~ msgid "Try another name or remove an existing chapter."
-#~ msgstr "ಬೇರೊಂದು ಹೆಸರನ್ನು ಬಳಸಿನೋಡಿ ಅಥವ ಈಗಿರುವ ಅಧ್ಯಾಯವನ್ನು ತೆಗೆದುಹಾಕಿ."
-
-#~ msgid "Error while writing file with chapters"
-#~ msgstr "ಅಧ್ಯಾಯಗಳೊಂದಿಗೆ ಕಡತವನ್ನು ಬರೆಯವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ"
-
-#~ msgid "Error occurred while saving chapters"
-#~ msgstr "ಅಧ್ಯಾಯಗಳನ್ನು ಉಳಿಸುವಾಗ ಒಂದು ದೋಷ ಉಂಟಾಗಿದೆ"
-
-#~ msgid ""
-#~ "Please check you have permission to write to the folder containing the "
-#~ "movie."
-#~ msgstr ""
-#~ "ಈ ಚಲನಚಿತ್ರವನ್ನು ಹೊಂದಿದ ಕಡತಕೋಶಕ್ಕೆ ಬರೆಯಲು ನಿಮಗೆ ಅನುಮತಿ ಇದೆಯೆ ಎಂದು ಪರಿಶೀಲಿಸಿ."
-
-#~ msgid "Open Chapter File"
-#~ msgstr "ಅಧ್ಯಾಯ ಕಡತವನ್ನು ತೆರೆ"
-
-#~ msgid "Supported files"
-#~ msgstr "ಬೆಂಬಲಿತವಾದ ಕಡತಗಳ"
-
-#~ msgid "Chapter Screenshot"
-#~ msgstr "ಅಧ್ಯಾಯದ ತೆರೆಚಿತ್ರ"
-
-#~ msgid "Chapter Title"
-#~ msgstr "ಅಧ್ಯಾಯದ ಶೀರ್ಷಿಕೆ"
-
-#~ msgid "Save changes to chapter list before closing?"
-#~ msgstr "ಮುಚ್ಚುವ ಮೊದಲು ಅಧ್ಯಾಯದ ಪಟ್ಟಿಗೆ ಬದಲಾವಣೆಗಳನ್ನು ಉಳಸಿಬೇಕೆ?"
-
-#~ msgid "Close without Saving"
-#~ msgstr "ಉಳಿಸದೆ ಮುಚ್ಚು"
-
-#~ msgid "Save"
-#~ msgstr "ಉಳಿಸು"
-
-#~ msgid "If you don't save, changes to the chapter list will be lost."
-#~ msgstr "ನೀವು ಉಳಿಸದೆ ಹೋದಲ್ಲಿ, ಅಧ್ಯಾಯಕ್ಕೆ ಮಾಡಲಾದ ಬದಲಾವಣೆಗಳು ಇಲ್ಲವಾಗುತ್ತವೆ."
-
-#~ msgid "Add Chapter"
-#~ msgstr "ಅಧ್ಯಾಯವನ್ನು ಸೇರಿಸು"
-
-#~ msgid "Gromit Annotations"
-#~ msgstr "Gromit ಟಿಪ್ಪಣಿಗಳು"
-
-#~ msgid "Presentation helper to make annotations on screen"
-#~ msgstr "ತೆರೆಯ ಮೇಲೆ ಟಿಪ್ಪಣಿಗಳನ್ನು ಬರೆಯಲು ಅನುವು ಮಾಡಿಕೊಡುವ ಪ್ರಸ್ತುತಿ ಸಹಾಯಕ"
-
-#~ msgid "The gromit binary was not found."
-#~ msgstr "gromit ಬೈನರಿಯು ಕಂಡುಬಂದಿಲ್ಲ."
-
-#~ msgid "Always On Top"
-#~ msgstr "ಯಾವಾಗಲೂ ಮೇಲ್ಭಾಗದಲ್ಲಿ"
-
-#~ msgid "Keep the main window on top when playing a movie"
-#~ msgstr "ಒಂದು ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸುವಾಗ ಮುಖ್ಯ ಕಿಟಕಿವನ್ನು ಮೇಲ್ಭಾಗದಲ್ಲಿ ಇರಿಸು"
-
-#~ msgid "Zeitgeist Plugin"
-#~ msgstr "Zeitgeist ಪ್ಲಗ್‌ಇನ್‌"
-
-#~ msgid "A plugin sending events to Zeitgeist"
-#~ msgstr "Zeitgeist ಗೆ ಘಟನೆಗಳನ್ನು ಕಳುಹಿಸುವ ಒಂದು ಪ್ಲಗ್‌ಇನ್‌"
-
-#~ msgid "Stopped"
-#~ msgstr "ನಿಲ್ಲಿಸಲಾಗಿದೆ"
-
-#~ msgid "Paused"
-#~ msgstr "ವಿರಮಿಸಿದೆ"
-
-#~ msgid "Playing"
-#~ msgstr "ಚಲಾಯಿಸಲಾಗುತ್ತಿದೆ"
-
-#~ msgid "No URI to play"
-#~ msgstr "ಚಲಾಯಿಸಲು ಯಾವುದೆ URI ಇಲ್ಲ"
-
-#~ msgid "Totem Movie Player"
-#~ msgstr "Totem ಚಲನಚಿತ್ರ ಚಾಲಕ"
-
-#~ msgid "No playlist or playlist empty"
-#~ msgstr "ಯಾವುದೆ ಚಾಲನಾಪಟ್ಟಿ ಇಲ್ಲ ಅಥವ ಚಾಲನಾಪಟ್ಟಿ ಖಾಲಿ ಇದೆ"
-
-#~ msgid "Movie browser plugin"
-#~ msgstr "ಚಲನಚಿತ್ರ ವೀಕ್ಷಕ ಪ್ಲಗ್ಇನ್"
-
-#~ msgid "Verify your system installation. The Totem plugin will now exit."
-#~ msgstr "ನಿಮ್ಮ ಗಣಕದ ಅನುಸ್ಥಾಪನೆಯನ್ನು ಪರಿಶೀಲಿಸಿ. Totem ಪ್ಲಗ್‌ಇನ್‌ ಈಗ ನಿರ್ಗಮಿಸುತ್ತದೆ."
-
-#~ msgid "Leave Fullscreen"
-#~ msgstr "ಪೂರ್ಣತೆರೆಯನ್ನು ಬಿಟ್ಟು ಬಿಡು"
-
-#~ msgid "Time:"
-#~ msgstr "ಸಮಯ:"
-
-#~ msgid "Allow the screensaver to activate when playing audio"
-#~ msgstr "ಆಡಿಯೋ ಚಲಾಯಿತಗೊಳ್ಳುವಾಗ ಸ್ಕ್ರೀನ್‌ಸೇವರ್ ಸಕ್ರಿಯಗೊಳ್ಳುವಂತೆ ಅನುಮತಿಸು"
-
-#~ msgid ""
-#~ "Allow the screensaver to activate when playing audio. Disable if you have "
-#~ "monitor-powered speakers."
-#~ msgstr ""
-#~ "ಆಡಿಯೋ ಚಲಾಯಿತಗೊಳ್ಳುವಾಗ ಸ್ಕ್ರೀನ್‌ಸೇವರ್ ಸಕ್ರಿಯಗೊಳ್ಳುವಂತೆ ಅನುಮತಿಸು.ತೆರೆಯಿಂದ(ಮಾನಿಟರ್) "
-#~ "ಸಕ್ರಿಯಗೊಂಡಿರುವ ಸ್ಪೀಕರುಗಳಿದ್ದಲ್ಲಿ ಅದನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ."
-
-#~ msgid "Show visual effects when no video is displayed"
-#~ msgstr "ಯಾವುದೆ ವೀಡಿಯೋವನ್ನು ತೋರಿಸದೆ ಇದ್ದಾಗ ದೃಗ್ಗೋಚರ ಪರಿಣಾಮಗಳನ್ನು ತೋರಿಸು"
-
-#~ msgid "Show visual effects when playing an audio only file."
-#~ msgstr "ಯಾವುದೆ ಆಡಿಯೋ ಕಡತವನ್ನು ಚಲಾಯಿಸುವಾಗ ದೃಗ್ಗೋಚರ ಪರಿಣಾಮಗಳನ್ನು ತೋರಿಸು."
-
-#~ msgid "Name of the visual effects plugin"
-#~ msgstr "ನೋಟದ ಪರಿಣಾಮಗಳ ಪ್ಲಗ್‌ಇನ್‌ಗಳ ಹೆಸರು"
-
-#~ msgid "Resize the canvas automatically on file load"
-#~ msgstr "ಕಡತವು ಲೋಡ್‌ ಆದಾಗ ಕ್ಯಾನ್ವಾಸಿನ ಗಾತ್ರವನ್ನು ತಾನಾಗಿಯೆ ಬದಲಿಸು"
-
-#~ msgid "Shuffle mode"
-#~ msgstr "ಶಫಲ್ ಕ್ರಮ"
-
-#~ msgid "Visualization quality setting"
-#~ msgstr "ದೃಗ್ಗೋಚರ ಗುಣಮಟ್ಟದ ಸಿದ್ಧತೆ"
-
-#~ msgid "Quality setting for the audio visualization."
-#~ msgstr "ಆಡಿಯೊ ವಿಶುವಲೈಸೇಶನ್‌ಗಾಗಿ ಗುಣಮಟ್ಟದ ಹೊಂದಾಣಿಕೆ."
-
-#~ msgid ""
-#~ "Whether to remember the position of played audio/video files when pausing "
-#~ "or closing them"
-#~ msgstr ""
-#~ "ಚಲಾಯಿಸಲಾದ ಆಡಿಯೊ/ವೀಡಿಯೊ ಕಡತಗಳನ್ನು ವಿರಮಿಸುವಾಗ ಅಥವ ಮುಚ್ಚುವಾಗ ಅವುಗಳು ಇರುವ "
-#~ "ಸ್ಥಳವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳಬೇಕೆ."
-
-#~ msgid "_Remove"
-#~ msgstr "ತೆಗೆದು ಹಾಕು (_R)"
-
-#~ msgid "Remove file from playlist"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿಯಿಂದ(ಪ್ಲೇಲಿಸ್ಟ್‍) ತೆಗೆದು ಹಾಕು"
-
-#~ msgid "_Copy Location"
-#~ msgstr "ಸ್ಥಳವನ್ನು ಪ್ರತಿ ಮಾಡು (_C)"
-
-#~ msgid "Copy the location to the clipboard"
-#~ msgstr "ಸ್ಥಳವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡಿಗೆ ಪ್ರತಿ ಮಾಡು"
-
-#~ msgid "_Select Text Subtitles..."
-#~ msgstr "ಪಠ್ಯ ಉಪಶೀರ್ಷಿಕೆಯನ್ನು ಆರಿಸು (_S)..."
-
-#~ msgid "Select a file to use for text subtitles"
-#~ msgstr "ಪಠ್ಯ ಉಪಶೀರ್ಷಿಕೆಗಳಲ್ಲಿ ಬಳಸಲು ಒಂದು ಕಡತವನ್ನು ಆರಿಸಿ"
-
-#~ msgid "Add..."
-#~ msgstr "ಸೇರಿಸು..."
-
-#~ msgid "Remove"
-#~ msgstr "ತೆಗೆದು ಹಾಕು"
-
-#~ msgid "Save Playlist..."
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿಯನ್ನು(ಪ್ಲೇಲಿಸ್ಟ್‍) ಉಳಿಸು..."
-
-#~ msgid "Move Up"
-#~ msgstr "ಮೇಲಕ್ಕೆ ವರ್ಗಾಯಿಸು"
-
-#~ msgid "Move Down"
-#~ msgstr "ಕೆಳಗೆ ವರ್ಗಾಯಿಸು"
-
-#~ msgid "Large"
-#~ msgstr "ದೊಡ್ಡದಾದ"
-
-#~ msgid "Extra Large"
-#~ msgstr "ಅತಿ ದೊಡ್ಡದಾದ"
-
-#~ msgid "Totem Preferences"
-#~ msgstr "Totem ಆದ್ಯತೆಗಳು"
-
-#~ msgid "Start playing files from last position"
-#~ msgstr "ಕೊನೆಗೆ ಇದ್ದಲ್ಲಿಂದ ಕಡತಗಳನ್ನು ಚಲಾಯಿಸಲು ಆರಂಭಿಸು"
-
-#~ msgid "_Resize the window when a new video is loaded"
-#~ msgstr "ಹೊಸ ವೀಡಿಯೋವನ್ನು ಲೋಡ್‌ ಮಾಡಿದಾಗ ಕಿಟಕಿ ತಾನಾಗಿಯೆ ಗಾತ್ರಬದಲಿಸುವಂತೆ ಮಾಡು (_r)"
-
-#~ msgid "Disable screensaver when playing"
-#~ msgstr "ಚಲಾಯಿಸುವಾಗ ಸ್ಕ್ರೀನ್‌ಸೇವರನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು (_a)"
-
-#~ msgctxt "Screensaver disable"
-#~ msgid "Video"
-#~ msgstr "ವೀಡಿಯೊ"
-
-#~ msgid "Video or Audio"
-#~ msgstr "ವಿಡಿಯೊ ಅಥವ ಆಡಿಯೊ"
-
-#~ msgid "Visual Effects"
-#~ msgstr "ದೃಗ್ಗೋಚರ(ವಿಶುವಲ್) ಪರಿಣಾಮಗಳು"
-
-#~ msgid "Show _visual effects when an audio file is played"
-#~ msgstr ""
-#~ "ಒಂದು ಆಡಿಯೋ ಕಡತವನ್ನು ಚಲಾಯಿಸಿದಾಗ ಚಿತ್ರನಿರೂಪಣಾ (ವಿಶುವಲ್) ಪರಿಣಾಮಗಳನ್ನು ತೋರಿಸು(_v)"
-
-#~ msgid "_Type of visualization:"
-#~ msgstr "ಚಿತ್ರನಿರೂಪಣಾ ಪ್ರಕಾರ (_T):"
-
-#~ msgid "Visualization _size:"
-#~ msgstr "ಚಿತ್ರನಿರೂಪಣೆಯ ಗಾತ್ರ (_s):"
-
-#~ msgid "Open _Location"
-#~ msgstr "ಸ್ಥಳವನ್ನು ತೆರೆ (_L)..."
-
-#~ msgid "_Fullscreen"
-#~ msgstr "ಪೂರ್ಣತೆರೆ (_F)"
-
-#~ msgid "_Movie"
-#~ msgstr "ಚಲನಚಿತ್ರ (_M)"
-
-#~ msgid "Eject the current disc"
-#~ msgstr "ಪ್ರಸಕ್ತ ಡಿಸ್ಕನ್ನು ಹೊರತಳ್ಳು"
-
-#~ msgid "View the properties of the current stream"
-#~ msgstr "ಪ್ರಸಕ್ತ ಸ್ಟ್ರೀಮಿನ ಗುಣಲಕ್ಷಣಗಳನ್ನು ನೋಡು"
-
-#~ msgid "Play / P_ause"
-#~ msgstr "ಚಲಾಯಿಸು / ವಿರಮಿಸು (_a)"
-
-#~ msgid "Play or pause the movie"
-#~ msgstr "ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸು ಅಥವ ವಿರಮಿಸು"
-
-#~ msgid "_Edit"
-#~ msgstr "ಸಂಪಾದಿಸು (_E)"
-
-#~ msgid "_Clear Playlist"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿ (ಪ್ಲೇಲಿಸ್ಟ್‍) ಸ್ವಚ್ಛಗೊಳಿಸು (_C)"
-
-#~ msgid "Clear the playlist"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿಯನ್ನು(ಪ್ಲೇಲಿಸ್ಟ್‍) ತೆರವುಗೊಳಿಸಿ"
-
-#~ msgid "Configure plugins to extend the application"
-#~ msgstr "ಅನ್ವಯವನ್ನು ವಿಸ್ತರಿಸಲು ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಸಂರಚಿಸಿ"
-
-#~ msgid "Fit Window to Movie"
-#~ msgstr "ಕಿಟಕಿವನ್ನು ಚಲನಚಿತ್ರಕ್ಕೆ ಸರಿಹೊಂದಿಸು"
-
-#~ msgid "_Resize 1∶2"
-#~ msgstr "1:∶2 ಗೆ ಗಾತ್ರಬದಲಿಸು (_R)"
-
-#~ msgid "Resize to half the original video size"
-#~ msgstr "ಮೂಲ ವೀಡಿಯೊದ ಗಾತ್ರದ ಅರ್ಧ ಪಟ್ಟಿಗೆ ಹೊಂದಿಸಿ"
-
-#~ msgid "Resize _1∶1"
-#~ msgstr "_∶1:1 ನಷ್ಟು ಗಾತ್ರ ಬದಲಿಸು"
-
-#~ msgid "Resize to the original video size"
-#~ msgstr "ವೀಡಿಯೋದ ಮೂಲ ಗಾತ್ರಕ್ಕೆ ಬದಲಾಯಿಸಿ"
-
-#~ msgid "Resize _2∶1"
-#~ msgstr "_:2∶1 ನಷ್ಟು ಗಾತ್ರ ಬದಲಿಸು"
-
-#~ msgid "Resize to double the original video size"
-#~ msgstr "ಮೂಲ ವೀಡಿಯೊದ ಗಾತ್ರದ ಎರಡು ಪಟ್ಟು ಗಾತ್ರಕ್ಕೆ ಹೊಂದಿಸಿ"
-
-#~ msgid "Switch camera angles"
-#~ msgstr "ಕ್ಯಾಮೆರಾದ ಕೋನಗಳನ್ನು ಬದಲಾಯಿಸು"
-
-#~ msgid "_Go"
-#~ msgstr "ತೆರಳು (_G)"
-
-#~ msgid "Go to the DVD menu"
-#~ msgstr "DVD ಪರಿವಿಡಿಗೆ ತೆರಳು"
-
-#~ msgid "Go to the title menu"
-#~ msgstr "ಶೀರ್ಷಿಕೆ ಪರಿವಿಡಿಗೆ ತೆರಳು"
-
-#~ msgid "Go to the audio menu"
-#~ msgstr "ಆಡಿಯೋ ಪರಿವಿಡಿಗೆ ತೆರಳು"
-
-#~ msgid "Go to the angle menu"
-#~ msgstr "ಕೋನ ಪರಿವಿಡಿಗೆ ತೆರಳು"
-
-#~ msgid "Go to the chapter menu"
-#~ msgstr "ಅಧ್ಯಾಯ ಪರಿವಿಡಿಗೆ ತೆರಳು"
-
-#~ msgid "_Next Chapter/Movie"
-#~ msgstr "ಮುಂದಿನ ಅಧ್ಯಾಯ/ಚಲನಚಿತ್ರ (_N)"
-
-#~ msgid "Next chapter or movie"
-#~ msgstr "ಮುಂದಿನ ಅಧ್ಯಾಯ ಅಥವ ಚಲನಚಿತ್ರ"
-
-#~ msgid "_Previous Chapter/Movie"
-#~ msgstr "ಹಿಂದಿನ ಅಧ್ಯಾಯ/ಚಲನಚಿತ್ರ (_P)"
-
-#~ msgid "_Sound"
-#~ msgstr "ಧ್ವನಿ (_S)"
-
-#~ msgid "Volume _Up"
-#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣ ಹೆಚ್ಚುಮಾಡು (_U)"
-
-#~ msgid "Volume _Down"
-#~ msgstr "ಧ್ವನಿ ಪ್ರಮಾಣ ಕಡಿಮೆಮಾಡು (_D)"
-
-#~ msgid "_Contents"
-#~ msgstr "ವಿಷಯಗಳು (_C)"
-
-#~ msgid "Help contents"
-#~ msgstr "ಸಹಾಯದ ವಿಷಯಗಳು"
-
-#~ msgid "_About"
-#~ msgstr "ಇದರ ಬಗ್ಗೆ (_A)"
-
-#~ msgid "About this application"
-#~ msgstr "ಈ ಅನ್ವಯದ ಬಗ್ಗೆ"
-
-#~ msgid "Show _Controls"
-#~ msgstr "ನಿಯಂತ್ರಕಗಳನ್ನು ತೋರಿಸು (_C)"
-
-#~ msgid "Show controls"
-#~ msgstr "ನಿಯಂತ್ರಕಗಳನ್ನು ತೋರಿಸು"
-
-#~ msgid "S_idebar"
-#~ msgstr "ಬದಿ ಪಟ್ಟಿಕೆ (_i)"
-
-#~ msgid "Show or hide the sidebar"
-#~ msgstr "ಬದಿ ಪಟ್ಟಿಯನ್ನು ತೋರಿಸು ಅಥವ ಅಡಗಿಸು"
-
-#~ msgid "Sets automatic aspect ratio"
-#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ಆಕಾರ ಅನುಪಾತಕ್ಕೆ ಹೊಂದಿಸುತ್ತದೆ"
-
-#~ msgid "Sets square aspect ratio"
-#~ msgstr "ಚೌಕ ಆಕಾರ ಅನುಪಾತಕ್ಕೆ ಹೊಂದಿಸುತ್ತದೆ"
-
-#~ msgid "Sets 4∶3 (TV) aspect ratio"
-#~ msgstr "4:3 (TV) ಆಕಾರ ಅನುಪಾತಕ್ಕೆ ಹೊಂದಿಸುತ್ತದೆ"
-
-#~ msgid "Sets 16∶9 (widescreen) aspect ratio"
-#~ msgstr "16:9 (ಅಗಲತೆರೆ) ಆಕಾರ ಅನುಪಾತಕ್ಕೆ ಹೊಂದಿಸುತ್ತದೆ"
-
-#~ msgid "Sets 2.11∶1 (DVB) aspect ratio"
-#~ msgstr "2.11:1 (DVB) ಆಕಾರ ಅನುಪಾತಕ್ಕೆ ಹೊಂದಿಸುತ್ತದೆ"
-
-#~ msgid "Skip _Forward"
-#~ msgstr "ಮುಂದಕ್ಕೆ ನೆಗೆ (_F)"
-
-#~ msgid "Skip forward"
-#~ msgstr "ಮುಂದಕ್ಕೆ ನೆಗೆ"
-
-#~ msgid "Skip _Backwards"
-#~ msgstr "ಹಿಂದಕ್ಕೆ ನೆಗೆ(_B)"
-
-#~ msgid "Skip backwards"
-#~ msgstr "ಹಿಂದಕ್ಕೆ ನೆಗೆ"
-
-#~ msgid "Time seek bar"
-#~ msgstr "ಸಮಯ ಕೋರಿಕೆ ಪಟ್ಟಿ"
-
-#~ msgid "File is not a valid .desktop file"
-#~ msgstr "ಕಡತವು ಒಂದು ಮಾನ್ಯವಾದಂತಹ .desktop ಕಡತವಾಗಿಲ್ಲ"
-
-#~ msgid "Unrecognized desktop file Version '%s'"
-#~ msgstr "ಗುರುತಿಸಲಾಗದ ಗಣಕತೆರೆ ಕಡತದ ಆವೃತ್ತಿ '%s'"
-
-#~ msgid "Starting %s"
-#~ msgstr "%s ಅನ್ನು ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ"
-
-#~ msgid "Application does not accept documents on command line"
-#~ msgstr "ಅನ್ವಯವು ಆಜ್ಞಾ ಸಾಲಿನಲ್ಲಿ ದಸ್ತಾವೇಜುಗಳನ್ನು ಅಂಗೀರಿಸುವುದಿಲ್ಲ"
-
-#~ msgid "Unrecognized launch option: %d"
-#~ msgstr "ಗುರುತಿಸಲಾಗದ ಆರಂಭದ ಆಯ್ಕೆ: %d"
-
-#~ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-#~ msgstr ""
-#~ "ದಸ್ತಾವೇಜಿನ URI ಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
-
-#~ msgid "Not a launchable item"
-#~ msgstr "ಆರಂಭಿಸಬಹುದಾದ ಒಂದು ಅಂಶವಾಗಿಲ್ಲ"
-
-#~ msgid "File _Format: %s"
-#~ msgstr "ಕಡತದ ವಿನ್ಯಾಸ (_F): %s"
-
-#~ msgid "All Files"
-#~ msgstr "ಎಲ್ಲಾ ಕಡತಗಳು"
-
-#~ msgid "All Supported Files"
-#~ msgstr "ಬೆಂಬಲವಿರುವ ಎಲ್ಲಾ ಕಡತಗಳು"
-
-#~ msgid "By Extension"
-#~ msgstr "ವಿಸ್ತರಣೆಯ ಮೂಲಕ"
-
-#~ msgid "File Format"
-#~ msgstr "ಕಡತ ವಿನ್ಯಾಸ"
-
-#~ msgid "Extension(s)"
-#~ msgstr "ವಿಸ್ತರಣೆ(ಗಳು)"
-
-#~ msgid ""
-#~ "The program was not able to find out the file format you want to use for `"
-#~ "%s'. Please make sure to use a known extension for that file or manually "
-#~ "choose a file format from the list below."
-#~ msgstr ""
-#~ "`%s' ಗಾಗಿ ನೀವು ಬಳಸಲು ಬಯಸುವ ಕಡತದ ಬಗೆಯನ್ನು ಪ್ರೊಗ್ರಾಮ್‌ನಿಂದ ಪತ್ತೆ ಮಾಡಲು "
-#~ "ಸಾಧ್ಯವಾಗಿಲ್ಲ. ಆ ಕಡತಕ್ಕಾಗಿ ಒಂದು ತಿಳಿದಿರುವ ವಿಸ್ತರಣೆಯನ್ನು ಬಳಸುತ್ತಿದ್ದೀರಿ ಎಂದು "
-#~ "ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಅಥವ ಈ ಕೆಳಗಿನ ಪಟ್ಟಿಯಿಂದ ಕೈಯಾರೆ ಒಂದು ಕಡತ ವಿನ್ಯಾಸವನ್ನು ಆರಿಸಿ."
-
-#~ msgid "File format not recognized"
-#~ msgstr "ಕಡತದ ವಿನ್ಯಾಸವನ್ನು ಗುರುತಿಸಲಾಗಿಲ್ಲ"
-
-#~ msgid "Disable connection to session manager"
-#~ msgstr "ಅಧಿವೇಶನದ ವ್ಯವಸ್ಥಾಪಕನೊಂದಿಗಿನ ಸಂಪರ್ಕವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು"
-
-#~ msgid "Specify file containing saved configuration"
-#~ msgstr "ಉಳಿಸಲಾದ ಸಂರಚನೆಯನ್ನು ಹೊಂದಿರುವ ಕಡತವನ್ನು ಸೂಚಿಸಿ"
-
-#~ msgid "FILE"
-#~ msgstr "FILE"
-
-#~ msgid "Specify session management ID"
-#~ msgstr "ಅಧೀವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ID ಯನ್ನು ಸೂಚಿಸಿ"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Session management options:"
-#~ msgstr "ಅಧೀವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ಆಯ್ಕೆಗಳು:"
-
-#~ msgid "Show session management options"
-#~ msgstr "ಅಧೀವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸು"
-
-#~ msgid "_Play Now"
-#~ msgstr "ಈಗ ಚಲಾಯಿಸು (_P)"
-
-#~ msgid "_Add to Playlist"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿಗೆ(ಪ್ಲೇಲಿಸ್ಟ್‍) ಸೇರಿಸು (_A)"
-
-#~ msgid "No File"
-#~ msgstr "ಕಡತ ಇಲ್ಲ"
-
-#~ msgid ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "Totem is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-
-#~ msgid ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-#~ msgstr ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Totem; if not, write to the Free Software Foundation, Inc., 59 "
-#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
-
-#~ msgid ""
-#~ "Totem contains an exception to allow the use of proprietary GStreamer "
-#~ "plugins."
-#~ msgstr ""
-#~ "ಸ್ವಾಮ್ಯತ್ವವನ್ನು ಹೊಂದಿರುವ GStreamer ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಬಳಸಲು ವಿನಾಯಿತಿಯನ್ನು Totem "
-#~ "ಹೊಂದಿದೆ."
-
-#~ msgid "Copyright © 2002-2009 Bastien Nocera"
-#~ msgstr "ಹಕ್ಕು © 2002-2009 Bastien Nocera"
-
-#~ msgid "translator-credits"
-#~ msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>"
-
-#~ msgid "Totem Website"
-#~ msgstr "Totem ಜಾಲತಾಣ"
-
-#~ msgid "Totem %s"
-#~ msgstr "Totem %s"
-
-#~ msgid "No error message"
-#~ msgstr "ಯಾವುದೆ ದೋಷ ಸಂದೇಶವಿಲ್ಲ"
-
-#~ msgid "Open Location..."
-#~ msgstr "ಸ್ಥಳವನ್ನು ತೆರೆ..."
-
-#~ msgid "Show/Hide Controls"
-#~ msgstr "ನಿಯಂತ್ರಕಗಳನ್ನು ತೋರಿಸು/ಅಡಗಿಸು"
-
-#~ msgid "Playlist index"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿಯ ಪರಿವಿಡಿ"
-
-#~ msgid "MP3 ShoutCast playlist"
-#~ msgstr "MP3 ShoutCast ಚಾಲನಾಪಟ್ಟಿ"
-
-#~ msgid "MP3 audio (streamed)"
-#~ msgstr "MP3 ಆಡಿಯೋ (ಸ್ಟ್ರೀಮ್‌ ಮಾಡಲಾದ)"
-
-#~ msgid "MP3 audio (streamed, DOS format)"
-#~ msgstr "MP3 ಆಡಿಯೋ (ಸ್ಟ್ರೀಮ್‌ ಮಾಡಲಾದ, DOS ವಿನ್ಯಾಸ)"
-
-#~ msgid "XML Shareable Playlist"
-#~ msgstr "XML ಹಂಚಬಹುದಾದ ಚಾಲನಾಪಟ್ಟಿ"
-
-#~ msgid "Could not save the playlist"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿಯನ್ನು ಉಳಿಸಲಾಗಿಲ್ಲ"
-
-#~ msgid "Save Playlist"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿಯನ್ನು ಉಳಿಸು"
-
-#~ msgid "Playlist"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿ"
-
-#~ msgid "Playlist error"
-#~ msgstr "ಚಾಲನಾಪಟ್ಟಿ ದೋಷ"
-
-#~ msgid "0:00 / 0:00"
-#~ msgstr "0:00 / 0:00"
-
-#~ msgid "%s (Streaming)"
-#~ msgstr "%s (ಸ್ಟ್ರೀಮ್‌ ಮಾಡಲಾದ)"
-
-#~ msgid "Buffering"
-#~ msgstr "ಬಫರಿಂಗ್"
-
-#~ msgid "%lf %%"
-#~ msgstr "%lf %%"
-
-#~ msgid "%s, %s"
-#~ msgstr "%s, %s"
-
-#~ msgid "%s, %f %%"
-#~ msgstr "%s, %f %%"
-
-#~ msgid "Audio files"
-#~ msgstr "ಆಡಿಯೋ ಕಡತಗಳು"
-
-#~ msgid "Select Movies or Playlists"
-#~ msgstr "ಚಲನಚಿತ್ರಗಳನ್ನು ಅಥವ ಚಾಲನಾಪಟ್ಟಿಗಳನ್ನು ಆರಿಸಿ"
-
-#~ msgid "Add Directory"
-#~ msgstr "ಕೋಶವನ್ನು ಸೇರಿಸು"
-
-#~ msgid "Create a video DVD or a (S)VCD from the currently opened movie"
-#~ msgstr "ಪ್ರಸಕ್ತ ತೆಗೆಯಲಾಗಿರುವ DVD ಅಥವ ಒಂದು (S)VCD ಇಂದ ಒಂದು ವೀಡಿಯೋ ಅನ್ನು ನಿರ್ಮಿಸಿ"
-
-#~ msgid "Copy the currently playing video DVD"
-#~ msgstr "ಈಗ ಚಲಾಯಿತಗೊಳ್ಳುತ್ತಿರುವ DVD ಅನ್ನು ಪ್ರತಿ ಮಾಡಿ"
-
-#~ msgid "Copy the currently playing (S)VCD"
-#~ msgstr "ಈಗ ಚಲಾಯಿತಗೊಳ್ಳುತ್ತಿರುವ (S)VCD ಅನ್ನು ಪ್ರತಿ ಮಾಡಿ"
-
-#~ msgid "Add Chapter..."
-#~ msgstr "ಅಧ್ಯಾಯವನ್ನು ಸೇರಿಸು..."
-
-#~ msgid "D-Bus Service"
-#~ msgstr "D-ಬಸ್ ಸೇವೆ"
-
-#~ msgid "The URI ‘%s’ is not supported."
-#~ msgstr "‘%s’ ಗೆ ಬೆಂಬಲವಿಲ್ಲ."
-
-#~ msgid "Grilo Browser"
-#~ msgstr "Grilo ವೀಕ್ಷಕ"
-
-#~ msgid "A plugin to let you browse media content from various sources"
-#~ msgstr "ವಿವಿಧ ಮೂಲಗಳಲ್ಲಿರುವ ಮಾಧ್ಯಮ ವಿಷಯವನ್ನು ಕಣ್ಣಾಡಿಸಲು ನೆರವಾಗುವು ಒಂದು ಪ್ಲಗ್‌ಇನ್"
-
-#~ msgid "Copy Location"
-#~ msgstr "ಸ್ಥಳವನ್ನು ಪ್ರತಿ ಮಾಡು"
-
-#~ msgid "Browse"
-#~ msgstr "ಕಣ್ಣಾಡಿಸು"
-
-#~ msgid "Download movie subtitles from OpenSubtitles"
-#~ msgstr "OpenSubtitles ಇಂದ ಉಪಶೀರ್ಷಿಕೆಗಳನ್ನು ಇಳಿಸಿಕೊಳ್ಳಿ"
-
-#~ msgid "Python Console Menu"
-#~ msgstr "ಪೈಥಾನ್ ಕನ್ಸೋಲ್‌ ಪರಿವಿಡಿ"
-
-#~ msgid "Show Totem's Python console"
-#~ msgstr "Totem ನ ಪೈಥಾನ್ ಕನ್ಸೋಲನ್ನು ತೋರಿಸು"
-
-#~ msgid "Enable remote Python debugging with rpdb2"
-#~ msgstr "rpdb2 ಯೊಂದಿಗಿನ ದೂರಸ್ಥ ಪೈಥಾನ್ ದೋಷನಿವಾರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
-
-#~ msgid "_Rotate Clockwise"
-#~ msgstr "ಪ್ರದಕ್ಷಿಣೆಯಲ್ಲಿ ತಿರುಗಿಸು (_R)"
-
-#~ msgid "Rotate Counterc_lockwise"
-#~ msgstr "ಅಪ್ರದಕ್ಷಿಣೆಯಲ್ಲಿ ತಿರುಗಿಸು (_l)"
-
-#~ msgid "Save a Copy..."
-#~ msgstr "ಒಂದು ಪ್ರತಿಯನ್ನು ಉಳಿಸು..."
-
-#~ msgid "Save a copy of the movie"
-#~ msgstr "ಚಲನಚಿತ್ರದ ಪ್ರತಿಯನ್ನು ಉಳಿಸು"
-
-#~ msgid "Save a Copy"
-#~ msgstr "ಒಂದು ಪ್ರತಿಯನ್ನು ಉಳಿಸು"
-
-#~ msgid "Movie stream"
-#~ msgstr "ಚಲನಚಿತ್ರದ ಸ್ಟ್ರೀಮ್"
-
-#~ msgid "Take a screenshot"
-#~ msgstr "ಒಂದು ತೆರೆಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊ"
-
-#~ msgid "Create a gallery of screenshots"
-#~ msgstr "ತೆರೆಚಿತ್ರಗಳ ಸಂಗ್ರಹವನ್ನು ನಿರ್ಮಿಸಿ"
-
-#~ msgid "_Skip To..."
-#~ msgstr "ಇಲ್ಲಿಗೆ ನೆಗೆ (_S)..."
-
-#~ msgid "Skip to a specific time"
-#~ msgstr "ನಿಗದಿತ ಸಮಯಕ್ಕೆ ತೆರಳು"
