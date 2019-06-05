@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-28 22:30+0100\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Project-Style: gnome\n"
 "X-Generator: Poedit 2.2\n"
+"X-Project-Style: gnome\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -645,10 +645,6 @@ msgstr[2] ""
 "Пуштање овог филма захтева следеће прикључке који нису инсталирани:\n"
 "\n"
 "%s"
-msgstr[3] ""
-"Пуштање овог филма захтева следећи прикључак који није инсталиран:\n"
-"\n"
-"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -707,7 +703,6 @@ msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "„%s“ је потребан за пуштање датотеке, али није инсталиран."
 msgstr[1] "„%s“ су потребни за пуштање датотеке, али нису инсталирани."
 msgstr[2] "„%s“ су потребни за пуштање датотеке, али нису инсталирани."
-msgstr[3] "„%s“ је потребан за пуштање датотеке, али није инсталиран."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -879,7 +874,6 @@ msgid_plural "%d selected"
 msgstr[0] "%d изабрана"
 msgstr[1] "%d изабране"
 msgstr[2] "%d изабраних"
-msgstr[3] "једна изабрана"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1616,7 +1610,6 @@ msgid_plural "%d hours"
 msgstr[0] "%d сат"
 msgstr[1] "%d сата"
 msgstr[2] "%d сати"
-msgstr[3] "Један сат"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1625,7 +1618,6 @@ msgid_plural "%d minutes"
 msgstr[0] "%d минут"
 msgstr[1] "%d минута"
 msgstr[2] "%d минута"
-msgstr[3] "Један минут"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1634,7 +1626,6 @@ msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
 msgstr[1] "%d секунде"
 msgstr[2] "%d секунди"
-msgstr[3] "Једна секунда"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1871,7 +1862,6 @@ msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунде"
 msgstr[2] "секунди"
-msgstr[3] "секунда"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1969,7 +1959,6 @@ msgstr "Подешава корисничког агента за сајт Ви�
 #~ msgstr[0] "%d кадар у секунди"
 #~ msgstr[1] "%d кадра у секунди"
 #~ msgstr[2] "%d кадрова у секунди"
-#~ msgstr[3] "Један кадар у секунди"
 
 #~ msgid "Audio Preview"
 #~ msgstr "Звучни преглед"
@@ -2214,7 +2203,6 @@ msgstr "Подешава корисничког агента за сајт Ви�
 #~ msgid "Audio files"
 #~ msgstr "Звучне датотеке"
 
-#~| msgid "Recent files"
 #~ msgid "Recent"
 #~ msgstr "Скорашње"
 

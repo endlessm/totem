@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2010-03-25 17:20+0600\n"
 "Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -21,8 +21,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
 
 # ঠিক করেন
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
@@ -608,7 +608,8 @@ msgstr "অডিও মেনু (_u)"
 msgid "_Angle Menu"
 msgstr "অ্যাঙ্গেল মেনু (_A)"
 
-# msgstr "নতুন ভিডিও লোড করা হলে স্বয়ংক্রিয়ভাবে উইন্ডোর আকার পরিবর্তন করা হোক" <-- একটু সোজা করে দিলাম ;-)
+# msgstr "নতুন ভিডিও লোড করা হলে স্বয়ংক্রিয়ভাবে উইন্ডোর আকার পরিবর্তন করা হোক"
+# <-- একটু সোজা করে দিলাম ;-)
 #: data/totem.ui:161
 msgid "_Chapter Menu"
 msgstr "অধ্যায় মেনু (_C)"
@@ -2313,7 +2314,8 @@ msgstr ""
 #~ msgid "Show _Controls"
 #~ msgstr "নিয়ন্ত্রক বোতাম প্রদর্শন করা হবে (_C)"
 
-# msgstr "ফাইল লোড করা হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের আকার পরিবর্তন করা হোক" <-- এটাও সোজা করে দিলাম ;-)
+# msgstr "ফাইল লোড করা হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের আকার পরিবর্তন করা হোক"
+# <-- এটাও সোজা করে দিলাম ;-)
 #~ msgid "Show _visual effects when an audio file is played"
 #~ msgstr "অডিও ফাইল চালানো হলে ভিজুয়াল ইফেক্ট প্রদর্শন করা হবে (_v)"
 
@@ -2474,7 +2476,8 @@ msgstr ""
 #~ msgid "Resize the canvas automatically on file load"
 #~ msgstr "ফাইল লোড হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের আকার পুনরায় নির্ধারণ করা হবে"
 
-# msgstr "ফাইল লোড করা হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের আকার পরিবর্তন করা হোক" <-- এটাও সোজা করে দিলাম ;-)
+# msgstr "ফাইল লোড করা হলে স্বয়ংক্রিয়ভাবে ক্যানভাসের আকার পরিবর্তন করা হোক"
+# <-- এটাও সোজা করে দিলাম ;-)
 #~ msgid "Show visual effects when no video is displayed"
 #~ msgstr "কোনো ভিডিও প্রদর্শন না করা হলে ভিজুয়াল ইফেক্ট প্রদর্শন করা হবে"
 

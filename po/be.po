@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2018-08-13 16:31+0300\n"
 "Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
@@ -641,6 +641,11 @@ msgstr[2] ""
 "ўсталяваныя:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Каб прайграць гэты фільм, патрэбныя наступныя плугіны, але яны не "
+"ўсталяваныя:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -701,6 +706,7 @@ msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "%s патрэбны, каб зайграць гэты файл, але не ўсталяваны."
 msgstr[1] "%s патрэбныя, каб зайграць гэты файл, але не ўсталяваныя."
 msgstr[2] "%s патрэбныя, каб зайграць гэты файл, але не ўсталяваныя."
+msgstr[3] "%s патрэбныя, каб зайграць гэты файл, але не ўсталяваныя."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -871,6 +877,7 @@ msgid_plural "%d selected"
 msgstr[0] "вылучана: %d"
 msgstr[1] "вылучана: %d"
 msgstr[2] "вылучана: %d"
+msgstr[3] "вылучана: %d"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1613,14 +1620,16 @@ msgid_plural "%d hours"
 msgstr[0] "%d гадзіна"
 msgstr[1] "%d гадзіны"
 msgstr[2] "%d гадзін"
+msgstr[3] "%d гадзін"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d хвіліна"
-msgstr[1] "%d хвіліны"
+msgstr[1] "%d хвілін"
 msgstr[2] "%d хвілін"
+msgstr[3] "%d хвілін"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1629,6 +1638,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
 msgstr[1] "%d секунды"
 msgstr[2] "%d секунд"
+msgstr[3] "%d секунд"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1867,6 +1877,7 @@ msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунды"
 msgstr[2] "секунд"
+msgstr[3] "секунд"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1956,6 +1967,7 @@ msgstr "Прызначае кліенцкага агента карысталь�
 #~ msgstr[0] "%d кадраў на секунду"
 #~ msgstr[1] "%d кадраў на секунду"
 #~ msgstr[2] "%d кадраў на секунду"
+#~ msgstr[3] "%d кадраў на секунду"
 
 #~ msgid "Audio/Video"
 #~ msgstr "Гук/відэа"

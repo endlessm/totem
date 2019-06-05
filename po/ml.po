@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.master.ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2018-10-29 22:53+0530\n"
 "Last-Translator: Athul R T <athul111@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing\n"
@@ -3312,11 +3312,9 @@ msgstr " വിമിയൊ സൈറ്റിലേക്കുള്ള യൂ
 #~ msgstr "ടോട്ടത്തിനു് ആരംഭിക്കുവാന്‍ സാധ്യമായില്ല."
 
 #, fuzzy
-#~| msgid "_Chapter Menu"
 #~ msgid "Chapters support"
 #~ msgstr "ഭാഗങ്ങളുടെ പിന്‍തുണ"
 
-#~| msgid "_Go"
 #~ msgid "_Go to"
 #~ msgstr "_പോകുക"
 
@@ -3324,7 +3322,6 @@ msgstr " വിമിയൊ സൈറ്റിലേക്കുള്ള യൂ
 #~ msgstr "ആല്‍ബങ്ങള്‍ ലഭ്യമാക്കുമ്പോള്‍ ഒരു പിശകുണ്ടായി."
 
 #, fuzzy
-#~| msgid "Number of screenshots:"
 #~ msgid "Number of results per page"
 #~ msgstr "തിരചിത്രങ്ങളുടെ എണ്ണം:"
 
@@ -3332,6 +3329,5 @@ msgstr " വിമിയൊ സൈറ്റിലേക്കുള്ള യൂ
 #~ msgstr "സെക്കന്റുകള്‍"
 
 #, fuzzy
-#~| msgid "Could not connect to the Galago daemon."
 #~ msgid "Could not connect to Tracker"
 #~ msgstr "ഗാലാഗോ ഡീമണുമായി ബന്ധപ്പെടാന്‍ കഴിഞ്ഞില്ല."

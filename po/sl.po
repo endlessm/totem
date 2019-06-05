@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-26 19:15+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
-"X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -725,21 +725,25 @@ msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Ta vrsta datoteke trenutno ni podprta v videoposnetkih. Za predvajanje lahko "
+"uporabite predvajalnik VLC."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 #, fuzzy
 msgid "Open with VLC"
-msgstr "_Odpri s programom \"%s\""
+msgstr "Odpri z VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Ta vrsta datoteke trenutno ni podprta v videoposnetkih. Za predvajanje lahko "
+"uporabite predvajalnik VLC iz App centra."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "Naloži VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"

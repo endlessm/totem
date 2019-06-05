@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2004-06-17 12:36+0300\n"
 "Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
 "Language-Team: Azerbaijani <translation-team-az@lists.sourceforge.net>\n"
@@ -1659,18 +1659,21 @@ msgstr "5.0-kanal"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d saat"
+msgstr[1] "%d saat"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d dəqiqə"
+msgstr[1] "%d dəqiqə"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d saniyə"
+msgstr[1] "%d saniyə"
 
 #  hour:minutes:seconds
 #. 5 hours 2 minutes 12 seconds

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-22 00:10+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
@@ -699,20 +699,24 @@ msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Ez a fájltípus jelenleg nem támogatott a Videók által. Máskülönben, "
+"használhatja a VLC lejátszót is, hogy megjelenítse."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 msgid "Open with VLC"
-msgstr ""
+msgstr "Megnyitás VLC-vel"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Ez a fájltípus jelenleg nem támogatott a Videók által. Máskülönben, "
+"használhatja a VLC lejátszót is, az App Centerből, hogy megjelenítse."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "VLC beszerzése"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"

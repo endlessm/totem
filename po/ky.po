@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem-3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2012-09-27 10:47+0600\n"
 "Last-Translator: Timur Zhamakeev <ztimur@gmail.com>\n"
 "Language-Team: Kirghiz <gnome-i18n@gnome.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Lokalize 1.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -1593,18 +1593,21 @@ msgstr "0 канал"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d саат"
+msgstr[1] "%d саат"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d мүнөт"
+msgstr[1] "%d мүнөт"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
+msgstr[1] "%d секунда"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1837,6 +1840,7 @@ msgstr "_Өтүү:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунда"
+msgstr[1] "секунда"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the

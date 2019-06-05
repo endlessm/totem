@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2017-03-06 22:42+0800\n"
 "Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -135,12 +135,12 @@ msgstr "字幕的编码字符集。"
 
 #: data/org.gnome.totem.gschema.xml.in:55
 msgid "Default location for the “Open…” dialogs"
-msgstr "“打开…”对话框的默认位置"
+msgstr "“打开...”对话框的默认位置"
 
 #: data/org.gnome.totem.gschema.xml.in:56
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
-msgstr "“打开…”对话框的默认位置，默认为当前目录。"
+msgstr "“打开...”对话框的默认位置，默认为当前目录。"
 
 #: data/org.gnome.totem.gschema.xml.in:60
 msgid "Default location for the “Take Screenshot” dialogs"
@@ -232,7 +232,7 @@ msgstr "插件"
 
 #: data/preferences.ui:338
 msgid "Plugins…"
-msgstr "插件…"
+msgstr "插件"
 
 #: data/preferences.ui:373 src/plugins/properties/properties.ui:23
 msgid "General"
@@ -305,7 +305,7 @@ msgstr "离线缓存"
 #: data/shortcuts.ui:35
 msgctxt "shortcut window"
 msgid "Take Screenshot"
-msgstr "抓取屏幕截图"
+msgstr "抓取屏幕截图(_S)"
 
 #: data/shortcuts.ui:42
 msgctxt "shortcut window"
@@ -691,22 +691,23 @@ msgstr[0] "播放此文件需要 %s，但是没有安装。"
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
-msgstr ""
+msgstr "Videos 暂不支持此文件类型。但您可以使用 VLC 媒体播放器进行播放。"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 #, fuzzy
 msgid "Open with VLC"
-msgstr "用“%s”打开(_O)"
+msgstr "使用 VLC 打开"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Videos 暂不支持此文件类型。但您可以使用应用中心内的 VLC 媒体播放器进行播放。"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "获取 VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"
@@ -1011,7 +1012,7 @@ msgstr "要播放的电影"
 
 #: src/totem-options.c:100
 msgid "Can’t enqueue and replace at the same time"
-msgstr "无法同时添加到队列和替换"
+msgstr "不能同时添加到队列和替换"
 
 #. This is "Title 3", where title is a DVD title
 #. * Note: NOT a DVD chapter
@@ -1630,7 +1631,7 @@ msgid ""
 "remote access. If this is empty, a default of “totem” will be used."
 msgstr ""
 "一个防止调试 Totem 用的 rpdb2 服务器遭受未授权网络访问的密码。如果留空，将默"
-"认使用“totem”作为密码。"
+"认使用 totem 作为密码。"
 
 #: src/plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
 msgid "Python Console"
@@ -1669,7 +1670,7 @@ msgid ""
 "default password (“totem”)."
 msgstr ""
 "在您点击确定之后，Totem 将一直等到您连接到 winpdb 或 rpdb2。如果您没有在 "
-"DConf 中设置调试器密码，将使用默认密码（“totem”）。"
+"DConf 中设置调试器密码，将使用默认密码(“totem”)。"
 
 #: src/plugins/recent/recent.plugin.desktop.in:6
 msgid "Recent files"

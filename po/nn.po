@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2014-01-31 15:24+0200\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -21,7 +21,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.0\n"
 
-#
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
 #: src/totem-grilo.c:1901 src/totem-object.c:3729
@@ -109,44 +108,37 @@ msgstr "Skrifttype for undertekst"
 msgid "Pango font description for subtitle rendering."
 msgstr "Pango-skrifttypeskildring for undertekst"
 
-#
 #: data/org.gnome.totem.gschema.xml.in:43
 #, fuzzy
 msgctxt "subtitle-encoding"
 msgid "'UTF-8'"
 msgstr "UTF-8"
 
-#
 #: data/org.gnome.totem.gschema.xml.in:50
 msgid "Subtitle encoding"
 msgstr "Teiknsett for undertekst"
 
-#
 #: data/org.gnome.totem.gschema.xml.in:51
 #, fuzzy
 msgid "Encoding character set for subtitle."
 msgstr "Teiknsett på undertekst"
 
-#
 #: data/org.gnome.totem.gschema.xml.in:55
 #, fuzzy
 msgid "Default location for the “Open…” dialogs"
 msgstr "Standard stad for «Opna»-vindauge"
 
-#
 #: data/org.gnome.totem.gschema.xml.in:56
 #, fuzzy
 msgid ""
 "Default location for the “Open…” dialogs. Default is the current directory."
 msgstr "Standard stad for «Opna»-vindauge. Standard er den aktive mappa."
 
-#
 #: data/org.gnome.totem.gschema.xml.in:60
 #, fuzzy
 msgid "Default location for the “Take Screenshot” dialogs"
 msgstr "Standard stad for «Ta skjermbilete»-vindauge"
 
-#
 #: data/org.gnome.totem.gschema.xml.in:61
 #, fuzzy
 msgid ""
@@ -156,7 +148,6 @@ msgstr ""
 "Standard stad for «Ta skjermbilete»-vindauge. Standard er biletmappa til "
 "brukaren."
 
-#
 #: data/org.gnome.totem.gschema.xml.in:65
 #, fuzzy
 msgid "Whether to disable the plugins in the user’s home directory"
@@ -166,7 +157,6 @@ msgstr "Om tillegg i heimemappa til brukaren skal slåast av"
 msgid "Whether to disable the keyboard shortcuts"
 msgstr "Om snøggtastane skal slåast av"
 
-#
 #: data/org.gnome.totem.gschema.xml.in:73
 msgid "Whether to autoload text subtitle files when a movie is loaded"
 msgstr "Om undertekstfiler skal opnast automatisk når filmar vert opna"
@@ -189,42 +179,34 @@ msgstr ""
 msgid "Directories to show in the browse interface, none by default"
 msgstr ""
 
-#
 #: data/preferences.ui:13 src/backend/bacon-video-widget.c:5675
 msgid "Stereo"
 msgstr "Stereo"
 
-#
 #: data/preferences.ui:16
 msgid "4-channel"
 msgstr "4-kanal"
 
-#
 #: data/preferences.ui:19
 msgid "4.1-channel"
 msgstr "4.1-kanal"
 
-#
 #: data/preferences.ui:22
 msgid "5.0-channel"
 msgstr "5.0-kanal"
 
-#
 #: data/preferences.ui:25
 msgid "5.1-channel"
 msgstr "5.1-kanal"
 
-#
 #: data/preferences.ui:28
 msgid "AC3 Passthrough"
 msgstr "AC3-gjennomgang"
 
-#
 #: data/preferences.ui:80
 msgid "Preferences"
 msgstr "Innstillingar"
 
-#
 #: data/preferences.ui:130
 #, fuzzy
 msgid "External Subtitles"
@@ -238,18 +220,15 @@ msgstr "_Last inn undertekstfiler når ein film er lasta"
 msgid "_Font:"
 msgstr "_Skrifttype:"
 
-#
 #: data/preferences.ui:226
 msgid "_Encoding:"
 msgstr "_Koding:"
 
-#
 #: data/preferences.ui:312
 #, fuzzy
 msgid "Plugins"
 msgstr "Tillegg"
 
-#
 #: data/preferences.ui:338
 #, fuzzy
 msgid "Plugins…"
@@ -268,7 +247,6 @@ msgstr "Bilete"
 msgid "Disable _deinterlacing of interlaced videos"
 msgstr "Slå av _linjedobling av linjefletta filmar"
 
-#
 #: data/preferences.ui:477
 msgid "Color Balance"
 msgstr "Fargebalanse"
@@ -297,7 +275,6 @@ msgstr "Still tilbake til _standard"
 msgid "Display"
 msgstr "Vis"
 
-#
 #: data/preferences.ui:814
 msgid "Audio Output"
 msgstr "Lydutgang"
@@ -345,21 +322,18 @@ msgctxt "shortcut window"
 msgid "Volume"
 msgstr "Høgare lyd"
 
-#
 #: data/shortcuts.ui:55
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
 msgstr "Skru opp volumet"
 
-#
 #: data/shortcuts.ui:62
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
 msgstr "Skru ned volumet"
 
-#
 #: data/shortcuts.ui:70
 #, fuzzy
 msgctxt "shortcut window"
@@ -504,7 +478,6 @@ msgctxt "shortcut window"
 msgid "Navigate right"
 msgstr ""
 
-#
 #: data/totem.ui:11 data/totem.ui:110
 msgid "Prefere_nces"
 msgstr "_Innstillingar"
@@ -513,7 +486,6 @@ msgstr "_Innstillingar"
 msgid "_Keyboard Shortcuts"
 msgstr ""
 
-#
 #: data/totem.ui:19
 msgid "_Help"
 msgstr "_Hjelp"
@@ -581,7 +553,6 @@ msgstr "_Språk"
 msgid "S_ubtitles"
 msgstr "_Undertekst"
 
-#
 #: data/totem.ui:100
 #, fuzzy
 msgid "_Select Text Subtitles…"
@@ -629,7 +600,6 @@ msgstr "Skriv _adressa til fila du vil opna:"
 msgid "--:--"
 msgstr ""
 
-#
 #: src/backend/bacon-video-widget.c:1971
 msgid "Password requested for RTSP server"
 msgstr "Etterspurnad etter passord for RTSP-tenar"
@@ -659,7 +629,6 @@ msgstr "Fann ikkje filmen."
 msgid "The server refused access to this file or stream."
 msgstr "Tenaren nekta adgang til denne fila eller straumen."
 
-#
 #: src/backend/bacon-video-widget.c:3922
 msgid "Authentication is required to access this file or stream."
 msgstr "Autentisering kreves for å aksessere denne fila eller straummen."
@@ -722,12 +691,10 @@ msgid ""
 msgstr ""
 "Kan ikkje spela denne fila over nettverket. Prøv å lasta henne ned først."
 
-#
 #: src/backend/bacon-video-widget.c:5671
 msgid "Surround"
 msgstr "Surround"
 
-#
 #: src/backend/bacon-video-widget.c:5673
 msgid "Mono"
 msgstr "Mono"
@@ -834,13 +801,11 @@ msgctxt "short time format"
 msgid "%d:%02d"
 msgstr "%d:%02d"
 
-#
 #: src/grilo.ui:7
 #, fuzzy
 msgid "Select All"
 msgstr "Vel ei mappe"
 
-#
 #: src/grilo.ui:12
 #, fuzzy
 msgid "Select None"
@@ -868,7 +833,6 @@ msgstr ""
 "<b>%s</b>: %d×%d\n"
 "<b>%s</b>: %s"
 
-#
 #: src/totem-gallery-thumbnailer.c:632
 msgid "Filename"
 msgstr "Filnamn"
@@ -893,7 +857,6 @@ msgstr ""
 msgid "%s (Season %d Episode %d)"
 msgstr ""
 
-#
 #: src/totem-grilo.c:677
 #, fuzzy
 msgid "Browse Error"
@@ -908,7 +871,6 @@ msgstr "Generisk feil."
 msgid "Local"
 msgstr ""
 
-#
 #: src/totem-grilo.c:1910
 #, fuzzy
 msgid "Channels"
@@ -952,12 +914,10 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#
 #: src/totemmaintoolbar.ui:69 src/totemmaintoolbar.ui:72
 msgid "Cancel"
 msgstr "Avbryt"
 
-#
 #: src/totemmaintoolbar.ui:90
 #, fuzzy
 msgid "Search"
@@ -1007,17 +967,14 @@ msgstr "Totem klarte ikkje visa hjelpa."
 msgid "An error occurred"
 msgstr "Ein feil oppstod."
 
-#
 #: src/totem-object.c:3827
 msgid "Previous Chapter/Movie"
 msgstr "Førre kapittel/film"
 
-#
 #: src/totem-object.c:3833
 msgid "Play / Pause"
 msgstr "Spel av / pause"
 
-#
 #: src/totem-object.c:3839
 msgid "Next Chapter/Movie"
 msgstr "Neste kapittel/film"
@@ -1034,7 +991,6 @@ msgstr "Ingen grunn."
 msgid "Add Web Video"
 msgstr ""
 
-#
 #: src/totem-open-location.c:185 src/totem-uri.c:399 src/totem-uri.c:460
 #: src/plugins/screenshot/totem-gallery.c:98
 #: src/plugins/screenshot/totem-gallery-progress.c:103
@@ -1095,12 +1051,10 @@ msgstr "Set i kø"
 msgid "Replace"
 msgstr "Byt ut"
 
-#
 #: src/totem-options.c:63
 msgid "Seek"
 msgstr "Søk"
 
-#
 #: src/totem-options.c:65
 msgid "Movies to play"
 msgstr "Filmar som skal spelast av"
@@ -1121,7 +1075,6 @@ msgstr "Tittel %d"
 msgid "The playlist “%s” could not be parsed. It might be damaged."
 msgstr "Spelelista «%s» kunne ikkje tolkast. Ho kan vera øydelagd."
 
-#
 #: src/totem-preferences.c:184
 msgid "Configure Plugins"
 msgstr "Set opp tillegg"
@@ -1134,7 +1087,6 @@ msgstr ""
 msgid "Select Subtitle Font"
 msgstr "Vel skrifttype for undertekst"
 
-#
 #: src/totemselectiontoolbar.ui:15
 #, fuzzy
 msgid "Add to Favourites"
@@ -1155,173 +1107,142 @@ msgstr "Omskipling"
 msgid "Delete"
 msgstr "Slett"
 
-#
 #: src/totem-subtitle-encoding.c:156
 msgid "Current Locale"
 msgstr "Gjeldande lokaltilpassing"
 
-#
 #: src/totem-subtitle-encoding.c:159 src/totem-subtitle-encoding.c:161
 #: src/totem-subtitle-encoding.c:163 src/totem-subtitle-encoding.c:165
 msgid "Arabic"
 msgstr "Arabisk"
 
-#
 #: src/totem-subtitle-encoding.c:168
 msgid "Armenian"
 msgstr "Armensk"
 
-#
 #: src/totem-subtitle-encoding.c:171 src/totem-subtitle-encoding.c:173
 #: src/totem-subtitle-encoding.c:175
 msgid "Baltic"
 msgstr "Baltisk"
 
-#
 #: src/totem-subtitle-encoding.c:178
 msgid "Celtic"
 msgstr "Keltisk"
 
-#
 #: src/totem-subtitle-encoding.c:181 src/totem-subtitle-encoding.c:183
 #: src/totem-subtitle-encoding.c:185 src/totem-subtitle-encoding.c:187
 msgid "Central European"
 msgstr "Sentraleuropeisk"
 
-#
 #: src/totem-subtitle-encoding.c:190 src/totem-subtitle-encoding.c:192
 #: src/totem-subtitle-encoding.c:194 src/totem-subtitle-encoding.c:196
 msgid "Chinese Simplified"
 msgstr "Forenkla kinesisk"
 
-#
 #: src/totem-subtitle-encoding.c:199 src/totem-subtitle-encoding.c:201
 #: src/totem-subtitle-encoding.c:203
 msgid "Chinese Traditional"
 msgstr "Tradisjonell kinesisk"
 
-#
 #: src/totem-subtitle-encoding.c:206
 msgid "Croatian"
 msgstr "Kroatisk"
 
-#
 #: src/totem-subtitle-encoding.c:209 src/totem-subtitle-encoding.c:211
 #: src/totem-subtitle-encoding.c:213 src/totem-subtitle-encoding.c:215
 #: src/totem-subtitle-encoding.c:217 src/totem-subtitle-encoding.c:219
 msgid "Cyrillic"
 msgstr "Kyrillisk"
 
-#
 #: src/totem-subtitle-encoding.c:222
 msgid "Cyrillic/Russian"
 msgstr "Kyrillisk/russisk"
 
-#
 #: src/totem-subtitle-encoding.c:225 src/totem-subtitle-encoding.c:227
 msgid "Cyrillic/Ukrainian"
 msgstr "Kyrillisk/ukrainsk"
 
-#
 #: src/totem-subtitle-encoding.c:230
 msgid "Georgian"
 msgstr "Georgisk"
 
-#
 #: src/totem-subtitle-encoding.c:233 src/totem-subtitle-encoding.c:235
 #: src/totem-subtitle-encoding.c:237
 msgid "Greek"
 msgstr "Gresk"
 
-#
 #: src/totem-subtitle-encoding.c:240
 msgid "Gujarati"
 msgstr "Gujarati"
 
-#
 #: src/totem-subtitle-encoding.c:243
 msgid "Gurmukhi"
 msgstr "Gurmukhi"
 
-#
 #: src/totem-subtitle-encoding.c:246 src/totem-subtitle-encoding.c:248
 #: src/totem-subtitle-encoding.c:250 src/totem-subtitle-encoding.c:252
 msgid "Hebrew"
 msgstr "Hebraisk"
 
-#
 #: src/totem-subtitle-encoding.c:255
 msgid "Hebrew Visual"
 msgstr "Hebraisk, visuelt"
 
-#
 #: src/totem-subtitle-encoding.c:258
 msgid "Hindi"
 msgstr "Hindi"
 
-#
 #: src/totem-subtitle-encoding.c:261
 msgid "Icelandic"
 msgstr "Islandsk"
 
-#
 #: src/totem-subtitle-encoding.c:264 src/totem-subtitle-encoding.c:266
 #: src/totem-subtitle-encoding.c:268
 msgid "Japanese"
 msgstr "Japansk"
 
-#
 #: src/totem-subtitle-encoding.c:271 src/totem-subtitle-encoding.c:273
 #: src/totem-subtitle-encoding.c:275 src/totem-subtitle-encoding.c:277
 msgid "Korean"
 msgstr "Koreansk"
 
-#
 #: src/totem-subtitle-encoding.c:280
 msgid "Nordic"
 msgstr "Nordisk"
 
-#
 #: src/totem-subtitle-encoding.c:283
 msgid "Persian"
 msgstr "Persisk"
 
-#
 #: src/totem-subtitle-encoding.c:286 src/totem-subtitle-encoding.c:288
 msgid "Romanian"
 msgstr "Rumensk"
 
-#
 #: src/totem-subtitle-encoding.c:291
 msgid "South European"
 msgstr "Søreuropeisk"
 
-#
 #: src/totem-subtitle-encoding.c:294
 msgid "Thai"
 msgstr "Thai"
 
-#
 #: src/totem-subtitle-encoding.c:297 src/totem-subtitle-encoding.c:299
 #: src/totem-subtitle-encoding.c:301 src/totem-subtitle-encoding.c:303
 msgid "Turkish"
 msgstr "Tyrkisk"
 
-#
 #: src/totem-subtitle-encoding.c:306 src/totem-subtitle-encoding.c:308
 #: src/totem-subtitle-encoding.c:310 src/totem-subtitle-encoding.c:312
 #: src/totem-subtitle-encoding.c:314
 msgid "Unicode"
 msgstr "Unicode"
 
-#
 #: src/totem-subtitle-encoding.c:317 src/totem-subtitle-encoding.c:319
 #: src/totem-subtitle-encoding.c:321 src/totem-subtitle-encoding.c:323
 #: src/totem-subtitle-encoding.c:325
 msgid "Western"
 msgstr "Vestleg"
 
-#
 #: src/totem-subtitle-encoding.c:328 src/totem-subtitle-encoding.c:330
 #: src/totem-subtitle-encoding.c:332
 msgid "Vietnamese"
@@ -1331,28 +1252,23 @@ msgstr "Vietnamesisk"
 msgid "All files"
 msgstr "Alle filer"
 
-#
 #: src/totem-uri.c:335
 msgid "Video files"
 msgstr "Videofiler"
 
-#
 #: src/totem-uri.c:346
 msgid "Subtitle files"
 msgstr "Undertekstfiler"
 
-#
 #: src/totem-uri.c:396
 msgid "Select Text Subtitles"
 msgstr "Vel fil for undertekst"
 
-#
 #: src/totem-uri.c:400
 #, fuzzy
 msgid "_Open"
 msgstr "_Opna …"
 
-#
 #: src/totem-uri.c:457
 #, fuzzy
 msgid "Add Videos"
@@ -1371,7 +1287,6 @@ msgstr ""
 msgid "Autoload Subtitles"
 msgstr "Last ned filmundertekstar"
 
-#
 #: src/plugins/autoload-subtitles/autoload-subtitles.plugin.desktop.in:7
 #, fuzzy
 msgid "Autoloads text subtitles"
@@ -1400,7 +1315,6 @@ msgstr "Klarte ikkje ta opp filmen."
 msgid "Unable to write a project."
 msgstr "Klarte ikkje skriva til eit prosjekt."
 
-#
 #: src/plugins/brasero-disc-recorder/totem-disc-recorder.c:375
 #, fuzzy
 msgid "_Create Video Disc…"
@@ -1445,24 +1359,20 @@ msgstr ""
 msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
 msgstr ""
 
-#
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:6
 #, fuzzy
 msgid "Instant Messenger Status"
 msgstr "Status for lynmeldingsklient"
 
-#
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:7
 msgid "Set your Instant Messenger status to away when a movie is playing"
 msgstr ""
 "Set statusen i lynmeldingsklienten til «Vekke» når ein film vert spela av"
 
-#
 #: src/plugins/lirc/lirc.plugin.desktop.in:5
 msgid "Infrared Remote Control"
 msgstr "Infraraud fjernkontroll"
 
-#
 #: src/plugins/lirc/lirc.plugin.desktop.in:6
 msgid "Support infrared remote control"
 msgstr "Støtte for infraraud fjernkontroll"
@@ -1500,13 +1410,11 @@ msgstr "Sjå etter undertekst til filmen som vert spelt av."
 msgid "Brazilian Portuguese"
 msgstr "Portugisisk (Brasil)"
 
-#
 #: src/plugins/opensubtitles/opensubtitles.py:187
 #, fuzzy
 msgid "Searching for subtitles…"
 msgstr "Søkjer etter undertekstar …"
 
-#
 #: src/plugins/opensubtitles/opensubtitles.py:235
 #: src/plugins/opensubtitles/opensubtitles.py:615
 #, fuzzy
@@ -1523,7 +1431,6 @@ msgstr "Klarte ikkje kontakta nettstaden OpenSubtitles"
 msgid "Could not contact the OpenSubtitles website."
 msgstr "Klarte ikkje kontakta nettstaden OpenSubtitles"
 
-#
 #: src/plugins/opensubtitles/opensubtitles.py:339
 #, fuzzy
 msgid "No results found."
@@ -1533,7 +1440,6 @@ msgstr "Ingen treff"
 msgid "Subtitles"
 msgstr "Undertekstar"
 
-#
 #. translators comment:
 #. This is the file-type of the subtitle file detected
 #: src/plugins/opensubtitles/opensubtitles.py:488
@@ -1552,7 +1458,6 @@ msgstr "Karakter"
 msgid "_Download Movie Subtitles…"
 msgstr "Last ned filmundertekstar"
 
-#
 #: src/plugins/opensubtitles/opensubtitles.py:572
 #, fuzzy
 msgid "Searching subtitles…"
@@ -1562,17 +1467,14 @@ msgstr "Søkjer etter undertekstar …"
 msgid "Download Movie Subtitles"
 msgstr "Last ned filmundertekstar"
 
-#
 #: src/plugins/opensubtitles/opensubtitles.ui:43
 msgid "Subtitle _language:"
 msgstr "Undertekstspråk"
 
-#
 #: src/plugins/opensubtitles/opensubtitles.ui:124
 msgid "_Play with Subtitle"
 msgstr "_Spel av med undertekst"
 
-#
 #: src/plugins/opensubtitles/org.gnome.totem.plugins.opensubtitles.gschema.xml.in:6
 #, fuzzy
 msgid "Subtitle language"
@@ -1624,7 +1526,6 @@ msgstr "I/T"
 msgid "Properties"
 msgstr "Eigenskapar"
 
-#
 #: src/plugins/properties/totem-movie-properties.c:305
 msgid "_Properties"
 msgstr "_Eigenskapar"
@@ -1649,7 +1550,6 @@ msgstr "År:"
 msgid "Album:"
 msgstr "Album:"
 
-#
 #: src/plugins/properties/properties.ui:235
 msgid "Comment:"
 msgstr "Kommentar:"
@@ -1676,12 +1576,10 @@ msgstr "Biletrate:"
 msgid "Bitrate:"
 msgstr "Bitrate:"
 
-#
 #: src/plugins/properties/properties.ui:536
 msgid "Sample rate:"
 msgstr "Samplingsrate:"
 
-#
 #: src/plugins/properties/properties.ui:646
 msgid "Channels:"
 msgstr "Kanalar:"
@@ -1761,13 +1659,11 @@ msgctxt "Audio codec"
 msgid "N/A"
 msgstr "I/T"
 
-#
 #. Sample rate
 #: src/plugins/properties/bacon-video-widget-properties.c:137
 msgid "0 Hz"
 msgstr "0 Hz"
 
-#
 #. Channels
 #: src/plugins/properties/bacon-video-widget-properties.c:139
 msgid "0 Channels"
@@ -1865,7 +1761,6 @@ msgstr ""
 "eller «rpdb2». Viss du ikkje har valt noko feilsøkingspassord i GConf, vil "
 "standardpassordet «totem» verta brukt."
 
-#
 #: src/plugins/recent/recent.plugin.desktop.in:6
 #, fuzzy
 msgid "Recent files"
@@ -1895,7 +1790,6 @@ msgstr ""
 msgid "Save Copy"
 msgstr ""
 
-#
 #: src/plugins/save-file/save-file.plugin.desktop.in:7
 #, fuzzy
 msgid "Save a copy of the currently playing movie"
@@ -2067,7 +1961,6 @@ msgctxt "playback rate"
 msgid "× 0.75"
 msgstr ""
 
-#
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 #, fuzzy
 msgctxt "playback rate"
@@ -2124,7 +2017,6 @@ msgstr ""
 #~ msgid "Add..."
 #~ msgstr "Legg til …"
 
-#
 #~ msgid "Copy the location to the clipboard"
 #~ msgstr "Kopier plasseringa til utklippstavla"
 
@@ -2137,45 +2029,36 @@ msgstr ""
 #~ msgid "Remove"
 #~ msgstr "Fjern"
 
-#
 #~ msgid "Remove file from playlist"
 #~ msgstr "Fjern fila frå spelelista"
 
-#
 #~ msgid "Save Playlist..."
 #~ msgstr "Lagra speleliste …"
 
-#
 #~ msgid "Select a file to use for text subtitles"
 #~ msgstr "Vel ei fil som skal brukast som undertekst"
 
 #~ msgid "_Copy Location"
 #~ msgstr "_Kopier adresse"
 
-#
 #~ msgid "_Remove"
 #~ msgstr "Fje_rn"
 
 #~ msgid "_Select Text Subtitles..."
 #~ msgstr "_Vel undertekst …"
 
-#
 #~ msgid "Author:"
 #~ msgstr "Forfattar:"
 
-#
 #~ msgid "C_onfigure..."
 #~ msgstr "_Set opp …"
 
-#
 #~ msgid "Copyright:"
 #~ msgstr "Opphavsrett:"
 
-#
 #~ msgid "Description:"
 #~ msgstr "Skildring:"
 
-#
 #~ msgid "Site:"
 #~ msgstr "Stad:"
 
@@ -2185,68 +2068,54 @@ msgstr ""
 #~ msgid "0 x 0"
 #~ msgstr "0 x 0"
 
-#
 #~ msgid "Add the video to the playlist"
 #~ msgstr "Legg til video i spelelista"
 
 #~ msgid "Play movies and songs"
 #~ msgstr "Spel filmar og musikk"
 
-#
 #~ msgid "1.5 Mbps T1/Intranet/LAN"
 #~ msgstr "1,5 Mb/s-T1/Intranett/LAN"
 
-#
 #~ msgid "112 Kbps Dual ISDN/DSL"
 #~ msgstr "112 Kb/s-dobbel ISDN/DSL"
 
-#
 #~ msgid "14.4 Kbps Modem"
 #~ msgstr "14,4 Kb/s-modem"
 
-#
 #~ msgid "19.2 Kbps Modem"
 #~ msgstr "19,2 Kb/s-modem"
 
-#
 #~ msgid "256 Kbps DSL/Cable"
 #~ msgstr "256 Kb/s-DSL/kabel"
 
-#
 #~ msgid "28.8 Kbps Modem"
 #~ msgstr "28,8 Kb/s-modem"
 
-#
 #~ msgid "33.6 Kbps Modem"
 #~ msgstr "33,6 Kb/s-modem"
 
-#
 #~ msgid "34.4 Kbps Modem"
 #~ msgstr "34,4 Kb/s-modem"
 
-#
 #~ msgid "384 Kbps DSL/Cable"
 #~ msgstr "384 Kb/s-DSL/kabel"
 
-#
 #~ msgid "512 Kbps DSL/Cable"
 #~ msgstr "512 Kb/s-DSL/kabel"
 
-#
 #~ msgid "56 Kbps Modem/ISDN"
 #~ msgstr "56 Kb/s-modem/ISDN"
 
 #~ msgid "About this application"
 #~ msgstr "Om dette programmet"
 
-#
 #~ msgid "Clear the playlist"
 #~ msgstr "Tøm spelelista"
 
 #~ msgid "Configure plugins to extend the application"
 #~ msgstr "Set opp programtillegg for å utvida programmet"
 
-#
 #~ msgid "Configure the application"
 #~ msgstr "Set opp programmet"
 
@@ -2256,7 +2125,6 @@ msgstr ""
 #~ msgid "Eject the current disc"
 #~ msgstr "Løys ut den gjeldande disken"
 
-#
 #~ msgid "Extra Large"
 #~ msgstr "Ekstra stor"
 
@@ -2281,15 +2149,12 @@ msgstr ""
 #~ msgid "Help contents"
 #~ msgstr "Hjelp"
 
-#
 #~ msgid "Intranet/LAN"
 #~ msgstr "Intranett/LAN"
 
-#
 #~ msgid "Large"
 #~ msgstr "Stor"
 
-#
 #~ msgid "Networking"
 #~ msgstr "Nettverk"
 
@@ -2299,28 +2164,24 @@ msgstr ""
 #~ msgid "Open _Location..."
 #~ msgstr "Opna _adresse …"
 
-#
 #~ msgid "Open a file"
 #~ msgstr "Opna ei fil"
 
 #~ msgid "Open a non-local file"
 #~ msgstr "Opna ei ikkje-lokal fil"
 
-#
 #~ msgid "Play / P_ause"
 #~ msgstr "Spel av / p_ause"
 
 #~ msgid "Play or pause the movie"
 #~ msgstr "Spel av filmen eller set han på pause"
 
-#
 #~ msgid "Plugins..."
 #~ msgstr "Tillegg …"
 
 #~ msgid "Previous chapter or movie"
 #~ msgstr "Førre kapittel eller film"
 
-#
 #~ msgid "Quit the program"
 #~ msgstr "Avslutt programmet"
 
@@ -2330,15 +2191,12 @@ msgstr ""
 #~ msgid "Resize _2:1"
 #~ msgstr "Endra til _2:1"
 
-#
 #~ msgid "Resize to double the original video size"
 #~ msgstr "Endra storleiken til det dobbelte av opphavleg storleik"
 
-#
 #~ msgid "Resize to half the original video size"
 #~ msgstr "Endra storleiken til halvparten av opphavleg storleik"
 
-#
 #~ msgid "Resize to the original video size"
 #~ msgstr "Endra storleiken til opphavleg storleik"
 
@@ -2348,7 +2206,6 @@ msgstr ""
 #~ msgid "Set the shuffle mode"
 #~ msgstr "Vel omskipling"
 
-#
 #~ msgid "Sets 16:9 (widescreen) aspect ratio"
 #~ msgstr "Vel høgd-/breiddforhold til 16:9 (widescreen)"
 
@@ -2394,11 +2251,9 @@ msgstr ""
 #~ msgid "Start playing files from last position"
 #~ msgstr "Spel av filer frå den sist brukte plasseringa"
 
-#
 #~ msgid "Switch camera angles"
 #~ msgstr "Byt kameravinkel"
 
-#
 #~ msgid "Time seek bar"
 #~ msgstr "Tidssøkjelinje"
 
@@ -2411,7 +2266,6 @@ msgstr ""
 #~ msgid "View the properties of the current stream"
 #~ msgstr "Vis eigenskapane til den gjeldande straumen"
 
-#
 #~ msgid "Visual Effects"
 #~ msgstr "Visuelle effektar"
 
@@ -2433,18 +2287,15 @@ msgstr ""
 #~ msgid "Zoom reset"
 #~ msgstr "Nullstill skalering"
 
-#
 #~ msgid "_About"
 #~ msgstr "_Om"
 
-#
 #~ msgid "_Clear Playlist"
 #~ msgstr "_Tøm speleliste"
 
 #~ msgid "_Contents"
 #~ msgstr "_Innhald"
 
-#
 #~ msgid "_Edit"
 #~ msgstr "R_ediger"
 
@@ -2460,14 +2311,12 @@ msgstr ""
 #~ msgid "_Previous Chapter/Movie"
 #~ msgstr "_Førre kapittel/film"
 
-#
 #~ msgid "_Quit"
 #~ msgstr "_Avslutt"
 
 #~ msgid "_Resize 1:2"
 #~ msgstr "_Endra til 1:2"
 
-#~| msgid "Automatically _resize the window when a new video is loaded"
 #~ msgid "_Resize the window when a new video is loaded"
 #~ msgstr "Endra _storleiken på vindauget når ein ny film er lasta"
 
@@ -2477,7 +2326,6 @@ msgstr ""
 #~ msgid "_Type of visualization:"
 #~ msgstr "_Visualiseringstype:"
 
-#
 #~ msgid "Allow the screensaver to activate when playing audio"
 #~ msgstr "Lat pauseskjermen slå seg på sjølv når berre lyd vert spela av"
 
@@ -2581,15 +2429,12 @@ msgstr ""
 #~ msgid "All Supported Files"
 #~ msgstr "Alle støtta filer"
 
-#
 #~ msgid "By Extension"
 #~ msgstr "Etter filetternamn"
 
-#
 #~ msgid "File Format"
 #~ msgstr "Filformat"
 
-#
 #~ msgid "Extension(s)"
 #~ msgstr "Filetternamn"
 
@@ -2625,11 +2470,9 @@ msgstr ""
 #~ msgid "Show session management options"
 #~ msgstr "Vis val for øktstyring"
 
-#
 #~ msgid "Audio Preview"
 #~ msgstr "Førehandsvising av lyd"
 
-#
 #~ msgid "Unknown video"
 #~ msgstr "Ukjend video"
 
@@ -2639,7 +2482,6 @@ msgstr ""
 #~ msgid "No File"
 #~ msgstr "Inga fil"
 
-#
 #~ msgid ""
 #~ "Totem is free software; you can redistribute it and/or modify it under "
 #~ "the terms of the GNU General Public License as published by the Free "
@@ -2651,7 +2493,6 @@ msgstr ""
 #~ "Free Software Foundation – anten versjon 2 av lisensen, eller (viss du "
 #~ "ønskjer det) ein seinare versjon."
 
-#
 #~ msgid ""
 #~ "Totem is distributed in the hope that it will be useful, but WITHOUT ANY "
 #~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
@@ -2663,7 +2504,6 @@ msgstr ""
 #~ "SALBART eller PASSAR TIL EIT VISST FORMÅL. Sjå GNU General Public License "
 #~ "for fleire detaljar."
 
-#
 #~ msgid ""
 #~ "Totem contains an exception to allow the use of proprietary GStreamer "
 #~ "plugins."
@@ -2683,7 +2523,6 @@ msgstr ""
 #~ msgid "Movie Player using %s"
 #~ msgstr "Filmavspelar brukar %s"
 
-#
 #~ msgid "Copyright © 2002-2009 Bastien Nocera"
 #~ msgstr "© 2002–2009 Bastigen Nocera"
 
@@ -2697,7 +2536,6 @@ msgstr ""
 #~ "\n"
 #~ "Send feilmeldingar og kommentarar til <i18n-nn@lister.ping.uio.no>"
 
-#
 #~ msgid "Totem Website"
 #~ msgstr "Nettstaden til Totem"
 
@@ -2727,7 +2565,6 @@ msgstr ""
 #~ "Du bør sjå til at det står ei plate i stasjonen og at han er rett sett "
 #~ "opp."
 
-#
 #~ msgid "More information about media plugins"
 #~ msgstr "Meir informasjon om medietillegg"
 
@@ -2758,15 +2595,12 @@ msgstr ""
 #~ "Totem kan ikkje spela av denne typen medium (%s) fordi det ikkje er "
 #~ "støtta."
 
-#
 #~ msgid "Please insert another disc to play back."
 #~ msgstr "Set inn ei anna plate som skal spelast av."
 
-#
 #~ msgid "Totem does not support playback of Audio CDs"
 #~ msgstr "Totem støttar ikkje avspeling av lyd-CD-ar"
 
-#
 #~ msgid ""
 #~ "Please consider using a music player or a CD extractor to play this CD"
 #~ msgstr ""
@@ -2788,15 +2622,12 @@ msgstr ""
 #~ msgid "Show/Hide Controls"
 #~ msgstr "Vis/gøym kontrollpanel"
 
-#
 #~ msgid "Don't connect to an already-running instance"
 #~ msgstr "Ikkje kopla til ein instans som alt køyrer"
 
-#
 #~ msgid "Playlist index"
 #~ msgstr "Spelelisteindeks"
 
-#
 #~ msgid "MP3 ShoutCast playlist"
 #~ msgstr "MP3 ShoutCast-speleliste"
 
@@ -2873,7 +2704,6 @@ msgstr ""
 #~ msgid "Supported files"
 #~ msgstr "Støtta filer"
 
-#
 #~ msgid "Audio files"
 #~ msgstr "Lydfiler"
 
@@ -2886,7 +2716,6 @@ msgstr ""
 #~ msgid "Totem Movie Player"
 #~ msgstr "Totem – filmspelar"
 
-#
 #~ msgid "- Play movies and songs"
 #~ msgstr "– Spel av filmar og songar"
 
@@ -2917,7 +2746,6 @@ msgstr ""
 #~ msgid "Location not found."
 #~ msgstr "Fann ikkje adressa."
 
-#
 #~ msgid ""
 #~ "Could not open location; you might not have permission to open the file."
 #~ msgstr ""
@@ -3002,22 +2830,18 @@ msgstr ""
 #~ msgid "%s"
 #~ msgstr "%s"
 
-#
 #~ msgid "Bemused"
 #~ msgstr "Bemused"
 
-#
 #~ msgid "Control Totem through a mobile phone with a Bemused client"
 #~ msgstr "Kontroller Totem via ein mobiltelefon med ein Bemused-klient"
 
 #~ msgid "Untitled %d"
 #~ msgstr "Namnlaus %d"
 
-#
 #~ msgid "Totem Bemused Server"
 #~ msgstr "Totem–Bemused-tenar"
 
-#
 #~ msgid "Totem Bemused Server version 1.0"
 #~ msgstr "Totem–Bemused-tenar, versjon 1.0"
 
@@ -3042,11 +2866,9 @@ msgstr ""
 #~ msgid "Could not connect to the Galago daemon."
 #~ msgstr "Klarte ikkje kopla til Galago-tenesta."
 
-#
 #~ msgid "Gromit Annotations"
 #~ msgstr "Gromit-annotasjonar"
 
-#
 #~ msgid "Presentation helper to make annotations on screen"
 #~ msgstr "Presentasjonshjelpar for å laga annotasjonar på skjermen"
 
@@ -3061,7 +2883,6 @@ msgstr ""
 #~ msgstr ""
 #~ "BBC-program frå dei siste sju dagane i straum via iPlayer-tenesta frå BBC."
 
-#~| msgid "Error Listing Channel Categories"
 #~ msgid "Error listing channel categories"
 #~ msgstr "Feil når kanalkategoriane skulle listast."
 
@@ -3078,9 +2899,6 @@ msgstr ""
 #~ msgid "Error getting programme feed"
 #~ msgstr "Klarte ikkje henta programkjelda"
 
-#~| msgid ""
-#~| "There was an unknown error getting the list of programmes for this "
-#~| "channel and category combination."
 #~ msgid ""
 #~ "There was an error getting the list of programmes for this channel and "
 #~ "category combination."
@@ -3115,7 +2933,6 @@ msgstr ""
 #~ msgid "Preferred audio _format:"
 #~ msgstr "Føretrekt lyd_format:"
 
-#
 #~ msgid "Search Results"
 #~ msgstr "Søkjeresultat"
 
@@ -3144,7 +2961,6 @@ msgstr ""
 #~ msgid "%x"
 #~ msgstr "%x"
 
-#
 #~ msgid "Released on: %s"
 #~ msgstr "Utgjeven: %s"
 
@@ -3182,11 +2998,9 @@ msgstr ""
 #~ msgid "%M:%S"
 #~ msgstr "%M.%S"
 
-#
 #~ msgid "Recordings"
 #~ msgstr "Opptak"
 
-#
 #~ msgid "MythTV Recordings"
 #~ msgstr "MythTV-opptak"
 
@@ -3202,11 +3016,9 @@ msgstr ""
 #~ msgid "Download movie subtitles from OpenSubtitles"
 #~ msgstr "Last ned undertekstar frå OpenSubtitles"
 
-#
 #~ msgid "Always On Top"
 #~ msgstr "Alltid øvst"
 
-#
 #~ msgid "Keep the main window on top when playing a movie"
 #~ msgstr "Ha hovudvindauget øvst når ein film vert spela av"
 
@@ -3216,15 +3028,12 @@ msgstr ""
 #~ msgid "%d frames per second"
 #~ msgstr "%d bilete per sekund"
 
-#
 #~ msgid "Neighbors"
 #~ msgstr "Naboar"
 
-#
 #~ msgid "Publish Playlist"
 #~ msgstr "Publiser speleliste"
 
-#
 #~ msgid "Share the current playlist via HTTP"
 #~ msgstr "Del denne spelelista via HTTP"
 
@@ -3274,7 +3083,6 @@ msgstr ""
 #~ msgid "Could not connect to Tracker"
 #~ msgstr "Klarte ikkje kopla til Tracker"
 
-#
 #~ msgid "No results"
 #~ msgstr "Ingen treff"
 
@@ -3283,36 +3091,28 @@ msgstr ""
 #~ msgstr[0] "Viser %i–%i av %i treff"
 #~ msgstr[1] "Viser %i–%i av %i treff"
 
-#
 #~ msgid "Page"
 #~ msgstr "Side"
 
-#
 #~ msgid "Local Search"
 #~ msgstr "Lokalt søk"
 
-#
 #~ msgid "Set the window icon to the thumbnail of the playing movie"
 #~ msgstr ""
 #~ "Legg vindaugsikonet til som miniatyrbilete for filmen som vert spela av"
 
-#
 #~ msgid "Thumbnail"
 #~ msgstr "Miniatyrbilete"
 
-#
 #~ msgid "Search for local videos using Tracker"
 #~ msgstr "Søk etter filmar med Tracker lokalt"
 
-#
 #~ msgid "A plugin to let you browse YouTube videos."
 #~ msgstr "Eit tillegg som lèt deg sjå YouTube-videoar."
 
-#
 #~ msgid "YouTube Browser"
 #~ msgstr "YouTube-tillegg"
 
-#
 #~ msgid "Related Videos"
 #~ msgstr "Liknande videoar"
 
@@ -3322,7 +3122,6 @@ msgstr ""
 #~ msgid "Open the video in your web browser"
 #~ msgstr "Opna filmen i nettlesaren din"
 
-#
 #~ msgid "YouTube"
 #~ msgstr "YouTube"
 
@@ -3342,11 +3141,9 @@ msgstr ""
 #~ "Klarte ikkje forstå svaret frå tenaren. Sjekk om «libgdata» er oppdatert "
 #~ "til nyaste versjon."
 
-#
 #~ msgid "Fetching search results…"
 #~ msgstr "Hentar søkjeresultat …"
 
-#
 #~ msgid "Fetching related videos…"
 #~ msgstr "Hentar liknande filmar …"
 
@@ -3362,19 +3159,15 @@ msgstr ""
 #~ msgid "Browser Plugin using %s"
 #~ msgstr "Nettlesartillegget brukar %s"
 
-#
 #~ msgid "Totem Browser Plugin"
 #~ msgstr "Nettlesartillegg til Totem"
 
-#
 #~ msgid "No playlist or playlist empty"
 #~ msgstr "Anten finst det inga speleliste, eller så er ho tom"
 
-#
 #~ msgid "Movie browser plugin"
 #~ msgstr "Nettlesartillegg for avspeling av film"
 
-#
 #~ msgid "Verify your system installation. The Totem plugin will now exit."
 #~ msgstr ""
 #~ "Sjå til at systemet er rett installert. Totem-tillegget vert avslutta no."
@@ -3391,7 +3184,6 @@ msgstr ""
 #~ msgid "Deinterlace"
 #~ msgstr "Linjedobling"
 
-#
 #~ msgid "S_idebar"
 #~ msgstr "S_idestolpe"
 
@@ -3410,15 +3202,12 @@ msgstr ""
 #~ msgid "Could not launch URL \"%s\": %s"
 #~ msgstr "Klarte ikkje lasta URL «%s»: %s"
 
-#
 #~ msgid "Default browser not configured"
 #~ msgstr "Standardnettlesar er ikkje valt"
 
-#
 #~ msgid "Error launching URI"
 #~ msgstr "Feil ved lasting av URI"
 
-#
 #~ msgid "Enabled"
 #~ msgstr "Slått på"
 
@@ -3432,7 +3221,6 @@ msgstr ""
 #~ msgid "Unable to activate plugin %s"
 #~ msgstr "Klarer ikkje ta i bruk tillegget %s"
 
-#
 #~ msgid "Plugin Error"
 #~ msgstr "Feil med tillegg"
 
@@ -3445,8 +3233,6 @@ msgstr ""
 #~ msgid "Watch TV on '%s'"
 #~ msgstr "Sjå TV på «%s»"
 
-#~| msgid ""
-#~| "Totem cannot play this type of media (%s) because it is not supported."
 #~ msgid ""
 #~ "Totem cannot play TV, because no TV adapters are present or they are not "
 #~ "supported."
@@ -3454,20 +3240,16 @@ msgstr ""
 #~ "Totem kan ikkje spela av TV, anten fordi ingen TV-einingar er kopla til, "
 #~ "eller fordi eininga ikkje er støtta."
 
-#
 #~ msgid "Please insert a supported TV adapter."
 #~ msgstr "Kopla til ei støtta TV-eining."
 
-#
 #~ msgid "More information about watching TV"
 #~ msgstr "Meir informasjon om å sjå på TV"
 
-#
 #~ msgid "Totem is missing a channels listing to be able to tune the receiver."
 #~ msgstr ""
 #~ "Totem manglar ei liste over kanalar for å kunne stilla inn mottakaren."
 
-#
 #~ msgid ""
 #~ "Please follow the instructions provided in the link to create a channels "
 #~ "listing."
@@ -3494,19 +3276,15 @@ msgstr ""
 #~ msgid "Sets 16:9 (Anamorphic) aspect ratio"
 #~ msgstr "Vel 16:9 (anamorf) aspektrate"
 
-#
 #~ msgid "TV-Out"
 #~ msgstr "TV-utgang"
 
-#
 #~ msgid "TV-out in fullscreen by Nvidia (NTSC)"
 #~ msgstr "TV-utgang i fullskjerm av Nvidia (NTSC)"
 
-#
 #~ msgid "TV-out in fullscreen by Nvidia (PAL)"
 #~ msgstr "TV-utgang i fullskjerm av Nvidia (PAL)"
 
-#
 #~ msgid "_Allow the screensaver to activate even when audio-only is playing"
 #~ msgstr "L_a skjermspararen aktiverast sjølv når berre lyd blir avspelt"
 
@@ -3522,19 +3300,15 @@ msgstr ""
 #~ msgid "Sound volume, in percent, between 0 and 100"
 #~ msgstr "Lydstyrke, i prosent mellom 0 og 100."
 
-#
 #~ msgid "GTK+"
 #~ msgstr "GTK+"
 
-#
 #~ msgid "GNOME"
 #~ msgstr "GNOME"
 
-#
 #~ msgid "Print playing movie"
 #~ msgstr "Skriv ut filmtittel på kommandolinja"
 
-#
 #~ msgid "Unknown file extension."
 #~ msgstr "Ukjend filtype."
 
@@ -3570,7 +3344,6 @@ msgstr ""
 #~ msgid "The audio device is busy. Is another application using it?"
 #~ msgstr "Lydeininga er oppteken. Brukar eit anna program henne?"
 
-#
 #~ msgid "Authentication is required to access this file."
 #~ msgstr "Autentisering kreves for å aksessere denne fila."
 
@@ -3613,30 +3386,24 @@ msgstr ""
 #~ msgid "short time format|%d:%02d"
 #~ msgstr "%d:%02d"
 
-#
 #~ msgid "IP address of the local MythTV server"
 #~ msgstr "IP-adresse for den lokale MythTV-tenaren"
 
-#
 #~ msgid "Name of the database for the local MythTV server"
 #~ msgstr "Namn på databasen til lokal MythTV-tenar"
 
-#
 #~ msgid "Port to access the local MythTV server"
 #~ msgstr "Port for å få tilgang til lokal MythTV-tenar"
 
-#
 #~ msgid "Username to access the local MythTV server"
 #~ msgstr "Brukarnamn for å få tilgang til lokal MythTV-tenar"
 
 #~ msgid "Opening %s"
 #~ msgstr "Opnar %s"
 
-#
 #~ msgid "The Totem plugin could not be started."
 #~ msgstr "Tillegget for Totem kunne ikkje starta opp."
 
-#
 #~ msgid "Could not initialise the thread-safe libraries."
 #~ msgstr "Kunne ikkje klargjere trådsikre biblioteker."
 

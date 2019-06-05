@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-25 13:10-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese - Brazil <gnome-pt_br-list@gnome.org>\n"
@@ -712,21 +712,25 @@ msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Este tipo de arquivo não é suportado em Vídeos. Entretanto, você pode usar o "
+"programa VLC para abrí-lo."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 #, fuzzy
 msgid "Open with VLC"
-msgstr "Abrir c_om \"%s\""
+msgstr "Abrir com VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Este tipo de arquivo não é suportado em Vídeos. Entretanto, você pode usar o "
+"programa VLC na Central de Aplicativos para abrí-lo."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "Obter VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"

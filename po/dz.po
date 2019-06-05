@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.HEAD.dz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2007-05-22 00:08+0530\n"
 "Last-Translator: Tshewang Norbu <bumthap2006@hotmail.com>\n"
 "Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Poedit-Language: Dzongkha\n"
 "X-Poedit-Country: BHUTAN\n"
+"X-Poedit-Language: Dzongkha\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
@@ -1672,21 +1672,18 @@ msgstr "༠ རྒྱུ་ལམ་"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "ཆུ་ཚོད་%d"
-msgstr[1] "ཆུ་ཚོད་%d"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "སྐར་མ་%d"
-msgstr[1] "སྐར་མ་%d"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "སྐར་ཆ་%d"
-msgstr[1] "སྐར་ཆ་%d"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166

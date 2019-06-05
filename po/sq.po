@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2008-07-23 12:35+0200\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: data/org.gnome.totem.gschema.xml.in:39
 msgid "Subtitle font"
-msgstr "Gërmat e nëntitujve"
+msgstr "Germa titra"
 
 #: data/org.gnome.totem.gschema.xml.in:40
 #, fuzzy
@@ -114,7 +114,7 @@ msgstr "UTF-8"
 
 #: data/org.gnome.totem.gschema.xml.in:50
 msgid "Subtitle encoding"
-msgstr "Kodifikimi i nëntitujve"
+msgstr "Kodifikimi titra"
 
 #: data/org.gnome.totem.gschema.xml.in:51
 #, fuzzy
@@ -1085,7 +1085,7 @@ msgstr ""
 
 #: src/totem-preferences.c:299
 msgid "Select Subtitle Font"
-msgstr "Zgjidh gërmat për nëntitujt"
+msgstr "Zgjidh Germa Titra"
 
 #: src/totemselectiontoolbar.ui:15
 #, fuzzy
@@ -1254,11 +1254,11 @@ msgstr "Të gjithë file"
 
 #: src/totem-uri.c:335
 msgid "Video files"
-msgstr "File video"
+msgstr "Skedarë video"
 
 #: src/totem-uri.c:346
 msgid "Subtitle files"
-msgstr "File për nëntitujt"
+msgstr "Skedarë titra"
 
 #: src/totem-uri.c:396
 #, fuzzy

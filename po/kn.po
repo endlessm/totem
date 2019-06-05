@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.master.kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2014-09-22 23:00+0530\n"
 "Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
 "Language-Team: Kannada <kde-i18n-doc@kde.org>\n"
@@ -659,8 +659,10 @@ msgid_plural ""
 "\n"
 "%s"
 msgstr[0] ""
-"ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಒಂದು %s ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ "
-"ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ."
+"ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ "
+"ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
+"\n"
+"%s"
 msgstr[1] ""
 "ಈ ಚಲನಚಿತ್ರವನ್ನು ಚಲಾಯಿಸಲು ಈ ಕೆಳಗಿನ ಪ್ಲಗ್‌ಇನ್‌ನ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದು ನಿಮ್ಮಲ್ಲಿ "
 "ಅನುಸ್ಥಾಪಿತಗೊಂಡಿಲ್ಲ:\n"
@@ -1636,21 +1638,21 @@ msgstr "0 ಮಾರ್ಗಗಳು"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d ಗಂಟೆ"
-msgstr[1] "%d ಗಂಟೆಗಳು"
+msgstr[1] "%d ಗಂಟೆ"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d ನಿಮಿಷ"
-msgstr[1] "%d ನಿಮಿಷಗಳು"
+msgstr[1] "%d ನಿಮಿಷ"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d ಸೆಕೆಂಡ್‍"
-msgstr[1] "%d ಸೆಕೆಂಡ್‍ಗಳು"
+msgstr[1] "%d ಸೆಕೆಂಡ್‍"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1891,7 +1893,7 @@ msgstr "ಇಲ್ಲಿಗೆ ನೆಗೆ (_S):"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "ಸೆಕೆಂಡು"
-msgstr[1] "ಸೆಕೆಂಡುಗಳು"
+msgstr[1] "ಸೆಕೆಂಡು"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1965,7 +1967,6 @@ msgstr "Vimeo ತಾಣಕ್ಕಾಗಿ ಬಳಕೆದಾರ ಮಧ್ಯವ�
 #~ msgid "Video thumbnailer for the file manager"
 #~ msgstr "ಕಡತ ವ್ಯವಸ್ಥಾಪಕಕ್ಕಾಗಿ ವೀಡಿಯೊ ತಂಬ್‌ನೈಲರ್‌"
 
-#~| msgid "Movie Properties"
 #~ msgid "Files properties tab"
 #~ msgstr "ಕಡತಗಳ ಗುಣಲಕ್ಷಣಗಳ ಟ್ಯಾಬ್"
 
@@ -2037,7 +2038,6 @@ msgstr "Vimeo ತಾಣಕ್ಕಾಗಿ ಬಳಕೆದಾರ ಮಧ್ಯವ�
 #~ msgid "Go to the chapter in the movie"
 #~ msgstr "ಚಲನಚಿತ್ರದ ಅಧ್ಯಾಯಕ್ಕೆ ತೆರಳು"
 
-#~| msgid "Add Chapter"
 #~ msgid "Add Chapter…"
 #~ msgstr "ಅಧ್ಯಾಯವನ್ನು ಸೇರಿಸು..."
 
@@ -2053,7 +2053,6 @@ msgstr "Vimeo ತಾಣಕ್ಕಾಗಿ ಬಳಕೆದಾರ ಮಧ್ಯವ�
 #~ msgid "No chapter data"
 #~ msgstr "ಯಾವುದೆ ಅಧ್ಯಾಯ ದತ್ತಾಂಶವಿಲ್ಲ"
 
-#~| msgid "Load Chapters..."
 #~ msgid "Load Chapters…"
 #~ msgstr "ಅಧ್ಯಾಯಗಳನ್ನು ಲೋಡ್ ಮಾಡು..."
 

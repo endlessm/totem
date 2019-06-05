@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2018-10-26 18:58+0200\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
@@ -292,7 +292,8 @@ msgstr "Všeobecné"
 msgid "Video"
 msgstr "Video"
 
-# PM: s prekladaním bol dosť zavádzajúce ako keby si hovoril o zákaze dabingu - zmenil som to
+# PM: s prekladaním bol dosť zavádzajúce ako keby si hovoril o zákaze dabingu
+# - zmenil som to
 # checkbutton
 #: data/preferences.ui:436
 msgid "Disable _deinterlacing of interlaced videos"
@@ -737,6 +738,11 @@ msgstr[2] ""
 "nainštalované:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Prehrávanie tohto filmu vyžaduje nasledujúce zásuvné moduly, ktoré nie sú "
+"nainštalované:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -794,6 +800,8 @@ msgstr[0] ""
 msgstr[1] ""
 "Zásuvný modul %s je potrebný na prehranie súboru, ale nie je nainštalovaný."
 msgstr[2] ""
+"Zásuvné moduly %s sú potrebné na prehranie súboru, ale nie sú nainštalované."
+msgstr[3] ""
 "Zásuvné moduly %s sú potrebné na prehranie súboru, ale nie sú nainštalované."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
@@ -965,6 +973,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d vybratých"
 msgstr[1] "%d vybratý"
 msgstr[2] "%d vybraté"
+msgstr[3] "%d vybraté"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1023,7 +1032,8 @@ msgstr "Prehrať"
 msgid "Totem could not play “%s”."
 msgstr "Prehrávač Totem nemohol prehrať „%s“."
 
-# PM: dal by som Programu Totem (viackrát); mimochodom neskúsený používateľ musí z toho byť zmetený keď sa program vlastne volá "Prehrávač filmov"
+# PM: dal by som Programu Totem (viackrát); mimochodom neskúsený používateľ
+# musí z toho byť zmetený keď sa program vlastne volá "Prehrávač filmov"
 # PK: snad to ujednotia, je to domotane, ale zas balik je totem
 #: src/totem-object.c:2220
 msgid "Totem could not display the help contents."
@@ -1457,7 +1467,8 @@ msgstr "Vlastnosť „%s“ nie je zapisovateľná."
 msgid "Unknown property ‘%s’ requested of a MediaPlayer 2 object"
 msgstr "Neznáma vlastnosť „%s“ požadovaná objektom MediaPlayer 2"
 
-# PM: Tak tu fakt neviem ci v komunikátore alebo ri alebo rovi - vhodná otázka pre JULS
+# PM: Tak tu fakt neviem ci v komunikátore alebo ri alebo rovi - vhodná otázka
+# pre JULS
 # PK: poslal som im email, "komunikatorovi" mi evokuje osobu
 #: src/plugins/im-status/totem-im-status.plugin.desktop.in:6
 msgid "Instant Messenger Status"
@@ -1787,7 +1798,8 @@ msgstr "Neznámy"
 msgid "0 Hz"
 msgstr "0 Hz"
 
-# PŠ: Label k tomuto je "Channels:", takže "0 kanálov". Po načítaní súboru sa aj tak nahradí aktuálnou hodnotou.
+# PŠ: Label k tomuto je "Channels:", takže "0 kanálov". Po načítaní súboru sa
+# aj tak nahradí aktuálnou hodnotou.
 #. Channels
 #: src/plugins/properties/bacon-video-widget-properties.c:139
 msgid "0 Channels"
@@ -1800,6 +1812,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d hodín"
 msgstr[1] "%d hodina"
 msgstr[2] "%d hodiny"
+msgstr[3] "%d hodiny"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1808,6 +1821,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minút"
 msgstr[1] "%d minúta"
 msgstr[2] "%d minúty"
+msgstr[3] "%d minúty"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1816,6 +1830,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekúnd"
 msgstr[1] "%d sekunda"
 msgstr[2] "%d sekundy"
+msgstr[3] "%d sekundy"
 
 # výsledok môže vyzerať napr. takto: "2 hodiny 6 minút a 1 sekunda"
 # PM: preco si to "a" dal preč?
@@ -2090,6 +2105,7 @@ msgid_plural "seconds"
 msgstr[0] "sekundu"
 msgstr[1] "sekundu"
 msgstr[2] "sekundu"
+msgstr[3] "sekundu"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -2189,6 +2205,7 @@ msgstr "Nastaví používateľského agenta pre stránku služby Vimeo"
 #~ msgstr[0] "%d snímok za sekundu"
 #~ msgstr[1] "%d snímka za sekundu"
 #~ msgstr[2] "%d snímky za sekundu"
+#~ msgstr[3] "%d snímky za sekundu"
 
 #~ msgid "Audio/Video"
 #~ msgstr "Zvuk/video"

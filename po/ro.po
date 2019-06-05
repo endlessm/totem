@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.HEAD.ro\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-23 21:14+0100\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28 [at] gmail [dot] "
 "com>\n"
@@ -26,8 +26,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);\n"
 "X-Generator: Poedit 2.2.1\n"
-"X-Project-Style: gnome\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Project-Style: gnome\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -717,21 +717,25 @@ msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Tipul de fisier nu este suportat in Video pentru moment. Dar poti folosi VLC "
+"pentru a-l reda."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 #, fuzzy
 msgid "Open with VLC"
-msgstr "_Deschide cu „%s”"
+msgstr "Deschide cu VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Tipul de fisier nu este suportat in Video. Dar poti folosi VLC din Centrul "
+"de Aplicatii pentru a-l reda."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "Descarca VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"
@@ -2007,7 +2011,6 @@ msgstr "Stabilește agentul de utilizator pentru situl Vimeo"
 #~ msgid "Plugins..."
 #~ msgstr "Module..."
 
-#~| msgid "Preferences"
 #~ msgctxt "shortcut window"
 #~ msgid "Preferences"
 #~ msgstr "Preferințe"
@@ -2146,7 +2149,6 @@ msgstr "Stabilește agentul de utilizator pentru situl Vimeo"
 #~ msgstr "Capitole"
 
 #, fuzzy
-#~| msgid "Support chapter markers in movies."
 #~ msgid "Support chapter markers in movies"
 #~ msgstr "Suportă marcatori de capitole în filme."
 

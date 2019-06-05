@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2017-02-25 20:28+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <(nothing)>\n"
@@ -641,10 +641,6 @@ msgstr[2] ""
 "Puštanje ovog filma zahteva sledeće priključke koji nisu instalirani:\n"
 "\n"
 "%s"
-msgstr[3] ""
-"Puštanje ovog filma zahteva sledeći priključak koji nije instaliran:\n"
-"\n"
-"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -703,7 +699,6 @@ msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "„%s“ je potreban za puštanje datoteke, ali nije instaliran."
 msgstr[1] "„%s“ su potrebni za puštanje datoteke, ali nisu instalirani."
 msgstr[2] "„%s“ su potrebni za puštanje datoteke, ali nisu instalirani."
-msgstr[3] "„%s“ je potreban za puštanje datoteke, ali nije instaliran."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -875,7 +870,6 @@ msgid_plural "%d selected"
 msgstr[0] "%d izabrana"
 msgstr[1] "%d izabrane"
 msgstr[2] "%d izabranih"
-msgstr[3] "jedna izabrana"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1619,7 +1613,6 @@ msgid_plural "%d hours"
 msgstr[0] "%d sat"
 msgstr[1] "%d sata"
 msgstr[2] "%d sati"
-msgstr[3] "Jedan sat"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1628,7 +1621,6 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minut"
 msgstr[1] "%d minuta"
 msgstr[2] "%d minuta"
-msgstr[3] "Jedan minut"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1637,7 +1629,6 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekunda"
 msgstr[1] "%d sekunde"
 msgstr[2] "%d sekundi"
-msgstr[3] "Jedna sekunda"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1876,7 +1867,6 @@ msgid_plural "seconds"
 msgstr[0] "sekunda"
 msgstr[1] "sekunde"
 msgstr[2] "sekundi"
-msgstr[3] "sekunda"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1974,7 +1964,6 @@ msgstr "Podešava korisničkog agenta za sajt Vimea"
 #~ msgstr[0] "%d kadar u sekundi"
 #~ msgstr[1] "%d kadra u sekundi"
 #~ msgstr[2] "%d kadrova u sekundi"
-#~ msgstr[3] "Jedan kadar u sekundi"
 
 #~ msgid "Audio Preview"
 #~ msgstr "Zvučni pregled"
@@ -2219,7 +2208,6 @@ msgstr "Podešava korisničkog agenta za sajt Vimea"
 #~ msgid "Audio files"
 #~ msgstr "Zvučne datoteke"
 
-#~| msgid "Recent files"
 #~ msgid "Recent"
 #~ msgstr "Skorašnje"
 

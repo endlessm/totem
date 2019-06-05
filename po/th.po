@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2015-07-29 16:00+0700\n"
 "Last-Translator: Akom Chotiphantawanon <knight2000@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -312,43 +312,43 @@ msgstr "จับภาพหน้า_จอ"
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "เลิก"
+msgstr "ออก"
 
 #: data/shortcuts.ui:50
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "ความดัง"
+msgstr "ระดับเสียง"
 
 #: data/shortcuts.ui:55
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "เร่งเสียง"
+msgstr "เพิ่มความดัง"
 
 #: data/shortcuts.ui:62
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "หรี่เสียง"
+msgstr "ลดระดับเสียง"
 
 #: data/shortcuts.ui:70
 #, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "มุ_มมอง"
+msgstr "ดู"
 
 #: data/shortcuts.ui:75
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "เต็มหน้าจอ"
+msgstr "ท็อกเกิลเต็มหน้าจอ"
 
 #: data/shortcuts.ui:82
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "ยกเลิกแบบเต็มจอ"
+msgstr "ออกจากการทำงานเต็มหน้าจอ"
 
 #: data/shortcuts.ui:89
 #, fuzzy
@@ -366,7 +366,7 @@ msgstr "ขยายออก"
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Rotate ↷"
-msgstr "_หมุน ↷"
+msgstr "หมุน ↷"
 
 #: data/shortcuts.ui:110
 #, fuzzy
@@ -384,36 +384,36 @@ msgstr "เล่น"
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "เล่น / พัก"
+msgstr "เล่น/พัก"
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "ไม่มีภาพยนตร์ที่จะจับหน้าจอ"
+msgstr "วิดีโอหรือบทก่อนหน้า"
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "ไม่มีภาพยนตร์ที่จะจับหน้าจอ"
+msgstr "วิดีโอหรือบทถัดไป"
 
 #: data/shortcuts.ui:164
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "ข้ามไปยัง"
+msgstr "ข้าม"
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "ย้อนกลับ 15 วินาที"
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "0 วินาที"
+msgstr "ไปข้างหน้า 60 วินาที"
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -429,54 +429,54 @@ msgstr ""
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "0 วินาที"
+msgstr "ย้อนกลับ 5 วินาที"
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "%d เฟรมต่อวินาที"
+msgstr "ไปข้างหน้า 15 วินาที"
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "ย้อนกลับไป 3 นาที"
 
 #: data/shortcuts.ui:224 data/shortcuts.ui:272
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "ไปข้างหน้า 10 วินาที"
 
 #: data/shortcuts.ui:279
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "_ข้ามไปยัง…"
+msgstr "ข้ามไปที่..."
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "ตัวนำทางเมนู DVD"
 
 #: data/shortcuts.ui:292
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "เลื่อนขึ้น"
 
 #: data/shortcuts.ui:299
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "นำทางลง"
 
 #: data/shortcuts.ui:306
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "เลื่อนไปทางด้านซ้าย"
 
 #: data/shortcuts.ui:313
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "เลื่อนไปทางซ้าย"
 
 #: data/totem.ui:11 data/totem.ui:110
 msgid "Prefere_nces"
@@ -484,7 +484,7 @@ msgstr "_ปรับแต่ง"
 
 #: data/totem.ui:15 data/totem.ui:114
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_ทางลัดคีย์บอร์ด"
 
 #: data/totem.ui:19
 msgid "_Help"
@@ -582,7 +582,7 @@ msgstr "เมนู_ตอน"
 
 #: data/totem.ui:170
 msgid "Speed"
-msgstr ""
+msgstr "ความเร็ว"
 
 #: data/uri.ui:14
 msgid "Enter the _address of the file you would like to open:"
@@ -717,21 +717,25 @@ msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"ไฟล์ประเภทนี้ยังไม่รองรับในวิดีโอในขณะนี้ อย่างไรก็ตาม คุณสามารถใช้โปรแกรม VLC media "
+"player เพื่อเล่นไฟล์ได้"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 #, fuzzy
 msgid "Open with VLC"
-msgstr "เ_ปิดด้วย \"%s\""
+msgstr "เปิดด้วย VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"ไฟล์ประเภทนี้ยังไม่รองรับในวิดีโอในขณะนี้ อย่างไรก็ตาม คุณสามารถใช้โปรแกรม VLC media "
+"player จาก App Center เพื่อเล่นไฟล์ได้"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "รับ VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"
@@ -1447,7 +1451,7 @@ msgstr "เพิ่มรายการเมนูสำหรับแสด
 #: src/plugins/properties/totem-movie-properties.c:152
 #, c-format
 msgid "%d × %d"
-msgstr ""
+msgstr "%d × %d"
 
 #: src/plugins/properties/totem-movie-properties.c:155
 #: src/plugins/properties/totem-movie-properties.c:166
@@ -1887,7 +1891,7 @@ msgstr "_ข้ามไปยัง…"
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "× 0.75"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 #, fuzzy
@@ -1898,35 +1902,35 @@ msgstr "ปกติ"
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "× 1.1"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "× 1.25"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "× 1.5"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "× 1.75"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, fuzzy, c-format
 msgid "Speed: %s"
-msgstr "แนวเพลง: %s"
+msgstr "ความเร็ว: %s"
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:6
 msgid "Variable Rate"
-msgstr ""
+msgstr "อัตราผันแปร"
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:7
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "ให้รายการเมนูอัตราผันแปร"
 
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:6
 msgid "Vimeo"

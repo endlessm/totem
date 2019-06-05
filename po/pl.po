@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-22 18:50+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
@@ -653,6 +653,11 @@ msgstr[2] ""
 "zainstalowane:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Odtworzenie tego filmu wymaga następujących wtyczek, które nie są "
+"zainstalowane:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -713,6 +718,7 @@ msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "%s jest wymagane do odtworzenia pliku, ale nie jest zainstalowane."
 msgstr[1] "%s są wymagane do odtworzenia pliku, ale nie są zainstalowane."
 msgstr[2] "%s są wymagane do odtworzenia pliku, ale nie są zainstalowane."
+msgstr[3] "%s są wymagane do odtworzenia pliku, ale nie są zainstalowane."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -883,6 +889,7 @@ msgid_plural "%d selected"
 msgstr[0] "Zaznaczono: %d"
 msgstr[1] "Zaznaczono: %d"
 msgstr[2] "Zaznaczono: %d"
+msgstr[3] "Zaznaczono: %d"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1615,6 +1622,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d godzina"
 msgstr[1] "%d godziny"
 msgstr[2] "%d godzin"
+msgstr[3] "%d godzin"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1623,6 +1631,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minuta"
 msgstr[1] "%d minuty"
 msgstr[2] "%d minut"
+msgstr[3] "%d minut"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1631,6 +1640,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekunda"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekund"
+msgstr[3] "%d sekund"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1869,6 +1879,7 @@ msgid_plural "seconds"
 msgstr[0] "sekunda"
 msgstr[1] "sekundy"
 msgstr[2] "sekund"
+msgstr[3] "sekund"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the

@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-28 10:47+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
@@ -660,6 +660,11 @@ msgstr[2] ""
 "nejsou nainstalovány:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Pro přehrání tohoto filmu jsou vyžadovány následující zásuvné moduly, které "
+"nejsou nainstalovány:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -722,26 +727,33 @@ msgstr[1] ""
 msgstr[2] ""
 "K přehrání souboru jsou zapotřebí zásuvné moduly %s, ale ty nejsou "
 "nainstalovány."
+msgstr[3] ""
+"K přehrání souboru jsou zapotřebí zásuvné moduly %s, ale ty nejsou "
+"nainstalovány."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Tento typ souboru momentálně není podporován. Můžete však použít přehrávač "
+"médií VLC."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 msgid "Open with VLC"
-msgstr ""
+msgstr "Otevřít ve VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Tento typ souboru momentálně není podporován. Můžete však použít přehrávač "
+"médií VLC z Centra aplikací."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "Stáhnout VLC"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"
@@ -898,6 +910,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d vybraná"
 msgstr[1] "%d vybrané"
 msgstr[2] "%d vybraných"
+msgstr[3] "%d vybraných"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1664,6 +1677,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d hodina"
 msgstr[1] "%d hodiny"
 msgstr[2] "%d hodin"
+msgstr[3] "%d hodin"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1672,6 +1686,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minuta"
 msgstr[1] "%d minuty"
 msgstr[2] "%d minut"
+msgstr[3] "%d minut"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1680,6 +1695,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekunda"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekund"
+msgstr[3] "%d sekund"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1928,6 +1944,7 @@ msgid_plural "seconds"
 msgstr[0] "sekundu"
 msgstr[1] "sekundy"
 msgstr[2] "sekund"
+msgstr[3] "sekund"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the

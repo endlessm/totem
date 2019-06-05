@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-26 20:21+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
@@ -651,6 +651,10 @@ msgstr[2] ""
 "Для воспроизведения этого фильма требуется установить следующие модули:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Для воспроизведения этого фильма требуется установить следующие модули:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -710,6 +714,7 @@ msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "%s требуется для воспроизведения файла, но не установлен."
 msgstr[1] "%s требуются для воспроизведения файла, но не установлены."
 msgstr[2] "%s требуются для воспроизведения файла, но не установлены."
+msgstr[3] "%s требуются для воспроизведения файла, но не установлены."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -881,6 +886,7 @@ msgid_plural "%d selected"
 msgstr[0] "Выбран %d"
 msgstr[1] "Выбрано %d"
 msgstr[2] "Выбрано %d"
+msgstr[3] "Выбрано %d"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1616,6 +1622,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d час"
 msgstr[1] "%d часа"
 msgstr[2] "%d часов"
+msgstr[3] "%d часов"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1624,6 +1631,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d минута"
 msgstr[1] "%d минуты"
 msgstr[2] "%d минут"
+msgstr[3] "%d минут"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1632,6 +1640,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d секунда"
 msgstr[1] "%d секунды"
 msgstr[2] "%d секунд"
+msgstr[3] "%d секунд"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1870,6 +1879,7 @@ msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунды"
 msgstr[2] "секунд"
+msgstr[3] "секунд"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1960,6 +1970,7 @@ msgstr "Устанавливает user agent для сайта Vimeo"
 #~ msgstr[0] "%d кадр в секунду"
 #~ msgstr[1] "%d кадра в секунду"
 #~ msgstr[2] "%d кадров в секунду"
+#~ msgstr[3] "%d кадров в секунду"
 
 #~ msgid "Audio/Video"
 #~ msgstr "Аудио/Видео"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2016-08-09 20:03+0300\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: עברית <>\n"
@@ -645,6 +645,14 @@ msgstr[1] ""
 "על מנת לצפות בסרט זה דרושים התוספים הבאים שאינם מותקנים:\n"
 "\n"
 "%s"
+msgstr[2] ""
+"על מנת לצפות בסרט זה דרושים התוספים הבאים שאינם מותקנים:\n"
+"\n"
+"%s"
+msgstr[3] ""
+"על מנת לצפות בסרט זה דרושים התוספים הבאים שאינם מותקנים:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 #, fuzzy
@@ -698,6 +706,8 @@ msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "‏%s דרוש לניגון הקובץ, אך זה אינו מותקן."
 msgstr[1] "‏%s דרושים לניגון הקובץ, אך אלה אינם מותקנים."
+msgstr[2] "‏%s דרושים לניגון הקובץ, אך אלה אינם מותקנים."
+msgstr[3] "‏%s דרושים לניגון הקובץ, אך אלה אינם מותקנים."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -866,6 +876,8 @@ msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "אחד נבחר"
 msgstr[1] "%d נבחרו"
+msgstr[2] "%d נבחרו"
+msgstr[3] "%d נבחרו"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1606,6 +1618,8 @@ msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "שעה אחת"
 msgstr[1] "%d שעות"
+msgstr[2] "%d שעות"
+msgstr[3] "%d שעות"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1613,6 +1627,8 @@ msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "דקה אחת"
 msgstr[1] "%d דקות"
+msgstr[2] "%d דקות"
+msgstr[3] "%d דקות"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1620,6 +1636,8 @@ msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "שנייה אחת"
 msgstr[1] "%d שניות"
+msgstr[2] "%d שניות"
+msgstr[3] "%d שניות"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1858,6 +1876,8 @@ msgid "second"
 msgid_plural "seconds"
 msgstr[0] "שנייה"
 msgstr[1] "שניות"
+msgstr[2] "שניות"
+msgstr[3] "שניות"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1959,6 +1979,8 @@ msgstr "הגדרת סוכן המשתמש ל־Vimeo"
 #~ msgid_plural "%d frames per second"
 #~ msgstr[0] "שקופית אחת לשנייה"
 #~ msgstr[1] "%d שקופיות לשנייה"
+#~ msgstr[2] "%d שקופיות לשנייה"
+#~ msgstr[3] "%d שקופיות לשנייה"
 
 #~ msgid "Audio Preview"
 #~ msgstr "השמעה מקדימה"

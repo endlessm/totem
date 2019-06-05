@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem gnome-2-32\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-16 18:52+0500\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,17,-1,-1\n"
 "X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,17,-1,-1\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -632,6 +632,10 @@ msgstr[0] ""
 "Бұл фильмді ойнату үшін келесі плагин(дер) керек:\n"
 "\n"
 "%s"
+msgstr[1] ""
+"Бұл фильмді ойнату үшін келесі плагин(дер) керек:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -682,6 +686,7 @@ msgstr "%s ішінен _табу"
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "Файлды ойнату үшін %s керек, бірақ, орнатылмаған."
+msgstr[1] "Файлды ойнату үшін %s керек, бірақ, орнатылмаған."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -849,6 +854,7 @@ msgstr "Бірнәрсені таңдау үшін оның үстіне шер�
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d таңдалды"
+msgstr[1] "%d таңдалды"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1579,18 +1585,21 @@ msgstr "0 арна"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d сағат"
+msgstr[1] "%d сағат"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d минут"
+msgstr[1] "%d минут"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d секунд"
+msgstr[1] "%d секунд"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1821,6 +1830,7 @@ msgstr "Дейін а_ттау:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "секунд"
+msgstr[1] "секунд"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1920,6 +1930,7 @@ msgstr "Vimeo сайты үшін пайдаланушы агентін орна
 #~ msgid "%d frame per second"
 #~ msgid_plural "%d frames per second"
 #~ msgstr[0] "Секундына %d кадр"
+#~ msgstr[1] "Секундына %d кадр"
 
 #~ msgid "Audio Preview"
 #~ msgstr "Аудионы алдын-ала қарау"

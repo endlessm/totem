@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-03-03 18:38+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
@@ -641,6 +641,10 @@ msgstr[2] ""
 "Šiam filmui rodyti reikia šių įskiepių, kurie nėra įdiegti:\n"
 "\n"
 "%s"
+msgstr[3] ""
+"Šiam filmui rodyti reikia šių įskiepių, kurie nėra įdiegti:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -698,6 +702,7 @@ msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "Failui groti reikalingas %s, bet jis neįdiegtas."
 msgstr[1] "Failui groti reikalingi %s, bet jie neįdiegti."
 msgstr[2] "Failui groti reikalingi %s, bet jie neįdiegti."
+msgstr[3] "Failui groti reikalingi %s, bet jie neįdiegti."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
@@ -867,6 +872,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d pasirinktas"
 msgstr[1] "%d pasirinkti"
 msgstr[2] "%d pasirinktų"
+msgstr[3] "%d pasirinktų"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1634,6 +1640,7 @@ msgid_plural "%d hours"
 msgstr[0] "%d valanda"
 msgstr[1] "%d valandos"
 msgstr[2] "%d valandų"
+msgstr[3] "%d valandų"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1642,6 +1649,7 @@ msgid_plural "%d minutes"
 msgstr[0] "%d minutė"
 msgstr[1] "%d minutės"
 msgstr[2] "%d minučių"
+msgstr[3] "%d minučių"
 
 #  Duration
 #: src/plugins/properties/bacon-video-widget-properties.c:160
@@ -1651,6 +1659,7 @@ msgid_plural "%d seconds"
 msgstr[0] "%d sekundė"
 msgstr[1] "%d sekundės"
 msgstr[2] "%d sekundžių"
+msgstr[3] "%d sekundžių"
 
 #  hour:minutes:seconds
 #. 5 hours 2 minutes 12 seconds
@@ -1891,6 +1900,7 @@ msgid_plural "seconds"
 msgstr[0] "sekundė"
 msgstr[1] "sekundės"
 msgstr[2] "sekundžių"
+msgstr[3] "sekundžių"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1983,6 +1993,7 @@ msgstr "Nustato naudotojo agentą „Vimeo“ tinklalapiui"
 #~ msgstr[0] "%d kadras per sekundę"
 #~ msgstr[1] "%d kadrai per sekundę"
 #~ msgstr[2] "%d kadrų per sekundę"
+#~ msgstr[3] "%d kadrų per sekundę"
 
 #~ msgid "Audio/Video"
 #~ msgstr "Garsas ir vaizdas"

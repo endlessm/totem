@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2012-01-02 02:59+0100\n"
 "Last-Translator: Jovan N\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -2032,7 +2032,6 @@ msgstr ""
 #~ msgid "_Remove"
 #~ msgstr "_Отстрани"
 
-#~| msgid "_Select text subtitle..."
 #~ msgid "_Select Text Subtitles..."
 #~ msgstr "_Одберете текстуални преводи..."
 
@@ -2084,7 +2083,6 @@ msgstr ""
 #~ msgid "Configure plugins to extend the application"
 #~ msgstr "Конфигурирај ги приклучоците за проширување на апликацијата"
 
-#~| msgid "Configure Plugins"
 #~ msgid "Configure the application"
 #~ msgstr "Конфигурирајте ја апликацијата"
 
@@ -2127,7 +2125,6 @@ msgstr ""
 #~ msgid "Large"
 #~ msgstr "Големо"
 
-#~| msgid "Automatically _load subtitle files when movie is loaded"
 #~ msgid "Load _chapter files when movie is loaded"
 #~ msgstr "Вчитај датотеки со _поглавја кога ќе се вчита филмот"
 
@@ -2290,7 +2287,6 @@ msgstr ""
 #~ msgid "_Resize 1:2"
 #~ msgstr "_Големина 1:2"
 
-#~| msgid "Automatically _resize the window when a new video is loaded"
 #~ msgid "_Resize the window when a new video is loaded"
 #~ msgstr ""
 #~ "Автоматски _промени ја големината на екранот кога вчитуваш ново видео"
@@ -2301,13 +2297,9 @@ msgstr ""
 #~ msgid "_Type of visualization:"
 #~ msgstr "_Тип на визуелизација:"
 
-#~| msgid "Allow the screensaver to activate even when audio-only is playing"
 #~ msgid "Allow the screensaver to activate when playing audio"
 #~ msgstr "Дозволи чуварот на екранот да се активира кога свири и само аудио"
 
-#~| msgid ""
-#~| "Allow the screensaver to activate even when audio-only is playing. This "
-#~| "is useful for monitor powered speakers."
 #~ msgid ""
 #~ "Allow the screensaver to activate when playing audio. Disable if you have "
 #~ "monitor-powered speakers."
@@ -2322,11 +2314,9 @@ msgstr ""
 #~ "Приближно пресметана брзина на врската, се користи за одбирање на "
 #~ "квалитет на медиум преку мрежа."
 
-#~| msgid "Name of the visual effects plugins"
 #~ msgid "Name of the visual effects plugin"
 #~ msgstr "Име на приклучокот за визуелни ефекти"
 
-#~| msgid "Connection _speed:"
 #~ msgid "Network connection speed"
 #~ msgstr "Брзина на мрежна врска"
 
@@ -2342,11 +2332,9 @@ msgstr ""
 #~ msgid "Show visual effects when playing an audio only file."
 #~ msgstr "Покажи визуелни ефекти само кога свири аудио датотека."
 
-#~| msgid "Visualization _size:"
 #~ msgid "Visualization quality setting"
 #~ msgstr "Поставувања за квалитет на визуелизација"
 
-#~| msgid "Whether to autoload text subtitle files when a movie is loaded"
 #~ msgid "Whether to autoload external chapter files when a movie is loaded"
 #~ msgstr ""
 #~ "Дали автоматски да се вчитаат надворешните датотеки со поглавја при "
@@ -2383,23 +2371,18 @@ msgstr ""
 #~ msgid "File _Format: %s"
 #~ msgstr "_Формат на датотека: %s"
 
-#~| msgid "All files"
 #~ msgid "All Files"
 #~ msgstr "Сите датотеки"
 
-#~| msgid "Supported files"
 #~ msgid "All Supported Files"
 #~ msgstr "Сите поддржани датотеки"
 
-#~| msgid "By extension"
 #~ msgid "By Extension"
 #~ msgstr "По наставка"
 
-#~| msgid "File Error"
 #~ msgid "File Format"
 #~ msgstr "Формат на датотека"
 
-#~| msgid "By extension"
 #~ msgid "Extension(s)"
 #~ msgstr "Наставка/и"
 
@@ -2436,14 +2419,12 @@ msgstr ""
 #~ msgid "Show session management options"
 #~ msgstr "Покажи опции на менаџмент на сесија"
 
-#~| msgid "Audio files"
 #~ msgid "Audio Preview"
 #~ msgstr "Преглед на аудио"
 
 #~ msgid "Unknown video"
 #~ msgstr "Непознато видео"
 
-#~| msgid "Play"
 #~ msgid "_Play Now"
 #~ msgstr "_Пушти"
 
@@ -2486,7 +2467,6 @@ msgstr ""
 #~ "Totem прави исклучок со тоа што дозволува користење на додатоците за "
 #~ "GStreamer кои се заштитени од некомерцијална употреба."
 
-#~| msgid "Play Disc '%s'"
 #~ msgid "Play Image '%s'"
 #~ msgstr "Пушти ја сликата „%s“"
 
@@ -2499,7 +2479,6 @@ msgstr ""
 #~ msgid "Movie Player using %s"
 #~ msgstr "Пуштач на филмови, користи %s"
 
-#~| msgid "Copyright © 2002-2007 Bastien Nocera"
 #~ msgid "Copyright © 2002-2009 Bastien Nocera"
 #~ msgstr "Авторски права © 2002-2009 Bastien Nocera"
 
@@ -2509,7 +2488,6 @@ msgstr ""
 #~ msgid "Totem Website"
 #~ msgstr "Веб страната на Totem"
 
-#~| msgid "Totem Website"
 #~ msgid "Totem %s"
 #~ msgstr "Totem %s"
 
@@ -2585,7 +2563,6 @@ msgstr ""
 #~ msgid "No error message"
 #~ msgstr "Нема порака за грешка"
 
-#~| msgid "_Fullscreen"
 #~ msgid "Fullscreen"
 #~ msgstr "Цел екран"
 
@@ -2601,7 +2578,6 @@ msgstr ""
 #~ msgid "Playlist index"
 #~ msgstr "Индекс на плејлисти"
 
-#~| msgid "Clear the playlist"
 #~ msgid "MP3 ShoutCast playlist"
 #~ msgstr "MP3 ShoutCast плејлиста"
 
@@ -2611,7 +2587,6 @@ msgstr ""
 #~ msgid "MP3 audio (streamed, DOS format)"
 #~ msgstr "MP3 аудио (стрим, DOS формат)"
 
-#~| msgid "Save Playlist"
 #~ msgid "XML Shareable Playlist"
 #~ msgstr "XML споделива плејлиста"
 
@@ -2636,7 +2611,6 @@ msgstr ""
 #~ msgid "%d x %d"
 #~ msgstr "%d x %d"
 
-#~| msgid "N/A"
 #~ msgctxt "Number of audio channels"
 #~ msgid "N/A"
 #~ msgstr "N/A"
@@ -2691,7 +2665,6 @@ msgstr ""
 #~ msgid "Totem Movie Player"
 #~ msgstr "Totem гледач"
 
-#~| msgid "S_ubtitles"
 #~ msgid "Subtitle #%d"
 #~ msgstr "Превод #%d"
 
@@ -2760,33 +2733,27 @@ msgstr ""
 #~ msgid "Copy the currently playing (S)VCD"
 #~ msgstr "Копирај го тековниот (S)VCD"
 
-#~| msgid "_Chapter Menu"
 #~ msgid "Chapters"
 #~ msgstr "Поглавја"
 
-#~| msgid "Next chapter or movie"
 #~ msgid "Support chapter markers in movies."
 #~ msgstr "Поддржи маркери за поглавја во филмовите."
 
 #~ msgid "Name for new chapter:"
 #~ msgstr "Име за новото поглавје:"
 
-#~| msgid "Add..."
 #~ msgid "Add Chapter..."
 #~ msgstr "Додај поглавје..."
 
 #~ msgid "Add New Chapters"
 #~ msgstr "Додај нови поглавја"
 
-#~| msgid "Next chapter or movie"
 #~ msgid "Create a new chapter list for the movie"
 #~ msgstr "Креирај нова листа на поглавја за филмот"
 
-#~| msgid "Go to the chapter menu"
 #~ msgid "Go to Chapter"
 #~ msgstr "Оди на поглавје"
 
-#~| msgid "Go to the chapter menu"
 #~ msgid "Go to the chapter in the movie"
 #~ msgstr "Оди на поглавје во филмот"
 
@@ -2799,23 +2766,18 @@ msgstr ""
 #~ msgid "No chapter data"
 #~ msgstr "Нема податоци за поглавјата"
 
-#~| msgid "Remove"
 #~ msgid "Remove Chapter"
 #~ msgstr "Отстрани поглавје"
 
-#~| msgid "Remove file from playlist"
 #~ msgid "Remove the chapter from the list"
 #~ msgstr "Отстрани го поглавјето од листата"
 
-#~| msgid "0 Channels"
 #~ msgid "Save Changes"
 #~ msgstr "Зачувај ги промените"
 
-#~| msgid "Go to the chapter menu"
 #~ msgid "_Go to Chapter"
 #~ msgstr "_Оди на поглавје"
 
-#~| msgid "_Remove"
 #~ msgid "_Remove Chapter"
 #~ msgstr "_Отстрани поглавје"
 
@@ -2848,15 +2810,12 @@ msgstr ""
 #~ "Проверете дали имате дозвола за да запишете во папката во која се наоѓа "
 #~ "филмот."
 
-#~| msgid "Open a file"
 #~ msgid "Open Chapter File"
 #~ msgstr "Отвори датотека со поглавја"
 
-#~| msgid "Save Screenshot"
 #~ msgid "Chapter Screenshot"
 #~ msgstr "Слика од поглавјето"
 
-#~| msgid "_Chapter Menu"
 #~ msgid "Chapter Title"
 #~ msgstr "Наслов на поглавјето"
 
@@ -2885,7 +2844,6 @@ msgstr ""
 #~ msgid "The gromit binary was not found."
 #~ msgstr "Бинарната датотека за gromit не беше пронајдена."
 
-#~| msgid "Movie Player"
 #~ msgid "BBC iPlayer"
 #~ msgstr "BBC iPlayer"
 
@@ -2959,7 +2917,6 @@ msgstr ""
 #~ "Транспортен протокол кој ќе се користи при објавување на плејлистите на "
 #~ "мрежата."
 
-#~| msgid "Neighbours"
 #~ msgid "Neighbors"
 #~ msgstr "Соседи"
 
@@ -2972,11 +2929,6 @@ msgstr ""
 #~ msgid "Service _Name:"
 #~ msgstr "Име на _сервис:"
 
-#~| msgid ""
-#~| "<small>The name used for announcing the playlist service on the "
-#~| "network.\n"
-#~| "All occurances of the string <b>%u</b> will be replaced by your name,\n"
-#~| "and <b>%h</b> will be replaced by your computer's host name.</small>"
 #~ msgid ""
 #~ "The name used for announcing the playlist service on the network.\n"
 #~ "All occurrences of the string <b>%u</b> will be replaced by your name,\n"
@@ -2995,22 +2947,18 @@ msgstr ""
 #~ msgid "Rotate Counterc_lockwise"
 #~ msgstr "Ротирај во _обратна насока од стрелките на часовникот"
 
-#~| msgid "Save Playlist..."
 #~ msgid "Save a Copy..."
 #~ msgstr "Зачувај копија..."
 
-#~| msgid "The contrast of the video"
 #~ msgid "Save a copy of the movie"
 #~ msgstr "Зачувај копија од филмот"
 
-#~| msgid "Movies to play"
 #~ msgid "Movie stream"
 #~ msgstr "Стрим за филм"
 
 #~ msgid "Save in _folder:"
 #~ msgstr "Зачувај во _папка:"
 
-#~| msgid "Service _Name:"
 #~ msgid "_Name:"
 #~ msgstr "_Име"
 
@@ -3025,11 +2973,9 @@ msgstr ""
 #~ msgid "Take a screenshot"
 #~ msgstr "Сликај екран"
 
-#~| msgid "Take a screenshot"
 #~ msgid "Create a gallery of screenshots"
 #~ msgstr "Креирај галерија со слики од екран"
 
-#~| msgid "_Skip to..."
 #~ msgid "_Skip To..."
 #~ msgstr "_Скокни до..."
 
@@ -3042,7 +2988,6 @@ msgstr ""
 #~ msgid "No playlist or playlist empty"
 #~ msgstr "Нема плеј-листа или плеј-листата е празна"
 
-#~| msgid "Totem Browser Plugin"
 #~ msgid "Movie browser plugin"
 #~ msgstr "Приклучок за прелистување на филмови"
 
@@ -3054,15 +2999,12 @@ msgstr ""
 #~ msgid "Python Console Menu"
 #~ msgstr "Мени за python конзолата"
 
-#~| msgid "Show Totem's python console"
 #~ msgid "Show Totem's Python console"
 #~ msgstr "Покажи ја Python конзолата за Totem"
 
-#~| msgid "Enable remote python debugging with rpdb2"
 #~ msgid "Enable remote Python debugging with rpdb2"
 #~ msgstr "Вклучи далечно дебагирање за Python со rpdb2"
 
-#~| msgid "A plugin to let you browse YouTube videos."
 #~ msgid "A plugin to let you browse media content from various sources."
 #~ msgstr "Додаток што Ви овозможува да разгледувате видеа од разни извори."
 

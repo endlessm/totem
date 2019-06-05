@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sound-juicer 2.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2009-09-06 00:08+0100\n"
 "Last-Translator: Denis\n"
 "Language-Team: GNOME Breton team <jeremy.lefloch@gmail.com>\n"
@@ -1640,6 +1640,9 @@ msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d eur"
 msgstr[1] "%d eur"
+msgstr[2] "%d eur"
+msgstr[3] "%d eur"
+msgstr[4] "%d eur"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
@@ -1647,6 +1650,9 @@ msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d munutenn"
 msgstr[1] "%d munutenn"
+msgstr[2] "%d munutenn"
+msgstr[3] "%d munutenn"
+msgstr[4] "%d munutenn"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
@@ -1654,6 +1660,9 @@ msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d eilenn"
 msgstr[1] "%d eilennoù"
+msgstr[2] "%d eilennoù"
+msgstr[3] "%d eilennoù"
+msgstr[4] "%d eilennoù"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -2496,7 +2505,6 @@ msgstr ""
 #~ msgid "Save in _folder:"
 #~ msgstr "Enrollañ en _teuliad :"
 
-#~| msgid "Service _Name:"
 #~ msgid "_Name:"
 #~ msgstr "_Anv :"
 

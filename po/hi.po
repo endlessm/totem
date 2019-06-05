@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2014-09-22 16:10+0630\n"
 "Last-Translator: rajesh <rajesh>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -127,7 +127,7 @@ msgstr "उपशीर्षक रेंडरिंग के पैंगो
 #, fuzzy
 msgctxt "subtitle-encoding"
 msgid "'UTF-8'"
-msgstr "UTF-8"
+msgstr "'UTF-8'"
 
 #: data/org.gnome.totem.gschema.xml.in:50
 msgid "Subtitle encoding"
@@ -327,61 +327,61 @@ msgstr "स्क्रीनशॉट लें (_S)"
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "बाहर"
+msgstr "छोड़ें"
 
 #: data/shortcuts.ui:50
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Volume"
-msgstr "आवाज़ बढ़ाएँ"
+msgstr "वॉल्यूम"
 
 #: data/shortcuts.ui:55
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Increase volume"
-msgstr "आवाज बढ़ाएँ"
+msgstr "वॉल्यूम बढ़ाएँ"
 
 #: data/shortcuts.ui:62
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Decrease volume"
-msgstr "आवाज़ कम करें"
+msgstr "वॉल्यूम घटाएँ"
 
 #: data/shortcuts.ui:70
 #, fuzzy
 msgctxt "shortcut window"
 msgid "View"
-msgstr "देखें (_V)"
+msgstr "देखें"
 
 #: data/shortcuts.ui:75
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "पूर्ण स्क्रीन टॉगल करें"
+msgstr "फ़ुलस्क्रीन टॉगल करें"
 
 #: data/shortcuts.ui:82
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Exit fullscreen"
-msgstr "पूर्ण स्क्रीन में स्विच करें"
+msgstr "फ़ुलस्क्रीन से बाहर निकलें"
 
 #: data/shortcuts.ui:89
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "बडे रूप में दिखाएँ"
+msgstr "ज़ूम इन करें"
 
 #: data/shortcuts.ui:96
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "छोटे रूप में दिखाएँ"
+msgstr "ज़ूम आउट करें"
 
 #: data/shortcuts.ui:103
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Rotate ↷"
-msgstr "घुमाएं (_R) ↷"
+msgstr "घुमाएँ ↷"
 
 #: data/shortcuts.ui:110
 #, fuzzy
@@ -393,42 +393,42 @@ msgstr "घुमाएँ ↶"
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Playback"
-msgstr "प्लेबैक"
+msgstr "प्लेबैक करें"
 
 #: data/shortcuts.ui:124
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Play/Pause"
-msgstr "बजाएँ/ठहरें"
+msgstr "चलाएं/रोकें"
 
 #: data/shortcuts.ui:132 data/shortcuts.ui:148
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Previous video or chapter"
-msgstr "पिछला अध्याय या मूवी"
+msgstr "पिछला वीडियो या चैप्टर"
 
 #: data/shortcuts.ui:140 data/shortcuts.ui:156
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Next video or chapter"
-msgstr "नया अध्याय  के लिए नाम"
+msgstr "अगला वीडियो या चैप्टर"
 
 #: data/shortcuts.ui:164
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Skip"
-msgstr "छोड़ें  को"
+msgstr "छोड़ें"
 
 #: data/shortcuts.ui:170 data/shortcuts.ui:232
 msgctxt "shortcut window"
 msgid "Go back 15 seconds"
-msgstr ""
+msgstr "15 सेकंड पीछे जाएँ"
 
 #: data/shortcuts.ui:178 data/shortcuts.ui:240
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 60 seconds"
-msgstr "0 सेकण्ड"
+msgstr "60 सेकंड आगे जाएँ"
 
 #: data/shortcuts.ui:185
 msgctxt "shortcut window"
@@ -444,54 +444,54 @@ msgstr ""
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Go back 5 seconds"
-msgstr "0 सेकण्ड"
+msgstr "5 सेकंड पीछे जाएँ"
 
 #: data/shortcuts.ui:208 data/shortcuts.ui:256
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Go forward 15 seconds"
-msgstr "%d फ्रेम प्रति सेकेंड"
+msgstr "15 सेकंड आगे जाएँ"
 
 #: data/shortcuts.ui:216 data/shortcuts.ui:264
 msgctxt "shortcut window"
 msgid "Go back 3 minutes"
-msgstr ""
+msgstr "3 मिनट पीछे जाएँ"
 
 #: data/shortcuts.ui:224 data/shortcuts.ui:272
 msgctxt "shortcut window"
 msgid "Go forward 10 minutes"
-msgstr ""
+msgstr "10 मिनट आगे जाएँ"
 
 #: data/shortcuts.ui:279
 #, fuzzy
 msgctxt "shortcut window"
 msgid "Skip to…"
-msgstr "छोड़ें इसमें (_S)…"
+msgstr "इस पर छोड़ें…"
 
 #: data/shortcuts.ui:287
 msgctxt "shortcut window"
 msgid "DVD menu navigation"
-msgstr ""
+msgstr "DVD मेनू नेविगेशन"
 
 #: data/shortcuts.ui:292
 msgctxt "shortcut window"
 msgid "Navigate up"
-msgstr ""
+msgstr "ऊपर नेविगेट करें"
 
 #: data/shortcuts.ui:299
 msgctxt "shortcut window"
 msgid "Navigate down"
-msgstr ""
+msgstr "नीचे नेविगेट करें"
 
 #: data/shortcuts.ui:306
 msgctxt "shortcut window"
 msgid "Navigate left"
-msgstr ""
+msgstr "बाएँ नेविगेट करें"
 
 #: data/shortcuts.ui:313
 msgctxt "shortcut window"
 msgid "Navigate right"
-msgstr ""
+msgstr "दाएँ नेविगेट करें"
 
 #: data/totem.ui:11 data/totem.ui:110
 msgid "Prefere_nces"
@@ -499,7 +499,7 @@ msgstr "वरीयताएँ (_n)"
 
 #: data/totem.ui:15 data/totem.ui:114
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_कीबोर्ड शॉर्टकट"
 
 #: data/totem.ui:19
 msgid "_Help"
@@ -597,7 +597,7 @@ msgstr "अध्याय मेन्यू ( C)"
 
 #: data/totem.ui:170
 msgid "Speed"
-msgstr ""
+msgstr "गति"
 
 #: data/uri.ui:14
 msgid "Enter the _address of the file you would like to open:"
@@ -719,40 +719,44 @@ msgstr ""
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:255
 #, c-format
 msgid "_Find in %s"
-msgstr ""
+msgstr "%s में खोजें"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:256
 #, c-format
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "फ़ाइल चलाने के लिए %s आवश्यक है, लेकिन यह स्थापित नहीं है."
+msgstr[1] "फ़ाइल चलाने के लिए %s  आवश्यक है, लेकिन ये स्थापित नहीं हैं."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"वर्तमान में वीडियो में फ़ाइल प्रकार असमर्थित है. वीडियो प्लेयर. हालांकि, आप इसे चलाने के "
+"लिए VLC मीडिया प्लेयर का उपयोग कर सकते हैं."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 #, fuzzy
 msgid "Open with VLC"
-msgstr "\"%s\" के साथ खोलें (_O)"
+msgstr "VLC से खोलें"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"वर्तमान में वीडियो में फ़ाइल प्रकार असमर्थित है. हालांकि, आप इसे चलाने के लिए ऐप्लिकेशन केंद्र "
+"से VLC मीडिया प्लेयर का उपयोग कर सकते हैं."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "VLC प्राप्त करें"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 #, fuzzy
 msgid "Unable to play the file"
-msgstr "CMML फ़ाइल की की व्याख्या करने में असफल"
+msgstr "फ़ाइल चलाने में असमर्थ"
 
 #. hour:minutes:seconds
 #. Translators: This is a time format, like "-9:05:02" for 9
@@ -1089,7 +1093,7 @@ msgstr "पसंदीदा में जोड़ें"
 #, fuzzy
 msgctxt "button"
 msgid "Play"
-msgstr "बजाएँ"
+msgstr "चलाएँ"
 
 #: src/totemselectiontoolbar.ui:60 src/totemselectiontoolbar.ui:63
 msgid "Shuffle"
@@ -1465,7 +1469,7 @@ msgstr "मूवी विशेषता मेन्यू मद जोड�
 #: src/plugins/properties/totem-movie-properties.c:152
 #, c-format
 msgid "%d × %d"
-msgstr ""
+msgstr "%d × %d"
 
 #: src/plugins/properties/totem-movie-properties.c:155
 #: src/plugins/properties/totem-movie-properties.c:166
@@ -1910,7 +1914,7 @@ msgstr "छोड़ें इसमें (_S)…"
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:63
 msgctxt "playback rate"
 msgid "× 0.75"
-msgstr ""
+msgstr "0.75 गुना"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:64
 #, fuzzy
@@ -1921,35 +1925,35 @@ msgstr "सामान्य"
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:65
 msgctxt "playback rate"
 msgid "× 1.1"
-msgstr ""
+msgstr "1.1 गुना"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:66
 msgctxt "playback rate"
 msgid "× 1.25"
-msgstr ""
+msgstr "1.25 गुना"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:67
 msgctxt "playback rate"
 msgid "× 1.5"
-msgstr ""
+msgstr "1.5 गुना"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:68
 msgctxt "playback rate"
 msgid "× 1.75"
-msgstr ""
+msgstr "1.75 गुना"
 
 #: src/plugins/variable-rate/totem-variable-rate-plugin.c:76
 #, fuzzy, c-format
 msgid "Speed: %s"
-msgstr "घराना: %s"
+msgstr "गति: %s"
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:6
 msgid "Variable Rate"
-msgstr ""
+msgstr "परिवर्तनीय दर"
 
 #: src/plugins/variable-rate/variable-rate.plugin.desktop.in:7
 msgid "Provides the variable rate menu item"
-msgstr ""
+msgstr "परिवर्तनीय दर मेनू आइटम प्रदान करता है"
 
 #: src/plugins/vimeo/vimeo.plugin.desktop.in:6
 msgid "Vimeo"
@@ -1962,7 +1966,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Video thumbnailer for the file manager"
 #~ msgstr "फाइल प्रबंधक के लिए वीडियो थंबनेलर"
 
-#~| msgid "Movie Properties"
 #~ msgid "Files properties tab"
 #~ msgstr "फ़ाइल गुण टैब"
 
@@ -2034,7 +2037,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Go to the chapter in the movie"
 #~ msgstr "मूवी में अध्याय पर जाएँ"
 
-#~| msgid "Add Chapter"
 #~ msgid "Add Chapter…"
 #~ msgstr "अध्याय जोड़ें…"
 
@@ -2050,7 +2052,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "No chapter data"
 #~ msgstr "कोई अध्याय डेटा नहीं "
 
-#~| msgid "Load Chapters..."
 #~ msgid "Load Chapters…"
 #~ msgstr "अध्याय लोड करें..."
 
@@ -2138,7 +2139,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Keep the main window on top when playing a movie"
 #~ msgstr "क्या मुख्य विंडो को शीर्ष पर रहना चाहिए जब मूवी चला रहा हो"
 
-#~| msgid "Configure Plugins"
 #~ msgid "Zeitgeist Plugin"
 #~ msgstr "जेटगीइस्ट प्लगइन"
 
@@ -2260,11 +2260,9 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "_Resize the window when a new video is loaded"
 #~ msgstr "नये वीडियो के लोड होने पर विंडो को नया आकार दें (_R)"
 
-#~| msgid "Disable screensaver when playing "
 #~ msgid "Disable screensaver when playing"
 #~ msgstr "बजाने के दौरान स्क्रीनसेवर को निष्क्रिय करें"
 
-#~| msgid "Video"
 #~ msgctxt "Screensaver disable"
 #~ msgid "Video"
 #~ msgstr "वीडियो"
@@ -2284,7 +2282,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Visualization _size:"
 #~ msgstr "विज़ुअलाइज़ेशन आकार :"
 
-#~| msgid "Open _Location..."
 #~ msgid "Open _Location"
 #~ msgstr "स्थान खोलें (_L)"
 
@@ -2321,21 +2318,18 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Fit Window to Movie"
 #~ msgstr "विंडो को मूवी में फिट करें"
 
-#~| msgid "_Resize 1:2"
 #~ msgid "_Resize 1∶2"
 #~ msgstr "आकार बदलें १:२ (_R)"
 
 #~ msgid "Resize to half the original video size"
 #~ msgstr "मूल वीडियो आकार से आधा करें"
 
-#~| msgid "Resize _1:1"
 #~ msgid "Resize _1∶1"
 #~ msgstr "आकार बदलें _1:1"
 
 #~ msgid "Resize to the original video size"
 #~ msgstr "मूल वीडियो आकार में फिर आकार दें"
 
-#~| msgid "Resize _2:1"
 #~ msgid "Resize _2∶1"
 #~ msgstr "आकार बदलें _२:1"
 
@@ -2411,15 +2405,12 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Sets square aspect ratio"
 #~ msgstr "वर्ग अनुपात पहलु सेट करें"
 
-#~| msgid "Sets 4:3 (TV) aspect ratio"
 #~ msgid "Sets 4∶3 (TV) aspect ratio"
 #~ msgstr "पहलू अनुपात 4:3 (TV) को सेट करता है "
 
-#~| msgid "Sets 16:9 (widescreen) aspect ratio"
 #~ msgid "Sets 16∶9 (widescreen) aspect ratio"
 #~ msgstr "16:9 (वाइडस्क्रीन) पहलू अनुपात को सेट करता है "
 
-#~| msgid "Sets 2.11:1 (DVB) aspect ratio"
 #~ msgid "Sets 2.11∶1 (DVB) aspect ratio"
 #~ msgstr "पहलू अनुपात 2.11:1 (DVB) को सेट करता है "
 
@@ -2623,7 +2614,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "%s, %s"
 #~ msgstr "%s, %s"
 
-#~| msgid "%s, %d %%"
 #~ msgid "%s, %f %%"
 #~ msgstr "%s, %f %%"
 
@@ -2657,11 +2647,9 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Grilo Browser"
 #~ msgstr "Grilo ब्राउज़र"
 
-#~| msgid "A plugin to let you browse media content from various sources."
 #~ msgid "A plugin to let you browse media content from various sources"
 #~ msgstr "विभिन्न स्रोतों से मीडिया सामग्री को ब्राउज़ करने के लिए एक प्लगइन. "
 
-#~| msgid "_Copy Location"
 #~ msgid "Copy Location"
 #~ msgstr "नक़ल स्थान"
 
@@ -2787,7 +2775,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Unknown video"
 #~ msgstr "अज्ञात वीडियो"
 
-#~| msgid "Play Disc '%s'"
 #~ msgid "Play Image '%s'"
 #~ msgstr "'%s' बिंब सहेजें"
 
@@ -2917,7 +2904,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ "Stream BBC programs from the last 7 days from the BBC iPlayer service."
 #~ msgstr "BBC प्रोग्राम को अंतिम 7 दिनों से BBC iPlayer सेवा से स्ट्रीम करें."
 
-#~| msgid "Error Listing Channel Categories"
 #~ msgid "Error listing channel categories"
 #~ msgstr "चैनल श्रेणियाँ के सूचीकरण में त्रुटि"
 
@@ -2932,9 +2918,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Error getting programme feed"
 #~ msgstr "प्रोग्राम फीड पाने में त्रुटि"
 
-#~| msgid ""
-#~| "There was an unknown error getting the list of programmes for this "
-#~| "channel and category combination."
 #~ msgid ""
 #~ "There was an error getting the list of programmes for this channel and "
 #~ "category combination."
@@ -2983,11 +2966,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgid "Service _Name:"
 #~ msgstr "सेवा नाम (_N):"
 
-#~| msgid ""
-#~| "<small>The name used for announcing the playlist service on the "
-#~| "network.\n"
-#~| "All occurrences of the string <b>%u</b> will be replaced by your name,\n"
-#~| "and <b>%h</b> will be replaced by your computer's host name.</small>"
 #~ msgid ""
 #~ "The name used for announcing the playlist service on the network.\n"
 #~ "All occurrences of the string <b>%u</b> will be replaced by your name,\n"
@@ -3177,7 +3155,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgstr "नवीनतम रिलीज"
 
 #, fuzzy
-#~| msgid "Number of albums to _retrieve"
 #~ msgid "Number of albums to _retrieve:"
 #~ msgstr "पुनर्प्राप्त करने के लिए एल्बम की संख्या (_r)"
 
@@ -3185,7 +3162,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgstr "लोकप्रिय"
 
 #, fuzzy
-#~| msgid "Preferred audio _format"
 #~ msgid "Preferred audio _format:"
 #~ msgstr "वरीय ध्वनि प्रारूप (_f)"
 
@@ -3262,7 +3238,6 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgstr "MythTV LiveTV"
 
 #, fuzzy
-#~| msgid "_Languages"
 #~ msgid "Language"
 #~ msgstr "भाषायें"
 
@@ -3270,12 +3245,10 @@ msgstr "वीमियो साइट के लिए उपयोगकर�
 #~ msgstr "मूवी उपशीर्षक डाउनलोड मत करें (_D)..."
 
 #, fuzzy
-#~| msgid "Could not get metadata for file %s: %s"
 #~ msgid "Could not get name and thumbnail for %s: %s"
 #~ msgstr "%s फाइल के लिए मेटाडेटा नहीं पा सका: %s"
 
 #, fuzzy
-#~| msgid "Could not connect to the Galago daemon."
 #~ msgid "Could not connect to Tracker"
 #~ msgstr "गैलागो डेमॉन में जुड़ नहीं सका."
 

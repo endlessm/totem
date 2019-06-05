@@ -51,7 +51,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 13:45+0000\n"
+"POT-Creation-Date: 2019-06-05 14:09+0000\n"
 "PO-Revision-Date: 2019-02-21 23:44+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -60,8 +60,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2012-08-31 06:01+0000\n"
 "X-Generator: Gtranslator 3.30.1\n"
+"X-Launchpad-Export-Date: 2012-08-31 06:01+0000\n"
 
 #: data/appdata/org.gnome.Totem.appdata.xml.in:6
 #: data/org.gnome.Totem.desktop.in.in:3 src/totem.c:66 src/totem.c:72
@@ -685,6 +685,10 @@ msgstr[0] ""
 "Bu filmin oynatılması için, kurulu olmayan şu eklenti(ler) gerekmektedir:\n"
 "\n"
 "%s"
+msgstr[1] ""
+"Bu filmin oynatılması için, kurulu olmayan şu eklenti(ler) gerekmektedir:\n"
+"\n"
+"%s"
 
 #: src/backend/bacon-video-widget.c:3997
 msgid ""
@@ -739,27 +743,32 @@ msgstr "%s’de _Bul"
 msgid "%s is required to play the file, but is not installed."
 msgid_plural "%s are required to play the file, but are not installed."
 msgstr[0] "Dosyayı yürütmek için gereken %s kurulu değil."
+msgstr[1] "Dosyayı yürütmek için gereken %s kurulu değil."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:268
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player to play it."
 msgstr ""
+"Bu dosya türü şu anda Videolar'da desteklenmiyor. Ancak, oynatmak için VLC "
+"media player kullanabilirsiniz."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:271
 #, fuzzy
 msgid "Open with VLC"
-msgstr "\"%s\" _ile aç"
+msgstr "VLC ile aç"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:278
 msgid ""
 "This file type is currently unsupported in Videos. However, you can use VLC "
 "media player from the App Center to play it."
 msgstr ""
+"Bu dosya türü şu anda Videolar'da desteklenmiyor. Ancak, oynatmak için "
+"Uygulama Merkezi'nden VLC media player kullanabilirsiniz."
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:281
 msgid "Get VLC"
-msgstr ""
+msgstr "VLC'yi al"
 
 #: src/backend/bacon-video-widget-gst-missing-plugins.c:340
 msgid "Unable to play the file"
@@ -906,6 +915,7 @@ msgstr "Seçmek için ögelere tıkla"
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d seçildi"
+msgstr[1] "%d seçildi"
 
 #: src/totem-main-toolbar.c:157
 #, c-format
@@ -1638,18 +1648,21 @@ msgstr "0 Kanal"
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d saat"
+msgstr[1] "%d saat"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:157
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d dakika"
+msgstr[1] "%d dakika"
 
 #: src/plugins/properties/bacon-video-widget-properties.c:160
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d saniye"
+msgstr[1] "%d saniye"
 
 #. 5 hours 2 minutes 12 seconds
 #: src/plugins/properties/bacon-video-widget-properties.c:166
@@ -1884,6 +1897,7 @@ msgstr "_Atla:"
 msgid "second"
 msgid_plural "seconds"
 msgstr[0] "saniye"
+msgstr[1] "saniye"
 
 #. Fix the label width at the maximum necessary for the plural labels, to prevent it changing size when we change the spinner value
 #. Translators: you should translate this string to a number (written in digits) which corresponds to the longer character length of the
@@ -1981,6 +1995,7 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgid "%d frame per second"
 #~ msgid_plural "%d frames per second"
 #~ msgstr[0] "saniyede %d çerçeve"
+#~ msgstr[1] "saniyede %d çerçeve"
 
 #~ msgid "Audio/Video"
 #~ msgstr "Ses/Video"
@@ -2019,7 +2034,6 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgid "Plugins..."
 #~ msgstr "Eklentiler..."
 
-#~| msgid "Preferences"
 #~ msgctxt "shortcut window"
 #~ msgid "Preferences"
 #~ msgstr "Tercihler"
@@ -2236,11 +2250,9 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgid "Totem Preferences"
 #~ msgstr "Totem Özellikler"
 
-#~| msgid "Disable screensaver when playing "
 #~ msgid "Disable screensaver when playing"
 #~ msgstr "Oynatma sırasında ekran koruyucuyu devre dışı bırak"
 
-#~| msgid "Video"
 #~ msgctxt "Screensaver disable"
 #~ msgid "Video"
 #~ msgstr "Video"
@@ -2261,7 +2273,6 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgstr "Görsel canlandırma _boyutu:"
 
 #, fuzzy
-#~| msgid "Open _Location..."
 #~ msgid "Open _Location"
 #~ msgstr "Konum _Aç..."
 
@@ -2362,17 +2373,14 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgstr "Görüntü oranını kare olarak ayarlar"
 
 #, fuzzy
-#~| msgid "Sets 4:3 (TV) aspect ratio"
 #~ msgid "Sets 4∶3 (TV) aspect ratio"
 #~ msgstr "Görüntü orarnını 4:3 (TV) olarak ayarlar"
 
 #, fuzzy
-#~| msgid "Sets 16:9 (widescreen) aspect ratio"
 #~ msgid "Sets 16∶9 (widescreen) aspect ratio"
 #~ msgstr "En boy oranını 16:9 (geniş ekran) olarak ayarlar"
 
 #, fuzzy
-#~| msgid "Sets 2.11:1 (DVB) aspect ratio"
 #~ msgid "Sets 2.11∶1 (DVB) aspect ratio"
 #~ msgstr "Görüntü oranını 2.11:1 (DVB) olarak ayarlar"
 
@@ -2538,7 +2546,6 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgstr "%s, %s"
 
 #, fuzzy
-#~| msgid "%s, %d %%"
 #~ msgid "%s, %f %%"
 #~ msgstr "%s, %% %d"
 
@@ -2567,7 +2574,6 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgstr "Grilo Tarayıcısı"
 
 #, fuzzy
-#~| msgid "A plugin to let you browse media content from various sources."
 #~ msgid "A plugin to let you browse media content from various sources"
 #~ msgstr ""
 #~ "Çeşitli kaynaklardan ortam içeriğine gözatmanızı sağlayan bir eklenti."
@@ -2716,7 +2722,6 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgid "Connection _speed:"
 #~ msgstr "Bağlantı _hızı:"
 
-#~| msgid "Automatically _resize the window when a new video is loaded"
 #~ msgid "_Resize the window when a new video is loaded"
 #~ msgstr "Y_eni video yüklendiğinde pencereyi yeniden boyutlandır"
 
@@ -2932,7 +2937,6 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ "Stream BBC programs from the last 7 days from the BBC iPlayer service."
 #~ msgstr "7 günün BBC programlarını BBC iPlayer hizmetinden akış olarak al."
 
-#~| msgid "Error Listing Channel Categories"
 #~ msgid "Error listing channel categories"
 #~ msgstr "Kanal kategorileri listelenirken hata oluştu"
 
@@ -2949,9 +2953,6 @@ msgstr "Vimeo sitesi için tarayıcı kimliğini ayarlar"
 #~ msgid "Error getting programme feed"
 #~ msgstr "Programı beslemesi alınırken hata"
 
-#~| msgid ""
-#~| "There was an unknown error getting the list of programmes for this "
-#~| "channel and category combination."
 #~ msgid ""
 #~ "There was an error getting the list of programmes for this channel and "
 #~ "category combination."
