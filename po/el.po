@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: totem\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-05 14:09+0000\n"
+"POT-Creation-Date: 2020-02-24 15:25+0000\n"
 "PO-Revision-Date: 2016-11-18 06:11+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>, 2019\n"
 "Language-Team: Greek (https://www.transifex.com/endless-os/teams/9016/el/)\n"
@@ -61,12 +61,6 @@ msgstr ""
 msgid "Video;Movie;Film;Clip;Series;Player;DVD;TV;Disc;"
 msgstr ""
 "Βίντεο;Ταινία;Φιλμ;Clip;Σειρά;Αναπαραγωγέας;DVD;Τηλεόραση;Δίσκος;Video;Movie;Film;Series;Player;DVD;TV;Disc;"
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
-#: data/org.gnome.Totem.desktop.in.in:9
-msgid "org.gnome.Totem"
-msgstr "org.gnome.Totem"
 
 #: data/org.gnome.totem.gschema.xml.in:6
 msgid "The brightness of the video"
